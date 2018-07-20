@@ -1,0 +1,1553 @@
+<Type Name="RuleConditionsClass" FullName="Microsoft.Office.Interop.Outlook.RuleConditionsClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99c059f166b8546323a6d859ff3a124c9c190441" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630152" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class RuleConditionsClass : Microsoft.Office.Interop.Outlook.RuleConditions, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi RuleConditionsClass extends System.Object implements class Microsoft.Office.Interop.Outlook._RuleConditions, class Microsoft.Office.Interop.Outlook.RuleConditions, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleConditionsClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class RuleConditionsClass&#xA;Implements IEnumerable, RuleConditions" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleConditionsClass : Microsoft::Office::Interop::Outlook::RuleConditions, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.RuleConditions</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000610D8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a7c49-101">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a7c49-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="a7c49-102">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a7c49-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="a7c49-103">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a7c49-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="a7c49-104">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a7c49-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Account">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AccountRuleCondition Account { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AccountRuleCondition Account" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Account" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Account As AccountRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AccountRuleCondition ^ Account { Microsoft::Office::Interop::Outlook::AccountRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Account</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64209)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AccountRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-105">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-106">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-107">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-108">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnyCategory">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition AnyCategory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition AnyCategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.AnyCategory" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AnyCategory As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ AnyCategory { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.AnyCategory</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64531)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64531)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-109">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-110">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-111">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-112">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-113">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-114">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-115">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-116">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.TextRuleCondition Body { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TextRuleCondition Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Body As TextRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::TextRuleCondition ^ Body { Microsoft::Office::Interop::Outlook::TextRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Body</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64328)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64328)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-117">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-118">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-119">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-120">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BodyOrSubject">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.TextRuleCondition BodyOrSubject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TextRuleCondition BodyOrSubject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.BodyOrSubject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property BodyOrSubject As TextRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::TextRuleCondition ^ BodyOrSubject { Microsoft::Office::Interop::Outlook::TextRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.BodyOrSubject</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64329)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64329)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-121">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-122">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-123">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-124">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.CategoryRuleCondition Category { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.CategoryRuleCondition Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Category" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Category As CategoryRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::CategoryRuleCondition ^ Category { Microsoft::Office::Interop::Outlook::CategoryRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Category</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64330)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64330)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.CategoryRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-125">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-126">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-127">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-128">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CC">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition CC { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition CC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.CC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CC As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ CC { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.CC</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64300)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-129">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-130">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-131">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-132">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-133">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-134">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-135">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-136">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-137">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-138">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-139">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-140">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormName">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.FormNameRuleCondition FormName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.FormNameRuleCondition FormName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.FormName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FormName As FormNameRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::FormNameRuleCondition ^ FormName { Microsoft::Office::Interop::Outlook::FormNameRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.FormName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64331)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64331)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FormNameRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-141">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-142">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-143">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-144">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="From">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition From { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition From" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.From" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property From As ToOrFromRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ToOrFromRuleCondition ^ From { Microsoft::Office::Interop::Outlook::ToOrFromRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.From</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64332)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64332)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-145">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-146">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-147">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-148">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAnyRSSFeed">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition FromAnyRSSFeed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition FromAnyRSSFeed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.FromAnyRSSFeed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FromAnyRSSFeed As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ FromAnyRSSFeed { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.FromAnyRSSFeed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64534)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64534)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-149">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-150">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-151">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-152">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromRssFeed">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition FromRssFeed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition FromRssFeed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.FromRssFeed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property FromRssFeed As FromRssFeedRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::FromRssFeedRuleCondition ^ FromRssFeed { Microsoft::Office::Interop::Outlook::FromRssFeedRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.FromRssFeed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64535)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64535)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-153">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-154">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-155">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-156">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition HasAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition HasAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasAttachment As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ HasAttachment { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.HasAttachment</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64301)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-157">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-158">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-159">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-160">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ImportanceRuleCondition Importance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ImportanceRuleCondition Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Importance As ImportanceRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ImportanceRuleCondition ^ Importance { Microsoft::Office::Interop::Outlook::ImportanceRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Importance</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64299)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ImportanceRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-161">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-162">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-163">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-164">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(Index As Integer) As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ default[int] { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Item(System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>
+          <span data-ttu-id="a7c49-165">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-166">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-167">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-168">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingInviteOrUpdate">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition MeetingInviteOrUpdate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition MeetingInviteOrUpdate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.MeetingInviteOrUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MeetingInviteOrUpdate As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ MeetingInviteOrUpdate { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.MeetingInviteOrUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64302)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-169">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-170">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-171">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-172">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageHeader">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.TextRuleCondition MessageHeader { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TextRuleCondition MessageHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.MessageHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MessageHeader As TextRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::TextRuleCondition ^ MessageHeader { Microsoft::Office::Interop::Outlook::TextRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.MessageHeader</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64334)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64334)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-173">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-173">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-174">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-174">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-175">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-175">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-176">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-176">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotTo">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition NotTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition NotTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.NotTo" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NotTo As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ NotTo { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.NotTo</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64303)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-177">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-177">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-178">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-178">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-179">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-179">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-180">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-180">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLocalMachine">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition OnLocalMachine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition OnLocalMachine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.OnLocalMachine" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OnLocalMachine As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ OnLocalMachine { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.OnLocalMachine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64340)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64340)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-181">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-181">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-182">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-182">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-183">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-183">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-184">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-184">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlyToMe">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition OnlyToMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition OnlyToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.OnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OnlyToMe As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ OnlyToMe { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.OnlyToMe</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64304)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64304)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-185">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-185">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-186">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-186">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-187">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-187">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-188">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-188">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnOtherMachine">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition OnOtherMachine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition OnOtherMachine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.OnOtherMachine" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OnOtherMachine As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ OnOtherMachine { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.OnOtherMachine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64473)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64473)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-189">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-189">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-190">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-190">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-191">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-191">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-192">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-192">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-193">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-193">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-194">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-194">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-195">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-195">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-196">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-196">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientAddress">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AddressRuleCondition RecipientAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressRuleCondition RecipientAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.RecipientAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property RecipientAddress As AddressRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AddressRuleCondition ^ RecipientAddress { Microsoft::Office::Interop::Outlook::AddressRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.RecipientAddress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64338)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64338)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-197">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-197">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-198">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-198">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-199">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-199">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-200">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-200">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderAddress">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AddressRuleCondition SenderAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressRuleCondition SenderAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.SenderAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SenderAddress As AddressRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AddressRuleCondition ^ SenderAddress { Microsoft::Office::Interop::Outlook::AddressRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.SenderAddress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64335)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64335)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-201">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-201">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-202">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-202">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-203">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-203">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-204">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-204">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SenderInAddressList">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition SenderInAddressList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition SenderInAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.SenderInAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SenderInAddressList As SenderInAddressListRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::SenderInAddressListRuleCondition ^ SenderInAddressList { Microsoft::Office::Interop::Outlook::SenderInAddressListRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.SenderInAddressList</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64336)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64336)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-205">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-205">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-206">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-206">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-207">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-207">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-208">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-208">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentTo">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition SentTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition SentTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.SentTo" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SentTo As ToOrFromRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ToOrFromRuleCondition ^ SentTo { Microsoft::Office::Interop::Outlook::ToOrFromRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.SentTo</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64339)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64339)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-209">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-209">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-210">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-210">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-211">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-211">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-212">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-212">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-213">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-213">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-214">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-214">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-215">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-215">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-216">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-216">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.TextRuleCondition Subject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.TextRuleCondition Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Subject As TextRuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::TextRuleCondition ^ Subject { Microsoft::Office::Interop::Outlook::TextRuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.Subject</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64337)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64337)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-217">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-217">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-218">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-218">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-219">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-219">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-220">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-220">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToMe">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition ToMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition ToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.ToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ToMe As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ ToMe { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.ToMe</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64305)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64305)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-221">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-221">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-222">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-222">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-223">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-223">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-224">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-224">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToOrCc">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.RuleCondition ToOrCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleCondition ToOrCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RuleConditionsClass.ToOrCc" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ToOrCc As RuleCondition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::RuleCondition ^ ToOrCc { Microsoft::Office::Interop::Outlook::RuleCondition ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._RuleConditions.ToOrCc</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64306)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64306)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a7c49-225">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-225">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="a7c49-226">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-226">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="a7c49-227">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-227">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="a7c49-228">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a7c49-228">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,481 @@
+<Type Name="_Columns" FullName="Microsoft.Office.Interop.Outlook._Columns">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630171" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Columns implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Columns" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Columns&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Columns : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ace91-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ace91-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="ace91-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ace91-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="ace91-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ace91-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="ace91-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Columns" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ace91-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Columns" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Column Add (string Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Column Add([in]string Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Name As String) As Column" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Column ^ Add(System::String ^ Name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Column</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">
+          <span data-ttu-id="ace91-105">O nome da propriedade que está sendo adicionada como uma coluna.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-105">The name of the property that is being added as a column.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ace91-106">Adiciona o <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> especificações de HttpCachePolicy <paramref name="Name" /> para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto e redefine o <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-106">Adds the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> specified by <paramref name="Name" /> to the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="ace91-107">Um objeto <b>Column</b> que representa a nova coluna.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-107">A <b>Column</b> object that represents the new column.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="ace91-108">
+            <para>
+              <b>Columns. Add</b> adiciona a <b>coluna</b> especificada até o final da coleção <b>Columns</b> para a <b>tabela</b>e redefine a <b>tabela</b> movendo a linha atual para imediatamente antes da primeira linha da <b>tabela</b>. Se <b>Columns. Add</b> retornará um erro, não alterará a linha atual. </para>
+            <para>
+              <paramref name="Name" /> pode ser um nome de propriedade interna explícita ou o nome de uma propriedade referida por namespace. Ele deve ser referenciado como o nome na localidade inglês. Para obter mais informações sobre referenciando propriedades por namespace, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referenciando propriedades por Namespace</a></para>
+            <para>se você estiver adicionando uma propriedade que é uma propriedade interna explícita no modelo de objeto, por exemplo, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, você deve especificar <paramref name="Name" />como o nome da propriedade interna explícita em inglês.  Para determinados tipos de propriedades, o formato usado quando adicionar essas propriedades como colunas afeta como seus valores são expressos na <b>tabela</b>. Para obter mais informações sobre representação de valor de propriedade em uma <b>tabela</b>, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e Classes de modo a</a></para>
+            <para>se você estiver adicionando uma propriedade personalizada a uma <b>tabela</b>, fazendo referência a propriedade pelo namespace da cadeia de caracteres MAPI, você precisará acrescentar explicitamente o tipo da propriedade até o final da referência de propriedade. Por exemplo, para adicionar a propriedade personalizada MyCustomProperty, que tem o tipo de cadeia de caracteres Unicode, você precisará explicitamente acrescente o tipo 001f a referência, resultando em: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, onde {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} representa o namespace GUID.</para>
+            <para>Determinadas propriedades não podem ser adicionada a uma <b>tabela</b> usar <b>Columns. Add</b>, incluindo propriedades binárias, computado propriedades e conteúdo do corpo HTML ou RTF. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propriedades sem suporte em um objeto Table ou filtro Table</a></para>
+            <para>enquanto <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> pode ser usado para facilitar o armazenamento em cache determinadas propriedades para acesso extremamente rápido a essas propriedades de um <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto, alguns propriedades são impedidas de <b>SetColumns</b>. Desde que essas restrições não se aplicam ao <b>Columns. Add</b>, o objeto <b>Table</b> é uma alternativa menos restritiva que <b>itens</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-108">
+              <para>
+                <b>Columns.Add</b> adds the specified <b>Column</b> to the end of the <b>Columns</b> collection for the <b>Table</b>, and resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. If <b>Columns.Add</b> returns an error, it will not change the current row. </para>
+              <para>
+                <paramref name="Name" /> can be an explicit built-in property name, or a property name referenced by namespace. It must be referenced as the name in the English locale. For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
+              <para>If you are adding a  property which is an explicit built-in property in the object model, for example, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, you must specify <paramref name="Name" /> as the explicit built-in property name in English.  For certain types of properties, the format used when adding these properties as columns affects how their values are expressed in the <b>Table</b>. For more information on property value representation in a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
+              <para>If you are adding a custom property to a <b>Table</b>, referencing the property by the MAPI string namespace, you will have to explicitly append the type of the property to the end of the property reference. For example, to add the custom property MyCustomProperty, which has the type Unicode string, you will have to explicitly append the type 001f to the  reference, resulting in: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, where {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} represents the namespace GUID.</para>
+              <para>Certain properties cannot be added to a <b>Table</b> using <b>Columns.Add</b>, including binary properties, computed properties, and HTML or RTF body content. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></para>
+              <para>While <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> can be used to facilitate caching certain properties for extremely fast access to those properties of an <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, some properties are restricted from <b>SetColumns</b>. Since these restrictions do not apply to <b>Columns.Add</b>, the <b>Table</b> object is a less restrictive alternative than <b>Items</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa o aplicativo pai (Outlook) para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
+          </span>
+          <span data-ttu-id="ace91-110">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-111">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeração indicando a classe do <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-111">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
+          </span>
+          <span data-ttu-id="ace91-112">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-113">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) representando o número de <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos na coleção.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-113">Returns an <b>Integer</b> (<b>int</b> in C#) value representing the number of <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objects in the collection.</span>
+          </span>
+          <span data-ttu-id="ace91-114">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Column this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Column Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Column" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Column ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::Column ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Column</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="ace91-115">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna do conjunto <b>Columns</b> ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> da <b>coluna</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-115">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ace91-116">Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objeto especificado por <paramref name="Index" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-116">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" />.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ace91-117">Um objeto <b>Column</b> que representa a correspondência de coluna a <paramref name="Index" /> no <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-117">A <b>Column</b> object that represents the column matching the <paramref name="Index" /> in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          </span>
+          <span data-ttu-id="ace91-118">Retorna o erro, "Índice de matriz fora dos limites" se <paramref name="Index" /> é um inteiro longo inválido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-118">Returns the error, "Array index out of bounds" if <paramref name="Index" /> is an invalid Long integer.</span>
+          </span>
+          <span data-ttu-id="ace91-119">Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se <paramref name="Index" /> é uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa um nome de coluna que não pode ser encontrado na <b>tabela</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-119">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <paramref name="Index" /> is a <b>String</b> (<b>string</b> in C#) representing a column name that cannot be found in the <b>Table</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-120">Retorna o objeto pai do <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-120">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> object.</span>
+          </span>
+          <span data-ttu-id="ace91-121">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="ace91-122">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna do conjunto <b>Columns</b> ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> da <b>coluna</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-122">A 1-based index value that can be either an <b>Integer</b> (<b>int</b> in C#) value representing the column index for the <b>Columns</b> collection or a <b>String</b> (<b>string</b> in C#) representing the <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> of the <b>Column</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ace91-123">Remove o <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objeto especificado por <paramref name="Index" /> e redefine o <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-123">Removes the <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> object specified by <paramref name="Index" /> and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ace91-124">
+            <para>O método <b>Remove</b> redefine a <b>tabela</b> movendo a linha atual para imediatamente antes da primeira linha da <b>tabela</b>. Se, no entanto, uma inválida <paramref name="Index" /> tiver sido especificado, e em seguida, ele não remover qualquer coluna ou redefinir a <b>tabela</b>.</para>
+            <para>Retornará uma mensagem de erro se uma inválida <paramref name="Index" /> foi especificado.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-124">
+              <para>The <b>Remove</b> method resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. If, however, an invalid <paramref name="Index" /> has been specified, then it will not remove any column or reset the <b>Table</b>.</para>
+              <para>Returns an error message if an invalid <paramref name="Index" /> has been specified.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAll">
+      <MemberSignature Language="C#" Value="public void RemoveAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(83)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-125">Remove todas as colunas da <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto e redefine o <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-125">Removes all the columns from the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection and resets the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="ace91-126">
+            <para>
+              <b>RemoveAll</b> redefine a <b>tabela</b> movendo a linha atual para imediatamente antes da primeira linha da <b>tabela</b>. Após uma chamada para <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> se torna zero (0).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-126">
+              <para>
+                <b>RemoveAll</b> resets the <b>Table</b> by moving the current row to just before the first row of the <b>Table</b>. After a call to <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> becomes zero (0). </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Columns.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ace91-127">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
+          </span>
+          <span data-ttu-id="ace91-128">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-128">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="ace91-129">
+            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ace91-129">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

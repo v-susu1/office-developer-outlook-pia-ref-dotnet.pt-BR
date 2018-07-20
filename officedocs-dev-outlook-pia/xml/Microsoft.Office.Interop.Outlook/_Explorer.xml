@@ -1,0 +1,2038 @@
+<Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629536" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Explorer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063003-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="668a2-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="668a2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="668a2-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="668a2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="668a2-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="668a2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="668a2-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="668a2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccountSelector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AccountSelector AccountSelector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AccountSelector AccountSelector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AccountSelector As AccountSelector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AccountSelector ^ AccountSelector { Microsoft::Office::Interop::Outlook::AccountSelector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64625)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64625)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AccountSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object que representa o modo de exibição Backstage do Microsoft Office para o <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span>
+          </span>
+          <span data-ttu-id="668a2-106">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8467)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-107">Ativa a janela de um Explorer, trazendo-a para o primeiro plano e definindo o foco do teclado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveInlineResponse">
+      <MemberSignature Language="C#" Value="public object ActiveInlineResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ActiveInlineResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.ActiveInlineResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveInlineResponse As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ActiveInlineResponse { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64659)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64659)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-108">Retorna um objeto de item que representa o item de resposta ativo embutidas no painel de leitura explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-108">Returns an item object representing the active inline response item in the explorer reading pane.</span>
+          </span>
+          <span data-ttu-id="668a2-109">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-110">
+            <para>Você pode usar a maioria das propriedades e métodos do <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto neste item. Você não pode usar os seguintes métodos:</para>
+            <list type="bullet">
+              <item>
+                <para>
+                  <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> propriedade</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> método </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> método</para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> método</para>
+              </item>
+            </list>
+            <para>essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-110">
+              <para>You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item. You cannot use the following methods:</para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</para>
+                </item>
+              </list>
+              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveInlineResponseWordEditor">
+      <MemberSignature Language="C#" Value="public object ActiveInlineResponseWordEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ActiveInlineResponseWordEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.ActiveInlineResponseWordEditor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveInlineResponseWordEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ActiveInlineResponseWordEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64660)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64660)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-111">Retorna a palavra <see cref="T:Microsoft.Office.Interop.Word.Document" /> objeto da resposta embutida ativa que é exibido no painel de leitura do explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-111">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span>
+          </span>
+          <span data-ttu-id="668a2-112">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-113">
+            <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura. O objeto retornado de <b>documento</b> do Word fornece acesso a maior parte do modelo de objeto do Word, exceto os membros a seguir:</para>
+            <list type="bullet">
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
+                </para>
+              </item>
+              <item>
+                <para>
+                  <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
+                </para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-113">
+              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane. The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</para>
+              <list type="bullet">
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
+                  </para>
+                </item>
+                <item>
+                  <para>
+                    <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
+                  </para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddToSelection">
+      <MemberSignature Language="C#" Value="public void AddToSelection (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddToSelection([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.AddToSelection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddToSelection (Item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddToSelection(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64566)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">
+          <span data-ttu-id="668a2-114">O item que será adicionado à seleção do Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-114">The item to add to the selection in the active explorer.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-115">Adiciona o item especificado Microsoft Outlook à seleção do Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-115">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-116">
+            <para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
+            <para>a serem selecionados, o item deve ser selecionável na exibição atual do explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível no modo de exibição. </para>
+            <para>Sob as seguintes condições, o Outlook retornará um erro quando você chama o método <b>AddToSelection</b> :</para>
+            <list type="bullet">
+              <item>
+                <para>o item especificado não está no modo de exibição atual do explorer ativo.</para>
+              </item>
+              <item>
+                <para>o item especificado está sendo editado na exibição atual do explorer ativo.</para>
+              </item>
+              <item>
+                <para>o modo de exibição atual foi filtrado e o aplicativo do filtro removeu o item do modo de exibição.</para>
+              </item>
+              <item>
+                <para>o item especificado não foi salvo.</para>
+              </item>
+              <item>
+                <para>o item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              </item>
+              <item>
+                <para>Não existe exibição atual para o explorer ativo.</para>
+              </item>
+            </list>
+            <para>Se o item não está selecionado e for selecionável na exibição atual, chamar <b>AddToSelection</b> causas o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento seja acionado.</para>
+            <para>De chamada de <b>AddToSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para>
+            <para>a tabela a seguir ilustra os resultados de chamar <b>AddToSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade) e se o painel de leitura é exibido.</para>
+            <list type="table">
+              <item>
+                <description>0</description>
+                <description>Sim</description>
+                <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado. Painel de leitura exibe o item.</description>
+              </item>
+              <item>
+                <description>0</description>
+                <description>não</description>
+                <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado.</description>
+              </item>
+              <item>
+                <description> &gt;= 1</description>
+                <description>Sim</description>
+                <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado. Ler o painel não altera o item que exibir, a menos que o modo de exibição é um modo de exibição de calendário, nesse caso, chamar <b>AddToSelection</b> pode fazer com que o painel de leitura exiba outro item.</description>
+              </item>
+              <item>
+                <description> &gt;= 1</description>
+                <description>não</description>
+                <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado.</description>
+              </item>
+            </list>
+            <para>Se o item especificado já está selecionado no explorer ativo, chamar <b>AddToSelection</b> não resultará em nenhuma alteração na seleção e o evento <b>SelectionChange</b> não é acionado.</para>
+            <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento ao método <b>AddToSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você passar uma variável de instância que representa as séries de compromisso ou uma tarefa e o método <b>AddToSelection</b> opera em série, em vez da ocorrência. </para>
+            <para>Nota que você pode usar <b>AddToSelection</b> para adicionar itens a uma seleção, mas você não pode adicionar cabeçalhos de conversas a uma seleção.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-116">
+              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
+              <para>To be selected, the item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
+              <para>Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</para>
+              <list type="bullet">
+                <item>
+                  <para>The specified item is not in the current view of the active explorer.</para>
+                </item>
+                <item>
+                  <para>The specified item is being edited in the current view of the active explorer.</para>
+                </item>
+                <item>
+                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
+                </item>
+                <item>
+                  <para>The specified item has not been saved.</para>
+                </item>
+                <item>
+                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
+                </item>
+                <item>
+                  <para>No current view exists for the active explorer.</para>
+                </item>
+              </list>
+              <para>If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</para>
+              <para>Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
+              <para>The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</para>
+              <list type="table">
+                <item>
+                  <description>0</description>
+                  <description>Yes</description>
+                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</description>
+                </item>
+                <item>
+                  <description>0</description>
+                  <description>No</description>
+                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
+                </item>
+                <item>
+                  <description>&gt;=1</description>
+                  <description>Yes</description>
+                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</description>
+                </item>
+                <item>
+                  <description>&gt;=1</description>
+                  <description>No</description>
+                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
+                </item>
+              </list>
+              <para>If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
+              <para>When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence. </para>
+              <para>Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-117">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="668a2-118">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-118">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.AttachmentSelection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AttachmentSelection As AttachmentSelection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AttachmentSelection ^ AttachmentSelection { Microsoft::Office::Interop::Outlook::AttachmentSelection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-119">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto consiste em um ou mais anexos selecionados no modo de exibição atual do explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span>
+          </span>
+          <span data-ttu-id="668a2-120">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-120">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-121">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o título.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-121">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span>
+          </span>
+          <span data-ttu-id="668a2-122">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-123">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="668a2-124">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearSearch">
+      <MemberSignature Language="C#" Value="public void ClearSearch ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearSearch() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.ClearSearch" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearSearch ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearSearch();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64461)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-125">Limpa os resultados de pesquisa instantânea da Microsoft em uma <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> se os resultados são exibidos no <b>Explorer</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-125">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-126">
+            <para>a funcionalidade deste método é semelhante ao botão Limpar na pesquisa instantânea.   </para>
+            <para>Se nenhum resultado de pesquisa é exibido no Explorer, <b>ClearSearch</b> não terão qualquer ação. Se o modo de exibição atual do <b>Explorer</b> não apresentar um modo de exibição de pesquisa, <b>ClearSearch</b> não irá gerar um erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-126">
+              <para>The functionality of this  method is analogous  to the Clear button in Instant Search.   </para>
+              <para>If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearSelection">
+      <MemberSignature Language="C#" Value="public void ClearSelection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearSelection() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.ClearSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearSelection ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearSelection();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64569)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-127">Cancela qualquer seleção do Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-127">Cancels any selection in the active explorer.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-128">
+            <para>Depois que o método <b>ClearSelection</b> é chamado, o <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> do objeto que o <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade retorna for zero. Então, o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado, a menos que antes da chamada de <b>ClearSelection</b>, a exibição atual não contiver nenhum item, a pasta atual estava vazia ou a propriedade <b>Count</b> já era zero. </para>
+            <para>Se o painel de leitura estiver visível e o modo de exibição atual é um modo de exibição de tabela, chamar <b>ClearSelection</b> processa o painel de leitura em branco.</para>
+            <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>ClearSelection</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b> .</para>
+            <para>
+              <b>ClearSelection</b> retorna um erro se o item está sendo editado na exibição atual.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-128">
+              <para>After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero. Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero. </para>
+              <para>If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</para>
+              <para>If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
+              <para>
+                <b>ClearSelection</b> returns an error if the item is being edited in the current view.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-129">Fecha o <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-129">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBars CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBars CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBars As CommandBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder CurrentFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MAPIFolder CurrentFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentFolder As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MAPIFolder ^ CurrentFolder { Microsoft::Office::Interop::Outlook::MAPIFolder ^ get(); void set(Microsoft::Office::Interop::Outlook::MAPIFolder ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-131">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta atual exibida no explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-131">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span>
+          </span>
+          <span data-ttu-id="668a2-132">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-132">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-133">
+            <para>Use essa propriedade para alterar a pasta em que o usuário está exibindo.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-133">
+              <para>Use this property to change the folder the user is viewing.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentView">
+      <MemberSignature Language="C#" Value="public object CurrentView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentView As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentView { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-134">Retorna ou define um <b>objeto</b> que representa o modo de exibição atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-134">Returns or sets an <b>Object</b> representing the current view.</span>
+          </span>
+          <span data-ttu-id="668a2-135">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-135">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-136">
+            <para>Para obter um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição do atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer. CurrentView</b> em vez do <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+            <para>Você deve salvar uma referência ao objeto <b>View</b> retornado por <b>CurrentView</b> , antes de prosseguir para usá-lo para qualquer fim.</para>
+            <para>Adequadamente redefinir o modo de exibição atual, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
+            <code>Sub ResetView()
+    Dim v as Outlook.View
+    ' Save a reference to the current view object
+    Set v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset
+    v.Apply
+End Sub</code>
+            <code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code>
+            <para>Quando essa propriedade estiver definida, dois eventos ocorrem: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> ocorre antes que a alteração do modo de exibição real acontece e pode ser usada para cancelar a alteração e <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> ocorre Depois que a alteração entrará em vigor.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-136">
+              <para>To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+              <para>You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</para>
+              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
+              <code>Sub ResetView()
+    Dim v as Outlook.View
+    ' Save a reference to the current view object
+    Set v = Application.ActiveExplorer().CurrentView
+    ' Reset and then apply the current view
+    v.Reset
+    v.Apply
+End Sub</code>
+              <code>private void ResetView()
+{
+    // Save a reference to the current view object    
+    Outlook.View v = Application.ActiveExplorer().CurrentView 
+        as Outlook.View; 
+    
+    // Reset and then apply the current view
+    v.Reset();
+    v.Apply();
+}</code>
+              <para>When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeselectFolder">
+      <MemberSignature Language="C#" Value="public void DeselectFolder (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeselectFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.DeselectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeselectFolder (Folder As MAPIFolder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeselectFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64178)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>
+          <span data-ttu-id="668a2-137">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-137">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Display();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8452)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-138">Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto para a pasta.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-138">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-139">
+            <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+            <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-139">
+              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
+              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-140">Retorna ou define um valor de <b>inteiro</b> (<b>int</b> em c#) especificando a altura (em pixels) da janela do explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-140">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span>
+          </span>
+          <span data-ttu-id="668a2-141">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-141">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLDocument">
+      <MemberSignature Language="C#" Value="public object HTMLDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HTMLDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.HTMLDocument" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HTMLDocument As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HTMLDocument { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64146)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-p112">Retorna um objeto <b>HTMLDocument</b> que especifica o modelo de objeto HTML associado ao documento HTML na exibição atual (assumindo que existe uma). Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-p112">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-144">
+            <para>Para usar essa propriedade, usando uma pasta uma home page de pasta, ou você pode definir o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto como uma página da Web.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-144">
+              <para>In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderSelected">
+      <MemberSignature Language="C#" Value="public bool IsFolderSelected (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsFolderSelected([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.IsFolderSelected(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsFolderSelected (Folder As MAPIFolder) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsFolderSelected(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>
+          <span data-ttu-id="668a2-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsItemSelectableInView">
+      <MemberSignature Language="C#" Value="public bool IsItemSelectableInView (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsItemSelectableInView([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsItemSelectableInView (Item As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsItemSelectableInView(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64565)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">
+          <span data-ttu-id="668a2-146">O item que está sendo considerado para seleção.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-146">The item that is being considered for selection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-147">Retorna um valor que indica se o item do Microsoft Outlook especificado pode ser selecionado na exibição atual do Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-147">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="668a2-148">Retorna um <see cref="T:System.Boolean" /> (<b>bool</b> para c#) valor que indica se o item especificado pode ser selecionado na exibição atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-148">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="668a2-149">
+            <para>Retorna <b>True</b> se o item pode ser selecionado na exibição atual; Caso contrário, retornará <b>False</b>. </para>
+            <para>o método retorna <b>verdadeiro</b> ou <b>Falso</b> , dependendo se o item é selecionável no modo de exibição. Ele não indica se o item está visível no modo de exibição. Se o item está contido dentro de um grupo recolhido no modo de exibição, o método retornará <b>False</b>. </para>
+            <para>Se edição na célula está ativada para o modo de exibição atual para o explorer ativo e a edição na célula estiver em andamento no item, o método retorna <b>False</b>. Se o modo de exibição atual for um modo de exibição de tabela, você pode verificar a edição na célula usando a <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Da mesma forma, se o modo de exibição atual for um modo de exibição de cartão, você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> objeto.</para>
+            <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como argumento para o método <b>IsItemSelectableInView</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa o compromisso ou série de tarefa e o método <b>IsItemSelectableInView</b> seria estar operando na série em vez do ocorrência. </para>
+            <para>o método <b>IsItemSelectableInView</b> evidencia um erro se o modo de exibição atual é um modo de exibição de conversa.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-149">
+              <para>Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </para>
+              <para>The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </para>
+              <para>If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>. If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object. Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</para>
+              <para>When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence. </para>
+              <para>The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPaneVisible">
+      <MemberSignature Language="C#" Value="public bool IsPaneVisible (Microsoft.Office.Interop.Outlook.OlPane Pane);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsPaneVisible([in]valuetype Microsoft.Office.Interop.Outlook.OlPane Pane) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsPaneVisible (Pane As OlPane) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsPaneVisible(Microsoft::Office::Interop::Outlook::OlPane Pane);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8707)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
+      </Parameters>
+      <Docs>
+        <param name="Pane">
+          <span data-ttu-id="668a2-150">O painel a ser verificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-150">The pane to check.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-151">Retorna um <b>Boolean</b> (<b>bool</b> em c#) indicando se um painel explorer específico está visível.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-151">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="668a2-152">
+            <b>True</b> se o painel especificado é exibido no explorer; Caso contrário, <b>False</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-152">
+              <b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="668a2-153">
+            <para>Você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para determinar se o painel atalhos está visível.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-153">
+              <para>You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-154">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) especificando a posição (em pixels) da borda esquerda vertical de uma janela do explorer da borda da tela.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-154">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span>
+          </span>
+          <span data-ttu-id="668a2-155">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-155">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationPane">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NavigationPane NavigationPane { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NavigationPane NavigationPane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.NavigationPane" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NavigationPane As NavigationPane" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NavigationPane ^ NavigationPane { Microsoft::Office::Interop::Outlook::NavigationPane ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64435)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64435)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-156">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object que representa o painel de navegação para um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
+          </span>
+          <span data-ttu-id="668a2-157">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-157">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-158">
+            <para>Alguns objetos <b>Explorer</b> talvez não tenha um objeto <b>NavigationPane</b> associado. Nesses casos, essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#)</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-158">
+              <para>Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object. In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Panes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Panes Panes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Panes Panes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Panes As Panes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Panes ^ Panes { Microsoft::Office::Interop::Outlook::Panes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8705)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8705)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Panes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-159">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Panes" /> objeto da coleção que representa os painéis exibidos pelo explorer especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-p115">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFromSelection">
+      <MemberSignature Language="C#" Value="public void RemoveFromSelection (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveFromSelection([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.RemoveFromSelection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveFromSelection (Item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveFromSelection(System::Object ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64567)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">
+          <span data-ttu-id="668a2-162">O item que será removido da seleção.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-162">The item to be removed from the selection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-163">Cancela a seleção do item do Microsoft Outlook especificado no Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-163">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-164">
+            <para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
+            <para>a ser removido, um item deve ser selecionável na exibição atual do explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível no modo de exibição. </para>
+            <para>Sob as seguintes condições, o Outlook retornará um erro quando você chama o método <b>RemoveFromSelection</b> :</para>
+            <list type="bullet">
+              <item>
+                <para>o item especificado não está no modo de exibição atual do explorer ativo.</para>
+              </item>
+              <item>
+                <para>o item especificado está sendo editado na exibição atual do explorer ativo.</para>
+              </item>
+              <item>
+                <para>o modo de exibição atual foi filtrado e o aplicativo do filtro removeu o item do modo de exibição.</para>
+              </item>
+              <item>
+                <para>o item especificado não foi salvo.</para>
+              </item>
+              <item>
+                <para>o item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              </item>
+              <item>
+                <para>a exibição atual seja uma exibição de conversa.</para>
+              </item>
+              <item>
+                <para>Não existe exibição atual para o explorer ativo.</para>
+              </item>
+            </list> Se o item é selecionado, chamar <b>RemoveFromSelection</b> causas de 
+          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento seja acionado. Se o item não estiver selecionado, a chamar <b>RemoveFromSelection</b> não fará com que o evento <b>SelectionChange</b> seja acionado.</para><para>Chamar <b>RemoveFromSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para> Tabela de 
+          <para>a seguir ilustra os resultados da chamada <b>RemoveFromSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade), se o painel de leitura é exibido e se o item especificado é exibido no Painel de leitura.</para><list type="table"><item><description>1</description><description>Sim</description><description>Sim</description><description>a seleção está desmarcada.<b> SelectionChange</b> é acionado. Painel de leitura está vazio.</description></item><item><description> &gt;1</description><description>Sim</description><description>não</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado. Painel de leitura não alterará.</description></item><item><description> &gt;1</description><description>Sim</description><description>Sim</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado. Painel de leitura exibe o item seguinte ou adjacente na seleção.</description></item><item><description> &gt;= 1</description><description>não</description><description>n/d</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado.</description></item></list><para>Se o item especificado existe na exibição atual, mas não estiver selecionado, em que o modo de exibição chamar <b>RemoveFromSelection</b> não resultará em nenhuma alteração na seleção e o evento <b>SelectionChange</b> não é acionado.</para><para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento ao método <b>RemoveFromSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa o compromisso ou série de tarefa e o método <b>RemoveFromSelection</b> seria estar operando na série em vez do ocorrência. </para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-164">
+              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
+              <para>To be removed, an item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
+              <para>Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</para>
+              <list type="bullet">
+                <item>
+                  <para>The specified item is not in the current view of the active explorer.</para>
+                </item>
+                <item>
+                  <para>The specified item is being edited in the current view of the active explorer.</para>
+                </item>
+                <item>
+                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
+                </item>
+                <item>
+                  <para>The specified item has not been saved.</para>
+                </item>
+                <item>
+                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
+                </item>
+                <item>
+                  <para>The current view is a conversation view.</para>
+                </item>
+                <item>
+                  <para>No current view exists for the active explorer.</para>
+                </item>
+              </list>
+              <para>If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire. If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</para>
+              <para>Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
+              <para>The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</para>
+              <list type="table">
+                <item>
+                  <description>1</description>
+                  <description>Yes</description>
+                  <description>Yes</description>
+                  <description>The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</description>
+                </item>
+                <item>
+                  <description>&gt;1</description>
+                  <description>Yes</description>
+                  <description>No</description>
+                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</description>
+                </item>
+                <item>
+                  <description>&gt;1</description>
+                  <description>Yes</description>
+                  <description>Yes</description>
+                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</description>
+                </item>
+                <item>
+                  <description>&gt;=1</description>
+                  <description>No</description>
+                  <description>N/A</description>
+                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.</description>
+                </item>
+              </list>
+              <para>If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
+              <para>When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Search">
+      <MemberSignature Language="C#" Value="public void Search (string Query, Microsoft.Office.Interop.Outlook.OlSearchScope SearchScope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Search([in]string Query, [in]valuetype Microsoft.Office.Interop.Outlook.OlSearchScope SearchScope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.Search(System.String,Microsoft.Office.Interop.Outlook.OlSearchScope)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Search (Query As String, SearchScope As OlSearchScope)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Search(System::String ^ Query, Microsoft::Office::Interop::Outlook::OlSearchScope SearchScope);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Query" Type="System.String" />
+        <Parameter Name="SearchScope" Type="Microsoft.Office.Interop.Outlook.OlSearchScope" />
+      </Parameters>
+      <Docs>
+        <param name="Query">
+          <span data-ttu-id="668a2-165">Uma sequência de caracteres de pesquisa que pode conter qualquer palavra-chave válida aceita na Pesquisa Instantânea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-165">A search string that can contain any valid keywords supported in Instant Search.</span>
+          </span>
+        </param>
+        <param name="SearchScope">
+          <span data-ttu-id="668a2-166">Especifica o escopo em termos de pastas para a pesquisa.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-166">Specifies the scope in terms of folders for the search.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-167">Executa uma pesquisa instantânea da Microsoft na pasta atual exibida no Explorer usando a determinado <paramref name="Query" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-167">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-168">
+            <para>A funcionalidade do <b>Explorer.Search</b> é semelhante ao botão de pesquisa na pesquisa instantânea. Ele se comporta como se o usuário tiver digitado a cadeia de caracteres de consulta na interface do usuário de pesquisa instantânea e, em seguida, clicou em pesquisa.  Ao chamar <b>pesquisa</b>, a consulta é executada na interface do usuário, e não há nenhum mecanismo programático para obter os resultados de pesquisa. Para obter mais informações sobre pesquisa instantânea, consultar "Pesquisa instantânea" na Ajuda do Outlook.</para>
+            <para>o método <b>Search</b> não fornece um retorno de chamada para permitir que o desenvolvedor determine quando a pesquisa estiver concluída.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-168">
+              <para>The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search. It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.  When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results. For more information on Instant Search, query for "Instant Search" in the Outlook Help.</para>
+              <para>The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAllItems">
+      <MemberSignature Language="C#" Value="public void SelectAllItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAllItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.SelectAllItems" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectAllItems ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAllItems();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64568)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-169">Seleciona todos os itens contidos na exibição atual do Explorer ativo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-169">Selects all items that are contained in the current view of the active explorer.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-170">
+            <para>Se um ou mais grupos são recolhidos na exibição atual, chamar <b>SelectAllItems</b> não marque o itens nos grupos recolhidos. Somente os itens em grupos expandidos estão selecionados.</para>
+            <para>Se o modo de exibição atual é um modo de exibição de calendário, chamar <b>SelectAllItems</b> seleciona todos os compromissos e eventos de dia inteiro no modo de exibição. Chamar <b>SelectAllItems</b> em um modo de exibição de calendário não selecionar itens na lista de tarefas diárias.</para>
+            <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado apenas uma vez após o método <b>SelectAllItems</b> é chamado.</para>
+            <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>SelectAllItems</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b> .</para>
+            <para>
+              <b>SelectAllItems</b> apontará um erro se o item está sendo editado na exibição atual, ou modo de exibição atual é um modo de exibição de conversa.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-170">
+              <para>If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</para>
+              <para>If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</para>
+              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</para>
+              <para>If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
+              <para>
+                <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectFolder">
+      <MemberSignature Language="C#" Value="public void SelectFolder (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.SelectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectFolder (Folder As MAPIFolder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64177)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>
+          <span data-ttu-id="668a2-171">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-171">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Selection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Selection Selection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Selection Selection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Selection As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Selection ^ Selection { Microsoft::Office::Interop::Outlook::Selection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8706)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8706)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-172">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto consiste em um ou mais itens selecionados no modo de exibição atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-172">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span>
+          </span>
+          <span data-ttu-id="668a2-173">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-173">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-174">
+            <para>Se a pasta atual for uma pasta do sistema de arquivos, ou se o Microsoft Outlook hoje ou qualquer pasta com um modo de exibição da Web é exibida no momento, essa propriedade retorna uma coleção vazia. Também se um cabeçalho de grupo for selecionado, a propriedade <b>Count</b> na seleção retornará zero.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-174">
+              <para>If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection. Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-175">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-175">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="668a2-176">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-176">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="668a2-177">
+            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-177">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPane">
+      <MemberSignature Language="C#" Value="public void ShowPane (Microsoft.Office.Interop.Outlook.OlPane Pane, bool Visible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowPane([in]valuetype Microsoft.Office.Interop.Outlook.OlPane Pane, [in]bool Visible) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowPane (Pane As OlPane, Visible As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowPane(Microsoft::Office::Interop::Outlook::OlPane Pane, bool Visible);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8708)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
+        <Parameter Name="Visible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Pane">
+          <span data-ttu-id="668a2-178">O painel a ser exibido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-178">The pane to display.</span>
+          </span>
+        </param>
+        <param name="Visible">
+          <span data-ttu-id="668a2-179">
+            <b>True</b> para tornar o painel visível, <b>False</b> para ocultar o painel.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-179">
+              <b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="668a2-180">Exibe ou oculta um painel específico no Explorer.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-180">Displays or hides a specific pane in the explorer.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="668a2-181">
+            <para>
+              <b>Observação</b>: você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para exibir ou ocultar o painel Atalhos.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-181">
+              <para>
+                <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-182">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que indica a posição (em pixels) da borda superior horizontal de uma janela do explorer da borda da tela.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-182">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span>
+          </span>
+          <span data-ttu-id="668a2-183">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-183">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Views">
+      <MemberSignature Language="C#" Value="public object Views { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Views" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Views" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Views As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Views { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12553)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12553)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-184">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-184">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-185">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) indicando a largura (em pixels) do objeto especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-185">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
+          </span>
+          <span data-ttu-id="668a2-186">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-186">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlWindowState WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlWindowState WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Explorer.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As OlWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlWindowState WindowState { Microsoft::Office::Interop::Outlook::OlWindowState get(); void set(Microsoft::Office::Interop::Outlook::OlWindowState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="668a2-187">Retorna ou define a propriedade com uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeração que especifica o estado da janela de uma janela do explorer ou inspector.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-187">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span>
+          </span>
+          <span data-ttu-id="668a2-188">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="668a2-188">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

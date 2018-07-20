@@ -1,0 +1,384 @@
+<Type Name="_FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook._FormRegionStartup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631110" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegionStartup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _FormRegionStartup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _FormRegionStartup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063059-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b390c-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b390c-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="b390c-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b390c-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="b390c-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b390c-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="b390c-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b390c-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFormRegionShow">
+      <MemberSignature Language="C#" Value="public void BeforeFormRegionShow (Microsoft.Office.Interop.Outlook.FormRegion FormRegion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeFormRegionShow([in]class Microsoft.Office.Interop.Outlook.FormRegion FormRegion) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeFormRegionShow(Microsoft::Office::Interop::Outlook::FormRegion ^ FormRegion);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64317)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegion" Type="Microsoft.Office.Interop.Outlook.FormRegion" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegion">
+          <span data-ttu-id="b390c-105">O objeto <b>FormRegion</b> representando a área de formulário que deve ser exibido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-105">The <b>FormRegion</b> object representing the form region that is to be displayed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b390c-106">Permite que um suplemento atualize a interface de usuário de uma área de formulário antes que ela seja exibida.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-106">Allows an add-in to update the user interface of a form region before it is displayed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="b390c-107">
+            <para>Esse método permite que o Outlook passe o objeto <b>FormRegion</b> para o suplemento e permite que um suplemento atualizar a interface do usuário da região do formulário antes que seja exibido para que, por exemplo, o texto dos rótulos pode ser alterado ou conteúdo irrelevante pode ser suprimido. Ele é chamado depois que os controles são instanciados e o layout é calculado, mas antes do formulário região é feito visível. </para>
+            <para>Ao implementar esse método, tenha em mente que o item obtido do <paramref name="FormRegion" /> parâmetro (ou seja, o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> propriedade do objeto <b>FormRegion</b> ) é somente leitura.</para>
+            <para>Para obter exemplos de suplementos no c# e Visual Basic .NET que implementem <b>FormRegionStartup</b>, consulte downloads de exemplo de código em MSDN.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-107">
+              <para>This method lets Outlook pass the <b>FormRegion</b> object to the add-in, and allows an add-in to update the user interface of the form region before it is displayed so that, for instance, the text of labels can be changed or irrelevant content can be suppressed. It is called after the controls are instantiated and the layout is calculated, but before the form region is made visible. </para>
+              <para>When implementing this method, keep in mind that the item obtained from the <paramref name="FormRegion" /> parameter (that is, the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> property of the <b>FormRegion</b> object) is read-only.</para>
+              <para>For examples of add-ins in C# and  Visual Basic .NET that implement <b>FormRegionStartup</b>, see code sample downloads on MSDN.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionIcon">
+      <MemberSignature Language="C#" Value="public object GetFormRegionIcon (string FormRegionName, int LCID, Microsoft.Office.Interop.Outlook.OlFormRegionIcon Icon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionIcon([in]string FormRegionName, [in]int32 LCID, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionIcon Icon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFormRegionIcon (FormRegionName As String, LCID As Integer, Icon As OlFormRegionIcon) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFormRegionIcon(System::String ^ FormRegionName, int LCID, Microsoft::Office::Interop::Outlook::OlFormRegionIcon Icon);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64564)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="LCID" Type="System.Int32" />
+        <Parameter Name="Icon" Type="Microsoft.Office.Interop.Outlook.OlFormRegionIcon" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">
+          <span data-ttu-id="b390c-108">O nome da região do formulário usado ao registrar a região do formulário no Registro do Windows.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-108">The name of the form region which is the name used when registering the form region in the Windows registry.</span>
+          </span>
+        </param>
+        <param name="LCID">
+          <span data-ttu-id="b390c-p102">A ID do local que identifica o idioma usado pelo Outlook no momento. Esse valor é usado para obter as cadeias de caracteres de localização correspondentes a esse idioma a partir da região do formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-p102">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span>
+          </span>
+        </param>
+        <param name="Icon">
+          <span data-ttu-id="b390c-111">A constant that identifies the type of icon.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-111">A constant that identifies the type of icon.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b390c-112">Obtains an icon image that will be displayed for a particular type of icon for the form region.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-112">Obtains an icon image that will be displayed for a particular type of icon for the form region.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b390c-113">Um <b>objeto</b> que é uma matriz de bytes que representa os bytes originais do arquivo de imagem ou um objeto <b>IPictureDisp</b> .</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-113">An <b>Object</b> that is either a byte-array that represents the original bytes of the image file or an <b>IPictureDisp</b> object.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="b390c-114">
+            <para>Esse método é foi projetado para ser implementados por um suplemento e chamado pelo Outlook. Como parte do <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, esse método e a <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> método fornecem um mecanismo através do qual um suplemento pode registrar uma área de formulário e oferece o Outlook com o manifesto XML e os ícones para a área de formulário.</para>
+            <para>Se você gostaria de um suplemento para fornecer ícones para uma área de formulário, especifique o ProgID do suplemento ao registrar a região de formulário no registro do Windows. Para obter mais informações sobre como registrar uma área de formulário, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificando áreas de formulário no registro do Windows</a><b>GetFormRegionManifest</b> e os métodos de <b>GetFormRegionIcon</b> da interface <b>FormRegionStartup</b> . </para>
+            <para>Em XML de manifesto da região de formulário, sob o elemento de ícones, especifique o suplemento do valor para cada um dos elementos filhos onde você gostaria de usar um ícone personalizado.  Implementar <b>GetFormRegionIcon</b> , de forma que, quando o Outlook passa a esse tipo de ícone como um argumento para <paramref name="Icon" />, <b>GetFormRegionIcon</b> retorna a imagem do ícone personalizado. Se desejar que o Outlook exiba o ícone padrão, implemente <b>GetFormRegionIcon</b> , de forma que ele retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para aquele tipo de ícone. <b>GetFormRegionIcon</b> também deve retornar <b>nada</b> (uma referência nula (Nothing no Visual Basic) em c#) quando <paramref name="Icon" /> é <b>olFormRegionIconDefault</b>.</para>
+            <para>Quando o Outlook é iniciado, ele lê a lista de regiões de formulário do registro do Windows e o armazena em cache os dados associados com as regiões de formulário. Se uma área de formulário foi registrada com um ProgID, Outlook será recorrer ao suplemento correspondente chamando sua implementação do <b>GetFormRegionIcon</b> para qualquer ícone no manifesto XML que tenha addin como o valor de um elemento filho do elemento de ícones. Observe que, se você não especificar qualquer ProgID no registro do Windows, o Outlook não serão chame os métodos <b>GetFormRegionManifest</b> e <b>GetFormRegionIcon</b> .</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-114">
+              <para>This method is intended to be implemented by an add-in and called by Outlook. As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook with the XML manifest and the icons for the form region.</para>
+              <para>If you would like an add-in to provide icons for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry. For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> and the <b>GetFormRegionIcon</b> methods of the  <b>FormRegionStartup</b> interface. </para>
+              <para>In the XML manifest for the form region, under the icons element, specify the value addin for each of the child elements where you would like to use a custom icon.  Implement <b>GetFormRegionIcon</b> such that when Outlook passes that type of icon as an argument for <paramref name="Icon" />,  <b>GetFormRegionIcon</b> returns the image of the custom icon. If you want Outlook to display the default icon, implement <b>GetFormRegionIcon</b> such that it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that type of icon. <b>GetFormRegionIcon</b> should also return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) when <paramref name="Icon" /> is <b>olFormRegionIconDefault</b>.</para>
+              <para> When Outlook starts, it reads the list of form regions from the Windows registry and caches the data associated with the form regions. If a form region has been registered with a ProgID, Outlook will resort to the corresponding add-in by calling its implementation of <b>GetFormRegionIcon</b> for any icon in the XML manifest that has addin as the value of a child element of the icons element. Note that if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionManifest">
+      <MemberSignature Language="C#" Value="public object GetFormRegionManifest (string FormRegionName, int LCID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionManifest([in]string FormRegionName, [in]int32 LCID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFormRegionManifest (FormRegionName As String, LCID As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFormRegionManifest(System::String ^ FormRegionName, int LCID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64563)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="LCID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">
+          <span data-ttu-id="b390c-115">O nome da região do formulário usado ao registrar a região do formulário no Registro do Windows.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-115">The name of the form region which is the name used when registering the form region in the Windows registry.</span>
+          </span>
+        </param>
+        <param name="LCID">
+          <span data-ttu-id="b390c-p103">A ID do local que identifica o idioma usado pelo Outlook no momento. Esse valor é usado para obter as cadeias de caracteres de localização correspondentes a esse idioma a partir da região do formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-p103">The locale ID  that identifies the language that  Outlook is currently  using. This value is used to obtain the localization strings corresponding to this language for the form region.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b390c-118">Obtém o manifesto XML de uma região de formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-118">Obtains the XML manifest for a form region.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b390c-119">Um <b>objeto</b> que representa o manifesto XML para uma região do formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-119">An <b>Object</b> that represents the XML manifest for a form region.</span>
+          </span>
+          <span data-ttu-id="b390c-120">Esta cadeia de caracteres XML inclui características da região do formulário como o nome de exibição (como especificado pelo elemento title), qualquer arquivo de layout associado ou suplemento, quaisquer ações do usuário com suporte e qualquer cadeia de caracteres de localização.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-120">This XML string includes characteristics of the form region such as the display name (as specified by the title element), any associated layout file or add-in,  any supported user actions, and any localization strings.</span>
+          </span>
+          <span data-ttu-id="b390c-121">O XML deve seguir o esquema XML de região de formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-121">The XML must follow the form region XML schema.</span>
+          </span>
+          <span data-ttu-id="b390c-122">Para obter mais informações sobre o esquema XML de região de formulário, consulte a referência de esquema XML do Microsoft Outlook 2010 na <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca MSDN</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-122">For more information on the form region XML schema, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="b390c-123">
+            <para>Esse método é foi projetado para ser implementados por um suplemento e chamado pelo Outlook. Como parte do <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, esse método e a <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> método fornecem um mecanismo através do qual um suplemento pode registrar uma área de formulário e fornecer Outlook o manifesto XML e os ícones para a área de formulário.</para>
+            <para>Se você gostaria de um suplemento para fornecer o manifesto XML para uma área de formulário, especifique o ProgID do suplemento ao registrar a região de formulário no registro do Windows. Para obter mais informações sobre como registrar uma área de formulário, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificando áreas de formulário no registro do Windows</a>método de<b>GetFormRegionManifest</b> da interface <b>FormRegionStartup</b> . Observe que, se você não especificar qualquer ProgID no registro do Windows, o Outlook não serão chamar este método.</para>
+            <para>Confiança em um suplemento para fornecer o manifesto XML para uma região do formulário também significa que você está permitindo que o suplemento fornecer nenhum ícone para a área de formulário. O suplemento também deve implementar o <b>GetFormRegionIcon</b> da interface <b>FormRegionStartup</b> . Outlook chamará <b>GetFormRegionIcon</b> para obter qualquer suplemento especificados ícones para a região do formulário. Para obter mais informações sobre como usar um suplemento para especificar ícones, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87934">como: usar um suplemento para especificar ícones para uma região do formulário</a></para>
+            <para> quando o Outlook é iniciado, ele lê a lista de regiões de formulário do registro do Windows e armazena os dados em cache. Com base nesses dados, se o Outlook avisos que um suplemento foi especificado para fornecer o manifesto XML para uma área de formulário, o Outlook usará o ProgID fornecido na chamada para o método <b>GetFormRegionManifest</b> implementado por este suplemento para obter e dados armazenados em cache o XML que ele precisa exibir a área de formulário. Se o manifesto XML não é válido e não está de acordo com o esquema XML de região de formulário, o Outlook não poderão carregar a região do formulário. Além disso, se você não especificar qualquer ProgID no registro do Windows, o Outlook não chamará os métodos <b>GetFormRegionManifest</b> e <b>GetFormRegionIcon</b> .</para>
+            <para>Outlook ignora os seguintes elementos quando o suplemento fornece o manifesto XML:</para>
+            <list type="bullet">
+              <item>
+                <para>nome: Outlook ignora o valor especificado para esse elemento e usará o nome especificado para a área de formulário no registro.</para>
+              </item>
+              <item>
+                <para>layoutFile: Outlook ignora esse elemento, pois um suplemento está estendendo essa região do formulário.</para>
+              </item>
+              <item>
+                <para>addin: o Outlook usa o valor precedido por um sinal de igual (=) no registro como ProgID do add-in.</para>
+              </item> atributo de arquivo de 
+            <item><para>do stringOverride: Outlook ignora qualquer arquivo de localização secundária especificado pelo elemento stringOverride. O suplemento pode implementar <b>GetFormRegionManifest</b> para retornar o manifesto XML para a localização de cadeia de caracteres para especificado de embutida <paramref name="LCID" />, ou gerenciar localização de cadeia de caracteres de outra forma, por exemplo, usando a localização do .NET Framework e depois retornamos o XML adequado manifesto for especificado <paramref name="LCID" />.</para></item></list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-123">
+              <para>This method is intended to be implemented by an add-in and called by Outlook. As part of the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, this method and the <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> method provide a mechanism through which an add-in can register a form region and provide Outlook the XML manifest and the icons for the form region.</para>
+              <para>If you would like an add-in to provide the XML manifest for a form region, specify the ProgID of the add-in when you register the form region in the Windows registry. For more information on registering a form region, see <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Specifying Form Regions in the Windows Registry</a><b>GetFormRegionManifest</b> method of the  <b>FormRegionStartup</b> interface. Note that if you do not specify any ProgID in the Windows registry, Outlook will not call this method.</para>
+              <para>Relying on an add-in to provide the XML manifest for a form region also means you are allowing the add-in to provide any icons for the form region. The add-in must also implement the <b>GetFormRegionIcon</b> of the <b>FormRegionStartup</b> interface. Outlook will call <b>GetFormRegionIcon</b> to obtain any add-in specified icons for the form region. For more information on using an add-in to specify icons, see <a href="http://go.microsoft.com/fwlink/?LinkId=87934">How to: Use an Add-in to Specify Icons for a Form Region</a></para>
+              <para> When Outlook starts, it reads the list of form regions from the Windows registry and caches the data. Based on this data, if  Outlook notices that an add-in has been specified to provide the XML manifest for a form region, Outlook will use the ProgID provided in the cached data and call the <b>GetFormRegionManifest</b> method implemented by this add-in to obtain the XML it needs to display the form region. If the XML manifest is not valid and does not conform to the form region XML schema, Outlook will not be able to load the form region. Also, if you do not specify any ProgID in the Windows registry, Outlook will not call the  <b>GetFormRegionManifest</b> and <b>GetFormRegionIcon</b> methods.</para>
+              <para>Outlook ignores the following elements when the add-in provides the XML manifest: </para>
+              <list type="bullet">
+                <item>
+                  <para>name: Outlook ignores the value specified for this element and will  use the name  specified for the form region in the registry.</para>
+                </item>
+                <item>
+                  <para>layoutFile: Outlook ignores this element because an add-in is extending this form region.</para>
+                </item>
+                <item>
+                  <para>addin: Outlook uses the value that is preceded by an equal sign (=) in the registry as the ProgID of the add-in.</para>
+                </item>
+                <item>
+                  <para>file attribute of stringOverride: Outlook ignores any secondary localization file specified by the stringOverride element. The add-in can implement <b>GetFormRegionManifest</b> to return inline the XML manifest for string localization for the specified <paramref name="LCID" />, or manage  string localization in another way, for example, using .NET Framework localization, and then return the appropriate XML manifest for the specified <paramref name="LCID" />.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionStorage">
+      <MemberSignature Language="C#" Value="public object GetFormRegionStorage (string FormRegionName, object Item, int LCID, Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode, Microsoft.Office.Interop.Outlook.OlFormRegionSize FormRegionSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionStorage([in]string FormRegionName, [in]object Item, [in]int32 LCID, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionSize FormRegionSize) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFormRegionStorage (FormRegionName As String, Item As Object, LCID As Integer, FormRegionMode As OlFormRegionMode, FormRegionSize As OlFormRegionSize) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFormRegionStorage(System::String ^ FormRegionName, System::Object ^ Item, int LCID, Microsoft::Office::Interop::Outlook::OlFormRegionMode FormRegionMode, Microsoft::Office::Interop::Outlook::OlFormRegionSize FormRegionSize);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64310)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="Item" Type="System.Object" />
+        <Parameter Name="LCID" Type="System.Int32" />
+        <Parameter Name="FormRegionMode" Type="Microsoft.Office.Interop.Outlook.OlFormRegionMode" />
+        <Parameter Name="FormRegionSize" Type="Microsoft.Office.Interop.Outlook.OlFormRegionSize" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">
+          <span data-ttu-id="b390c-124">O nome interno da região do formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-124">The internal name of the form region.</span>
+          </span>
+          <span data-ttu-id="b390c-125">Isso pode ser indicado pela &lt;nome&gt; tag no manifesto XML da região de formulário correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-125">This can be indicated by the &lt;name&gt; tag in the corresponding form region XML manifest.</span>
+          </span>
+        </param>
+        <param name="Item">
+          <span data-ttu-id="b390c-126">O objeto de item do Outlook que causou o carregamento da área de formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-126">The Outlook item object that caused the loading of the form region.</span>
+          </span>
+        </param>
+        <param name="LCID">
+          <span data-ttu-id="b390c-127">A identificação de idioma local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-127">The current locale ID.</span>
+          </span>
+        </param>
+        <param name="FormRegionMode">
+          <span data-ttu-id="b390c-128">O modo no qual a área de formulário está sendo carregada. Ele é uma constante na enumeração OlFormRegionMode.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-128">The mode that  the form region is being loaded into.</span>
+          </span>
+        </param>
+        <param name="FormRegionSize">
+          <span data-ttu-id="b390c-129">O tipo da área de formulário carregada, adjacente ou separada.  Ele é uma constante na enumeração OlFormRegionSize.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-129">The type of form region being loaded, either adjoining or separate.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b390c-130">Obtém o armazenamento apropriado para uma área de formulário baseada nas informações especificadas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-130">Obtains appropriate storage for a form region based on the specified information.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b390c-131">Um <b>objeto</b> representando o armazenamento que Outlook alocado para a região de formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-131">A <b>Object</b> representing the storage that Outlook has allocated for the form region.</span>
+          </span>
+          <span data-ttu-id="b390c-132">O tipo do valor de retorno pode ser: <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando que o valor de retorno é um caminho local para um armazenamento de formulário do Outlook (. Arquivo OFS); <b>Byte ()</b> representando que o valor de retorno é uma matriz de bytes que contém o conteúdo da. Arquivo OFS; <b>IStorage</b> representando o valor de retorno é um objeto de armazenamento COM <b>IStorage</b> (para C++ somente); <b>Nothing</b> ou <b>Nulo</b>, representando que o Outlook não foi possível alocar armazenamento para essa região do formulário e não será carregado para a região do formulário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-132">The type of the return value can be: <b>String</b> (<b>string</b> in C#) representing that the return value is a local path to an Outlook Form Storage (.OFS) file; <b>Byte()</b> representing that the return value is an array of bytes that contains the contents of the .OFS file; <b>IStorage</b> representing that the return value is a COM storage object <b>IStorage</b> (for C++ only); <b>Nothing</b> or <b>Null</b>, representing that Outlook could not allocate storage for this form region and will not load the form region.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="b390c-133">
+            <para>O suplemento deve verificar o valor de retorno de <b>GetFormRegionStorage</b>. Uma região do formulário não será carregado se qualquer um dos seguintes for verdadeiro para o armazenamento retornado:</para>armazenamento
+          <list type="bullet"><item><para>retornado é um. Arquivo OFS especificado com um caminho de não-local.</para></item><item><para>o armazenamento retornado é um arquivo mas não é um. Arquivo OFS salvo do designer de formulários.</para></item></list><para>Para obter exemplos de suplementos no c# e Visual Basic .NET que implementem as <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, consulte downloads de exemplo de código em MSDN.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b390c-133">
+              <para>The add-in must check for the return value of <b>GetFormRegionStorage</b>. A form region will not load if any of the following is true of the returned storage:</para>
+              <list type="bullet">
+                <item>
+                  <para>The returned storage is a .OFS file specified with a non-local path.</para>
+                </item>
+                <item>
+                  <para>The returned storage is a file but is not an .OFS file saved from the forms designer.</para>
+                </item>
+              </list>
+              <para>For examples of add-ins in C# and  Visual Basic .NET that implement the <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interface, see code sample downloads on MSDN.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

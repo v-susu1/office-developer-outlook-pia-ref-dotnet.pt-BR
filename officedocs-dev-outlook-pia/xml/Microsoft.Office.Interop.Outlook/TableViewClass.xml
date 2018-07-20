@@ -1,0 +1,2221 @@
+<Type Name="TableViewClass" FullName="Microsoft.Office.Interop.Outlook.TableViewClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9210ed24441272788f88c339d15700e4e56266b1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629871" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TableViewClass : Microsoft.Office.Interop.Outlook.TableView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi TableViewClass extends System.Object implements class Microsoft.Office.Interop.Outlook._TableView, class Microsoft.Office.Interop.Outlook.TableView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TableViewClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class TableViewClass&#xA;Implements TableView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TableViewClass : Microsoft::Office::Interop::Outlook::TableView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.TableView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00062000-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bf7db-101">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf7db-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="bf7db-102">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf7db-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="bf7db-103">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf7db-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="bf7db-104">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bf7db-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowInCellEditing">
+      <MemberSignature Language="C#" Value="public virtual bool AllowInCellEditing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInCellEditing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AllowInCellEditing" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AllowInCellEditing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AllowInCellEditing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-105">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-106">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-107">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-108">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlwaysExpandConversation">
+      <MemberSignature Language="C#" Value="public virtual bool AlwaysExpandConversation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AlwaysExpandConversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AlwaysExpandConversation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AlwaysExpandConversation As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AlwaysExpandConversation { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AlwaysExpandConversation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-109">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-110">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-111">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-112">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-113">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-114">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-115">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-116">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public virtual void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Apply() = Microsoft::Office::Interop::Outlook::_TableView::Apply;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.Apply</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-117">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-118">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-119">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-120">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatRules">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AutoFormatRules" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoFormatRules As AutoFormatRules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AutoFormatRules ^ AutoFormatRules { Microsoft::Office::Interop::Outlook::AutoFormatRules ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AutoFormatRules</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-121">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-122">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-123">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-124">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticColumnSizing">
+      <MemberSignature Language="C#" Value="public virtual bool AutomaticColumnSizing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutomaticColumnSizing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AutomaticColumnSizing" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutomaticColumnSizing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AutomaticColumnSizing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-125">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-126">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-127">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-128">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticGrouping">
+      <MemberSignature Language="C#" Value="public virtual bool AutomaticGrouping { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutomaticGrouping" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AutomaticGrouping" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutomaticGrouping As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool AutomaticGrouping { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-129">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-130">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-131">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-132">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoPreview">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlAutoPreview AutoPreview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAutoPreview AutoPreview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AutoPreview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AutoPreview As OlAutoPreview" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlAutoPreview AutoPreview { Microsoft::Office::Interop::Outlook::OlAutoPreview get(); void set(Microsoft::Office::Interop::Outlook::OlAutoPreview value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoPreview</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-133">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-134">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-135">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-136">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoPreviewFont">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFont AutoPreviewFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont AutoPreviewFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.AutoPreviewFont" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AutoPreviewFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFont ^ AutoPreviewFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-137">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-138">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-139">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-140">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-141">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-142">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-143">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-144">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFont">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFont ColumnFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont ColumnFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ColumnFont" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ColumnFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFont ^ ColumnFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-145">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-146">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-147">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-148">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="SaveOption">To be added.</param>
+        <summary>
+          <span data-ttu-id="bf7db-149">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-150">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-151">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-152">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultExpandCollapseSetting">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.DefaultExpandCollapseSetting" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property DefaultExpandCollapseSetting As OlDefaultExpandCollapseSetting" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting get(); void set(Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.DefaultExpandCollapseSetting</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-153">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-154">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-155">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-156">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Interop::Outlook::_TableView::Delete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.Delete</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-157">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-158">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-159">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-160">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public virtual string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Filter</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-161">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-162">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-163">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-164">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::Table ^ GetTable() = Microsoft::Office::Interop::Outlook::_TableView::GetTable;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.GetTable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64285)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-165">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-166">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-167">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-168">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public virtual void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void GoToDate(DateTime Date) = Microsoft::Office::Interop::Outlook::_TableView::GoToDate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.GoToDate(System.DateTime)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">To be added.</param>
+        <summary>
+          <span data-ttu-id="bf7db-169">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-170">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-171">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-172">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GridLineStyle">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlGridLineStyle GridLineStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlGridLineStyle GridLineStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.GridLineStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property GridLineStyle As OlGridLineStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlGridLineStyle GridLineStyle { Microsoft::Office::Interop::Outlook::OlGridLineStyle get(); void set(Microsoft::Office::Interop::Outlook::OlGridLineStyle value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.GridLineStyle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlGridLineStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-173">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-173">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-174">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-174">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-175">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-175">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-176">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-176">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupByFields">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OrderFields GroupByFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields GroupByFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.GroupByFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property GroupByFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OrderFields ^ GroupByFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-177">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-177">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-178">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-178">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-179">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-179">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-180">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-180">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideReadingPaneHeaderInfo">
+      <MemberSignature Language="C#" Value="public virtual bool HideReadingPaneHeaderInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HideReadingPaneHeaderInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.HideReadingPaneHeaderInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HideReadingPaneHeaderInfo As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool HideReadingPaneHeaderInfo { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.HideReadingPaneHeaderInfo</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-181">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-181">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-182">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-182">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-183">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-183">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-184">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-184">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public virtual string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Language</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-185">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-185">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-186">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-186">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-187">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-187">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-188">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-188">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public virtual bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-189">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-189">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-190">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-190">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-191">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-191">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-192">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-192">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLinesInMultiLineView">
+      <MemberSignature Language="C#" Value="public virtual int MaxLinesInMultiLineView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLinesInMultiLineView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.MaxLinesInMultiLineView" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MaxLinesInMultiLineView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int MaxLinesInMultiLineView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.MaxLinesInMultiLineView</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-193">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-193">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-194">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-194">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-195">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-195">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-196">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-196">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLine">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlMultiLine MultiLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMultiLine MultiLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.MultiLine" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MultiLine As OlMultiLine" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlMultiLine MultiLine { Microsoft::Office::Interop::Outlook::OlMultiLine get(); void set(Microsoft::Office::Interop::Outlook::OlMultiLine value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.MultiLine</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiLine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-197">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-197">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-198">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-198">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-199">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-199">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-200">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-200">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLineWidth">
+      <MemberSignature Language="C#" Value="public virtual int MultiLineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultiLineWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.MultiLineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MultiLineWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int MultiLineWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.MultiLineWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-201">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-201">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-202">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-202">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-203">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-203">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-204">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-204">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-205">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-205">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-206">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-206">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-207">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-207">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-208">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-208">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-209">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-209">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-210">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-210">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-211">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-211">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-212">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-212">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public virtual void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Reset() = Microsoft::Office::Interop::Outlook::_TableView::Reset;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.Reset</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-213">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-213">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-214">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-214">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-215">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-215">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-216">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-216">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowFont">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFont RowFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont RowFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.RowFont" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property RowFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFont ^ RowFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.RowFont</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64360)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64360)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-217">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-217">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-218">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-218">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-219">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-219">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-220">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-220">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public virtual void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.TableViewClass.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Save() = Microsoft::Office::Interop::Outlook::_TableView::Save;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._TableView.Save</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-221">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-221">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-222">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-222">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-223">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-223">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-224">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-224">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.SaveOption</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-225">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-225">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-226">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-226">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-227">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-227">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-228">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-228">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-229">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-229">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-230">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-230">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-231">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-231">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-232">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-232">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowConversationByDate">
+      <MemberSignature Language="C#" Value="public virtual bool ShowConversationByDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowConversationByDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowConversationByDate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowConversationByDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowConversationByDate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowConversationByDate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-233">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-233">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-234">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-234">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-235">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-235">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-236">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-236">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowConversationSendersAboveSubject">
+      <MemberSignature Language="C#" Value="public virtual bool ShowConversationSendersAboveSubject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowConversationSendersAboveSubject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowConversationSendersAboveSubject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowConversationSendersAboveSubject As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowConversationSendersAboveSubject { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowConversationSendersAboveSubject</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-237">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-237">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-238">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-238">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-239">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-239">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-240">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-240">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFullConversations">
+      <MemberSignature Language="C#" Value="public virtual bool ShowFullConversations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowFullConversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowFullConversations" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowFullConversations As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowFullConversations { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowFullConversations</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-241">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-241">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-242">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-242">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-243">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-243">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-244">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-244">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowItemsInGroups">
+      <MemberSignature Language="C#" Value="public virtual bool ShowItemsInGroups { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowItemsInGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowItemsInGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowItemsInGroups As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowItemsInGroups { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowItemsInGroups</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-245">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-245">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-246">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-246">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-247">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-247">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-248">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-248">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowNewItemRow">
+      <MemberSignature Language="C#" Value="public virtual bool ShowNewItemRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowNewItemRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowNewItemRow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowNewItemRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowNewItemRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowNewItemRow</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-249">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-249">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-250">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-250">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-251">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-251">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-252">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-252">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowReadingPane">
+      <MemberSignature Language="C#" Value="public virtual bool ShowReadingPane { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowReadingPane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowReadingPane" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowReadingPane As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowReadingPane { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowReadingPane</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-253">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-253">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-254">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-254">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-255">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-255">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-256">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-256">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowUnreadAndFlaggedMessages">
+      <MemberSignature Language="C#" Value="public virtual bool ShowUnreadAndFlaggedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowUnreadAndFlaggedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ShowUnreadAndFlaggedMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ShowUnreadAndFlaggedMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ShowUnreadAndFlaggedMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ShowUnreadAndFlaggedMessages</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-257">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-257">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortFields">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OrderFields SortFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields SortFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.SortFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SortFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OrderFields ^ SortFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.SortFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-258">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-258">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-259">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-259">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-260">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-260">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-261">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-261">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public virtual bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.Standard</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-262">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-262">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-263">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-263">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-264">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-264">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-265">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-265">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewFields">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.ViewFields ViewFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFields ViewFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ViewFields" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ViewFields As ViewFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::ViewFields ^ ViewFields { Microsoft::Office::Interop::Outlook::ViewFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ViewFields</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-266">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-266">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-267">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-267">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-268">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-268">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-269">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-269">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.ViewType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-270">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-270">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-271">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-271">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-272">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-272">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-273">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-273">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public virtual string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.TableViewClass.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._TableView.XML</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bf7db-274">Isso é uma classe .NET ou um membro de uma classe do .NET criado durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-274">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="bf7db-275">Use esta classe somente quando você precisar acessar um evento anterior desta classe que foi subsequentemente estendido em uma versão posterior do Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-275">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="bf7db-276">Caso contrário, use a interface do .NET derivada do co-classe COM.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-276">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="bf7db-277">Para obter informações sobre a interface .NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bf7db-277">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

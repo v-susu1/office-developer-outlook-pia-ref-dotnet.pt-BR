@@ -1,0 +1,1193 @@
+<Type Name="_RuleActions" FullName="Microsoft.Office.Interop.Outlook._RuleActions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630203" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleActions implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleActions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _RuleActions&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _RuleActions : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CE-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d2ee2-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2ee2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="d2ee2-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2ee2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="d2ee2-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2ee2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="d2ee2-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d2ee2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="d2ee2-106">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignToCategory">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction AssignToCategory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction AssignToCategory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssignToCategory As AssignToCategoryRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AssignToCategoryRuleAction ^ AssignToCategory { Microsoft::Office::Interop::Outlook::AssignToCategoryRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64290)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64290)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /> sendo <b>olRuleAssignToCategory</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /> being <b>olRuleAssignToCategory</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-108">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-109">
+            <para>Use o objeto <b>AssignToCategoryRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que atribua categorias a uma mensagem.</para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AssignToCategoryRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-109">
+              <para>Use the returned  <b>AssignToCategoryRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that assigns categories  to a message.</para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns an <b>AssignToCategoryRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CC">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SendRuleAction CC { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction CC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.CC" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CC As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::SendRuleAction ^ CC { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64281)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64281)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-110">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> sendo <b>olRuleActionCcMessage</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-110">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> being <b>olRuleActionCcMessage</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-111">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-112">
+            <para>Use o objeto <b>SendRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a cópia (cc) uma mensagem a destinatários específicos como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SendRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-112">
+              <para>Use the returned  <b>SendRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies cc-ing a message to  specific recipients as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SendRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-113">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="d2ee2-114">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearCategories">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction ClearCategories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction ClearCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.ClearCategories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClearCategories As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ ClearCategories { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64530)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64530)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-115">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> de <b>olRuleActionClearCategories</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-115">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> of  <b>olRuleActionClearCategories</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-116">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-116">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-117">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma regra que especifica a remoção de todas as categorias de uma mensagem como uma ação.   </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> , independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> será <b>True</b>.  </para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-117">
+              <para>Use the returned <b>RuleAction</b> object when enumerating the rule actions of an existing rule or when creating a  rule that specifies removing all the categories of a message as an action.   </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object, regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> will be <b>True</b>.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction CopyToFolder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction CopyToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.CopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CopyToFolder As MoveOrCopyRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ CopyToFolder { Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64274)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64274)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-118">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> sendo <b>olRuleActionCopyToFolder</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> being <b>olRuleActionCopyToFolder</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-119">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-120">
+            <para>Use o objeto <b>MoveOrCopyRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a cópia de uma mensagem para uma pasta específica como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>MoveOrCopyRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-120">
+              <para>Use the returned  <b>MoveOrCopyRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies copying a message to  a specific folder as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>MoveOrCopyRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-121">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-121">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
+          </span>
+          <span data-ttu-id="d2ee2-122">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-123">
+            <para>Você pode enumerar a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> conjunto entre 1 e <b>RuleActions.Count</b> para determinar a todas as ações de regra de uma regra existente. Embora o OM de regras oferece suporte à criação de regras com apenas os mais comumente usadas nem todas as ações de regra aceitas pelo Assistente de alertas e regras e ações da regra, o conjunto <b>RuleActions</b> inclui todas as ações de regra de uma regra. Portanto, você pode enumerar sempre o objeto da coleção <b>RuleActions</b> para determinar quais ações de regra estão habilitadas para uma regra existente.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-123">
+              <para>You can enumerate the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection from 1 through <b>RuleActions.Count</b> to determine all the rule actions for an existing rule. Although the Rules OM supports creating rules with only the most commonly used rule actions and not all rule actions supported by the Rules and Alerts Wizard, the <b>RuleActions</b> collection includes all rule actions of a rule. Hence you can always enumerate the <b>RuleActions</b> collection object to determine which rule actions are enabled for an existing rule.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction Delete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Delete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Delete As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ Delete { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-124">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionDelete</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-124">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionDelete</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-125">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-125">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-126">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a exclusão de uma mensagem como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-126">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies deleting a message as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletePermanently">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction DeletePermanently { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction DeletePermanently" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.DeletePermanently" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeletePermanently As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ DeletePermanently { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64275)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64275)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-127">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionDeletePermanently</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-127">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionDeletePermanently</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-128">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-128">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-129">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a exclusão de uma mensagem permanentemente como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-129">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies deleting a message permanently as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DesktopAlert">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction DesktopAlert { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction DesktopAlert" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.DesktopAlert" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DesktopAlert As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ DesktopAlert { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64279)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64279)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-130">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionDesktopAlert</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionDesktopAlert</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-131">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-131">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-132">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a exibição de um alerta de área de trabalho como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-132">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies displaying a desktop alert as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SendRuleAction Forward { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction Forward" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Forward" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Forward As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::SendRuleAction ^ Forward { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64282)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64282)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-133">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> sendo <b>olRuleActionForward</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> being <b>olRuleActionForward</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-134">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-135">
+            <para>Use o objeto <b>SendRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica o encaminhamento de uma mensagem a destinatários específicos como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SendRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-135">
+              <para>Use the returned  <b>SendRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies forwarding a message to specific recipients as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SendRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsAttachment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SendRuleAction ForwardAsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction ForwardAsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.ForwardAsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForwardAsAttachment As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::SendRuleAction ^ ForwardAsAttachment { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64283)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64283)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-136">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> sendo <b>olRuleActionForwardAsAttachment</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-136">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> being <b>olRuleActionForwardAsAttachment</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-137">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-137">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-138">
+            <para>Use o objeto <b>SendRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica uma mensagem como um anexo a destinatários específicos como uma ação de encaminhamento. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SendRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-138">
+              <para>Use the returned  <b>SendRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies forwarding a message as an attachment to specific recipients as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SendRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ default[int] { Microsoft::Office::Interop::Outlook::RuleAction ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="d2ee2-139">Um baseado em 1 valor numérico que reflete a posição ordinal de uma ação de regra dentro da coleção <b>RuleActions</b> .</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-139">A 1-based numerical value that reflects the ordinal position of a rule action within  the <b>RuleActions</b> collection.</span>
+          </span>
+          <span data-ttu-id="d2ee2-140">Por exemplo, o valor de índice da primeira ação de regra na coleção é 1 e o valor de índice da segunda ação de regra é 2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-140">For example, the index value of the first rule action in the collection is 1, and the index value of the second rule action is 2.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="d2ee2-141">Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto especificado por <paramref name="Index" /> que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> conjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-141">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object specified by <paramref name="Index" /> which is a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d2ee2-142">Um objeto <b>RuleAction</b> que corresponde a ação de regra especificada por <paramref name="Index" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-142">A <b>RuleAction</b> object that matches the rule action specified by <paramref name="Index" />.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="d2ee2-143">
+            <para>Objeto da coleção <b>RuleActions</b> é uma coleção fixa. Ele contém objetos <b>RuleAction</b> ou objetos derivados de <b>RuleAction</b>. Você não pode adicionar ou remover itens dessa coleção, mas você pode usar o <b>Item</b> para enumerar os itens de ação de regra e defina o <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> propriedade da ação de regra. Ao usar o <b>Item</b> para enumerar a coleção, você pode enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-143">
+              <para>The <b>RuleActions</b> collection object is a fixed collection. It contains <b>RuleAction</b> objects or objects derived from <b>RuleAction</b>. You cannot add or remove items from this collection, but you can use <b>Item</b> to enumerate the rule action  items, and set the <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> property of the rule action. When using <b>Item</b> to enumerate the collection, you can enumerate <paramref name="Index" /> from 1 to <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsTask">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction MarkAsTask { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction MarkAsTask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.MarkAsTask" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MarkAsTask As MarkAsTaskRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MarkAsTaskRuleAction ^ MarkAsTask { Microsoft::Office::Interop::Outlook::MarkAsTaskRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64294)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-144">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /> sendo <b>olRuleActionMarkAsTask</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-144">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /> being <b>olRuleActionMarkAsTask</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-145">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-145">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-146">
+            <para>Use o objeto <b>MarkAsTaskRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a ação de marcar uma mensagem como uma tarefa. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>MarkAsTaskRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-146">
+              <para>Use the returned  <b>MarkAsTaskRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies the action of marking a message as a task. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>MarkAsTaskRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction MoveToFolder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction MoveToFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoveToFolder As MoveOrCopyRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ MoveToFolder { Microsoft::Office::Interop::Outlook::MoveOrCopyRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64280)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64280)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-147">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> sendo <b>olRuleActionMoveToFolder</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-147">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> being <b>olRuleActionMoveToFolder</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-148">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-148">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-149">
+            <para>Use o objeto <b>MoveOrCopyRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a cópia de uma mensagem para uma pasta específica como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>MoveOrCopyRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-149">
+              <para>Use the returned  <b>MoveOrCopyRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies copying a message to  a specific folder as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>MoveOrCopyRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewItemAlert">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction NewItemAlert { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction NewItemAlert" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.NewItemAlert" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewItemAlert As NewItemAlertRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NewItemAlertRuleAction ^ NewItemAlert { Microsoft::Office::Interop::Outlook::NewItemAlertRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-150">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /> sendo <b>olRuleActionNewItemAlert</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-150">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /> being <b>olRuleActionNewItemAlert</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-151">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-151">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-152">
+            <para>Use o objeto <b>NewItemAlertRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a exibindo um alerta para um novo item como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>NewItemAlertRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-152">
+              <para>Use the returned  <b>NewItemAlertRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies displaying an alert for a new item as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>NewItemAlertRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyDelivery">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction NotifyDelivery { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction NotifyDelivery" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.NotifyDelivery" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NotifyDelivery As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ NotifyDelivery { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64278)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64278)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-153">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionNotifyDelivery</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-153">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionNotifyDelivery</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-154">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-154">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-155">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a notificação de entrega de uma mensagem como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-155">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies notifying delivery of a message as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyRead">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction NotifyRead { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction NotifyRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.NotifyRead" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NotifyRead As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ NotifyRead { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64277)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64277)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-156">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionNotifyRead</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionNotifyRead</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-157">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-157">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-158">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a enviar a notificação sobre a abertura de uma mensagem como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-158">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies sending a notification about the  opening of a message as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-p120">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-p120">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-161">
+            <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-161">
+              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlaySound">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PlaySoundRuleAction PlaySound { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PlaySoundRuleAction PlaySound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.PlaySound" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlaySound As PlaySoundRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PlaySoundRuleAction ^ PlaySound { Microsoft::Office::Interop::Outlook::PlaySoundRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64291)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64291)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PlaySoundRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-162">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /> sendo <b>olRuleActionNotifyRead</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-162">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /> being <b>olRuleActionNotifyRead</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-163">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-163">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-164">
+            <para>Use o objeto <b>PlaySoundRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a reprodução de um arquivo de som como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>PlaySoundRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-164">
+              <para>Use the returned  <b>PlaySoundRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies playing a sound file as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>PlaySoundRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Redirect">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.SendRuleAction Redirect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.SendRuleAction Redirect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Redirect" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Redirect As SendRuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::SendRuleAction ^ Redirect { Microsoft::Office::Interop::Outlook::SendRuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64284)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64284)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-165">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> sendo <b>olRuleActionRedirect</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-165">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> being <b>olRuleActionRedirect</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-166">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-166">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-167">
+            <para>Use o objeto <b>SendRuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica o redirecionamento de uma mensagem a destinatários específicos como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SendRuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-167">
+              <para>Use the returned  <b>SendRuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies redirecting a message to  specific recipients as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>SendRuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-168">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-168">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="d2ee2-169">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-169">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-170">
+            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-170">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.RuleAction Stop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.RuleAction Stop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._RuleActions.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stop As RuleAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::RuleAction ^ Stop { Microsoft::Office::Interop::Outlook::RuleAction ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64276)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64276)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d2ee2-171">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> do objeto com <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> sendo <b>olRuleActionStop</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-171">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object with <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> being <b>olRuleActionStop</b>.</span>
+          </span>
+          <span data-ttu-id="d2ee2-172">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-172">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="d2ee2-173">
+            <para>Use o objeto <b>RuleAction</b> retornado quando for enumerar as ações de regra de uma regra existente ou criar uma nova regra que especifica a interrupção do processamento de mais regras como uma ação. </para>
+            <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>RuleAction</b> independentemente se a regra associada a essa coleção <b>RuleActions</b> definiu tal uma ação de regra. Se a regra tiver definido e habilitado tal uma ação de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> podem ser <b>verdadeiras</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d2ee2-173">
+              <para>Use the returned  <b>RuleAction</b> object when  enumerating the rule actions of an existing rule or when creating a new rule that specifies stopping the processing of more rules as an action. </para>
+              <para>This property of the <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> collection always returns a <b>RuleAction</b> object regardless of whether the rule associated with this <b>RuleActions</b> collection has defined such a rule action. If the rule has defined and enabled such a rule action, then <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> will be <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

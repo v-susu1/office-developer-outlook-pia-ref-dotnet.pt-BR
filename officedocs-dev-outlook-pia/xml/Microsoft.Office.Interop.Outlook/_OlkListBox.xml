@@ -1,0 +1,1239 @@
+<Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630193" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _OlkListBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672DF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="99847-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99847-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="99847-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99847-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="99847-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99847-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="99847-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99847-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkListBox" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddItem">
+      <MemberSignature Language="C#" Value="public void AddItem (string ItemText, object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddItem([in]string ItemText, [in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.AddItem(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddItem (ItemText As String, Optional Index As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-553)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ItemText" Type="System.String" />
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ItemText">
+          <span data-ttu-id="99847-105">Valor a ser adicionado à lista no controle da caixa de listagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-105">Value to be added to the list in the list box control.</span>
+          </span>
+        </param>
+        <param name="Index">
+          <span data-ttu-id="99847-106">Um valor baseado em 0 que especifica a ordem do novo item na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-106">A 0-based value that specifies the order of the new item in the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-107">Adiciona um item à lista, opcionalmente, especificando um índice para o novo item que aparece na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="99847-108">
+            <para>Se o valor da <paramref name="Index" /> é igual ou maior que o número de elementos na lista, o novo item será adicionado ao final da lista.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-108">
+              <para>If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public uint BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 BackColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-109">Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-109">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span>
+          </span>
+          <span data-ttu-id="99847-110">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-110">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-111">
+            <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela".</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-111">
+              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x80000005, "Window." </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.BorderStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property BorderStyle As OlBorderStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlBorderStyle BorderStyle { Microsoft::Office::Interop::Outlook::OlBorderStyle get(); void set(Microsoft::Office::Interop::Outlook::OlBorderStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-112">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define o estilo da borda ao redor do controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-112">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span>
+          </span>
+          <span data-ttu-id="99847-113">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-113">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-114">
+            <para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-114">
+              <para>The default value is <b>olBorderStyleSingle</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-554)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-115">Remove todos os objetos da lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-115">Removes all objects from the list.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-116">Copia a seleção atual na lista suspensa para a área de transferência.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-116">Copies the current selection in the drop-down list to the clipboard.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-117">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
+          </span>
+          <span data-ttu-id="99847-118">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-118">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-119">
+            <para>O valor padrão é <b>True</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-119">
+              <para>The default value is <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-120">Retorna um <b>StdFont</b> que representa a fonte usada para processar o texto dentro do controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-120">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span>
+          </span>
+          <span data-ttu-id="99847-121">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public uint ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForeColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 ForeColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-122">Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-122">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span>
+          </span>
+          <span data-ttu-id="99847-123">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-123">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-124">
+            <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-124">
+              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x80000008, "Window Text."  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetItem">
+      <MemberSignature Language="C#" Value="public string GetItem (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetItem([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.GetItem(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetItem (Index As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetItem(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="99847-125">Um valor baseado em zero que especifica a localização de um item na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-125">A zero-based value that specifies the location of an item in the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-126">Obtém um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa um item no local especificado na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-126">Obtains a <b>String</b> (<b>string</b> in C#)  that represents an item at the specified location in the list.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="99847-127">Um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o item no local especificado na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-127">A <b>String</b> (<b>string</b> in C#)  value that represents the item at the specified location in the list.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="99847-128">
+            <para>Se <paramref name="Index" /> estiver fora do intervalo dos valores permitidos (entre zero e <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), então uma ultrapassagem de limite será retornado o erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-128">
+              <para>If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds  error will be returned.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelected">
+      <MemberSignature Language="C#" Value="public bool GetSelected (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetSelected([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.GetSelected(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSelected (Index As Integer) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool GetSelected(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64479)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="99847-129">Um valor baseado em zero que especifica a localização de um item na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-129">A zero-based value that specifies the location of an item in the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-130">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o item indexado está selecionado no momento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-130">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the indexed item is currently selected.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="99847-131">Um valor booleano (<b>bool</b> em c#) que será <b>True</b> se o item especificado está atualmente selecionado, <b>False</b> caso contrário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-131">A Boolean value (<b>bool</b> in C#) that is <b>True</b> if the specified item is currently selected, <b>False</b> otherwise.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="99847-132">
+            <para>Se <paramref name="Index" /> estiver fora do intervalo dos valores permitidos (entre zero e <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), então uma ultrapassagem de limite será retornado o erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-132">
+              <para>If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListCount">
+      <MemberSignature Language="C#" Value="public int ListCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ListCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ListCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-531)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-531)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-133">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que especifica o número de elementos na lista suspensa do controle de caixa de lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-133">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the list box control.</span>
+          </span>
+          <span data-ttu-id="99847-134">Somente leitura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-135">
+            <para>O valor padrão é zero, indicando que não há nenhum item na lista.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-135">
+              <para>The default value is zero, indicating that there are no items in the list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListIndex">
+      <MemberSignature Language="C#" Value="public int ListIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ListIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ListIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-526)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-526)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-526)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-136">Reurns ou define um valor <b>inteiro</b> (<b>int</b> em c#) que indica a localização do elemento selecionado no momento na lista da caixa de combinação de controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-136">Reurns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span>
+          </span>
+          <span data-ttu-id="99847-137">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-137">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-138">
+            <para>
+              <b>ListIndex</b> é um valor baseado em zero indexado na matriz de itens na lista.  O valor padrão é -1, indicando que nenhum item está selecionado.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-138">
+              <para>
+                <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.  The default value is -1, indicating that no item is selected.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="public bool Locked { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Locked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.Locked" />
+      <MemberSignature Language="VB.NET" Value="Public Property Locked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Locked { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-139">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o controle é bloqueado contra alteração.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-139">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span>
+          </span>
+          <span data-ttu-id="99847-140">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-140">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-141">
+            <para>o valor padrão é <b>False</b>.</para>
+            <para>Quando o controle é bloqueado, o controle não tem uma aparência de "desabilitado", mas o usuário não pode editar o conteúdo do controle.  </para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-141">
+              <para>The default value is <b>False</b>.</para>
+              <para>When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MatchEntry">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMatchEntry MatchEntry { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMatchEntry MatchEntry" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.MatchEntry" />
+      <MemberSignature Language="VB.NET" Value="Public Property MatchEntry As OlMatchEntry" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMatchEntry MatchEntry { Microsoft::Office::Interop::Outlook::OlMatchEntry get(); void set(Microsoft::Office::Interop::Outlook::OlMatchEntry value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMatchEntry</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-142">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> constante que indica como o controle procura a sua lista conforme o usuário digita.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-142">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> constant that  indicates how the control searches its list as the user types.</span>
+          </span>
+          <span data-ttu-id="99847-143">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-143">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-144">
+            <para>O valor padrão é <b>olMatchEntryComplete</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-144">
+              <para>The default value is <b>olMatchEntryComplete</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-145">Retorna ou define um <b>StdPicture</b> que representa a imagem personalizada para o cursor do mouse para este controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-145">Returns or sets a <b>StdPicture</b> that represents the custom picture to the mouse cursor for this control.</span>
+          </span>
+          <span data-ttu-id="99847-146">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-146">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-147">
+            <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-147">
+              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-148">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-148">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
+          </span>
+          <span data-ttu-id="99847-149">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-149">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-150">
+            <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-150">
+              <para>The default value is <b>olMousePointerDefault</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiSelect">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMultiSelect MultiSelect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMultiSelect MultiSelect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.MultiSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiSelect As OlMultiSelect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMultiSelect MultiSelect { Microsoft::Office::Interop::Outlook::OlMultiSelect get(); void set(Microsoft::Office::Interop::Outlook::OlMultiSelect value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-532)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-532)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-532)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiSelect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-151">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> constante que especifica o intervalo de itens que podem ser selecionados no controle de caixa de lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-151">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiSelect" /> constant that  specifies the range of items that can be selected in the list box control.</span>
+          </span>
+          <span data-ttu-id="99847-152">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-152">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveItem">
+      <MemberSignature Language="C#" Value="public void RemoveItem (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveItem([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.RemoveItem(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveItem (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveItem(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-555)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="99847-153">Um valor baseado em zero indexado na matriz de itens da lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-153">A zero-based value indexing into the array of items in the list.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-154">Remove o item especificado da lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-154">Removes the specified item from the list.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="99847-155">
+            <para>Se <paramref name="Index" /> estiver fora do intervalo dos valores permitidos (entre zero e <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), então uma ultrapassagem de limite será retornado o erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-155">
+              <para>If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetItem">
+      <MemberSignature Language="C#" Value="public void SetItem (int Index, string Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetItem([in]int32 Index, [in]string Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.SetItem(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetItem (Index As Integer, Item As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetItem(int Index, System::String ^ Item);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64478)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+        <Parameter Name="Item" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="99847-156">Um valor baseado em zero que especifica a localização de um item na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-156">A zero-based value that specifies the location of an item in the list.</span>
+          </span>
+        </param>
+        <param name="Item">
+          <span data-ttu-id="99847-157">O valor a ser usado para atualizar a lista no local especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-157">The value to be used to update the list at the specified location.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-158">Define o item no local especificado na lista para o valor especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-158">Sets the item at the specified location in the list to the specified value.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="99847-159">
+            <para>Se <paramref name="Index" /> estiver fora do intervalo dos valores permitidos (entre zero e <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), então uma ultrapassagem de limite será retornado o erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-159">
+              <para>If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelected">
+      <MemberSignature Language="C#" Value="public void SetSelected (int Index, bool Selected);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSelected([in]int32 Index, [in]bool Selected) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkListBox.SetSelected(System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetSelected (Index As Integer, Selected As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSelected(int Index, bool Selected);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64480)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+        <Parameter Name="Selected" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="99847-160">Um valor baseado em zero que especifica a localização de um item na lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-160">A zero-based value that specifies the location of an item in the list.</span>
+          </span>
+        </param>
+        <param name="Selected">
+          <span data-ttu-id="99847-161">
+            <b>True</b> para indicar que o item deve ser selecionado, <b>False</b> para indicar que o item não deve ser selecionado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-161">
+              <b>True</b> to indicate that the item should be selected, <b>False</b> to indicate that the item should not be selected.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99847-162">Define o estado selecionado de um item no local especificado na lista para o determinado <paramref name="Selected" /> valor.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-162">Sets the selected state of an item at the specified location in the list to the given <paramref name="Selected" /> value.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="99847-163">
+            <para>Se <paramref name="Index" /> estiver fora do intervalo dos valores permitidos (entre zero e <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), então uma ultrapassagem de limite será retornado o erro.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-163">
+              <para>If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-164">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que é o texto exibido no controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-164">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span>
+          </span>
+          <span data-ttu-id="99847-165">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-165">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-166">
+            <para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
+            <para>a propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-166">
+              <para>The default value of the <b>Text</b> property is the empty string.</para>
+              <para>The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextAlign">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.TextAlign" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextAlign As OlTextAlign" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlTextAlign TextAlign { Microsoft::Office::Interop::Outlook::OlTextAlign get(); void set(Microsoft::Office::Interop::Outlook::OlTextAlign value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-167">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-167">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span>
+          </span>
+          <span data-ttu-id="99847-168">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-168">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-169">
+            <para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-169">
+              <para>The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TopIndex">
+      <MemberSignature Language="C#" Value="public int TopIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TopIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.TopIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property TopIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TopIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(611)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(611)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(611)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-170">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o índice do item na parte superior da parte exibida da lista.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-170">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list.</span>
+          </span>
+          <span data-ttu-id="99847-171">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-171">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-172">
+            <para>Enquanto a lista rolará, alterará o item na parte superior da lista e o valor dessa propriedade será alterado para refletir o item atualmente exibido na parte superior da lista.</para> O valor de 
+          <para>o índice é baseado em zero. O valor padrão é -1, indicando que nenhuma ordenação especiais deve ser aplicada.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-172">
+              <para>As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</para>
+              <para>The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99847-173">Retorna ou define um <b>objeto</b> que representa o conteúdo selecionado na lista exibida pelo controle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-173">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span>
+          </span>
+          <span data-ttu-id="99847-174">Leitura/gravação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-174">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="99847-175">
+            <para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99847-175">
+              <para>The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
