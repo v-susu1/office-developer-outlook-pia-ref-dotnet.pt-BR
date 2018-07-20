@@ -1,0 +1,238 @@
+<Type Name="_SyncObject" FullName="Microsoft.Office.Interop.Outlook._SyncObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="76910bdb5f2ffd23348b9b37eff39ee5cb4ca869" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630475" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _SyncObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SyncObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SyncObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _SyncObject" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _SyncObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063083-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SyncObject.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SyncObject.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SyncObject.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SyncObject.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SyncObject.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public void Start ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Start() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SyncObject.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Start ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Start();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Começa a sincronizar pastas de um usuário usando o grupo de Envio\Recebimento especificado.
+
+</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public void Stop ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Stop() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SyncObject.Stop" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Stop ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Stop();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Encerra imediatamente a sincronização das pastas de um usuário utilizando o grupo de envio/recebimento especificado.</summary>
+        <remarks>
+          <para>Este método não desfaz uma sincronização que já tenha ocorrido.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

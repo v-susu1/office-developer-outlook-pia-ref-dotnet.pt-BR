@@ -1,0 +1,953 @@
+<Type Name="_Inspector" FullName="Microsoft.Office.Interop.Outlook._Inspector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630473" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Inspector" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspector" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Inspector" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Inspector" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063005-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8467)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Ativa a janela do objeto Inspector, trazendo-a para o primeiro plano e definindo o foco do teclado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.AttachmentSelection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AttachmentSelection As AttachmentSelection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AttachmentSelection ^ AttachmentSelection { Microsoft::Office::Interop::Outlook::AttachmentSelection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto consiste em um ou mais anexos selecionados no Inspetor. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o título. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]valuetype Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (SaveMode As OlInspectorClose)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(Microsoft::Office::Interop::Outlook::OlInspectorClose SaveMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
+      </Parameters>
+      <Docs>
+        <param name="SaveMode">O comportamento de fechamento. Se o item exibido no objeto Inspector não tiver sido alterado, esse argumento não terá efeito.</param>
+        <summary>Fecha o <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> e opcionalmente salva as alterações no item exibido do Outlook.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBars CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBars CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommandBars As CommandBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentItem">
+      <MemberSignature Language="C#" Value="public object CurrentItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentItem As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentItem { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>objeto</b> representando o item atual que está sendo exibido no Inspetor. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se nenhum item estiver aberto, uma mensagem de erro será retornada.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display (object Modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display([in]object Modal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.Display(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display (Optional Modal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8452)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Modal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Modal">
+          <b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
+        <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto para o item.</summary>
+        <remarks>
+          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlEditorType EditorType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlEditorType EditorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EditorType As OlEditorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlEditorType EditorType { Microsoft::Office::Interop::Outlook::OlEditorType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8464)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8464)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlEditorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" /> constante indicando o tipo de editor. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Desde o Microsoft Office Outlook 2007, a propriedade <b>EditorType</b> sempre retorna olEditorWord.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>inteiro</b> (<b>int</b> em c#) especificando a altura (em pixels) da janela Inspetor. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideFormPage">
+      <MemberSignature Language="C#" Value="public void HideFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HideFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.HideFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HideFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HideFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8456)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">O nome de exibição da página de formulário, ou o nome interno de uma região de formulário a ser ocultada.</param>
+        <summary>Oculta uma página de formulário ou a região de formulário no Inspetor.</summary>
+        <remarks>
+          <para>Você pode usar <b>HideFormRegion</b> para ocultar uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região de formulário pode ocultar a área de formulário.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLEditor">
+      <MemberSignature Language="C#" Value="public object HTMLEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HTMLEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.HTMLEditor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HTMLEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HTMLEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8462)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8462)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWordMail">
+      <MemberSignature Language="C#" Value="public bool IsWordMail ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsWordMail() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsWordMail () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsWordMail();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8453)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Determina se a mensagem de email associada a um inspetor é exibida no Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> ou no Microsoft Word.</summary>
+        <returns>
+          <b>True</b> se a mensagem de email é exibida no Microsoft Word (ou seja, se o Word Mail estiver em uso); Caso contrário, <b>False</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) especificando a posição (em pixels) da borda esquerda vertical de uma janela inspector da borda da tela. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedFormPages">
+      <MemberSignature Language="C#" Value="public object ModifiedFormPages { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ModifiedFormPages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.ModifiedFormPages" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedFormPages As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ModifiedFormPages { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8454)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8454)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.Pages" /> coleção que representa todas as páginas para o item no Inspetor. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Principal da página e até cinco páginas personalizáveis podem ser obtidas com o <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" /> método.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFormRegion">
+      <MemberSignature Language="C#" Value="public object NewFormRegion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object NewFormRegion() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.NewFormRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewFormRegion () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ NewFormRegion();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64493)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Abre uma nova página no modo de design, no inspetor, para uma nova área de formulário.</summary>
+        <returns>Um objeto que representa a página exibindo a área de formulário no inspetor.</returns>
+        <remarks>
+          <para>Se o Inspetor não ainda estiver no modo de design, <b>NewFormRegion</b> irá colocá-lo no modo de design.</para>
+          <para>Esse método só abre uma página para uma nova região de formulário no modo de design. Esse método não se destina a criação de uma área de formulário em tempo de execução.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenFormRegion">
+      <MemberSignature Language="C#" Value="public object OpenFormRegion (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object OpenFormRegion([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.OpenFormRegion(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenFormRegion (Path As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ OpenFormRegion(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">Um caminho de arquivo local completo para o arquivo Outlook Form Storage (.OFS) da área de formulário que deve ser aberta no inspetor.</param>
+        <summary>Abre uma página no modo de design, no inspetor, para a área de formulário especificada.</summary>
+        <returns>Um objeto que representa a página exibindo a área de formulário no inspetor.</returns>
+        <remarks>
+          <para>Se o Inspetor não ainda estiver no modo de design, <b>OpenFormRegion</b> o colocará no modo de design.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveFormRegion">
+      <MemberSignature Language="C#" Value="public void SaveFormRegion (object Page, string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveFormRegion([in]object Page, [in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SaveFormRegion(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveFormRegion (Page As Object, FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveFormRegion(System::Object ^ Page, System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Page" Type="System.Object" />
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Page">A página exibindo a área de formulário no inspetor.</param>
+        <param name="FileName">O caminho de arquivo local completo para um arquivo Outlook Form Storage (.OFS) no qual a área de formulário está sendo salva.</param>
+        <summary>Salva a página especificada no modo de design do inspetor no arquivo especificado.</summary>
+        <remarks>
+          <para>Na ordem para <b>que SaveFormRegion</b> salve a área de formulário, a região do formulário deve ter sido carregada no modo de design no Inspetor.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetControlItemProperty">
+      <MemberSignature Language="C#" Value="public void SetControlItemProperty (object Control, string PropertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetControlItemProperty([in]object Control, [in]string PropertyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetControlItemProperty(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetControlItemProperty (Control As Object, PropertyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetControlItemProperty(System::Object ^ Control, System::String ^ PropertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Control" Type="System.Object" />
+        <Parameter Name="PropertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Control">O controle que será vinculado a uma propriedade.</param>
+        <param name="PropertyName">O nome da propriedade que será vinculada ao controle.</param>
+        <summary>Vincula uma propriedade interna ou uma propriedade personalizada a um controle em um Inspetor.</summary>
+        <remarks>
+          <para>Você pode usar esse método para vincular uma propriedade interna explícita ou uma propriedade personalizada a um controle. Você deve fazer referência à propriedade pelo seu nome de cadeia de caracteres, por exemplo, <b>assunto</b>e não pelo namespace, por exemplo, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+          <para>o <paramref name="PropertyName" /> parâmetro não diferencia maiusculas de minúsculas. Por exemplo, <b>SetControlItemProperty</b> interpreta um argumento, <b>CustomerId</b>, para ser o mesmo que <b>CustomerID</b> e vincula o controle especificado a interno <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> propriedade.</para> Você também pode usar a seguinte linha de código myPage.Controls("bar") de 
+          <para>. ItemProperty = "subject" para vincular a propriedade subject a um controle. No entanto, observe que o código não confiável usando esse procedimento acionará um aviso de segurança, se a propriedade estiver protegida pela proteção de segurança do modelo de objeto, como <b>para</b>, e o computador cliente está executando o Microsoft Office Outlook 2007 ou posterior mas não tem um Configure o software antivírus apropriadamente. Você pode usar o método <b>SetControlItemProperty</b> para evitar os avisos de segurança com aplicativos confiáveis.  Para obter mais informações, consulte o <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Comportamento de segurança do modelo de objeto do Outlook</a></para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCurrentFormPage">
+      <MemberSignature Language="C#" Value="public void SetCurrentFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCurrentFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCurrentFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCurrentFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8460)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">O nome de exibição da página de formulário, ou o nome interno da região do formulário.</param>
+        <summary>Exibe a página de formulário especificado ou a região de formulário no Inspetor.</summary>
+        <remarks>
+          <para>Você pode usar <b>SetCurrentFormPage</b> para exibir uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da região do formulário, se a região de formulário for um um separada, substituir, ou a região de formulário Substituir tudo.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSchedulingStartTime">
+      <MemberSignature Language="C#" Value="public void SetSchedulingStartTime (DateTime Start);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSchedulingStartTime([in]valuetype System.DateTime Start) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.SetSchedulingStartTime(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetSchedulingStartTime (Start As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSchedulingStartTime(DateTime Start);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64647)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Start">O início do intervalo de tempo em que a guia Assistente de Agendamento do inspetor exibe horários de disponibilidade para participantes da reunião.</param>
+        <summary>Define o horário de início de um item de reunião na grade de disponibilidade, na guia Assistente de Agendamento do inspetor.</summary>
+        <remarks>
+          <para>O objeto especificado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade do pai <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto deve ser um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Guia Assistente de agendamento deve ser exibida no Inspetor, caso contrário, o Microsoft Outlook gerará um erro. Se o Outlook não é possível exibir a guia Assistente de agendamento para aquele tipo de item, o Outlook exibirá o seguinte erro: A hora de início de agendamento só pode ser definida quando o Assistente de agendamento é exibido em um item de reunião.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFormPage">
+      <MemberSignature Language="C#" Value="public void ShowFormPage (string PageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowFormPage([in]string PageName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Inspector.ShowFormPage(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowFormPage (PageName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowFormPage(System::String ^ PageName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8457)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PageName">O nome de exibição da página de formulário, ou o nome interno de uma região de formulário seja mostrado.</param>
+        <summary>Exibe um botão no grupo exibir da faixa de opções Fluent do Microsoft Office para o Inspetor, clicando em qual mostrará a região do formulário ou página especificada pelo <paramref name="PageName" />.</summary>
+        <remarks>
+          <para>Para áreas de formulário, você pode usar <b>ShowFormPage</b> para exibir o botão especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região do formulário pode usar <b>ShowFormRegion</b> para exibir o botão.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que indica a posição (em pixels) da borda superior horizontal de uma janela inspector da borda da tela. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) indicando a largura (em pixels) do objeto especificado. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlWindowState WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlWindowState WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Property WindowState As OlWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlWindowState WindowState { Microsoft::Office::Interop::Outlook::OlWindowState get(); void set(Microsoft::Office::Interop::Outlook::OlWindowState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define a propriedade com uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeração que especifica o estado da janela de uma janela do explorer ou inspector. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordEditor">
+      <MemberSignature Language="C#" Value="public object WordEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object WordEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Inspector.WordEditor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WordEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WordEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8463)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8463)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o modelo de objeto de documento do Microsoft Word da mensagem que está sendo exibida. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>WordEditor</b> só será válida se <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> retorna <b>True</b> e o <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> for <b>olEditorWord</b>. O objeto retornado de <b>WordDocument</b> fornece acesso à maior parte do modelo de objeto do Word, exceto para os seguintes membros: </para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>Tables.Add</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>Range.ConvertToTable</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>InlineShapes.AddChart</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>AddChart</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>Range.InsertXML</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>Selection.InsertXML</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>Range.ImportFragment</b>
+              </para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,281 @@
+<Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630251" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006304D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa informações sobre uma instância de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é uma exceção a uma série recorrente.</summary>
+    <remarks>
+      <para>Ao contrário da maioria dos outros objetos do Microsoft Outlook, o objeto de <b>exceção</b> é um objeto somente leitura. Isso significa que não é possível criar um objeto <b>Exception</b> mas, em vez disso, o objeto é criado quando uma propriedade de um <b>AppointmentItem</b> é alterada. Por exemplo, se você alterar o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> propriedade de um <b>AppointmentItem</b>, você criou uma <b>exceção</b> em <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
+      <para>
+        <b>Observação</b>: O <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto está no <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , não o próprio objeto <b>AppointmentItem</b> .</para>
+      <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
+      <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AppointmentItem AppointmentItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AppointmentItem AppointmentItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.AppointmentItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentItem As AppointmentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AppointmentItem ^ AppointmentItem { Microsoft::Office::Interop::Outlook::AppointmentItem ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8193)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8193)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AppointmentItem</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é a exceção. Não é válida para compromissos excluídos. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
+          <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto . Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deleted">
+      <MemberSignature Language="C#" Value="public bool Deleted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Deleted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.Deleted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Deleted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Deleted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8194)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8194)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que será <b>True</b> se o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> foi excluído do padrão recorrente. Somente leitura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.ItemProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemProperties As ItemProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ItemProperties ^ ItemProperties { Microsoft::Office::Interop::Outlook::ItemProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalDate">
+      <MemberSignature Language="C#" Value="public DateTime OriginalDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OriginalDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.OriginalDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OriginalDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8192)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8192)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna a <b>Data e hora</b> que indica a data e a hora da original um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> antes de ser alterado. Essa propriedade retornará a data original mesmo se o <b>AppointmentItem</b> tiver sido excluído. No entanto, ele não retornará a hora original se tiver ocorrido exclusão. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Exception.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

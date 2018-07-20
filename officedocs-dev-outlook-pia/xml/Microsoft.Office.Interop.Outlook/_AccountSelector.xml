@@ -1,0 +1,185 @@
+<Type Name="_AccountSelector" FullName="Microsoft.Office.Interop.Outlook._AccountSelector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629553" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _AccountSelector" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AccountSelector" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AccountSelector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _AccountSelector" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _AccountSelector" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063103-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AccountSelector.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AccountSelector.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AccountSelector.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O pai do objeto <b>AccountSelector</b> retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedAccount">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Account SelectedAccount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Account SelectedAccount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AccountSelector.SelectedAccount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedAccount As Account" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Account ^ SelectedAccount { Microsoft::Office::Interop::Outlook::Account ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64626)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64626)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa a conta selecionada na exibição Backstage do Microsoft Office no Microsoft Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Na interface de usuário do Outlook, você pode selecionar uma conta explicitamente na guia informações do modo de exibição Backstage, ou você pode selecionar uma conta implicitamente quando você seleciona uma pasta em uma lista de pastas. A propriedade <b>SelectedAccount</b> representa a conta atualmente selecionada no modo de exibição Backstage para uma determinada instância do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Para determinar a conta que está selecionada implicitamente, identificar o objeto de <b>conta</b> que tenha seu <see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" /> igual da propriedade o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> propriedade da pasta atual (que é representado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto <b>Explorer</b> ).</para>
+          <para>Essa propriedade retorna <b>Null</b> (<b>Nothing</b> no Visual Basic) se nenhuma conta forem definida no perfil da sessão; isso ocorre, o <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object que representa todas as contas no perfil atual é 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AccountSelector.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Retorna <b>Null</b> (<b>Nothing</b> no Visual Basic) se não houver nenhuma sessão conectada.</para>
+          <para>Você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

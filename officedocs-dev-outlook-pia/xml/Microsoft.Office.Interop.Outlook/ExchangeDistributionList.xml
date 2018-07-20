@@ -1,0 +1,41 @@
+<Type Name="ExchangeDistributionList" FullName="Microsoft.Office.Interop.Outlook.ExchangeDistributionList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ebf12affddd051d674e3d01da3f8d2217bd29299" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629748" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExchangeDistributionList implements class Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ExchangeDistributionList&#xA;Implements _ExchangeDistributionList" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ExchangeDistributionList : Microsoft::Office::Interop::Outlook::_ExchangeDistributionList" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ExchangeDistributionList</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ExchangeDistributionListClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>O objeto <b>ExchangeDistributionList</b> fornece informações detalhadas sobre um <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> que representa uma lista de distribuição do Exchange.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />.</para>
+      <para>
+        <b>ExchangeDistributionList</b> é uma classe derivada de <b>AddressEntry</b>e é retornado no lugar de <b>AddressEntry</b> quando o chamador executa uma <b>QueryInterface</b> na <b>AddressEntry</b>.</para> Propriedade 
+      <para>o AddressEntry.Members oferece suporte a enumeração membros de uma lista de distribuição. <b>ExchangeDistributionList</b> adiciona as propriedades de primeira classe para <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />, <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />, e <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />. Você também pode acessar outras propriedades específicas para a lista de distribuição do Exchange que não estejam expostas no modelo de objeto por meio do <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para><para>Algumas propriedades, como os <b>comentários</b> são propriedades de leitura / gravação. A definição dessas propriedades requer o código está sendo executado em uma conta apropriada de administrador do Exchange; sem permissões suficientes, chamar o <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" /> método resultará em um erro "permission denied". </para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

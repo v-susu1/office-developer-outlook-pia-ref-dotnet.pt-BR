@@ -1,0 +1,372 @@
+<Type Name="_AutoFormatRules" FullName="Microsoft.Office.Interop.Outlook._AutoFormatRules">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630174" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AutoFormatRules implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _AutoFormatRules&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _AutoFormatRules : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063094-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AutoFormatRule Add (string Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AutoFormatRule Add([in]string Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Add(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Name As String) As AutoFormatRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AutoFormatRule ^ Add(System::String ^ Name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">O nome da nova regra de formatação.</param>
+        <summary>Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o acrescenta ao <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</summary>
+        <returns>Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</returns>
+        <remarks>
+          <para>Nomes duplicados para objetos <b>AutoFormatRule</b> são permitidos na coleção <b>AutoFormatRules</b> . Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Regras internas de formatação não são contadas contra desse limite.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos na coleção especificada. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AutoFormatRule Insert (string Name, object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AutoFormatRule Insert([in]string Name, [in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Insert (Name As String, Index As Object) As AutoFormatRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AutoFormatRule ^ Insert(System::String ^ Name, System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64342)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">O nome do novo objeto.</param>
+        <param name="Index">O número de índice no qual inserir o novo objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção em onde o novo objeto deve ser inserido.</param>
+        <summary>Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o insere no índice especificado dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</summary>
+        <returns>Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</returns>
+        <remarks>
+          <para>Esse método não pode ser usado para inserir regras de formatação personalizadas entre ou além das regras internas de formatação.</para> São permitidos nomes de 
+          <para>duplicata para objetos <b>AutoFormatRule</b> da coleção <b>AutoFormatRules</b> . Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Formatação internas regras não são contadas contra desse limite.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AutoFormatRule this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AutoFormatRule Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As AutoFormatRule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AutoFormatRule ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::AutoFormatRule ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</param>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto da coleção.</summary>
+        <value>Um objeto <b>AutoFormatRule</b> que representa o objeto especificado.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</param>
+        <summary>Remove um objeto do conjunto.</summary>
+        <remarks>
+          <para>Se o nome de uma regra de formatação a ser removido é especificado no <paramref name="Index" />, esse método removerá o primeiro <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto que corresponde ao nome especificado.</para>
+          <para>Internas de formatação não pode ser removida da coleção de regras.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAll">
+      <MemberSignature Language="C#" Value="public void RemoveAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.RemoveAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64343)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Remove todas as regras de formatação personalizadas do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</summary>
+        <remarks>
+          <para>Esse método removerá cada <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> o valor da propriedade é definida como <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Salva todas as alterações para <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</summary>
+        <remarks>
+          <para>Qualquer alteração feita à coleção <b>AutoFormatRules</b> , como a adição ou remoção de objetos <b>AutoFormatRule</b> , ou em um objeto <b>AutoFormatRule</b> dentro da coleção é persistentes somente se esse método for chamado.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._AutoFormatRules.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

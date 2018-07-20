@@ -1,0 +1,109 @@
+<Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629823" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PropertyPage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006307E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma página de propriedades personalizada na caixa de diálogo Opções ou na caixa de diálogo Propriedades da pasta.</summary>
+    <remarks>
+      <para>Outlook usa este objeto para permitir que uma página de propriedades personalizada interagir com o botão Aplicar na caixa de diálogo.</para> Objeto <b>PropertyPage</b> do 
+      <para>é um objeto abstrato. Ou seja, o objeto <b>PropertyPage</b> da biblioteca de objetos do Microsoft Outlook não contém nenhum código de implementação. Em vez disso, ele é fornecido como um modelo para ajudar a implementar o objeto no Microsoft Visual Basic. Isso oferece um conjunto predefinido de interfaces que o Outlook pode usar para determinar se a sua página de propriedades personalizada foi alterada e para notificar o programa que o usuário clicou no botão Okey ou o aplicar. (Se sua página de propriedades personalizada não depende do botão Aplicar, então você não precisará implementar o objeto <b>PropertyPage</b> .)</para><para>Uma página de propriedades personalizada é um controle ActiveX que é exibido pelo Outlook na caixa de diálogo Opções ou na caixa de diálogo de propriedades de pasta quando o usuário clica na guia da página de propriedades personalizada. Para implementar o objeto <b>PropertyPage</b> no Visual Basic .NET, o módulo que contém o código de implementação deve conter a seguinte instrução Implements.</para><code>Implements Outlook.PropertyPage</code><para>o módulo também deve conter procedimentos que implementam as propriedades e métodos do objeto <b>PropertyPage</b> .</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Aplica as alterações feitas em uma página de propriedades personalizada.</summary>
+        <remarks>
+          <para>Porque o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> é um objeto abstrato que é implementada no seu aplicativo (e não pelo próprio Microsoft Outlook), a implementação de <b>Aplicar</b> o método se parece com um procedimento de evento em seu código de programa. Ou seja, você pode escrever o código que implementa o método praticamente da mesma maneira que você seria escrever um procedimento de evento. Em outras palavras, o Outlook chama o método <b>Apply</b> para notificar seu programa de que o usuário executou uma ação na caixa de diálogo exibindo a página de propriedade personalizada que requer que o programa aplique os valores de propriedade alterados pelo usuário.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dirty">
+      <MemberSignature Language="C#" Value="public bool Dirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.PropertyPage.Dirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o conteúdo de uma página de propriedades personalizada tiver sido alterado. O controle ActiveX que implementa o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> objeto define o valor dessa propriedade, e o Microsoft Outlook consulta em resposta ao <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> método de um <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPageInfo">
+      <MemberSignature Language="C#" Value="public void GetPageInfo (out string HelpFile, out int HelpContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetPageInfo([out] string&amp; HelpFile, [out] int32&amp; HelpContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.PropertyPage.GetPageInfo(System.String@,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetPageInfo (ByRef HelpFile As String, ByRef HelpContext As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetPageInfo([Runtime::InteropServices::Out] System::String ^ % HelpFile, [Runtime::InteropServices::Out] int % HelpContext);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpFile" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="HelpContext" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="HelpFile">Especifica o arquivo da Ajuda associado à página de propriedades.</param>
+        <param name="HelpContext">Especifica a identificação de contexto do tópico da Ajuda associado à página de propriedades.</param>
+        <summary>Retorna informações da Ajuda sobre uma página de propriedades personalizada.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

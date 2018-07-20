@@ -1,0 +1,94 @@
+<Type Name="ItemsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ItemsEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c65291c20f628cc554d12112dfcb9d27603f7631" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629382" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ItemsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ItemsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ItemsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ItemsEvents), typeof(Microsoft.Office.Interop.Outlook.ItemsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ItemAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemsEvents_ItemAddEventHandler ItemAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemsEvents_ItemAddEventHandler ItemAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" />
+      <MemberSignature Language="VB.NET" Value="Event ItemAdd As ItemsEvents_ItemAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemsEvents_ItemAddEventHandler ^ ItemAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando um ou mais itens são adicionados à coleção especificada. Esse evento não é executado quando um número grande de arquivos é adicionado à pasta de uma só vez.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemsEvents_ItemChangeEventHandler ItemChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemsEvents_ItemChangeEventHandler ItemChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" />
+      <MemberSignature Language="VB.NET" Value="Event ItemChange As ItemsEvents_ItemChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemsEvents_ItemChangeEventHandler ^ ItemChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando um item na coleção especificada é alterado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ItemsEvents_ItemRemoveEventHandler ItemRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ItemsEvents_ItemRemoveEventHandler ItemRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemRemove" />
+      <MemberSignature Language="VB.NET" Value="Event ItemRemove As ItemsEvents_ItemRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ItemsEvents_ItemRemoveEventHandler ^ ItemRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando um item é excluído da coleção especificada. Esse evento não é executado quando o último item em um arquivo de pastas particulares (. pst) é excluído ou se 16 ou mais itens são excluídos de uma só vez de um arquivo PST, caixa de correio do Microsoft Exchange ou uma pasta pública do Exchange.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1170 @@
+<Type Name="_OlkTextBox" FullName="Microsoft.Office.Interop.Outlook._OlkTextBox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629548" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _OlkTextBox" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTextBox" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTextBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _OlkTextBox" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _OlkTextBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672DA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public bool AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoSize As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoSize { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão para essa propriedade é <b>False</b>.</para>
+          <para>Para uma caixa de texto de linha única configuração <b>AutoSize</b> como <b>True</b> define automaticamente a largura da área de exibição para o comprimento do texto na caixa de texto.</para>
+          <para>Para uma caixa de texto com várias linhas que não contém texto, a configuração de <b>AutoSize</b> como <b>True</b> automaticamente exibe o texto como uma coluna. A largura da coluna de texto é definida para acomodar a letra mais larga do tamanho da fonte. A altura da coluna de texto é definida para exibir todo o texto da caixa de texto. Para uma caixa de texto com várias linhas que contém texto, a configuração <b>AutoSize</b> como <b>True</b> automaticamente estende a caixa de texto verticalmente para exibir o texto inteiro. Não altera a largura da caixa de texto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoTab">
+      <MemberSignature Language="C#" Value="public bool AutoTab { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoTab" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoTab" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoTab As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoTab { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(217)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma guia é inserida automaticamente quando o controle foram preenchido para o comprimento máximo especificado. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão para essa propriedade é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoWordSelect">
+      <MemberSignature Language="C#" Value="public bool AutoWordSelect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoWordSelect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.AutoWordSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoWordSelect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoWordSelect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(218)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma palavra ou um caractere é a unidade básica utilizada para estender uma seleção.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public uint BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 BackColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BorderStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBorderStyle BorderStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.BorderStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property BorderStyle As OlBorderStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlBorderStyle BorderStyle { Microsoft::Office::Interop::Outlook::OlBorderStyle get(); void set(Microsoft::Office::Interop::Outlook::OlBorderStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define o estilo da borda ao redor do controle.   Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clear() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkTextBox.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-554)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Remove o texto na caixa de texto.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkTextBox.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Copia o conteúdo do controle para a área de transferência.</summary>
+        <remarks>
+          <para>Os dados são copiados em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="public void Cut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkTextBox.Cut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Remove o conteúdo do controle e copia-o para a área de transferência.</summary>
+        <remarks>
+          <para>Os dados são copiados para a área de transferência em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragBehavior">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDragBehavior DragBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDragBehavior DragBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.DragBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragBehavior As OlDragBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDragBehavior DragBehavior { Microsoft::Office::Interop::Outlook::OlDragBehavior get(); void set(Microsoft::Office::Interop::Outlook::OlDragBehavior value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(225)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constante que indica se o sistema permite o recurso de arrastar e soltar para esse controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olDragDropDisabled</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableRichText">
+      <MemberSignature Language="C#" Value="public bool EnableRichText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableRichText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnableRichText" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableRichText As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableRichText { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64524)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterFieldBehavior">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior EnterFieldBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior EnterFieldBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnterFieldBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnterFieldBehavior As OlEnterFieldBehavior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior EnterFieldBehavior { Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior get(); void set(Microsoft::Office::Interop::Outlook::OlEnterFieldBehavior value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(224)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica o comportamento de seleção ao inserir o controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnterKeyBehavior">
+      <MemberSignature Language="C#" Value="public bool EnterKeyBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnterKeyBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.EnterKeyBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnterKeyBehavior As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnterKeyBehavior { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-544)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que define a maneira como a tecla ENTER se comporta no controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Quando essa propriedade for <b>True</b>, pressionando ENTER cria uma nova linha.  Quando essa propriedade for <b>False</b>, pressionar ENTER move o foco para o próximo controle na ordem de tabulação. O valor padrão para essa propriedade é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>StdFont</b> que representa a fonte usada para processar o texto dentro do controle.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public uint ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForeColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 ForeColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideSelection">
+      <MemberSignature Language="C#" Value="public bool HideSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HideSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.HideSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property HideSelection As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideSelection { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(207)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma seleção é exibida ou oculta para o controle quando o controle perde o foco.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão dessa propriedade é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntegralHeight">
+      <MemberSignature Language="C#" Value="public bool IntegralHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IntegralHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.IntegralHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property IntegralHeight As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IntegralHeight { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se esse controle exibe linhas completas de texto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se essa propriedade for <b>True</b>, o controle exibe linhas de preenchimento de texto; Caso contrário, ele exibe linhas parciais.  O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="public bool Locked { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Locked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Locked" />
+      <MemberSignature Language="VB.NET" Value="Public Property Locked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Locked { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o controle é bloqueado contra alteração.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>o valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é bloqueado, o controle não tem uma aparência de "desabilitado", mas o usuário não pode editar o conteúdo do controle.  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLength">
+      <MemberSignature Language="C#" Value="public int MaxLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxLength As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxLength { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-533)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica o número máximo de caracteres para o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> deste controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é zero, o que significa apenas que nenhum comprimento máximo para o valor tiver sido definido para este controle. Um comprimento máximo ainda pode ser in-loco com base na memória disponível ou outros fatores.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>StdPicture</b> que representam a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLine">
+      <MemberSignature Language="C#" Value="public bool MultiLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MultiLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MultiLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiLine As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MultiLine { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-537)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se um controle pode aceitar e exibir várias linhas de texto.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordChar">
+      <MemberSignature Language="C#" Value="public string PasswordChar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PasswordChar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.PasswordChar" />
+      <MemberSignature Language="VB.NET" Value="Public Property PasswordChar As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PasswordChar { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-534)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica um caractere de espaço reservado que deve ser exibido repetidamente como uma cadeia de caracteres em vez dos caracteres reais inseridos na caixa de texto.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>Aplicação de comum de uma <para>da definição dessa propriedade como <b>True</b> é entrada de senha, onde você faria não deseja exibir os caracteres reais da senha que o usuário insere na caixa de texto. O valor padrão é uma sequência vazia.</para><para>Apenas um caractere é aceito para o valor dessa propriedade.  Se uma cadeia de caracteres de mais de um caractere é definida, somente o primeiro caractere será usado como o caractere de espaço reservado e o restante será ignorado.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public void Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._OlkTextBox.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Paste ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Paste();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cola o conteúdo da área de transferência no controle.</summary>
+        <remarks>
+          <para>O conteúdo da área de transferência é colado em texto não formatado.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scrollbars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlScrollBars Scrollbars { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlScrollBars Scrollbars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Scrollbars" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scrollbars As OlScrollBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlScrollBars Scrollbars { Microsoft::Office::Interop::Outlook::OlScrollBars get(); void set(Microsoft::Office::Interop::Outlook::OlScrollBars value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-535)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlScrollBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlScrollBars" /> constante que especifica se o controle possui uma barra de rolagem vertical, barra de rolagem horizontal ou ambos.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olScrollBarsNone</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionMargin">
+      <MemberSignature Language="C#" Value="public bool SelectionMargin { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SelectionMargin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelectionMargin" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelectionMargin As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SelectionMargin { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(220)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o usuário pode selecionar uma linha de texto clicando na região à esquerda do texto.   Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se <b>True</b>, clicar na margem causa a seleção do texto.  Se <b>Falso</b>, essa ação não seleciona qualquer texto. O valor padrão é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelLength">
+      <MemberSignature Language="C#" Value="public int SelLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SelLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelLength As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelLength { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-548)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica o número de caracteres da seleção atual.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>o valor padrão é zero, o que significa que nenhum texto está selecionado atualmente.</para>
+          <para>a propriedade <b>SelLength</b> é sempre válida, mesmo quando o controle não tem o foco.</para>
+          <para>Configuração <b>SelLength</b> com um valor menor do que zero causará um erro.   Tentativa de definir o valor maior do que <b>MaxLength</b> resultados na definição <b>SelLength</b> como <b>MaxLength</b>.  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelStart">
+      <MemberSignature Language="C#" Value="public int SelStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SelStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-547)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica um o ponto inicial do texto selecionado ou o ponto de inserção se nenhum texto foi selecionado.    Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>o valor padrão é zero, o que significa que nenhum texto está selecionado e o ponto de inserção estiver no início.</para> Propriedade 
+          <para>o <b>SelStart</b> é sempre válida, mesmo quando o controle não tem o foco.  Configuração de <b>SelStart</b> com um valor menor do que zero causa um erro.  A configuração de <b>SelStart</b> com um valor maior do que <b>MaxLength</b> redefinirá <b>SelStart</b><b>MaxLength</b>.  A alteração do valor de <b>SelStart</b> cancela qualquer seleção existente, coloca o ponto de inserção no texto e define a propriedade <b>SelLength</b> como zero. </para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelText">
+      <MemberSignature Language="C#" Value="public string SelText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SelText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SelText { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-546)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-546)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a parte selecionada no momento do valor da caixa de texto.    Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SelText</b> representa a seleção atual, o que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>o valor padrão é uma sequência vazia.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TabKeyBehavior">
+      <MemberSignature Language="C#" Value="public bool TabKeyBehavior { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TabKeyBehavior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.TabKeyBehavior" />
+      <MemberSignature Language="VB.NET" Value="Public Property TabKeyBehavior As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TabKeyBehavior { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-545)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica como o controle responde à tecla TAB.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se essa propriedade for <b>True</b>, pressionando a tecla TAB insere um caractere de tabulação na caixa de texto.  Se essa propriedade for <b>False</b>, o foco se move para o próximo controle na ordem de tabulação.</para>
+          <para>o valor padrão é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-517)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que é o texto exibido no controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
+          <para>a propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextAlign">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlTextAlign TextAlign" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.TextAlign" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextAlign As OlTextAlign" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlTextAlign TextAlign { Microsoft::Office::Interop::Outlook::OlTextAlign get(); void set(Microsoft::Office::Interop::Outlook::OlTextAlign value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10004)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>objeto</b> que representa o conteúdo do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public bool WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkTextBox.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

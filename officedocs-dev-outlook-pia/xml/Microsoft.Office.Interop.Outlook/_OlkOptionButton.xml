@@ -1,0 +1,478 @@
+<Type Name="_OlkOptionButton" FullName="Microsoft.Office.Interop.Outlook._OlkOptionButton">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="94b8fb890349e57a4e4f60c5cbe69796c591bc34" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629544" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _OlkOptionButton" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkOptionButton" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkOptionButton" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _OlkOptionButton" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _OlkOptionButton" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672DC-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkOptionButton" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accelerator">
+      <MemberSignature Language="C#" Value="public string Accelerator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Accelerator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Accelerator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accelerator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Accelerator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o acelerador ou a tecla de acesso para o controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>o valor padrão é uma sequência vazia, o que significa que não há nenhuma tecla de acesso.  Se a propriedade estiver definida com uma cadeia de caracteres de mais de um caractere, o valor será truncado para o primeiro caractere.  </para>
+          <para>Você não pode usar dígitos em uma tecla aceleradora.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alignment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAlignment Alignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAlignment Alignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Alignment" />
+      <MemberSignature Language="VB.NET" Value="Public Property Alignment As OlAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAlignment Alignment { Microsoft::Office::Interop::Outlook::OlAlignment get(); void set(Microsoft::Office::Interop::Outlook::OlAlignment value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constante que indica a posição de um controle em relação à sua legenda.    Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olAlignmentLeft</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public uint BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 BackColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x8000000F, "Face do botão".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlBackStyle BackStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBackStyle BackStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.BackStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackStyle As OlBackStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlBackStyle BackStyle { Microsoft::Office::Interop::Outlook::OlBackStyle get(); void set(Microsoft::Office::Interop::Outlook::OlBackStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que altera o estilo do plano de fundo do controle entre transparente e opaco. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que aparece em um objeto para identificar ou descrevê-lo.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é baseado no nome do controle.  A posição da legenda em relação à caixa de seleção é determinada pelo <see cref="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Alignment" /> propriedade.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>StdFont</b> que representa a fonte usada para processar o texto dentro do controle.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public uint ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForeColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 ForeColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupName">
+      <MemberSignature Language="C#" Value="public string GroupName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.GroupName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GroupName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-541)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-541)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-541)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica um grupo de controles de botão de opção mutuamente exclusivos.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Apenas um membro do grupo pode ser selecionado ao mesmo tempo.  A seleção de um novo membro do grupo automaticamente remove a seleção anterior de qualquer outro membro do grupo.  </para>
+          <para>o valor padrão é uma sequência vazia.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>StdPicture</b> que representa a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>objeto</b> que representa o estado do controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Para o controle de botão de opção, o valor é <b>True</b> ou <b>False</b>, que representa se o botão foi selecionado ou não. O valor padrão é <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public bool WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkOptionButton.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor padrão é <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

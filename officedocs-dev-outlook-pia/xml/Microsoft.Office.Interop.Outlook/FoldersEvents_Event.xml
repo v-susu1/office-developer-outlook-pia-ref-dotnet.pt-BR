@@ -1,0 +1,97 @@
+<Type Name="FoldersEvents_Event" FullName="Microsoft.Office.Interop.Outlook.FoldersEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8712690eb460563beab04c8826e629a5eefa9363" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631216" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FoldersEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FoldersEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FoldersEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FoldersEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.FoldersEvents), typeof(Microsoft.Office.Interop.Outlook.FoldersEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FolderAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler FolderAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderAdd" />
+      <MemberSignature Language="VB.NET" Value="Event FolderAdd As FoldersEvents_FolderAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderAddEventHandler ^ FolderAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando uma pasta é adicionada à especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler FolderChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderChange" />
+      <MemberSignature Language="VB.NET" Value="Event FolderChange As FoldersEvents_FolderChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderChangeEventHandler ^ FolderChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando uma pasta no especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto é alterado.</summary>
+        <remarks>
+          <para>O evento <b>FolderChange</b> aciona quando uma pasta em um objeto da coleção <b>Folders</b> for alterada, por meio de ação do usuário ou código de programa. A alteração pode ser um usuário ou um código de programa renomeando a pasta, ou adicionar, alterar ou remover um item na pasta.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler FolderRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.FoldersEvents_Event.FolderRemove" />
+      <MemberSignature Language="VB.NET" Value="Event FolderRemove As FoldersEvents_FolderRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::FoldersEvents_FolderRemoveEventHandler ^ FolderRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando uma pasta é removida da especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

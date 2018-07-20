@@ -1,0 +1,40 @@
+<Type Name="Rule" FullName="Microsoft.Office.Interop.Outlook.Rule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5c55c981fc78fa0d8ef492722162f10384e54b60" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630461" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Rule : Microsoft.Office.Interop.Outlook._Rule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Rule implements class Microsoft.Office.Interop.Outlook._Rule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Rule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Rule&#xA;Implements _Rule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Rule : Microsoft::Office::Interop::Outlook::_Rule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Rule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma regra do Outlook.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Rule" />. </para>
+      <para>Tanto os regras do lado do cliente e servidor são representados pelo objeto <b>Rule</b> .</para> Modelo de objeto do 
+      <para>as regras consiste basicamente esses objetos: <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />, <b>regra</b>, <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />, e os objetos derivados para determinadas ações de regra e condições de regra. Ele fornece paridade parcial com as regras e alertas assistente na interface de usuário do Outlook. Embora ele não dá suporte a criação de cada regra única que você possivelmente pode criar usando o assistente, ele oferece suporte a condições e ações de regra mais comumente usadas. </para><para>Para obter mais informações sobre como criar, editar e excluir regras de maneira programática, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Gerenciando regras no modelo de objeto do Outlook</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">como: criar uma regra para mover emails específicos para uma pasta</a></para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

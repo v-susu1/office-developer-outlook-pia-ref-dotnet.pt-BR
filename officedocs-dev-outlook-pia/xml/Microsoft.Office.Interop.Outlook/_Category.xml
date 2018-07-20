@@ -1,0 +1,391 @@
+<Type Name="_Category" FullName="Microsoft.Office.Interop.Outlook._Category">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630702" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Category" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Category" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Category" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Category" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Category" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Category" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryBorderColor">
+      <MemberSignature Language="C#" Value="public uint CategoryBorderColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 CategoryBorderColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CategoryBorderColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 CategoryBorderColor { System::UInt32 get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64539)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64539)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>OLE_COLOR</b> que representa a cor da borda da amostra de cores exibida para um <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Definindo o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propriedade do objeto <b>Category</b> para uma <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante altera o valor dessa propriedade, bem como o valor do <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> e <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> propriedades.</para>
+          <para>Essa cor deve ser usada para exibir a borda de uma amostra de cores sombreada gradiente para o objeto <b>Category</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryGradientBottomColor">
+      <MemberSignature Language="C#" Value="public uint CategoryGradientBottomColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 CategoryGradientBottomColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CategoryGradientBottomColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 CategoryGradientBottomColor { System::UInt32 get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64541)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64541)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>OLE_COLOR</b> que representa a cor do gradiente inferior da amostra de cores exibida para um <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Definindo o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propriedade do objeto <b>Category</b> para uma <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante altera o valor dessa propriedade, bem como o valor do <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> e <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propriedades.</para>
+          <para>Essa cor deve ser usada para exibir uma amostra de cores sombreada gradiente para o objeto <b>Category</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryGradientTopColor">
+      <MemberSignature Language="C#" Value="public uint CategoryGradientTopColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 CategoryGradientTopColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CategoryGradientTopColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 CategoryGradientTopColor { System::UInt32 get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64540)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64540)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>OLE_COLOR</b> que representa a cor do gradiente superior da amostra de cores exibida para um <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Definindo o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propriedade do objeto <b>Category</b> para uma <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante altera o valor dessa propriedade, bem como o valor do <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> e <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propriedades.</para>
+          <para>Essa cor deve ser usada para exibir uma amostra de cores sombreada gradiente para o objeto <b>Category</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryID">
+      <MemberSignature Language="C#" Value="public string CategoryID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CategoryID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CategoryID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CategoryID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64464)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64464)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o identificador exclusivo para o <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Porque o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> propriedade de um objeto <b>Category</b> pode ser alterada seja programaticamente ou por ação do usuário, cada objeto <b>Category</b> é identificado exclusivamente por um identificador global exclusivo (GUID), atribuído ao objeto, que pode ser recuperado o uso desta propriedade. O GUID é apresentado como uma cadeia de caracteres usando o seguinte formato:</para>
+          <code>{00000000-0000-0000-0000-000000000000}</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlCategoryColor Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlCategoryColor Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As OlCategoryColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlCategoryColor Color { Microsoft::Office::Interop::Outlook::OlCategoryColor get(); void set(Microsoft::Office::Interop::Outlook::OlCategoryColor value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64419)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64419)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64419)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante que indica a cor utilizada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Você pode compartilhar a mesma cor para várias categorias, especificando a constante mesma que representa a cor de categoria na enumeração <b>OlCategoryColor</b> para esses objetos de <b>categoria</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShortcutKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey ShortcutKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey ShortcutKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShortcutKey As OlCategoryShortcutKey" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlCategoryShortcutKey ShortcutKey { Microsoft::Office::Interop::Outlook::OlCategoryShortcutKey get(); void set(Microsoft::Office::Interop::Outlook::OlCategoryShortcutKey value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64420)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64420)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64420)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" /> constante que especifica a tecla de atalho usada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Qualquer constante <b>OlCategoryShortcutKey</b> que não seja <b>olCategoryShortcutKeyNone</b> só pode ser usado por um objeto de <b>categoria</b> a qualquer momento. Definir o valor dessa propriedade como uma constante <b>OlCategoryShortcutKey</b> já em conjuntos de uso a propriedade <b>ShortcutKey</b> do objeto <b>Category</b> já usando o valor especificado para <b>olCategoryShortcutKeyNone</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

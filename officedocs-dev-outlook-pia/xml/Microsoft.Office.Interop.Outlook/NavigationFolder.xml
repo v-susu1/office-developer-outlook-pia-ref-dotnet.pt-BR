@@ -1,0 +1,41 @@
+<Type Name="NavigationFolder" FullName="Microsoft.Office.Interop.Outlook.NavigationFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c2a2409fbe1ec306f5eef687c9635875089a48f5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631037" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolder implements class Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolder&#xA;Implements _NavigationFolder" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationFolder : Microsoft::Office::Interop::Outlook::_NavigationFolder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationFolder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationFolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma pasta de navegação exibida em um grupo de navegação de um módulo de navegação no Painel de Navegação.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />. </para>
+      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um objeto <b>NavigationFolder</b> do <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> coleção do pai <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> objeto. Use o <see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> método do conjunto <b>NavigationFolders</b> para criar um novo objeto <b>NavigationFolder</b> com base em existente <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto.</para>
+      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" /> método para retornar ou definir o objeto de <b>pasta</b> na qual o objeto <b>NavigationFolder</b> se baseia.</para> Uso de 
+      <para>o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> propriedade para determinar se a pasta de navegação está selecionada e o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" /> propriedade para retornar ou definir a posição de exibição da pasta de navegação no painel de navegação. Você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" /> propriedade para retornar o nome para exibição da pasta de navegação no painel de navegação.</para><para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> propriedade para determinar se uma pasta de navegação pode ser removida da coleção <b>NavigationFolders</b> e o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" /> propriedade para retornar ou definir o modo de exibição de uma pasta de navegação associada com um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> objeto.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

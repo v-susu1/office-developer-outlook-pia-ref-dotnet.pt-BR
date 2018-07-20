@@ -1,0 +1,1399 @@
+<Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629623" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _TableView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063096-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowInCellEditing">
+      <MemberSignature Language="C#" Value="public bool AllowInCellEditing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInCellEditing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowInCellEditing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowInCellEditing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se a edição na célula é permitida no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se essa propriedade for definida como <b>True</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlwaysExpandConversation">
+      <MemberSignature Language="C#" Value="public bool AlwaysExpandConversation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AlwaysExpandConversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AlwaysExpandConversation" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlwaysExpandConversation As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AlwaysExpandConversation { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64643)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se a conversas ficam sempre totalmente expandidas no modo de exibição de tabela. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>AlwaysExpandConversation</b> é semelhante à seleção Sempre expandir conversas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
+          <para>
+            <b>True</b> indica essa conversa grupos ficam totalmente expandidos no modo de exibição de tabela por padrão. <b>False</b> indica que grupos de conversas ficam apenas parcialmente expandidos.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Aplica-se a <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto para o modo de exibição atual.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AutoFormatRules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoFormatRules As AutoFormatRules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AutoFormatRules ^ AutoFormatRules { Microsoft::Office::Interop::Outlook::AutoFormatRules ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> as regras aplicáveis ao objeto que representa o conjunto de formatação a <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticColumnSizing">
+      <MemberSignature Language="C#" Value="public bool AutomaticColumnSizing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutomaticColumnSizing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutomaticColumnSizing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutomaticColumnSizing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se as colunas da <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto são dimensionados automaticamente pelo Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se essa propriedade for definida como <b>False</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticGrouping">
+      <MemberSignature Language="C#" Value="public bool AutomaticGrouping { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutomaticGrouping" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutomaticGrouping As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutomaticGrouping { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o agrupamento automático está ativo no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se essa propriedade for definida como <b>True</b>, os itens são agrupados automaticamente no modo de exibição de acordo com a organização especificada na interface de usuário do Outlook. Se essa propriedade for definida como <b>False</b>, os itens são agrupados em modo de exibição de acordo com o conteúdo da <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> propriedade.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoPreview">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAutoPreview AutoPreview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAutoPreview AutoPreview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoPreview As OlAutoPreview" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAutoPreview AutoPreview { Microsoft::Office::Interop::Outlook::OlAutoPreview get(); void set(Microsoft::Office::Interop::Outlook::OlAutoPreview value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64376)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoPreview</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoPreview" /> constante que determina como os itens são visualizados automaticamente pelo <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoPreviewFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont AutoPreviewFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont AutoPreviewFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoPreviewFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ AutoPreviewFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa a fonte usada ao pré-visualizar automaticamente Outlook itens o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont ColumnFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont ColumnFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColumnFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ ColumnFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa a fonte usada ao exibir os cabeçalhos de colunas no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">O nome do novo modo de exibição.</param>
+        <param name="SaveOption">A opção de gravação para o novo modo de exibição.</param>
+        <summary>Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto baseado em existentes <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto.</summary>
+        <returns>Um objeto <b>View</b> que representa o novo modo de exibição.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultExpandCollapseSetting">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.DefaultExpandCollapseSetting" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultExpandCollapseSetting As OlDefaultExpandCollapseSetting" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting DefaultExpandCollapseSetting { Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting get(); void set(Microsoft::Office::Interop::Outlook::OlDefaultExpandCollapseSetting value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64384)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultExpandCollapseSetting" /> constante que determina a configuração de expansão padrão para grupos no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Exclui um objeto de uma coleção.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ GetTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64285)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object que representa todos os itens do Microsoft Outlook que estão contidos em um <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />objeto.</summary>
+        <returns>Retorna um objeto <b>Table</b>cujas linhas representam itens no modo de exibição de tabela atual.</returns>
+        <remarks>
+          <para>O método <b>GetTable</b> do objeto <b>TableView</b> retorna uma tabela de itens de uma ou mais pastas no mesmo armazenamento ou distribuindo sobre repositórios de vários, em uma exibição agregada. Por exemplo, uma exibição agregada obtida por uma pesquisa em todos os itens de email usando a pesquisa instantânea. Esse comportamento difere do <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object, que obtém um objeto table que contém itens da mesma pasta.</para> Objeto 
+          <para>pai <b>TableView</b> deve ser baseado na pasta atual do explorer ativo, conforme indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade da ativa <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Se a pasta não é uma pasta atual de um explorer visível, ou se o modo de exibição nessa pasta, o que é indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade, não é um modo de exibição de tabela, o Outlook retornará um erro.</para><para>o filtro para a tabela resultante é definido pelo <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> propriedade do objeto <b>TableView</b> . Se a propriedade <b>Filter</b> do objeto <b>TableView</b> não está vazia, <b>GetTable</b> retorna um objeto <b>Table</b> com linhas que representam um subconjunto de itens disponíveis no modo de exibição filtrado. Se subsequentemente, o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método é chamado na tabela resultante, aplicando o <b>Restrict</b> método é equivalente a uma operação AND lógica com o filtro representado por <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</para><para><b>GetTable</b> retorna uma <b>tabela</b> com o conjunto de coluna padrão. <b>GetTable</b> não retorna uma <b>tabela</b> que contém colunas para cada campo no <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> conjunto do modo de exibição atual. Para obter mais informações sobre o conjunto de colunas de uma tabela com base no tipo de pasta padrão, consulte padrão propriedades exibidas em um objeto Table. Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção. Propriedades que você não pode adicionar a uma tabela como colunas são listadas nas propriedades sem suporte em um objeto Table ou filtro Table.</para><para>a ordem das linhas da tabela resultante não é garantido para ser o mesmo que a ordem dos itens na exibição atual no qual <b>GetTable</b> se baseia. Por exemplo, <b>GetTable</b> não retorna uma tabela com uma linha que representa um cabeçalho de agrupar por no modo de exibição. Para classificar as linhas na tabela retornado da <b>GetTable</b>, use o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> método do objeto <b>Table</b> .</para><para>o objeto pai do objeto <b>Table</b> retornado pela <b>GetTable</b> é o objeto <b>TableView</b> . O objeto pai do objeto <b>TableView</b> é o <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto e o objeto pai da coleção <b>Views</b> é o objeto <b>Folder</b> .</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToDate(DateTime Date);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">A data para a qual o modo de exibição deve ser alterado.</param>
+        <summary>Altera a data utilizada pelo modo de exibição atual para exibir as informações.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GridLineStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlGridLineStyle GridLineStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlGridLineStyle GridLineStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.GridLineStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property GridLineStyle As OlGridLineStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlGridLineStyle GridLineStyle { Microsoft::Office::Interop::Outlook::OlGridLineStyle get(); void set(Microsoft::Office::Interop::Outlook::OlGridLineStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlGridLineStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlGridLineStyle" /> constante que representa o estilo de linha usado para linhas de grade no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupByFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OrderFields GroupByFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields GroupByFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupByFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OrderFields ^ GroupByFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object que representa o conjunto de campos pelo qual os itens exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto são agrupados. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HideReadingPaneHeaderInfo">
+      <MemberSignature Language="C#" Value="public bool HideReadingPaneHeaderInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HideReadingPaneHeaderInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.HideReadingPaneHeaderInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property HideReadingPaneHeaderInfo As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HideReadingPaneHeaderInfo { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se o cabeçalho para um item do Outlook é exibido no painel de leitura para o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLinesInMultiLineView">
+      <MemberSignature Language="C#" Value="public int MaxLinesInMultiLineView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLinesInMultiLineView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.MaxLinesInMultiLineView" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxLinesInMultiLineView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxLinesInMultiLineView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que determina o número máximo de linhas exibidas no modo de várias linhas para o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade pode ser definida como um valor entre 2 e 20. Se essa propriedade estiver definida como um valor menor que 2, a propriedade é definida como 2. Se essa propriedade é definida como um valor maior que 20, a propriedade é definida como 20. O valor padrão para essa propriedade é 2.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLine">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMultiLine MultiLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMultiLine MultiLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiLine As OlMultiLine" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMultiLine MultiLine { Microsoft::Office::Interop::Outlook::OlMultiLine get(); void set(Microsoft::Office::Interop::Outlook::OlMultiLine value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMultiLine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" /> constante que determina como várias linhas são exibidas no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> propriedade estiver definida como <b>False</b> ou se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>, o valor dessa propriedade é automaticamente definido como <b>olAlwaysSingleLine</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultiLineWidth">
+      <MemberSignature Language="C#" Value="public int MultiLineWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MultiLineWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.MultiLineWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property MultiLineWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MultiLineWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa a largura do texto (em caracteres) necessária para acionar o modo de várias linhas no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade pode ser definida como um valor entre 1 e 999. Se essa propriedade é definida como um valor menor que 1, a propriedade é definida como 1. Se essa propriedade é definida como um valor maior do que 999, a propriedade é definida como 999. O valor padrão para essa propriedade é 100.</para>
+          <para>Essa propriedade só se aplica se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é definida como <b>olWidthMultiLine</b>. O valor dessa propriedade determina o ponto no qual o objeto <b>TableView</b> exibe o texto para um item do Outlook no modo multiline.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
+        <remarks>
+          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont RowFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont RowFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ RowFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64360)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64360)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa a fonte usada ao exibir linhas de <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._TableView.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Salva a exibição ou salva as alterações nela realizadas.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto é criado usando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowConversationByDate">
+      <MemberSignature Language="C#" Value="public bool ShowConversationByDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowConversationByDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowConversationByDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowConversationByDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowConversationByDate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64640)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os itens em uma conversa são verticalmente alinhado à esquerda e ordenada pela data de recebimento e a hora, com o item mais recente na parte superior. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se o modo de exibição de tabela não for organizado por conversa, a definição da propriedade <b>ShowConversationByDate</b> não reorganizará nenhum item no modo de exibição. Para exibir itens por conversa, no grupo conversas da guia Exibir da faixa de opções Fluent do Microsoft Office, marque mostrar como conversas.</para>
+          <para>Verticalmente a definição da propriedade <b>ShowConversationByDate</b> como <b>True</b> alinha à esquerda os itens de conversa e ordena-los por sua data de recebimento e a hora, com o item mais recente na parte superior. Esta organização no modo de exibição de conversa é o mesmo que ter desmarcado a configuração de exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
+          <para>a definição da propriedade <b>ShowConversationByDate</b> como <b>False</b> recua itens de conversa e ordena-los por sua data de recebimento e a hora com o primeiro item na parte superior. A raiz de cada thread da conversa é exibida em primeiro lugar, seguido por itens que pertencem a esse thread, cada esquerda-recuado da última. Esta organização no modo de exibição de conversa é o mesmo que ter selecionado a configuração de exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
+          <para>Para aplicar uma alteração para a propriedade <b>ShowConversationByDate</b> , a chamada a <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> método. As conversas são exibidas como recolhido no modo de exibição de conversa. Se você expandir uma conversa, você verá itens da conversa reorganizado e exibidos da maneira que você definir a propriedade <b>ShowConversationByDate</b> .</para>
+          <para />
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowConversationSendersAboveSubject">
+      <MemberSignature Language="C#" Value="public bool ShowConversationSendersAboveSubject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowConversationSendersAboveSubject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowConversationSendersAboveSubject" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowConversationSendersAboveSubject As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowConversationSendersAboveSubject { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64649)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o modo de exibição de tabela exibe os remetentes participantes acima da linha de assunto no cabeçalho da conversa ou abaixo dele. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True</b> indica que o modo de exibição de tabela exibe os remetentes participantes acima da linha de assunto no cabeçalho da conversa. <b>False</b> indica que o modo de exibição de tabela exibe os remetentes participantes abaixo da linha de assunto no cabeçalho da conversa.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFullConversations">
+      <MemberSignature Language="C#" Value="public bool ShowFullConversations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowFullConversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowFullConversations" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowFullConversations As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowFullConversations { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64641)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se é necessário exibir itens de conversa de outras pastas, como a pasta Itens enviados, como parte da conversa no modo de exibição de tabela. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>ShowFullConversations</b> só terá efeito se o modo de exibição de tabela atual exibir itens por data e conversa.</para>
+          <para>
+            <b>True</b> indica que os itens da mesma conversa são exibidos por padrão, como parte da conversa no modo de exibição de tabela. <b>False</b> indica que somente os itens de conversa na pasta atual são exibidos no modo de exibição de tabela.</para>
+          <para>a propriedade <b>ShowFullConversations</b> é semelhante à seleção de Mostrar mensagens de outras pastas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowItemsInGroups">
+      <MemberSignature Language="C#" Value="public bool ShowItemsInGroups { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowItemsInGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowItemsInGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowItemsInGroups As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowItemsInGroups { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se os itens do Outlook são mostrados no grupos dentro do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowNewItemRow">
+      <MemberSignature Language="C#" Value="public bool ShowNewItemRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowNewItemRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowNewItemRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowNewItemRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowNewItemRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se a nova linha do item será exibida no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor dessa propriedade se aplica apenas se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowReadingPane">
+      <MemberSignature Language="C#" Value="public bool ShowReadingPane { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowReadingPane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowReadingPane" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowReadingPane As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowReadingPane { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o painel de leitura é exibido no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowUnreadAndFlaggedMessages">
+      <MemberSignature Language="C#" Value="public bool ShowUnreadAndFlaggedMessages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowUnreadAndFlaggedMessages" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ShowUnreadAndFlaggedMessages" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowUnreadAndFlaggedMessages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowUnreadAndFlaggedMessages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OrderFields SortFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.OrderFields SortFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SortFields As OrderFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OrderFields ^ SortFields { Microsoft::Office::Interop::Outlook::OrderFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object que representa o conjunto de campos pelo qual os itens exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto são ordenados. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFields ViewFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFields ViewFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ViewFields As ViewFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFields ^ ViewFields { Microsoft::Office::Interop::Outlook::ViewFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64341)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> object que representa o conjunto de campos com o qual Outlook itens são exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que indica o tipo de exibição do modo de exibição. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TableView.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,361 @@
+<Type Name="_Rules" FullName="Microsoft.Office.Interop.Outlook._Rules">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630222" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rules implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rules" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Rules&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Rules : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CC-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Rule Create (string Name, Microsoft.Office.Interop.Outlook.OlRuleType RuleType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Rule Create([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlRuleType RuleType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Rules.Create(System.String,Microsoft.Office.Interop.Outlook.OlRuleType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create (Name As String, RuleType As OlRuleType) As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Rule ^ Create(System::String ^ Name, Microsoft::Office::Interop::Outlook::OlRuleType RuleType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64266)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Rule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="RuleType" Type="Microsoft.Office.Interop.Outlook.OlRuleType" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Um identificador de cadeia de caracteres para a regra, que será representado por <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" /> após a criação da regra. Os nomes de regras em um conjunto não são exclusivos.</param>
+        <param name="RuleType">Uma constante na enumeração <b>OlRuleType</b> que determina se a regra é aplicada ao envio ou recebimento de uma mensagem.</param>
+        <summary>Cria um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto com o nome especificado por <paramref name="Name" /> e o tipo de regra especificado por <paramref name="RuleType" />.</summary>
+        <returns>Um objeto <b>Rule</b> que representa a nova regra criada recentemente.</returns>
+        <remarks>
+          <para>O <paramref name="RuleType" /> parâmetro da regra adicionada determina ações de regra válidas, condições de regra e regra condições de exceção que pode ser associada com o objeto <b>Rule</b> .</para>
+          <para>Quando uma regra é adicionada à coleção, o <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> da nova regra é 1. O <b>ExecutionOrder</b> de outras regras na coleção é incrementada em 1.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRssRulesProcessingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsRssRulesProcessingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRssRulesProcessingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.IsRssRulesProcessingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRssRulesProcessingEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRssRulesProcessingEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64533)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64533)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o processamento das regras RSS tiver sido habilitado. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Depois de configurar <b>IsRssRulesProcessingEnabled</b>, você deve chamar <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para manter essa configuração. Essa propriedade é mantida em uma configuração de nível de caixa de correio que será móvel com o usuário.  </para>
+          <para>Se <b>IsRssRulesProcessingEnabled</b> for <b>False</b>, então nenhuma condição sobre alimentações RSS será avaliada durante o processamento das regras.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Rule this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Rule Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Rule ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::Rule ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Rule</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Um baseado em 1 <b>inteiro</b> (<b>int</b> em c#) valor valor representando um índice no conjunto <b>Rules</b> ou um nome de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o valor da propriedade padrão de uma regra, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</param>
+        <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto especificado por <paramref name="Index" />, que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto ou o nome da regra.</summary>
+        <value>Um objeto <b>Rule</b> que corresponda à regra especificada por <paramref name="Index" />.</value>
+        <remarks>
+          <para>Retorna um erro quando a regra não pode ser encontrada na coleção.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O pai do objeto Rules é o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Rules.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Um valor <b>inteiro</b> (<b>int</b> em c#) representando um índice no conjunto <b>Rules</b> ou um nome de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o valor da propriedade padrão de uma regra, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</param>
+        <summary>Remove da coleção <b>Rules</b> um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto especificado por <paramref name="Index" />, que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto ou o nome da regra.</summary>
+        <remarks>
+          <para>Retorna um erro quando a regra não pode ser encontrada na coleção.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (object ShowProgress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save([in]object ShowProgress) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (Optional ShowProgress As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ShowProgress" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ShowProgress">
+          <b>True</b> para exibir a caixa de diálogo de progresso, <b>False</b> para salvar as regras sem mostrar o progresso.</param>
+        <summary>Salva todas as regras no <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto.</summary>
+        <remarks>
+          <para>Após habilitar uma regra, você também deve salvar a regra usando <b>rules. Save</b> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra é ativada somente depois de ter sido salvo com êxito.</para>
+          <para>
+            <b>Rules. Save</b> pode ser uma operação morosa em termos de desempenho em conexões lentas com o Exchange server. Para obter mais informações sobre como usar a caixa de diálogo de progresso, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Gerenciando regras no modelo de objeto do Outlook</a></para>
+          <para>Salvar regras que são incompatíveis ou que incorretamente definida ações ou condições (como uma sequência vazia para <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) retornará um erro .</para>
+          <para>O Exchange server limita o número máximo de regras que podem ser suportados por um repositório. <b>Rules. Save</b> retornará um erro quando esse limite for atingido.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Rules.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,111 @@
+<Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630697" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _DDocSiteControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006F026-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Um controle que exibe o corpo de um item do Outlook.</summary>
+    <remarks>
+      <para>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar o objeto e seus membros; se referir a essa interface para obter informações sobre cada um deles.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public sbyte ReadOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadOnly As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte ReadOnly { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356664)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que especifica se o corpo exibido no controle só pode ser exibido e não pode ser modificado. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>True</b> para indicar que o controle só exibe o corpo e não oferece suporte a sua modificação; <b>False</b> para indicar que o controle suporta tanto exibir e modificar do corpo do item.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuppressAttachments">
+      <MemberSignature Language="C#" Value="public sbyte SuppressAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int8 SuppressAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DDocSiteControl.SuppressAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuppressAttachments As SByte" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::SByte SuppressAttachments { System::SByte get(); void set(System::SByte value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64483)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.SByte</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) especificado se anexos do item do Outlook não devem ser exibidos no controle. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade só se aplica aos arquivos anexados ao item do Outlook na caixa anexo e não é aplicável a arquivos anexados embutida como itens incorporados no item do Outlook.</para>
+          <para>
+            <b>True</b> para indicar que o controle não exibirá os anexos do item; <b>False</b> para indicar que o controle suporta exibindo os anexos do item.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

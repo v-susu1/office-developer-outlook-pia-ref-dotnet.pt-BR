@@ -1,0 +1,93 @@
+<Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0e5b8b037c6560b38e2cf451d02456b1d07b151" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629578" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlTimeStyle" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4FD8B708-E730-49B5-BDD3-B807F48E5B83")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Especifica como os valores de hora são exibidos e como as entradas de hora são interpretadas por um controle de hora.</summary>
+    <remarks>
+      <para>Usar o controle de tempo com o estilo de <b>olTimeStyleShortDuration</b> para campos de duração, como o <see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" /> de um <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />. Use o controle de tempo com o estilo de <b>olTimeStyleTimeDuration</b> para a hora de término de um item de compromisso. Use o controle de tempo com o estilo de <b>olTimeStyleTimeOnly</b> para a hora de início de um item de compromisso.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olTimeStyleShortDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleShortDuration = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleShortDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleShortDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A parte suspensa do controle de hora exibe somente os valores de duração com o intervalo definido pelo <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" /> propriedade.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeDuration = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A parte suspensa do controle de hora exibe valores de hora iniciando a partir do <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> e usa a propriedade <b>Olktimecontrol</b> como incremento.  Caixa de edição do controle de hora exibe a duração do <b>ReferenceTime</b> até o momento selecionado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeOnly">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeOnly" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>A parte suspensa do controle de hora exibe somente valores de hora com o intervalo definido pela propriedade <b>Olktimecontrol</b>.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

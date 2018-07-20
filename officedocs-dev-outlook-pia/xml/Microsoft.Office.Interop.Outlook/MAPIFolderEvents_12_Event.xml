@@ -1,0 +1,83 @@
+<Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629368" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12), typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Esta é uma interface .NET criada durante o processamento de uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Essa interface implementa todos os eventos de interfaces anteriores e os novos eventos adicionais. Se referir a essa interface para obter informações sobre todos os eventos do objeto COM. No entanto, usar o <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> interface para métodos de acesso, propriedades e eventos do objeto COM.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFolderMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeFolderMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderMove As MAPIFolderEvents_12_BeforeFolderMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeFolderMoveEventHandler ^ BeforeFolderMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando uma pasta está prestes a ser movida ou excluída como resultado de uma ação ou pelo código do programa.</summary>
+        <remarks>
+          <para>Este evento é acionado quando a pasta está prestes a ser movido para outra pasta (incluindo a pasta Itens excluídos) ou quando a pasta está prestes a ser excluído permanentemente.  Ele não é acionado durante o arquivamento automático ou sincronizando operations.</para>
+          <para>Se a ação for uma exclusão permanente, a <paramref name="MoveTo" /> pasta retornada no evento será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemMove As MAPIFolderEvents_12_BeforeItemMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeItemMoveEventHandler ^ BeforeItemMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando um item está prestes a ser movido ou excluído de uma pasta, como resultado de uma ação ou pelo código do programa.</summary>
+        <remarks>
+          <para>Este evento é acionado quando o item está prestes a ser movido para outra pasta (incluindo a pasta Itens excluídos) ou quando o item está prestes a ser excluído permanentemente. Ele não é acionado durante o arquivamento automático ou sincronizando operations.</para>
+          <para>Se a ação for uma exclusão permanente, a <paramref name="MoveTo" /> pasta retornada no evento será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

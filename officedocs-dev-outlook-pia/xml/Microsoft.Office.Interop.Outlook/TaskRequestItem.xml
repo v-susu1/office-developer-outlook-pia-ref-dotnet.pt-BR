@@ -1,0 +1,45 @@
+<Type Name="TaskRequestItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ca2148a5b7cda0116aa8e3dbfee3aea7f0f7f33e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630462" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TaskRequestItem : Microsoft.Office.Interop.Outlook._TaskRequestItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestItem implements class Microsoft.Office.Interop.Outlook._TaskRequestItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestItem&#xA;Implements _TaskRequestItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TaskRequestItem : Microsoft::Office::Interop::Outlook::_TaskRequestItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TaskRequestItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TaskRequestItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063036-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma alteração na lista Tarefas do destinatário, iniciada por outra pessoa ou como resultado de uma tarefa em grupo.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItemClass" />.</para>
+      <para>Ao contrário de outros objetos do Microsoft Outlook, você não pode criar esse objeto. Quando o destinatário aplica o <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Assign" /> e <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> métodos para um <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto para atribuir (delegar) a tarefa associada a outro usuário, <b>TaskRequestItem</b> objeto é criado quando o item é recebido na caixa de entrada do destinatário.</para>
+      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestItem.GetAssociatedTask(System.Boolean)" /> método para retornar o objeto <b>TaskItem</b> e trabalhe diretamente com o objeto <b>TaskItem</b> para responder à solicitação.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

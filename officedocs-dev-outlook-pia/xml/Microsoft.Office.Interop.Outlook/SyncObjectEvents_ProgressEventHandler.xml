@@ -1,0 +1,47 @@
+<Type Name="SyncObjectEvents_ProgressEventHandler" FullName="Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2760f48737100ee480f9825aed11b843583c81f8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629926" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, string Description, int Value, int Max);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncObjectEvents_ProgressEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObjectEvents_ProgressEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyncObjectEvents_ProgressEventHandler(State As OlSyncState, Description As String, Value As Integer, Max As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SyncObjectEvents_ProgressEventHandler(OlSyncState State, System::String ^ Description, int Value, int Max);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="State" Type="Microsoft.Office.Interop.Outlook.OlSyncState" />
+    <Parameter Name="Description" Type="System.String" />
+    <Parameter Name="Value" Type="System.Int32" />
+    <Parameter Name="Max" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="State">Um valor que identifica o estado atual do processo de sincronização.</param>
+    <param name="Description">Uma descrição textual do estado atual do processo de sincronização.</param>
+    <param name="Value">Especifica o valor atual do processo de sincronização (como o número de itens sincronizados).</param>
+    <param name="Max">O valor máximo que <paramref name="Value" /> pode alcançar. A proporção entre <paramref name="Value" /> para <paramref name="Max" /> representa a porcentagem concluída do processo de sincronização.</param>
+    <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

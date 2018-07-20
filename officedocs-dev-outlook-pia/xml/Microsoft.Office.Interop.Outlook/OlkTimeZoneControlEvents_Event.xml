@@ -1,0 +1,382 @@
+<Type Name="OlkTimeZoneControlEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ace53552d870de047458ea4d3f31ae51e1131a0d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630943" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkTimeZoneControlEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeZoneControlEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeZoneControlEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkTimeZoneControlEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents), typeof(Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_AfterUpdateEventHandler AfterUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_AfterUpdateEventHandler AfterUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event AfterUpdate As OlkTimeZoneControlEvents_AfterUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_AfterUpdateEventHandler ^ AfterUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_AfterUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre depois que os dados do controle foram alterados através da interface do usuário.</summary>
+        <remarks>
+          <para>
+            <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />e <b>AfterUpdate</b> pode ocorrer sempre que os dados no controle está sendo salva o item. A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira: </para>
+          <list type="number">
+            <item>
+              <description>usuário focaliza o controle</description>
+            </item>
+            <item>
+              <description>
+                <b>BeforeUpdate</b> ocorre</description>
+            </item>
+            <item>
+              <description>dados do controle são atualizados</description>
+            </item>
+            <item>
+              <description>
+                <b>AfterUpdate</b> ocorre </description>
+            </item>
+            <item>
+              <description>
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> ocorre: usuário move o foco para longe do controle</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler BeforeUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler BeforeUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeUpdate As OlkTimeZoneControlEvents_BeforeUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_BeforeUpdateEventHandler ^ BeforeUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando os dados do controle são alterados através da interface do usuário e estão prestes a serem salvos no item.</summary>
+        <remarks>
+          <para>Cancelar esta propriedade irá reverterá o controle para o valor atual da propriedade e retornará o foco para o controle.</para>
+          <para>
+            <b>BeforeUpdate</b> e <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> podem ocorrer a qualquer momento em que os dados no controle está sendo salva o item. A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira: </para>
+          <list type="number">
+            <item>
+              <description>usuário focaliza o controle</description>
+            </item>
+            <item>
+              <description>
+                <b>BeforeUpdate</b> ocorre</description>
+            </item>
+            <item>
+              <description>dados do controle são atualizados</description>
+            </item>
+            <item>
+              <description>
+                <b>AfterUpdate</b> ocorre </description>
+            </item>
+            <item>
+              <description>
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> ocorre: usuário move o foco para longe do controle</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As OlkTimeZoneControlEvents_ChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> alterações na propriedade.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As OlkTimeZoneControlEvents_ClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_ClickEventHandler ^ Click;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário clica dentro do controle.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DoubleClickEventHandler DoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DoubleClickEventHandler DoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event DoubleClick As OlkTimeZoneControlEvents_DoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_DoubleClickEventHandler ^ DoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário clica duas vezes dentro do controle.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropButtonClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DropButtonClickEventHandler DropButtonClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DropButtonClickEventHandler DropButtonClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" />
+      <MemberSignature Language="VB.NET" Value="Event DropButtonClick As OlkTimeZoneControlEvents_DropButtonClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_DropButtonClickEventHandler ^ DropButtonClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DropButtonClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário clica no botão de soltar para expandir a lista suspensa do controle de fuso horário, ou quando o <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> método é chamado programaticamente.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Enter" />
+      <MemberSignature Language="VB.NET" Value="Event Enter As OlkTimeZoneControlEvents_EnterEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_EnterEventHandler ^ Enter;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o controle recebe o foco, imediatamente após o evento <b>Exit</b> do controle o anterior.</summary>
+        <remarks>
+          <para>Este é semelhante ao evento <b>GotFocus</b> exposto por controles de código gerenciado ou no Microsoft Visual Basic 6.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />
+      <MemberSignature Language="VB.NET" Value="Event Exit As OlkTimeZoneControlEvents_ExitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_ExitEventHandler ^ Exit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre logo depois que o foco passa deste controle para outro controle no mesmo formulário.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As OlkTimeZoneControlEvents_KeyDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_KeyDownEventHandler ^ KeyDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando um usuário pressiona uma tecla.</summary>
+        <remarks>
+          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As OlkTimeZoneControlEvents_KeyPressEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_KeyPressEventHandler ^ KeyPress;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário pressiona uma tecla ANSI.</summary>
+        <remarks>
+          <para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
+          <para>Um evento <b>KeyPress</b> não ocorre sob as seguintes condições:</para>
+          <list type="bullet">
+            <item>
+              <para>Pressionando TAB </para>
+            </item>
+            <item>
+              <para>Pressionando insira </para>
+            </item>
+            <item>
+              <para>pressionando uma tecla de seta </para>
+            </item>
+            <item>
+              <para>quando um pressionamento de tecla faz o foco mover de um controle para outro</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As OlkTimeZoneControlEvents_KeyUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_KeyUpEventHandler ^ KeyUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário libera uma tecla.</summary>
+        <remarks>
+          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do parâmetro Shift.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As OlkTimeZoneControlEvents_MouseDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre quando o usuário pressiona um botão do mouse no controle.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As OlkTimeZoneControlEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre depois que um movimento do mouse foi registrado sobre o controle.</summary>
+        <remarks>
+          <para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As OlkTimeZoneControlEvents_MouseUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkTimeZoneControlEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Ocorre depois que o usuário libera um botão do mouse que foi pressionado no controle.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

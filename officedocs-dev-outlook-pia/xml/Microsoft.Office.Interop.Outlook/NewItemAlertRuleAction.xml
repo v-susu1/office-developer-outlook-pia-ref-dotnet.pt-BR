@@ -1,0 +1,43 @@
+<Type Name="NewItemAlertRuleAction" FullName="Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5ad4a71718d32d76e1f0d077fbf4c866ed78853d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629882" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NewItemAlertRuleAction : Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NewItemAlertRuleAction implements class Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NewItemAlertRuleAction&#xA;Implements _NewItemAlertRuleAction" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NewItemAlertRuleAction : Microsoft::Office::Interop::Outlook::_NewItemAlertRuleAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NewItemAlertRuleActionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma ação que exibe um alerta de novo item para o usuário.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction" />. </para>
+      <para>
+        <b>NewItemAlertRuleAction</b> é derivado do <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto. Cada regra está associada uma <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto que tem um <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.NewItemAlert" /> propriedade. A propriedade <b>NewItemAlert</b> sempre retorna um objeto <b>NewItemAlertRuleAction</b> . Se a regra tem uma ação de regra habilitado que exibe o alerta especificado na caixa de diálogo alerta item novo, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /> seria <b>verdadeiro</b>.</para>
+      <para>Para obter mais informações sobre a especificação de ações de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

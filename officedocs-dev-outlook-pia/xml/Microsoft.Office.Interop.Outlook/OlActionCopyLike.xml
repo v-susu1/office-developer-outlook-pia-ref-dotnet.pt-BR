@@ -1,0 +1,126 @@
+<Type Name="OlActionCopyLike" FullName="Microsoft.Office.Interop.Outlook.OlActionCopyLike">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa645b393eb5513da0133626f8f3965d1adb7f3b" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630435" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionCopyLike extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlActionCopyLike" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlActionCopyLike" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica de que forma as propriedades do item serão copiadas</summary>
+    <remarks>
+      <para>Usado pelo <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> propriedade de um <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> para especificar como propriedades do item serão copiadas para o novo item criado quando a <b>ação</b> é executada.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olForward">
+      <MemberSignature Language="C#" Value="olForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olForward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olForward" />
+      <MemberSignature Language="VB.NET" Value="olForward" />
+      <MemberSignature Language="C++ CLI" Value="olForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Propriedades do novo item serão definidas, de tal modo que o novo item é um encaminhamento do item original.  Se a criação de uma nova <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, o valor das propriedades <b>para</b> e <b>CC</b> no novo item estará vazio e a propriedade <b>Subject</b> do novo item será como o <b>assunto</b> original com um prefixo "firmware:" (consulte <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> propriedade) adicionada.    Os anexos no item original serão copiados para o novo item.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReply">
+      <MemberSignature Language="C#" Value="olReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReply = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReply" />
+      <MemberSignature Language="VB.NET" Value="olReply" />
+      <MemberSignature Language="C++ CLI" Value="olReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Propriedades do novo item serão definidas, de tal modo que o novo item é uma resposta para o item original.    Se a criação de uma nova <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, o valor do campo original <b>para</b> será copiado para a propriedade <b>SenderEmailAddress</b> do novo item, o campo CC ficará em branco e o campo de <b>assunto</b> do novo item será o <b>assunto</b> original com um prefixo, como "RE:" (consulte <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> propriedade) adicionada.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReplyAll">
+      <MemberSignature Language="C#" Value="olReplyAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReplyAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReplyAll" />
+      <MemberSignature Language="VB.NET" Value="olReplyAll" />
+      <MemberSignature Language="C++ CLI" Value="olReplyAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Propriedades do novo item serão definidas, de tal modo que o novo item é uma resposta a todos os remetentes do item original.  Se a criação de uma nova <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, o valor das propriedades <b>SenderEmailAddress</b> e <b>CC</b> será copiado para a propriedade <b>To</b> do novo item e a propriedade <b>Subject</b> do novo item será o assunto do item original com um prefixo como "RE:" (consulte <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> propriedade) adicionada.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olReplyFolder">
+      <MemberSignature Language="C#" Value="olReplyFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olReplyFolder = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olReplyFolder" />
+      <MemberSignature Language="VB.NET" Value="olReplyFolder" />
+      <MemberSignature Language="C++ CLI" Value="olReplyFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Se a criação de uma nova <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> com base em uma antiga, a propriedade Post para o novo item conterá o endereço de pasta ativa, a propriedade <b>Subject</b> do item original será copiada para a propriedade <b>ConversationTopic</b> do novo item e o <b> Assunto</b> propriedade do novo item estará vazia.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olRespond">
+      <MemberSignature Language="C#" Value="olRespond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlActionCopyLike olRespond = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlActionCopyLike.olRespond" />
+      <MemberSignature Language="VB.NET" Value="olRespond" />
+      <MemberSignature Language="C++ CLI" Value="olRespond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>&gt;Usado exclusivamente para ações do botão de votação</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

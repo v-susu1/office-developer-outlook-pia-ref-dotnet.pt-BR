@@ -1,0 +1,45 @@
+<Type Name="Folder" FullName="Microsoft.Office.Interop.Outlook.Folder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6c625d85c01ec31ae74570f0ecc93846b7a7fb1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20631267" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Folder : Microsoft.Office.Interop.Outlook.MAPIFolder, Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Folder implements class Microsoft.Office.Interop.Outlook.MAPIFolder, class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Folder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Folder&#xA;Implements MAPIFolder, MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Folder : Microsoft::Office::Interop::Outlook::MAPIFolder, Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolder</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063006-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma pasta do Outlook.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar todos os membros de evento, propriedade e método do objeto COM <b>pasta</b>. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />.</para>
+      <para>Um objeto <b>Folder</b> pode conter outros objetos <b>Folder</b> , bem como itens do Outlook. Use a propriedade <b>Folders</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto ou outro objeto <b>Folder</b> para retornar o conjunto de pastas em um <b>NameSpace</b> ou em uma pasta. Você pode navegar pastas aninhadas iniciando com uma pasta de nível superior, diga a caixa de entrada e, em seguida, usando uma combinação do <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> propriedade, que retorna o conjunto de pastas sob um objeto <b>Folder</b> na hierarquia e o <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> propriedade (<b> Isso</b> em c#), que retorna uma pasta dentro do <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</para> Há 
+      <para>é um conjunto de pastas em um armazenamento de dados do Outlook que suporta a funcionalidade padrão do Outlook. Uso <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />, especificando um <paramref name="index" /> isto é uma das seguintes constantes no <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeração para retornar uma das pastas padrão do Outlook no objeto <b>NameSpace</b> do Outlook.</para><para>Enquanto geralmente é uma boa prática colocar itens que atendem a mesma funcionalidade na mesma pasta, uma pasta pode conter itens de diferentes tipos. Por exemplo, por padrão, a pasta de calendário pode conter <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> e <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> objetos e os contatos de pasta pode conter <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> e <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" /> objetos. Em geral, quando for enumerar itens em uma pasta, não assuma o tipo de um item na pasta; verificar a classe de mensagem do item antes de acessar propriedades que são aplicáveis ao item.</para> Uso de 
+      <para>o <see cref="M:Microsoft.Office.Interop.Outlook._Folders.Add(System.String,System.Object)" /> método para adicionar uma pasta para o objeto <b>Folders</b> . O método <b>Add</b> tem um argumento opcional que pode ser usado para especificar o tipo de itens que podem ser armazenados nessa pasta. Por padrão, a pastas criadas dentro de outra pasta herdam o tipo da pasta pai.</para> Observe que, quando os itens de um tipo específico são salvos, eles serão salvos diretamente na pasta padrão correspondente do 
+      <para>. Por exemplo, quando o <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" /> método é aplicado ao <b>MeetingItem</b> na pasta caixa de entrada, o compromisso retornado será salvo na pasta de calendário padrão.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

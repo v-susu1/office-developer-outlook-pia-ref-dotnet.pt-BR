@@ -1,0 +1,40 @@
+<Type Name="SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook.SelectNamesDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1038fc20c54c3612c2632d5fef2324d05be5d97f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630071" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SelectNamesDialog : Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SelectNamesDialog implements class Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SelectNamesDialog&#xA;Implements _SelectNamesDialog" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SelectNamesDialog : Microsoft::Office::Interop::Outlook::_SelectNamesDialog" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._SelectNamesDialog</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.SelectNamesDialogClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Exibe a caixa de diálogo Selecionar nomes para o usuário selecionar entradas de uma ou mais das listas de endereços e retorna as entradas selecionadas do objeto de coleção especificado pela propriedade <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />. </para>
+      <para>Você pode criar uma instância do objeto <b>SelectNamesDialog</b> chamando <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSelectNamesDialog" />.</para> Caixa de 
+      <para>a caixa de diálogo exibida por <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" /> é semelhante à caixa de diálogo Selecionar nomes na interface de usuário do Outlook. Ele observa as configurações de tamanho e a posição da caixa de diálogo Selecionar nomes interna. No entanto, seu estado padrão não será mostrado para os destinatários da mensagem acima para, Cc e Cco caixas de edição. Para obter mais informações sobre como usar o objeto <b>SelectNamesDialog</b> para exibir a caixa de diálogo Selecionar nomes, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87857">Exibir nomes do catálogo de endereços</a></para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,1453 @@
+<Type Name="_DocumentItem" FullName="Microsoft.Office.Interop.Outlook._DocumentItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="533dcac35bea51ea9cf8f632a1394802eea3cd0d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629559" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _DocumentItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DocumentItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DocumentItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _DocumentItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _DocumentItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063020-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Actions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Actions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As Actions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Actions ^ Actions { Microsoft::Office::Interop::Outlook::Actions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> coleção que representa todas as ações disponíveis para o item. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachments Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Attachments Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As Attachments" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Attachments ^ Attachments { Microsoft::Office::Interop::Outlook::Attachments ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> object que representa todos os anexos para o item especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoResolvedWinner">
+      <MemberSignature Language="C#" Value="public bool AutoResolvedWinner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoResolvedWinner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.AutoResolvedWinner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoResolvedWinner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoResolvedWinner { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64186)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o item é um prêmio de resolução de conflitos automática. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Um valor <b>False</b> não necessariamente indica que o item é perdido de resolução de conflitos automática. O item poderia ser em conflito com outro item.</para>
+          <para>Se um item tiver <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> do seu <see cref="P:Microsoft.Office.Interop.Outlook._DocumentItem.Conflicts" /> propriedade maior do que zero e, se sua propriedade <b>AutoResolvedWinner</b> for <b>True</b>, um prêmio de resolução de conflitos automática. Por outro lado, se o item está em conflito e tem sua propriedade <b>AutoResolvedWinner</b> como <b>False</b>, é perdido na resolução de conflitos automática.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BillingInformation">
+      <MemberSignature Language="C#" Value="public string BillingInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BillingInformation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.BillingInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property BillingInformation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BillingInformation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa as informações de faturamento associadas ao item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este é um campo de texto de forma livre.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public string Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Body { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration will be deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Tentar definir essa propriedade retornará um erro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public string Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Categories { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(36865)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representam as categorias atribuídas ao item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Categorias</b> é uma cadeia de caracteres delimitada de nomes de categoria que tiverem sido atribuídos a um item do Outlook. Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para vários valores de categoria. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função <b>divisão</b>do Microsoft Visual Basic.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close (Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]valuetype Microsoft.Office.Interop.Outlook.OlInspectorClose SaveMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close (SaveMode As OlInspectorClose)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close(Microsoft::Office::Interop::Outlook::OlInspectorClose SaveMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61475)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
+      </Parameters>
+      <Docs>
+        <param name="SaveMode">To be added.</param>
+        <summary>This object, member, or enumeration will be deprecated and is not intended to be used in your code.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public string Companies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Companies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Companies As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Companies { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representam os nomes de empresas associadas ao item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este é um campo de texto de forma livre.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Conflicts Conflicts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Conflicts Conflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Conflicts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Conflicts ^ Conflicts { Microsoft::Office::Interop::Outlook::Conflicts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64187)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retornar o <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object que representa os itens que estão em conflito para qualquer objeto de item do Outlook.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationIndex">
+      <MemberSignature Language="C#" Value="public string ConversationIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.ConversationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationIndex As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationIndex { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64192)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o índice do segmento de conversação do item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationTopic">
+      <MemberSignature Language="C#" Value="public string ConversationTopic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationTopic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.ConversationTopic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationTopic As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ConversationTopic { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o tópico do segmento de conversação do item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public object Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cria outra instância de um objeto.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12295)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna a <b>Data e hora</b> que indica a hora da criação do item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagCreationTime</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Remove o item da pasta que contém o item.</summary>
+        <remarks>
+          <para>O método <b>Delete</b> exclui um único item em uma coleção. Para excluir todos os itens do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto de uma pasta, você deve excluir cada item começando com o último item na pasta. Por exemplo, no conjunto de itens de uma pasta, selecionando, se houver n número de itens na pasta, iniciar a exclusão do item no AllItems.Item(n), diminuindo o índice de cada vez, até que você exclua AllItems.Item(1).</para>
+          <para>Excluir o método Move o item da pasta que contém a pasta Itens excluídos. Se a pasta que contém a pasta Itens excluídos, o método <b>Delete</b> remove permanentemente o item.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public void Display (object Modal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display([in]object Modal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Display(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Display (Optional Modal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Modal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Modal">
+          <b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
+        <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto para o item.</summary>
+        <remarks>
+          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDownloadState DownloadState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.DownloadState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DownloadState As OlDownloadState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDownloadState DownloadState { Microsoft::Office::Interop::Outlook::OlDownloadState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64077)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma constante que pertence a <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeração que indica o estado de download do item. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntryID">
+      <MemberSignature Language="C#" Value="public string EntryID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntryID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.EntryID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntryID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EntryID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a identificação de entrada exclusiva do objeto.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para> Provedor de repositórios de 
+          <para>uma MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, pesquise http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormDescription">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.FormDescription FormDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.FormDescription FormDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.FormDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormDescription As FormDescription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::FormDescription ^ FormDescription { Microsoft::Office::Interop::Outlook::FormDescription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61589)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> object que representa a descrição do formulário para o item do Outlook especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInspector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Inspector GetInspector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Inspector GetInspector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.GetInspector" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GetInspector As Inspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Inspector ^ GetInspector { Microsoft::Office::Interop::Outlook::Inspector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration will be deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Para exibir um item, você pode usar <see cref="M:Microsoft.Office.Interop.Outlook._DocumentItem.Display(System.Object)" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlImportance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlImportance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As OlImportance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlImportance Importance { Microsoft::Office::Interop::Outlook::OlImportance get(); void set(Microsoft::Office::Interop::Outlook::OlImportance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constante que indica o nível de importância relativa do item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagImportance</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConflict">
+      <MemberSignature Language="C#" Value="public bool IsConflict { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsConflict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.IsConflict" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConflict As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConflict { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64164)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o item está em conflito. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Ou não um item está em conflito é determinado pelo estado do aplicativo. Por exemplo, quando um usuário estiver offline e tenta acessar uma pasta on-line, a ação falhará. Neste cenário, a propriedade <b>IsConflict</b> retornará <b>True</b>.</para>
+          <para>Se <b>True</b>, o item especificado está em conflito.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ItemProperties ItemProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.ItemProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemProperties As ItemProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ItemProperties ^ ItemProperties { Microsoft::Office::Interop::Outlook::ItemProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64009)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> coleção que representa todas as propriedades definidas pelo usuário e padrão associadas ao item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A coleção <b>ItemProperties</b> é um conjunto com base em zero, significando que o primeiro objeto na coleção é referenciado pelo índice 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModificationTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModificationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModificationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.LastModificationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModificationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModificationTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <b>DateTime</b> Especifica a data e hora em que o item do Outlook foi modificado.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade <b>PidTagLastModificationTime</b>de MAPI.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Links">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Links Links { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Links Links" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Links" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As Links" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Links ^ Links { Microsoft::Office::Interop::Outlook::Links ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkForDownload">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRemoteStatus MarkForDownload" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.MarkForDownload" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkForDownload As OlRemoteStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRemoteStatus MarkForDownload { Microsoft::Office::Interop::Outlook::OlRemoteStatus get(); void set(Microsoft::Office::Interop::Outlook::OlRemoteStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34161)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration will be deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClass">
+      <MemberSignature Language="C#" Value="public string MessageClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.MessageClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem do item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public string Mileage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mileage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mileage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mileage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o mileage para um item. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Isso é um campo de cadeia de caracteres de forma livre e pode ser usado para armazenar informações de mileage associadas ao item (por exemplo, 100 milhas documentados para um compromisso, contato ou tarefa) para propósitos de reembolso.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public object Move (Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Move([in]class Microsoft.Office.Interop.Outlook.MAPIFolder DestFldr) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (DestFldr As MAPIFolder) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Move(Microsoft::Office::Interop::Outlook::MAPIFolder ^ DestFldr);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61492)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="DestFldr">A pasta de destino.</param>
+        <summary>Move um item do Microsoft Outlook para uma nova pasta.</summary>
+        <returns>Um <b>objeto</b> que representa o item que foi movido para a pasta designada.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoAging">
+      <MemberSignature Language="C#" Value="public bool NoAging { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoAging" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.NoAging" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoAging As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoAging { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> não age o item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookInternalVersion">
+      <MemberSignature Language="C#" Value="public int OutlookInternalVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OutlookInternalVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.OutlookInternalVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookInternalVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OutlookInternalVersion { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34130)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de compilação do aplicativo do Outlook para um item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookVersion">
+      <MemberSignature Language="C#" Value="public string OutlookVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OutlookVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.OutlookVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutlookVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OutlookVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que indica o número de versão principal e secundária do aplicativo do Outlook para um item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintOut">
+      <MemberSignature Language="C#" Value="public void PrintOut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintOut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.PrintOut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintOut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PrintOut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61491)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Imprime o item do Outlook usando todas as configurações padrão. O método <b>PrintOut</b> é o único método do Outlook que pode ser usado para impressão.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que dá suporte a criação, obtendo, configuração e excluir propriedades do pai <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Salva o item do Microsoft Outlook na pasta atual ou, se for um item novo, salvará na pasta padrão do Outlook referente ao tipo de item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAs">
+      <MemberSignature Language="C#" Value="public void SaveAs (string Path, object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAs([in]string Path, [in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.SaveAs(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAs (Path As String, Optional Type As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Path">O caminho no qual o item deve ser salvo.</param>
+        <param name="Type">O tipo de arquivo para salvar. Pode ser uma das seguintes constantes <b>OlSaveAsType</b> : <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>, <b>olVCard</b><b>olICal</b>, ou <b>olMSGUnicode</b>.</param>
+        <summary>Salva o item do Microsoft Outlook no caminho e no formato do tipo de arquivo especificados. Se o tipo de arquivo não for especificado, o formato MSG (.msg) será usado.</summary>
+        <remarks>
+          <para>Observe também que, embora <b>olDoc</b> é uma constante <b>OlSaveAsType</b> válida, mensagens no formato HTML não podem ser salvos no formato de documento e a constante <b>olDoc</b> funcionará somente se o Microsoft Word está configurado como o editor de email padrão.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Saved">
+      <MemberSignature Language="C#" Value="public bool Saved { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Saved" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Saved" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Saved As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Saved { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o item do Outlook não foi modificado desde o último salvamento. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlSensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As OlSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlSensitivity Sensitivity { Microsoft::Office::Interop::Outlook::OlSensitivity get(); void set(Microsoft::Office::Interop::Outlook::OlSensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeração indicando a sensibilidade do item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSensitivity</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowCategoriesDialog">
+      <MemberSignature Language="C#" Value="public void ShowCategoriesDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowCategoriesDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._DocumentItem.ShowCategoriesDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowCategoriesDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowCategoriesDialog();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64011)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Exibe a caixa de diálogo Exibir Categorias, que permite selecionar categorias que correspondam ao assunto do item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que indica o tamanho (em bytes) do item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(55)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o assunto do item do Outlook. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSubject</b>. A propriedade <b>Subject</b> é a propriedade padrão de itens do Outlook.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnRead">
+      <MemberSignature Language="C#" Value="public bool UnRead { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UnRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.UnRead" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UnRead { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(61468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o Outlook item não tiver sido aberto (lido). Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperties UserProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserProperties UserProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._DocumentItem.UserProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserProperties As UserProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::UserProperties ^ UserProperties { Microsoft::Office::Interop::Outlook::UserProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> coleção que representa todas as propriedades de usuário para o item do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Embora <b>olWordDocumentItem</b> é uma constante válida no <see cref="T:Microsoft.Office.Interop.Outlook.OlItemType" /> enumeração, campos definidos pelo usuário não podem ser adicionada a um <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto e você receberá um erro ao tentar adicionar um campo definido pelo usuário de maneira programática a uma <b>DocumentItem </b>objeto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,180 @@
+<Type Name="OlDefaultSelectNamesDisplayMode" FullName="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="058cc9a2f396bc8ecda0d309b46f8d4981756678" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630572" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlDefaultSelectNamesDisplayMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlDefaultSelectNamesDisplayMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlDefaultSelectNamesDisplayMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica a legenda padrão, o número de botões, os rótulos de botão e as listas de endereços a serem exibidos na caixa de diálogo Selecionar Nomes sem exigir um arquivo de recurso para legendas e rótulos localizados.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olDefaultDelegates">
+      <MemberSignature Language="C#" Value="olDefaultDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultDelegates = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultDelegates" />
+      <MemberSignature Language="VB.NET" Value="olDefaultDelegates" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Exibe um Editar caixa de destinatários, usos cadeia de caracteres representando "Adicionar" para o botão para localizada e localizada string representando "Adicionar usuários" para a legenda. CcLabel e BccLabel estão definidos como uma sequência vazia. Conjuntos de <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> como True e <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> para olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMail">
+      <MemberSignature Language="C#" Value="olDefaultMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMail" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMail" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Exibe três caixas de edição para, Cc e Cco destinatários usos localizados cadeias de caracteres representando "Para", "Cc" e "Cco" para, Cc e Cco botões e representando "Selecionar nomes" para a legenda da cadeia de caracteres localizada. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olToCcBcc.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMeeting">
+      <MemberSignature Language="C#" Value="olDefaultMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMeeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMeeting" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Exibe três caixas de edição para obrigatória, opcional, e os destinatários de recursos, usos localizados cadeias de caracteres representando "Necessários", "Opcional" e "Recursos" para, Cc e Cco botões e localizado string representando o "Selecionar participantes e recursos" para a legenda. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olToCcBcc.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultMembers">
+      <MemberSignature Language="C#" Value="olDefaultMembers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultMembers = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultMembers" />
+      <MemberSignature Language="VB.NET" Value="olDefaultMembers" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultMembers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Exibe uma caixa de edição para destinatários, usa a cadeia de caracteres localizada localizadas string representando "Selecionar membros" para a legenda e representando "Para" para o botão para. CcLabel e BccLabel estão definidos como uma sequência vazia. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultPickRooms">
+      <MemberSignature Language="C#" Value="olDefaultPickRooms" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultPickRooms = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultPickRooms" />
+      <MemberSignature Language="VB.NET" Value="olDefaultPickRooms" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultPickRooms" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Caixa de uma edição de exibe para destinatários de recurso, usa string localizada representando "Salas" para a cadeia de caracteres localizada representando "Selecione salas" para a legenda e botão. CcLabel e BccLabel estão definidos como uma sequência vazia. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olShowTo. <b>InitialDisplayList</b> é definida como lista de endereços Global.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSharingRequest">
+      <MemberSignature Language="C#" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSharingRequest = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSharingRequest" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSharingRequest" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSharingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Exibe um Editar caixa de destinatários, usos localizados cadeia de caracteres localizadas string representando "Selecionar nomes" para a legenda e representando "Para" para a botão. CcLabel e BccLabel estão definidos como uma sequência vazia. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olTo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultSingleName">
+      <MemberSignature Language="C#" Value="olDefaultSingleName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultSingleName = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultSingleName" />
+      <MemberSignature Language="VB.NET" Value="olDefaultSingleName" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultSingleName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Não exibe caixas de edição a destinatários, usa uma sequência de caracteres localizada que representa "Selecionar Nome" para a legenda. Os rótulos ToLabel, CcLabel e Bcc são definidos para uma sequência de caracteres em branco. Define <b>AllowMultipleSelection</b> para False e <b>NumberOfRecipientSelectors</b> para olNone.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDefaultTask">
+      <MemberSignature Language="C#" Value="olDefaultTask" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode olDefaultTask = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode.olDefaultTask" />
+      <MemberSignature Language="VB.NET" Value="olDefaultTask" />
+      <MemberSignature Language="C++ CLI" Value="olDefaultTask" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Exibe um Editar caixa de destinatários, usos localizados cadeia de caracteres localizadas string representando "Select Recipient da tarefa" para a legenda e representando "Para" para a botão. CcLabel e BccLabel estão definidos como uma sequência vazia. Define <b>AllowMultipleSelection</b> como True e <b>NumberOfRecipientSelectors</b> como olTo.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

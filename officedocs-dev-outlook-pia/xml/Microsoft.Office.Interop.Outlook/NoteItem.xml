@@ -1,0 +1,45 @@
+<Type Name="NoteItem" FullName="Microsoft.Office.Interop.Outlook.NoteItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3c651b8fa7c6452466bc3e9898b37e5e8be0166" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629314" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NoteItem implements class Microsoft.Office.Interop.Outlook._NoteItem" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NoteItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NoteItem&#xA;Implements _NoteItem" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NoteItem : Microsoft::Office::Interop::Outlook::_NoteItem" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NoteItem</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NoteItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063025-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma anotação em uma pasta Anotações.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />. </para>
+      <para>
+        <b>NoteItem</b> não é personalizável. Se você abrir uma nova anotação, você perceberá que não é possível colocá-lo em tempo de design.</para>
+      <para>o <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" /> propriedade de um objeto <b>NoteItem</b> é somente leitura, porque ela é calculada no corpo do texto da anotação. Além disso, o <b>NoteItem</b><see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" /> só pode ser rich text e, portanto, não se aplicam as propriedades que correspondem ao conteúdo HTML e o Microsoft Word. Embora o <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" /> propriedade funcione em anotações, porque as anotações não podem ser personalizadas, algumas do <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> propriedades, métodos e eventos não se aplica aos objetos <b>NoteItem</b> .</para>
+      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> método para criar um objeto <b>NoteItem</b> que represente uma nova anotação.</para>
+      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />), onde <paramref name="index" /> é o número de índice de uma anotação ou um valor usado para corresponder à propriedade padrão de uma anotação, para retornar um único objeto <b>NoteItem</b> de uma pasta anotações.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

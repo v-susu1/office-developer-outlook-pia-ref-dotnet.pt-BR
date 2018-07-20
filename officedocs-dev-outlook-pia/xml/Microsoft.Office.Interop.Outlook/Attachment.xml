@@ -1,0 +1,597 @@
+<Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629674" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063007-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa um documento ou link a um documento contido em um item do Outlook.</summary>
+    <remarks>
+      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), onde <paramref name="index" /> é o número de índice, para retornar um único objeto <b>Attachment</b> .</para>
+      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para adicionar um anexo a um item.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel BlockLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel BlockLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlockLevel As OlAttachmentBlockLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAttachmentBlockLevel BlockLevel { Microsoft::Office::Interop::Outlook::OlAttachmentBlockLevel get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constante que especifica se há alguma restrição quanto o anexo com base na extensão de arquivo. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Esse valor dessa propriedade reflete se um anexo estiver bloqueado com base na extensão de arquivo e como segurança de anexo tiver sido configurada no computador cliente. Para obter mais informações sobre segurança de anexo no Outlook, consulte o site do Office Resource Kit.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Exclui um objeto do conjunto.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome, que não precisa ser o nome real do arquivo, exibido abaixo do ícone que representa o anexo incorporado. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagDisplayName</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14084)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14084)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de arquivo do anexo.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use essa propriedade em conjunto com o <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> propriedade.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemporaryFilePath">
+      <MemberSignature Language="C#" Value="public string GetTemporaryFilePath ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetTemporaryFilePath() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.GetTemporaryFilePath" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemporaryFilePath () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetTemporaryFilePath();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64634)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retorna o caminho completo para o arquivo de anexo que está em uma pasta de arquivos temporários. Somente leitura.</summary>
+        <returns>Retorna um <see cref="T:System.String" /> que representa o caminho completo para o arquivo anexo temporário.</returns>
+        <remarks>
+          <para>O método <b>GetTemporaryFilePath</b> só é válida para estes anexos cujas <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> propriedadeé <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Isto significa que o anexo é uma cópia e que a cópia pode ser acessada mesmo se o arquivo original for removido. Para outros tipos de anexo, o método <b>GetTemporaryFilePath</b> retorna um erro. </para>
+          <para>
+            <b>GetTemporaryFilePath</b> também retornará um erro ao acessar um <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> do objeto em uma <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> coleção ou além do <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto. Uso <b>GetTemporaryFilePath</b> somente em retornos de chamada de evento de anexo listados abaixo para vários itens do Microsoft Outlook:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>AttachmentAdd</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>AttachmentRead</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>AttachmentRemove</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>BeforeAttachmentAdd</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>BeforeAttachmentPreview</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>BeforeAttachmentRead</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>BeforeAttachmentSave</b>
+              </para>
+            </item>
+            <item>
+              <para>
+                <b>BeforeAttachmentWriteToTempFile</b>
+              </para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que indica a posição do objeto dentro da coleção.  Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Index</b> é válida somente durante a sessão atual e pode ser alterados conforme os objetos são adicionados e excluídos da coleção. O primeiro objeto da coleção tem um valor de <b>índice</b> 1.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathName">
+      <MemberSignature Language="C#" Value="public string PathName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PathName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PathName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PathName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o caminho completo para o vinculados arquivo anexado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade só será válida para arquivos vinculados.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que indica a posição do anexo dentro do corpo do item. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Position</b> só funciona em um anexo para um item em que o formato do corpo é Rich Text (RTF). Se o formato do corpo não for RTF, a propriedade <b>Position</b> é ignorada para uma operação definida e sempre retorna zero (0) para uma operação get.</para>
+          <para>Se você definir a propriedade <b>Position</b> como 0 para um item em que o corpo de formato RTF, o anexo será oculto na interface de usuário do Outlook. O anexo não é visível no modo de exibição e o usuário não é possível remover o anexo do corpo do item. O anexo ainda possa ser acessado através do <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> conjunto no item.</para>
+          <para>o único item que permite a programação definição da propriedade BodyFormat é um <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Outros tipos de item como compromisso, contato e tarefa são RTF por padrão. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que dá suporte a criação, obtendo, configuração e excluir propriedades do pai <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsFile">
+      <MemberSignature Language="C#" Value="public void SaveAsFile (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAsFile([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachment.SaveAsFile(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAsFile (Path As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAsFile(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">O local em que o anexo será salvo.</param>
+        <summary>Salva o anexo no caminho especificado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64489)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64489)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que indica o tamanho (em bytes) do anexo. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essas informações não podem estar disponíveis para anexos sempre.  Por exemplo, em uma mensagem de S/MIME, os tamanhos de anexo real são desconhecidos até que o anexo é extraído. Em casos onde o tamanho de anexo não pode ser determinado, essa propriedade retornará 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAttachmentType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachment.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As OlAttachmentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAttachmentType Type { Microsoft::Office::Interop::Outlook::OlAttachmentType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14085)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14085)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constante indicando o tipo do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

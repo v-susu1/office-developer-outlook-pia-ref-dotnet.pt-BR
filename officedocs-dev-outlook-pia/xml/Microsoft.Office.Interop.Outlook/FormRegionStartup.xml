@@ -1,0 +1,46 @@
+<Type Name="FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook.FormRegionStartup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="75a9b2ad694849b28efb9d70e2610a95ab5912e0" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630287" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FormRegionStartup : Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegionStartup implements class Microsoft.Office.Interop.Outlook._FormRegionStartup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FormRegionStartup&#xA;Implements _FormRegionStartup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FormRegionStartup : Microsoft::Office::Interop::Outlook::_FormRegionStartup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._FormRegionStartup</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.FormRegionStartupClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063059-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Define uma interface que permite a um suplemento especificar o armazenamento e a interface de usuário de uma área de formulário, obtém um objeto para aquela área de formulário e determina quando a área de formulário está prestes a ser exibida em um formulário ou no Painel de Leitura.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />. </para>
+      <para>o <b>FormRegionStartup</b> interface é uma classe abstrata, o que significa que ele não pode ser instanciado diretamente. No Visual Basic, você pode usar a palavra-chave <b>Implements</b> para fornecer os métodos de <b>FormRegionStartup</b> na sua classe suplemento da seguinte maneira:</para>
+      <code>Implements Outlook._FormRegionStartup.BeforeFormRegionShow</code>
+      <para>um suplemento que implantar uma área de formulário em um formulário do Outlook em um cliente computador deve implementar o <b> FormRegionStartup</b> interface que consiste de dois métodos, <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" /> e <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />. Quando o Outlook carrega o suplemento, Outlook pede a interface <b>IDTExtensibility2</b><b>FormRegionStartup</b>. </para>
+      <para>o suplemento indica o arquivo de layout e armazenamento para a área de formulário em <b>GetFormRegionStorage</b>. Chamando <b>GetFormRegionStorage</b>, Outlook aloca o armazenamento e calcula o layout para a área de formulário, instancia um objeto para a área de formulário e retorna um valor representando o armazenamento alocado para o suplemento. Se <b>GetFormRegionStorage</b> for bem-sucedida, antes que a área de formulário é exibida em uma janela Inspector ou no painel de leitura, Outlook será chamada <b>BeforeFormRegionShow</b> e passe o <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> objeto da região do formulário para o suplemento. O suplemento usa esta oportunidade antes que a área de formulário seja exibida para atualizar qualquer controle na área de formulário. </para>
+      <para>Quando o suplemento fecha o quadro para a área de formulário, o suplemento deve liberar o objeto para a área de formulário.</para>
+      <para>Para obter mais informações sobre como escrever suplementos para áreas de formulário, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Estendendo uma área de formulário com um suplemento</a><b>FormRegionStartup</b>, consulte downloads de exemplo de código em MSDN.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

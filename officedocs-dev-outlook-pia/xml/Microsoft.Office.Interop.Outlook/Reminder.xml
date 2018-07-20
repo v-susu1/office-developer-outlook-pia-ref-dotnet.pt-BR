@@ -1,0 +1,42 @@
+<Type Name="Reminder" FullName="Microsoft.Office.Interop.Outlook.Reminder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="43522c46b044288a474f0a6e6c16b40b4278d74a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630663" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Reminder : Microsoft.Office.Interop.Outlook._Reminder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminder implements class Microsoft.Office.Interop.Outlook._Reminder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Reminder&#xA;Implements _Reminder" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Reminder : Microsoft::Office::Interop::Outlook::_Reminder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Reminder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ReminderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630B0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa um lembrete do Outlook.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Reminder" />. </para>
+      <para>Lembretes permitem que os usuários a acompanhar compromissos futuros Programando uma caixa de diálogo pop-up seja exibido em um determinado momento. Além de compromissos, podem ocorrer lembretes para tarefas, contatos e mensagens de email.</para>
+      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" /> (<paramref name="index" />), onde <paramref name="index" /> é o nome ou número de índice do lembrete, para retornar um único objeto <b>Reminder</b> .</para>
+      <para>Lembretes são criados por programação quando um novo item do Microsoft Outlook, como um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> do objeto, será criado e o item <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" /> propriedade estiver definida como <b>True</b>.</para> Conjunto de 
+      <para>uso os <b>lembretes</b><see cref="M:Microsoft.Office.Interop.Outlook._Reminders.Remove(System.Object)" /> método para remover um objeto <b>Reminder</b> da coleção. Depois que um lembrete é removido de seu item associado, a propriedade <b>ReminderSet</b> do objeto <b>AppointmentItem</b> estiver definida como <b>False</b>.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

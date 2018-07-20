@@ -1,0 +1,1047 @@
+<Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20630198" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CalendarView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063099-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM. Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Apply">
+      <MemberSignature Language="C#" Value="public void Apply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Apply() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.Apply" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Apply ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Apply();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(407)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Aplica-se a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto para o modo de exibição atual.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFormatRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AutoFormatRules AutoFormatRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.AutoFormatRules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoFormatRules As AutoFormatRules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AutoFormatRules ^ AutoFormatRules { Microsoft::Office::Interop::Outlook::AutoFormatRules ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64059)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> as regras aplicáveis ao objeto que representa o conjunto de formatação a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoldDatesWithItems">
+      <MemberSignature Language="C#" Value="public bool BoldDatesWithItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BoldDatesWithItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldDatesWithItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property BoldDatesWithItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BoldDatesWithItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64371)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64371)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64371)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os dias que contêm os itens do Outlook devem ser exibidos em negrito no navegador de data para o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoldSubjects">
+      <MemberSignature Language="C#" Value="public bool BoldSubjects { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BoldSubjects" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.BoldSubjects" />
+      <MemberSignature Language="VB.NET" Value="Public Property BoldSubjects As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BoldSubjects { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64529)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64529)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64529)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se as informações de assunto de itens do Outlook são exibidas em negrito em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarViewMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlCalendarViewMode CalendarViewMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlCalendarViewMode CalendarViewMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarViewMode As OlCalendarViewMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlCalendarViewMode CalendarViewMode { Microsoft::Office::Interop::Outlook::OlCalendarViewMode get(); void set(Microsoft::Office::Interop::Outlook::OlCalendarViewMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64375)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64375)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64375)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarViewMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> que determina o modo de exibição atual do <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.View Copy (string Name, Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.View Copy([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.Copy(System.String,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (Name As String, Optional SaveOption As OlViewSaveOption) As View" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+      </Parameters>
+      <Docs>
+        <param name="Name">O nome do novo modo de exibição.</param>
+        <param name="SaveOption">A opção de gravação para o novo modo de exibição.</param>
+        <summary>Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto baseado em existentes <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</summary>
+        <returns>Um objeto <b>View</b> que representa o novo modo de exibição.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaysInMultiDayMode">
+      <MemberSignature Language="C#" Value="public int DaysInMultiDayMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DaysInMultiDayMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.DaysInMultiDayMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property DaysInMultiDayMode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DaysInMultiDayMode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64386)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64386)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64386)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de dias consecutivos exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade pode ser definida como um valor entre 2 e 14. Se essa propriedade estiver definida como um valor menor que 2, a propriedade é definida como 2. Se essa propriedade for definida como um valor maior do que 14, a propriedade é definida como 14. O valor padrão para essa propriedade é 5.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayWeekFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont DayWeekFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont DayWeekFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DayWeekFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ DayWeekFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64381)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64381)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayWeekTimeFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont DayWeekTimeFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont DayWeekTimeFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DayWeekTimeFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ DayWeekTimeFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64380)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64380)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayWeekTimeScale">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale DayWeekTimeScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale DayWeekTimeScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayWeekTimeScale As OlDayWeekTimeScale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDayWeekTimeScale DayWeekTimeScale { Microsoft::Office::Interop::Outlook::OlDayWeekTimeScale get(); void set(Microsoft::Office::Interop::Outlook::OlDayWeekTimeScale value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constante que representa a escala utilizada para representar os períodos de tempo em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Exclui um objeto de uma coleção.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayedDates">
+      <MemberSignature Language="C#" Value="public object DisplayedDates { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DisplayedDates" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.DisplayedDates" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayedDates As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DisplayedDates { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64519)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64519)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna uma matriz de <b>objeto</b> que contém as cadeias de caracteres que representam os dias exibidos em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Essa propriedade retorna uma matriz de cadeias de caracteres de data, na qual cada cadeia de caracteres de data representa um dia exibido no objeto <b>CalendarView</b> . As cadeias de caracteres de data são formatadas usando as configurações de formato de data curta para o sistema operacional.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndField">
+      <MemberSignature Language="C#" Value="public string EndField { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EndField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EndField { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64379)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que termina o tempo de duração exibido em itens do Outlook a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filter">
+      <MemberSignature Language="C#" Value="public string Filter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Filter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Filter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Filter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Filter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoToDate">
+      <MemberSignature Language="C#" Value="public void GoToDate (DateTime Date);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GoToDate([in]valuetype System.DateTime Date) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.GoToDate(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GoToDate (Date As DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GoToDate(DateTime Date);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64054)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Date" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="Date">A data para a qual o modo de exibição deve ser alterado.</param>
+        <summary>Altera a data utilizada pelo modo de exibição atual para exibir as informações.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64065)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockUserChanges">
+      <MemberSignature Language="C#" Value="public bool LockUserChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockUserChanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.LockUserChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockUserChanges As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockUserChanges { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64064)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MonthFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.ViewFont MonthFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.ViewFont MonthFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MonthFont As ViewFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::ViewFont ^ MonthFont { Microsoft::Office::Interop::Outlook::ViewFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MonthShowEndTime">
+      <MemberSignature Language="C#" Value="public bool MonthShowEndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MonthShowEndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthShowEndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property MonthShowEndTime As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MonthShowEndTime { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64369)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64369)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64369)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os horários de término para itens do Outlook são exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor dessa propriedade é aplicável somente quando o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> propriedade do objeto <b>CalendarView</b> é definida como <b>olCalendarViewMonth</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64068)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
+        <remarks>
+          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarView.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Salva a exibição ou salva as alterações nela realizadas.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveOption">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption SaveOption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.SaveOption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SaveOption As OlViewSaveOption" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewSaveOption SaveOption { Microsoft::Office::Interop::Outlook::OlViewSaveOption get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedEndTime">
+      <MemberSignature Language="C#" Value="public DateTime SelectedEndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SelectedEndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedEndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SelectedEndTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64571)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64571)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor de <b>data/hora</b> que representa a hora de término de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A intenção do <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> e as propriedades de <b>SelectedEndTime</b> é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
+          <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término da seleção.</para>
+          <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedStartTime">
+      <MemberSignature Language="C#" Value="public DateTime SelectedStartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SelectedStartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedStartTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SelectedStartTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64570)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64570)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor de <b>data/hora</b> que representa a hora de início de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A intenção do <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> propriedades é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
+          <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início da seleção.</para>
+          <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public bool Standard { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Standard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Standard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Standard { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64062)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartField">
+      <MemberSignature Language="C#" Value="public string StartField { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StartField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StartField { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que inicia a duração de tempo para itens do Outlook exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlViewType ViewType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlViewType ViewType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.ViewType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ViewType As OlViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlViewType ViewType { Microsoft::Office::Interop::Outlook::OlViewType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(404)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que indica o tipo de exibição do modo de exibição. Somente leitura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public string XML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarView.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64060)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição. Leitura/gravação.</summary>
+        <value>To be added.</value>
+        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

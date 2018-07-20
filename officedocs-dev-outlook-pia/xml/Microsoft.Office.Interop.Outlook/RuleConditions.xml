@@ -1,0 +1,41 @@
+<Type Name="RuleConditions" FullName="Microsoft.Office.Interop.Outlook.RuleConditions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="090e2fb2c58b7ce3e2eadffe19cd6c02d655882f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20629336" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleConditions implements class Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleConditions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RuleConditions&#xA;Implements _RuleConditions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RuleConditions : Microsoft::Office::Interop::Outlook::_RuleConditions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RuleConditions</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleConditionsClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objetos ou objetos derivam de <b>RuleCondition</b>, representando as condições ou as condições de exceção que devem ser atendidas para a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> para executar.</summary>
+    <remarks>
+      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>
+      <para>o <b>RuleConditions</b> objeto incluem as exceções de regra e condições de regra. O tipo de condição de regra que pode ser adicionado a uma coleção <b>RuleConditions</b> depende do <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para> Objeto 
+      <para>o <b>RuleConditions</b> é uma coleção fixa. Um objeto <b>RuleCondition</b> ou um tipo que é derivado do objeto <b>RuleCondition</b> não pode ser adicionado ou removido do objeto <b>RuleConditions</b> .</para> Modelo de objeto do 
+      <para>as regras fornece paridade parcial com as regras e alertas assistente na interface de usuário do Outlook. Suporta as condições e ações de regra mais comumente usadas. Embora ele não dá suporte a criação de regras com qualquer ação de regra ou condição de regra que o assistente oferece suporte, você pode ainda enumerar e habilitar essas ações de regra e condições de regras existentes. </para><para>Para obter mais informações sobre condições de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">como: criar uma regra para mover emails específicos para uma pasta</a></para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>
