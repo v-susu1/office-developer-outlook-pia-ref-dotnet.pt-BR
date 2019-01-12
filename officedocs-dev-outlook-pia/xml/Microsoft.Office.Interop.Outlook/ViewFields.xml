@@ -1,13 +1,5 @@
 <Type Name="ViewFields" FullName="Microsoft.Office.Interop.Outlook.ViewFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6c5bf900d2618884c0ebd49cc59733155a2c46db" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630668" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ViewFields : Microsoft.Office.Interop.Outlook._ViewFields" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e67dc4b790fef67a336ce6e85e74c95d5ed28f92" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906461" /></Metadata><TypeSignature Language="C#" Value="public interface ViewFields : Microsoft.Office.Interop.Outlook._ViewFields" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewFields implements class Microsoft.Office.Interop.Outlook._ViewFields" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface ViewFields&#xA;Implements _ViewFields" />
@@ -31,20 +23,23 @@
   </Attributes>
   <Docs>
     <summary>Representa a coleção de <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objetos em um modo de exibição.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ViewFields" />. </para>
-      <para>No conjunto <b>ViewFields</b> representa as propriedades de item do Outlook disponíveis para serem exibidos no modo de exibição.</para>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método da coleção <b>ViewFields</b> para adicionar um campo de modo de exibição para os seguintes objetos derivam de <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ViewFields" />. </para>
+      <para>Coleção <b>ViewFields</b> representa as propriedades de item do Outlook disponíveis para serem exibidos no modo de exibição.</para>
+      <para>Usar o <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método da coleção <b>ViewFields</b> para adicionar um campo de modo de exibição para os seguintes objetos derivam de <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
       <list type="bullet">
         <item>
           <para>
             <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+          </para>
+        </item>
       </list>
-      <para>Em um modo de exibição de tabela, a ordem dos objetos <b>ViewField</b> no conjunto <b>ViewFields</b> não é igual a ordem em que o campo colunas são exibidos no modo de exibição de tabela. Uma solução alternativa para obter a ordem das colunas é analisar a cadeia de caracteres retornada pelo <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade.</para>
-      <para />
-    </remarks>
+      <para>Em uma exibição de tabela, a ordem dos objetos <b>ViewField</b> no conjunto <b>ViewFields</b> não é igual a ordem que colunas de campo são exibidas no modo de exibição de tabela. Uma solução alternativa para obter a ordem das colunas é analisar a cadeia de caracteres retornada pelo <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
