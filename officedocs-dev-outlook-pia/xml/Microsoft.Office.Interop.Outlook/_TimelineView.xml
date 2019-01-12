@@ -1,13 +1,5 @@
 <Type Name="_TimelineView" FullName="Microsoft.Office.Interop.Outlook._TimelineView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8782cb760e1337c679a6b41fe4b7c59d4c1ea3c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631113" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimelineView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8782cb760e1337c679a6b41fe4b7c59d4c1ea3c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905439" /></Metadata><TypeSignature Language="C#" Value="public interface _TimelineView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimelineView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimelineView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimelineView" />
@@ -225,10 +217,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que termina o tempo de duração exibido em itens do Outlook a <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>TimelineView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>TimelineView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -259,10 +249,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -377,7 +365,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+        <remarks><para>A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para>
+          <para>Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -408,10 +398,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LowerScaleFont">
@@ -470,11 +458,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o comprimento máximo (em caracteres) para o rótulo de um item do Outlook no <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 0 e 132. Se essa propriedade estiver definida como um valor menor do que 0, ela é definida como 0. Se essa propriedade for definida como um valor maior que 132, a propriedade é definida como 132. O valor padrão para essa propriedade é 80.</para>
-          <para>Se essa propriedade estiver definida como 0, os rótulos de itens do Outlook não são exibidos no modo de exibição.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade pode ser definida para um valor entre 0 e 132. Se essa propriedade estiver definida como um valor menor do que 0, ela é definida como 0. Se essa propriedade for definida para um valor maior do que 132, ela será definida como 132. O valor padrão para essa propriedade é 80.</para>
+          <para>Se essa propriedade estiver definida como 0, os rótulos para os itens do Outlook não serão exibidos no modo de exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -558,10 +544,8 @@
       <Parameters />
       <Docs>
         <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
-        <remarks>
-          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método só funciona nos modos de exibição internos do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -614,10 +598,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -645,16 +627,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowLabelWhenViewingByMonth">
@@ -685,10 +665,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se os rótulos de itens do Outlook são exibidos ao visualizar por mês no <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é aplicável apenas se o <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" /> propriedade estiver definida como <b>olTimelineViewMonth</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é aplicável apenas se o <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" /> propriedade estiver definida como <b>olTimelineViewMonth</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowWeekNumbers">
@@ -719,13 +697,32 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os rótulos de número de semana são exibidos na escala de tempo para o <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for definida como <b>True</b>, o local no qual semana os rótulos de número são exibidos na escala de tempo para o objeto <b>TimelineView</b> depende do valor do <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" /> propriedade.</para>
-          <item>
-            <description>Valor da propriedade</description>
-            <description>local do rótulo</description>
-          </item>de 
-          <list type="table"><item><description><b>olTimelineViewDay</b></description><description>exibida na parte superior da escala de tempo, antes do rótulo de data.</description></item><item><description><b>olTimelineViewWeek</b></description><description>exibida na parte superior da escala de tempo, antes do rótulo de semana.</description></item><item><description><b>olTimelineViewMonth</b></description><description>exibida na parte inferior da escala de tempo, substituindo os rótulos de dia e data.</description></item></list><para /></remarks>
+        <remarks><para>Se essa propriedade for definida como <b>True</b>, o local no qual semana os rótulos de número são exibidos na escala de tempo para o objeto <b>TimelineView</b> depende do valor do <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.TimelineViewMode" /> propriedade.</para>
+          <list type="table">
+            <item>
+              <description>Property value</description>
+              <description>Local do rótulo</description>
+            </item>
+            <item>
+              <description>
+                <b>olTimelineViewDay</b>
+              </description>
+              <description>Exibido na parte superior da escala de tempo, antes do rótulo de data.</description>
+            </item>
+            <item>
+              <description>
+                <b>olTimelineViewWeek</b>
+              </description>
+              <description>Exibido na parte superior da escala de tempo, antes do rótulo de semana.</description>
+            </item>
+            <item>
+              <description>
+                <b>olTimelineViewMonth</b>
+              </description>
+              <description>Exibido na parte inferior da escala de tempo, substituindo os rótulos de dia e data.</description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -753,10 +750,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -787,10 +782,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que inicia a duração de tempo para itens do Outlook exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>TimelineView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>TimelineView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TimelineViewMode">
@@ -908,7 +901,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+        <remarks><para>A definição XML descreve o tipo de modo de exibição usando uma série de rótulos e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</para>
+          <para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

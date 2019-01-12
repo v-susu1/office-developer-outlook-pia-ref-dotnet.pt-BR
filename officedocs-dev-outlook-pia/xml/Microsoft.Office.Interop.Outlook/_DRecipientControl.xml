@@ -1,13 +1,5 @@
 <Type Name="_DRecipientControl" FullName="Microsoft.Office.Interop.Outlook._DRecipientControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630139" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DRecipientControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903080" /></Metadata><TypeSignature Language="C#" Value="public interface _DRecipientControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DRecipientControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DRecipientControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DRecipientControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Um controle que exibe os destinatários de um item do Outlook.</summary>
-    <remarks>
-      <para>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar o objeto e seus membros; se referir a essa interface para obter informações sobre cada um deles.</para>
-      <para />
-    </remarks>
+    <remarks><para>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar o objeto e seus membros; se referir a essa interface para obter informações sobre cada um deles.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="BackColor">
@@ -64,10 +54,8 @@
       <Docs>
         <summary>Retorna ou define um <b>inteiro</b> que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>inteiro</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>inteiro</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -98,10 +86,8 @@
       <Docs>
         <summary>Retorna ou obtém um <b>booleano</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -163,10 +149,8 @@
       <Docs>
         <summary>Retorna ou define um <b>inteiro</b> que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>inteiro</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>inteiro</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -197,11 +181,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que especifica se os destinatários exibidos no controle só podem ser exibidos e não podem ser modificados. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> para indicar que o controle só exibe os destinatários e não oferece suporte para modificar os destinatários; <b>False</b> para indicar que o controle suporta tanto exibir e modificar os destinatários.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SpecialEffect">
@@ -232,22 +214,20 @@
       <Docs>
         <summary>Returns or sets an <b>Integer</b> that specifies the visual appearance of an object. Read/write.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>As configurações para <b>SpecialEffect</b> são:</para>
+        <remarks><para>The settings for <b>SpecialEffect</b> are:</para>
           <list type="table">
             <item>
               <description>0</description>
-              <description>objeto aparece plano, distinguido do formulário ao redor por uma borda, uma alteração de cor ou ambos.</description>
+              <description>O objeto aparece plano, distinguido do formulário ao redor por uma borda, uma alteração de cor ou ambos.</description>
             </item>
             <item>
               <description>2</description>
-              <description>objeto tem uma sombra na parte superior e esquerda e um destaque na parte inferior e direita. O controle e sua borda parecem estar esculpida no formulário que os contém. Padrão para <b>_DRecipientControl</b>.</description>
+              <description>Objeto tem uma sombra na parte superior e esquerda e um destaque na parte inferior e direita. O controle e sua borda parecem estar esculpida no formulário que os contém. Padrão para <b>_DRecipientControl</b>.</description>
             </item>
           </list>
           <para>
-            <b>SpecialEffect</b> usa as cores do sistema para definir suas bordas.</para>
-          <para />
-        </remarks>
+            <b>SpecialEffect</b> uses the system colors to define its borders.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

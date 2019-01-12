@@ -1,13 +1,5 @@
 <Type Name="_Inspector" FullName="Microsoft.Office.Interop.Outlook._Inspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630473" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Inspector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905908" /></Metadata><TypeSignature Language="C#" Value="public interface _Inspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Inspector" />
@@ -251,10 +243,8 @@
       <Docs>
         <summary>Retorna um <b>objeto</b> representando o item atual que está sendo exibido no Inspetor. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se nenhum item estiver aberto, uma mensagem de erro será retornada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se nenhum item estiver aberto no momento, uma mensagem de erro será retornada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -279,14 +269,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
+        <param name="Modal"><b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
         <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto para o item.</summary>
-        <remarks>
-          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
-          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto Microsoft Outlook, você recebe o código de retorno E_FAIL no C ou C++ linguagens de programação. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método de <b>exibição</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EditorType">
@@ -314,10 +301,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" /> constante indicando o tipo de editor. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Desde o Microsoft Office Outlook 2007, a propriedade <b>EditorType</b> sempre retorna olEditorWord.</para>
-          <para />
-        </remarks>
+        <remarks><para>Desde o Microsoft Office Outlook 2007, a propriedade <b>EditorType</b> sempre retorna olEditorWord.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -376,10 +361,8 @@
       <Docs>
         <param name="PageName">O nome de exibição da página de formulário, ou o nome interno de uma região de formulário a ser ocultada.</param>
         <summary>Oculta uma página de formulário ou a região de formulário no Inspetor.</summary>
-        <remarks>
-          <para>Você pode usar <b>HideFormRegion</b> para ocultar uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região de formulário pode ocultar a área de formulário.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar <b>HideFormRegion</b> para ocultar uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região de formulário pode ocultar a área de formulário.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLEditor">
@@ -435,8 +418,7 @@
       <Parameters />
       <Docs>
         <summary>Determina se a mensagem de email associada a um inspetor é exibida no Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> ou no Microsoft Word.</summary>
-        <returns>
-          <b>True</b> se a mensagem de email é exibida no Microsoft Word (ou seja, se o Word Mail estiver em uso); Caso contrário, <b>False</b>.</returns>
+        <returns><b>True</b> se a mensagem de email é exibida no Microsoft Word (ou seja, se o Word Mail estiver em uso); Caso contrário, <b>False</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -496,10 +478,8 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.Pages" /> coleção que representa todas as páginas para o item no Inspetor. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Principal da página e até cinco páginas personalizáveis podem ser obtidas com o <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Principal da página e até cinco páginas personalizáveis podem ser obtidas com o <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" /> método. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewFormRegion">
@@ -525,11 +505,9 @@
       <Docs>
         <summary>Abre uma nova página no modo de design, no inspetor, para uma nova área de formulário.</summary>
         <returns>Um objeto que representa a página exibindo a área de formulário no inspetor.</returns>
-        <remarks>
-          <para>Se o Inspetor não ainda estiver no modo de design, <b>NewFormRegion</b> irá colocá-lo no modo de design.</para>
-          <para>Esse método só abre uma página para uma nova região de formulário no modo de design. Esse método não se destina a criação de uma área de formulário em tempo de execução.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se o Inspetor não ainda estiver no modo de design, <b>NewFormRegion</b> o colocará no modo de design.</para>
+          <para>Esse método apenas abre uma página para uma nova área de formulário no modo de design. Esse método não foi projetado para criar uma área de formulário no tempo de execução.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenFormRegion">
@@ -558,10 +536,8 @@
         <param name="Path">Um caminho de arquivo local completo para o arquivo Outlook Form Storage (.OFS) da área de formulário que deve ser aberta no inspetor.</param>
         <summary>Abre uma página no modo de design, no inspetor, para a área de formulário especificada.</summary>
         <returns>Um objeto que representa a página exibindo a área de formulário no inspetor.</returns>
-        <remarks>
-          <para>Se o Inspetor não ainda estiver no modo de design, <b>OpenFormRegion</b> o colocará no modo de design.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se o Inspetor não ainda estiver no modo de design, <b>OpenFormRegion</b> o colocará no modo de design.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -619,10 +595,8 @@
         <param name="Page">A página exibindo a área de formulário no inspetor.</param>
         <param name="FileName">O caminho de arquivo local completo para um arquivo Outlook Form Storage (.OFS) no qual a área de formulário está sendo salva.</param>
         <summary>Salva a página especificada no modo de design do inspetor no arquivo especificado.</summary>
-        <remarks>
-          <para>Na ordem para <b>que SaveFormRegion</b> salve a área de formulário, a região do formulário deve ter sido carregada no modo de design no Inspetor.</para>
-          <para />
-        </remarks>
+        <remarks><para>Na ordem para <b>que SaveFormRegion</b> salve a área de formulário, a região do formulário deve ter sido carregada no modo de design no Inspetor.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -650,16 +624,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -689,10 +661,10 @@
         <param name="Control">O controle que será vinculado a uma propriedade.</param>
         <param name="PropertyName">O nome da propriedade que será vinculada ao controle.</param>
         <summary>Vincula uma propriedade interna ou uma propriedade personalizada a um controle em um Inspetor.</summary>
-        <remarks>
-          <para>Você pode usar esse método para vincular uma propriedade interna explícita ou uma propriedade personalizada a um controle. Você deve fazer referência à propriedade pelo seu nome de cadeia de caracteres, por exemplo, <b>assunto</b>e não pelo namespace, por exemplo, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
-          <para>o <paramref name="PropertyName" /> parâmetro não diferencia maiusculas de minúsculas. Por exemplo, <b>SetControlItemProperty</b> interpreta um argumento, <b>CustomerId</b>, para ser o mesmo que <b>CustomerID</b> e vincula o controle especificado a interno <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> propriedade.</para> Você também pode usar a seguinte linha de código myPage.Controls("bar") de 
-          <para>. ItemProperty = "subject" para vincular a propriedade subject a um controle. No entanto, observe que o código não confiável usando esse procedimento acionará um aviso de segurança, se a propriedade estiver protegida pela proteção de segurança do modelo de objeto, como <b>para</b>, e o computador cliente está executando o Microsoft Office Outlook 2007 ou posterior mas não tem um Configure o software antivírus apropriadamente. Você pode usar o método <b>SetControlItemProperty</b> para evitar os avisos de segurança com aplicativos confiáveis.  Para obter mais informações, consulte o <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Comportamento de segurança do modelo de objeto do Outlook</a></para><para /></remarks>
+        <remarks><para>Você pode usar esse método para vincular uma propriedade interna explícita ou uma propriedade personalizada a um controle. Você deve fazer referência a propriedade pelo seu nome de cadeia de caracteres, por exemplo, <b>assunto</b> e não pelo namespace, por exemplo, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+          <para>O <paramref name="PropertyName" /> parâmetro não diferencia maiusculas de minúsculas. Por exemplo, <b>SetControlItemProperty</b> interpreta um argumento, <b>CustomerId</b>, para ser o mesmo que <b>CustomerID</b> e vincula o controle especificado a interno <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> propriedade.</para>
+          <para>Você também pode usar a seguinte linha de código myPage.Controls("bar"). ItemProperty = "subject" para vincular a propriedade subject a um controle. No entanto, observe que o código não confiável usando essa irá disparar um aviso de segurança se a propriedade estiver protegida pela proteção de segurança do modelo de objeto, como <b>para</b>, e o computador cliente está executando o Microsoft Office Outlook 2007 ou posterior, mas não tem um apropriadamente definido o software antivírus. Você pode usar o método <b>SetControlItemProperty</b> para evitar os avisos de segurança com aplicativos confiáveis.  Para obter mais informações, consulte o <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Comportamento de segurança do modelo de objeto do Outlook</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCurrentFormPage">
@@ -720,10 +692,8 @@
       <Docs>
         <param name="PageName">O nome de exibição da página de formulário, ou o nome interno da região do formulário.</param>
         <summary>Exibe a página de formulário especificado ou a região de formulário no Inspetor.</summary>
-        <remarks>
-          <para>Você pode usar <b>SetCurrentFormPage</b> para exibir uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da região do formulário, se a região de formulário for um um separada, substituir, ou a região de formulário Substituir tudo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar <b>SetCurrentFormPage</b> para exibir uma área de formulário, especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da região do formulário, se a região de formulário for um um separada, substituir, ou a região de formulário Substituir tudo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSchedulingStartTime">
@@ -751,10 +721,8 @@
       <Docs>
         <param name="Start">O início do intervalo de tempo em que a guia Assistente de Agendamento do inspetor exibe horários de disponibilidade para participantes da reunião.</param>
         <summary>Define o horário de início de um item de reunião na grade de disponibilidade, na guia Assistente de Agendamento do inspetor.</summary>
-        <remarks>
-          <para>O objeto especificado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade do pai <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto deve ser um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Guia Assistente de agendamento deve ser exibida no Inspetor, caso contrário, o Microsoft Outlook gerará um erro. Se o Outlook não é possível exibir a guia Assistente de agendamento para aquele tipo de item, o Outlook exibirá o seguinte erro: A hora de início de agendamento só pode ser definida quando o Assistente de agendamento é exibido em um item de reunião.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto especificado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade do pai <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto deve ser um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Guia Assistente de agendamento deve ser exibida no Inspetor, caso contrário, Microsoft Outlook gerará um erro. Se o Outlook não é possível exibir a guia Assistente de agendamento para aquele tipo de item, o Outlook exibirá o seguinte erro: a hora de início de agendamento só pode ser definida quando o Assistente de agendamento é exibido em um item de reunião.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFormPage">
@@ -782,10 +750,8 @@
       <Docs>
         <param name="PageName">O nome de exibição da página de formulário, ou o nome interno de uma região de formulário seja mostrado.</param>
         <summary>Exibe um botão no grupo exibir da faixa de opções Fluent do Microsoft Office para o Inspetor, clicando em qual mostrará a região do formulário ou página especificada pelo <paramref name="PageName" />.</summary>
-        <remarks>
-          <para>Para áreas de formulário, você pode usar <b>ShowFormPage</b> para exibir o botão especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região do formulário pode usar <b>ShowFormRegion</b> para exibir o botão.</para>
-          <para />
-        </remarks>
+        <remarks><para>Para áreas de formulário, você pode usar <b>ShowFormPage</b> para exibir o botão especificando o <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> propriedade da área de formulário, se a área de formulário for um adjoining ou região do formulário separada. Somente o suplemento que implementa a região do formulário pode usar <b>ShowFormRegion</b> para exibir o botão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -906,8 +872,7 @@
       <Docs>
         <summary>Retorna o modelo de objeto de documento do Microsoft Word da mensagem que está sendo exibida. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>WordEditor</b> só será válida se <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> retorna <b>True</b> e o <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> for <b>olEditorWord</b>. O objeto retornado de <b>WordDocument</b> fornece acesso à maior parte do modelo de objeto do Word, exceto para os seguintes membros: </para>
+        <remarks><para>A propriedade <b>WordEditor</b> só será válida se <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> retorna <b>True</b> e o <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> for <b>olEditorWord</b>. O objeto retornado de <b>WordDocument</b> fornece acesso a maior parte do modelo de objeto do Word, exceto os membros a seguir: </para>
           <list type="bullet">
             <item>
               <para>
@@ -945,8 +910,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="InspectorEvents_10_BeforeMaximizeEventHandler" FullName="Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMaximizeEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="57c1513574890a83959c217fb510f9ca0451e99c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629739" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void InspectorEvents_10_BeforeMaximizeEventHandler(out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2c95607d3ee08f0b38b98bd1645f8c0612078c4e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905915" /></Metadata><TypeSignature Language="C#" Value="public delegate void InspectorEvents_10_BeforeMaximizeEventHandler(out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InspectorEvents_10_BeforeMaximizeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_BeforeMaximizeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub InspectorEvents_10_BeforeMaximizeEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e o explorer ou inspector não estiver maximizada. </param>
+    <param name="Cancel"><b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e o explorer ou inspector não estiver maximizada. </param>
     <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>
