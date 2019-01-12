@@ -1,13 +1,5 @@
 <Type Name="_OrderFields" FullName="Microsoft.Office.Interop.Outlook._OrderFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630184" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4707bd736bb2b4cef102b593a1f1d2ea3da54811" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904067" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderFields&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="55e38-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="55e38-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="55e38-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="55e38-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="55e38-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="55e38-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="55e38-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="55e38-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="cad77-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="cad77-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="cad77-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="cad77-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="cad77-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="cad77-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="cad77-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span><span class="sxs-lookup"><span data-stu-id="cad77-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,34 +49,10 @@
         <Parameter Name="IsDescending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="55e38-105">O nome da propriedade à qual o novo objeto está associado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-105">The name of the property to which the new object is associated.</span>
-          </span>
-        </param>
-        <param name="IsDescending">
-          <span data-ttu-id="55e38-106">O valor usado para definir o <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> propriedade do novo objeto <b>OrderField</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-106">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span>
-          </span>
-          <span data-ttu-id="55e38-107">Se este valor não for especificado, o valor padrão da propriedade <b>IsDescending</b> é usado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-107">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="55e38-108">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> do objeto e o acrescenta ao <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-108">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="55e38-109">Um objeto <b>OrderField</b> que representa o novo campo de ordem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-109">An <b>OrderField</b> object that represents the new order field.</span>
-          </span>
-        </returns>
+        <param name="PropertyName"><span data-ttu-id="cad77-105">O nome da propriedade à qual o novo objeto está associado.</span><span class="sxs-lookup"><span data-stu-id="cad77-105">The name of the property to which the new object is associated.</span></span></param>
+        <param name="IsDescending"><span data-ttu-id="cad77-106">O valor usado para definir o <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> propriedade do novo objeto <b>OrderField</b> .</span><span class="sxs-lookup"><span data-stu-id="cad77-106">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span></span> <span data-ttu-id="cad77-107">Se este valor não for especificado, o valor padrão da propriedade <b>IsDescending</b> é usado.</span><span class="sxs-lookup"><span data-stu-id="cad77-107">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span></span></param>
+        <summary><span data-ttu-id="cad77-108">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> do objeto e o acrescenta ao <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="cad77-108">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="cad77-109">Um objeto <b>OrderField</b> que representa o novo campo de ordem.</span><span class="sxs-lookup"><span data-stu-id="cad77-109">An <b>OrderField</b> object that represents the new order field.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-110">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="55e38-111">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-110">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="cad77-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="cad77-111">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cad77-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,16 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-112">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="55e38-113">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-112">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="cad77-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="cad77-113">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cad77-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -202,16 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-114">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objetos na coleção especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="55e38-115">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-114">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="cad77-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objects in the specified collection.</span></span> <span data-ttu-id="cad77-115">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cad77-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,40 +164,11 @@
         <Parameter Name="IsDescending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="55e38-116">O nome da propriedade à qual o novo objeto está associado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-116">The name of the property to which the new object is associated.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="55e38-117">O número de índice no qual inserir o novo objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor de propriedade de um objeto na coleção em onde o novo objeto deve ser inserido.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-117">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection at where the new object is to be inserted.</span>
-          </span>
-        </param>
-        <param name="IsDescending">
-          <span data-ttu-id="55e38-118">O valor usado para definir o <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> propriedade do novo objeto <b>OrderField</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-118">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span>
-          </span>
-          <span data-ttu-id="55e38-119">Se este valor não for especificado, o valor padrão da propriedade <b>IsDescending</b> é usado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-119">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="55e38-120">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> do objeto e o insere no índice especificado dentro do <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="55e38-121">Um objeto <b>OrderField</b> que representa o novo campo de ordem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-121">An <b>OrderField</b> object that represents the new order field.</span>
-          </span>
-        </returns>
+        <param name="PropertyName"><span data-ttu-id="cad77-116">O nome da propriedade à qual o novo objeto está associado.</span><span class="sxs-lookup"><span data-stu-id="cad77-116">The name of the property to which the new object is associated.</span></span></param>
+        <param name="Index"><span data-ttu-id="cad77-117">O número de índice no qual inserir o novo objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor de propriedade de um objeto na coleção em onde o novo objeto deve ser inserido.</span><span class="sxs-lookup"><span data-stu-id="cad77-117">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection at where the new object is to be inserted.</span></span></param>
+        <param name="IsDescending"><span data-ttu-id="cad77-118">O valor usado para definir o <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> propriedade do novo objeto <b>OrderField</b> .</span><span class="sxs-lookup"><span data-stu-id="cad77-118">The value used to set the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> property of the new <b>OrderField</b> object.</span></span> <span data-ttu-id="cad77-119">Se este valor não for especificado, o valor padrão da propriedade <b>IsDescending</b> é usado.</span><span class="sxs-lookup"><span data-stu-id="cad77-119">If this value is not specified, the default value of the <b>IsDescending</b> property is used.</span></span></param>
+        <summary><span data-ttu-id="cad77-120">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> do objeto e o insere no índice especificado dentro do <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="cad77-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="cad77-121">Um objeto <b>OrderField</b> que representa o novo campo de ordem.</span><span class="sxs-lookup"><span data-stu-id="cad77-121">An <b>OrderField</b> object that represents the new order field.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -303,24 +198,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="55e38-122">O valor pode ser um inteiro baseado em um que indexa um objeto <b>OrderField</b> o <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> coleção, uma cadeia de caracteres que corresponda a <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor da propriedade de um objeto <b>OrderField</b> contido na coleção, ou um nome de campo, como exibido no seletor de campos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-122">The value  can be a one-based integer that indexes an <b>OrderField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an <b>OrderField</b> object in the collection, or a field name as displayed in the Field Chooser.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="55e38-123">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objeto da coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="55e38-124">Um objeto <b>OrderField</b> que representa o objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-124">An <b>OrderField</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="cad77-122">O valor pode ser um inteiro baseado em um que indexa um objeto <b>OrderField</b> o <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> coleção, uma cadeia de caracteres que corresponda a <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor da propriedade de um objeto <b>OrderField</b> contido na coleção, ou um nome de campo, como exibido no seletor de campos.</span><span class="sxs-lookup"><span data-stu-id="cad77-122">The value  can be a one-based integer that indexes an <b>OrderField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an <b>OrderField</b> object in the collection, or a field name as displayed in the Field Chooser.</span></span></param>
+        <summary><span data-ttu-id="cad77-123">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objeto da coleção.</span><span class="sxs-lookup"><span data-stu-id="cad77-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="cad77-124">Um objeto <b>OrderField</b> que representa o objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="cad77-124">An <b>OrderField</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -347,12 +227,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cad77-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,18 +255,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="55e38-127">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor de propriedade de um objeto na coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-127">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="55e38-128">Remove um objeto do conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-128">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="cad77-127">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> valor de propriedade de um objeto na coleção.</span><span class="sxs-lookup"><span data-stu-id="cad77-127">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="cad77-128">Remove um objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="cad77-128">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -416,12 +281,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-129">Remove todas as propriedades de classificação do <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-129">Removes all sorting properties from the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-129">Remove todas as propriedades de classificação do <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="cad77-129">Removes all sorting properties from the <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -448,41 +308,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="55e38-130">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-130">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="55e38-131">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="cad77-130">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="cad77-130">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="cad77-131">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="cad77-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="55e38-132">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="cad77-132">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="cad77-132">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="cad77-133">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="cad77-133">Both members serve the same purpose.</span></span> <span data-ttu-id="cad77-134">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="cad77-134">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="55e38-132">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

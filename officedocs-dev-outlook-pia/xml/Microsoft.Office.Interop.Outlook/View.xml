@@ -1,13 +1,5 @@
 <Type Name="View" FullName="Microsoft.Office.Interop.Outlook.View">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b10e73e5691c861b2adb03a1f9002fa391a33274" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630180" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface View" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="87b0e2f941bfdd33517182275daf75a85449684a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903164" /></Metadata><TypeSignature Language="C#" Value="public interface View" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract View" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.View" />
   <TypeSignature Language="VB.NET" Value="Public Interface View" />
@@ -26,53 +18,39 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b90d0-101">Representa um modo de exibição personalizado usado para classificar, agrupar e exibir dados.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b90d0-101">Represents a customizable view used to sort, group, and view data.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="b90d0-102">
-        <para>Objeto <b>View</b> permite que você crie modos de exibição personalizados que permitam melhor Classificar, agrupar e visualizar dados de todos os tipos diferentes. Há uma variedade de diferentes tipos de exibição que fornecem a flexibilidade necessária para criar e manter seus dados importantes.</para>
-        <list type="bullet">
-          <item>
-            <para>o tipo de exibição de tabela (olTableView) permite que você visualize dados em uma tabela simples de baseada em campos.</para>
-          </item>
-          <item>
-            <para>Tipo de exibição de calendário (olCalendarView) permite que você visualize dados em um formato de calendário.</para>
-          </item> Tipo de 
-        <item><para>o modo de exibição de cartão (olCardView) permite que você visualize dados em uma série de cartões. Cada cartão exibe as informações contidas pelo item e pode ser classificado. </para></item>Tipo 
-        <item><para>o modo de exibição ícone (olIconView) permite que você visualize dados como ícones, semelhante a uma pasta do Windows ou explorer.  </para></item><item><para>o tipo de exibição linha do tempo (olTimelineView) permite que você visualize dados conforme eles são recebidos em uma linha de tempo linear personalizável.</para></item></list> Modos de exibição de 
-      <para>são definidos e personalizados usando o objeto de <b>modo de exibição</b><see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade. A propriedade <b>XML</b> permite que você crie e defina um esquema XML personalizado que define os vários recursos de um modo de exibição.</para><para>Usar <b>exibições</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto <b>View</b> ou seu valor ordinal, para retornar um único objeto <b>View</b> .</para><para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do conjunto <b>Views</b> para criar uma nova exibição.</para><para>Sempre usar <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> para salvar uma exibição após alterar qualquer propriedade da exibição.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b90d0-102">
-          <para>The <b>View</b> object allows you to create customizable views that allow you to better sort, group and ultimately view data of all different types. There are a variety of different view types that provide the flexibility needed to create and maintain your important data.</para>
-          <list type="bullet">
-            <item>
-              <para>The table view type (olTableView) allows you to view data in a simple field-based table. </para>
-            </item>
-            <item>
-              <para> The Calendar view type (olCalendarView) allows you to view data in a calendar format. </para>
-            </item>
-            <item>
-              <para> The card view type (olCardView) allows you to view data in a series of cards. Each card displays the information contained by the item and can be sorted. </para>
-            </item>
-            <item>
-              <para> The icon view type (olIconView) allows you to view data as icons, similar to a Windows folder or explorer.  </para>
-            </item>
-            <item>
-              <para> The timeline view type (olTimelineView) allows you to view data as it is received in a customizable linear time line. </para>
-            </item>
-          </list>
-          <para>Views are defined and customized using the <b>View</b> object's <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />  property. The <b>XML</b> property allows you to create and set a customized XML schema that defines the various features of a view.</para>
-          <para>Use <b>Views</b>(<paramref name="index" />), where <paramref name="index" /> is the name of the <b>View</b> object or its ordinal value, to return a single <b>View</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method of the <b>Views</b> collection to create a new view. </para>
-          <para>Always use <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> to save a view after you change any property of the view.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="bc7dd-101">Representa um modo de exibição personalizado usado para classificar, agrupar e exibir dados.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-101">Represents a customizable view used to sort, group, and view data.</span></span></summary>
+    <remarks><para><span data-ttu-id="bc7dd-p101">Objeto <b>View</b> permite que você crie modos de exibição personalizados que permitam melhor Classificar, agrupar e exibir os dados de todos os tipos diferentes de basicamente. Há uma variedade de diferentes tipos de exibição que fornecem a flexibilidade necessária para criar e manter seus dados importantes.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p101">The <b>View</b> object allows you to create customizable views that allow you to better sort, group and ultimately view data of all different types. There are a variety of different view types that provide the flexibility needed to create and maintain your important data.</span></span></para>
+      <list type="bullet">
+        <item>
+          <para><span data-ttu-id="bc7dd-p102">O tipo de exibição Tabela (olTableView) permite que você visualize dados em uma tabela simples baseada em campos.
+</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p102">The table view type (olTableView) allows you to view data in a simple field-based table. </span></span></para>
+        </item>
+        <item>
+          <para> <span data-ttu-id="bc7dd-p103">
+				O tipo de exibição Calendário (olCalendarView) permite que você visualize dados no formato de calendário.
+</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p103">The Calendar view type (olCalendarView) allows you to view data in a calendar format. </span></span></para>
+        </item>
+        <item>
+          <para> <span data-ttu-id="bc7dd-p104">
+				O tipo de exibição Cartão (olCardView) permite que você visualize dados em uma série de cartões. Cada cartão exibe as informações contidas pelo item e pode ser ordenado.
+</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p104">The card view type (olCardView) allows you to view data in a series of cards. Each card displays the information contained by the item and can be sorted. </span></span></para>
+        </item>
+        <item>
+          <para> <span data-ttu-id="bc7dd-p105">
+				O tipo de exibição Ícone (olIconView) permite que você visualize os dados como ícones, semelhante a um explorer ou uma pasta do Windows. 
+</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p105">The icon view type (olIconView) allows you to view data as icons, similar to a Windows folder or explorer.  </span></span></para>
+        </item>
+        <item>
+          <para> <span data-ttu-id="bc7dd-p106">
+				O tipo de exibição Linha de Tempo (olTimelineView) permite que você visualize dados conforme eles são recebidos em uma linha de tempo linear personalizável.
+</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p106">The timeline view type (olTimelineView) allows you to view data as it is received in a customizable linear time line. </span></span></para>
+        </item>
+      </list>
+      <para><span data-ttu-id="bc7dd-110">Modos de exibição são definidos e personalizados usando o objeto de <b>modo de exibição</b> <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-110">Views are defined and customized using the <b>View</b> object's <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" />  property.</span></span> <span data-ttu-id="bc7dd-111">A propriedade <b>XML</b> permite que você crie e defina um esquema XML personalizado que define os vários recursos de um modo.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-111">The <b>XML</b> property allows you to create and set a customized XML schema that defines the various features of a view.</span></span></para>
+      <para><span data-ttu-id="bc7dd-112">Usar <b>exibições</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto <b>View</b> ou seu valor ordinal, para retornar um único objeto <b>View</b> .</span><span class="sxs-lookup"><span data-stu-id="bc7dd-112">Use <b>Views</b>(<paramref name="index" />), where <paramref name="index" /> is the name of the <b>View</b> object or its ordinal value, to return a single <b>View</b> object.</span></span></para>
+      <para><span data-ttu-id="bc7dd-113">Use o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do conjunto <b>Views</b> para criar uma nova exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-113">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method of the <b>Views</b> collection to create a new view.</span></span> </para>
+      <para><span data-ttu-id="bc7dd-114">Sempre use <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> para salvar uma exibição após alterar qualquer propriedade da exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-114">Always use <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> to save a view after you change any property of the view.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -98,16 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-103">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="b90d0-104">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-115">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="bc7dd-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -133,16 +102,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-105">Aplica o modo de exibição para a interface do usuário Microsoft Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-105">Applies the view to the Microsoft Outlook user interface.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b90d0-106">
-            <para>Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e, em seguida, um <b>View.Apply</b>. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
-            <code>Sub ResetView()
+        <summary><span data-ttu-id="bc7dd-117">Aplica o modo de exibição para a interface do usuário Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-117">Applies the view to the Microsoft Outlook user interface.</span></span></summary>
+        <remarks><para><span data-ttu-id="bc7dd-118">Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e, em seguida, um <b>View.Apply</b>.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-118">To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <b>View.Apply</b>.</span></span> <span data-ttu-id="bc7dd-119">O exemplo de código a seguir ilustra a ordem das chamadas:</span><span class="sxs-lookup"><span data-stu-id="bc7dd-119">The code sample below illustrates the order of the calls:</span></span></para>
+          <code>Sub ResetView()
     Dim v As Outlook.View
     ' Save a reference to the current view object
     v = Application.ActiveExplorer().CurrentView
@@ -150,7 +112,7 @@
     v.Reset()
     v.Apply()
 End Sub</code>
-            <code>private void ResetView()
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -160,33 +122,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-106">
-              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <b>View.Apply</b>. The code sample below illustrates the order of the calls:</para>
-              <code>Sub ResetView()
-    Dim v As Outlook.View
-    ' Save a reference to the current view object
-    v = Application.ActiveExplorer().CurrentView
-    ' Reset and then apply the current view
-    v.Reset()
-    v.Apply()
-End Sub</code>
-              <code>private void ResetView()
-{
-    // Save a reference to the current view object    
-    Outlook.View v = Application.ActiveExplorer().CurrentView 
-        as Outlook.View; 
-    
-    // Reset and then apply the current view
-    v.Reset();
-    v.Apply();
-}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -212,16 +148,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="b90d0-108">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-120">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="bc7dd-121">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-121">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,24 +176,9 @@ End Sub</code>
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="b90d0-109">Representa o nome do novo objeto <b>View</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-109">Represents the name of the new <b>View</b> object.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="b90d0-110">Salvar opção que define as permissões do objeto <b>View</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-110">The save option that defines the permissions of the <b>View</b> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b90d0-111">Cria uma nova instância de um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-111">Creates a new instance of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span>
-          </span>
-        </summary>
+        <param name="Name"><span data-ttu-id="bc7dd-122">Representa o nome do novo objeto <b>View</b>.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-122">Represents the name of the new <b>View</b> object.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="bc7dd-123">Salvar opção que define as permissões do objeto <b>View</b>.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-123">The save option that defines the permissions of the <b>View</b> object.</span></span></param>
+        <summary><span data-ttu-id="bc7dd-124">Cria uma nova instância de um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-124">Creates a new instance of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -292,12 +204,7 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-112">Exclui um objeto do conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-112">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-125">Exclui um objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-125">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -327,29 +234,10 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-113">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-113">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
-          </span>
-          <span data-ttu-id="b90d0-114">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-126">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-126">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span></span>  <span data-ttu-id="bc7dd-127">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-115">
-            <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-115">
-              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-128">O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-128">The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view.</span></span> <span data-ttu-id="bc7dd-129">Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></span><span class="sxs-lookup"><span data-stu-id="bc7dd-129">For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -375,22 +263,10 @@ End Sub</code>
         <Parameter Name="Date" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Date">
-          <span data-ttu-id="b90d0-116">A data para a qual o modo de exibição deve ser alterado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-116">The date to which the view should be changed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b90d0-117">Altera a data utilizada pelo modo de exibição atual para exibir as informações.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-117">Changes the date used by the current view to display information.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b90d0-118">
-            <para>Para especificar uma data para ir até em um modo de exibição atual como um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> do objeto, você deve primeiro obtém uma <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição atual usando <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />. O exemplo de código a seguir demonstra como executar essa ação.</para>
-            <code>Sub TestGoToDate()
+        <param name="Date"><span data-ttu-id="bc7dd-130">A data para a qual o modo de exibição deve ser alterado.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-130">The date to which the view should be changed.</span></span></param>
+        <summary><span data-ttu-id="bc7dd-131">Altera a data utilizada pelo modo de exibição atual para exibir as informações.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-131">Changes the date used by the current view to display information.</span></span></summary>
+        <remarks><para><span data-ttu-id="bc7dd-132">Para especificar uma data para ir até em um modo de exibição atual como um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> do objeto, você deve primeiro obtém uma <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição atual usando <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-132">To specify a date to go to in a current view, such as a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object, you should first obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the current view by using <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> instead of <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />.</span></span> <span data-ttu-id="bc7dd-133">O exemplo de código a seguir demonstra como realizar essa ação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-133">The following code sample demonstrates how to perform this action.</span></span> </para>
+          <code>Sub TestGoToDate()
     Dim oCV As Outlook.CalendarView
     Dim oExpl As Outlook.Explorer
     Dim datGoTo As Date
@@ -416,7 +292,7 @@ End Sub</code>
     ' for which information is displayed in the view.
     oCV.GoToDate(datGoTo)
 End Sub</code>
-            <code>private void TestGoToDate()
+          <code>private void TestGoToDate()
 {
     Outlook.CalendarView oCV;
     Outlook.Explorer oExpl;
@@ -444,69 +320,7 @@ End Sub</code>
     // for which information is displayed in the view.
     oCV.GoToDate(datGoTo);
 }</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-118">
-              <para>To specify a date to go to in a current view, such as a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object, you should first obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the current view by using <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> instead of <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />. The following code sample demonstrates how to perform this action. </para>
-              <code>Sub TestGoToDate()
-    Dim oCV As Outlook.CalendarView
-    Dim oExpl As Outlook.Explorer
-    Dim datGoTo As Date
-
-    datGoTo = "11/7/2005"
-
-    ' Display the contents of the Calendar default folder.
-    oExpl = Application.Explorers.Add( _
-        Application.Session.GetDefaultFolder( -
-        Outlook.OlDefaultFolders.olFolderCalendar), _
-        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly)
-    oExpl.Display()
-
-    ' Retrieve the current view by calling the 
-    ' CurrentView property of the Explorer object.
-    oCV = oExpl.CurrentView
-
-    ' Set the CalendarViewMode property of the 
-    ' current view to display items by day.
-    oCV.CalendarViewMode = Outlook.OlCalendarViewMode.olCalendarViewDay
-
-    ' Call the GoToDate method to set the date
-    ' for which information is displayed in the view.
-    oCV.GoToDate(datGoTo)
-End Sub</code>
-              <code>private void TestGoToDate()
-{
-    Outlook.CalendarView oCV;
-    Outlook.Explorer oExpl;
-    System.DateTime datGoTo;
-
-    datGoTo = DateTime.Parse("11/7/2005");
-
-    // Display the contents of the Calendar default folder.
-    oExpl = Application.Explorers.Add(
-        Application.Session.GetDefaultFolder(
-        Outlook.OlDefaultFolders.olFolderCalendar),
-        Outlook.OlFolderDisplayMode.olFolderDisplayFolderOnly);
-    oExpl.Display();
-
-    // Retrieve the current view by calling the 
-    // CurrentView property of the Explorer object.
-    oCV = (Outlook.CalendarView)(oExpl.CurrentView);
-
-    // Set the CalendarViewMode property of the 
-    // current view to display items by day.
-    oCV.CalendarViewMode = 
-        Outlook.OlCalendarViewMode.olCalendarViewDay;
-
-    // Call the GoToDate method to set the date
-    // for which information is displayed in the view.
-    oCV.GoToDate(datGoTo);
-}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -535,27 +349,11 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-119">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o objeto que define o idioma usado no menu.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-119">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the object that defines the language used in the menu.</span>
-          </span>
-          <span data-ttu-id="b90d0-120">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-134">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o objeto que define o idioma usado no menu.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-134">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the object that defines the language used in the menu.</span></span> <span data-ttu-id="bc7dd-135">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-135">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-121">Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-121">
-              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
-              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-136">A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-136">The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag.</span></span> <span data-ttu-id="bc7dd-137">Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</span><span class="sxs-lookup"><span data-stu-id="bc7dd-137">For example, the string "EN-US" represents the ISO code for "United States - English."</span></span></para>
+          <para><span data-ttu-id="bc7dd-p117">Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p117">If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -584,29 +382,10 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-122">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the current view.</span>
-          </span>
-          <span data-ttu-id="b90d0-123">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-141">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição atual.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-141">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the current view.</span></span> <span data-ttu-id="bc7dd-142">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-124">
-            <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-124">
-              <para>If <b>True</b>, the user can modify the settings of the current view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-p119">Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p119">If <b>True</b>, the user can modify the settings of the current view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -635,16 +414,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-125">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-125">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="b90d0-126">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-126">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-146">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-146">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="bc7dd-147">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-147">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -672,12 +442,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-p121">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p121">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -703,17 +468,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-129">Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-129">Resets a built-in Microsoft Outlook view to its original settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b90d0-130">
-            <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-            <para>Adequadamente redefinir o modo de exibição atual, você deve fazer um <b>View.Reset</b> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
-            <code>Sub ResetView()
+        <summary><span data-ttu-id="bc7dd-150">Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-150">Resets a built-in Microsoft Outlook view to its original settings.</span></span></summary>
+        <remarks><para><span data-ttu-id="bc7dd-151">Esse método só funciona nos modos de exibição internos do Outlook.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-151">This method works only on built-in Outlook views.</span></span></para>
+          <para><span data-ttu-id="bc7dd-152">Para redefinir o modo de exibição atual corretamente, você deve fazer um <b>View.Reset</b> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-152">To properly reset the current view, you must do a <b>View.Reset</b> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span></span> <span data-ttu-id="bc7dd-153">O exemplo de código a seguir ilustra a ordem das chamadas:</span><span class="sxs-lookup"><span data-stu-id="bc7dd-153">The code sample below illustrates the order of the calls:</span></span></para>
+          <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
     Set v = Application.ActiveExplorer().CurrentView
@@ -721,7 +479,7 @@ End Sub</code>
     v.Reset
     v.Apply
 End Sub</code>
-            <code>private void ResetView()
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -731,34 +489,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-130">
-              <para>This method works only on built-in Outlook views.</para>
-              <para>To properly reset the current view, you must do a <b>View.Reset</b> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
-              <code>Sub ResetView()
-    Dim v as Outlook.View
-    ' Save a reference to the current view object
-    Set v = Application.ActiveExplorer().CurrentView
-    ' Reset and then apply the current view
-    v.Reset
-    v.Apply
-End Sub</code>
-              <code>private void ResetView()
-{
-    // Save a reference to the current view object    
-    Outlook.View v = Application.ActiveExplorer().CurrentView 
-        as Outlook.View; 
-    
-    // Reset and then apply the current view
-    v.Reset();
-    v.Apply();
-}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -782,24 +513,9 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-131">Salva a exibição ou salva as alterações nela realizadas.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-131">Saves the view, or saves the changes to a view.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b90d0-132">
-            <para>Sempre use <b>Salvar</b> para salvar uma exibição após alterar a propriedade da exibição.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-132">
-              <para>Always use <b>Save</b> to save a view after you change any property of the view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="bc7dd-154">Salva a exibição ou salva as alterações nela realizadas.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-154">Saves the view, or saves the changes to a view.</span></span></summary>
+        <remarks><para><span data-ttu-id="bc7dd-155">Sempre use <b>Salvar</b> para salvar uma exibição após alterar a propriedade da exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-155">Always use <b>Save</b> to save a view after you change any property of the view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveOption">
@@ -825,29 +541,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-133">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-133">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />  constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
-          </span>
-          <span data-ttu-id="b90d0-134">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-156">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-156">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />  constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span></span>  <span data-ttu-id="bc7dd-157">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-157">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-135">
-            <para>Propriedade <b>SaveOption</b> é definida quando o <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-135">
-              <para>The <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-158">Propriedade <b>SaveOption</b> é definida quando o <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-158">The <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" />  method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -873,41 +570,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-136">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-136">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="b90d0-137">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-137">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-159">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-159">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="bc7dd-160">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-160">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-138">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="bc7dd-161">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-161">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="bc7dd-162">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-162">Both members serve the same purpose.</span></span> <span data-ttu-id="bc7dd-163">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="bc7dd-163">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-138">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -933,16 +605,7 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-139">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o modo de exibição um modo de exibição interno do Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-139">Returns a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the view is a built-in Outlook view.</span>
-          </span>
-          <span data-ttu-id="b90d0-140">Somente leitura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-140">Read-only</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-164">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o modo de exibição um modo de exibição interno do Outlook.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-164">Returns a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the view is a built-in Outlook view.</span></span> <span data-ttu-id="bc7dd-165">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="bc7dd-165">Read-only</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -970,29 +633,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-141">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> tipo de constante que representa o modo de exibição de um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-141">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />  constant representing the view type of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span>
-          </span>
-          <span data-ttu-id="b90d0-142">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-166">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> tipo de constante que representa o modo de exibição de um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-166">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" />  constant representing the view type of a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object.</span></span> <span data-ttu-id="bc7dd-167">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-167">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-143">
-            <para>Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-143">
-              <para>This property does not have any effect on the icons displayed in the Shortcuts pane. Large icons have been removed and if this property is set to <b>olLargeIcon</b>, it will not have any effect.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-p128">Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p128">This property does not have any effect on the icons displayed in the Shortcuts pane. Large icons have been removed and if this property is set to <b>olLargeIcon</b>, it will not have any effect.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="XML">
@@ -1021,28 +665,12 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b90d0-144">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-144">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the current view.</span>
-          </span>
-          <span data-ttu-id="b90d0-145">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="bc7dd-170">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição atual.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-170">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the current view.</span></span>  <span data-ttu-id="bc7dd-171">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-171">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b90d0-146">Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade XML para esse modo de exibição.</para><para>Para adicionar um campo personalizado para um modo de exibição, o uso de maneira programática a <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método. Essa é a maneira recomendada para dinamicamente mudar o modo de exibição com a configuração da propriedade <b>View.XML</b> .</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b90d0-146">
-              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
-              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the XML property for that view.</para>
-              <para>To programmatically add a custom field to a view, use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method. This is the recommended way to dynamically change the view over setting the <b>View.XML</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="bc7dd-p130">A definição XML descreve o tipo de modo de exibição usando uma série de marcas e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-p130">The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</span></span></para>
+          <para><span data-ttu-id="bc7dd-174">Para determinar como o XML deve ser estruturado quando criar modos de exibição, você pode criar um modo de exibição usando a interface do usuário do Outlook e recuperar a propriedade XML dele.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-174">To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the XML property for that view.</span></span></para>
+          <para><span data-ttu-id="bc7dd-175">Para adicionar um campo personalizado de maneira programática a uma exibição, use o <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método.</span><span class="sxs-lookup"><span data-stu-id="bc7dd-175">To programmatically add a custom field to a view, use the <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> method.</span></span> <span data-ttu-id="bc7dd-176">Esta é a maneira recomendada de dinamicamente mudar o modo de exibição com a configuração da propriedade <b>View.XML</b> .</span><span class="sxs-lookup"><span data-stu-id="bc7dd-176">This is the recommended way to dynamically change the view over setting the <b>View.XML</b> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

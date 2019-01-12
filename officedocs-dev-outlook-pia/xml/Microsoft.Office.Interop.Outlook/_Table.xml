@@ -1,13 +1,5 @@
 <Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630212" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Table" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903892" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="0b9c3-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0b9c3-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="0b9c3-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0b9c3-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="0b9c3-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0b9c3-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="0b9c3-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0b9c3-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="a07d7-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="a07d7-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="a07d7-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="a07d7-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="a07d7-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="a07d7-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="a07d7-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa o aplicativo pai (Outlook) para o <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span>
-          </span>
-          <span data-ttu-id="0b9c3-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa o aplicativo pai (Outlook) para o <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="a07d7-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span> <span data-ttu-id="a07d7-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-107">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeração indicando a classe do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-107">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span>
-          </span>
-          <span data-ttu-id="0b9c3-108">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-107">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeração indicando a classe do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="a07d7-107">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span> <span data-ttu-id="a07d7-108">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,33 +101,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção que contém as colunas definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-109">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection object that contains the columns defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-          <span data-ttu-id="0b9c3-110">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção que contém as colunas definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-109">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection object that contains the columns defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span> <span data-ttu-id="a07d7-110">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-110">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0b9c3-111">
-            <para>Objeto da coleção <b>Columns</b> é o membro padrão do objeto <b>Table</b> .  </para>
-            <para>Enquanto linhas em uma <b>tabela</b> correspondem aos itens no pai <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto da <b>tabela</b>, <b>colunas</b> em uma <b>tabela</b> corresponde às propriedades desses itens. Colunas padrão são definidas para todas as pastas, dependendo da pasta pai do objeto <b>Table</b> . Por exemplo, as propriedades padrão da caixa de entrada são: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b>e <b>MessageClass</b>. Para obter mais informações sobre propriedades padrão para uma <b>tabela</b>, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Padrão propriedades exibidas em um objeto Table</a></para>
-            <para>para adicionar <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos à coleção <b>Columns</b> de uma <b>tabela</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />. Para remover o conjunto de coluna padrão, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />. Para obter mais informações sobre o ajuste de colunas de uma <b>tabela</b>, consulte <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Adicionando colunas a um objeto Table</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-111">
-              <para>The <b>Columns</b> collection object is the default member of the <b>Table</b> object.  </para>
-              <para>While rows in a <b>Table</b> correspond to items in the parent <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> or <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object of the <b>Table</b>, <b>Columns</b> in a <b>Table</b> correspond to the properties of these items. Default columns are defined for all folders depending on the parent folder of the <b>Table</b> object. For example, the default properties for the Inbox are: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b>, and <b>MessageClass</b>. For more information on default properties for a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Default Properties Displayed in a Table Object</a></para>
-              <para>To add <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objects to the <b>Columns</b> collection of a <b>Table</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />. To remove the default column set, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />. For more information on adjusting columns of a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Adding Columns to a Table Object</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="a07d7-p105">Objeto da coleção <b>Columns</b> é o membro padrão do objeto <b>Table</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-p105">The <b>Columns</b> collection object is the default member of the <b>Table</b> object.  </span></span></para>
+          <para><span data-ttu-id="a07d7-112">Enquanto as linhas em uma <b>tabela</b> correspondem aos itens no pai <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto da <b>tabela</b>, <b>colunas</b> em uma <b>tabela</b> corresponde às propriedades desses itens.</span><span class="sxs-lookup"><span data-stu-id="a07d7-112">While rows in a <b>Table</b> correspond to items in the parent <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> or <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object of the <b>Table</b>, <b>Columns</b> in a <b>Table</b> correspond to the properties of these items.</span></span> <span data-ttu-id="a07d7-113">Colunas padrão são definidas para todas as pastas, dependendo da pasta pai do objeto <b>Table</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-113">Default columns are defined for all folders depending on the parent folder of the <b>Table</b> object.</span></span> <span data-ttu-id="a07d7-114">Por exemplo, as propriedades padrão da caixa de entrada são: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b> e <b>MessageClass</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-114">For example, the default properties for the Inbox are: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b>, and <b>MessageClass</b>.</span></span> <span data-ttu-id="a07d7-115">Para obter mais informações sobre propriedades padrão para uma <b>tabela</b>, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Padrão propriedades exibidas em um objeto Table</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-115">For more information on default properties for a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Default Properties Displayed in a Table Object</a></span></span></para>
+          <para><span data-ttu-id="a07d7-116">Para adicionar <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos à coleção <b>Columns</b> de uma <b>tabela</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-116">To add <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objects to the <b>Columns</b> collection of a <b>Table</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />.</span></span> <span data-ttu-id="a07d7-117">Para remover o conjunto de coluna padrão, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-117">To remove the default column set, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />.</span></span> <span data-ttu-id="a07d7-118">Para obter mais informações sobre o ajuste de colunas de uma <b>tabela</b>, consulte <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Adicionando colunas a um objeto Table</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-118">For more information on adjusting columns of a <b>Table</b>, see <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Adding Columns to a Table Object</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndOfTable">
@@ -196,33 +132,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-112">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a linha atual é posicionada após a última linha do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-112">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether the current row is positioned after the last row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span>
-          </span>
-          <span data-ttu-id="0b9c3-113">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-119">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a linha atual é posicionada após a última linha do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="a07d7-119">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether the current row is positioned after the last row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span> <span data-ttu-id="a07d7-120">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0b9c3-114">
-            <para>Quando você abre uma <b>tabela</b> usando <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, o valor da <b>EndOfTable</b> depende do número de linhas da <b>tabela</b>. Se não houver nenhuma linha, <b>EndOfTable</b> retornará True. Se houver linhas, <b>EndOfTable</b> retornará <b>False</b> até que o cursor move além da última célula na tabela.  </para>
-            <para>a <b>tabela</b> tem duas linhas virtual <b>Nulo</b> , um antes da primeira linha e um depois da última linha da <b>tabela</b>. Cada chamada a <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> move a linha atual para a próxima linha da <b>tabela</b> e retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a linha atual.   </para>
-            <para>a propriedade <b>EndOfTable</b> retornará <b>True</b> se a linha atual estiver depois da última linha e <b>False</b> se a linha atual estiver no ou antes da última linha.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-114">
-              <para>When you open a <b>Table</b> using <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, the value of <b>EndOfTable</b> depends on the number of rows in the <b>Table</b>. If there are no rows, <b>EndOfTable</b> returns True. If there are rows, <b>EndOfTable</b> returns <b>False</b> until the cursor moves beyond the last row in the Table.  </para>
-              <para>The <b>Table</b> has two virtual <b>Null</b> rows, one before the first row and one after the last row in the <b>Table</b>. Each call to <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> moves the current row to the next row in the <b>Table</b> and returns a <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the current row.   </para>
-              <para>The <b>EndOfTable</b> property returns <b>True</b> if the current row is after the last row and <b>False</b> if the current row is on or before the last row. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="a07d7-121">Quando você abre uma <b>tabela</b> usando <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, o valor da <b>EndOfTable</b> depende do número de linhas da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-121">When you open a <b>Table</b> using <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, the value of <b>EndOfTable</b> depends on the number of rows in the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-122">Se não houver nenhuma linha, <b>EndOfTable</b> retornará True.</span><span class="sxs-lookup"><span data-stu-id="a07d7-122">If there are no rows, <b>EndOfTable</b> returns True.</span></span> <span data-ttu-id="a07d7-123">Se houver linhas, <b>EndOfTable</b> retornará <b>False</b> até que o cursor move além da última célula na tabela.</span><span class="sxs-lookup"><span data-stu-id="a07d7-123">If there are rows, <b>EndOfTable</b> returns <b>False</b> until the cursor moves beyond the last row in the Table.</span></span>  </para>
+          <para><span data-ttu-id="a07d7-124">A <b>tabela</b> tem duas linhas virtual <b>Nulo</b>, um antes da primeira linha e um depois da última linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-124">The <b>Table</b> has two virtual <b>Null</b> rows, one before the first row and one after the last row in the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-125">Cada chamada a <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> move a linha atual para a próxima linha da <b>tabela</b> e retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a linha atual.</span><span class="sxs-lookup"><span data-stu-id="a07d7-125">Each call to <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> moves the current row to the next row in the <b>Table</b> and returns a <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the current row.</span></span>   </para>
+          <para><span data-ttu-id="a07d7-p111">A propriedade <b>EndOfTable</b> retorna <b>True</b> se a linha atual estiver depois da última linha e <b>False</b> se a linha atual estiver no ou antes da última linha.</span><span class="sxs-lookup"><span data-stu-id="a07d7-p111">The <b>EndOfTable</b> property returns <b>True</b> if the current row is after the last row and <b>False</b> if the current row is on or before the last row. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindNextRow">
@@ -246,42 +161,13 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-115">Localiza a próxima linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que satisfaz os critérios especificados em precedidos <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-115">Finds the next row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> that meets the criteria specified in a preceding  <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-116">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a próxima linha na <b>tabela</b> que atenda a condição de filtro na chamada <b>FindRow</b>precedente.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-116">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the next row in the <b>Table</b> that meets the filter condition in the preceding call to <b>FindRow</b>.</span>
-          </span>
-          <span data-ttu-id="0b9c3-117">Retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se <b>FindNextRow</b> não puder encontrar outra linha que atende aos critérios especificados em <b>FindRow</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-117">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <b>FindNextRow</b> cannot find another row that meets the criteria specified in <b>FindRow</b>.</span>
-          </span>
-          <span data-ttu-id="0b9c3-118">Também retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se <b>FindRow</b> não tiver sido chamado antes de <b>FindNextRow</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-118">Also returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <b>FindRow</b> has not been called before <b>FindNextRow</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0b9c3-119">
-            <para>
-              <b>FindNextRow</b> localiza a próxima linha com base na linha retornada pela <b>FindNextRow</b>ou <b>FindRow</b> precedente. Ele não depende a linha atual (como a linha atual tiver sido reposicionada desde a anterior <b>FindRow</b> ou <b>FindNextRow</b>, por exemplo, por <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
-            <para>Se <b>FindNextRow</b> encontrar uma linha, ele irá posicionar a linha atual para essa linha. Se ele não encontrar outra linha, ele será não não reposicionar a linha atual.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-119">
-              <para>
-                <b>FindNextRow</b> finds the next row based on the row returned by the preceding <b>FindRow</b> or <b>FindNextRow</b>. It does not depend on the current row (as the current row may have been repositioned since the preceding <b>FindRow</b> or <b>FindNextRow</b>, for example, by <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
-              <para>If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not not reposition the current row.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a07d7-127">Localiza a próxima linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que satisfaz os critérios especificados em precedidos <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-127">Finds the next row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> that meets the criteria specified in a preceding  <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-128">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a próxima linha na <b>tabela</b> que atenda a condição de filtro na chamada <b>FindRow</b>precedente.</span><span class="sxs-lookup"><span data-stu-id="a07d7-128">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the next row in the <b>Table</b> that meets the filter condition in the preceding call to <b>FindRow</b>.</span></span> <span data-ttu-id="a07d7-129">Retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se <b>FindNextRow</b> não puder encontrar outra linha que atende aos critérios especificados em <b>FindRow</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-129">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <b>FindNextRow</b> cannot find another row that meets the criteria specified in <b>FindRow</b>.</span></span> <span data-ttu-id="a07d7-130">Também retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se <b>FindRow</b> não tiver sido chamado antes de <b>FindNextRow</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-130">Also returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if <b>FindRow</b> has not been called before <b>FindNextRow</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="a07d7-131">
+            <b>FindNextRow</b> localiza a próxima linha com base na linha retornada pela <b>FindNextRow</b> ou <b>FindRow</b> precedente.</span><span class="sxs-lookup"><span data-stu-id="a07d7-131">
+            <b>FindNextRow</b> finds the next row based on the row returned by the preceding <b>FindRow</b> or <b>FindNextRow</b>.</span></span> <span data-ttu-id="a07d7-132">Ele não depende a linha atual (como a linha atual tiver sido reposicionada desde a anterior <b>FindRow</b> ou <b>FindNextRow</b>, por exemplo, por <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</span><span class="sxs-lookup"><span data-stu-id="a07d7-132">It does not depend on the current row (as the current row may have been repositioned since the preceding <b>FindRow</b> or <b>FindNextRow</b>, for example, by <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</span></span></para>
+          <para><span data-ttu-id="a07d7-p114">Se <b>FindNextRow</b> localizar uma linha, posicionará a linha atual nessa linha. Se não localizar outra linha, não resposicionará a linha atual.</span><span class="sxs-lookup"><span data-stu-id="a07d7-p114">If <b>FindNextRow</b> finds a row, it will position the current row to that row. If it does not find another row, it will not not reposition the current row.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindRow">
@@ -307,52 +193,20 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">
-          <span data-ttu-id="0b9c3-120">Especifica a condição que uma linha da <b>tabela</b> deve satisfazer.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-120">Specifies the condition that a row in the <b>Table</b> has to meet.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0b9c3-121">Localiza a primeira linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que satisfaz os critérios especificados em <paramref name="Filter" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-121">Finds the first row in the  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> that meets the criteria specified in <paramref name="Filter" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-122">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a primeira linha da <b>tabela</b> que satisfaz os critérios de filtro.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-122">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the first row in the <b>Table</b> that meets the filter criteria.</span>
-          </span>
-          <span data-ttu-id="0b9c3-123">Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se nenhuma dessas linha pode ser encontrada, ou a <b>tabela</b> não conter qualquer linha.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-123">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no such  row can be found, or the <b>Table</b> does not contain any rows.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0b9c3-124">
-            <para>
-              <b>FindRow</b> sempre começa pela primeira linha da <b>tabela</b>.  </para>
-            <para>
-              <b>FindRow</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se uma propriedade <paramref name="Filter" /> não existe no namespace especificado. A propriedade é considerada uma propriedade nomeada no conjunto de propriedade de MAPI, PS_PUBLIC_STRINGS. <b>FindRow</b> não retorna um erro neste caso.</para>
-            <para>
-              <b>FindRow</b> retornará um erro se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou uma restrição inválida. Em casos onde <b>FindRow</b> não encontrar qualquer linha, a linha atual não vai ser reposicionada para onde ele estava antes da chamada para <b>FindRow</b>.</para>
-            <para>Para usar a pesquisa de indexação de conteúdo em uma <b>tabela</b>, utilize o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método. <b>FindRow</b> retornará um erro se <paramref name="Filter" /> contém palavras-chave indexação conteúdas. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-124">
-              <para>
-                <b>FindRow</b> always starts from the first row in the <b>Table</b>.  </para>
-              <para>
-                <b>FindRow</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if a property in <paramref name="Filter" /> does not exist in the specified namespace. The property is considered a named property in the MAPI property set, PS_PUBLIC_STRINGS. <b>FindRow</b> does not return an error in this case.</para>
-              <para>
-                <b>FindRow</b> returns an error if <paramref name="Filter" /> is a blank string or an invalid restriction. In cases where  <b>FindRow</b> does not find any row, the current row will not be repositioned to where it was before the call to <b>FindRow</b>.</para>
-              <para>To use content indexing search in a <b>Table</b>, use the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> method. <b>FindRow</b> returns an error if <paramref name="Filter" /> contains content indexing keywords. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Filter"><span data-ttu-id="a07d7-135">Especifica a condição que uma linha da <b>tabela</b> deve satisfazer.</span><span class="sxs-lookup"><span data-stu-id="a07d7-135">Specifies the condition that a row in the <b>Table</b> has to meet.</span></span></param>
+        <summary><span data-ttu-id="a07d7-136">Localiza a primeira linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que satisfaz os critérios especificados em <paramref name="Filter" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-136">Finds the first row in the  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> that meets the criteria specified in <paramref name="Filter" />.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-137">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a primeira linha da <b>tabela</b> que satisfaz os critérios de filtro.</span><span class="sxs-lookup"><span data-stu-id="a07d7-137">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the first row in the <b>Table</b> that meets the filter criteria.</span></span> <span data-ttu-id="a07d7-138">Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se nenhuma dessas linha pode ser encontrada, ou a <b>tabela</b> não conter qualquer linha.</span><span class="sxs-lookup"><span data-stu-id="a07d7-138">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no such  row can be found, or the <b>Table</b> does not contain any rows.</span></span></returns>
+        <remarks><para><span data-ttu-id="a07d7-p116">
+            <b>FindRow</b> sempre começa pela primeira linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-p116">
+            <b>FindRow</b> always starts from the first row in the <b>Table</b>.  </span></span></para>
+          <para><span data-ttu-id="a07d7-140">
+            <b>FindRow</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se uma propriedade <paramref name="Filter" /> não existe no namespace especificado.</span><span class="sxs-lookup"><span data-stu-id="a07d7-140">
+            <b>FindRow</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if a property in <paramref name="Filter" /> does not exist in the specified namespace.</span></span> <span data-ttu-id="a07d7-141">A propriedade é considerada uma propriedade nomeada no conjunto de propriedade de MAPI, PS_PUBLIC_STRINGS.</span><span class="sxs-lookup"><span data-stu-id="a07d7-141">The property is considered a named property in the MAPI property set, PS_PUBLIC_STRINGS.</span></span> <span data-ttu-id="a07d7-142"><b>FindRow</b> não retorna um erro nesse caso.</span><span class="sxs-lookup"><span data-stu-id="a07d7-142"><b>FindRow</b> does not return an error in this case.</span></span></para>
+          <para><span data-ttu-id="a07d7-143">
+            <b>FindRow</b> retornará um erro se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou uma restrição inválida.</span><span class="sxs-lookup"><span data-stu-id="a07d7-143">
+            <b>FindRow</b> returns an error if <paramref name="Filter" /> is a blank string or an invalid restriction.</span></span> <span data-ttu-id="a07d7-144">Em casos onde <b>FindRow</b> não encontrar qualquer linha, a linha atual não ser reposicionada para onde ele estava antes da chamada para <b>FindRow</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-144">In cases where  <b>FindRow</b> does not find any row, the current row will not be repositioned to where it was before the call to <b>FindRow</b>.</span></span></para>
+          <para><span data-ttu-id="a07d7-145">Para usar a pesquisa de indexação de conteúdo em uma <b>tabela</b>, use o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método.</span><span class="sxs-lookup"><span data-stu-id="a07d7-145">To use content indexing search in a <b>Table</b>, use the <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> method.</span></span> <span data-ttu-id="a07d7-146"><b>FindRow</b> retornará um erro se <paramref name="Filter" /> contém palavras-chave indexação conteúdas.</span><span class="sxs-lookup"><span data-stu-id="a07d7-146"><b>FindRow</b> returns an error if <paramref name="Filter" /> contains content indexing keywords.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetArray">
@@ -378,56 +232,16 @@
         <Parameter Name="MaxRows" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="MaxRows">
-          <span data-ttu-id="0b9c3-125">Especifica o número máximo de linhas a serem retornadas da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-125">Specifies the maximum number of rows to return from the <b>Table</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0b9c3-126">Obtém uma matriz bidimensional que contém um conjunto de valores de linhas e colunas da <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-126">Obtains a two-dimensional array that contains a set of row and column values from the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-127">Um valor de <b>objeto</b> que é uma matriz bidimensional que representa um conjunto de valores de linha e coluna da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-127">An <b>Object</b> value that is a two-dimensional array representing a set of row and column values from the <b>Table</b>.</span>
-          </span>
-          <span data-ttu-id="0b9c3-128">A matriz é baseada em zero; índices de índice (i, j) uma matriz para a linha de coluna e j-ésimo i-th na matriz.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-128">The array is zero-based; an array index (i, j) indexes into the i-th column and j-th row in the array.</span>
-          </span>
-          <span data-ttu-id="0b9c3-129">Colunas na matriz correspondem às colunas na <b>tabela</b>e linhas na matriz correspondem às linhas da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-129">Columns in the array correspond to columns in the <b>Table</b>, and rows in the array correspond to rows in the <b>Table</b>.</span>
-          </span>
-          <span data-ttu-id="0b9c3-130">O número de linhas na matriz retornada é o menor valor de <paramref name="MaxRows" /> e o número real de linhas da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-130">The number of rows in the returned array is the lesser value of <paramref name="MaxRows" /> and the actual number of rows in the <b>Table</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0b9c3-131">
-            <para>O método <b>GetArray</b> oferece um meio conceitualmente simple para obter valores de uma <b>tabela</b> copiando todo ou parte dos dados da <b>tabela</b> (com base na linha atual) em uma matriz e indexado na matriz.</para>
-            <para>
-              <b>GetArray</b> sempre começa com a linha atual da <b>tabela</b>. Ele retorna uma matriz com <paramref name="MaxRows" /> número de linhas se houver pelo menos <paramref name="MaxRows" /> número de linhas da <b>tabela</b> começando na posição atual. Se <paramref name="MaxRows" /> não for maior do que o número total de linhas na <b>tabela</b>, e há menos <paramref name="MaxRows" /> número de elementos na <b>tabela</b> começando a linha atual, ela retornará uma matriz que contém apenas restantes linhas no <b> Tabela</b>. Se <b>GetArray</b> é chamado e não existem linhas restantes, então <b>GetArray</b> retornará uma matriz vazia com zero elementos.</para>
-            <para>Após a obtenção de linhas correspondentes da <b>tabela</b> e antes de ele retorna, <b>GetArray</b> sempre reposiciona a linha atual para a próxima linha na <b>tabela</b>, se existe uma próxima linha. GetArray(n) opera como se <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> é chamado vezes n.</para>
-            <para>Os valores nas colunas mapeiam para colunas na <b>tabela</b>e, portanto, são determinados pelo formato do nome da propriedade usado para a coluna. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e Classes de modo a</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-131">
-              <para>The <b>GetArray</b> method offers a conceptually simple means to get values from a <b>Table</b> by copying all or part of the data in the <b>Table</b> (based on the current row) to an array and indexing into the array.</para>
-              <para>
-                <b>GetArray</b> always starts at the current row of the <b>Table</b>. It returns an array with <paramref name="MaxRows" /> number of rows if there are at least <paramref name="MaxRows" /> number of rows in the <b>Table</b> starting at the current position. If <paramref name="MaxRows" /> is not larger than the total number of rows in the <b>Table</b>, and  there are fewer than <paramref name="MaxRows" /> number of elements in the <b>Table</b> starting at the current row, it will  return an array that contains only the remaining rows in the <b>Table</b>. If <b>GetArray</b> is called and there are no remaining rows, then <b>GetArray</b> returns an empty array with zero elements.</para>
-              <para>After obtaining the appropriate rows from the <b>Table</b> and before it returns, <b>GetArray</b> always repositions the current row to the next row in the <b>Table</b>, if there exists a next row. GetArray(n) operates as if <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> is called n times.</para>
-              <para>The values in the columns map to columns in the <b>Table</b>, and are therefore determined by the format of the property name used for the column. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MaxRows"><span data-ttu-id="a07d7-147">Especifica o número máximo de linhas a serem retornadas da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-147">Specifies the maximum number of rows to return from the <b>Table</b>.</span></span></param>
+        <summary><span data-ttu-id="a07d7-148">Obtém uma matriz bidimensional que contém um conjunto de valores de linhas e colunas da <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-148">Obtains a two-dimensional array that contains a set of row and column values from the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-149">Um valor de <b>objeto</b> que é uma matriz bidimensional que representa um conjunto de valores de linha e coluna da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-149">An <b>Object</b> value that is a two-dimensional array representing a set of row and column values from the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-150">A matriz é baseada em zero; índices de índice (i, j) uma matriz para a linha de coluna e j-ésimo i-th na matriz.</span><span class="sxs-lookup"><span data-stu-id="a07d7-150">The array is zero-based; an array index (i, j) indexes into the i-th column and j-th row in the array.</span></span> <span data-ttu-id="a07d7-151">Colunas na matriz correspondem às colunas na <b>tabela</b>e linhas na matriz correspondem às linhas da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-151">Columns in the array correspond to columns in the <b>Table</b>, and rows in the array correspond to rows in the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-152">O número de linhas na matriz retornada é o menor valor de <paramref name="MaxRows" /> e o número real de linhas da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-152">The number of rows in the returned array is the lesser value of <paramref name="MaxRows" /> and the actual number of rows in the <b>Table</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="a07d7-153">O método <b>GetArray</b> oferece um meio conceitualmente simple para obter valores de uma <b>tabela</b> copiando todo ou parte dos dados da <b>tabela</b> (com base na linha atual) em uma matriz e indexado na matriz.</span><span class="sxs-lookup"><span data-stu-id="a07d7-153">The <b>GetArray</b> method offers a conceptually simple means to get values from a <b>Table</b> by copying all or part of the data in the <b>Table</b> (based on the current row) to an array and indexing into the array.</span></span></para>
+          <para><span data-ttu-id="a07d7-154">
+            <b>GetArray</b> sempre começa com a linha atual da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-154">
+            <b>GetArray</b> always starts at the current row of the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-155">Ele retorna uma matriz com <paramref name="MaxRows" /> número de linhas se houver pelo menos <paramref name="MaxRows" /> número de linhas da <b>tabela</b> começando na posição atual.</span><span class="sxs-lookup"><span data-stu-id="a07d7-155">It returns an array with <paramref name="MaxRows" /> number of rows if there are at least <paramref name="MaxRows" /> number of rows in the <b>Table</b> starting at the current position.</span></span> <span data-ttu-id="a07d7-156">Se <paramref name="MaxRows" /> não for maior do que o número total de linhas na <b>tabela</b>, e há menos <paramref name="MaxRows" /> número de elementos na <b>tabela</b> começando a linha atual, ela retornará uma matriz que contém apenas restantes linhas na <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-156">If <paramref name="MaxRows" /> is not larger than the total number of rows in the <b>Table</b>, and  there are fewer than <paramref name="MaxRows" /> number of elements in the <b>Table</b> starting at the current row, it will  return an array that contains only the remaining rows in the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-157">Se <b>GetArray</b> é chamado e não existem linhas restantes, <b>GetArray</b> retorna uma matriz vazia com zero elementos.</span><span class="sxs-lookup"><span data-stu-id="a07d7-157">If <b>GetArray</b> is called and there are no remaining rows, then <b>GetArray</b> returns an empty array with zero elements.</span></span></para>
+          <para><span data-ttu-id="a07d7-158">Depois de obter linhas correspondentes da <b>tabela</b> e antes de ele retorna, <b>GetArray</b> sempre reposiciona a linha atual para a próxima linha na <b>tabela</b>, se existe uma próxima linha.</span><span class="sxs-lookup"><span data-stu-id="a07d7-158">After obtaining the appropriate rows from the <b>Table</b> and before it returns, <b>GetArray</b> always repositions the current row to the next row in the <b>Table</b>, if there exists a next row.</span></span> <span data-ttu-id="a07d7-159">GetArray(n) opera como se <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> é chamado n vezes.</span><span class="sxs-lookup"><span data-stu-id="a07d7-159">GetArray(n) operates as if <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> is called n times.</span></span></para>
+          <para><span data-ttu-id="a07d7-160">Os valores nas colunas mapeiam para colunas na <b>tabela</b>e, portanto, são determinados pelo formato do nome da propriedade usado para a coluna.</span><span class="sxs-lookup"><span data-stu-id="a07d7-160">The values in the columns map to columns in the <b>Table</b>, and are therefore determined by the format of the property name used for the column.</span></span> <span data-ttu-id="a07d7-161">Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e modo de exibição de Classes</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-161">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNextRow">
@@ -451,22 +265,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-132">Move a linha atual para a próxima linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> e obtém essa linha da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-132">Moves the current row to the next row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> and obtains that row in the <b>Table</b>.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-133">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a próxima linha válida na <b>tabela</b> , se houver mais linhas disponíveis.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-133">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the next valid row in the <b>Table</b> if there are additional rows available.</span>
-          </span>
-          <span data-ttu-id="0b9c3-134">Se não houver nenhuma linha adicional disponíveis (onde <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> for <b>True</b>), <b>GetNextRow</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-134">If there are no additional rows available (where <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> is <b>True</b>), <b>GetNextRow</b> will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="a07d7-162">Move a linha atual para a próxima linha no <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> e obtém essa linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-162">Moves the current row to the next row in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> and obtains that row in the <b>Table</b>.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-163">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa a próxima linha válida na <b>tabela</b> , se houver mais linhas disponíveis.</span><span class="sxs-lookup"><span data-stu-id="a07d7-163">A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object that represents the next valid row in the <b>Table</b> if there are additional rows available.</span></span> <span data-ttu-id="a07d7-164">Se não houver nenhuma linha adicional disponíveis (onde <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> for <b>True</b>), <b>GetNextRow</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="a07d7-164">If there are no additional rows available (where <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> is <b>True</b>), <b>GetNextRow</b> will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -491,32 +291,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-135">Obtém o número de linhas no <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-135">Obtains the number of rows in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-136">Um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de linhas da tabela.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-136">An <b>Integer</b> (<b>int</b> in C#) value that represents the number of rows in the Table.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0b9c3-137">
-            <para>
-              <b>GetRowCount</b> em uma tabela grande resultará em um impacto no desempenho.  Devido a restrições de MAPI (por exemplo, restrições de memória para as tabelas grandes, operações simultâneas na <b>tabela</b>), <b>GetRowCount</b> pode não ser capaz de determinar o número de linhas da <b>tabela</b>, ou ele pode retornar somente apenas uma linha aproximada contagem. Nesses casos, <b>GetRowCount</b> retornará um erro. Você deve usar a detecção de erro apropriado para <b>GetRowCount</b> para determinar se a chamada retornará um erro.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-137">
-              <para>
-                <b>GetRowCount</b> on a large table will result in a performance impact.  Due to MAPI restrictions (for example, memory constraints for large tables, simultaneous operations on the <b>Table</b>), <b>GetRowCount</b> may not be able to determine the number of rows in the <b>Table</b>,  or it may only only return an approximate row count. In these cases, <b>GetRowCount</b> will return an error. You should use appropriate error detection for <b>GetRowCount</b> to determine if the call returns an error. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a07d7-165">Obtém o número de linhas no <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-165">Obtains the number of rows in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-166">Um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de linhas da tabela.</span><span class="sxs-lookup"><span data-stu-id="a07d7-166">An <b>Integer</b> (<b>int</b> in C#) value that represents the number of rows in the Table.</span></span></returns>
+        <remarks><para><span data-ttu-id="a07d7-167">
+            <b>GetRowCount</b> em uma tabela grande resultará em um impacto no desempenho.</span><span class="sxs-lookup"><span data-stu-id="a07d7-167">
+            <b>GetRowCount</b> on a large table will result in a performance impact.</span></span>  <span data-ttu-id="a07d7-168">Devido a restrições de MAPI (por exemplo, restrições de memória para as tabelas grandes, operações simultâneas na <b>tabela</b>), <b>GetRowCount</b> pode não ser capaz de determinar o número de linhas da <b>tabela</b>, ou ele pode retornar somente apenas uma linha aproximada contagem.</span><span class="sxs-lookup"><span data-stu-id="a07d7-168">Due to MAPI restrictions (for example, memory constraints for large tables, simultaneous operations on the <b>Table</b>), <b>GetRowCount</b> may not be able to determine the number of rows in the <b>Table</b>,  or it may only only return an approximate row count.</span></span> <span data-ttu-id="a07d7-169">Nesses casos, <b>GetRowCount</b> retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="a07d7-169">In these cases, <b>GetRowCount</b> will return an error.</span></span> <span data-ttu-id="a07d7-170">Você deve usar a detecção de erro apropriado para <b>GetRowCount</b> para determinar se a chamada retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="a07d7-170">You should use appropriate error detection for <b>GetRowCount</b> to determine if the call returns an error.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MoveToStart">
@@ -540,26 +320,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-138">Move a linha atual do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> para imediatamente antes da primeira linha da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-138">Moves the current row of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> to just before the first row of the <b>Table</b>.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0b9c3-139">
-            <para>
-              <b>MoveToStart</b> é equivalente a redefinição de <b>tabela</b>. Se você chamar <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> depois de chamar <b>MoveToStart</b>, você vai retornar uma linha que representa a primeira linha da <b>tabela</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-139">
-              <para>
-                <b>MoveToStart</b> is equivalent to resetting the <b>Table</b>. If you call <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> after you call <b>MoveToStart</b>, you will return a row representing the first row in the <b>Table</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="a07d7-171">Move a linha atual do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> para imediatamente antes da primeira linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-171">Moves the current row of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> to just before the first row of the <b>Table</b>.</span></span></summary>
+        <remarks><para><span data-ttu-id="a07d7-172">
+            <b>MoveToStart</b> é equivalente a redefinição de <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-172">
+            <b>MoveToStart</b> is equivalent to resetting the <b>Table</b>.</span></span> <span data-ttu-id="a07d7-173">Se você chamar <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> depois de chamar <b>MoveToStart</b>, você vai retornar uma linha que representa a primeira linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-173">If you call <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> after you call <b>MoveToStart</b>, you will return a row representing the first row in the <b>Table</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -585,16 +350,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-140">Retorna o <b>objeto</b> pai do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-140">Returns the parent <b>Object</b> of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span>
-          </span>
-          <span data-ttu-id="0b9c3-141">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-141">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-174">Retorna o <b>objeto</b> pai do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="a07d7-174">Returns the parent <b>Object</b> of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span> <span data-ttu-id="a07d7-175">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-175">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -622,52 +378,20 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">
-          <span data-ttu-id="0b9c3-142">Especifica os critérios para as linhas do objeto <b>Table</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-142">Specifies  the criteria for rows in the <b>Table</b> object.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0b9c3-143">Aplica um filtro às linhas de <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> e obtém um novo objeto <b>Table</b> .</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-143">Applies a filter to the rows in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> and obtains a new <b>Table</b> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="0b9c3-144">Um objeto <b>Table</b> que é retornado pela aplicação <paramref name="Filter" /> às linhas do objeto <b>Table</b> pai.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-144">A <b>Table</b> object that is  returned by applying <paramref name="Filter" /> to the rows in the parent <b>Table</b> object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="0b9c3-145">
-            <para>Você só pode usar <b>Restrict</b> para aplicar outro filtro para essa <b>tabela</b> se o objeto pai da <b>tabela</b> é um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Se o objeto pai é um <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> do objeto, <b>Restrict</b> retornará um erro.</para>
-            <para>Desde que o filtro será aplicado às linhas do objeto Table, isso é equivalente à aplicação de um filtro que é um AND lógico de <paramref name="Filter" /> e todos os filtros de anteriores aplicados ao mesmo objeto <b>Table</b> .</para>
-            <para>
-              <paramref name="Filter" /> é uma consulta nas propriedades especificadas de itens que são representados como linhas no pai <b>Table</b>. A consulta usa a sintaxe do Microsoft Jet ou a sintaxe do DAV Searching and Locating (DASL). Por exemplo, o seguinte filtro Jet e filtro DASL especificam os mesmos critérios para itens com <b>LastModificationTime</b> anteriores ao 3:30 pm de 12 de junho de 2005:</para>
-            <para>criteria = "[LastModificationTime] &lt; '" &amp; formatar$ ("6/12 / 2005 3:30 PM "," Data geral ") &amp; "'"</para>
-            <para>criteria =" @SQL = " &amp; Chr (34) &amp; "DAV:getlastmodified" &amp; Chr (34) &amp; " &lt; ' " &amp; formatar$ (" 12/6/2005 3:30 PM "," Data geral ") &amp; "'" </para>
-            <para>Para obter mais informações sobre a especificação de filtros para o objeto <b>Table</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-            <para>se <paramref name="Filter" /> contém propriedades personalizadas, essas propriedades devem existir na pasta pai do objeto <b>Table</b> no ordem para a restrição funcione corretamente.  Determinadas propriedades não são suportadas em um filtro de <b>tabela</b> , incluindo propriedades binárias, propriedades computadas e conteúdo do corpo HTML ou RTF. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propriedades sem suporte em um objeto Table ou filtro Table</a></para>
-            <para>se <paramref name="Filter" /> é uma cadeia de caracteres em branco, <b>Restrict</b> retornará um objeto <b>Table</b> que é idêntico ao objeto <b>Table</b> pai.  </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-145">
-              <para>You can only use <b>Table.Restrict</b> to apply another filter to that <b>Table</b> if the parent object of the <b>Table</b> is a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object. If the parent object is a <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object,  <b>Restrict</b> will return an error.</para>
-              <para>Since the filter is applied to the rows in the Table object, this is equivalent to applying a filter that is a logical AND of <paramref name="Filter" /> and all preceding filters applied to the same <b>Table</b> object.</para>
-              <para>
-                <paramref name="Filter" /> is a query on specified properties of items that are represented as rows in the parent <b>Table</b>. The query uses either the Microsoft Jet syntax or the DAV Searching and Locating (DASL) syntax. For example, the following Jet filter and DASL filter specify the same criteria for items with <b>LastModificationTime</b> earlier than 3:30pm of June 12, 2005:</para>
-              <para>criteria = "[LastModificationTime] &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</para>
-              <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34)          &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'" </para>
-              <para>For more information on specifying filters for the <b>Table</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para>If <paramref name="Filter" /> contains custom properties, those properties must exist in the parent folder of the <b>Table</b> object in order for the restriction to work correctly.  Certain properties are not supported in a <b>Table</b> filter, including binary properties, computed properties, and HTML or RTF body content. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></para>
-              <para>If <paramref name="Filter" /> is a blank string, <b>Restrict</b> returns a <b>Table</b> object that is identical to the parent <b>Table</b> object.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Filter"><span data-ttu-id="a07d7-176">Especifica os critérios para as linhas do objeto <b>Table</b> .</span><span class="sxs-lookup"><span data-stu-id="a07d7-176">Specifies  the criteria for rows in the <b>Table</b> object.</span></span></param>
+        <summary><span data-ttu-id="a07d7-177">Aplica um filtro às linhas de <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> e obtém um novo objeto <b>Table</b> .</span><span class="sxs-lookup"><span data-stu-id="a07d7-177">Applies a filter to the rows in the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> and obtains a new <b>Table</b> object.</span></span></summary>
+        <returns><span data-ttu-id="a07d7-178">Um objeto <b>Table</b> que é retornado pela aplicação <paramref name="Filter" /> às linhas do objeto <b>Table</b> pai.</span><span class="sxs-lookup"><span data-stu-id="a07d7-178">A <b>Table</b> object that is  returned by applying <paramref name="Filter" /> to the rows in the parent <b>Table</b> object.</span></span></returns>
+        <remarks><para><span data-ttu-id="a07d7-179">Você só pode usar <b>Restrict</b> para aplicar outro filtro para essa <b>tabela</b> se o objeto pai da <b>tabela</b> é um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="a07d7-179">You can only use <b>Table.Restrict</b> to apply another filter to that <b>Table</b> if the parent object of the <b>Table</b> is a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object.</span></span> <span data-ttu-id="a07d7-180">Se o objeto pai é um <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> do objeto, <b>Restrict</b> retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="a07d7-180">If the parent object is a <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object,  <b>Restrict</b> will return an error.</span></span></para>
+          <para><span data-ttu-id="a07d7-181">Desde que o filtro será aplicado às linhas do objeto Table, isso é equivalente à aplicação de um filtro que é um AND lógico de <paramref name="Filter" /> e todos os filtros de anteriores aplicados ao mesmo objeto <b>Table</b> .</span><span class="sxs-lookup"><span data-stu-id="a07d7-181">Since the filter is applied to the rows in the Table object, this is equivalent to applying a filter that is a logical AND of <paramref name="Filter" /> and all preceding filters applied to the same <b>Table</b> object.</span></span></para>
+          <para><span data-ttu-id="a07d7-182">
+            <paramref name="Filter" />é uma consulta nas propriedades especificadas de itens que são representados como linhas no pai <b>Table</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-182">
+            <paramref name="Filter" /> is a query on specified properties of items that are represented as rows in the parent <b>Table</b>.</span></span> <span data-ttu-id="a07d7-183">A consulta usa a sintaxe do Microsoft Jet ou a sintaxe do DAV Searching and Locating (DASL).</span><span class="sxs-lookup"><span data-stu-id="a07d7-183">The query uses either the Microsoft Jet syntax or the DAV Searching and Locating (DASL) syntax.</span></span> <span data-ttu-id="a07d7-184">Por exemplo, o seguinte filtro Jet e filtro DASL especificam os mesmos critérios para itens com <b>LastModificationTime</b> anteriores ao 3:30 pm de 12 de junho de 2005:</span><span class="sxs-lookup"><span data-stu-id="a07d7-184">For example, the following Jet filter and DASL filter specify the same criteria for items with <b>LastModificationTime</b> earlier than 3:30pm of June 12, 2005:</span></span></para>
+          <para><span data-ttu-id="a07d7-185">critérios = "[LastModificationTime] &lt; '" &amp; formatar$ ("12/6/2005 3:30 PM","Data geral") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="a07d7-185">criteria = "[LastModificationTime] &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="a07d7-186">critérios = "@SQL =" &amp; Chr (34) &amp; "DAV:getlastmodified" &amp; Chr (34) &amp; " &lt; '" &amp; formatar$ ("12/6/2005 3:30 PM","Data geral") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="a07d7-186">criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34)          &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</span></span> </para>
+          <para><span data-ttu-id="a07d7-187">Para obter mais informações sobre a especificação de filtros para o objeto <b>Table</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-187">For more information on specifying filters for the <b>Table</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para><span data-ttu-id="a07d7-188">Se <paramref name="Filter" /> contém propriedades personalizadas, essas propriedades devem existir na pasta pai do objeto <b>Table</b> para que a restrição funcione corretamente.</span><span class="sxs-lookup"><span data-stu-id="a07d7-188">If <paramref name="Filter" /> contains custom properties, those properties must exist in the parent folder of the <b>Table</b> object in order for the restriction to work correctly.</span></span>  <span data-ttu-id="a07d7-189">Determinadas propriedades não são suportadas em um filtro de <b>tabela</b>, incluindo propriedades binárias, propriedades computadas e conteúdo do corpo HTML ou RTF.</span><span class="sxs-lookup"><span data-stu-id="a07d7-189">Certain properties are not supported in a <b>Table</b> filter, including binary properties, computed properties, and HTML or RTF body content.</span></span> <span data-ttu-id="a07d7-190">Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propriedades sem suporte em um objeto Table ou filtro Table</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-190">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></span></span></para>
+          <para><span data-ttu-id="a07d7-191">Se <paramref name="Filter" /> é uma cadeia de caracteres em branco, <b>Restrict</b> retornará um objeto <b>Table</b> que é idêntico ao objeto <b>Table</b> pai.</span><span class="sxs-lookup"><span data-stu-id="a07d7-191">If <paramref name="Filter" /> is a blank string, <b>Restrict</b> returns a <b>Table</b> object that is identical to the parent <b>Table</b> object.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -693,41 +417,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="0b9c3-146">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="0b9c3-147">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a07d7-192">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="a07d7-192">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="a07d7-193">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a07d7-193">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="0b9c3-148">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="a07d7-194">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="a07d7-194">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="a07d7-195">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="a07d7-195">Both members serve the same purpose.</span></span> <span data-ttu-id="a07d7-196">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="a07d7-196">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-148">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -753,46 +452,18 @@
         <Parameter Name="Descending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SortProperty">
-          <span data-ttu-id="0b9c3-149">Especifica a propriedade a ser usada para classificar as linhas da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-149">Specifies the property to use to sort the rows of the <b>Table</b>.</span>
-          </span>
-        </param>
-        <param name="Descending">
-          <span data-ttu-id="0b9c3-150">Se deseja classificar a <b>tabela</b> em ordem decrescente.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-150">Whether to sort the <b>Table</b> in descending order.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="0b9c3-151">Classifica as linhas do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> pela propriedade especificada no <paramref name="SortProperty" /> e redefine a linha atual para imediatamente antes da primeira linha da <b>tabela</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-151">Sorts the rows of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> by the property specified in <paramref name="SortProperty" /> and resets the current row to just before the first row in the <b>Table</b>.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="0b9c3-152">
-            <para>
-              <paramref name="SortProperty" /> pode ser qualquer propriedade interna explícita ou uma propriedade personalizada, com exceção de propriedades binárias e de valores múltiplos. A propriedade deve ser referenciada pelo seu nome de cadeia de caracteres explícitas; ele não pode ser referenciado por namespace. Para mais informações sobre a especificação de propriedades de classificação, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Classificando itens em uma pasta</a></para>
-            <para>Classificar a tabela é equivalente a chamar um <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> método. O cursor será posicionado para o início da tabela.  </para>
-            <para>Se <b>Table. Sort</b> e <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> são chamados, o filtrada itens na nova <b>tabela</b> serão classificados pela mesma <paramref name="SortProperty" /> e <paramref name="SortOrder" />.</para>
-            <para>
-              <b>Table. Sort</b> oferece suporte apenas a classificação em uma única coluna.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="0b9c3-152">
-              <para>
-                <paramref name="SortProperty" /> can be any explicit built-in property or custom property, with the exception of binary and multi-valued properties. The property must be referenced by its explicit string name; it cannot be referenced by namespace. For futher information on specifying sort properties, see <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sorting Items in a Folder</a></para>
-              <para>Sorting the table is equivalent to calling a <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> method. The cursor will be positioned to the start of the Table.  </para>
-              <para>If <b>Table.Sort</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> are called, the filtered items in the new <b>Table</b> will be sorted by the same <paramref name="SortProperty" /> and <paramref name="SortOrder" />.</para>
-              <para>
-                <b>Table.Sort</b> only supports sorting on a single column.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SortProperty"><span data-ttu-id="a07d7-197">Especifica a propriedade a ser usada para classificar as linhas da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-197">Specifies the property to use to sort the rows of the <b>Table</b>.</span></span></param>
+        <param name="Descending"><span data-ttu-id="a07d7-198">Se deseja classificar a <b>tabela</b> em ordem decrescente.</span><span class="sxs-lookup"><span data-stu-id="a07d7-198">Whether to sort the <b>Table</b> in descending order.</span></span></param>
+        <summary><span data-ttu-id="a07d7-199">Classifica as linhas do <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> pela propriedade especificada no <paramref name="SortProperty" /> e redefine a linha atual para imediatamente antes da primeira linha da <b>tabela</b>.</span><span class="sxs-lookup"><span data-stu-id="a07d7-199">Sorts the rows of the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> by the property specified in <paramref name="SortProperty" /> and resets the current row to just before the first row in the <b>Table</b>.</span></span></summary>
+        <remarks><para><span data-ttu-id="a07d7-200">
+            <paramref name="SortProperty" />pode ser qualquer propriedade interna explícita ou uma propriedade personalizada, com exceção de propriedades binárias e de valores múltiplos.</span><span class="sxs-lookup"><span data-stu-id="a07d7-200">
+            <paramref name="SortProperty" /> can be any explicit built-in property or custom property, with the exception of binary and multi-valued properties.</span></span> <span data-ttu-id="a07d7-201">A propriedade deve ser indicada por seu nome explícito de cadeia de caracteres; ela não pode ser indicada por namespace.</span><span class="sxs-lookup"><span data-stu-id="a07d7-201">The property must be referenced by its explicit string name; it cannot be referenced by namespace.</span></span> <span data-ttu-id="a07d7-202">Para mais informações sobre a especificação de propriedades de classificação, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Classificando itens em uma pasta</a></span><span class="sxs-lookup"><span data-stu-id="a07d7-202">For futher information on specifying sort properties, see <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sorting Items in a Folder</a></span></span></para>
+          <para><span data-ttu-id="a07d7-203">A tabela de classificação é equivalente a chamar um <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> método.</span><span class="sxs-lookup"><span data-stu-id="a07d7-203">Sorting the table is equivalent to calling a <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> method.</span></span> <span data-ttu-id="a07d7-204">O cursor será posicionado no início do objeto Table.</span><span class="sxs-lookup"><span data-stu-id="a07d7-204">The cursor will be positioned to the start of the Table.</span></span>  </para>
+          <para><span data-ttu-id="a07d7-205">Se <b>Table. Sort</b> e <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> são chamados, o filtrada itens na nova <b>tabela</b> serão classificados pela mesma <paramref name="SortProperty" /> e <paramref name="SortOrder" />.</span><span class="sxs-lookup"><span data-stu-id="a07d7-205">If <b>Table.Sort</b> and then <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> are called, the filtered items in the new <b>Table</b> will be sorted by the same <paramref name="SortProperty" /> and <paramref name="SortOrder" />.</span></span></para>
+          <para><span data-ttu-id="a07d7-206">
+            <b>Table. Sort</b> só oferece suporte a classificação em uma única coluna.</span><span class="sxs-lookup"><span data-stu-id="a07d7-206">
+            <b>Table.Sort</b> only supports sorting on a single column.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

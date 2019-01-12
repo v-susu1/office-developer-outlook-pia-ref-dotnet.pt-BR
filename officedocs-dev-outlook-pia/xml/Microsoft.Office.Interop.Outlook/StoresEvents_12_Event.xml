@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630398" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1da25ba77d55a14d75d64b193c88a0a25d516efe" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903815" /></Metadata><TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="02e22-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="02e22-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="d4e4c-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,78 +40,36 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02e22-105">Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está prestes a ser removido da sessão atual programaticamente ou pela ação do usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02e22-105">Occurs when a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is about to be removed from the current session either programmatically or through user action.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02e22-106">
-            <para>Outlook deve estar executando para que esse evento seja acionado. Esse evento será acionado quando ocorrer qualquer uma das seguintes opções: </para>
-            <list type="bullet">
-              <item>
-                <para>um repositório for removido quando o usuário clicar no comando Fechar do menu de atalho.</para>
-              </item>
-              <item>
-                <para>Um repositório for removido de maneira programática chamando <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</para>
-              </item>
-            </list>
-            <para>Esse evento não será acionado quando ocorrer qualquer uma das seguintes opções:</para>
-            <list type="bullet">
-              <item>
-                <para>Quando o Outlook for desligado e fecha primário ou representante armazenar.</para>
-              </item>
-              <item>
-                <para>Se um repositório for removido por meio do miniaplicativo de email no painel de controle do Microsoft Windows e o Outlook não está em execução.</para>
-              </item>
-              <item>
-                <para>Um repositório for removido na guia Avançado da caixa de diálogo Microsoft Exchange Server.</para>
-              </item>
-              <item>
-                <para>Um repositório for removido por meio da guia arquivos de dados da caixa de diálogo Gerenciador de contas quando o Outlook não está em execução.</para>
-              </item>
-              <item>
-                <para>Um repositório de IMAP for removido do perfil.</para>
-              </item>
-            </list>
-            <para>Você pode usar esse evento para determinar se um repositório foi removido e executar as ações apropriadas, se o armazenamento é necessário para seu aplicativo (por exemplo, remontagem o repositório). Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02e22-106">
-              <para>Outlook must be running in order for this event to fire. This event will fire when any of the following occurs:  </para>
-              <list type="bullet">
-                <item>
-                  <para>A store is removed by the user clicking the Close command on the Shortcut menu.</para>
-                </item>
-                <item>
-                  <para>A store is removed programmatically by calling <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</para>
-                </item>
-              </list>
-              <para>This event will not fire when any of the following occurs: </para>
-              <list type="bullet">
-                <item>
-                  <para>When Outlook shuts down and closes a primary or delegate store.</para>
-                </item>
-                <item>
-                  <para>If a store is removed through the Mail applet in the Microsoft Windows Control Panel and Outlook is not running.</para>
-                </item>
-                <item>
-                  <para>A delegate store is removed on the Advanced tab of the Microsoft Exchange Server dialog box.</para>
-                </item>
-                <item>
-                  <para>A store is removed through the Data Files tab of the Account Manager dialog box when Outlook is not running.</para>
-                </item>
-                <item>
-                  <para>An IMAP Store is removed from the profile.</para>
-                </item>
-              </list>
-              <para>You can use this event to determine that a store has been removed, and take appropriate actions if the store is required for your application (such as remounting the store). Otherwise you would have to resort to polling the <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d4e4c-105">Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está prestes a ser removido da sessão atual programaticamente ou pela ação do usuário.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-105">Occurs when a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is about to be removed from the current session either programmatically or through user action.</span></span></summary>
+        <remarks><para><span data-ttu-id="d4e4c-p102">Para que o evento seja acionado, o Outlook deve estar sendo executado. Esse evento será acionado quando:</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p102">Outlook must be running in order for this event to fire. This event will fire when any of the following occurs:  </span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="d4e4c-108">Um repositório for removido quando o usuário clicar no comando Fechar do menu de atalho.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-108">A store is removed by the user clicking the Close command on the Shortcut menu.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-109">Um repositório for removido de maneira programática chamando <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-109">A store is removed programmatically by calling <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="d4e4c-110">Esse evento não será acionado quando:</span><span class="sxs-lookup"><span data-stu-id="d4e4c-110">This event will not fire when any of the following occurs:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="d4e4c-111">O Outlook for desligado e fechar um repositório primário ou representante.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-111">When Outlook shuts down and closes a primary or delegate store.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-112">Um repositório for removido por meio do miniaplicativo Email do Painel de Controle do Windows e o Outlook não estiver sendo executado.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-112">If a store is removed through the Mail applet in the Microsoft Windows Control Panel and Outlook is not running.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-113">Um repositório for removido na guia Avançado da caixa de diálogo do Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-113">A delegate store is removed on the Advanced tab of the Microsoft Exchange Server dialog box.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-114">Um repositório for removido por meio da guia Arquivos de Dados da caixa de diálogo Gerenciador de Contas quando o Outlook não estiver sendo executado.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-114">A store is removed through the Data Files tab of the Account Manager dialog box when Outlook is not running.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-115">Um repositório IMAP for removido do perfil.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-115">An IMAP Store is removed from the profile.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="d4e4c-116">Você pode usar esse evento para determinar se um repositório foi removido e tomar as ações apropriadas se o repositório for necessário para seu aplicativo (como remontagem do repositório).</span><span class="sxs-lookup"><span data-stu-id="d4e4c-116">You can use this event to determine that a store has been removed, and take appropriate actions if the store is required for your application (such as remounting the store).</span></span> <span data-ttu-id="d4e4c-117">Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-117">Otherwise you would have to resort to polling the <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreAdd">
@@ -142,72 +87,33 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="02e22-107">Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> foi adicionado à sessão atual programaticamente ou pela ação do usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02e22-107">Occurs when a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> has been added to the current session either programmatically or through user action.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="02e22-108">
-            <para>Outlook deve estar executando para que esse evento seja acionado. Esse evento será acionado quando ocorrer qualquer uma das seguintes opções: </para>
-            <list type="bullet">
-              <item>
-                <para>um repositório for adicionado por meio da caixa de diálogo Abrir arquivo de dados do Outlook, selecionando abrir e, em seguida, o arquivo de dados do Outlook no menu arquivo.</para>
-              </item>
-              <item>
-                <para>Um repositório for adicionado por meio da guia arquivos de dados da caixa de diálogo Account Manager.</para>
-              </item>
-              <item>
-                <para>Um repositório for adicionado com sucesso chamando o <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> método.</para>
-              </item>
-            </list>
-            <para>Esse evento não será acionado quando ocorrer qualquer uma das seguintes opções:</para>
-            <list type="bullet">
-              <item>
-                <para>Quando o Outlook for iniciado e aberto primário ou representante armazenar.</para>
-              </item>
-              <item>
-                <para>Se um repositório for adicionado por meio do miniaplicativo de email no painel de controle do Microsoft Windows e o Outlook não está em execução.</para>
-              </item>
-              <item>
-                <para>Um repositório representante for adicionado por meio da guia Avançado da caixa de diálogo Microsoft Exchange Server.</para>
-              </item>
-            </list>
-            <para>Você pode usar esse evento para determinar se um repositório foi adicionado e executar as ações apropriadas em itens desse repositório. Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="02e22-108">
-              <para>Outlook must be running in order for this event to fire. This event will fire when any of the following occur:  </para>
-              <list type="bullet">
-                <item>
-                  <para>A store is added through the Open Outlook Data File dialog box, by selecting Open and then Outlook Data File on the File menu.</para>
-                </item>
-                <item>
-                  <para>A store is added through the Data Files tab of the Account Manager dialog box.</para>
-                </item>
-                <item>
-                  <para>A store is added successfully by calling the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> method.</para>
-                </item>
-              </list>
-              <para>This event will not fire when any of the following occurs: </para>
-              <list type="bullet">
-                <item>
-                  <para>When Outlook starts and opens a primary or delegate store. </para>
-                </item>
-                <item>
-                  <para>If a store is added through the Mail applet in the Microsoft Windows Control Panel and Outlook is not running. </para>
-                </item>
-                <item>
-                  <para>A delegate store is added through the Advanced tab of the Microsoft Exchange Server dialog box. </para>
-                </item>
-              </list>
-              <para>You can use this event to determine whether a store has been added and take appropriate actions on items in that store. Otherwise, you would have to resort to polling the <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="d4e4c-118">Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> foi adicionado à sessão atual programaticamente ou pela ação do usuário.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-118">Occurs when a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> has been added to the current session either programmatically or through user action.</span></span></summary>
+        <remarks><para><span data-ttu-id="d4e4c-p104">Para que o evento seja acionado, o Outlook deve estar sendo executado. Esse evento será acionado quando:</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p104">Outlook must be running in order for this event to fire. This event will fire when any of the following occur:  </span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="d4e4c-121">Um repositório for adicionado por meio da caixa de diálogo Abrir Arquivo de Dados do Outlook, selecionando Abrir e Arquivo de Dados do Outlook no menu Arquivo.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-121">A store is added through the Open Outlook Data File dialog box, by selecting Open and then Outlook Data File on the File menu.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-122">Um repositório for adicionado por meio da guia Arquivos de Dados da caixa de diálogo Gerenciador de Contas.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-122">A store is added through the Data Files tab of the Account Manager dialog box.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-123">Um repositório for adicionado com sucesso chamando o <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> método.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-123">A store is added successfully by calling the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> method.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="d4e4c-124">Esse evento não será acionado quando:</span><span class="sxs-lookup"><span data-stu-id="d4e4c-124">This event will not fire when any of the following occurs:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="d4e4c-p105">O Outlook for iniciado e aberto como repositório primário ou representante.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p105">When Outlook starts and opens a primary or delegate store. </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-p106">Um repositório for adicionado por meio do miniaplicativo Email do Painel de Controle do Windows e o Outlook não estiver sendo executado.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p106">If a store is added through the Mail applet in the Microsoft Windows Control Panel and Outlook is not running. </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="d4e4c-p107">Um repositório representante for adicionado por meio da guia Avançado da caixa de diálogo do Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-p107">A delegate store is added through the Advanced tab of the Microsoft Exchange Server dialog box. </span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="d4e4c-128">Você pode usar esse evento para determinar se um repositório foi adicionado e tomar as ações apropriadas em relação aos itens desse repositório.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-128">You can use this event to determine whether a store has been added and take appropriate actions on items in that store.</span></span> <span data-ttu-id="d4e4c-129">Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="d4e4c-129">Otherwise, you would have to resort to polling the <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

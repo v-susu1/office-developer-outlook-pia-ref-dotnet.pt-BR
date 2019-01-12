@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630013" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10db76b897312de282fe89c78af9317334dffa68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904606" /></Metadata><TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="a496a-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a496a-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f7929-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span><span class="sxs-lookup"><span data-stu-id="f7929-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,64 +40,37 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AfterWriteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-105">Ocorre depois que o Microsoft Outlook salva o item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-105">Occurs after Microsoft Outlook has saved the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-106">
-            <para>O evento <b>AfterWrite</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> evento. Esse evento não está pode ser cancelado. Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento. </para>
-            <para>o evento <b>AfterWrite</b> corresponde ao evento <b>iexchextmessageevents:: Onwritecomplete</b>Exchange cliente ECE (extensões).</para>
-            <para>Os seguintes membros do objeto de item podem ser acessados no evento <b>AfterWrite</b> :</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>Classe</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MessageClass</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MAPIOBJECT</b>
-                </para>
-              </item>
-            </list> Propriedade 
-          <para>o <b>MAPIOBJECT</b> é uma propriedade oculta no modelo de objeto do Outlook. Essa propriedade oferece acesso ao objeto subjacente IMessage MAPI e pode ser chamada somente via a interface IUnknown. A propriedade é acessível aos programas escritos em idiomas que suportam <b>IUnknown</b>como C ou C++. <b>MAPIOBJECT</b> não está disponível por meio da interface IDispatch. Idiomas de desenvolvimento, como o Visual Basic for Applications (VBA), Visual c# e Visual Basic oferecem suporte a interface <b>IDispatch</b> e <b>IUnknown</b>e, portanto, eles não podem acessar <b>MAPIOBJECT</b>. Se outras propriedades ou métodos do item pai são acessados nesse caso, o Outlook gerará um erro. </para><para>o objeto obtido da propriedade <b>MAPIOBJECT</b> neste evento deve conter todas as alterações são mantidas pelo Outlook. O implementador pode chamar o método SaveChanges no objeto <b>IMessage</b> para manter as alterações para o objeto <b>IMessage</b> subjacente representado por <b>MAPIOBJECT</b>e Outlook não irá reverter essas alterações. </para><para>Implementadores deve liberar o objeto obtido com a propriedade <b>MAPIOBJECT</b> no evento antes do evento for concluído. Tentar usar esse objeto fora do contexto do evento não é suportado e levarão à redução comportamento imprevisível.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-106">
-              <para>The <b>AfterWrite</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> event. This event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
-              <para>The <b>AfterWrite</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnWriteComplete</b>. </para>
-              <para>Only the following members of the item object can be accessed in the <b>AfterWrite</b> event: </para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>Class</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MessageClass</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MAPIOBJECT</b>
-                  </para>
-                </item>
-              </list>
-              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
-              <para>The object obtained from the <b>MAPIOBJECT</b> property in this event must contain all the changes persisted by Outlook. The implementer can call the SaveChanges method on the <b>IMessage</b> object to persist changes to the underlying <b>IMessage</b> object represented by <b>MAPIOBJECT</b>, and Outlook will not revert those changes. </para>
-              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-105">Ocorre depois que o Microsoft Outlook salva o item.</span><span class="sxs-lookup"><span data-stu-id="f7929-105">Occurs after Microsoft Outlook has saved the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-106">O evento <b>AfterWrite</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-106">The <b>AfterWrite</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> event.</span></span> <span data-ttu-id="f7929-107">Esse evento não está pode ser cancelado.</span><span class="sxs-lookup"><span data-stu-id="f7929-107">This event is not cancelable.</span></span> <span data-ttu-id="f7929-108">Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-108">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span> </para>
+          <para><span data-ttu-id="f7929-p103">O evento <b>AfterWrite</b> corresponde ao evento <b>iexchextmessageevents:: Onwritecomplete</b> Exchange cliente ECE (extensões).</span><span class="sxs-lookup"><span data-stu-id="f7929-p103">The <b>AfterWrite</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnWriteComplete</b>. </span></span></para>
+          <para><span data-ttu-id="f7929-110">Os seguintes membros do objeto de item podem ser acessados no evento <b>AfterWrite</b>:</span><span class="sxs-lookup"><span data-stu-id="f7929-110">Only the following members of the item object can be accessed in the <b>AfterWrite</b> event:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f7929-111">
+                <b>class</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-111">
+                <b>Class</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-112">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-112">
+                <b>MessageClass</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-113">
+                <b>MAPIOBJECT</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-113">
+                <b>MAPIOBJECT</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="f7929-p104">A propriedade <b>MAPIOBJECT</b> é uma propriedade oculta no modelo de objeto do Outlook. Essa propriedade fornece acesso ao objeto subjacente MAPI IMessage e pode ser chamada somente através da interface IUnknown. A propriedade é acessível aos programas escritos em idiomas que suportam <b>IUnknown</b> como C ou C++. <b>MAPIOBJECT</b> não está disponível por meio da interface IDispatch. Idiomas de desenvolvimento, como o Visual Basic for Applications (VBA), Visual c# e Visual Basic oferecem suporte a interface <b>IDispatch</b> e <b>IUnknown</b> e, portanto, eles não podem acessar <b>MAPIOBJECT</b>. Se outras propriedades ou métodos do item pai são acessados nesse caso, o Outlook gerará um erro.</span><span class="sxs-lookup"><span data-stu-id="f7929-p104">The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </span></span></para>
+          <para><span data-ttu-id="f7929-p105">O objeto obtido da propriedade <b>MAPIOBJECT</b> neste evento deve conter todas as alterações são mantidas pelo Outlook. O implementador pode chamar o método SaveChanges no objeto <b>IMessage</b> para manter as alterações para o objeto <b>IMessage</b> subjacente representado por <b>MAPIOBJECT</b>, e o Outlook não irá reverter essas alterações.</span><span class="sxs-lookup"><span data-stu-id="f7929-p105">The object obtained from the <b>MAPIOBJECT</b> property in this event must contain all the changes persisted by Outlook. The implementer can call the SaveChanges method on the <b>IMessage</b> object to persist changes to the underlying <b>IMessage</b> object represented by <b>MAPIOBJECT</b>, and Outlook will not revert those changes. </span></span></para>
+          <para><span data-ttu-id="f7929-p106">Implementadores devem liberar o objeto obtido com a propriedade <b>MAPIOBJECT</b> no evento antes do evento for concluído. Tentando usar esse objeto fora do contexto do evento não é suportado e levarão à redução comportamento imprevisível.</span><span class="sxs-lookup"><span data-stu-id="f7929-p106">Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentAdd">
@@ -128,12 +88,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-107">Ocorre quando um anexo é adicionado a uma instância do objeto pai.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-107">Occurs when an attachment has been added to an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-124">Ocorre quando um anexo é adicionado a uma instância do objeto pai.</span><span class="sxs-lookup"><span data-stu-id="f7929-124">Occurs when an attachment has been added to an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -152,12 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-108">Ocorre quando um anexo de uma instância do objeto pai é aberto para leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-108">Occurs when an attachment in  an instance of the parent object has been opened for reading.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-125">Ocorre quando um anexo de uma instância do objeto pai é aberto para leitura.</span><span class="sxs-lookup"><span data-stu-id="f7929-125">Occurs when an attachment in  an instance of the parent object has been opened for reading.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -176,12 +126,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_AttachmentRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-109">Ocorre quando um anexo é removido de uma instância do objeto pai.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-109">Occurs when an attachment has been removed from an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-126">Ocorre quando um anexo é removido de uma instância do objeto pai.</span><span class="sxs-lookup"><span data-stu-id="f7929-126">Occurs when an attachment has been removed from an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -200,12 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-110">Ocorre antes de um anexo ser adicionado a uma instância do objeto pai.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-110">Occurs before an attachment is added to an instance of the parent object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-127">Ocorre antes de um anexo ser adicionado a uma instância do objeto pai.</span><span class="sxs-lookup"><span data-stu-id="f7929-127">Occurs before an attachment is added to an instance of the parent object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -224,24 +164,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentPreviewEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-111">Ocorre antes da visualização de um anexo associado a uma instância do objeto pai.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-111">Occurs before an attachment associated with an instance of the parent object is previewed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-112">
-            <para>Esse evento ocorre antes de um anexo seja visualizado, na faixa de anexo no painel de leitura do explorer ativo ou do inspetor ativo.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-112">
-              <para>This event occurs before an attachment is previewed, either from the attachment strip in the Reading Pane of the active explorer or from the active inspector.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-128">Ocorre antes da visualização de um anexo associado a uma instância do objeto pai.</span><span class="sxs-lookup"><span data-stu-id="f7929-128">Occurs before an attachment associated with an instance of the parent object is previewed.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-129">Esse evento ocorre antes que um anexo seja visualizado, na faixa de anexo no Painel de Leitura do explorer ativo do inspetor ativo.</span><span class="sxs-lookup"><span data-stu-id="f7929-129">This event occurs before an attachment is previewed, either from the attachment strip in the Reading Pane of the active explorer or from the active inspector.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentRead">
@@ -259,12 +184,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-113">Ocorre antes que um anexo associado a uma instância do objeto pai é lido a partir do sistema de arquivos, um fluxo de anexos, ou um <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-113">Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-130">Ocorre antes que um anexo associado a uma instância do objeto pai é lido a partir do sistema de arquivos, um fluxo de anexos, ou um <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="f7929-130">Occurs before an attachment associated with an instance of the parent object is read from the file system, an attachment stream, or an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -283,24 +203,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-114">Ocorre imediatamente antes de um anexo ser salvo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-114">Occurs just before an attachment is saved.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-115">
-            <para>Esse evento corresponde a quando anexos são salvos no armazenamento de mensagens. O evento <b>BeforeAttachmentSave</b> ocorre logo antes de um anexo ser salvo quando um item for salvo. Se um usuário edita um anexo e, em seguida, salva as alterações, não ocorrerá o evento <b>BeforeAttachmentSave</b> nesse momento; em vez disso, ele ocorrerá quando o próprio item for salvo posteriormente. Ele também não ocorre quando o anexo será salvo no disco rígido usando o método <b>SaveAsFile</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-115">
-              <para>This event corresponds to when attachments are saved to the messaging store. The <b>BeforeAttachmentSave</b> event occurs just before an attachment is saved when an item is saved. If a user edits an attachment and then saves those changes, the <b>BeforeAttachmentSave</b> event will not occur at that time; instead it will occur  when the item itself is later saved. It also does not occur when the attachment is saved on the hard disk using the <b>SaveAsFile</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-131">Ocorre imediatamente antes de um anexo ser salvo.</span><span class="sxs-lookup"><span data-stu-id="f7929-131">Occurs just before an attachment is saved.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-132">Esse evento corresponde a quando anexos são salvos no armazenamento de mensagens.</span><span class="sxs-lookup"><span data-stu-id="f7929-132">This event corresponds to when attachments are saved to the messaging store.</span></span> <span data-ttu-id="f7929-133">O evento <b>BeforeAttachmentSave</b> ocorre logo antes de um anexo ser salvo quando um item for salvo.</span><span class="sxs-lookup"><span data-stu-id="f7929-133">The <b>BeforeAttachmentSave</b> event occurs just before an attachment is saved when an item is saved.</span></span> <span data-ttu-id="f7929-134">Se um usuário edita um anexo e, em seguida, salva as alterações, não ocorrerá o evento <b>BeforeAttachmentSave</b> nesse momento; em vez disso, ele ocorrerá quando o próprio item for salvo posteriormente.</span><span class="sxs-lookup"><span data-stu-id="f7929-134">If a user edits an attachment and then saves those changes, the <b>BeforeAttachmentSave</b> event will not occur at that time; instead it will occur  when the item itself is later saved.</span></span> <span data-ttu-id="f7929-135">Ele também não ocorre quando o anexo será salvo no disco rígido usando o método <b>SaveAsFile</b>.</span><span class="sxs-lookup"><span data-stu-id="f7929-135">It also does not occur when the attachment is saved on the hard disk using the <b>SaveAsFile</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentWriteToTempFile">
@@ -318,12 +223,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentWriteToTempFileEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-116">Ocorre antes da gravação de um anexo associado a uma instância do objeto pai em um arquivo temporário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-116">Occurs before an attachment associated with an instance of the parent object is written to a temporary file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-136">Ocorre antes da gravação de um anexo associado a uma instância do objeto pai em um arquivo temporário.</span><span class="sxs-lookup"><span data-stu-id="f7929-136">Occurs before an attachment associated with an instance of the parent object is written to a temporary file.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -342,12 +242,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAutoSaveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-117">Ocorre antes de o item ser salvo automaticamente pelo Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-117">Occurs before the item is automatically saved by Outlook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-137">Ocorre antes de o item ser salvo automaticamente pelo Outlook.</span><span class="sxs-lookup"><span data-stu-id="f7929-137">Occurs before the item is automatically saved by Outlook.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -366,52 +261,23 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeCheckNamesEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-118">Ocorre assim que o Microsoft Outlook inicia a resolução de nomes na coleção de destinatários de um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-118">Occurs just before Microsoft Outlook starts resolving names in the recipient collection for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-119">
-            <para>o evento não é acionado nas seguintes circunstâncias:</para>
-            <list type="bullet">
-              <item>
-                <para>Quando você personaliza um formulário de entrada de diário e, em seguida, resolve um contato no campo contatos.</para>
-              </item>
-              <item>
-                <para>Quando você personaliza um formulário contato e, em seguida, resolve um contato no campo contatos.</para>
-              </item>
-              <item>
-                <para>Quando você personaliza qualquer tipo de formulário e o Outlook resolve o nome no plano de fundo automaticamente.</para>
-              </item>
-              <item>
-                <para>Você criou e resolve um destinatário programaticamente.</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-119">
-              <para>The event does not fire under the following circumstances:  </para>
-              <list type="bullet">
-                <item>
-                  <para>You customized a Journal Entry form and then resolved a contact in the Contacts field. </para>
-                </item>
-                <item>
-                  <para>You customized a Contact form and then resolved a contact in the Contacts field. </para>
-                </item>
-                <item>
-                  <para>You customized any type of form and Outlook automatically resolved the name in the background. </para>
-                </item>
-                <item>
-                  <para>You programmatically created and resolved a recipient.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-138">Ocorre assim que o Microsoft Outlook inicia a resolução de nomes na coleção de destinatários de um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-138">Occurs just before Microsoft Outlook starts resolving names in the recipient collection for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-139">O evento não é acionado nas seguintes circunstâncias:</span><span class="sxs-lookup"><span data-stu-id="f7929-139">The event does not fire under the following circumstances:</span></span>  </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f7929-140">Quando você personaliza um formulário Entrada de Diário e, em seguida, resolve um contato no campo Contatos.</span><span class="sxs-lookup"><span data-stu-id="f7929-140">You customized a Journal Entry form and then resolved a contact in the Contacts field.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-141">Quando você personaliza um formulário Contato e, em seguida, resolve um contato no campo Contatos.</span><span class="sxs-lookup"><span data-stu-id="f7929-141">You customized a Contact form and then resolved a contact in the Contacts field.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-142">Quando você personaliza qualquer tipo de formulário e o Outlook resolve o nome automaticamente em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="f7929-142">You customized any type of form and Outlook automatically resolved the name in the background.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-143">Quando você cria e resolve um destinatário programaticamente.</span><span class="sxs-lookup"><span data-stu-id="f7929-143">You programmatically created and resolved a recipient.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeDelete">
@@ -429,26 +295,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeDeleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-120">Ocorre antes da exclusão de um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-120">Occurs before an item (which is an instance of the parent object) is deleted.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-121">
-            <para>Na ordem para que esse evento seja acionado quando uma mensagem de email, lista de distribuição, entrada de diário, tarefa, contato, ou postagem for excluído por uma ação, um Inspetor deverá estar aberto.</para>
-            <para>o evento ocorre cada vez que um item é excluído.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-121">
-              <para>In order for this event to fire when an e-mail message, distribution list, journal entry, task, contact, or post  are deleted through an action, an inspector must be open.</para>
-              <para>The event occurs each time an item is deleted.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-144">Ocorre antes da exclusão de um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-144">Occurs before an item (which is an instance of the parent object) is deleted.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-145">Para que o evento seja acionado quando um email, uma listra de distribuição, uma entrada de diário, uma tarefa, um contato ou uma postagem for excluído por uma ação, um inspetor deverá estar aberto.</span><span class="sxs-lookup"><span data-stu-id="f7929-145">In order for this event to fire when an e-mail message, distribution list, journal entry, task, contact, or post  are deleted through an action, an inspector must be open.</span></span></para>
+          <para><span data-ttu-id="f7929-146">O evento ocorre cada vez que um item é excluído.</span><span class="sxs-lookup"><span data-stu-id="f7929-146">The event occurs each time an item is deleted.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeRead">
@@ -466,64 +316,37 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-122">Ocorre antes que o Microsoft Outlook comece a ler as propriedades do item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-122">Occurs before Microsoft Outlook begins to read the properties for the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-123">
-            <para>O evento <b>BeforeRead</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento. Ao contrário de outros eventos com o prefixo <b>antes</b> , esse evento não está pode ser cancelado. Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento. </para>
-            <para>o evento <b>BeforeRead</b> corresponde ao evento <b>iexchextmessageevents:: Onread</b>Exchange cliente ECE (extensões).</para>
-            <para>Os seguintes membros do objeto de item podem ser acessados no evento <b>BeforeRead</b> :</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>Classe</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MessageClass</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>MAPIOBJECT</b>
-                </para>
-              </item>
-            </list> Propriedade 
-          <para>o <b>MAPIOBJECT</b> é uma propriedade oculta no modelo de objeto do Outlook. Essa propriedade oferece acesso ao objeto subjacente IMessage MAPI e pode ser chamada somente via a interface IUnknown. A propriedade é acessível aos programas escritos em idiomas que suportam <b>IUnknown</b>como C ou C++. <b>MAPIOBJECT</b> não está disponível por meio da interface IDispatch. Idiomas de desenvolvimento, como o Visual Basic for Applications (VBA), Visual c# e Visual Basic oferecem suporte a interface <b>IDispatch</b> e <b>IUnknown</b>e, portanto, eles não podem acessar <b>MAPIOBJECT</b>. Se outras propriedades ou métodos do item pai são acessados nesse caso, o Outlook gerará um erro. </para><para>Se o implementador acessa o objeto subjacente do <b>IMessage</b> e altera as propriedades desse objeto, o Outlook serão renderizado esse item refletindo as alterações ao objeto <b>IMessage</b> . O implementador não precisará chamar SaveChanges no objeto <b>IMessage</b> para fazer com que as alterações sejam refletidas no Outlook. </para><para>Implementadores deve liberar o objeto obtido com a propriedade <b>MAPIOBJECT</b> no evento antes do evento for concluído. Tentar usar esse objeto fora do contexto do evento não é suportado e levarão à redução comportamento imprevisível.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-123">
-              <para>The <b>BeforeRead</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event. Unlike other events with the <b>Before</b> prefix, this event is not cancelable. To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event. </para>
-              <para>The <b>BeforeRead</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnRead</b>. </para>
-              <para>Only the following members of the item object can be accessed in the <b>BeforeRead</b> event: </para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>Class</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MessageClass</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>MAPIOBJECT</b>
-                  </para>
-                </item>
-              </list>
-              <para>The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </para>
-              <para>If the implementer accesses the underlying <b>IMessage</b> object and changes properties on that object, Outlook will render that item reflecting the changes to the <b>IMessage</b> object. The implementer does not have to call SaveChanges on the <b>IMessage</b> object to cause the changes to be reflected in Outlook. </para>
-              <para>Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-147">Ocorre antes que o Microsoft Outlook comece a ler as propriedades do item.</span><span class="sxs-lookup"><span data-stu-id="f7929-147">Occurs before Microsoft Outlook begins to read the properties for the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-148">O evento <b>BeforeRead</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-148">The <b>BeforeRead</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event.</span></span> <span data-ttu-id="f7929-149">Ao contrário de outros eventos com o prefixo <b>antes</b> , esse evento não está pode ser cancelado.</span><span class="sxs-lookup"><span data-stu-id="f7929-149">Unlike other events with the <b>Before</b> prefix, this event is not cancelable.</span></span> <span data-ttu-id="f7929-150">Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-150">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span> </para>
+          <para><span data-ttu-id="f7929-p109">O evento <b>BeforeRead</b> corresponde ao evento <b>iexchextmessageevents:: Onread</b> Exchange cliente ECE (extensões).</span><span class="sxs-lookup"><span data-stu-id="f7929-p109">The <b>BeforeRead</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnRead</b>. </span></span></para>
+          <para><span data-ttu-id="f7929-152">Os seguintes membros do objeto de item podem ser acessados no evento <b>BeforeRead</b>:</span><span class="sxs-lookup"><span data-stu-id="f7929-152">Only the following members of the item object can be accessed in the <b>BeforeRead</b> event:</span></span> </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f7929-153">
+                <b>class</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-153">
+                <b>Class</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-154">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-154">
+                <b>MessageClass</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f7929-155">
+                <b>MAPIOBJECT</b>
+              </span><span class="sxs-lookup"><span data-stu-id="f7929-155">
+                <b>MAPIOBJECT</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="f7929-p110">A propriedade <b>MAPIOBJECT</b> é uma propriedade oculta no modelo de objeto do Outlook. Essa propriedade fornece acesso ao objeto subjacente MAPI IMessage e pode ser chamada somente através da interface IUnknown. A propriedade é acessível aos programas escritos em idiomas que suportam <b>IUnknown</b> como C ou C++. <b>MAPIOBJECT</b> não está disponível por meio da interface IDispatch. Idiomas de desenvolvimento, como o Visual Basic for Applications (VBA), Visual c# e Visual Basic oferecem suporte a interface <b>IDispatch</b> e <b>IUnknown</b> e, portanto, eles não podem acessar <b>MAPIOBJECT</b>. Se outras propriedades ou métodos do item pai são acessados nesse caso, o Outlook gerará um erro.</span><span class="sxs-lookup"><span data-stu-id="f7929-p110">The <b>MAPIOBJECT</b> property is a hidden property in the Outlook object model. This property provides access to the underlying MAPI IMessage object, and can be invoked only via the IUnknown interface. The property is accessible to programs written in languages such as C or C++ that support <b>IUnknown</b>. <b>MAPIOBJECT</b> is not available through the IDispatch interface. Development languages such as Visual Basic for Applications (VBA), Visual C#, and Visual Basic support the <b>IDispatch</b> interface and not <b>IUnknown</b>, and therefore, they cannot access <b>MAPIOBJECT</b>. If other properties or methods of the parent item are accessed in this event, Outlook raises an error. </span></span></para>
+          <para><span data-ttu-id="f7929-p111">Se o implementador acessa as subjacentes <b>IMessage</b> objeto e altera as propriedades desse objeto, o Outlook será renderizado esse item refletindo as alterações ao objeto <b>IMessage</b>. O implementador não precisará chamar SaveChanges no objeto <b>IMessage</b> para fazer com que as alterações sejam refletidas no Outlook.</span><span class="sxs-lookup"><span data-stu-id="f7929-p111">If the implementer accesses the underlying <b>IMessage</b> object and changes properties on that object, Outlook will render that item reflecting the changes to the <b>IMessage</b> object. The implementer does not have to call SaveChanges on the <b>IMessage</b> object to cause the changes to be reflected in Outlook. </span></span></para>
+          <para><span data-ttu-id="f7929-p112">Implementadores devem liberar o objeto obtido com a propriedade <b>MAPIOBJECT</b> no evento antes do evento for concluído. Tentando usar esse objeto fora do contexto do evento não é suportado e levarão à redução comportamento imprevisível.</span><span class="sxs-lookup"><span data-stu-id="f7929-p112">Implementers must release the object obtained from the <b>MAPIOBJECT</b> property in the event before the event completes. Attempting to use that object outside the context of the event is unsupported and will lead to unpredictable behavior.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -541,24 +364,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-124">Ocorre quando o inspetor associado a um item (que é uma instância do objeto pai) está sendo fechado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-124">Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-125">
-            <para>Se você usar o método <b>Close</b> para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-125">
-              <para>If you use the <b>Close</b> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-166">Ocorre quando o inspetor associado a um item (que é uma instância do objeto pai) está sendo fechado.</span><span class="sxs-lookup"><span data-stu-id="f7929-166">Occurs when the inspector associated with an item (which is an instance of the parent object) is being closed.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-167">Se você usar o método <b>Close</b> para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b>.</span><span class="sxs-lookup"><span data-stu-id="f7929-167">If you use the <b>Close</b> method to fire this event, it can only be canceled if the <b>Close</b> method uses the <b>olPromptForSave</b> argument.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomAction">
@@ -576,24 +384,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomActionEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-126">Ocorre quando uma ação personalizada de um item (que é uma instância do objeto pai) é executada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-126">Occurs when a custom action of an item (which is an instance of the parent object) executes.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-127">
-            <para>O objeto <b>Action</b> e o item recém-criado resultante da ação personalizada são passados para o evento.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-127">
-              <para>The <b>Action</b> object and the newly created item resulting from the custom action are passed to the event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-168">Ocorre quando uma ação personalizada de um item (que é uma instância do objeto pai) é executada.</span><span class="sxs-lookup"><span data-stu-id="f7929-168">Occurs when a custom action of an item (which is an instance of the parent object) executes.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-169">O objeto <b>Action</b> e o item recém-criado resultante da ação personalizada são passados para o evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-169">The <b>Action</b> object and the newly created item resulting from the custom action are passed to the event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomPropertyChange">
@@ -611,24 +404,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_CustomPropertyChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-128">Ocorre quando uma propriedade personalizada de um item (que é uma instância do objeto pai) é alterada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-128">Occurs when a custom property of an item (which is an instance of the parent object) is changed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-129">
-            <para>O nome da propriedade é passado ao procedimento para que você possa determinar a propriedade personalizada alterada.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-129">
-              <para>The property name is passed to the procedure so that you can determine which custom property changed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-170">Ocorre quando uma propriedade personalizada de um item (que é uma instância do objeto pai) é alterada.</span><span class="sxs-lookup"><span data-stu-id="f7929-170">Occurs when a custom property of an item (which is an instance of the parent object) is changed.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-171">O nome da propriedade é passado ao procedimento para que você possa determinar a propriedade personalizada alterada.</span><span class="sxs-lookup"><span data-stu-id="f7929-171">The property name is passed to the procedure so that you can determine which custom property changed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -646,12 +424,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-130">Ocorre quando o usuário seleciona a ação Forward para um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-130">Occurs when the user selects the Forward action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-172">Ocorre quando o usuário seleciona a ação Forward para um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-172">Occurs when the user selects the Forward action for an item (which is an instance of the parent object).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -670,24 +443,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_OpenEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-131">Ocorre quando uma instância do objeto pai está sendo aberta em uma <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-131">Occurs when an instance of the parent object is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-132">
-            <para>Quando esse evento ocorrer, o objeto <b>Inspector</b> é inicializado, mas ainda não é exibido. O evento <b>Open</b> difere do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento de <b>leitura</b> ocorre sempre que o usuário seleciona o item em um modo de exibição que suporta a edição na célula, bem como quando o item está sendo aberto em um Inspetor.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-132">
-              <para>When this event occurs, the <b>Inspector</b> object is initialized but not yet displayed. The <b>Open</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an inspector.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-173">Ocorre quando uma instância do objeto pai está sendo aberta em uma <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span><span class="sxs-lookup"><span data-stu-id="f7929-173">Occurs when an instance of the parent object is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-174">Quando esse evento ocorrer, o objeto <b>Inspector</b> é inicializado, mas ainda não é exibido.</span><span class="sxs-lookup"><span data-stu-id="f7929-174">When this event occurs, the <b>Inspector</b> object is initialized but not yet displayed.</span></span> <span data-ttu-id="f7929-175">O evento <b>Open</b> difere do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento de <b>leitura</b> ocorre sempre que o usuário seleciona o item em um modo de exibição que suporta a edição na célula, bem como quando o item está sendo aberto em um Inspetor.</span><span class="sxs-lookup"><span data-stu-id="f7929-175">The <b>Open</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an inspector.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyChange">
@@ -705,24 +463,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_PropertyChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-133">Ocorre quando uma propriedade interna explícita de uma instância do objeto pai é alterada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-133">Occurs when an explicit built-in property of an instance of the parent object is changed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-134">
-            <para>O nome da propriedade é passado ao evento para que você possa determinar qual propriedade foi alterada.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-134">
-              <para>The property name is passed to the event so that you can determine which property was changed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-176">Ocorre quando uma propriedade interna explícita de uma instância do objeto pai é alterada.</span><span class="sxs-lookup"><span data-stu-id="f7929-176">Occurs when an explicit built-in property of an instance of the parent object is changed.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-177">O nome da propriedade é passado ao evento para que você possa determinar a propriedade alterada.</span><span class="sxs-lookup"><span data-stu-id="f7929-177">The property name is passed to the event so that you can determine which property was changed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -740,24 +483,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-135">Ocorre quando uma instância do objeto pai é aberta para edição pelo usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-135">Occurs when an instance of the parent object is opened for editing by the user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-136">
-            <para>O evento <b>Read</b> difere do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> evento de <b>leitura</b> ocorre sempre que o usuário seleciona o item em uma exibição que suporta a edição na célula, bem como quando o item está sendo aberto em um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-136">
-              <para>The <b>Read</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-178">Ocorre quando uma instância do objeto pai é aberta para edição pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="f7929-178">Occurs when an instance of the parent object is opened for editing by the user.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-179">O evento <b>Read</b> difere do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> evento de <b>leitura</b> ocorre sempre que o usuário seleciona o item em uma exibição que suporta a edição na célula, bem como quando o item está sendo aberto em um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span><span class="sxs-lookup"><span data-stu-id="f7929-179">The <b>Read</b> event differs from the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> event in that <b>Read</b> occurs whenever the user selects the item in a view that supports in-cell editing as well as when the item is being opened in an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadComplete">
@@ -775,28 +503,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReadCompleteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-137">Ocorre quando o Outlook concluiu a ler as propriedades do item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-137">Occurs when Outlook has completed reading the properties of the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-138">
-            <para>O evento <b>ReadComplete</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> evento e antes do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento para o item. </para>
-            <para>Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento.</para>
-            <para>o evento <b>ReadComplete</b> corresponde ao evento do Exchange Client ECE (extensões) <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-138">
-              <para>The <b>ReadComplete</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> event and before the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event for the item. </para>
-              <para>To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</para>
-              <para>The <b>ReadComplete</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-180">Ocorre quando o Outlook concluiu a ler as propriedades do item.</span><span class="sxs-lookup"><span data-stu-id="f7929-180">Occurs when Outlook has completed reading the properties of the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-181">O evento <b>ReadComplete</b> ocorre após o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> evento e antes do <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento para o item.</span><span class="sxs-lookup"><span data-stu-id="f7929-181">The <b>ReadComplete</b> event occurs after the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> event and before the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> event for the item.</span></span> </para>
+          <para><span data-ttu-id="f7929-182">Para determinar quando o item seja descarregado da memória, use o <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento.</span><span class="sxs-lookup"><span data-stu-id="f7929-182">To determine when the item is unloaded from memory, use the <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> event.</span></span></para>
+          <para><span data-ttu-id="f7929-183">O evento <b>ReadComplete</b> corresponde ao evento <b>IExchExtMessageEvents::OnReadComplete</b>Exchange cliente ECE (extensões).</span><span class="sxs-lookup"><span data-stu-id="f7929-183">The <b>ReadComplete</b> event corresponds to the Exchange Client Extensions (ECE) event <b>IExchExtMessageEvents::OnReadComplete</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -814,24 +525,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-139">Ocorre quando o usuário seleciona a ação Reply para um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-139">Occurs when the user selects the Reply action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-140">
-            <para>Retorna a resposta como um <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-140">
-              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-184">Ocorre quando o usuário seleciona a ação Reply para um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-184">Occurs when the user selects the Reply action for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-185">Retorna a resposta como um <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="f7929-185">Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -849,24 +545,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyAllEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-141">Ocorre quando o usuário seleciona a ação ReplyAll para um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-141">Occurs when the user selects the ReplyAll action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-142">
-            <para>Retorna a resposta como um <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-142">
-              <para>Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-186">Ocorre quando o usuário seleciona a ação ReplyAll para um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-186">Occurs when the user selects the ReplyAll action for an item (which is an instance of the parent object).</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-187">Retorna a resposta como um <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="f7929-187">Returns the reply as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -884,12 +565,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_SendEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-143">Ocorre quando o usuário seleciona a ação Send para um item (que é uma instância do objeto pai).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-143">Occurs when the user selects the Send action for an item (which is an instance of the parent object).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-188">Ocorre quando o usuário seleciona a ação Send para um item (que é uma instância do objeto pai).</span><span class="sxs-lookup"><span data-stu-id="f7929-188">Occurs when the user selects the Send action for an item (which is an instance of the parent object).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -908,28 +584,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_UnloadEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-144">Ocorre antes que um item do Outlook seja descarregado da memória, programaticamente ou por meio de uma ação do usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-144">Occurs before an Outlook item is unloaded from memory, either programmatically or by user action.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="a496a-145">
-            <para>Esse evento ocorre depois que ocorre o evento <b>Close</b> do item do Outlook, mas antes do Outlook item seja descarregado da memória, permitindo que um suplemento liberar todos os recursos relacionados ao objeto.  Embora o evento ocorre antes que o item do Outlook seja descarregado da memória, esse evento não pode ser cancelado.</para>
-            <para>
-              <b>Observação</b>: esse evento é destinado apenas como um evento de notificação, para que um suplemento pode cancelar a referência de objeto.  Ocorrerá um erro se qualquer propriedade ou método para este objeto é chamado dentro do evento <b>Unload</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-145">
-              <para>This event occurs after the <b>Close</b> event for the Outlook item occurs, but before the Outlook item is unloaded from memory, allowing an add-in to release any resources related to the object.  Although the event occurs before the Outlook item is unloaded from memory, this event cannot be canceled.</para>
-              <para>
-                <b>Note</b>: This event is meant only as a notification event, so that an add-in can dereference the object.  An error occurs if any property or method for this object is called within the <b>Unload</b> event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f7929-189">Ocorre antes que um item do Outlook seja descarregado da memória, programaticamente ou por meio de uma ação do usuário.</span><span class="sxs-lookup"><span data-stu-id="f7929-189">Occurs before an Outlook item is unloaded from memory, either programmatically or by user action.</span></span></summary>
+        <remarks><para><span data-ttu-id="f7929-190">Esse evento ocorre depois que ocorre o evento <b>Close</b> do item do Outlook, mas antes do Outlook item seja descarregado da memória, permitindo que um suplemento liberar todos os recursos relacionados ao objeto.</span><span class="sxs-lookup"><span data-stu-id="f7929-190">This event occurs after the <b>Close</b> event for the Outlook item occurs, but before the Outlook item is unloaded from memory, allowing an add-in to release any resources related to the object.</span></span>  <span data-ttu-id="f7929-191">Embora o evento ocorre antes que o item do Outlook seja descarregado da memória, esse evento não pode ser cancelado.</span><span class="sxs-lookup"><span data-stu-id="f7929-191">Although the event occurs before the Outlook item is unloaded from memory, this event cannot be canceled.</span></span></para>
+          <para><span data-ttu-id="f7929-192">
+            <b>Observação</b>: esse evento é destinado apenas como um evento de notificação, para que um suplemento pode cancelar a referência de objeto.</span><span class="sxs-lookup"><span data-stu-id="f7929-192">
+            <b>Note</b>: This event is meant only as a notification event, so that an add-in can dereference the object.</span></span>  <span data-ttu-id="f7929-193">Se qualquer propriedade ou método para este objeto é chamado dentro do evento <b>Unload</b>, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="f7929-193">An error occurs if any property or method for this object is called within the <b>Unload</b> event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Write">
@@ -947,12 +607,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemEvents_10_WriteEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a496a-146">Ocorre quando uma instância do objeto pai é salva, explícita ou implicitamente (por exemplo, em resposta a um aviso ao fechar o inspector do item).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a496a-146">Occurs when an instance of the parent object is saved, either explicitly or implicitly (for example, in response to a prompt when closing the item's inspector).</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f7929-194">Ocorre quando uma instância do objeto pai é salva, explícita ou implicitamente (por exemplo, em resposta a um aviso ao fechar o inspector do item).</span><span class="sxs-lookup"><span data-stu-id="f7929-194">Occurs when an instance of the parent object is saved, either explicitly or implicitly (for example, in response to a prompt when closing the item's inspector).</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

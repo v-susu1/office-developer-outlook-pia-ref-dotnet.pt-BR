@@ -1,13 +1,5 @@
 <Type Name="OlAlwaysDeleteConversation" FullName="Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33a2ab3118bc2bf01ffe01cbf8c89cab8f83de19" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629358" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlAlwaysDeleteConversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a5ca221b606d5b1a2bde0f4ba756056d72521c3a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902877" /></Metadata><TypeSignature Language="C#" Value="public enum OlAlwaysDeleteConversation" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAlwaysDeleteConversation extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlAlwaysDeleteConversation" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="a552f-101">Especifica constantes que determinam se novos itens da conversa devem sempre ser movidos para a pasta Itens Excluídos do repositório de entrega especificado.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a552f-101">Specifies constants that determine whether new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="a552f-102">
-        <para>Esta enumeração é usada pelo <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="a552f-102">
-          <para>This enumeration is used by the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="4c5a9-101">Especifica constantes que determinam se novos itens da conversa devem sempre ser movidos para a pasta Itens Excluídos do repositório de entrega especificado.</span><span class="sxs-lookup"><span data-stu-id="4c5a9-101">Specifies constants that determine whether new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span></span></summary>
+    <remarks><para><span data-ttu-id="4c5a9-102">Esta enumeração é usada pelo <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="4c5a9-102">This enumeration is used by the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olAlwaysDelete">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a552f-103">Novos itens da conversa sempre serão movidos para a pasta Itens excluídos para o repositório que contém os itens</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a552f-103">New items of the conversation are always moved to the Deleted Items folder for the store that contains the items</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4c5a9-103">Novos itens da conversa sempre serão movidos para a pasta Itens excluídos para o repositório que contém os itens</span><span class="sxs-lookup"><span data-stu-id="4c5a9-103">New items of the conversation are always moved to the Deleted Items folder for the store that contains the items</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olAlwaysDeleteUnsupported">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a552f-104">O repositório especificado não oferece suporte a ação de sempre mover itens para a pasta Itens excluídos desse repositório.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a552f-104">The specified store does not support the action of always moving items to the Deleted Items folder of that store.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4c5a9-104">O repositório especificado não oferece suporte a ação de sempre mover itens para a pasta Itens excluídos desse repositório.</span><span class="sxs-lookup"><span data-stu-id="4c5a9-104">The specified store does not support the action of always moving items to the Deleted Items folder of that store.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olDoNotDelete">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="a552f-105">Novos itens ingressar na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="a552f-105">New items joining the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="4c5a9-105">Novos itens ingressar na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</span><span class="sxs-lookup"><span data-stu-id="4c5a9-105">New items joining the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span></span></summary>
       </Docs>
     </Member>
   </Members>
