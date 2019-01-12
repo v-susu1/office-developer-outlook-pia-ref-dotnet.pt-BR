@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630398" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1da25ba77d55a14d75d64b193c88a0a25d516efe" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903815" /></Metadata><TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
@@ -49,37 +41,35 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está prestes a ser removido da sessão atual programaticamente ou pela ação do usuário.</summary>
-        <remarks>
-          <para>Outlook deve estar executando para que esse evento seja acionado. Esse evento será acionado quando ocorrer qualquer uma das seguintes opções: </para>
+        <remarks><para>Para que o evento seja acionado, o Outlook deve estar sendo executado. Esse evento será acionado quando:</para>
           <list type="bullet">
             <item>
-              <para>um repositório for removido quando o usuário clicar no comando Fechar do menu de atalho.</para>
+              <para>Um repositório for removido quando o usuário clicar no comando Fechar do menu de atalho.</para>
             </item>
             <item>
               <para>Um repositório for removido de maneira programática chamando <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</para>
             </item>
           </list>
-          <para>Esse evento não será acionado quando ocorrer qualquer uma das seguintes opções:</para>
+          <para>Esse evento não será acionado quando: </para>
           <list type="bullet">
             <item>
-              <para>Quando o Outlook for desligado e fecha primário ou representante armazenar.</para>
+              <para>O Outlook for desligado e fechar um repositório primário ou representante.</para>
             </item>
             <item>
-              <para>Se um repositório for removido por meio do miniaplicativo de email no painel de controle do Microsoft Windows e o Outlook não está em execução.</para>
+              <para>Um repositório for removido por meio do miniaplicativo Email do Painel de Controle do Windows e o Outlook não estiver sendo executado.</para>
             </item>
             <item>
-              <para>Um repositório for removido na guia Avançado da caixa de diálogo Microsoft Exchange Server.</para>
+              <para>Um repositório for removido na guia Avançado da caixa de diálogo do Microsoft Exchange Server.</para>
             </item>
             <item>
-              <para>Um repositório for removido por meio da guia arquivos de dados da caixa de diálogo Gerenciador de contas quando o Outlook não está em execução.</para>
+              <para>Um repositório for removido por meio da guia Arquivos de Dados da caixa de diálogo Gerenciador de Contas quando o Outlook não estiver sendo executado.</para>
             </item>
             <item>
-              <para>Um repositório de IMAP for removido do perfil.</para>
+              <para>Um repositório IMAP for removido do perfil.</para>
             </item>
           </list>
-          <para>Você pode usar esse evento para determinar se um repositório foi removido e executar as ações apropriadas, se o armazenamento é necessário para seu aplicativo (por exemplo, remontagem o repositório). Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
-          <para />
-        </remarks>
+          <para>Você pode usar esse evento para determinar se um repositório foi removido e tomar as ações apropriadas se o repositório for necessário para seu aplicativo (como remontagem do repositório). Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreAdd">
@@ -98,34 +88,32 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> foi adicionado à sessão atual programaticamente ou pela ação do usuário.</summary>
-        <remarks>
-          <para>Outlook deve estar executando para que esse evento seja acionado. Esse evento será acionado quando ocorrer qualquer uma das seguintes opções: </para>
+        <remarks><para>Para que o evento seja acionado, o Outlook deve estar sendo executado. Esse evento será acionado quando:</para>
           <list type="bullet">
             <item>
-              <para>um repositório for adicionado por meio da caixa de diálogo Abrir arquivo de dados do Outlook, selecionando abrir e, em seguida, o arquivo de dados do Outlook no menu arquivo.</para>
+              <para>Um repositório for adicionado por meio da caixa de diálogo Abrir Arquivo de Dados do Outlook, selecionando Abrir e Arquivo de Dados do Outlook no menu Arquivo.</para>
             </item>
             <item>
-              <para>Um repositório for adicionado por meio da guia arquivos de dados da caixa de diálogo Account Manager.</para>
+              <para>Um repositório for adicionado por meio da guia Arquivos de Dados da caixa de diálogo Gerenciador de Contas.</para>
             </item>
             <item>
               <para>Um repositório for adicionado com sucesso chamando o <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> método.</para>
             </item>
           </list>
-          <para>Esse evento não será acionado quando ocorrer qualquer uma das seguintes opções:</para>
+          <para>Esse evento não será acionado quando: </para>
           <list type="bullet">
             <item>
-              <para>Quando o Outlook for iniciado e aberto primário ou representante armazenar.</para>
+              <para>O Outlook for iniciado e aberto como repositório primário ou representante.</para>
             </item>
             <item>
-              <para>Se um repositório for adicionado por meio do miniaplicativo de email no painel de controle do Microsoft Windows e o Outlook não está em execução.</para>
+              <para>Um repositório for adicionado por meio do miniaplicativo Email do Painel de Controle do Windows e o Outlook não estiver sendo executado.</para>
             </item>
             <item>
-              <para>Um repositório representante for adicionado por meio da guia Avançado da caixa de diálogo Microsoft Exchange Server.</para>
+              <para>Um repositório representante for adicionado por meio da guia Avançado da caixa de diálogo do Microsoft Exchange Server.</para>
             </item>
           </list>
-          <para>Você pode usar esse evento para determinar se um repositório foi adicionado e executar as ações apropriadas em itens desse repositório. Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
-          <para />
-        </remarks>
+          <para>Você pode usar esse evento para determinar se um repositório foi adicionado e tomar as ações apropriadas em relação aos itens desse repositório. Caso contrário, você teria de recorrer a sondagem de <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

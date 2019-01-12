@@ -1,13 +1,5 @@
 <Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629519" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902793" /></Metadata><TypeSignature Language="C#" Value="public interface _Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
@@ -55,11 +47,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto da coleção que representa todas as ações de regra disponíveis para a regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode enumerar e habilitar regras com qualquer ação de regra que suportam as regras e alertas assistente, mas é possível criar programaticamente as regras que têm apenas as ações de regra mais comumente usadas e não em qualquer ação de regra que as regras e alertas assistente oferece suporte. Para obter mais informações sobre o suporte de ação de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-          <para>por meio da propriedade de <b>ações</b> , cada regra é associada um objeto <b>RuleActions</b> . O conjunto <b>RuleActions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. Ações de regra que são habilitadas na regra terá uma ação de regra habilitado na coleção <b>RuleActions</b> . Regra de ações que não estiverem habilitadas na regra terá uma ação de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> propriedade definida como <b>False</b>. Ações de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleActions</b> de uma regra existente, mas porque o conjunto <b>RuleActions</b> é fixa, você não pode criar uma regra e adicionar tal uma ação a coleção <b>RuleActions</b> associada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode enumerar e habilitar regras com qualquer ação de regra que suportam as regras e alertas assistente, mas você pode criar programaticamente as regras que têm apenas as ações de regra mais comumente usadas e não em qualquer ação de regra que as regras e alertas assistente oferece suporte. Para obter mais informações sobre o suporte de ação de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
+          <para>Por meio da propriedade de <b>ações</b>, cada regra é associada um objeto <b>RuleActions</b>. O conjunto <b>RuleActions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. Ações de regra que são habilitadas na regra terá uma ação de regra habilitado na coleção <b>RuleActions</b>. Regra de ações que não estiverem habilitadas na regra terá uma ação de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> propriedade definida como <b>False</b>. Ações de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleActions</b> de uma regra existente, mas porque o conjunto <b>RuleActions</b> é fixa, você não pode criar uma regra e adicionar tal ação à coleção <b>RuleActions</b> associada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -143,12 +133,10 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto da coleção que representa todas as condições de regra disponíveis para a regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma condição de uma regra afirma a condição sob a qual a regra deve ser aplicada. Ambas as <b>condições</b> e <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> propriedades compartilham o mesmo pool das condições e retornar um objeto de coleção correspondente <b>RuleConditions</b> .</para>
-          <para>Programaticamente você pode enumerar e habilitar regras com qualquer condição de regra que suportam as regras e alertas assistente, mas você pode criar regras que têm apenas o mais comumente usados condições de regra, e não em qualquer regra de condição que as regras e o Assistente de alertas oferece suporte. Para obter mais informações sobre o suporte de condição de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para>por meio da propriedade <b>condições</b> , cada regra é associada um objeto <b>RuleConditions</b> . A coleção <b>RuleConditions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. Condições de regra que são habilitadas na regra terá uma condição de regra habilitado na coleção <b>RuleConditions</b> . Regra de condições que não estiverem habilitadas na regra terá uma condição de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade definida como <b>False</b>. Condições de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleConditions</b> de uma regra existente, mas porque o conjunto <b>RuleConditions</b> é fixa, você não pode criar uma regra e adicionar dessas condições à coleção <b>RuleConditions</b> associada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Uma condição de uma regra afirma a condição sob a qual a regra deve ser aplicada. Ambas as <b>condições</b> e <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> propriedades compartilham o mesmo pool das condições e retornar um objeto da coleção <b>RuleConditions</b> correspondente.</para>
+          <para>Programaticamente, você pode enumerar e habilitar regras com qualquer condição de regra que suportam as regras e alertas assistente, mas você pode criar regras que possuem somente as condições de regra mais comumente usadas e não em qualquer condição de regra que suporta as regras e alertas assistente. Para obter mais informações sobre o suporte de condição de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para>Por meio da propriedade <b>condições</b>, cada regra é associada um objeto <b>RuleConditions</b>. A coleção <b>RuleConditions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. Condições de regra que são habilitadas na regra terá uma condição de regra habilitado na coleção <b>RuleConditions</b>. Regra de condições que não estiverem habilitadas na regra terá uma condição de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade definida como <b>False</b>. Condições de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleConditions</b> de uma regra existente, mas porque o conjunto <b>RuleConditions</b> é fixa, você não pode criar uma regra e adicionar dessas condições à coleção <b>RuleConditions</b> associada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -179,11 +167,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se a regra deve ser aplicada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Definindo a propriedade <b>Enabled</b> de uma regra não garante que a regra será habilitada. A regra está habilitada somente após <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> é executado com êxito.</para>
+        <remarks><para>Definindo a propriedade <b>Enabled</b> de uma regra não garante que a regra será habilitada. A regra está habilitada somente após <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> é executado com êxito.</para>
           <para>Usando <b>Rule.Enabled</b> e <b>rules. Save</b> aplica a regra de forma consistente e mantém as regras além da sessão atual. Habilitar uma regra (que tenha sido salva com êxito) garante que a regra será aplicada. Se for uma regra de cliente local, a regra será aplicada quando o Outlook está em execução e se a regra for uma regra baseada em servidor, ela será aplicada independentemente se o Outlook estiver sendo executado. Se você não ativar a regra, em seguida, a regra é definida, mas ela não será aplicada. No entanto, você pode usar <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar uma regra como uma operação individual independentemente se a regra está habilitada.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -211,12 +197,10 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto da coleção que representa todas as condições de exceção de regra disponíveis para a regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma condição de exceção de uma regra afirma a condição sob a qual a regra não deve ser aplicada. Tanto o <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> e as propriedades de <b>exceções</b> compartilham o mesmo pool das condições e retornam um objeto de coleção correspondente <b>RuleConditions</b> .</para>
-          <para>Você pode enumerar e habilitar regras com qualquer condição de exceção de regra que suportam as regras e alertas assistente, mas você pode criar programaticamente as regras que têm apenas o mais comumente usados condições de exceção de regra e não em qualquer exceção de regra da condição que as regras e alertas assistente oferece suporte. Para obter mais informações sobre o suporte de condição de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para>por meio da propriedade <b>condições</b> , cada regra é associada um objeto <b>RuleConditions</b> . A coleção <b>RuleConditions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. As condições de exceção de regra que são habilitadas na regra terá uma condição de exceção de regra habilitado na coleção <b>RuleConditions</b> . Regra de condições de exceção que não estiverem habilitadas na regra terá uma condição de exceção de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade definida como <b>False</b>. Condições de exceção de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleConditions</b> de uma regra existente, mas porque o conjunto <b>RuleConditions</b> é fixo, não é possível criar uma regra e adicionar tal uma condição de exceção à coleção <b>RuleConditions</b> associada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Uma condição de exceção de uma regra afirma a condição sob a qual a regra não deve ser aplicada. Tanto o <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> e as propriedades de <b>exceções</b> compartilham o mesmo pool das condições e retornam um objeto da coleção <b>RuleConditions</b> correspondente.</para>
+          <para>Você pode enumerar e habilitar regras com qualquer condição de exceção de regra que suportam as regras e alertas assistente, mas você pode criar programaticamente as regras que têm apenas o mais comumente usados condições de exceção de regra e não em qualquer exceção de regra da condição que o Regras e alertas Assistente suporta. Para obter mais informações sobre o suporte de condição de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para>Por meio da propriedade <b>condições</b>, cada regra é associada um objeto <b>RuleConditions</b>. A coleção <b>RuleConditions</b> é um objeto fixo - você não pode adicionar ou remover itens dessa coleção. As condições de exceção de regra que são habilitadas na regra terá uma condição de exceção de regra habilitado na coleção <b>RuleConditions</b>. Regra de condições de exceção que não estiverem habilitadas na regra terá uma condição de exceção de regra nesta coleção que tem o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade definida como <b>False</b>. Condições de exceção de regra que não são suportadas durante a criação programática só podem ser enumeradas na coleção <b>RuleConditions</b> de uma regra existente, mas porque o conjunto <b>RuleConditions</b> é fixa, você não pode criar uma regra e adicionar tal uma condição de exceção à coleção <b>RuleConditions</b> associada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -244,30 +228,28 @@
         <Parameter Name="RuleExecuteOption" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>True</b> para exibir a caixa de diálogo de progresso quando a regra é executada, <b>False</b> para executar a regra sem exibir a caixa de diálogo.</param>
+        <param name="ShowProgress"><b>True</b> para exibir a caixa de diálogo de progresso quando a regra é executada, <b>False</b> para executar a regra sem exibir a caixa de diálogo.</param>
         <param name="Folder">Representa a pasta em que a regra será aplicada.</param>
-        <param name="IncludeSubfolders">
-          <b>True</b> para aplicar a regra às subpastas da pasta indicado pelo parâmetro Folder; <b>False</b> para aplicar a regra apenas àquela pasta e não às suas subpastas.</param>
+        <param name="IncludeSubfolders"><b>True</b> para aplicar a regra às subpastas da pasta indicado pelo parâmetro Folder; <b>False</b> para aplicar a regra apenas àquela pasta e não às suas subpastas.</param>
         <param name="RuleExecuteOption">Representa se a regra deve ser aplicada para mensagens lidas, não lidas ou todas as mensagens na(s) pasta(s) especificada(s) pelos parâmetros Folder e IncludeSubfolders.</param>
         <summary>Aplica uma regra como uma operação individual.</summary>
-        <remarks>
-          <para>Use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar uma regra como uma operação individual independentemente se <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> for <b>verdadeira</b>. Use <b>Rule.Enabled</b> e <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> se você deseja aplicar a regra de forma consistente e as regras além da sessão atual de persistência.</para>
-          <para>Os parâmetros para o método <b>Execute</b> são opcionais. Se você não especificar nenhum parâmetro, a regra será aplicada a todas as mensagens na caixa de entrada, mas não para as subpastas da caixa de entrada. Os valores padrão para os argumentos opcionais são da seguinte maneira: </para>
+        <remarks><para>Use <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar uma regra como uma operação individual independentemente se <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> for <b>verdadeira</b>. Use <b>Rule.Enabled</b> e <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> se você deseja aplicar a regra de forma consistente e persistir as regras além da sessão atual.</para>
+          <para>Os parâmetros para o método <b>Execute</b> são opcionais. Se você não especificar nenhum parâmetro, a regra será aplicada a todas as mensagens na caixa de entrada, mas não para as subpastas da caixa de entrada. Os valores padrão para os argumentos opcionais são:</para>
           <list type="table">
-            <item>o
-              <description>Valor padrão</description>do 
-              <description>parâmetro</description></item>
+            <item>
+              <description>Parâmetro</description>
+              <description>Valor padrão</description>
+            </item>
             <item>
               <description>ShowProgress</description>
               <description>False</description>
             </item>
             <item>
-              <description>pasta</description>
-              <description>caixa de entrada</description>
+              <description>Folder</description>
+              <description>Caixa de Entrada</description>
             </item>
             <item>
-              <description> IncludeSubfolders</description>
+              <description>IncludeSubfolders</description>
               <description>False</description>
             </item>
             <item>
@@ -277,10 +259,9 @@
               </description>
             </item>
           </list>
-          <para>se <paramref name="ShowProgress" /> for <b>verdadeiro</b> , e o usuário cancela a caixa de diálogo de progresso, regra execução será cancelada da mesma maneira como se o usuário teve cancelou a execução da regra através das regras e alertas de assistente. Executar retornará um erro quando o usuário cancela a caixa de diálogo de progresso.</para>
-          <para>Se você planeja mostrar uma interface do usuário de progresso personalizado em vez de usar a caixa de diálogo de andamento, você deve estar ciente de que não há nenhuma eventos que indicam quando inicia a execução da regra e paradas.</para>
-          <para />
-        </remarks>
+          <para>Se <paramref name="ShowProgress" /> for <b>verdadeiro</b> , e o usuário cancela a caixa de diálogo de progresso, execução da regra será cancelada da mesma maneira como se o usuário teve cancelou a execução por meio das regras e alertas Assistente da regra. Execute retornará um erro quando o usuário cancela a caixa de diálogo de progresso.</para>
+          <para>Se você planeja mostrar uma interface de usuário de progresso personalizada em vez de usar a caixa de diálogo de progresso, deverá estar ciente de que não há eventos que indicam quando uma execução de regra é iniciada ou interrompida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecutionOrder">
@@ -311,11 +292,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que indica a ordem de execução da regra entre outras regras no <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ExecutionOrder</b> é mapeado diretamente com o valor numérico da <paramref name="Index" /> em <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. Por exemplo, Rules.Item(1) representa uma regra com <b>ExecutionOrder</b> sendo 1, Rules.Item(2) representa uma regra com <b>ExecutionOrder</b> sendo 2 e Rules.Item(Rules.Count) representa a regra com <b>ExecutionOrder</b> sendo <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLocalRule">
@@ -343,12 +322,10 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a regra executa como uma regra do cliente. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma regra do cliente é executada somente quando o Outlook está sendo executado. Se <b>IsLocalRule</b> for <b>False</b>, então a regra executa como uma regra do lado do servidor.</para>
-          <para>Se você tiver uma conta de email do Microsoft Exchange Server, o servidor pode aplicar regras do lado do servidor a suas mensagens, mesmo se você não tiver o Outlook em execução. As regras devem ser definidas para ser aplicada às mensagens quando elas são entregues para sua caixa de entrada no servidor e as regras devem ser capazes de executar com êxito no servidor. Por exemplo, uma regra não pode executar com êxito no servidor se a ação especifica uma mensagem a ser impressa. Se uma regra não pode ser aplicada no servidor, ela será aplicada ao iniciar o Outlook.</para>
+        <remarks><para>Uma regra do cliente é executada somente quando o Outlook está sendo executado. Se <b>IsLocalRule</b> for <b>False</b>, a regra executa como uma regra do lado do servidor.</para>
+          <para>Se você tiver uma conta de email do Microsoft Exchange Server, o servidor poderá aplicar as regras do lado do servidor às suas mensagens, mesmo que o Outlook não esteja em execução. As regras deverão ser aplicadas às mensagens quando elas forem entregues na Caixa de Entrada no servidor, e as regras têm que ser executadas até a conclusão no servidor. Por exemplo, uma regra não poderá ser executada até sua conclusão no servidor se a ação especificar que a mensagem será impressa. Se uma regra não puder ser aplicada no servidor, ela será aplicada quando o Outlook for iniciado.</para>
           <para>Se o conjunto de regras em um repositório contiver regras do lado do cliente e do servidor, as regras do lado do servidor serão aplicadas primeiro, seguidas pelas regras do lado do cliente.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -379,12 +356,10 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da regra. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Nome</b> é a propriedade padrão e um indexador para uma regra em um <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto da coleção. Ela corresponde ao <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
-          <para>Nomes de regra não são exclusivos dentre as regras no mesmo conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Name</b> é a propriedade padrão e um indexador para uma regra em um <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto da coleção. Ela corresponde ao <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
+          <para>Os nomes das regras não são exclusivos dentre as regras no mesmo conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -412,10 +387,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleType">
@@ -471,16 +444,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

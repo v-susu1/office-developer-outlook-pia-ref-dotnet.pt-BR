@@ -1,13 +1,5 @@
 <Type Name="OlkComboBox" FullName="Microsoft.Office.Interop.Outlook.OlkComboBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d4188d722276a727a9ec767d4c8b19bb79ce60d4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631060" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkComboBox : Microsoft.Office.Interop.Outlook._OlkComboBox, Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32654ecf6750509e083b0c8ebb7b41f8f20ba07" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902632" /></Metadata><TypeSignature Language="C#" Value="public interface OlkComboBox : Microsoft.Office.Interop.Outlook._OlkComboBox, Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkComboBox implements class Microsoft.Office.Interop.Outlook._OlkComboBox, class Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkComboBox&#xA;Implements _OlkComboBox, OlkComboBoxEvents_Event" />
@@ -34,14 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Um controle que fornece suporte à exibição de uma seleção na lista suspensa com todas as opções.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />.</para>
-      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle de caixa de combinação do Microsoft Outlook para a caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários.</para>
-      <para>a seguir está um exemplo de um controle de caixa de combinação que tenha sido associado ao campo de sensibilidade. Esse controle oferece suporte a temas do Microsoft Windows.</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />.</para>
+      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle Combo Box do Microsoft Outlook à caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários.</para>
+      <para>A seguir está um exemplo de um controle Combo Box que foi vinculado ao campo Sensibilidade. Esse controle fornece suporte a temas do Microsoft Windows.</para>
       <para>Se o <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.Click" /> evento for implementado, mas o <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> evento não for implementado, em seguida, clicando no botão de soltar acionará somente o evento <b>Click</b> .</para>
       <para>Para obter mais informações sobre os controles do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

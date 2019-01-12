@@ -1,13 +1,5 @@
 <Type Name="_OlkCategory" FullName="Microsoft.Office.Interop.Outlook._OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630472" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCategory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904151" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCategory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCategory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCategory" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão para essa propriedade é <b>True</b>.</para>
-          <para>Esse controle assume uma linha, a menos que o conteúdo expandir e precisa de mais espaço.  Se isso acontecer, o controle aumentará para exibir o conteúdo e mover o conteúdo de formulário restantes para baixo para liberar espaço.</para>
-          <para />
-        </remarks>
+        <remarks><para>  O valor padrão para essa propriedade é <b>True</b>.</para>
+          <para>Este controle assume uma linha a menos que o conteúdo se expanda e precise de mais espaço. Se isso acontecer, o controle crescerá para exibir o conteúdo e moverá o conteúdo restante do formulário para baixo para criar espaço.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -96,10 +86,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x8000000F, "Face do botão".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x8000000F, "Face do botão". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -130,10 +118,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que altera o estilo do plano de fundo do controle entre transparente e opaco. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -164,10 +150,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -201,10 +185,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -235,10 +217,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa uma imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -269,10 +249,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

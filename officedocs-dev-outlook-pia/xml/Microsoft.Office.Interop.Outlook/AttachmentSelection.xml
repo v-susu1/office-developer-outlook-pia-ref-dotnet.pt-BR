@@ -1,13 +1,5 @@
 <Type Name="AttachmentSelection" FullName="Microsoft.Office.Interop.Outlook.AttachmentSelection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89d4cc40051887ef0752881948727d49c4a4034f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630724" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5df6fe2a5d806356f31002cd4706f333d2625a82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904396" /></Metadata><TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AttachmentSelection implements class Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />
   <TypeSignature Language="VB.NET" Value="Public Interface AttachmentSelection&#xA;Implements _AttachmentSelection" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objetos que representam os anexos selecionados em um item do Outlook.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
-      <para>o objeto <b>AttachmentSelection</b> contém uma coleção somente leitura de anexos selecionados em um item que está no Inspetor ativo ou no explorer ativo.</para>
-      <para>Para personalizar o menu de atalho de anexo usando o Microsoft Office Fluent extensibilidade da faixa de opções, use a propriedade de <b>contexto</b> da interface do <b>IRibbonControl</b> para obter um objeto <b>AttachmentSelection</b> .</para>
-      <para />
-    </remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
+      <para>O objeto <b>AttachmentSelection</b> contém uma coleção somente leitura de anexos selecionados em um item que está no Inspetor ativo ou no explorer ativo.</para>
+      <para>Para personalizar o menu de atalho de anexo usando o Microsoft Office Fluent extensibilidade da faixa de opções, use a propriedade <b>Context</b> da interface do <b>IRibbonControl</b> para obter um objeto <b>AttachmentSelection</b> .</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

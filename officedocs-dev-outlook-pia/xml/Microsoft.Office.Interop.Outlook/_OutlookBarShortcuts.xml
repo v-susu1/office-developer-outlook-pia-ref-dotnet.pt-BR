@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarShortcuts" FullName="Microsoft.Office.Interop.Outlook._OutlookBarShortcuts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6cbf1a4e95de620f5f8d707b2f10726f32b00b95" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629714" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarShortcuts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6cbf1a4e95de620f5f8d707b2f10726f32b00b95" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904389" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarShortcuts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarShortcuts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarShortcuts&#xA;Implements IEnumerable" />
@@ -263,16 +255,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

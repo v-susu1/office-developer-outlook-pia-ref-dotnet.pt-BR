@@ -1,13 +1,5 @@
 <Type Name="Store" FullName="Microsoft.Office.Interop.Outlook.Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6445374782d0b4add1312b6169f01fab8b0ba475" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630652" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80f18cf084b45ff5e3b2a810c96deb110c412178" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903136" /></Metadata><TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Store implements class Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface Store&#xA;Implements _Store" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Representa um arquivo no computador local ou em uma unidade de rede que armazena emails e outros itens para uma conta do perfil atual.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
-      <para>Um perfil define uma ou mais contas de email e cada conta de email é associada a um servidor de um tipo específico. Para um servidor do Exchange, um repositório pode ser no servidor, em uma pasta pública do Exchange ou em um arquivo de pastas particulares (. pst) local ou de um arquivo de pasta Offline (. ost). Para um servidor de email POP3, IMAP ou HTTP, um repositório é um arquivo. pst.</para>
-      <para>Que você pode usar o <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> e objetos de <b>repositório</b> para enumerar todas as pastas e pastas em todos os repositórios de pesquisa na sessão atual.  Desde que Obtendo a pasta raiz ou pastas de pesquisa em um repositório exige o repositório para ser aberto e abrir um repositório impõe uma sobrecarga de desempenho, é possível verificar o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> propriedade antes de você decidir deverá buscar a operação. </para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
+      <para>Um perfil define uma ou mais contas de email e cada uma está associada a um servidor de um tipo específico. Para um servidor Exchange, um repositório pode estar no servidor, em uma pasta pública do Exchange, no Arquivo de Pastas Particulares (.pst) local ou no Arquivo de Pastas Offline (.ost). Para um servidor de email POP3, IMAP ou HTTP, o repositório é um arquivo .pst.</para>
+      <para>Você pode usar o <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> e objetos de <b>repositório</b> para enumerar todas as pastas e pastas em todos os repositórios de pesquisa na sessão atual.  Desde que Obtendo a pasta raiz ou pastas de pesquisa em um repositório exige o repositório para ser aberto e abrir um repositório impõe uma sobrecarga de desempenho, é possível verificar o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> propriedade antes de você decidir deverá buscar a operação. </para>
       <para>Se você usar um servidor Exchange, você pode acessar outra opção interna explícita <b>armazenar</b> propriedades para armazenam características como <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />, <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />, e <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />. Use o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" /> para acessar outras propriedades de repositório não expostas no modelo de objeto do Outlook.</para>
       <para>Para obter mais informações sobre como armazenar itens do Outlook em pastas e repositórios, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87932">Armazenando itens do Outlook</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

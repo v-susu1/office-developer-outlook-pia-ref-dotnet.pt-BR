@@ -1,13 +1,5 @@
 <Type Name="FormDescription" FullName="Microsoft.Office.Interop.Outlook.FormDescription">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="474138c677b1667c78f8bf4160d0107458af0554" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630277" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormDescription" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1625d2c4b84142438b141ea8a9cc465c8ebceaf7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904466" /></Metadata><TypeSignature Language="C#" Value="public interface FormDescription" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormDescription" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormDescription" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormDescription" />
@@ -27,13 +19,11 @@
   </Attributes>
   <Docs>
     <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
-    <remarks>
-      <para>Representa as propriedades gerais de um formulário do Outlook.</para>
+    <remarks><para>Representa as propriedades gerais de um formulário do Outlook.</para>
       <para>As propriedades de um formulário do Outlook são exibidas na página Propriedades de um formulário em tempo de design.</para>
-      <para>Para ver a página de propriedades em tempo de design, abra o item do Outlook, selecione formulários no menu Ferramentas, clique em criar este formulário e, em seguida, clique na guia Propriedades na janela do item.</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" /> propriedade para retornar o objeto <b>FormDescription</b> associado a um item do Outlook.</para>
-      <para />
-    </remarks>
+      <para>Para ver a página Propriedades em tempo de design, abra o item do Outlook, selecione Formulários no menu Ferramentas, clique em Criar este Formulário e na guia Propriedades na janela do item.</para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.FormDescription" /> propriedade para retornar o objeto <b>FormDescription</b> associado a um item do Outlook.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -244,10 +234,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome do formulário, que é exibido na caixa de diálogo Escolher formulários. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se ambos os <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> e propriedades <b>FormDescription</b> estiverem vazias, a definição de uma definirá a outra. Se uma tiver sido definida anteriormente, a definição da outra não alterará o valor.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se ambos os <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> e propriedades <b>FormDescription</b> estiverem vazias, a definição de uma definirá a outra. Se uma tiver sido definida anteriormente, a definição da outra não alterará o valor.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Hidden">
@@ -278,10 +266,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica <b>True</b> para fazer com que o formulário personalizado especificado ser ocultada.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O formulário personalizado não será exibida no menu ou na caixa de diálogo Escolher formulário e será usado somente se ele é designado como o formulário de resposta de outro formulário personalizado. O valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O formulário personalizado não será exibida no menu ou na caixa de diálogo Escolher formulário e será usado somente se ele é designado como o formulário de resposta de outro formulário personalizado. O valor padrão é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Icon">
@@ -371,10 +357,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem para o <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> objeto.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b> MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MiniIcon">
@@ -436,10 +420,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para um formulário. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <b>nome</b> também é a legenda para um formulário. Essa propriedade deverá ser definida antes de poder usar o <see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <b>nome</b> também é a legenda para um formulário. Essa propriedade deverá ser definida antes de poder usar o <see cref="M:Microsoft.Office.Interop.Outlook.FormDescription.PublishForm(Microsoft.Office.Interop.Outlook.OlFormRegistry,System.Object)" /> método. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Number">
@@ -595,10 +577,10 @@
         <param name="Registry">A classe do formulário.</param>
         <param name="Folder">Expressão que retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Usado somente com o registro de formulários de pasta. O objeto de pasta da qual os formulários devem ser acessados.</param>
         <summary>Salva a definição do <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> objeto no registro do formulário especificado (biblioteca).</summary>
-        <remarks>
-          <para>
-            <b>Observação</b>: O <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> propriedade deve ser definida antes de poder usar o método <b>PublishForm</b> .</para> Formulários de 
-          <para>são registrados como uma das três classes: pasta, organização ou pessoal. O registro do formulário de pasta contém um conjunto de formulários que só são acessíveis a partir dessa pasta específica, seja pública ou privada. O registro do formulário de organização contém formulários que são compartilhados em toda a empresa e são acessíveis a todos. O registro de formulários particulares contém formulários que são acessíveis somente para o usuário atual do repositório.</para><para /></remarks>
+        <remarks><para>
+            <b>Observação</b>: O <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.Name" /> propriedade deve ser definida antes de poder usar o método <b>PublishForm</b> .</para>
+          <para>Os formulários são registrados como uma destas três classes: Pasta, Organização ou Particular. O registro de formulários Pasta contém um conjunto de formulários que só são acessíveis a partir dessa pasta específica, seja ela pública ou particular. O registro de formulários Organização contém formulários que são compartilhados pela empresa inteira e são acessíveis a todos. O registro de formulários Particular contém formulários que são acessíveis apenas ao usuário de repositório atual.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ScriptText">
@@ -654,16 +636,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Template">
@@ -694,10 +674,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o nome do modelo do formulário. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade se refere a um Microsoft Office Word. Arquivo de modelo de ponto, podendo assim ser aplicada aos formulários com <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade se refere a um Microsoft Office Word. Arquivo de modelo de ponto, podendo assim ser aplicada aos formulários com <see cref="P:Microsoft.Office.Interop.Outlook.FormDescription.UseWordMail" />   =  <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseWordMail">

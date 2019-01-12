@@ -1,13 +1,5 @@
 <Type Name="_OlkTextBox" FullName="Microsoft.Office.Interop.Outlook._OlkTextBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629548" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTextBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903073" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTextBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTextBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTextBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTextBox" />
@@ -58,12 +50,10 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão para essa propriedade é <b>False</b>.</para>
+        <remarks><para>  O valor padrão para essa propriedade é <b>False</b>.</para>
           <para>Para uma caixa de texto de linha única configuração <b>AutoSize</b> como <b>True</b> define automaticamente a largura da área de exibição para o comprimento do texto na caixa de texto.</para>
-          <para>Para uma caixa de texto com várias linhas que não contém texto, a configuração de <b>AutoSize</b> como <b>True</b> automaticamente exibe o texto como uma coluna. A largura da coluna de texto é definida para acomodar a letra mais larga do tamanho da fonte. A altura da coluna de texto é definida para exibir todo o texto da caixa de texto. Para uma caixa de texto com várias linhas que contém texto, a configuração <b>AutoSize</b> como <b>True</b> automaticamente estende a caixa de texto verticalmente para exibir o texto inteiro. Não altera a largura da caixa de texto.</para>
-          <para />
-        </remarks>
+          <para>Para uma caixa de texto com várias linhas que não contém texto, a configuração <b>AutoSize</b> como <b>True</b> automaticamente exibe o texto como uma coluna. A largura da coluna de texto é definida para acomodar a letra mais larga do tamanho da fonte. A altura da coluna de texto é definida para exibir todo o texto da caixa de texto. Para uma caixa de texto com várias linhas que contém texto, a configuração <b>AutoSize</b> como <b>True</b> automaticamente estende a caixa de texto verticalmente para exibir o texto inteiro. Não altera a largura da caixa de texto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -94,10 +84,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma guia é inserida automaticamente quando o controle foram preenchido para o comprimento máximo especificado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão para essa propriedade é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  O valor padrão para essa propriedade é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -128,10 +116,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma palavra ou um caractere é a unidade básica utilizada para estender uma seleção.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -165,10 +151,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -199,10 +183,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define o estilo da borda ao redor do controle.   Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -252,10 +234,8 @@
       <Parameters />
       <Docs>
         <summary>Copia o conteúdo do controle para a área de transferência.</summary>
-        <remarks>
-          <para>Os dados são copiados em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os dados são copiados em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -280,10 +260,8 @@
       <Parameters />
       <Docs>
         <summary>Remove o conteúdo do controle e copia-o para a área de transferência.</summary>
-        <remarks>
-          <para>Os dados são copiados para a área de transferência em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os dados são copiados para a área de transferência em formato de texto não formatado, substituindo o conteúdo existente da área de transferência.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -314,10 +292,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constante que indica se o sistema permite o recurso de arrastar e soltar para esse controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olDragDropDisabled</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olDragDropDisabled</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -348,10 +324,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableRichText">
@@ -419,10 +393,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica o comportamento de seleção ao inserir o controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterKeyBehavior">
@@ -453,10 +425,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que define a maneira como a tecla ENTER se comporta no controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Quando essa propriedade for <b>True</b>, pressionando ENTER cria uma nova linha.  Quando essa propriedade for <b>False</b>, pressionar ENTER move o foco para o próximo controle na ordem de tabulação. O valor padrão para essa propriedade é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Quando essa propriedade for <b>True</b>, pressionando ENTER cria uma nova linha.  Quando essa propriedade for <b>False</b>, pressionando ENTER move o foco para o próximo controle na ordem de tabulação. O valor padrão para essa propriedade é <b>False</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -518,10 +488,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -552,10 +520,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma seleção é exibida ou oculta para o controle quando o controle perde o foco.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão dessa propriedade é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão dessa propriedade é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntegralHeight">
@@ -586,10 +552,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se esse controle exibe linhas completas de texto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for <b>True</b>, o controle exibe linhas de preenchimento de texto; Caso contrário, ele exibe linhas parciais.  O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for <b>True</b>, o controle exibe linhas de preenchimento de texto; Caso contrário, ele exibe linhas parciais.  O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -620,11 +584,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o controle é bloqueado contra alteração.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é <b>False</b>.</para>
-          <para>Quando o controle é bloqueado, o controle não tem uma aparência de "desabilitado", mas o usuário não pode editar o conteúdo do controle.  </para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é bloqueado, ele não tem uma aparência de "desabilitado", mas o usuário não pode editar seu conteúdo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -655,10 +617,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica o número máximo de caracteres para o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> deste controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é zero, o que significa apenas que nenhum comprimento máximo para o valor tiver sido definido para este controle. Um comprimento máximo ainda pode ser in-loco com base na memória disponível ou outros fatores.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é zero, o que significa somente que não foi definido um valor máximo de tamanho para os valores deste controle. Talvez ainda haja um tamanho máximo baseado na memória disponível ou em outros fatores.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -689,10 +649,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representam a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -723,10 +681,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -757,10 +713,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se um controle pode aceitar e exibir várias linhas de texto.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PasswordChar">
@@ -791,7 +745,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica um caractere de espaço reservado que deve ser exibido repetidamente como uma cadeia de caracteres em vez dos caracteres reais inseridos na caixa de texto.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Aplicação de comum de uma <para>da definição dessa propriedade como <b>True</b> é entrada de senha, onde você faria não deseja exibir os caracteres reais da senha que o usuário insere na caixa de texto. O valor padrão é uma sequência vazia.</para><para>Apenas um caractere é aceito para o valor dessa propriedade.  Se uma cadeia de caracteres de mais de um caractere é definida, somente o primeiro caractere será usado como o caractere de espaço reservado e o restante será ignorado.</para><para /></remarks>
+        <remarks><para>Uma aplicação comum da definição dessa propriedade como <b>True</b> é a entrada de senha, onde você faria não deseja exibir os caracteres reais da senha que o usuário insere na caixa de texto. O valor padrão é uma sequência vazia.</para>
+          <para>Apenas um caractere é aceito para o valor dessa propriedade.  Se uma cadeia de caracteres de mais de um caractere for definida, somente o primeiro caractere será usado como o caractere de espaço reservado e o restante será ignorado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -816,10 +772,8 @@
       <Parameters />
       <Docs>
         <summary>Cola o conteúdo da área de transferência no controle.</summary>
-        <remarks>
-          <para>O conteúdo da área de transferência é colado em texto não formatado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os conteúdos da área de transferência são colados em texto não formatado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Scrollbars">
@@ -850,10 +804,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlScrollBars" /> constante que especifica se o controle possui uma barra de rolagem vertical, barra de rolagem horizontal ou ambos.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olScrollBarsNone</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olScrollBarsNone</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -884,10 +836,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o usuário pode selecionar uma linha de texto clicando na região à esquerda do texto.   Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, clicar na margem causa a seleção do texto.  Se <b>Falso</b>, essa ação não seleciona qualquer texto. O valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, clicar na margem causa a seleção do texto.  Se <b>Falso</b>, essa ação não seleciona qualquer texto. O valor padrão é <b>False</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -918,13 +868,11 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica o número de caracteres da seleção atual.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
-          <para>o valor padrão é zero, o que significa que nenhum texto está selecionado atualmente.</para>
-          <para>a propriedade <b>SelLength</b> é sempre válida, mesmo quando o controle não tem o foco.</para>
-          <para>Configuração <b>SelLength</b> com um valor menor do que zero causará um erro.   Tentativa de definir o valor maior do que <b>MaxLength</b> resultados na definição <b>SelLength</b> como <b>MaxLength</b>.  </para>
-          <para />
-        </remarks>
+        <remarks><para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>O valor padrão é zero, que significa que nenhum texto está selecionado no momento.</para>
+          <para>A propriedade <b>SelLength</b> é sempre válida, mesmo quando o controle não tem o foco.</para>
+          <para>A definição <b>SelLength</b> como um valor menor do que zero causa um erro.   Tentativa de definir o valor maior do que <b>MaxLength</b> resultados na definição <b>SelLength</b> como <b>MaxLength</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -955,10 +903,10 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica um o ponto inicial do texto selecionado ou o ponto de inserção se nenhum texto foi selecionado.    Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
-          <para>o valor padrão é zero, o que significa que nenhum texto está selecionado e o ponto de inserção estiver no início.</para> Propriedade 
-          <para>o <b>SelStart</b> é sempre válida, mesmo quando o controle não tem o foco.  Configuração de <b>SelStart</b> com um valor menor do que zero causa um erro.  A configuração de <b>SelStart</b> com um valor maior do que <b>MaxLength</b> redefinirá <b>SelStart</b><b>MaxLength</b>.  A alteração do valor de <b>SelStart</b> cancela qualquer seleção existente, coloca o ponto de inserção no texto e define a propriedade <b>SelLength</b> como zero. </para><para /></remarks>
+        <remarks><para>A seleção atual é especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>O valor padrão é zero, o que significa que nenhum texto está selecionado e o ponto de inserção está no início.</para>
+          <para>Propriedade <b>SelStart</b> é sempre válida, mesmo quando o controle não tem o foco.  Configuração de <b>SelStart</b> com um valor menor do que zero causa um erro.  A configuração de <b>SelStart</b> com um valor maior do que <b>MaxLength</b> redefinirá <b>SelStart</b> <b>MaxLength</b>.  A alteração do valor de <b>SelStart</b> cancela qualquer seleção existente, coloca o ponto de inserção no texto e define a propriedade <b>SelLength</b> como zero. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -986,12 +934,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a parte selecionada no momento do valor da caixa de texto.    Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SelText</b> representa a seleção atual, o que é uma parte do controle <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. O número máximo de caracteres que podem ser suportados para o <b>valor</b> é <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
-          <para>o valor padrão é uma sequência vazia.</para>
-          <para />
-        </remarks>
+          <para>O valor padrão é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TabKeyBehavior">
@@ -1022,11 +968,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica como o controle responde à tecla TAB.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for <b>True</b>, pressionando a tecla TAB insere um caractere de tabulação na caixa de texto.  Se essa propriedade for <b>False</b>, o foco se move para o próximo controle na ordem de tabulação.</para>
-          <para>o valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for <b>True</b>, pressionando a tecla TAB insere um caractere de tabulação na caixa de texto.  Se essa propriedade for <b>False</b>, o foco é movido para o próximo controle na ordem de tabulação.</para>
+          <para>O valor padrão é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1057,11 +1001,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que é o texto exibido no controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
-          <para>a propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
+          <para>A propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1092,10 +1034,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1126,10 +1066,8 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que representa o conteúdo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -1160,10 +1098,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

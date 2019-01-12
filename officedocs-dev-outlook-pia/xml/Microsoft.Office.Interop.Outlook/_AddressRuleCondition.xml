@@ -1,13 +1,5 @@
 <Type Name="_AddressRuleCondition" FullName="Microsoft.Office.Interop.Outlook._AddressRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630157" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905103" /></Metadata><TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AddressRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AddressRuleCondition" />
@@ -58,7 +50,9 @@
       <Docs>
         <summary>Retorna ou define uma matriz de elementos de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para avaliar a condição de regra de endereço. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Você pode atribuir uma matriz com um elemento para avaliar a um único endereço ou uma matriz de cadeias de caracteres múltiplas para avaliar vários endereços de <para>. Várias cadeias de caracteres do endereço atribuídas em uma matriz são avaliadas usando a operação OR lógica.</para><para>Se uma cadeia de caracteres especificada por <b>endereço</b> estiver contida no endereço do destinatário ou o remetente, a condição será avaliada como <b>True</b>.</para><para /></remarks>
+        <remarks><para>Você pode atribuir uma matriz com um elemento para avaliar um único endereço ou uma matriz de várias cadeias de caracteres para avaliar vários endereços. Várias cadeias de caracteres de endereço em uma matriz são avaliados com a operação lógica OR.</para>
+          <para>Se uma cadeia de caracteres especificada por <b>Address</b> estiver contida no endereço do destinatário ou do remetente, a condição será avaliada como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -142,11 +136,9 @@
       <Docs>
         <summary>Retorna uma constante do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeração que indica o tipo de condição de regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> objeto é usado pelas regras de tipos <b>olRuleSend</b> e <b>olRuleReceive</b>. Se a regra é criada como uma regra de <b>olRuleSend</b> , o tipo de objeto <b>AddressRuleCondition</b> associado será <b>olConditionSenderAddress</b>. Se a regra é criada como uma regra de <b>olRuleReceive</b> , o tipo de objeto <b>AddressRuleCondition</b> associado será <b>olConditionRecipientAddress</b>. </para>
+        <remarks><para>O <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> objeto é usado pelas regras de tipos <b>olRuleSend</b> e <b>olRuleReceive</b>. Se a regra é criada como uma regra de <b>olRuleSend</b>, o tipo de objeto <b>AddressRuleCondition</b> associado será <b>olConditionSenderAddress</b>. Se a regra é criada como uma regra de <b>olRuleReceive</b>, o tipo de objeto <b>AddressRuleCondition</b> associado será <b>olConditionRecipientAddress</b>. </para>
           <para>Isso porém não significa que a regra sempre tem uma condição de regra definida para endereços do remetente ou destinatário. Independentemente se existe a essa condição de regra definido ou ativados, a propriedade <b>AddressRuleCondition.ConditionType</b> sempre é inicializada depois que a regra associada é criada. Para obter mais informações sobre condições de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -177,10 +169,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a condição de regra está habilitada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra é habilitada apenas após ele ter sido salvo com êxito.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição regra é habilitada somente depois de ter sido salva com êxito.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -208,10 +198,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -239,16 +227,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

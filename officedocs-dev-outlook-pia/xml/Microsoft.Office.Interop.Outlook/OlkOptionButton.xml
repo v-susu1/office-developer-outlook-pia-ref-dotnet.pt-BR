@@ -1,13 +1,5 @@
 <Type Name="OlkOptionButton" FullName="Microsoft.Office.Interop.Outlook.OlkOptionButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ef2474442b7e1c7ee1d7dad51b9d70bbcaf1f6c1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629606" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkOptionButton : Microsoft.Office.Interop.Outlook._OlkOptionButton, Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="28581b5d3b68461ec58f8b1c4d6f5e2604c8f788" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904361" /></Metadata><TypeSignature Language="C#" Value="public interface OlkOptionButton : Microsoft.Office.Interop.Outlook._OlkOptionButton, Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkOptionButton implements class Microsoft.Office.Interop.Outlook._OlkOptionButton, class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkOptionButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkOptionButton&#xA;Implements _OlkOptionButton, OlkOptionButtonEvents_Event" />
@@ -34,11 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Um controle que fornece suporte a uma seleção exclusiva dentro de um grupo definido de escolhas de botão de opções.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkOptionButton" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />.</para>
-      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle de botão de opção do Microsoft Outlook para a caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários.</para>
-      <para>a seguir está um exemplo de um controle de botão de opção em tempo de execução. Esse controle oferece suporte a temas do Microsoft Windows.</para> Controle de botão 
-      <para>geralmente mais de uma opção é definida em um grupo.  Cada controle de botão de opção no grupo fornece uma opção única e mutuamente exclusiva.  Selecionar um botão de opção no grupo removerá automaticamente a seleção anterior de outro botão de opção no mesmo grupo.</para><para>Para obter mais informações sobre os controles do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para><para /></remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkOptionButton" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />.</para>
+      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle Option Button do Microsoft Outlook à caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários.</para>
+      <para>A seguir está um exemplo de um controle Option Button no tempo de execução. Esse controle fornece suporte a temas do Microsoft Windows.</para>
+      <para>Normalmente, mais de um controle Option Button é definido em um grupo. Cada controle Option Button no grupo fornece uma opção única e mutuamente exclusiva. A seleção de um botão de opção no grupo removerá automaticamente a seleção anterior de outro botão de opções no mesmo grupo.</para>
+      <para>Para obter mais informações sobre os controles do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

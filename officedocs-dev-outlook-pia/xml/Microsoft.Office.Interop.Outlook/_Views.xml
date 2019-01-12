@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630218" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903934" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -63,8 +55,7 @@
         <param name="SaveOption">A opção de salvamento que especifica as permissões do novo modo de exibição. <b>olViewSaveOptionAllFoldersOfType</b> O modo de exibição pode ser acessado em todas as pastas desse tipo. <b>olViewSaveOptionThisFolderEveryOne</b> O modo de exibição pode ser acessado por todos os usuários somente nesta pasta. <b>olViewSaveOptionThisFolderOnlyMe</b> O modo de exibição pode ser acessado nesta pasta somente pelo usuário.</param>
         <summary>Cria uma nova exibição no <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object que representa o novo modo de exibição.</returns>
-        <remarks>
-          <para>Se você adicionar um <b>modo de exibição</b> a uma coleção de <b>modos de exibição</b> de uma pasta que não seja a pasta atual, você deve primeiro salvar uma cópia do objeto da coleção de <b>modos de exibição</b> e, em seguida, adicione o <b>modo de exibição</b> para este objeto de coleção, conforme mostrado no exemplo de código abaixo. Isso é uma solução alternativa para um problema existente que caso contrário, fará com que uma chamada para <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para o <b>modo de exibição</b> adicionado a falha.</para>
+        <remarks><para>Se você adicionar um <b>modo de exibição</b> a uma coleção de <b>modos de exibição</b> de uma pasta que não seja a pasta atual, você deve primeiro salvar uma cópia do objeto da coleção de <b>modos de exibição</b> e, em seguida, adicione o <b>modo de exibição</b> para este objeto de coleção, conforme mostrado no exemplo de código abaixo. Isso é uma solução alternativa para um problema existente que caso contrário, fará com que uma chamada para <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para o <b>modo de exibição</b> adicionado a falha.</para>
           <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
@@ -110,8 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -343,16 +333,14 @@ End Sub</code>
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

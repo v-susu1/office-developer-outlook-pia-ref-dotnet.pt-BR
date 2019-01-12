@@ -1,13 +1,5 @@
 <Type Name="AccountSelector" FullName="Microsoft.Office.Interop.Outlook.AccountSelector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c409072ad64d234b7e80331a89e5f74f895758a6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631001" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AccountSelector : Microsoft.Office.Interop.Outlook._AccountSelector, Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f008a8efb16494e93ba46b972f92d952aeb25a82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905117" /></Metadata><TypeSignature Language="C#" Value="public interface AccountSelector : Microsoft.Office.Interop.Outlook._AccountSelector, Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AccountSelector implements class Microsoft.Office.Interop.Outlook._AccountSelector, class Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AccountSelector" />
   <TypeSignature Language="VB.NET" Value="Public Interface AccountSelector&#xA;Implements _AccountSelector, AccountSelectorEvents_Event" />
@@ -34,10 +26,10 @@
   </Attributes>
   <Docs>
     <summary>Fornece a capacidade de obter a conta que é selecionada na exibição Backstage do Microsoft Office para o pai <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AccountSelector" />. Para obter informações sobre os membros de evento do objeto COM, consulte<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />.</para> Objeto 
-      <para>a <b>AccountSelector</b> tiver o objeto <b>Explorer</b> como seu objeto pai. Você pode obter uma instância do objeto <b>AccountSelector</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector" /> propriedade do objeto <b>Explorer</b> .</para> Objeto 
-      <para>o <b>AccountSelector</b> fornece um <see cref="P:Microsoft.Office.Interop.Outlook._AccountSelector.SelectedAccount" /> propriedade que retorna a conta atual que foi selecionada no modo de exibição Backstage. O objeto também fornece um <see cref="E:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event.SelectedAccountChange" /> evento é acionado quando o usuário alterou a conta no modo de exibição Backstage.</para><para /></remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AccountSelector" />. Para obter informações sobre os membros de evento do objeto COM, consulte<see cref="T:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event" />.</para>
+      <para>O objeto <b>AccountSelector</b> tem o objeto <b>Explorer</b> como seu objeto pai. Você pode obter uma instância do objeto <b>AccountSelector</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector" /> propriedade do objeto <b>Explorer</b> .</para>
+      <para>O objeto <b>AccountSelector</b> fornece um <see cref="P:Microsoft.Office.Interop.Outlook._AccountSelector.SelectedAccount" /> propriedade que retorna a conta atual que foi selecionada no modo de exibição Backstage. O objeto também fornece um <see cref="E:Microsoft.Office.Interop.Outlook.AccountSelectorEvents_Event.SelectedAccountChange" /> evento é acionado quando o usuário alterou a conta no modo de exibição Backstage.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

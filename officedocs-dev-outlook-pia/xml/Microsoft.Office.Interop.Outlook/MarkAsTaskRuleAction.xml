@@ -1,13 +1,5 @@
 <Type Name="MarkAsTaskRuleAction" FullName="Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d0e44aa1e9b84425c94fb98e696721631ef64a33" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629373" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MarkAsTaskRuleAction : Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8615dcc6e2afc4928b04ce68208455c96d5691e8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905957" /></Metadata><TypeSignature Language="C#" Value="public interface MarkAsTaskRuleAction : Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MarkAsTaskRuleAction implements class Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface MarkAsTaskRuleAction&#xA;Implements _MarkAsTaskRuleAction" />
@@ -31,13 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Representa uma ação que marca uma mensagem como uma tarefa.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />. </para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />. </para>
       <para>
-        <b>MarkAsTaskRuleAction</b> é derivado do <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto. Cada regra está associada uma <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto que tem um <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.MarkAsTask" /> propriedade. A propriedade <b>MarkAsTask</b> sempre retorna um objeto <b>MarkAsTaskRuleAction</b> . Se a regra tem uma ação de regra habilitado que marca uma mensagem como uma tarefa, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> seria <b>verdadeiro</b>.</para>
+        <b>MarkAsTaskRuleAction</b> é derivado do <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto. Cada regra está associada uma <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto que tem um <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.MarkAsTask" /> propriedade. A propriedade <b>MarkAsTask</b> sempre retorna um objeto <b>MarkAsTaskRuleAction</b>. Se a regra tem uma ação de regra habilitado que marca uma mensagem como uma tarefa, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> seria <b>verdadeiro</b>.</para>
       <para>Para obter mais informações sobre a especificação de ações de regra, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

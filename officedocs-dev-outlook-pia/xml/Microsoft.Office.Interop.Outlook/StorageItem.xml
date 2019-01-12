@@ -1,13 +1,5 @@
 <Type Name="StorageItem" FullName="Microsoft.Office.Interop.Outlook.StorageItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="64f3b31b5fb2ef6128f00acedda29ebf7479b98f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629699" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StorageItem : Microsoft.Office.Interop.Outlook._StorageItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c64c36639bcd5a18e335c495a91dc7dbbeb81751" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905411" /></Metadata><TypeSignature Language="C#" Value="public interface StorageItem : Microsoft.Office.Interop.Outlook._StorageItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StorageItem implements class Microsoft.Office.Interop.Outlook._StorageItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StorageItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface StorageItem&#xA;Implements _StorageItem" />
@@ -31,11 +23,27 @@
   </Attributes>
   <Docs>
     <summary>Um objeto de mensagem no MAPI que é sempre salvo como um item oculto na pasta pai e armazena dados particulares para soluções do Outlook.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._StorageItem" />. </para>
-      <para>Um objeto <b>StorageItem</b> é armazenado no nível de pasta, permitindo que ele se movimentem com a conta e estar disponível online ou offline.</para> Modelo de objeto do 
-      <para>o Outlook não fornece qualquer objeto da coleção para objetos <b>StorageItem</b> . No entanto, você pode usar <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> para obter um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> com todos os itens ocultos em uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, quando você especifica o <paramref name="TableContents" /> parâmetro como <b>olHiddenItems</b>. Se manter seus dados particulares for uma preocupação alta, você deve criptografar os dados antes de armazenar proprietário.</para><para>Depois de obter um objeto <b>StorageItem</b> , você pode fazer o seguinte para armazenar dados de solução:</para><list type="bullet"><item><para>Adicionar anexos ao item para armazenamento.</para></item><item><para>Usar propriedades internas explícitas do item como <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Body" /> para armazenar dados personalizados.</para></item> Propriedades de 
-        <item><para>Add personalizado para o item usando <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método. Observe que, neste caso, o opcional <paramref name="AddToFolderFields" /> e <paramref name="DisplayFormat" /> argumentos do método <b>UserProperties</b> serão ignorados.</para></item><item><para>Uso o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto para obter ou definir propriedades personalizadas.</para></item></list><para>a classe de mensagem padrão para um novo <b>StorageItem</b> é <b>IPM. Armazenamento</b>. Se o <b>StorageItem</b> existente como uma mensagem oculta em uma versão do Outlook anteriores ao Microsoft Office Outlook 2007, a classe de mensagem permanecerá inalterada. Para impedir a modificação da classe de mensagem, <b>StorageItem</b> não expõe uma propriedade <b>MessageClass</b> explícita.</para><para>Para obter mais informações sobre como armazenar dados de solução usando o objeto <b>StorageItem</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87931">Armazenando dados de soluções</a></para><para /></remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._StorageItem" />. </para>
+      <para>Um objeto <b>StorageItem</b> é armazenado no nível de pasta, permitindo que ele se movimentem com a conta e estar disponível online ou offline.</para>
+      <para>O modelo de objeto do Outlook não fornece qualquer objeto da coleção de objetos <b>StorageItem</b>. No entanto, você pode usar <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> para obter um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> com todos os itens ocultos em uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, quando você especifica o <paramref name="TableContents" /> parâmetro como <b>olHiddenItems</b>. Se manter seus dados particulares for uma preocupação alta, você deve criptografar os dados antes de armazená-lo.</para>
+      <para>Depois de obter um objeto <b>StorageItem</b>, você pode fazer o seguinte para armazenar dados de solução:</para>
+      <list type="bullet">
+        <item>
+          <para>Adicionar anexos ao item para armazenamento.</para>
+        </item>
+        <item>
+          <para>Usar propriedades internas explícitas do item como <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Body" /> para armazenar dados personalizados.</para>
+        </item>
+        <item>
+          <para>Adicionar propriedades personalizadas para o item usando <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método. Observe que, neste caso, o opcional <paramref name="AddToFolderFields" /> e <paramref name="DisplayFormat" /> argumentos do método <b>UserProperties</b> serão ignorados.</para>
+        </item>
+        <item>
+          <para>Use o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto para obter ou definir propriedades personalizadas.</para>
+        </item>
+      </list>
+      <para>A classe de mensagem padrão para um novo <b>StorageItem</b> é <b>IPM. Armazenamento</b>. Se o <b>StorageItem</b> existente como uma mensagem oculta em uma versão do Outlook anteriores ao Microsoft Office Outlook 2007, a classe de mensagem permanecerá inalterada. Para impedir a modificação da classe de mensagem, <b>StorageItem</b> não expõe uma propriedade <b>MessageClass</b> explícita.</para>
+      <para>Para obter mais informações sobre como armazenar dados de solução usando o objeto <b>StorageItem</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87931">Armazenando dados de soluções</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

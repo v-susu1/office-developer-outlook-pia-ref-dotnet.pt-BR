@@ -1,13 +1,5 @@
 <Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630697" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905222" /></Metadata><TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Um controle que exibe o corpo de um item do Outlook.</summary>
-    <remarks>
-      <para>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar o objeto e seus membros; se referir a essa interface para obter informações sobre cada um deles.</para>
-      <para />
-    </remarks>
+    <remarks><para>Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface para acessar o objeto e seus membros; se referir a essa interface para obter informações sobre cada um deles.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ReadOnly">
@@ -64,11 +54,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que especifica se o corpo exibido no controle só pode ser exibido e não pode ser modificado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> para indicar que o controle só exibe o corpo e não oferece suporte a sua modificação; <b>False</b> para indicar que o controle suporta tanto exibir e modificar do corpo do item.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressAttachments">
@@ -99,12 +87,10 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) especificado se anexos do item do Outlook não devem ser exibidos no controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade só se aplica aos arquivos anexados ao item do Outlook na caixa anexo e não é aplicável a arquivos anexados embutida como itens incorporados no item do Outlook.</para>
+        <remarks><para>Essa propriedade só se aplica aos arquivos anexados ao item do Outlook na caixa anexo e não é aplicável a arquivos anexados embutida como itens incorporados no item do Outlook. </para>
           <para>
             <b>True</b> para indicar que o controle não exibirá os anexos do item; <b>False</b> para indicar que o controle suporta exibindo os anexos do item.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

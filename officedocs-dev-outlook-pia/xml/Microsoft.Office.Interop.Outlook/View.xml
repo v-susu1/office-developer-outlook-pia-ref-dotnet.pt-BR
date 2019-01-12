@@ -1,13 +1,5 @@
 <Type Name="View" FullName="Microsoft.Office.Interop.Outlook.View">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b10e73e5691c861b2adb03a1f9002fa391a33274" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630180" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface View" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="87b0e2f941bfdd33517182275daf75a85449684a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903164" /></Metadata><TypeSignature Language="C#" Value="public interface View" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract View" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.View" />
   <TypeSignature Language="VB.NET" Value="Public Interface View" />
@@ -27,18 +19,38 @@
   </Attributes>
   <Docs>
     <summary>Representa um modo de exibição personalizado usado para classificar, agrupar e exibir dados.</summary>
-    <remarks>
-      <para>Objeto <b>View</b> permite que você crie modos de exibição personalizados que permitam melhor Classificar, agrupar e visualizar dados de todos os tipos diferentes. Há uma variedade de diferentes tipos de exibição que fornecem a flexibilidade necessária para criar e manter seus dados importantes.</para>
+    <remarks><para>Objeto <b>View</b> permite que você crie modos de exibição personalizados que permitam melhor Classificar, agrupar e exibir os dados de todos os tipos diferentes de basicamente. Há uma variedade de diferentes tipos de exibição que fornecem a flexibilidade necessária para criar e manter seus dados importantes.</para>
       <list type="bullet">
         <item>
-          <para>o tipo de exibição de tabela (olTableView) permite que você visualize dados em uma tabela simples de baseada em campos.</para>
+          <para>O tipo de exibição Tabela (olTableView) permite que você visualize dados em uma tabela simples baseada em campos.
+</para>
         </item>
         <item>
-          <para>Tipo de exibição de calendário (olCalendarView) permite que você visualize dados em um formato de calendário.</para>
-        </item> Tipo de 
-        <item><para>o modo de exibição de cartão (olCardView) permite que você visualize dados em uma série de cartões. Cada cartão exibe as informações contidas pelo item e pode ser classificado. </para></item>Tipo 
-        <item><para>o modo de exibição ícone (olIconView) permite que você visualize dados como ícones, semelhante a uma pasta do Windows ou explorer.  </para></item><item><para>o tipo de exibição linha do tempo (olTimelineView) permite que você visualize dados conforme eles são recebidos em uma linha de tempo linear personalizável.</para></item></list> Modos de exibição de 
-      <para>são definidos e personalizados usando o objeto de <b>modo de exibição</b><see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade. A propriedade <b>XML</b> permite que você crie e defina um esquema XML personalizado que define os vários recursos de um modo de exibição.</para><para>Usar <b>exibições</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto <b>View</b> ou seu valor ordinal, para retornar um único objeto <b>View</b> .</para><para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do conjunto <b>Views</b> para criar uma nova exibição.</para><para>Sempre usar <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> para salvar uma exibição após alterar qualquer propriedade da exibição.</para><para /></remarks>
+          <para> 
+				O tipo de exibição Calendário (olCalendarView) permite que você visualize dados no formato de calendário.
+</para>
+        </item>
+        <item>
+          <para> 
+				O tipo de exibição Cartão (olCardView) permite que você visualize dados em uma série de cartões. Cada cartão exibe as informações contidas pelo item e pode ser ordenado.
+</para>
+        </item>
+        <item>
+          <para> 
+				O tipo de exibição Ícone (olIconView) permite que você visualize os dados como ícones, semelhante a um explorer ou uma pasta do Windows. 
+</para>
+        </item>
+        <item>
+          <para> 
+				O tipo de exibição Linha de Tempo (olTimelineView) permite que você visualize dados conforme eles são recebidos em uma linha de tempo linear personalizável.
+</para>
+        </item>
+      </list>
+      <para>Modos de exibição são definidos e personalizados usando o objeto de <b>modo de exibição</b> <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> propriedade. A propriedade <b>XML</b> permite que você crie e defina um esquema XML personalizado que define os vários recursos de um modo.</para>
+      <para>Usar <b>exibições</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto <b>View</b> ou seu valor ordinal, para retornar um único objeto <b>View</b> .</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do conjunto <b>Views</b> para criar uma nova exibição. </para>
+      <para>Sempre use <see cref="M:Microsoft.Office.Interop.Outlook.View.Save" /> para salvar uma exibição após alterar qualquer propriedade da exibição.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -91,8 +103,7 @@
       <Parameters />
       <Docs>
         <summary>Aplica o modo de exibição para a interface do usuário Microsoft Outlook.</summary>
-        <remarks>
-          <para>Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e, em seguida, um <b>View.Apply</b>. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
+        <remarks><para>Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e, em seguida, um <b>View.Apply</b>. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
           <code>Sub ResetView()
     Dim v As Outlook.View
     ' Save a reference to the current view object
@@ -111,8 +122,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -226,10 +236,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -257,8 +265,7 @@ End Sub</code>
       <Docs>
         <param name="Date">A data para a qual o modo de exibição deve ser alterado.</param>
         <summary>Altera a data utilizada pelo modo de exibição atual para exibir as informações.</summary>
-        <remarks>
-          <para>Para especificar uma data para ir até em um modo de exibição atual como um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> do objeto, você deve primeiro obtém uma <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição atual usando <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />. O exemplo de código a seguir demonstra como executar essa ação.</para>
+        <remarks><para>Para especificar uma data para ir até em um modo de exibição atual como um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> do objeto, você deve primeiro obtém uma <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição atual usando <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" />. O exemplo de código a seguir demonstra como realizar essa ação. </para>
           <code>Sub TestGoToDate()
     Dim oCV As Outlook.CalendarView
     Dim oExpl As Outlook.Explorer
@@ -313,8 +320,7 @@ End Sub</code>
     // for which information is displayed in the view.
     oCV.GoToDate(datGoTo);
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Language">
@@ -345,7 +351,9 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o objeto que define o idioma usado no menu. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+        <remarks><para>A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para>
+          <para>Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -376,10 +384,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição atual. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -463,9 +469,8 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
-        <remarks>
-          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-          <para>Adequadamente redefinir o modo de exibição atual, você deve fazer um <b>View.Reset</b> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
+        <remarks><para>Esse método só funciona nos modos de exibição internos do Outlook.</para>
+          <para>Para redefinir o modo de exibição atual corretamente, você deve fazer um <b>View.Reset</b> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -484,8 +489,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -510,10 +514,8 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Salva a exibição ou salva as alterações nela realizadas.</summary>
-        <remarks>
-          <para>Sempre use <b>Salvar</b> para salvar uma exibição após alterar a propriedade da exibição.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sempre use <b>Salvar</b> para salvar uma exibição após alterar a propriedade da exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveOption">
@@ -541,10 +543,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Propriedade <b>SaveOption</b> é definida quando o <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Propriedade <b>SaveOption</b> é definida quando o <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -572,16 +572,14 @@ End Sub</code>
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -637,10 +635,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> tipo de constante que representa o modo de exibição de um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="XML">
@@ -671,7 +667,10 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição atual.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade XML para esse modo de exibição.</para><para>Para adicionar um campo personalizado para um modo de exibição, o uso de maneira programática a <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método. Essa é a maneira recomendada para dinamicamente mudar o modo de exibição com a configuração da propriedade <b>View.XML</b> .</para><para /></remarks>
+        <remarks><para>A definição XML descreve o tipo de modo de exibição usando uma série de marcas e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</para>
+          <para>Para determinar como o XML deve ser estruturado quando criar modos de exibição, você pode criar um modo de exibição usando a interface do usuário do Outlook e recuperar a propriedade XML dele.</para>
+          <para>Para adicionar um campo personalizado de maneira programática a uma exibição, use o <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método. Esta é a maneira recomendada de dinamicamente mudar o modo de exibição com a configuração da propriedade <b>View.XML</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

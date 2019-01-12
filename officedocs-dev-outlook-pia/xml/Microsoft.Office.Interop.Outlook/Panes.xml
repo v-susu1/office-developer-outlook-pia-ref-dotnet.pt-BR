@@ -1,13 +1,5 @@
 <Type Name="Panes" FullName="Microsoft.Office.Interop.Outlook.Panes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="60e4cc75a46518099c824ac6d0a1fc25086de563" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630113" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de8d3a723c79d054b93d65efa593bff55eab354c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906601" /></Metadata><TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Panes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Panes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Panes&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Contém os painéis exibidos pelo especificado <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> propriedade para retornar o objeto da coleção <b>Panes</b> de um objeto <b>Explorer</b> .</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um painel específico.</para>
-      <para>Para Microsoft Outlook 2000 e posterior, o painel Atalhos é o único painel que pode ser acessado através do objeto <b>Panes</b> .</para>
-      <para />
-    </remarks>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> propriedade para retornar o objeto da coleção <b>Panes</b> de um objeto <b>Explorer</b> .</para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um painel específico. </para>
+      <para>No Microsoft Outlook 2000 e posterior, o painel atalhos é o único painel que pode ser acessado através do objeto <b>Panes</b>.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -208,16 +198,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

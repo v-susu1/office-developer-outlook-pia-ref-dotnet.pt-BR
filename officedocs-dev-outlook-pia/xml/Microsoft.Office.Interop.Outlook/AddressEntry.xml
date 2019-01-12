@@ -1,13 +1,5 @@
 <Type Name="AddressEntry" FullName="Microsoft.Office.Interop.Outlook.AddressEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="682854cc41fd5876bf1d22c8d65e2332e2233750" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629976" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c3361d6fae79bf9b2c1326717d5a3bd9227da59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906748" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntry" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa uma pessoa, um grupo ou uma pasta pública para o qual o sistema de mensagens pode entregar mensagens.</summary>
-    <remarks>
-      <para>O objeto <b>AddressEntry</b> é um endereço em uma <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto. Cada objeto <b>AddressEntry</b> no objeto <b>AddressEntries</b> armazena informações que representam uma pessoa, grupo ou pasta pública para a qual o sistema de mensagens pode entregar mensagens.</para>
+    <remarks><para>O objeto <b>AddressEntry</b> é um endereço em uma <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto. Cada objeto <b>AddressEntry</b> no objeto <b>AddressEntries</b> armazena informações que representam uma pessoa, grupo ou pasta pública para a qual o sistema de mensagens pode entregar mensagens.</para>
       <para>Use <b>AddressEntries</b>(<paramref name="index" />), onde <paramref name="index" /> é o número de índice de uma entrada de endereço ou um valor usado para corresponder à propriedade padrão de uma entrada de endereço, para retornar um único objeto <b>AddressEntry</b> .</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -62,10 +52,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o endereço de email a <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Address</b> deve ser definida antes de chamar o <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>Address</b> deve ser definida antes de chamar o <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -93,11 +81,9 @@
       <Docs>
         <summary>Retorna uma constante do <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeração que representa o usuário digite do <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AddressEntryUserType</b> fornece um nível de granularidade para tipos de usuário que seja menor do que o de <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. A propriedade <b>DisplayType</b> não faz distinção usuários com diferentes tipos de <b>AddressEntry</b>, como uma <b>AddressEntry</b> que tem um endereço de email do Simple Mail Transfer Protocol (SMTP), um LDAP Lightweight Directory Access Protocol) endereço, um endereço de usuário do Exchange ou um <b>AddressEntry</b> no catálogo de endereços de contatos do Outlook. Todos esses inteiros tem <b>olUser</b> como seus <b>AddressEntry.DisplayType</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>AddressEntryUserType</b> fornece um nível de granularidade para tipos de usuário que seja menor do que o de <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. A propriedade <b>DisplayType</b> não faz distinção usuários com diferentes tipos de <b>AddressEntry</b>, como uma <b>AddressEntry</b> que tem um endereço de email do Simple Mail Transfer Protocol (SMTP), um LDAP Lightweight Directory Access Protocol) endereço, um endereço de usuário do Exchange ou um <b>AddressEntry</b> no catálogo de endereços de contatos do Outlook. Todos esses inteiros tem <b>olUser</b> como seus <b>AddressEntry.DisplayType</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -205,12 +191,10 @@
       <Docs>
         <param name="HWnd">O identificador da janela pai da caixa de diálogo Detalhes. Um valor zero (padrão) especifica que a caixa de diálogo tem uma relação de pai com o Outlook. </param>
         <summary>Exibe uma caixa de diálogo sem janela restrita que fornece informações detalhadas sobre um <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Observação</b>: O método <b>Details</b> falhará se o <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" /> propriedade estará vazia.</para>
-          <para>Você deve usar o tratamento de erros para lidar com erros de tempo de execução quando o usuário clicar em Cancelar na caixa de diálogo. O método <b>Details</b> , na verdade, interrompe o código seja executado enquanto a caixa de diálogo é exibida.</para>
-          <para />
-        </remarks>
+          <para>Você deve usar o tratamento de erros para lidar com erros de tempo de execução quando o usuário clicar em Cancelar na caixa de diálogo. O método <b>Details</b>, na verdade, interrompe o código seja executado enquanto a caixa de diálogo é exibida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -238,10 +222,8 @@
       <Docs>
         <summary>Retorna uma constante que pertencem ao <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeração que descreve a natureza do <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode usar a propriedade <b>DisplayType</b> para entradas de filtro de endereço. A propriedade <b>DisplayType</b> corresponde à propriedade <b>PidTagDisplayType</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar a propriedade <b>DisplayType</b> para entradas de filtro de endereço. A propriedade <b>DisplayType</b> corresponde à propriedade <b>PidTagDisplayType</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -293,10 +275,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object que representa o <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> se <b>AddressEntry</b> pertencer a do Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> como a lista de endereços Global (GAL) do objeto e corresponde a uma lista de distribuição do Exchange.</summary>
         <returns>Um objeto <b>ExchangeDistributionList</b> que representará o <b>AddressEntry</b>. Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o objeto <b>AddressEntry</b> não corresponde a uma lista de distribuição do Exchange.</returns>
-        <remarks>
-          <para>Você precisa estar conectado ao servidor do Exchange para usar esse método.</para>
-          <para />
-        </remarks>
+        <remarks><para> É preciso estar conectado ao servidor Exchange para usar esse método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -322,10 +302,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object que representa o <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> se <b>AddressEntry</b> pertencer a do Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> como a lista de endereços Global (GAL) do objeto e corresponde a um usuário do Exchange.</summary>
         <returns>Um objeto <b>ExchangeUser</b> que representará o <b>AddressEntry</b>. Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o objeto <b>AddressEntry</b> não corresponde a um usuário do Exchange.</returns>
-        <remarks>
-          <para>Você precisa estar conectado ao servidor do Exchange para usar esse método.</para>
-          <para />
-        </remarks>
+        <remarks><para> É preciso estar conectado ao servidor Exchange para usar esse método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -357,17 +335,48 @@
         <param name="CompleteFormat">Especifica um valor <b>booleano</b> (<b>bool</b> em c#) que representa o nível de informações retornadas para cada intervalo de tempo. O valor padrão é <b>False</b>.</param>
         <summary>Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a disponibilidade do usuário individual por um período de 30 dias da data de início, começando à meia-noite da data especificada.</summary>
         <returns>Um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a disponibilidade do usuário para o período especificado. Esse valor contém um caractere para cada intervalo de tempo no período especificado.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Observação</b>: se uma entrada de endereço representar uma lista de distribuição, o status de seus membros individuais não pode ser retornado com o método <b>GetFreeBusy</b> . Uma solicitação de reunião deve ser enviada apenas a mensagens de usuários individuais. Você pode determinar se um usuário de mensagens é uma lista de distribuição, determinando se seu <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> propriedadeé <b>olDistList</b> ou <b>olPrivateDistList</b>.</para>
-          <para>o conteúdo da cadeia de caracteres retornada por esse método é determinado pelo <paramref name="CompleteFormat" /> parâmetro.</para>
+          <para>O conteúdo da cadeia de caracteres retornada por esse método é determinado pelo <paramref name="CompleteFormat" /> parâmetro. </para>
           <para>Se <paramref name="CompleteFormat" /> estiver definida como <b>False</b>, o valor padrão, a cadeia de caracteres retornada por esse método contém um dos seguintes caracteres para cada intervalo de tempo:</para>
-          <item>
-            <description>Descrição</description>do 
-              <description>caractere</description></item>de 
-          <list type="table"><item><description>0</description><description>o intervalo de tempo representa um período livre.</description></item><item><description>1</description><description>o intervalo de tempo representa um provisório, de ausência temporária (OOF) ou período ocupado.</description></item></list><para>Se <paramref name="CompleteFormat" /> estiver definida como <b>True</b>, a cadeia de caracteres retornada por esse método contém um dos seguintes caracteres para cada intervalo de tempo:</para><item><description>Descrição</description>do 
-              <description>caractere</description></item>de 
-          <list type="table"><item><description>0</description><description>o intervalo de tempo representa um período livre.</description></item><item><description>1</description><description>o intervalo de tempo representa um período provisório.</description></item><item><description>2</description><description>o intervalo de tempo representa um período ocupado.</description></item><item><description>3</description><description>o intervalo de tempo representa um período de ausência temporária.</description></item></list><para /></remarks>
+          <list type="table">
+            <item>
+              <description>Caractere</description>
+              <description>Descrição</description>
+            </item>
+            <item>
+              <description>0</description>
+              <description>O intervalo de tempo representa um período livre.</description>
+            </item>
+            <item>
+              <description>1</description>
+              <description>O intervalo de tempo representa um período provisório, de ausência temporária ou ocupado.</description>
+            </item>
+          </list>
+          <para>Se <paramref name="CompleteFormat" /> estiver definida como <b>True</b>, a cadeia de caracteres retornada por esse método contém um dos seguintes caracteres para cada intervalo de tempo:</para>
+          <list type="table">
+            <item>
+              <description>Caractere</description>
+              <description>Descrição</description>
+            </item>
+            <item>
+              <description>0</description>
+              <description>O intervalo de tempo representa um período livre.</description>
+            </item>
+            <item>
+              <description>1</description>
+              <description>O intervalo de tempo representa um período provisório.</description>
+            </item>
+            <item>
+              <description>2</description>
+              <description>O intervalo de tempo representa um período ocupado.</description>
+            </item>
+            <item>
+              <description>3</description>
+              <description>O intervalo de tempo representa um período de ausência temporária.</description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -395,10 +404,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o identificador exclusivo para o objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O provedor de transporte atribui uma propriedade de <b>ID</b> de cadeia de caracteres permanente e exclusivo quando um objeto membro individual é criado. Esses identificadores não mudar de uma sessão para outra.</para>
-          <para />
-        </remarks>
+        <remarks><para>O provedor de transporte atribui uma propriedade de <b>ID</b> de cadeia de caracteres permanente e exclusivo quando um objeto membro individual é criado. Esses identificadores não mudar de uma sessão para outra.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -528,10 +535,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>String</b> (<b>cadeia de caracteres</b> em c#) o nome de exibição para o objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>É necessário para a propriedade <b>Name</b> para ser definida antes de chamar o <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>É necessário para a propriedade <b>Name</b> para ser definida antes de chamar o <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -615,16 +620,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -684,11 +687,9 @@
         <param name="MakePermanent">Um valor <b>True</b> indica que o cache de propriedade é liberado e todas as alterações são confirmadas no catálogo de endereços subjacente. Um valor <b>False</b> indica que o cache da propriedade é liberado, mas não alocado para armazenamento persistente. O valor padrão é <b>True</b>. </param>
         <param name="Refresh">Um valor <b>True</b> indica que o cache de propriedade foi recarregado dos valores no catálogo de endereços subjacente. Um valor <b>False</b> indica que o cache de propriedade não foi recarregado. O valor padrão é <b>False</b>. </param>
         <summary>Posta uma alteração para o <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto no sistema de mensagens.</summary>
-        <remarks>
-          <para>Novas entradas ou alterações em entradas existentes não continuarão na coleção até que o método <b>Update</b> tenha sido chamado com seu <paramref name="MakePermanent" /> parâmetro é definido como <b>True</b>.</para>
+        <remarks><para>Novas entradas ou alterações em entradas existentes não continuarão na coleção até que o método <b>Update</b> tenha sido chamado com seu <paramref name="MakePermanent" /> parâmetro é definido como <b>True</b>.</para>
           <para>Para liberar o cache e recarregar os valores do catálogo de endereços, chame <b>Update</b> com o <paramref name="MakePermanent" /> parâmetro é definido como <b>False</b> e o <paramref name="Refresh" /> parâmetro é definido como <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

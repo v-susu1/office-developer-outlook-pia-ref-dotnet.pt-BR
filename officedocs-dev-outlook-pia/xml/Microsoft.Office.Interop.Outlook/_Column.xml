@@ -1,13 +1,5 @@
 <Type Name="_Column" FullName="Microsoft.Office.Interop.Outlook._Column">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629532" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Column" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905418" /></Metadata><TypeSignature Language="C#" Value="public interface _Column" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Column" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Column" />
@@ -111,11 +103,9 @@
       <Docs>
         <summary>Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome do <see cref="T:Microsoft.Office.Interop.Outlook.Column" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Name</b> é o membro padrão do objeto <b>Column</b> . </para>
-          <para>Se a <b>coluna</b> é um padrão no <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, ou se ele tiver sido adicionado à <b>tabela</b> com o nome interno explícito para a propriedade, o valor do <b>nome</b> é o nome interno explícito (sem qualquer colchetes) para o propriedade. Se a <b>coluna</b> foi adicionada à <b>tabela</b> com um nome de propriedade referência a um namespace, o valor do <b>nome</b> será o nome da propriedade referenciado por namespace.  Para obter mais informações sobre referenciando propriedades por namespace, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referenciando propriedades por Namespace</a></para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>Name</b> é o membro padrão do objeto <b>Column</b>.</para>
+          <para>Se a <b>coluna</b> é uma coluna padrão a <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, ou se ele tiver sido adicionado à <b>tabela</b> com o nome interno explícito para a propriedade, o valor do <b>nome</b> é o nome interno explícito (sem qualquer colchetes) para a propriedade. Se a <b>coluna</b> foi adicionada à <b>tabela</b> com um nome de propriedade referência a um namespace, o valor do <b>nome</b> será o nome da propriedade referenciado por namespace.  Para obter mais informações sobre referenciando propriedades por namespace, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referenciando propriedades por Namespace</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -171,16 +161,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

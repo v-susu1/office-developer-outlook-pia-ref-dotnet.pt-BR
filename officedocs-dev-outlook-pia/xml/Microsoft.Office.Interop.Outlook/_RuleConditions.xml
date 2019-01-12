@@ -1,13 +1,5 @@
 <Type Name="_RuleConditions" FullName="Microsoft.Office.Interop.Outlook._RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630529" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905460" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleConditions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleConditions&#xA;Implements IEnumerable" />
@@ -59,11 +51,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> de <b>olConditionAccount</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>AccountRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que uma mensagem é enviada ou recebida por meio do conta especificada. </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AccountRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>AccountRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que uma mensagem é enviada ou recebida por meio do conta especificada. </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AccountRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnyCategory">
@@ -91,11 +81,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionAnyCategory</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma regra que especifica a condição ou condição de exceção que a mensagem é atribuída a qualquer categoria.  </para>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma regra que especifica a condição ou condição de exceção que a mensagem é atribuída a qualquer categoria.</para>
           <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> , independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -151,11 +139,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> de <b>olConditionBody</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de determinado texto no corpo da mensagem. </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de determinado texto no corpo da mensagem. </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyOrSubject">
@@ -183,11 +169,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> de <b>olConditionBodyOrSubject</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de determinado texto no assunto ou corpo da mensagem . </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de determinado texto no assunto ou corpo da mensagem . </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -215,11 +199,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> de <b>olConditionCategory</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar o objeto <b>CategoryRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou ao criar uma nova regra que especifica a condição ou condição de exceção é atribuída à mensagem específica categorias. </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>CategoryRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Usar o objeto <b>CategoryRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou ao criar uma nova regra que especifica a condição ou condição de exceção é atribuída à mensagem específica categorias. </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>CategoryRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -247,11 +229,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionCc</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de seu nome na caixa Cc.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de seu nome na caixa Cc.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -307,10 +287,8 @@
       <Docs>
         <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode enumerar a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> conjunto entre 1 e <b>RuleConditions.Count</b> para determinar a todas as condições de regra para uma regra existente. Embora o OM de regras é compatível com a criação de regras com apenas os mais comumente usadas nem todas as condições de regra aceitas pelo Assistente de alertas e regras e condições de regra, a coleção <b>RuleConditions</b> inclui todas as condições de regra de uma regra. Portanto, você pode enumerar sempre o objeto da coleção <b>RuleConditions</b> para determinar quais condições de regra estão habilitadas para uma regra existente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode enumerar a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> conjunto entre 1 e <b>RuleConditions.Count</b> para determinar a todas as condições de regra para uma regra existente. Embora o OM de regras é compatível com a criação de regras com apenas os mais comumente usadas nem todas as condições de regra aceitas pelo Assistente de alertas e regras e condições de regra, a coleção <b>RuleConditions</b> inclui todas as condições de regra de uma regra. Portanto, você pode enumerar sempre o objeto da coleção <b>RuleConditions</b> para determinar quais condições de regra estão habilitadas para uma regra existente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -338,11 +316,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> de <b>olConditionFormName</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>FormNameRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem usa um formulário especificado.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>FormNameRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>FormNameRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem usa um formulário especificado.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>FormNameRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -370,11 +346,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> de <b>olConditionFrom</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>ToOrFromRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o remetente da mensagem está sendo o  lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ToOrFromRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>ToOrFromRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o remetente da mensagem está sendo o  lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ToOrFromRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAnyRSSFeed">
@@ -402,11 +376,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionFromAnyRssFeed</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma regra que especifica a condição ou condição de exceção que a mensagem for de uma assinatura de RSS.</para>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma regra que especifica a condição ou condição de exceção que a mensagem for de uma assinatura de RSS.</para>
           <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> , independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -434,11 +406,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> de <b>olConditionFromRssFeed</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>FromRSSFeedRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é de um RSS específico inscrição.</para>
+        <remarks><para>Use o objeto <b>FromRSSFeedRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem for de uma assinatura de RSS específica.</para>
           <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>FromRSSFeedRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -466,11 +436,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionHasAttachment</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem tiver um anexo.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem tiver um anexo.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -498,11 +466,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> de <b>olConditionImportance</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>ImportanceRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é do nível especificado de importância.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ImportanceRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>ImportanceRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é do nível especificado de importância.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ImportanceRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -534,10 +500,8 @@
         <param name="Index">Um baseado em 1 valor numérico que reflete a posição ordinal de uma condição de regra dentro da coleção <b>RuleConditions</b> . Por exemplo, o valor de índice da primeira condição de regra na coleção é 1 e o valor de índice da segunda condição de regra é 2.</param>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto especificado por <paramref name="Index" /> que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> conjunto.</summary>
         <value>Um objeto <b>RuleCondition</b> que representa o objeto especificado.</value>
-        <remarks>
-          <para>Objeto da coleção <b>RuleConditions</b> é uma coleção fixa. Ele contém objetos <b>RuleCondition</b> ou objetos derivados de <b>RuleCondition</b>. Você não pode adicionar ou remover itens dessa coleção, mas você pode indexar na coleção para enumerar os itens de condição de regra e definir o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade da condição de regra. Ao usar o <b>Item</b> para enumerar a coleção, você pode enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Objeto da coleção <b>RuleConditions</b> é uma coleção fixa. Ele contém objetos <b>RuleCondition</b> ou objetos derivados de <b>RuleCondition</b>. Você não pode adicionar ou remover itens dessa coleção, mas você pode indexar na coleção para enumerar os itens de condição de regra e definir o <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propriedade da condição de regra. Ao usar o <b>Item</b> para enumerar a coleção, você pode enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingInviteOrUpdate">
@@ -565,11 +529,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionMeetingInviteOrUpdate</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é uma solicitação de reunião ou uma reunião Atualizar.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é uma solicitação de reunião ou uma reunião Atualize.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageHeader">
@@ -597,11 +559,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> de <b>olConditionMessageHeader</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o cabeçalho da mensagem contém especificado texto.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o cabeçalho da mensagem contém especificado texto.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotTo">
@@ -629,11 +589,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionNotTo</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que não seja seu nome na caixa para.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que não seja seu nome na caixa para.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnLocalMachine">
@@ -661,11 +619,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionLocalMachineOnly</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a regra pode ser executada somente nesta máquina. Quando você executa a mesma regra em outro computador, a regra mostrará que a condição <b>olConditionOtherMachine</b> está habilitado.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Programaticamente, você pode habilitar uma condição de regra desse tipo. Em certos casos, <b>olConditionLocalMachine</b> é definida automaticamente como resultado de habilitação outra condição de regra, como <b>olConditionAccount</b>. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a regra pode ser executada somente nesta máquina. When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Programaticamente, você pode habilitar uma condição de regra desse tipo. Em certos casos, <b>olConditionLocalMachine</b> é definida automaticamente como resultado de habilitação outra condição de regra, como <b>olConditionAccount</b>. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnlyToMe">
@@ -693,11 +649,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionOnlyToMe</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é enviada somente para você.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que a mensagem é enviada somente para você.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnOtherMachine">
@@ -725,12 +679,10 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionOtherMachine</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de exceção de uma regra existente ou condições de regra. Esta condição de regra indica que a regra pode ser executada somente em alguns máquina que não seja a máquina local.</para>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de exceção de uma regra existente ou condições de regra. Esta condição de regra indica que a regra pode ser executada somente em alguns máquina que não seja a máquina local.</para>
           <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra.</para>
-          <para>Programaticamente, você não pode habilitar ou desabilitar uma condição de tipo <b>olConditionOtherMachine</b>. Esse tipo de condição de regra indica que a regra pode ser executada somente em um computador específico que não seja aquele atual. Isso acontece quando a regra é criada em que a condição de regra <b>olConditionLocalMachineOnly</b> e o computador estiver habilitada, o que indica que a regra pode ser executado somente no computador. Quando você executa a mesma regra em outro computador, a regra mostrará que a condição <b>olConditionOtherMachine</b> está habilitado.</para>
-          <para />
-        </remarks>
+          <para>Você não pode, por meio de programação, habilitar ou desabilitar uma condição de tipo <b>olConditionOtherMachine</b>. Esse tipo de condição de regra indica que a regra pode ser executada somente em um computador específico que não seja aquele atual. Isso acontece quando a regra é criada em que a condição de regra <b>olConditionLocalMachineOnly</b> e o computador estiver habilitada, o que indica que a regra pode ser executado somente no computador. When you run the same rule on another computer, the rule will show that the condition <b>olConditionOtherMachine</b> is enabled.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -758,10 +710,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RecipientAddress">
@@ -789,11 +739,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> de <b>olConditionRecipientAddress</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>AddressRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que contêm o endereço do destinatário o texto especificado. </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AddressRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>AddressRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que contêm o endereço do destinatário o texto especificado. </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AddressRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderAddress">
@@ -821,11 +769,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> de <b>olConditionSenderAddress</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>AddressRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que contém o endereço do remetente o texto especificado. </para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AddressRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>AddressRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que contém o endereço do remetente o texto especificado. </para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>AddressRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderInAddressList">
@@ -853,11 +799,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> de <b>olConditionAccount</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>SenderInAddressListRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o remetente é um especificada lista de endereços.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SenderInAddressListRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>SenderInAddressListRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o remetente é um especificada lista de endereços.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>SenderInAddressListRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentTo">
@@ -885,11 +829,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> de <b>olConditionSentTo</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>ToOrFromRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou quando criar uma nova regra que especifica a condição ou exceção condição que os destinatários (em para e Cc texto caixas) da mensagem são na lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ToOrFromRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>ToOrFromRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou quando criar uma nova regra que especifica a condição ou exceção condição que os destinatários (em para e Cc texto caixas) da mensagem são na lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>ToOrFromRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -917,16 +859,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -954,11 +894,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> de <b>olConditionSubject</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o assunto da mensagem contém especificado texto.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>TextRuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que o assunto da mensagem contém especificado texto.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> coleção sempre retorna um objeto <b>TextRuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToMe">
@@ -986,11 +924,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionTo</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de seu nome na caixa para.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção é de seu nome na caixa para.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToOrCc">
@@ -1018,11 +954,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionToOrCc</b>. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que seu nome está sendo para ou Cc caixa.</para>
-          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> podem ser <b>verdadeiras</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use o objeto <b>RuleCondition</b> retornado quando for enumerar as condições de regra ou as condições de exceção de uma regra existente ou criar uma nova regra que especifica a condição ou condição de exceção que seu nome está sendo para ou Cc caixa.</para>
+          <para>Essa propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> coleção sempre retorna um objeto <b>RuleCondition</b> independentemente se a regra associada a esse conjunto <b>RuleConditions</b> tiver definido essa condição de regra. Se a regra tiver definido e habilitado essa condição de regra, em seguida, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

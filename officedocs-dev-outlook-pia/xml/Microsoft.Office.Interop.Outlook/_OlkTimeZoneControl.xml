@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629531" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902786" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" /> constante que especifica o campo hora do compromisso que o controle é vinculado contra.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esse controle não suporta a vinculação de dados padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este controle não suporta a vinculação de dados padrão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define o estilo da borda ao redor do controle.   Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -120,10 +108,8 @@
       <Parameters />
       <Docs>
         <summary>Expande a parte suspensa do controle de fuso horário.</summary>
-        <remarks>
-          <para>Simula o usuário clicar no botão de soltar no controle. Esse método causará o <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> evento seja acionado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Estimula o usuário a clicar no botão de soltar no controle. Esse método causará o <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> evento seja acionado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -154,10 +140,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -188,7 +172,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o controle é bloqueado contra alteração. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>O valor de <para>o padrão é <b>False</b>.  </para><para>Quando o controle é bloqueado, o controle não tem uma aparência de "desabilitada", mas o usuário não pode editar o conteúdo do controle.   </para><para /></remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é bloqueado, ele não tem uma aparência de "desabilitado", mas o usuário não pode editar seu conteúdo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -219,10 +205,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -253,10 +237,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -287,11 +269,9 @@
       <Docs>
         <summary>Retorna ou define um <b>inteiro</b> (<b>int</b> em c#) que representa o índice para o <see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" /> coleção que determina o fuso horário selecionado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SelectedTimeZoneIndex</b> é baseado em 1 e um valor de zero (0) significa que nenhum fuso horário foi selecionado.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
