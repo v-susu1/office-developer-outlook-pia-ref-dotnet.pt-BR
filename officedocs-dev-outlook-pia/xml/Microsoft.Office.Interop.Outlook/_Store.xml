@@ -1,13 +1,5 @@
 <Type Name="_Store" FullName="Microsoft.Office.Interop.Outlook._Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631004" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899002" /></Metadata><TypeSignature Language="C#" Value="public interface _Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Store" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="bc5c5-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5c5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="bc5c5-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5c5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="bc5c5-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5c5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="bc5c5-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc5c5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="e71c5-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="e71c5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="e71c5-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="e71c5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="e71c5-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="e71c5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="e71c5-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="bc5c5-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e71c5-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,31 +73,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> coleção que representa todas as categorias definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-107">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> collection that represents all of the categories that are defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          </span>
-          <span data-ttu-id="bc5c5-108">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> coleção que representa todas as categorias definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-107">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> collection that represents all of the categories that are defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span></span> <span data-ttu-id="e71c5-108">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-109">
-            <para>Esta propriedade é semelhante ao <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto, exceto que esta propriedade se aplica a um perfil da sessão que especifica uma ou mais contas e especifica as categorias para o repositório que uma conta está associada, enquanto o <b> Categorias</b> a propriedade do objeto <b>NameSpace</b> se aplica a um perfil da sessão que define apenas uma conta e especifica a lista mestra de categorias para a sessão.</para>
-            <para>Para determinados repositórios de entrega secundário como um repositório IMAP, a propriedade <b>Categories</b> retorna a coleção de <b>categorias</b> para o repositório principal. Repositórios IMAP realmente não suportam um conjunto de categorias separadas.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-109">
-              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that the this property applies to a session profile that specifies one or more accounts and specifies the categories for the store that an account is associated with, whereas the <b>Categories</b> property of the <b>NameSpace</b> object applies to a session profile that defines only one account, and specifies the Master Category List for that session.</para>
-              <para>For certain secondary delivery stores such as an IMAP store, the <b>Categories</b> property returns the <b>Categories</b> collection for the primary store. IMAP stores do not actually support a separate categories collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-109">Esta propriedade é semelhante ao <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto, exceto que esta propriedade se aplica a um perfil da sessão que especifica uma ou mais contas e especifica as categorias para o repositório que uma conta está associada, enquanto o <b> Categorias</b> a propriedade do objeto <b>NameSpace</b> se aplica a um perfil da sessão que define apenas uma conta e especifica a lista mestra de categorias para a sessão.</span><span class="sxs-lookup"><span data-stu-id="e71c5-109">This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that the this property applies to a session profile that specifies one or more accounts and specifies the categories for the store that an account is associated with, whereas the <b>Categories</b> property of the <b>NameSpace</b> object applies to a session profile that defines only one account, and specifies the Master Category List for that session.</span></span></para>
+          <para><span data-ttu-id="e71c5-p104">Para determinados repositórios de entrega secundário como um repositório IMAP, a propriedade <b>Categories</b> retorna a coleção de <b>categorias</b> para o repositório principal. Repositórios IMAP realmente não suportam um conjunto de categorias separadas.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p104">For certain secondary delivery stores such as an IMAP store, the <b>Categories</b> property returns the <b>Categories</b> collection for the primary store. IMAP stores do not actually support a separate categories collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -157,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-110">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="bc5c5-111">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-112">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e71c5-113">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,35 +131,15 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-112">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-112">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
-          </span>
-          <span data-ttu-id="bc5c5-113">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-114">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-114">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span></span> <span data-ttu-id="e71c5-115">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-115">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-114">
-            <para>
-              <b>DisplayName</b> é a propriedade padrão do objeto <b>Store</b> . Essa propriedade corresponde à propriedade de MAPI <b>PidTagDisplayName</b>. </para>
-            <para>
-              <b>DisplayName</b> é somente leitura. Para alterar o <b>DisplayName</b> de um arquivo de pastas particulares (. pst), use o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto e o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-114">
-              <para>
-                <b>DisplayName</b> is the default property of the <b>Store</b> object. This property corresponds to the MAPI property, <b>PidTagDisplayName</b>. </para>
-              <para>
-                <b>DisplayName</b> is read-only. To change the <b>DisplayName</b> of a Personal Folders File (.pst), use the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object and the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-p107">
+            <b>DisplayName</b> é a propriedade padrão do objeto <b>Store</b>. Essa propriedade corresponde à propriedade de MAPI <b>PidTagDisplayName</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p107">
+            <b>DisplayName</b> is the default property of the <b>Store</b> object. This property corresponds to the MAPI property, <b>PidTagDisplayName</b>. </span></span></para>
+          <para><span data-ttu-id="e71c5-118">
+            <b>DisplayName</b> é somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-118">
+            <b>DisplayName</b> is read-only.</span></span> <span data-ttu-id="e71c5-119">Para alterar o <b>DisplayName</b> de um arquivo de pastas particulares (. pst), use o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto e o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método.</span><span class="sxs-lookup"><span data-stu-id="e71c5-119">To change the <b>DisplayName</b> of a Personal Folders File (.pst), use the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object and the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeStoreType">
@@ -248,29 +165,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeStoreType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-115">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> enumeração que indica o tipo de um repositório do Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-115">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> enumeration that indicates the type of an Exchange store.</span>
-          </span>
-          <span data-ttu-id="bc5c5-116">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-120">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> enumeração que indica o tipo de um repositório do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-120">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> enumeration that indicates the type of an Exchange store.</span></span> <span data-ttu-id="e71c5-121">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-121">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-117">
-            <para>Propriedade <b>ExchangeStoreType</b> distingue entre os diferentes tipos de repositório do Exchange, como caixa de correio principal do Exchange, caixa de correio do Exchange, armazenamento de pasta pública ou repositório não são do Exchange. Essa propriedade não faz distinção entre cada tipo de armazenamento, incluindo Hotmail, HTTP, IMAP e assim por diante. Use <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> para o tipo de servidor associado a uma conta de email, como POP3, IMAP, HTTP ou Exchange.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-117">
-              <para>The <b>ExchangeStoreType</b> property distinguishes among different Exchange store types, such as primary Exchange mailbox, Exchange mailbox, Public Folder store, or non-Exchange store. This property does not distinguish among every type of store including Hotmail, HTTP, IMAP, and so forth. Use <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> for the type of server associated with an e-mail account, such as Exchange, HTTP, IMAP, or  POP3.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-122">Propriedade <b>ExchangeStoreType</b> distingue entre os diferentes tipos de repositório do Exchange, como caixa de correio principal do Exchange, caixa de correio do Exchange, armazenamento de pasta pública ou repositório não são do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-122">The <b>ExchangeStoreType</b> property distinguishes among different Exchange store types, such as primary Exchange mailbox, Exchange mailbox, Public Folder store, or non-Exchange store.</span></span> <span data-ttu-id="e71c5-123">Essa propriedade não faz distinção entre cada tipo de armazenamento, incluindo Hotmail, HTTP, IMAP e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="e71c5-123">This property does not distinguish among every type of store including Hotmail, HTTP, IMAP, and so forth.</span></span> <span data-ttu-id="e71c5-124">Use <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> para o tipo de servidor associado a uma conta de email, como POP3, IMAP, HTTP ou Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-124">Use <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> for the type of server associated with an e-mail account, such as Exchange, HTTP, IMAP, or  POP3.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FilePath">
@@ -296,29 +194,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-118">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o caminho completo do arquivo para um arquivo de pastas particulares (. pst) ou um armazenamento de arquivo de pasta Offline (. ost).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-118">Returns a <b>String</b> (<b>string</b> in C#) representing the full file path for a Personal Folders File (.pst) or an Offline Folder File (.ost) store.</span>
-          </span>
-          <span data-ttu-id="bc5c5-119">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-125">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o caminho completo do arquivo para um arquivo de pastas particulares (. pst) ou um armazenamento de arquivo de pasta Offline (. ost).</span><span class="sxs-lookup"><span data-stu-id="e71c5-125">Returns a <b>String</b> (<b>string</b> in C#) representing the full file path for a Personal Folders File (.pst) or an Offline Folder File (.ost) store.</span></span> <span data-ttu-id="e71c5-126">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-126">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-120">
-            <para>Essa propriedade oferece suporte a Exchange e não Exchange repositórios. Se o repositório não for um repositório. pst ou. ost, <b>FilePath</b> retorna uma sequência vazia.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-120">
-              <para>This property supports both Exchange and non-Exchange stores. If the store is not a .pst or .ost store, <b>FilePath</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-p112">Essa propriedade oferece suporte a Exchange e não Exchange repositórios. Se o repositório não for um repositório. pst ou. ost, <b>FilePath</b> retorna uma sequência vazia.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p112">This property supports both Exchange and non-Exchange stores. If the store is not a .pst or .ost store, <b>FilePath</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -344,42 +223,12 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="FolderType">
-          <span data-ttu-id="bc5c5-121">Especifica o tipo da pasta padrão solicitada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-121">Specifies the type of the requested default folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bc5c5-122">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto que representa a pasta padrão no repositório e que é do tipo especificado pelo <paramref name="FolderType" /> argumento.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object that represents the default folder in the store and that is of the type specified by the <paramref name="FolderType" /> argument.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bc5c5-123">Retorna um objeto <b>Folder</b> que representa a pasta padrão do tipo solicitado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-123">Returns a <b>Folder</b> object that represents the default folder of the requested type.</span>
-          </span>
-          <span data-ttu-id="bc5c5-124">Se a pasta padrão do tipo solicitado não existir, <b>GetDefaultFolder</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-124">If the default folder of the requested type does not exist, <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="bc5c5-125">
-            <para>Este método é semelhante do <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto. A diferença é que esse método obtém a pasta padrão no repositório de entrega que está associado à conta, enquanto <b>GetDefaultFolder</b> do objeto <b>NameSpace</b> retorna a pasta padrão no repositório padrão para o perfil atual.</para>
-            <para>Um exemplo de quando <b>GetDefaultFolder</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) é quando <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> é especificado como o <paramref name="FolderType" /> , mas o grupo pastas gerenciadas não foi implantado.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-125">
-              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object. The difference is that this method gets the default folder on the delivery store that is associated with the account, whereas <b>GetDefaultFolder</b> of the <b>NameSpace</b> object returns the default folder on the default store for the current profile.</para>
-              <para>One example of when <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) is when <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> is specified as the <paramref name="FolderType" /> but the Managed Folders group has not been deployed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FolderType"><span data-ttu-id="e71c5-129">Especifica o tipo da pasta padrão solicitada.</span><span class="sxs-lookup"><span data-stu-id="e71c5-129">Specifies the type of the requested default folder.</span></span></param>
+        <summary><span data-ttu-id="e71c5-130">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto que representa a pasta padrão no repositório e que é do tipo especificado pelo <paramref name="FolderType" /> argumento.</span><span class="sxs-lookup"><span data-stu-id="e71c5-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object that represents the default folder in the store and that is of the type specified by the <paramref name="FolderType" /> argument.</span></span></summary>
+        <returns><span data-ttu-id="e71c5-131">Retorna um objeto <b>Folder</b> que representa a pasta padrão do tipo solicitado.</span><span class="sxs-lookup"><span data-stu-id="e71c5-131">Returns a <b>Folder</b> object that represents the default folder of the requested type.</span></span> <span data-ttu-id="e71c5-132">Se a pasta padrão do tipo solicitado não existir, <b>GetDefaultFolder</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="e71c5-132">If the default folder of the requested type does not exist, <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></returns>
+        <remarks><para><span data-ttu-id="e71c5-133">Este método é semelhante do <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-133">This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span> <span data-ttu-id="e71c5-134">A diferença é que esse método obtém a pasta padrão no repositório de entrega que está associado à conta, enquanto <b>GetDefaultFolder</b> do objeto <b>NameSpace</b> retorna a pasta padrão no repositório padrão para o perfil atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-134">The difference is that this method gets the default folder on the delivery store that is associated with the account, whereas <b>GetDefaultFolder</b> of the <b>NameSpace</b> object returns the default folder on the default store for the current profile.</span></span></para>
+          <para><span data-ttu-id="e71c5-135">Um exemplo de quando <b>GetDefaultFolder</b> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) é quando <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> é especificado como o <paramref name="FolderType" /> , mas o grupo pastas gerenciadas não foi implantado.</span><span class="sxs-lookup"><span data-stu-id="e71c5-135">One example of when <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) is when <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> is specified as the <paramref name="FolderType" /> but the Managed Folders group has not been deployed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootFolder">
@@ -403,38 +252,15 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-126">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto representando a pasta de nível de raiz do <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-126">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the root-level folder of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          </span>
-          <span data-ttu-id="bc5c5-127">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-127">Read-only.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bc5c5-128">Um objeto <b>Folder</b> que representa a pasta na raiz desse <b>Store</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-128">A <b>Folder</b> object that represents the folder at the root of that <b>Store</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="bc5c5-129">
-            <para>Você pode usar o método <b>GetRootFolder</b> para enumerar as subpastas da pasta raiz do <b>repositório</b>. Diferentemente <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> que contém todas as pastas para todos os repositórios no perfil atual, <b>Store.GetRootFolder.Folders</b> permite que você enumere todas as pastas de um determinado objeto de <b>repositório</b> no perfil atual.</para>
-            <para>o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> propriedade da pasta raiz de um repositório retorna a cadeia de caracteres "Mapi".</para> Repositório de 
-          <para>a pasta raiz da pasta pública do Exchange é a pasta pastas públicas. Essa pasta é retornada pela chamada para Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders).</para><para><b>GetRootFolder</b> retorna um erro se o provedor de serviços não oferece suporte a pastas raiz.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-129">
-              <para>You can use the <b>GetRootFolder</b> method to enumerate the subfolders of the root folder of the <b>Store</b>. Unlike <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> which contains all folders for all stores in the current profile, <b>Store.GetRootFolder.Folders</b> allows you to enumerate all folders for a given <b>Store</b> object in the current profile.</para>
-              <para>The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> property of the root folder of a store returns the string "Mapi".</para>
-              <para>The root folder for the Exchange Public Folder store is the folder Public Folders. This folder is returned by the call to Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders).</para>
-              <para>
-                <b>GetRootFolder</b> returns an error if the service provider does not support root folders.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e71c5-136">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto representando a pasta de nível de raiz do <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-136">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the root-level folder of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span></span> <span data-ttu-id="e71c5-137">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-137">Read-only.</span></span></summary>
+        <returns><span data-ttu-id="e71c5-138">Um objeto <b>Folder</b> que representa a pasta na raiz desse <b>Store</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-138">A <b>Folder</b> object that represents the folder at the root of that <b>Store</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="e71c5-139">Você pode usar o método <b>GetRootFolder</b> para enumerar as subpastas da pasta raiz do <b>repositório</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-139">You can use the <b>GetRootFolder</b> method to enumerate the subfolders of the root folder of the <b>Store</b>.</span></span> <span data-ttu-id="e71c5-140">Diferentemente <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> que contém todas as pastas para todos os repositórios no perfil atual, <b>Store.GetRootFolder.Folders</b> permite que você enumere todas as pastas de um determinado objeto de <b>repositório</b> no perfil atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-140">Unlike <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> which contains all folders for all stores in the current profile, <b>Store.GetRootFolder.Folders</b> allows you to enumerate all folders for a given <b>Store</b> object in the current profile.</span></span></para>
+          <para><span data-ttu-id="e71c5-141">O <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> propriedade da pasta raiz de um repositório retorna a cadeia de caracteres "Mapi".</span><span class="sxs-lookup"><span data-stu-id="e71c5-141">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> property of the root folder of a store returns the string "Mapi".</span></span></para>
+          <para><span data-ttu-id="e71c5-142">A pasta raiz do repositório de pasta pública do Exchange é a pasta Pastas Públicas.</span><span class="sxs-lookup"><span data-stu-id="e71c5-142">The root folder for the Exchange Public Folder store is the folder Public Folders.</span></span> <span data-ttu-id="e71c5-143">Essa pasta é retornada pela chamada para Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders).</span><span class="sxs-lookup"><span data-stu-id="e71c5-143">This folder is returned by the call to Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders).</span></span></para>
+          <para><span data-ttu-id="e71c5-144">
+            <b>GetRootFolder</b> retorna um erro se o provedor de serviços não oferece suporte a pastas raiz.</span><span class="sxs-lookup"><span data-stu-id="e71c5-144">
+            <b>GetRootFolder</b> returns an error if the service provider does not support root folders.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRules">
@@ -458,32 +284,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-130">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto da coleção que contém o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objetos definidos para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objects defined for the current session.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bc5c5-131">Um objeto de coleção de <b>regras</b> que representa o conjunto de <b>regras</b> definidas para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-131">A <b>Rules</b> collection object that represents the set of <b>Rules</b> defined for the current session.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="bc5c5-132">
-            <para>Chamar <b>GetRules</b> pode ser uma operação morosa em termos de desempenho em conexões lentas com um servidor Exchange.</para>
-            <para>a ordem dos objetos <b>Rule</b> no conjunto retornada por <b>GetRules</b> segue da <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> com <b>ExecutionOrder</b> igual a 1 sendo a primeira <b>regra</b> na coleção e <b>ExecutionOrder</b> igual <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> sendo o última <b>regra</b> na coleção.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-132">
-              <para>Calling <b>GetRules</b> can be an expensive operation in terms of performance on slow connections to an Exchange server.</para>
-              <para>The order of the <b>Rule</b> objects in the collection returned from <b>GetRules</b> follows that of <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> with <b>ExecutionOrder</b> equal 1 being the first <b>Rule</b> in the collection and <b>ExecutionOrder</b> equal <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> being the last <b>Rule</b> in the collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e71c5-145">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto da coleção que contém o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objetos definidos para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-145">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objects defined for the current session.</span></span></summary>
+        <returns><span data-ttu-id="e71c5-146">Um objeto de coleção de <b>regras</b> que representa o conjunto de <b>regras</b> definidas para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-146">A <b>Rules</b> collection object that represents the set of <b>Rules</b> defined for the current session.</span></span></returns>
+        <remarks><para><span data-ttu-id="e71c5-147">Chamar <b>GetRules</b> pode ser uma operação morosa em termos de desempenho em conexões lentas com um servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-147">Calling <b>GetRules</b> can be an expensive operation in terms of performance on slow connections to an Exchange server.</span></span></para>
+          <para><span data-ttu-id="e71c5-148">A ordem dos objetos <b>Rule</b> no conjunto retornada por <b>GetRules</b> segue da <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> com <b>ExecutionOrder</b> igual a 1 como a primeira <b>regra</b> na coleção e <b>ExecutionOrder</b> igual <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> sendo o último <b>Regra</b> na coleção.</span><span class="sxs-lookup"><span data-stu-id="e71c5-148">The order of the <b>Rule</b> objects in the collection returned from <b>GetRules</b> follows that of <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> with <b>ExecutionOrder</b> equal 1 being the first <b>Rule</b> in the collection and <b>ExecutionOrder</b> equal <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> being the last <b>Rule</b> in the collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSearchFolders">
@@ -507,38 +312,16 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-133">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto da coleção que representa as pastas de pesquisa definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection object that represents the search folders defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bc5c5-134">Um objeto da coleção <b>Folders</b> que representa todas as pastas de pesquisa para o objeto <b>Store</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-134">A <b>Folders</b> collection object that represents all the search folders for the <b>Store</b> object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="bc5c5-135">
-            <para>
-              <b>GetSearchFolders</b> retorna todas as pastas de pesquisa ativa visível para o <b>repositório</b>. Ele não retorna desatualizadas pastas de pesquisa ou não foi inicializada.</para>
-            <para>
-              <b>GetSearchFolders</b> retorna um objeto da coleção <b>Folders</b> com <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> igual a zero (0) se não há pastas de pesquisa tiverem sido definidas para o <b>repositório</b>.</para>
-            <para>Para um objeto da coleção <b>Folders</b> que representa uma coleção de pastas de pesquisa, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> retorna o mesmo objeto <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-135">
-              <para>
-                <b>GetSearchFolders</b> returns all the visible active search folders for the <b>Store</b>. It does not return uninitialized or aged out search folders.</para>
-              <para>
-                <b>GetSearchFolders</b> returns a <b>Folders</b> collection object with <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> equal zero (0) if no search folders have been defined for the <b>Store</b>.</para>
-              <para>For a <b>Folders</b> collection object that represents a collection of search folders, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> returns the same object as <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e71c5-149">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto da coleção que representa as pastas de pesquisa definidas para o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-149">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection object that represents the search folders defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span></span></summary>
+        <returns><span data-ttu-id="e71c5-150">Um objeto da coleção <b>Folders</b> que representa todas as pastas de pesquisa para o objeto <b>Store</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-150">A <b>Folders</b> collection object that represents all the search folders for the <b>Store</b> object.</span></span></returns>
+        <remarks><para><span data-ttu-id="e71c5-p118">
+            <b>GetSearchFolders</b> retorna todas as pastas de pesquisa ativa visível para o <b>repositório</b>. Ele não retorna não inicializado ou desatualizadas pastas de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p118">
+            <b>GetSearchFolders</b> returns all the visible active search folders for the <b>Store</b>. It does not return uninitialized or aged out search folders.</span></span></para>
+          <para><span data-ttu-id="e71c5-153">
+            <b>GetSearchFolders</b> retorna um objeto da coleção <b>Folders</b> com <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> igual a zero (0) se não há pastas de pesquisa tiverem sido definidas para o <b>repositório</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-153">
+            <b>GetSearchFolders</b> returns a <b>Folders</b> collection object with <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> equal zero (0) if no search folders have been defined for the <b>Store</b>.</span></span></para>
+          <para><span data-ttu-id="e71c5-154">Para um objeto da coleção <b>Folders</b> que representa uma coleção de pastas de pesquisa, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> retorna o mesmo objeto <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-154">For a <b>Folders</b> collection object that represents a collection of search folders, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> returns the same object as <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />.</span></span> <span data-ttu-id="e71c5-155"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="e71c5-155"><see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSpecialFolder">
@@ -564,36 +347,11 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlSpecialFolders" />
       </Parameters>
       <Docs>
-        <param name="FolderType">
-          <span data-ttu-id="bc5c5-136">Uma constante na enumeração <b>OlSpecialFolders</b> que especifica o tipo da pasta especial no repositório.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-136">A constant in the <b>OlSpecialFolders</b> enumeration that specifies the type of the special folder in the store.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="bc5c5-137">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto para uma pasta especial especificada por <paramref name="FolderType" /> em um determinado repositório.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-137">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object for a special folder specified by <paramref name="FolderType" /> in a given store.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="bc5c5-138">Um objeto <b>Folder</b> que representa uma pasta especial especificada pelo <paramref name="FolderType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-138">A <b>Folder</b> object that represents a special folder specified by the  <paramref name="FolderType" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="bc5c5-139">
-            <para>Nem todas as pastas especiais existirem em todos os repositórios.  Se a pasta especial solicitada não existir, <b>nada</b> (uma referência nula (Nothing no Visual Basic) em c#) será retornado.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-139">
-              <para>Not all special folders exist in all stores.  If the requested special folder does not exist, <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) will be returned.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FolderType"><span data-ttu-id="e71c5-156">Uma constante na enumeração <b>OlSpecialFolders</b> que especifica o tipo da pasta especial no repositório.</span><span class="sxs-lookup"><span data-stu-id="e71c5-156">A constant in the <b>OlSpecialFolders</b> enumeration that specifies the type of the special folder in the store.</span></span></param>
+        <summary><span data-ttu-id="e71c5-157">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto para uma pasta especial especificada por <paramref name="FolderType" /> em um determinado repositório.</span><span class="sxs-lookup"><span data-stu-id="e71c5-157">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object for a special folder specified by <paramref name="FolderType" /> in a given store.</span></span></summary>
+        <returns><span data-ttu-id="e71c5-158">Um objeto <b>Folder</b> que representa uma pasta especial especificada pelo <paramref name="FolderType" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-158">A <b>Folder</b> object that represents a special folder specified by the  <paramref name="FolderType" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="e71c5-159">Nem todas as pastas especiais existirem em todos os repositórios.</span><span class="sxs-lookup"><span data-stu-id="e71c5-159">Not all special folders exist in all stores.</span></span>  <span data-ttu-id="e71c5-160">Se a pasta especial solicitada não existir, <b>nada</b> (uma referência nula (Nothing no Visual Basic) em c#) será retornado.</span><span class="sxs-lookup"><span data-stu-id="e71c5-160">If the requested special folder does not exist, <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) will be returned.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCachedExchange">
@@ -619,31 +377,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-140">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> é um armazenamento em cache do Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-140">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a cached Exchange store.</span>
-          </span>
-          <span data-ttu-id="bc5c5-141">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-141">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-161">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> é um armazenamento em cache do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-161">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a cached Exchange store.</span></span> <span data-ttu-id="e71c5-162">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-162">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-142">
-            <para>
-              <b>IsCachedExchange</b> retorna <b>True</b> quando <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> é uma caixa de correio principal do Exchange (<b>exchangestoretype</b> é <b>olExchangePrimaryMailbox</b>) e a caixa de correio está configurada para o modo de uso de cache do Exchange. Caso contrário, retornará <b>False</b> . Em particular, ele retornará <b>False</b> para um repositório de pasta pública do Exchange que está configurado para a pasta pública Favoritos do cache.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-142">
-              <para>
-                <b>IsCachedExchange</b> returns <b>True</b> when <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is a primary Exchange mailbox (<b>Store.ExchangeStoreType</b> is <b>olExchangePrimaryMailbox</b>) and the mailbox is configured to use cached Exchange mode. It returns <b>False</b> otherwise. In particular, it returns <b>False</b> for an Exchange Public Folder store that is configured to cache Public Folder favorites.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-163">
+            <b>IsCachedExchange</b> retorna <b>True</b> quando <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> é uma caixa de correio principal do Exchange (<b>exchangestoretype</b> é <b>olExchangePrimaryMailbox</b>) e a caixa de correio está configurada para o modo de uso de cache do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-163">
+            <b>IsCachedExchange</b> returns <b>True</b> when <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is a primary Exchange mailbox (<b>Store.ExchangeStoreType</b> is <b>olExchangePrimaryMailbox</b>) and the mailbox is configured to use cached Exchange mode.</span></span> <span data-ttu-id="e71c5-164">Caso contrário, retornará <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-164">It returns <b>False</b> otherwise.</span></span> <span data-ttu-id="e71c5-165">Em particular, ele retornará <b>False</b> para um repositório de pasta pública do Exchange que está configurado para a pasta pública Favoritos do cache.</span><span class="sxs-lookup"><span data-stu-id="e71c5-165">In particular, it returns <b>False</b> for an Exchange Public Folder store that is configured to cache Public Folder favorites.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConversationEnabled">
@@ -669,31 +408,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-143">Retorna um <see cref="T:System.Boolean" /> valor (<b>bool</b> para c#) que será <b>True</b> se o repositório der suporte ao modo de exibição de conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-143">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that is <b>True</b> if the store supports the Conversation view.</span>
-          </span>
-          <span data-ttu-id="bc5c5-144">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-144">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-166">Retorna um <see cref="T:System.Boolean" /> valor (<b>bool</b> para c#) que será <b>True</b> se o repositório der suporte ao modo de exibição de conversa.</span><span class="sxs-lookup"><span data-stu-id="e71c5-166">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that is <b>True</b> if the store supports the Conversation view.</span></span> <span data-ttu-id="e71c5-167">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-167">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-145">
-            <para>Uma repositório der suporte ao modo de exibição de conversa se o repositório for um POP, IMAP ou PST ou se ele é executado em uma versão do Microsoft Exchange Server e que tenha pelo menos o Microsoft Exchange Server 2010. Um repositório também suporta o modo de exibição de conversa se o repositório estiver executando o Microsoft Exchange Server 2007, a versão do Outlook é pelo menos o Microsoft Outlook 2010 e o Outlook está sendo executado no modo de cache.</para>
-            <para>Se um repositório oferece suporte a conversas, chamar o método <b>GetConversation</b> de um item no repositório de retorna uma <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto para o item. Se o repositório não oferece suporte a conversas, <b>GetConversation</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para itens no repositório.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-145">
-              <para>A store supports the Conversation view if the store is a POP, IMAP, or PST store, or if it runs a version of Microsoft Exchange Server that is at least Microsoft Exchange Server 2010. A store also supports the Conversation view if the store is running Microsoft Exchange Server 2007, the version of Outlook is at least Microsoft Outlook 2010, and Outlook is running in cached mode.</para>
-              <para>If a store supports conversations, calling the <b>GetConversation</b> method of an item in the store returns a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object for the item. If the store does not support conversations, <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for items in the store.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-168">Um repositório der suporte ao modo de exibição de conversa se o repositório for um POP, IMAP ou PST ou se ele é executado em uma versão do Microsoft Exchange Server e que tenha pelo menos o Microsoft Exchange Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e71c5-168">A store supports the Conversation view if the store is a POP, IMAP, or PST store, or if it runs a version of Microsoft Exchange Server that is at least Microsoft Exchange Server 2010.</span></span> <span data-ttu-id="e71c5-169">Um repositório também suporta o modo de exibição de conversa se o repositório estiver executando o Microsoft Exchange Server 2007, a versão do Outlook é pelo menos o Microsoft Outlook 2010 e o Outlook está sendo executado no modo de cache.</span><span class="sxs-lookup"><span data-stu-id="e71c5-169">A store also supports the Conversation view if the store is running Microsoft Exchange Server 2007, the version of Outlook is at least Microsoft Outlook 2010, and Outlook is running in cached mode.</span></span></para>
+          <para><span data-ttu-id="e71c5-170">Se um repositório oferece suporte a conversas, chamar o método <b>GetConversation</b> de um item no repositório de retorna uma <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto para o item.</span><span class="sxs-lookup"><span data-stu-id="e71c5-170">If a store supports conversations, calling the <b>GetConversation</b> method of an item in the store returns a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object for the item.</span></span> <span data-ttu-id="e71c5-171">Se o repositório não der suporte a conversas, <b>GetConversation</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para itens no repositório.</span><span class="sxs-lookup"><span data-stu-id="e71c5-171">If the store does not support conversations, <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for items in the store.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsDataFileStore">
@@ -719,35 +438,17 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-146">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> é um repositório para um arquivo de dados do Outlook, que é um arquivo de pastas particulares (. pst) ou uma pasta de arquivos Offline (. ost).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-146">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a store for  an Outlook data file, which is either a Personal Folders File (.pst) or an Offline Folder File (.ost).</span>
-          </span>
-          <span data-ttu-id="bc5c5-147">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-172">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> é um repositório para um arquivo de dados do Outlook, que é um arquivo de pastas particulares (. pst) ou uma pasta de arquivos Offline (. ost).</span><span class="sxs-lookup"><span data-stu-id="e71c5-172">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a store for  an Outlook data file, which is either a Personal Folders File (.pst) or an Offline Folder File (.ost).</span></span> <span data-ttu-id="e71c5-173">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-173">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-148">
-            <para>
-              <b>IsDataFileStore</b> dá suporte apenas a repositórios do Exchange e retornará <b>False</b> para repositórios do tipo HTTP, como Hotmail e MSN e para repositórios IMAP.</para> Repositórios de 
-          <para>para o Exchange, <b>IsDataFileStore</b> retornará <b>False</b> se o perfil de usuário não estiver usando o modo cache do Exchange. <b>IsDataFileStore</b> também retornará <b>False</b> quando o armazenamento é uma pasta pública do Exchange (ou seja, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> é <b>olExchangePublicFolder</b>).</para><para><b>IsDataFileStore</b> não indica se o repositório está localizado em uma unidade de disco rígida local. Por exemplo, um arquivo. pst pode estar localizado em uma unidade de rede mapeada e <b>IsDataFileStore</b> ainda retornaria <b>True</b>.</para> O valor de retorno de <b>IsDataFileStore</b> de 
-          <para>pode alterar se o usuário estiver configurado para o modo clássico offline do Exchange. Quando o usuário estiver offline e o uso de modo clássico offline do Exchange, <b>IsDataFileStore</b> retornará <b>True</b>. Quando o usuário está online e o uso de modo clássico online do Exchange, <b>IsDataFileStore</b> retornará <b>False</b>.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-148">
-              <para>
-                <b>IsDataFileStore</b> supports only Exchange stores, and will return <b>False</b> for HTTP-type stores such as Hotmail and MSN, and for IMAP stores.</para>
-              <para>For Exchange stores, <b>IsDataFileStore</b> will return <b>False</b> if the user profile is not using Cached Exchange mode. <b>IsDataFileStore</b> will also return <b>False</b> when the store is an Exchange Public Folder (that is, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is <b>olExchangePublicFolder</b>).</para>
-              <para>
-                <b>IsDataFileStore</b> does not indicate whether the store is located on a local hard drive. For example, a .pst file could be located on a mapped network drive and <b>IsDataFileStore</b> would still return <b>True</b>.</para>
-              <para>The return value of <b>IsDataFileStore</b> can change if the user is configured for classic Exchange offline mode. When the user is offline and using classic Exchange offline mode, <b>IsDataFileStore</b> will return <b>True</b>. When the user is online and using classic Exchange online mode, <b>IsDataFileStore</b> will return <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-174">
+            <b>IsDataFileStore</b> dá suporte apenas a repositórios do Exchange e retornará <b>False</b> para repositórios do tipo HTTP, como Hotmail e MSN e para repositórios IMAP.</span><span class="sxs-lookup"><span data-stu-id="e71c5-174">
+            <b>IsDataFileStore</b> supports only Exchange stores, and will return <b>False</b> for HTTP-type stores such as Hotmail and MSN, and for IMAP stores.</span></span></para>
+          <para><span data-ttu-id="e71c5-175">Para repositórios do Exchange, <b>IsDataFileStore</b> retornará <b>False</b> se o perfil de usuário não estiver usando o modo cache do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-175">For Exchange stores, <b>IsDataFileStore</b> will return <b>False</b> if the user profile is not using Cached Exchange mode.</span></span> <span data-ttu-id="e71c5-176"><b>IsDataFileStore</b> também retornará <b>False</b> quando o armazenamento é uma pasta pública do Exchange (ou seja, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> é <b>olExchangePublicFolder</b>).</span><span class="sxs-lookup"><span data-stu-id="e71c5-176"><b>IsDataFileStore</b> will also return <b>False</b> when the store is an Exchange Public Folder (that is, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is <b>olExchangePublicFolder</b>).</span></span></para>
+          <para><span data-ttu-id="e71c5-p128">
+            <b>IsDataFileStore</b> não indica se o repositório está localizado em uma unidade de disco rígida local. Por exemplo, um arquivo. pst pode estar localizado em uma unidade de rede mapeada e <b>IsDataFileStore</b> ainda retornaria <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p128">
+            <b>IsDataFileStore</b> does not indicate whether the store is located on a local hard drive. For example, a .pst file could be located on a mapped network drive and <b>IsDataFileStore</b> would still return <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="e71c5-p129">O valor de retorno de <b>IsDataFileStore</b> pode alterar se o usuário estiver configurado para o modo clássico offline do Exchange. Quando o usuário estiver offline e o uso de modo clássico offline do Exchange, <b>IsDataFileStore</b> retornará <b>True</b>. Quando o usuário está online e o uso de modo clássico online do Exchange, <b>IsDataFileStore</b> retornará <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p129">The return value of <b>IsDataFileStore</b> can change if the user is configured for classic Exchange offline mode. When the user is offline and using classic Exchange offline mode, <b>IsDataFileStore</b> will return <b>True</b>. When the user is online and using classic Exchange online mode, <b>IsDataFileStore</b> will return <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInstantSearchEnabled">
@@ -773,29 +474,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-149">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a pesquisa instantânea é habilitada e funcionando em um repositório.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-149">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether Instant Search is enabled and operational on a store.</span>
-          </span>
-          <span data-ttu-id="bc5c5-150">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-150">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-182">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a pesquisa instantânea é habilitada e funcionando em um repositório.</span><span class="sxs-lookup"><span data-stu-id="e71c5-182">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether Instant Search is enabled and operational on a store.</span></span> <span data-ttu-id="e71c5-183">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-183">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-151">
-            <para>Use <b>IsInstantSearchEnabled</b> para avaliar se você deve usar os operadores de <b>ci_startswith</b> ou <b>ci_phrasematch</b> em sua consulta. Se você usar <b>ci_startswith</b> ou <b>ci_phrasematch</b> na consulta e pesquisa instantânea não está habilitada, o Outlook retornará um erro.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-151">
-              <para>Use <b>IsInstantSearchEnabled</b> to evaluate whether you should use <b>ci_startswith</b> or <b>ci_phrasematch</b> operators in your query. If you use <b>ci_startswith</b> or <b>ci_phrasematch</b> in the query and Instant Search is not enabled, Outlook will return an error. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-p131">Use <b>IsInstantSearchEnabled</b> para avaliar se você deve usar os operadores de <b>ci_startswith</b> ou <b>ci_phrasematch</b> em sua consulta. Se você usar <b>ci_startswith</b> ou <b>ci_phrasematch</b> na consulta e pesquisa instantânea não está habilitada, o Outlook retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p131">Use <b>IsInstantSearchEnabled</b> to evaluate whether you should use <b>ci_startswith</b> or <b>ci_phrasematch</b> operators in your query. If you use <b>ci_startswith</b> or <b>ci_phrasematch</b> in the query and Instant Search is not enabled, Outlook will return an error. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsOpen">
@@ -821,35 +503,14 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-152">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está aberto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-152">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is open.</span>
-          </span>
-          <span data-ttu-id="bc5c5-153">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-153">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-186">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está aberto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-186">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is open.</span></span> <span data-ttu-id="e71c5-187">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-187">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-154">
-            <para>Essa propriedade oferece suporte a Exchange e não Exchange repositórios.</para>
-            <para>
-              <b>IsOpen</b> apenas indica se o armazenamento é aberto. Ele não indica se o repositório estiver offline ou se ele for uma caixa de correio do Exchange ou uma pasta pública do Exchange e o servidor de repositório está inoperante.</para>
-            <para>Porque a abertura de um armazenamento pode impor uma sobrecarga de desempenho e <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> e <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> abrirá um repositório se ele já não estiver aberto, você pode usar <b>IsOpen</b> antes de decidir para chamar <b>GetRootFolder</b> ou <b>GetSearchFolders</b> para minimizar sobrecarga de desempenho. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-154">
-              <para>This property supports both Exchange and non-Exchange stores.</para>
-              <para>
-                <b>IsOpen</b> only indicates if the store is open. It does not indicate if the store is offline, or if it is an Exchange mailbox or an Exchange Public Folder and the store server is down.</para>
-              <para>Because opening a store can impose a performance overhead, and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> will open a store if it is not already open, you can use <b>IsOpen</b> before deciding to call <b>GetRootFolder</b> or <b>GetSearchFolders</b> to minimize performance overhead. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-188">Essa propriedade oferece suporte a repositórios que são e que não são do Exchange.</span><span class="sxs-lookup"><span data-stu-id="e71c5-188">This property supports both Exchange and non-Exchange stores.</span></span></para>
+          <para><span data-ttu-id="e71c5-p133">
+            <b>IsOpen</b> apenas indica se o armazenamento é aberto. Ele não indica se o repositório estiver offline ou se ele for uma caixa de correio do Exchange ou uma pasta pública do Exchange e o servidor de repositório está desativado.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p133">
+            <b>IsOpen</b> only indicates if the store is open. It does not indicate if the store is offline, or if it is an Exchange mailbox or an Exchange Public Folder and the store server is down.</span></span></para>
+          <para><span data-ttu-id="e71c5-191">Porque a abertura de um armazenamento pode impor uma sobrecarga de desempenho e <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> e <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> abrirá um repositório se ele já não estiver aberto, você pode usar <b>IsOpen</b> antes de decidir para chamar <b>GetRootFolder</b> ou <b>GetSearchFolders</b> para minimizar o desempenho sobrecarga.</span><span class="sxs-lookup"><span data-stu-id="e71c5-191">Because opening a store can impose a performance overhead, and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> will open a store if it is not already open, you can use <b>IsOpen</b> before deciding to call <b>GetRootFolder</b> or <b>GetSearchFolders</b> to minimize performance overhead.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -878,12 +539,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-155">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-155">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-192">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="e71c5-192">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -911,25 +567,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-p115">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-p135">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p135">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-158">
-            <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-158">
-              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-195">O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-195">The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -955,16 +596,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-159">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que dá suporte a criação, obtendo, configuração e excluir propriedades do pai <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
-          </span>
-          <span data-ttu-id="bc5c5-160">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-160">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-196">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que dá suporte a criação, obtendo, configuração e excluir propriedades do pai <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e71c5-196">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span></span> <span data-ttu-id="e71c5-197">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-197">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -990,24 +622,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-161">Atualiza as informações de cota de repositório exibidas na barra de status na janela do Explorer.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-161">Refreshes the store quota information that is displayed in the status bar in the explorer window.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="bc5c5-162">
-            <para>Se o repositório não der suporte a exibição de informações de cota, esse método não fará nada.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-162">
-              <para>If the store does not support the display of quota information, this method does nothing.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e71c5-198">Atualiza as informações de cota de repositório exibidas na barra de status na janela do Explorer.</span><span class="sxs-lookup"><span data-stu-id="e71c5-198">Refreshes the store quota information that is displayed in the status bar in the explorer window.</span></span></summary>
+        <remarks><para><span data-ttu-id="e71c5-199">Se o repositório não der suporte à exibição de informações de cota, este método não fará nada.</span><span class="sxs-lookup"><span data-stu-id="e71c5-199">If the store does not support the display of quota information, this method does nothing.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1033,41 +650,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-163">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-163">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="bc5c5-164">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-164">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-200">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-200">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e71c5-201">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-201">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-165">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e71c5-202">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e71c5-202">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e71c5-203">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="e71c5-203">Both members serve the same purpose.</span></span> <span data-ttu-id="e71c5-204">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="e71c5-204">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-165">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -1093,31 +685,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc5c5-166">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica o <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-166">Returns a <b>String</b> (<b>string</b> in C#) identifying the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
-          </span>
-          <span data-ttu-id="bc5c5-167">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-167">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e71c5-205">Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica o <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span><span class="sxs-lookup"><span data-stu-id="e71c5-205">Returns a <b>String</b> (<b>string</b> in C#) identifying the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span></span> <span data-ttu-id="e71c5-206">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e71c5-206">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="bc5c5-168">
-            <para>
-              <b>StoreID</b> é exclusivo ao perfil. É equivalente à propriedade de MAPI <b>PidTagStoreEntryId</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc5c5-168">
-              <para>
-                <b>StoreID</b> is unique to the profile. It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e71c5-p140">
+            <b>StoreID</b> é exclusivo ao perfil. É equivalente à propriedade de MAPI <b>PidTagStoreEntryId</b>.</span><span class="sxs-lookup"><span data-stu-id="e71c5-p140">
+            <b>StoreID</b> is unique to the profile. It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
