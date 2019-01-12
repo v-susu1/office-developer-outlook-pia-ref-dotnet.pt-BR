@@ -1,13 +1,5 @@
 <Type Name="OlkTimeControl" FullName="Microsoft.Office.Interop.Outlook.OlkTimeControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4bfe7f2f9831d7ca1eabf6f748b796fed585d49a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630637" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeControl : Microsoft.Office.Interop.Outlook._OlkTimeControl, Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bdd03d01a4201fbe2a80f20e350f0cd6a3e48bba" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901169" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeControl : Microsoft.Office.Interop.Outlook._OlkTimeControl, Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeControl implements class Microsoft.Office.Interop.Outlook._OlkTimeControl, class Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeControl&#xA;Implements _OlkTimeControl, OlkTimeControlEvents_Event" />
@@ -34,16 +26,14 @@
   </Attributes>
   <Docs>
     <summary>Um controle que exibe o menu suspenso de tempo do Outlook.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />.</para>
-      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle de tempo do Microsoft Outlook para a caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários; Você não pode adicionar esse controle a um objeto no Editor do Visual Basic do Visual Basic <b>UserForm</b> .</para>
-      <para>o controle de tempo tem vários modos diferentes que são expostos por propriedades no controle.  Ele pode ser vinculado a qualquer propriedade <b>DateTime</b> e pode ser vinculado à mesma propriedade como um controle de data para fornecer a capacidade de selecionar a data e hora.</para>
-      <para>a seguir está um exemplo de controle de hora no tempo de execução. Esse controle oferece suporte a temas do Microsoft Windows.</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />.</para>
+      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione Microsoft Outlook controle de tempo para a caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários; Você não pode adicionar esse controle a um objeto de Visual Basic <b>UserForm</b> no Editor do Visual Basic.</para>
+      <para>O controle de tempo possui vários modos diferentes que são expostos por propriedades no controle.  Ele pode ser vinculado a qualquer propriedade <b>DateTime</b> e pode ser vinculado à mesma propriedade como um controle de data para fornecer a capacidade de selecionar a data e hora.</para>
+      <para>A seguir está um exemplo de um controle Time no tempo de execução. Esse controle fornece suporte a temas do Microsoft Windows.</para>
       <para>Se o <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event.Click" /> evento for implementado, mas o <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event.DropButtonClick" /> evento não for implementado, em seguida, clicando no botão de soltar acionará somente o evento <b>Click</b> .</para>
-      <para>Se você vincular o controle de tempo para a hora de início ou a hora de término de um item de compromisso, você deve usar um suplemento para controlar a ativação e desativação de controle de hora. Em particular, quando o usuário define o compromisso como um evento de dia inteiro, você deve usar o código para desabilitar os controles de tempo para a hora de início e a hora de término e habilite os controles somente quando o usuário limpa essa configuração.</para>
+      <para>Caso vincule o controle Time à hora inicial ou à hora final de um item de compromisso, você deve usar um suplemento para controlar a habilitação e a desabilitação do controle Time. Em especial, quando o usuário define o compromisso como sendo um evento de dia inteiro, você deve usar o código para desabilitar os controles Time da hora inicial e da hora final, e só habilitá-los quando o usuário limpar a configuração.</para>
       <para>Para obter mais informações sobre os controles do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

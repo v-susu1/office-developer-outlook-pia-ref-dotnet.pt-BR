@@ -1,13 +1,5 @@
 <Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629640" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902030" /></Metadata><TypeSignature Language="C#" Value="public interface _Conversation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
@@ -110,12 +102,10 @@
       <Docs>
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório de quais categorias de itens que pertencem à conversa deve ser removida.</param>
         <summary>Remove todas as categorias de todos os itens da conversa e interrompe a ação de sempre atribuir categorias a itens na conversa.</summary>
-        <remarks>
-          <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de remoção de categoria será aplicada aos itens da conversa no repositório de entrega padrão. </para>
-          <para>Depois de aplicar o método <b>ClearAlwaysAssignCategories</b> em uma conversa, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para essa conversa. Categorias em itens existentes estão desmarcadas e nenhum categorias são atribuídas aos novos itens na conversa.</para>
+        <remarks><para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de remoção de categoria será aplicada aos itens da conversa no repositório de entrega padrão. </para>
+          <para>Depois de aplicar o método <b>ClearAlwaysAssignCategories</b> em uma conversa, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para essa conversa. Categorias em itens existentes sejam limpas e nenhum categorias são atribuídas aos novos itens na conversa.</para>
           <para>Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>ClearAlwaysAssignCategories</b> não removerá qualquer categoria.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationID">
@@ -143,11 +133,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagConversationId</b>MAPI.</para>
-          <para>Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em sua propriedade <b>ConversationID</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde com a propriedade MAPI <b>PidTagConversationId</b>.</para>
+          <para>Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em suas propriedades <b>ConversationID</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysAssignCategories">
@@ -175,13 +163,11 @@
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório para o quais categorias de itens que pertencem à conversa deve ser retornada.</param>
         <summary>Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que indica a categoria ou as categorias atribuídas a todos os novos itens que chegarem na conversa.</summary>
         <returns>Uma <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que contém uma ou mais categorias atribuídas a itens da conversa.</returns>
-        <remarks>
-          <para>Várias categorias são delimitadas por vírgulas na cadeia de caracteres de nomes de categoria que essa propriedade retorna. Para converter a cadeia de caracteres de nomes de categoria em uma matriz de nomes de categorias, use a função do Microsoft Visual Basic <b>divisão</b> .</para>
+        <remarks><para>Várias categorias são delimitadas por vírgulas na cadeia de caracteres de nomes de categoria que essa propriedade retorna. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função do Microsoft Visual Basic <b>dividido</b>.</para>
           <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</para>
           <para>Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>GetAlwaysAssignCategories</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para>Para parar a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma sequência vazia.</para>
-          <para />
-        </remarks>
+          <para>Para interromper a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b>, <b>GetAlwaysAssignCategories</b> retornará uma sequência vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysDelete">
@@ -209,13 +195,11 @@
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual os itens da conversa serão movidos.</param>
         <summary>Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeração que indica se todos os novos itens que ingressar na conversa sempre serão movidos para a pasta Itens excluídos no repositório de entrega especificado.</summary>
         <returns>Uma constante da enumeração <b>OlAlwaysDeleteConversation</b> que indica se todos os novos itens da conversa sempre serão movidos para a pasta de itens excluídos do repositório de entrega especificado.</returns>
-        <remarks>
-          <para>Se o <paramref name="Store" /> parâmetro especifica um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysDelete</b> retorna uma constante da <b>OlAlwaysDeleteConversation</b> que se aplica a itens de conversa no repositório de entrega padrão. Itens em um repositório de entrega não são movidas para a pasta Itens excluídos do repositório de entrega padrão.</para>
+        <remarks><para>Se o <paramref name="Store" /> parâmetro especifica um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysDelete</b> retorna uma constante da <b>OlAlwaysDeleteConversation</b> que se aplica a itens de conversa no repositório de entrega padrão. Itens em um repositório de entrega não são movidas para a pasta Itens excluídos do repositório de entrega padrão.</para>
           <para>Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, itens da conversa sempre serão movidos para a pasta Itens excluídos para o repositório que contém os itens. Em uma conversa do repositório cruzado, os itens são movidas para a pasta Itens excluídos para o repositório que contém os itens. Quando <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta Itens excluídos para o repositório padrão.</para>
-          <para>Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDeleteUnsupported</b>, o repositório especificado não oferece suporte à ação de sempre mover itens para a pasta Itens excluídos desse repositório.</para>
+          <para>Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDeleteUnsupported</b>, o repositório especificado não oferece suporte a ação de sempre mover itens para a pasta Itens excluídos desse repositório.</para>
           <para>Se <b>GetAlwaysDelete</b> retornar <b>olDoNotDelete</b>, novos itens que chegarem na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysMoveToFolder">
@@ -243,11 +227,9 @@
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde a pasta para a qual conversa itens serão movidos reside.</param>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta no repositório de entrega especificado para o qual novos itens que chegarem na conversa sempre serão movidos.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto do repositório especificado para o qual todos os novos itens que chegarem na conversa sempre serão movidos.</returns>
-        <remarks>
-          <para>Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysMoveToFolder</b> retornará um objeto <b>Folder</b> que se aplica a itens de conversa no repositório de entrega padrão.</para>
+        <remarks><para>Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysMoveToFolder</b> retornará um objeto <b>Folder</b> que se aplica a itens de conversa no repositório de entrega padrão.</para>
           <para>Se nenhuma pasta além da pasta Itens excluídos, tiver sido especificada para sempre mover itens de conversa movidos, o método <b>GetAlwaysMoveToFolder</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetChildren">
@@ -276,11 +258,9 @@
         <param name="Item">To be added.</param>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens sob o nó de conversa especificado.</summary>
         <returns>Uma coleção <b>SimpleItems</b> que representa o conjunto de itens filhos na conversa sob o nó especificado pelo <paramref name="Item" /> parâmetro.</returns>
-        <remarks>
-          <para>A coleção <b>SimpleItems</b> retornada contém itens filho imediato do nó de conversa especificado pelo <paramref name="Item" /> parâmetro. Se o nó especificado não existir na conversa, o método <b>GetChildren</b> retornará um erro.</para>
+        <remarks><para>A coleção <b>SimpleItems</b> retornada contém itens filho imediato do nó de conversa especificado pelo <paramref name="Item" /> parâmetro. Se o nó especificado não existir na conversa, o método <b>GetChildren</b> retornará um erro.</para>
           <para>Se não houver itens filhos sob esse nó, o método <b>GetChildren</b> retornará uma coleção <b>SimpleItems</b> com zero objetos, caso em que o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetParent">
@@ -309,11 +289,9 @@
         <param name="Item">Um nó de conversa que não faz parte de uma conversa.</param>
         <summary>Retorna o item pai do nó especificado na conversa.</summary>
         <returns>Um <see cref="T:System.Object" /> (<b>objeto</b> em c#) que representa o item de conversa pai do nó especificado pelo <paramref name="Item" /> parâmetro.</returns>
-        <remarks>
-          <para>Se o nó especificado pelo <paramref name="Item" /> parâmetro não existe na conversa, o método <b>GetParent</b> retornará um erro.</para>
+        <remarks><para>Se o nó especificado pelo <paramref name="Item" /> parâmetro não existe na conversa, o método <b>GetParent</b> retornará um erro.</para>
           <para>Se o nó especificado pelo <paramref name="Item" /> parâmetro não tem um item pai na conversa, o método <b>GetParent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootItems">
@@ -339,7 +317,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens raiz na conversa.</summary>
         <returns>Uma coleção <b>SimpleItems</b> que inclui o item raiz ou todos os itens raiz da conversa.</returns>
-        <remarks>Conversa de uma <para>pode ter um ou mais itens de raiz. Por exemplo, se o item raiz da conversa possui três itens filhos e o item raiz é excluído permanentemente, todos os itens filhos três se tornam os itens raiz.</para><para>Se todos os itens serão excluídos do conversa depois que o objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> tiver sido obtido, <b>GetRootItems</b> retorna uma coleção <b>SimpleItems</b> com nenhum objeto. Nesse caso, o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</para><para /></remarks>
+        <remarks><para>Uma conversa pode ter um ou mais itens raiz. Por exemplo, se o item raiz da conversa tiver três itens filhos e se for excluído permanentemente, todos os três itens filhos se tornarão itens raiz.</para>
+          <para>Se todos os itens são excluídos da conversa depois que o objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> tiver sido obtido, <b>GetRootItems</b> retorna uma coleção <b>SimpleItems</b> com nenhum objeto. Nesse caso, o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -365,8 +345,7 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contém linhas que representam todos os itens na conversa.</summary>
         <returns>Um objeto <b>Table</b> que contém linhas que representam todos os itens na conversa.</returns>
-        <remarks>
-          <para>O método <b>GetTable</b> retorna uma <b>tabela</b> que tem todos os itens da conversa como as linhas. O conjunto de colunas padrão é mostrado na tabela a seguir. </para>
+        <remarks><para>O método <b>GetTable</b> retorna uma <b>tabela</b> que tem todos os itens da conversa como as linhas. O conjunto de colunas padrão é mostrado na tabela a seguir.</para>
           <list type="table">
             <item>
               <description>1</description>
@@ -377,7 +356,7 @@
             <item>
               <description>2</description>
               <description>
-                <b>assunto</b>
+                <b>Assunto</b>
               </description>
             </item>
             <item>
@@ -400,10 +379,9 @@
             </item>
           </list>
           <para>Por padrão, as linhas da tabela são classificadas pela propriedade <b>ConversationIndex</b> dos itens.</para>
-          <para>Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto.</para>
-          <para>o objeto <b>Table</b> retornado por esse método <b>GetTable</b> não inclui itens da conversa que tiverem sido movidas para a pasta Itens excluídos.</para>
-          <para />
-        </remarks>
+          <para>Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto. </para>
+          <para>O objeto <b>Table</b> retornado por esse método <b>GetTable</b> não inclui itens da conversa que tiverem sido movidas para a pasta Itens excluídos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsRead">
@@ -481,11 +459,9 @@
       <Docs>
         <summary>Retorna o pai <see cref="T:System.Object" /> (<b>objeto</b> em c#) de especificado <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai de um objeto <b>Conversation</b> é o primeiro item da conversa.</para>
-          <para>Se todos os itens da conversa serão excluídos depois que o objeto <b>Conversation</b> tiver sido obtido, a propriedade <b>Parent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai de um objeto <b>Conversation</b> é o primeiro item da conversa.</para>
+          <para>Se todos os itens da conversa forem excluídos depois que o objeto <b>Conversation</b> tiver sido obtido, a propriedade <b>Parent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -513,11 +489,9 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada.</para>
-          <para>Que você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. </para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada.</para>
+          <para>Você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysAssignCategories">
@@ -546,14 +520,14 @@
         <param name="Categories">Um delimitado por vírgula <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) de um ou mais nomes de categoria que sempre serão atribuídos a todos os itens na conversa.</param>
         <param name="Store">O <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> em que os itens da conversa devem sempre ser atribuídas as categorias especificadas pelo <paramref name="Categories" /> parâmetro.</param>
         <summary>Aplica uma ou mais categorias a todos os itens existentes e itens futuros da conversa.</summary>
-        <remarks>
-          <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</para>
-          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> evento do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto ocorre quando você chama o método <b>SetAlwaysAssignCategories</b> em uma conversa.</para>
+        <remarks><para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</para>
+          <para>O <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> evento do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto ocorre quando você chama o método <b>SetAlwaysAssignCategories</b> em uma conversa.</para>
           <para>Para determinar as categorias de mestres existentes para o usuário atual, examine o <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> propriedade do objeto <b>Store</b> que é especificada pelo <paramref name="Store" /> parâmetro. Se uma ou mais categorias especificado pelo <paramref name="Categories" /> parâmetro não existir na coleção mestra de categorias, as categorias serão atribuídas à conversa, mas não serão adicionadas à coleção mestra de categorias.</para>
           <para>Para determinar as categorias existentes que sempre serão atribuídas aos itens da conversa do repositório especificado, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</para>
           <para>Se <b>SetAlwaysAssignCategories</b> for chamado mais de uma vez, o resultado é cumulativo. Por exemplo, se você chamar <b>SetAlwaysAssignCategories</b> especificando a categoria "Importante" e, em seguida, chame <b>SetAlwaysAssignCategories</b> novamente, especificando as categorias "Empresa" e "Social", as categorias que sempre serão atribuídas são" Importante","Comercial"e"Social".</para>
-          <para>Para parar a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma vazia <b>String</b> (<b>cadeia de caracteres</b> em c#).</para> Método 
-          <para>o <b>SetAlwaysAssignToCategories</b> ignora quaisquer nomes de categoria que são cadeias de caracteres vazias. Por exemplo, se o <paramref name="Categories" /> parâmetro for definido como a cadeia de caracteres "Trabalho, Play", "Trabalho" e "Executar" é atribuídas à conversa e a categoria de cadeia de caracteres vazia é ignorada.</para><para /></remarks>
+          <para>Para interromper a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma vazia <b>String</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para>O método <b>SetAlwaysAssignToCategories</b> ignora quaisquer nomes de categoria que são cadeias de caracteres vazias. Por exemplo, se o <paramref name="Categories" /> parâmetro for definido como a cadeia de caracteres "Trabalho, Play", "Trabalho" e "Executar" é atribuídas à conversa e a categoria de cadeia de caracteres vazia é ignorada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysDelete">
@@ -582,12 +556,10 @@
         <param name="AlwaysDelete">Um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constante que indica se todos os itens existentes e novos que chegarem na conversa sempre serão movidos para a pasta excluídos do repositório especificado pelo <paramref name="Store" /> parâmetro.</param>
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual itens novos e existentes da conversa deverão ser movidos.</param>
         <summary>Especifica uma configuração para o repositório de entrega especificado que indica se todos os itens existentes e todos os novos itens que chegarem na conversa serão movidos para a pasta Itens Excluídos no repositório de entrega especificado.</summary>
-        <remarks>
-          <para>O método <b>SetAlwaysDelete</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação será aplicada aos itens da conversa no repositório de entrega padrão.</para>
-          <para>Se o <paramref name="AlwaysDelete" /> parâmetro é <b>olAlwaysDelete</b>, itens de conversa serão movidos para a pasta Itens excluídos para o repositório especificado. Nesse caso, os itens não são permanentemente excluídos, a menos que o usuário especificou uma opção separada para excluir permanentemente os itens quando o Microsoft Outlook for desligado.</para>
-          <para>Se retorna <b>SetAlwaysDelete</b><b>olDoNotDelete</b>, itens de conversa e novos itens que chegarem na conversa existentes não são movidas para a pasta Itens excluídos no repositório de entrega especificado e conversa existente itens na pasta itens Pasta itens são movidas para a caixa de entrada.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>SetAlwaysDelete</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação será aplicada aos itens da conversa no repositório de entrega padrão.</para>
+          <para>Se o <paramref name="AlwaysDelete" /> parâmetro é <b>olAlwaysDelete</b>, itens de conversa serão movidos para a pasta Itens excluídos para o repositório especificado. Nesse caso, os itens não são permanentemente excluídos, a menos que o usuário especificou uma opção separada para excluir permanentemente os itens quando Microsoft Outlook desligado.</para>
+          <para>Se <b>SetAlwaysDelete</b> retornar <b>olDoNotDelete</b>, itens de conversa existentes e novos itens que chegarem na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysMoveToFolder">
@@ -616,15 +588,13 @@
         <param name="MoveToFolder">Especifica a pasta para a qual itens existentes e novos itens que chegarem na conversa sempre serão movidos.</param>
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta para o qual os itens da conversa serão movidos.</param>
         <summary>Define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta para o qual todos os itens de conversa existentes e novos itens que chegarem na conversa sempre serão movidos.</summary>
-        <remarks>
-          <para>O método <b>SetAlwaysMoveToFolder</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de mover se aplicará a itens de conversa no repositório de entrega padrão.</para>
-          <para>Se o <paramref name="MoveToFolder" /> parâmetro especifica uma pasta inválida inexistente, foi movida ou é somente leitura, o Outlook irá gerar um erro.</para>
+        <remarks><para>O método <b>SetAlwaysMoveToFolder</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de mover se aplicará a itens de conversa no repositório de entrega padrão.</para>
+          <para>Se o <paramref name="MoveToFolder" /> parâmetro especifica uma pasta inválida inexistente, foi movida ou é somente leitura, o Outlook irá gerar um erro. </para>
           <para>Para interromper a ação de sempre mover-para pasta itens de conversa em um repositório, chame o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método</para>
           <para>
             <b>Observação</b>: a pasta Itens excluídos, como a definição de <paramref name="MoveToFolder" /> parâmetro em <b>SetAlwaysMoveToFolder</b> não é equivalente a chamar <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> no mesmo repositório e na conversa. Definindo o <paramref name="MoveToFolder" /> parâmetro para a pasta Itens excluídos resulta no <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método retornar o valor <b>olDoNotDelete</b>.</para>
-          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> eventos do objeto <b>Folder</b> ocorre quando você chama <b>SetAlwaysMoveToFolder</b>.</para>
-          <para />
-        </remarks>
+          <para>O <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> eventos do objeto <b>Folder</b> ocorre quando você chama <b>SetAlwaysMoveToFolder</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysDelete">
@@ -651,14 +621,12 @@
       <Docs>
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório ao qual a ação de parar excluir sempre se aplica.</param>
         <summary>Interrompe a ação de sempre mover itens de conversa do repositório especificado para a pasta Itens Excluídos desse repositório.</summary>
-        <remarks>
-          <para>Se a ação de excluir sempre não tiver sido ativada (chamando o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> método), <b>StopAlwaysDelete</b> não faz nada.</para>
-          <para>Se a ação de excluir sempre tiver sido ativada, <b>StopAlwaysDelete</b> moverá itens de conversa existentes na pasta Itens excluídos para a caixa de entrada.</para>
+        <remarks><para>Se a ação de excluir sempre não tiver sido ativada (chamando o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> método), <b>StopAlwaysDelete</b> não faz nada.</para>
+          <para>Se a ação de excluir sempre tiver sido ativada, <b>StopAlwaysDelete</b> moverá itens de conversa existentes na pasta Itens Excluídos para a Caixa de Entrada.</para>
           <para>Depois de chamar o método <b>StopAlwaysDelete</b> para uma conversa em um repositório, chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método nessa conversa e repositório retornará a constante <b>olDoNotDelete</b>.</para>
           <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar excluir sempre será aplicada aos itens da conversa no repositório de entrega padrão.</para>
-          <para>Chamar este método em uma conversa que já está na pasta Itens excluídos do repositório especificado retornará um erro.</para>
-          <para />
-        </remarks>
+          <para>Chamar esse método em uma conversa que já está na pasta Itens excluídos do repositório especificado retornará um erro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysMoveToFolder">
@@ -685,12 +653,10 @@
       <Docs>
         <param name="Store">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde os itens da conversa devem ser limpos residem.</param>
         <summary>Interrompe a ação de mover sempre itens de conversa do repositório especificado para uma pasta específica.</summary>
-        <remarks>
-          <para>Se a ação de mover sempre não tiver sido ativada, <b>StopAlwaysMoveToFolder</b> não faz nada.</para>
+        <remarks><para>Se a ação de mover sempre não tiver sido ativada, <b>StopAlwaysMoveToFolder</b> não fará nada.</para>
           <para>Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar-mover sempre se aplicará a itens de conversa no repositório de entrega padrão.</para>
           <para>Depois de chamar o método <b>StopAlwaysMoveToFolder</b> , chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="NavigationModules" FullName="Microsoft.Office.Interop.Outlook.NavigationModules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f92cc2b8365c96a8eb75c73cceedd7c2e6ba750b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629330" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationModules : Microsoft.Office.Interop.Outlook._NavigationModules" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ecafa9cd3ab35d8ca768f7803880d81e2801d063" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899030" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationModules : Microsoft.Office.Interop.Outlook._NavigationModules" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationModules implements class Microsoft.Office.Interop.Outlook._NavigationModules" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationModules" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationModules&#xA;Implements _NavigationModules" />
@@ -31,13 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Contém um conjunto somente leitura de <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objetos que representam os módulos de navegação exibidos pelo painel de navegação.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NavigationModules" />. </para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto para retornar um objeto <b>NavigationModules</b> .</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um objeto <b>NavigationModule</b> pelo nome ou a posição ordinal do módulo de navegação dentro da coleção ou use o <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> método para retornar um <b>NavigationModule</b> objeto pelo tipo de módulo de navegação.</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> propriedade para retornar o número de módulos de navegação contidos no painel de navegação.</para>
-      <para />
-    </remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NavigationModules" />. </para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto para retornar um objeto <b>NavigationModules</b> .</para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um objeto <b>NavigationModule</b> pelo nome ou a posição ordinal do módulo de navegação dentro da coleção ou use o <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> método para retornar um objeto <b>NavigationModule</b> pela tipo de módulo de navegação.</para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> propriedade para retornar o número de módulos de navegação contidos no painel de navegação.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

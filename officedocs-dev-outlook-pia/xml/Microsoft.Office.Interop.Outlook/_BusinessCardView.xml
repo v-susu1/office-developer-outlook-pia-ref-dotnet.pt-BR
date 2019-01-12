@@ -1,13 +1,5 @@
 <Type Name="_BusinessCardView" FullName="Microsoft.Office.Interop.Outlook._BusinessCardView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629546" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _BusinessCardView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897126" /></Metadata><TypeSignature Language="C#" Value="public interface _BusinessCardView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _BusinessCardView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._BusinessCardView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _BusinessCardView" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o tamanho, como uma porcentagem, de uma empresa EBC (cartão) no modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 20 e 100. Se essa propriedade é definida como um valor menor que 20, a propriedade é definida como 20. Se essa propriedade é definida como um valor maior que 100, a propriedade é definida como 100.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade pode ser definida para um valor entre 20 e 100. Se essa propriedade for definida para um valor menor do que 20, ela será definida como 20. Se essa propriedade for definida para um valor maior do que 100, ela será definida como 100.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -142,10 +132,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna <b>olBusinessCardView</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna <b>olBusinessCardView</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -318,7 +306,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o objeto que define o idioma usado no menu. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+        <remarks><para>A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para>
+          <para>Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -349,10 +339,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição atual. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição atual. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -436,10 +424,8 @@
       <Parameters />
       <Docs>
         <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
-        <remarks>
-          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método só funciona nos modos de exibição internos do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -492,10 +478,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -523,16 +507,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SortFields">
@@ -588,10 +570,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -650,7 +630,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição atual. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando a criação de modos de exibição, crie um modo de exibição por meio da interface de usuário do Outlook e, em seguida, recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+        <remarks><para>A definição XML descreve o tipo de modo de exibição usando uma série de rótulos e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</para>
+          <para>Para determinar como o XML deve ser estruturado quando criar exibições, crie um modo de exibição usando a interface de usuário do Outlook e, em seguida, recuperar a propriedade <b>XML</b> para esse modo de exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

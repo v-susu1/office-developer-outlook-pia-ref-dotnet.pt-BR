@@ -1,13 +1,5 @@
 <Type Name="_TaskItem" FullName="Microsoft.Office.Interop.Outlook._TaskItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2a35c7405b9fc22f26e90c7b5d2f5b3599e1c497" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630699" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TaskItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2a35c7405b9fc22f26e90c7b5d2f5b3599e1c497" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904354" /></Metadata><TypeSignature Language="C#" Value="public interface _TaskItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TaskItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TaskItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TaskItem" />
@@ -86,11 +78,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) indicando o esforço real gasto na tarefa. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ActualWork</b> é armazenado em unidades de minutos. O campo <b>ActualWork</b> no formulário de tarefa padrão está vinculado à propriedade <b>ActualWork</b> ; Por padrão, o campo pressupõe um dia de 8 horas e 40 horas semana.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ActualWork</b> é armazenado em unidades de minutos. O campo <b>ActualWork</b> no formulário de tarefa padrão está vinculado à propriedade <b>ActualWork</b>; Por padrão, o campo pressupõe um dia de 8 horas e 40 horas semana.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -144,10 +134,8 @@
       <Docs>
         <summary>Atribui uma tarefa e retorna um <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto que o representa.</summary>
         <returns>Um objeto <b>TaskItem</b> que representa a tarefa.</returns>
-        <remarks>
-          <para>Esse método permite uma tarefa a ser atribuído (delegados) para outro usuário. Antes de você pode atribuí-lo, e você deve atribuir uma tarefa antes de enviá-la, você deve criar uma tarefa. Uma tarefa atribuída é enviada como uma <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método permite uma tarefa a ser atribuído (delegados) para outro usuário. Antes de você pode atribuí-lo, e você deve atribuir uma tarefa antes de enviá-la, você deve criar uma tarefa. Uma tarefa atribuída é enviada como uma <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Attachments">
@@ -203,11 +191,9 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o item é um prêmio de resolução de conflitos automática. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um valor <b>False</b> não necessariamente indica que o item é perdido de resolução de conflitos automática. O item poderia ser em conflito com outro item.</para>
-          <para>Se um item tiver <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> do seu <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Conflicts" /> propriedade maior do que zero e, se sua propriedade <b>AutoResolvedWinner</b> for <b>True</b>, um prêmio de resolução de conflitos automática. Por outro lado, se o item está em conflito e tem sua propriedade <b>AutoResolvedWinner</b> como <b>False</b>, é perdido na resolução de conflitos automática.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um valor <b>False</b> não necessariamente indica que o item é perdido de resolução de conflitos automática. O item poderia ser em conflito com outro item.</para>
+          <para>Se tiver um item <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> do seu <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Conflicts" /> propriedade maior do que zero e, se sua propriedade <b>AutoResolvedWinner</b> for <b>True</b>, um prêmio de resolução de conflitos automática. Por outro lado, se o item está em conflito e tem sua propriedade <b>AutoResolvedWinner</b> como <b>False</b>, é perdido na resolução de conflitos automática.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -238,10 +224,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa as informações de faturamento associadas ao item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de texto de forma livre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este é um campo de texto de forma livre.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -297,10 +281,8 @@
       <Parameters />
       <Docs>
         <summary>Redefine como tarefa simples uma resposta não enviada referente a uma solicitação de tarefa.</summary>
-        <remarks>
-          <para>Após receber uma solicitação de tarefa e responder a ela, mas antes de enviar a resposta, você pode usar esse método para reverter a tarefa ao estado anterior à resposta.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após receber uma solicitação e respondê-la, mas antes de enviar a resposta, você pode usar este método para reverter a tarefa ao estado anterior à resposta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CardData">
@@ -362,11 +344,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representam as categorias atribuídas ao item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Categorias</b> é uma cadeia de caracteres delimitada de nomes de categoria que tiverem sido atribuídos a um item do Outlook. Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para vários valores de categoria. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função <b>divisão</b>do Microsoft Visual Basic.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Categorias</b> é uma cadeia de caracteres delimitada de nomes de categoria que tiverem sido atribuídos a um item do Outlook. Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para vários valores de categoria. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função <b>divisão</b> do Microsoft Visual Basic.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -478,10 +458,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representam os nomes de empresas associadas ao item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de texto de forma livre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este é um campo de texto de forma livre. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Complete">
@@ -636,12 +614,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> do objeto que o <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto pertence. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade associa a uma conversa de itens. Esses itens e a conversa têm o mesmo valor em sua propriedade <b>ConversationID</b> .</para>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagConversationId</b>MAPI.</para>
+        <remarks><para>Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em suas propriedades <b>ConversationID</b>.</para>
+          <para>Essa propriedade corresponde com a propriedade MAPI <b>PidTagConversationId</b>.</para>
           <para>Se o objeto <b>TaskItem</b> é criado em uma versão do Microsoft Outlook anteriores ao Microsoft Outlook 2010, ou se o Outlook estiver em execução no modo online em relação a uma versão do Microsoft Exchange Server anteriores ao Microsoft Exchange Server 2010, essa propriedade Retorna o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ConversationTopic" /> propriedade.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -751,10 +727,8 @@
       <Docs>
         <summary>Retorna a <b>Data e hora</b> que indica a hora da criação do item do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DateCompleted">
@@ -866,11 +840,9 @@
       <Parameters />
       <Docs>
         <summary>Remove o item da pasta que contém o item.</summary>
-        <remarks>
-          <para>O método <b>Delete</b> exclui um único item em uma coleção. Para excluir todos os itens do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto de uma pasta, você deve excluir cada item começando com o último item na pasta. Por exemplo, no conjunto de itens de uma pasta, selecionando, se houver n número de itens na pasta, iniciar a exclusão do item no AllItems.Item(n), diminuindo o índice de cada vez, até que você exclua AllItems.Item(1).</para>
-          <para>Excluir o método Move o item da pasta que contém a pasta Itens excluídos. Se a pasta que contém a pasta Itens excluídos, o método <b>Delete</b> remove permanentemente o item.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>Delete</b> exclui um único item em uma coleção. Para excluir todos os itens do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto de uma pasta, você deve excluir cada item começando com o último item na pasta. Por exemplo, no conjunto de itens de uma pasta, selecionando, se houver n número de itens na pasta, inicie o item no AllItems.Item(n), diminuindo o índice de cada vez, até que você exclua AllItems.Item(1) a exclusão.</para>
+          <para>O método Delete move o item da pasta que contém a pasta Itens excluídos. Se a pasta que contém a pasta Itens excluídos, o método <b>Delete</b> remove permanentemente o item.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -895,14 +867,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
+        <param name="Modal"><b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
         <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto para o item.</summary>
-        <remarks>
-          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
-          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto Microsoft Outlook, você recebe o código de retorno E_FAIL no C ou C++ linguagens de programação. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método de <b>exibição</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -989,9 +958,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a identificação de entrada exclusiva do objeto.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para> Provedor de repositórios de 
-          <para>uma MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, pesquise http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para>
+          <para>Um provedor de armazenamento MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, procure http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormDescription">
@@ -1045,25 +1014,23 @@
       <Docs>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object que representa a conversa à qual este item pertence.</summary>
         <returns>Retorna um objeto <b>Conversation</b> que representa a conversa à qual este item pertence.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se nenhum conversa existir para o item. Nenhuma conversa existe para um item nos seguintes cenários:</para>
           <list type="bullet">
             <item>
-              <para>o item não foi salvo. Um item pode ser salvo programaticamente, por ação do usuário ou pelo salvamento automático.</para>
+              <para>O item não foi salvo. Um item pode ser salvo programaticamente, com a ação do usuário ou de salvamento automático.</para>
             </item>
             <item>
-              <para>Para um item que pode ser enviado (por exemplo, um item de email, item de compromisso ou item de contato), o item não foi enviado.</para>
+              <para>Para um item que pode ser enviado (por exemplo, um item de email, item de compromisso ou item de contato), o item não não foi enviado.</para>
             </item>
             <item>
-              <para>Conversas foram desabilitadas pelo registro do Windows.</para>
+              <para>As conversas foram desabilitadas por meio do Registro do Windows.</para>
             </item>
             <item>
-              <para>o repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange anteriores ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
+              <para>O repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange anteriores ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1091,10 +1058,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> o objeto que representa um objeto inspector inicializado contenha o item especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é útil para retornar um novo objeto <b>Inspector</b> no qual exibir o item, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é útil para retornar um novo objeto <b>Inspector</b> no qual exibir o item, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecurrencePattern">
@@ -1151,10 +1116,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constante que indica o nível de importância relativa do item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1185,10 +1148,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que determina a página de código de Internet usada pelo item. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A página de código de Internet define o esquema de codificação de texto usado pelo item.</para>
-          <para />
-        </remarks>
+        <remarks><para>A página de código de Internet define o esquema de codificação de texto usado pelo item.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1216,11 +1177,9 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o item está em conflito. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ou não um item está em conflito é determinado pelo estado do aplicativo. Por exemplo, quando um usuário estiver offline e tenta acessar uma pasta on-line, a ação falhará. Neste cenário, a propriedade <b>IsConflict</b> retornará <b>True</b>.</para>
+        <remarks><para>Ou não um item está em conflito é determinado pelo estado do aplicativo. Por exemplo, quando um usuário estiver offline e tenta acessar uma pasta on-line, a ação falhará. Neste cenário, a propriedade <b>IsConflict</b> retornará <b>True</b>.</para>
           <para>Se <b>True</b>, o item especificado está em conflito.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRecurring">
@@ -1248,10 +1207,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se a tarefa é uma tarefa recorrente.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Quando o <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.GetRecurrencePattern" /> método é usado com um <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> de objeto, essa propriedade for definida como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Quando o <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.GetRecurrencePattern" /> método é usado com um <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> de objeto, essa propriedade for definida como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemProperties">
@@ -1279,10 +1236,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> coleção que representa todas as propriedades definidas pelo usuário e padrão associadas ao item do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A coleção <b>ItemProperties</b> é um conjunto com base em zero, significando que o primeiro objeto na coleção é referenciado pelo índice 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>A coleção <b>ItemProperties</b> é um conjunto com base em zero, significando que o primeiro objeto na coleção é referenciado pelo índice 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1310,10 +1265,8 @@
       <Docs>
         <summary>Retorna um <b>DateTime</b> Especifica a data e hora em que o item do Outlook foi modificado.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagLastModificationTime</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagLastModificationTime</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1400,10 +1353,8 @@
       <Parameters />
       <Docs>
         <summary>Marca a tarefa como concluída.</summary>
-        <remarks>
-          <para>Conjuntos de <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.PercentComplete" /> como "100%", <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Complete" /> como <b>True</b>, e <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DateCompleted" /> como a data atual.</para>
-          <para />
-        </remarks>
+        <remarks><para> Conjuntos de <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.PercentComplete" /> como "100%", <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Complete" /> como <b>True</b>, e <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DateCompleted" /> como a data atual.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1434,10 +1385,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> constante que determina o status de um item após ele ser recebido por um usuário remoto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade dá usuários remotos com menos à ideal para transferência de dados recursos maior mensagens flexibilidade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade dá maior flexibilidade de uso de mensagens para usuários remotos com menos capacidade de transferência de dados do que o ideal.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1468,10 +1417,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem do item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b> MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1502,10 +1449,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o mileage para um item. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Isso é um campo de cadeia de caracteres de forma livre e pode ser usado para armazenar informações de mileage associadas ao item (por exemplo, 100 milhas documentados para um compromisso, contato ou tarefa) para propósitos de reembolso.</para>
-          <para />
-        </remarks>
+        <remarks><para>É um campo de sequência de caracteres de forma livre e pode ser usado para armazenar informações de quilometragem associadas ao item (por exemplo, 100 quilômetros documentados para um compromisso, um contato ou uma tarefa) para fins de reembolso. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1683,10 +1628,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o proprietário da tarefa.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de cadeia de caracteres de forma livre. A definição dessa propriedade para alguém que não seja o usuário atual não tem o efeito de delegar a tarefa. Leitura/gravação quando a tarefa está armazenada na pasta pública do Exchange Server. Somente leitura quando ele está armazenado na caixa de correio ou arquivo de pastas pessoais de um usuário.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse é um campo de sequência de caracteres de forma livre. A definição dessa propriedade como uma pessoa diferente do usuário atual não tem o efeito de delegar a tarefa. Leitura/gravação se a tarefa estiver armazenada na pasta pública do Exchange Server. Somente leitura se ela estiver armazenada em um arquivo de pastas particulares ou na caixa de correio de um usuário.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Ownership">
@@ -1854,10 +1797,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção que representa todos os destinatários do item do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um destinatário pode ser especificado por uma cadeia de caracteres representando o nome para exibição, alias ou endereço de email SMTP completo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um destinatário pode ser especificado por uma cadeia de caracteres representando seu nome para exibição, apelido ou email SMTP completo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -1888,10 +1829,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o lembrete substituir o comportamento de lembrete padrão para o item. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você deve definir a propriedade <b>ReminderOverrideDefault</b> para validar o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> e o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> propriedades.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você deve definir a propriedade <b>ReminderOverrideDefault</b> para validar o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> e o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> propriedades.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -1922,10 +1861,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o lembrete deverá tocar um som quando ocorrer para esse item. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>ReminderPlaySound</b> deve ser definida para validar o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>ReminderPlaySound</b> deve ser definida para validar o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> propriedade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -1987,10 +1924,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o caminho e o nome do arquivo de som a ser reproduzido quando o lembrete ocorrer para o item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade só será válida se as <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderOverrideDefault" /> e <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> propriedades são definidas como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade só será válida se as <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderOverrideDefault" /> e <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> propriedades são definidas como <b>True</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2050,16 +1985,31 @@
       </Parameters>
       <Docs>
         <param name="Response">A resposta à solicitação.</param>
-        <param name="fNoUI">
-          <b>True</b> para não exibir uma caixa de diálogo; a resposta é enviada automaticamente. <b>False</b> para exibir a caixa de diálogo para responder. </param>
-        <param name="fAdditionalTextDialog">
-          <b>False</b> para não solicitar ao usuário de entrada; a resposta é exibida no Inspetor para edição. <b>True</b> para solicitar ao usuário enviar ou enviar com comentários. Este argumento é válido somente se <b>fNoUI</b> é <b>False</b>. </param>
+        <param name="fNoUI"><b>True</b> para não exibir uma caixa de diálogo; a resposta é enviada automaticamente. <b>False</b> para exibir a caixa de diálogo para responder. </param>
+        <param name="fAdditionalTextDialog"><b>False</b> para não solicitar ao usuário de entrada; a resposta é exibida no Inspetor para edição. <b>True</b> para solicitar ao usuário enviar ou enviar com comentários. Este argumento é válido somente se <b>fNoUI</b> é <b>False</b>. </param>
         <summary>Responde a uma solicitação de tarefa.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> que representa a resposta à solicitação de tarefa.</returns>
-        <remarks>
-          <para>Quando você chama o método <b>Respond</b> com o argumento olTaskAccept, o Microsoft Outlook cria um novo <b>TaskItem</b> que duplica o item de solicitação de tarefa. O novo item tem uma ID de entrada diferentes. Outlook, em seguida, remove o item original.</para>
-          <para>a tabela a seguir descreve o comportamento do método <b>Respond</b> dependendo do objeto pai e o <paramref name="fNoUI" /> e <paramref name="fAdditionalTextDialog" /> parâmetros.</para> Item de 
-          <list type="table"><item><description>true, True</description><description> resposta é retornada com nenhuma interface de usuário. Para enviar a resposta, você deve chamar o método Send.  </description></item><item><description>True, False</description><description> mesmo resultado que com True, True.  </description></item><item><description>Falso, verdadeiro</description><description> se o método Display tiver sido chamado, o usuário prompt é exibido. Caso contrário, o item será enviado sem aviso e o item resultante será nothing. </description></item><item><description>False, False</description><description> não faz nada.  </description></item></list><para /></remarks>
+        <remarks><para>Quando você chama o método <b>Respond</b> com o argumento olTaskAccept, o Microsoft Outlook cria um novo <b>TaskItem</b> que duplica o item de solicitação de tarefa. O novo item tem uma ID de entrada diferentes. Outlook, em seguida, remove o item original.</para>
+          <para>A tabela a seguir descreve o comportamento do método <b>Respond</b> dependendo do objeto pai e o <paramref name="fNoUI" /> e <paramref name="fAdditionalTextDialog" /> parâmetros.</para>
+          <list type="table">
+            <item>
+              <description>True, True</description>
+              <description> Item de resposta é retornada com nenhuma interface de usuário. Para enviar a resposta, você deve chamar o método Send. </description>
+            </item>
+            <item>
+              <description>True, False</description>
+              <description> O mesmo resultado que com True, True.</description>
+            </item>
+            <item>
+              <description>False, True</description>
+              <description> Se tiver sido chamado o método Display, prompt do usuário é exibida. Caso contrário, o item será enviado sem aviso e o item resultante será nothing. </description>
+            </item>
+            <item>
+              <description>False, False</description>
+              <description> Não faz nada.</description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ResponseState">
@@ -2149,10 +2099,8 @@
       <Docs>
         <summary>Retorna ou define uma matriz de bytes que representa o corpo do item do Microsoft Outlook, no formato Rich Text. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode usar o método ASCIIEncoding em c# ou Visual Basic para converter uma matriz de bytes em uma cadeia de caracteres.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar o método ASCIIEncoding em c# ou Visual Basic para converter uma matriz de bytes em uma cadeia de caracteres.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2204,12 +2152,10 @@
       </Parameters>
       <Docs>
         <param name="Path">O caminho no qual o item deve ser salvo.</param>
-        <param name="Type">O tipo de arquivo para salvar. Pode ser uma das seguintes constantes <b>OlSaveAsType</b> : <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>, <b>olVCard</b><b>olICal</b>, ou <b>olMSGUnicode</b>.</param>
+        <param name="Type">O tipo de arquivo para salvar. Pode ser uma das seguintes constantes <b>OlSaveAsType</b> : <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>, <b>olVCard</b> <b>olICal</b>, ou <b>olMSGUnicode</b>.</param>
         <summary>Salva o item do Microsoft Outlook no caminho e no formato do tipo de arquivo especificados. Se o tipo de arquivo não for especificado, o formato MSG (.msg) será usado.</summary>
-        <remarks>
-          <para>Observe também que, embora <b>olDoc</b> é uma constante <b>OlSaveAsType</b> válida, mensagens no formato HTML não podem ser salvos no formato de documento e a constante <b>olDoc</b> funcionará somente se o Microsoft Word está configurado como o editor de email padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>Observe também que, embora <b>olDoc</b> é uma constante <b>OlSaveAsType</b> válida, mensagens no formato HTML não podem ser salvos no formato de documento e a constante <b>olDoc</b> funcionará somente se o Microsoft Word está configurado como o editor de email padrão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2268,10 +2214,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a prioridade da Microsoft Schedule+ para a tarefa. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Pode ser de 1 a 9, À Z ou A1 a Z9. Prioridade 1 é o mais alto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Pode ser de 1 a 9, de A a Z ou de A1 a Z9. A prioridade 1 é a maior. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -2327,10 +2271,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa a conta na qual o <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto será enviado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>SendUsingAccount</b> pode ser usada para especificar a conta que deve ser usada para enviar o objeto <b>TaskItem</b> quando o <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> método for chamado. Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se a conta especificada para o objeto <b>TaskItem</b> não existe mais.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>SendUsingAccount</b> pode ser usada para especificar a conta que deve ser usada para enviar o objeto <b>TaskItem</b> quando o <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> método for chamado. Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se a conta especificada para o objeto <b>TaskItem</b> não existe mais.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -2361,10 +2303,8 @@
       <Docs>
         <summary>Retorna ou define uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> enumeração indicando a sensibilidade do item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2392,16 +2332,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -2479,8 +2417,7 @@
       <Parameters />
       <Docs>
         <summary>Limpa a ocorrência atual de uma tarefa recorrente e define a recorrência como a próxima ocorrência dessa tarefa.</summary>
-        <returns>
-          <b>False</b> indica que a tarefa foi a última tarefa a recorrência, portanto, não há nenhuma tarefa para definir a recorrência como.  <b>True</b> indica que a recorrência foi definida com sucesso como a próxima ocorrência dessa tarefa.</returns>
+        <returns><b>False</b> indica que a tarefa foi a última tarefa a recorrência, portanto, não há nenhuma tarefa para definir a recorrência como.  <b>True</b> indica que a recorrência foi definida com sucesso como a próxima ocorrência dessa tarefa.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2574,10 +2511,8 @@
       <Docs>
         <summary>Retorna ou define um separados por ponto-e-vírgula <b>String</b> (<b>cadeia de caracteres</b> em c#) de nomes de exibição dos destinatários que receberão status após a conclusão da tarefa. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é calculada a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> propriedade. Os destinatários retornados pela propriedade <b>StatusOnCompletionRecipients</b> correspondem aos destinatários BCC do <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é calculada a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> propriedade. Os destinatários retornados pela propriedade <b>StatusOnCompletionRecipients</b> correspondem aos destinatários BCC do <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> conjunto. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StatusReport">
@@ -2634,10 +2569,8 @@
       <Docs>
         <summary>Retorna uma separados por ponto-e-vírgula <b>String</b> (<b>cadeia de caracteres</b> em c#) de nomes de exibição dos destinatários que recebem atualizações de status da tarefa.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é calculada a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> propriedade. Os destinatários retornados pela propriedade <b>StatusUpdateRecipients</b> correspondem aos destinatários CC do <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é calculada a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> propriedade. Os destinatários retornados pela propriedade <b>StatusUpdateRecipients</b> correspondem aos destinatários CC do <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -2668,10 +2601,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o assunto do item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSubject</b>. A propriedade <b>Subject</b> é a propriedade padrão de itens do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSubject</b>. A propriedade <b>Subject</b> é a propriedade padrão de itens do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TeamTask">
@@ -2733,10 +2664,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>data/hora</b> que representa o valor ordinal da tarefa para o <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é usada para indicar como a tarefa deve ser ordenada nos grupos pai, como o grupo hoje ou o grupo amanhã, da barra de tarefas pendentes.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é usada para indicar como a tarefa deve ser ordenada nos grupos pai, como o grupo Hoje ou o grupo Amanhã, da Barra de Tarefas Pendentes.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TotalWork">
@@ -2767,11 +2696,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) indicando o trabalho total para a tarefa. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>TotalWork</b> corresponde ao campo Trabalho Total na guia Detalhes de um item de tarefa. Ele é armazenado em unidades de minutos. O campo Trabalho Total no formulário de tarefa padrão está vinculado à propriedade <b>TotalWork</b> ; Por padrão, o campo pressupõe um dia de 8 horas e 40 horas semana.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>TotalWork</b> corresponde ao campo trabalho Total na guia detalhes de um item de tarefa. Ele é armazenado em unidades de minutos. O campo trabalho Total no formulário de tarefa padrão está vinculado à propriedade <b>TotalWork</b>; Por padrão, o campo pressupõe um dia de 8 horas e 40 horas semana.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">

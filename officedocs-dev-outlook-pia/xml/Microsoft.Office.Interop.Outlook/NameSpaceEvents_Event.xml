@@ -1,13 +1,5 @@
 <Type Name="NameSpaceEvents_Event" FullName="Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f045237185550e081b3a4867c8df470879b59be" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630812" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c005a7d21957144559d87eb958351e7789b49e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896860" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpaceEvents_Event" />
@@ -68,11 +60,9 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre sempre que a caixa de diálogo Propriedades de uma pasta é aberta.</summary>
-        <remarks>
-          <para>Você pode abrir a caixa de diálogo Propriedades de uma pasta clicando duas vezes na pasta e selecionando Propriedades.</para>
+        <remarks><para>Você pode abrir a caixa de diálogo Propriedades de uma pasta clicando com o botão direito do mouse na pasta e selecionando Propriedades.</para>
           <para>Seu programa manipula esse evento para adicionar uma página de propriedades personalizada. A página de propriedade será adicionada à caixa de diálogo Propriedades da pasta especificada. Quando o evento é acionado, o objeto da coleção <b>PropertyPages</b> identificado pela <paramref name="Pages" /> contém as páginas de propriedades que foram adicionadas antes do manipulador de eventos está sendo chamado. Para adicionar sua página de propriedades à coleção, use o <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> método da coleção <b>PropertyPages</b> antes de sair do manipulador de eventos.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

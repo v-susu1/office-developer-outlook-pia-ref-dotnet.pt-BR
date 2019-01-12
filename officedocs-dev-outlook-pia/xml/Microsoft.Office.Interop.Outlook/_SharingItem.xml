@@ -1,13 +1,5 @@
 <Type Name="_SharingItem" FullName="Microsoft.Office.Interop.Outlook._SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630579" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SharingItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906277" /></Metadata><TypeSignature Language="C#" Value="public interface _SharingItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SharingItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SharingItem" />
@@ -83,14 +75,28 @@
       <Docs>
         <param name="contact">O item de contato do qual as informações do cartão de visita serão obtidas.</param>
         <summary>Acrescenta as informações de contato baseadas no cartão de visita (EBC) associado especificado <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> o objeto para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto.</summary>
-        <remarks>
-          <para>Este método adiciona informações de contato, geradas a partir das informações armazenadas no objeto <b>ContactItem</b> , para o objeto <b>SharingItem</b> existente.  As informações incluídas dependem do valor do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" /> propriedade para o objeto <b>SharingItem</b> :</para>
-          <list type="table">o
-            <item><description>valor da propriedade</description><description>resultado</description></item><item><description>olFormatPlain</description><description>um arquivo vCard (. vcf) é criado e adicionado para o Coleção Attachments do objeto SharingItem.</description></item><item><description>olFormatRichText</description><description>um arquivo vCard (. vcf) é criado e adicionado à coleção Attachments do objeto SharingItem.</description></item><item><description>olFormatHTML</description><description>uma imagem do cartão de visita é gerada e incluída na propriedade corpo do objeto SharingItem, e um arquivo vCard (. vcf) é criado e adicionado à coleção Attachments do objeto SharingItem.</description></item></list>
+        <remarks><para>Este método adiciona informações de contato, geradas a partir das informações armazenadas no objeto <b>ContactItem</b> , para o objeto <b>SharingItem</b> existente.  As informações incluídas dependem do valor do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" /> propriedade para o objeto <b>SharingItem</b> :</para>
+          <list type="table">
+            <item>
+              <description>Property value</description>
+              <description>Resultado</description>
+            </item>
+            <item>
+              <description>olFormatPlain</description>
+              <description>Um arquivo vCard (.vcf) é criado e adicionado ao conjunto Attachments do objeto SharingItem.</description>
+            </item>
+            <item>
+              <description>olFormatRichText</description>
+              <description>Um arquivo vCard (.vcf) é criado e adicionado ao conjunto Attachments do objeto SharingItem.</description>
+            </item>
+            <item>
+              <description>olFormatHTML</description>
+              <description>Uma imagem do cartão de visita é gerada e incluída na propriedade Body do objeto SharingItem e um arquivo vCard (.vcf) é criado e adicionado ao conjunto Attachments do objeto SharingItem.</description>
+            </item>
+          </list>
           <para>
             <b>Observação</b>: O arquivo vCard anexado contém apenas as informações de contato incluídas no cartão de visita eletrônico associado ao objeto <b>ContactItem</b> . Nenhuma informação de contato não exibida no cartão de visita eletrônico é excluída do arquivo vCard.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Allow">
@@ -115,13 +121,11 @@
       <Parameters />
       <Docs>
         <summary>Permite que uma solicitação de compartilhamento e envia uma resposta de compartilhamento ao remetente do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>O método <b>Allow</b> só pode ser chamado nos objetos <b>SharingItem</b> com um <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> valor da propriedade de <b>olSharingMsgTypeRequest</b> ou <b>olSharingMsgTypeInviteAndRequest</b>.</para>
-          <para>a propriedade <b>Type</b> da resposta de compartilhamento enviada quando esse método é chamado é definida como <b>olSharingMsgTypeResponseAllow</b>.</para>
+        <remarks><para>O método <b>Allow</b> só pode ser chamado nos objetos <b>SharingItem</b> com um <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> valor da propriedade de <b>olSharingMsgTypeRequest</b> ou <b>olSharingMsgTypeInviteAndRequest</b>.</para>
+          <para>A propriedade <b>Type</b> da resposta de compartilhamento enviada quando esse método é chamado é definida como <b>olSharingMsgTypeResponseAllow</b>.</para>
           <para>
             <b>Observação</b>: o compartilhamento é permitido imediatamente após este método é chamado, independentemente do recebimento da resposta do compartilhamento.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AllowWriteAccess">
@@ -151,13 +155,10 @@
       </ReturnValue>
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um convite de compartilhamento deve incluir o acesso de gravação à pasta. Leitura/gravação.</summary>
-        <value>
-          <b>True</b> se o destinatário do convite de compartilhamento deve receber acesso de gravação; Caso contrário <b>False</b>. O padrão é <b>False</b>.</value>
-        <remarks>
-          <para>Ao enviar um convite de compartilhamento para uma pasta não-padrão, o destinatário pode ser concedido o acesso de gravação à pasta além de acesso de leitura padrão.  Esta propriedade determina se deve ser concedida permissão de gravação ao destinatário quando o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> é enviada.</para>
-          <para>Ocorrerá um erro se você tentar definir essa propriedade após o compartilhamento mensagem foi enviada ou recebida.</para>
-          <para />
-        </remarks>
+        <value><b>True</b> se o destinatário do convite de compartilhamento deve receber acesso de gravação; Caso contrário <b>False</b>. O padrão é <b>False</b>.</value>
+        <remarks><para>Ao enviar um convite de compartilhamento de uma pasta não padrão, o destinatário pode receber acesso de gravação à pasta além do acesso de leitura padrão.  Esta propriedade determina se deve ser concedida permissão de gravação ao destinatário quando o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> é enviada.</para>
+          <para>Ocorrerá um erro se você tentar definir essa propriedade depois de a mensagem de compartilhamento ter sido enviada ou recebida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlternateRecipientAllowed">
@@ -306,12 +307,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a lista de exibição de nomes de cópia oculta (Cco) para um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém apenas os nomes para exibição, delimitados por ponto e vírgula (;) caracteres. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar os destinatários Cco. </para>
+        <remarks><para>Essa propriedade contém apenas os nomes para exibição, delimitados por ponto e vírgula (;) caracteres. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar os destinatários Cco. </para>
           <para>
-            <b>Observação</b>: se o <b>SharingItem</b> usa um contexto de compartilhamento do Exchange, então a definição dessa propriedade como qualquer valor diferente de <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) impede que o item que está sendo enviada e faz com que o <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />método gere um erro.</para>
-          <para />
-        </remarks>
+            <b>Observação</b>: se o <b>SharingItem</b> usa um contexto de compartilhamento do Exchange, então a definição dessa propriedade como qualquer valor diferente de <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) impede que o item que está sendo enviada e faz com que o <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método Gere um erro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -342,10 +341,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa as informações de cobrança associadas a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de texto de forma livre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este é um campo de texto de forma livre.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -407,11 +404,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" /> constante indicando o formato do corpo de texto.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o formato de texto do corpo determina o padrão usado para exibir o texto da mensagem. O Microsoft Outlook fornece três opções de formato de texto de corpo: texto sem formatação, Rich Text (RTF) e HTML.</para>
+        <remarks><para>O formato do corpo de texto determina o padrão usado para exibir o texto da mensagem. O Microsoft Outlook fornece três opções de formato de corpo de texto: texto sem formatação, RTF e HTML.</para>
           <para>Todo o texto formatação será perdido quando a propriedade <b>BodyFormat</b> for alternada de RTF para HTML e vice-versa.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -442,10 +437,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa as categorias atribuídas ao <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>Categories</b> é uma cadeia de caracteres delimitada de nomes de categoria que tiverem sido atribuídos a um item do Outlook. Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para vários valores de categoria. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função <b>divisão</b>do Microsoft Visual Basic.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>Categories</b> é uma cadeia de caracteres delimitada de nomes de categoria que tiverem sido atribuídos a um item do Outlook. Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para vários valores de categoria. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função <b>divisão</b> do Microsoft Visual Basic.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -476,12 +469,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a lista de exibição de nomes de cópia carbono (CC) para um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém apenas os nomes para exibição, delimitados por ponto e vírgula (;) caracteres. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar os destinatários CC. </para>
+        <remarks><para>Essa propriedade contém apenas os nomes para exibição, delimitados por ponto e vírgula (;) caracteres. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar os destinatários CC. </para>
           <para>
             <b>Observação</b>: se o <b>SharingItem</b> usa um contexto de compartilhamento do Exchange, então a definição dessa propriedade como qualquer valor diferente de <b>Nothing</b> impede que o item que está sendo enviada e faz com que o <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método gere um erro.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -509,10 +500,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade sempre retorna <b>olSharing</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade sempre retorna <b>olSharing</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearConversationIndex">
@@ -562,10 +551,8 @@
       <Parameters />
       <Docs>
         <summary>Limpa o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto como uma tarefa.</summary>
-        <remarks>
-          <para>Chamar este método define a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade como <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Chamar este método define a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade como <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -624,10 +611,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa os nomes das empresas associados a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de texto de forma livre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este é um campo de texto de forma livre. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -683,12 +668,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> do objeto que o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto pertence. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade associa a uma conversa de itens. Esses itens e a conversa têm o mesmo valor em sua propriedade <b>ConversationID</b> .</para>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagConversationId</b>MAPI.</para>
-          <para>Se o objeto <b>SharingItem</b> é criado em uma versão do Microsoft Outlook anteriores ao Microsoft Outlook 2010, ou se o Outlook estiver em execução no modo online em relação a uma versão do Microsoft Exchange Server anteriores ao Microsoft Exchange Server 2010, isso propriedade retorna o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em suas propriedades <b>ConversationID</b>.</para>
+          <para>Essa propriedade corresponde com a propriedade MAPI <b>PidTagConversationId</b>.</para>
+          <para>Se o objeto <b>SharingItem</b> é criado em uma versão do Microsoft Outlook anteriores ao Microsoft Outlook 2010, ou se o Outlook estiver em execução no modo online em relação a uma versão do Microsoft Exchange Server anteriores ao Microsoft Exchange Server 2010, essa propriedade Retorna o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" /> propriedade.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -798,10 +781,8 @@
       <Docs>
         <summary>Retorna a <b>Data e hora</b> que indica a hora de criação para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -832,10 +813,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>Data e hora</b> que indica a data e hora de <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> deve ser entregue.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagDeferredDeliveryTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagDeferredDeliveryTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -860,11 +839,9 @@
       <Parameters />
       <Docs>
         <summary>Remove o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> item da pasta que contém o item.</summary>
-        <remarks>
-          <para>O método <b>Delete</b> exclui um único item em uma coleção. Para excluir todos os itens do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto de uma pasta, você deve excluir cada item começando com o último item na pasta. Por exemplo, no conjunto de itens de uma pasta, selecionando, se houver n número de itens na pasta, iniciar a exclusão do item no AllItems.Item(n), diminuindo o índice de cada vez, até que você exclua AllItems.Item(1).</para>
-          <para>Excluir o método Move o item da pasta que contém a pasta Itens excluídos. Se a pasta que contém a pasta Itens excluídos, o método <b>Delete</b> remove permanentemente o item.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>Delete</b> exclui um único item em uma coleção. Para excluir todos os itens do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto de uma pasta, você deve excluir cada item começando com o último item na pasta. Por exemplo, no conjunto de itens de uma pasta, selecionando, se houver n número de itens na pasta, inicie o item no AllItems.Item(n), diminuindo o índice de cada vez, até que você exclua AllItems.Item(1) a exclusão.</para>
+          <para>O método Delete move o item da pasta que contém a pasta Itens excluídos. Se a pasta que contém a pasta Itens excluídos, o método <b>Delete</b> remove permanentemente o item.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -921,13 +898,11 @@
       <Docs>
         <summary>Nega uma solicitação de compartilhamento e envia uma resposta de compartilhamento ao remetente do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
         <returns>Um objeto <b>SharingItem</b> que representa a resposta de compartilhamento.</returns>
-        <remarks>
-          <para>O método <b>Deny</b> só pode ser chamado nos objetos <b>SharingItem</b> com um <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> valor da propriedade de <b>olSharingMsgTypeRequest</b> ou <b>olSharingMsgTypeInviteAndRequest</b>.</para>
-          <para>Esse método gerará um novo objeto <b>SharingItem</b> e define a propriedade <b>Type</b> do novo objeto como <b>olSharingMsgTypeResponseDeny</b>. O <b>SharingItem</b> não é enviada imediatamente ao remetente da solicitação de compartilhamento, no entanto, para a resposta de compartilhamento possa ser editado conforme necessário.</para>
+        <remarks><para>O método <b>Deny</b> só pode ser chamado nos objetos <b>SharingItem</b> com um <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> valor da propriedade de <b>olSharingMsgTypeRequest</b> ou <b>olSharingMsgTypeInviteAndRequest</b>.</para>
+          <para>Este método gera um novo objeto <b>SharingItem</b> e define a propriedade <b>Type</b> do novo objeto como <b>olSharingMsgTypeResponseDeny</b>. O <b>SharingItem</b> não é enviada imediatamente ao remetente da solicitação de compartilhamento, no entanto, para a resposta de compartilhamento possa ser editado conforme necessário.</para>
           <para>
             <b>Observação</b>: o compartilhamento é negado imediatamente após este método é chamado, independentemente do recebimento da resposta do compartilhamento.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -952,14 +927,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
+        <param name="Modal"><b>True</b> para tornar a janela modal. O valor padrão é <b>False</b>. </param>
         <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> do objeto para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
-          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto Microsoft Outlook, você recebe o código de retorno E_FAIL no C ou C++ linguagens de programação. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método de <b>exibição</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -1052,9 +1024,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a identificação de entrada exclusiva do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para> Provedor de repositórios de 
-          <para>uma MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, pesquise http://msdn.microsoft.com para <b>PidTagEntryId</b>.</para><para /></remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para>
+          <para>Um provedor de armazenamento MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, procure http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -1190,10 +1162,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que indica a ação solicitada para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este é um campo de texto de forma livre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este é um campo de texto de forma livre.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -1284,10 +1254,8 @@
       <Docs>
         <summary>Executa a ação Forward para um item e retorna a cópia resultante como um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto.</summary>
         <returns>Um objeto <b>SharingItem</b> que representa um novo convite de compartilhamento.</returns>
-        <remarks>
-          <para>Ocorrerá um erro se esse método for chamado em convites de compartilhamento usando um contexto de compartilhamento do Exchange ou solicitações de compartilhamento.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ocorrerá um erro se esse método for chamdo nos convites de compartilhamento usando um contexto de compartilhamento do Exchange ou solicitações de compartilhamento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -1313,25 +1281,23 @@
       <Docs>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object que representa a conversa à qual este item pertence.</summary>
         <returns>Retorna um objeto <b>Conversation</b> que representa a conversa à qual este item pertence.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se nenhum conversa existir para o item. Nenhuma conversa existe para um item nos seguintes cenários:</para>
           <list type="bullet">
             <item>
-              <para>o item não foi salvo. Um item pode ser salvo programaticamente, por ação do usuário ou pelo salvamento automático.</para>
+              <para>O item não foi salvo. Um item pode ser salvo programaticamente, com a ação do usuário ou de salvamento automático.</para>
             </item>
             <item>
-              <para>Para um item que pode ser enviado (por exemplo, um item de email, item de compromisso ou item de contato), o item não foi enviado.</para>
+              <para>Para um item que pode ser enviado (por exemplo, um item de email, item de compromisso ou item de contato), o item não não foi enviado.</para>
             </item>
             <item>
-              <para>Conversas foram desabilitadas pelo registro do Windows.</para>
+              <para>As conversas foram desabilitadas por meio do Registro do Windows.</para>
             </item>
             <item>
-              <para>o repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange anteriores ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
+              <para>O repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange anteriores ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1359,10 +1325,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> o objeto que representa um objeto inspector inicializado para conter especificado <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é útil para retornar um novo objeto <b>Inspector</b> no qual exibir o item, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é útil para retornar um novo objeto <b>Inspector</b> no qual exibir o item, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> propriedade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLBody">
@@ -1393,12 +1357,10 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o corpo HTML de especificado <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>HTMLBody</b> deve ser uma cadeia de caracteres de sintaxe HTML.</para>
+        <remarks><para>A propriedade <b>HTMLBody</b> deve ser uma cadeia de caracteres de sintaxe HTML.</para>
           <para>Definindo os conjuntos de propriedade <b>HTMLBody</b> o <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> propriedade do item <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> como <b>olEditorHTML</b>.</para>
-          <para>Definição <b>HTMLBody</b> propriedade sempre irá atualizar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" /> propriedade imediatamente.</para>
-          <para />
-        </remarks>
+          <para>Definindo o <b>HTMLBody</b> propriedade sempre irá atualizar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" /> propriedade imediatamente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1429,10 +1391,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constante indicando o nível de importância relativa para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1463,28 +1423,32 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que determina a página de código de Internet usada pelo <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Página de código de Internet define o esquema de codificação de texto usado pelo item.</para>
-          <para>a tabela a seguir lista os valores que são compatíveis com a propriedade <b>InternetCodepage oferece</b> .</para>
+        <remarks><para>A página de código de Internet define o esquema de codificação de texto usado pelo item.</para>
+          <para>A tabela a seguir lista os valores que são compatíveis com a propriedade <b>InternetCodepage oferece</b>.</para>
           <list type="table">
             <item>
-              <description>Do conjunto de caracteres</description>do 
-              <description>nome da</description><description>Página de código</description></item>
-            <item>de
-              <description>iso 8859-6 </description><description>Árabe (ISO)</description><description>28596 </description></item>
+              <description>Nome</description>
+              <description>Conjunto de caracteres</description>
+              <description>Página de código</description>
+            </item>
             <item>
-              <description>árabe (Windows)</description>
-              <description>windows 1256 </description>
+              <description>Arábico (ISO)</description>
+              <description>iso-8859-6 </description>
+              <description>28596 </description>
+            </item>
+            <item>
+              <description>Arábico (Windows)</description>
+              <description>windows-1256 </description>
               <description>1256 </description>
             </item>
             <item>
-              <description>báltico (ISO )</description>
+              <description>Báltico (ISO)</description>
               <description>iso-8859-4 </description>
               <description>28594 </description>
             </item>
             <item>
-              <description>báltico (Windows)</description>
-              <description>windows 1257 </description>
+              <description>Báltico (Windows)</description>
+              <description>windows-1257 </description>
               <description>1257 </description>
             </item>
             <item>
@@ -1493,171 +1457,181 @@
               <description>28592 </description>
             </item>
             <item>
-              <description>Central Europeu (Windows)</description>
-              <description>1250 do windows </description>
+              <description>Europeu Central (Windows)</description>
+              <description>windows-1250 </description>
               <description>1250 </description>
             </item>
-            <item>de 
-              <description>gb2312 </description><description>Chinês simplificado (GB2312) </description><description>936 </description></item>
+            <item>
+              <description>Chinês simplificado (GB2312) </description>
+              <description>GB2312 </description>
+              <description>936 </description>
+            </item>
             <item>
               <description>Chinês simplificado (HZ) </description>
               <description>hz-gb-2312 </description>
-              <description>52936</description>
+              <description>52936 </description>
             </item>
             <item>
               <description>Chinês tradicional (Big5) </description>
-              <description>big5 </description>
-              <description>950</description>
+              <description>Big5 </description>
+              <description>950 </description>
             </item>
             <item>
               <description>Cirílico (ISO) </description>
-              <description>iso 8859-5 </description>
-              <description>28595</description>
+              <description>iso-8859-5 </description>
+              <description>28595 </description>
             </item>
             <item>
               <description>Cirílico (KOI8-R) </description>
               <description>koi8-r </description>
-              <description>20866</description>
+              <description>20866 </description>
             </item>
             <item>
               <description>Cirílico (KOI8-U) </description>
               <description>koi8-u </description>
-              <description>21866</description>
+              <description>21866 </description>
             </item>
             <item>
               <description>Cirílico (Windows) </description>
               <description>windows-1251 </description>
-              <description>1251</description>
+              <description>1251 </description>
             </item>
             <item>
               <description>Grego (ISO) </description>
-              <description>iso 8859-7 </description>
-              <description>28597</description>
+              <description>iso-8859-7 </description>
+              <description>28597 </description>
             </item>
             <item>
               <description>Grego (Windows) </description>
               <description>windows-1253 </description>
-              <description>1253</description>
+              <description>1253 </description>
             </item>
             <item>
-              <description>Hebraico (ISO-lógico) </description>
-              <description>iso 8859-8 i </description>
-              <description>38598</description>
+              <description>Hebraico (ISO-Lógico) </description>
+              <description>iso-8859-8-i </description>
+              <description>38598 </description>
             </item>
             <item>
               <description>Hebraico (Windows) </description>
               <description>windows-1255 </description>
-              <description>1255</description>
+              <description>1255 </description>
             </item>
             <item>
               <description>Japonês (EUC) </description>
               <description>euc-jp </description>
-              <description>51932</description>
+              <description>51932 </description>
             </item>
             <item>
               <description>Japonês (JIS) </description>
               <description>iso-2022-jp </description>
-              <description>50220</description>
+              <description>50220 </description>
             </item>
             <item>
               <description>Japonês (JIS-Permitir 1 byte Kana) </description>
               <description>csISO2022JP </description>
-              <description>50221</description>
+              <description>50221 </description>
             </item>
             <item>
-              <description>Japonês (Shift-JIS) </description>
+              <description>Japonês (Shift-JIS). </description>
               <description>iso-2022-jp </description>
-              <description>932</description>
+              <description>932 </description>
             </item>
             <item>
               <description>Coreano </description>
               <description>ks_c_5601-1987 </description>
-              <description>949</description>
+              <description>949 </description>
             </item>
             <item>
               <description>Coreano (EUC) </description>
               <description>euc-kr </description>
-              <description>51949</description>
+              <description>51949 </description>
             </item>
             <item>
-              <description>Latino 3 (ISO) </description>
-              <description>iso 8859-3 </description>
-              <description>28593</description>
+              <description>Latim 3 (ISO) </description>
+              <description>iso-8859-3 </description>
+              <description>28593 </description>
             </item>
             <item>
-              <description>Latino 9 (ISO) </description>
-              <description>iso 8859-15 </description>
-              <description>28605</description>
+              <description>Latim 9 (ISO) </description>
+              <description>iso-8859-15 </description>
+              <description>28605 </description>
             </item>
             <item>
               <description>Tailandês (Windows) </description>
-              <description>windows 874 </description>
-              <description>874</description>
+              <description>windows-874 </description>
+              <description>874 </description>
             </item>
             <item>
               <description>Turco (ISO) </description>
-              <description>iso 8859-9 </description>
-              <description>28599</description>
+              <description>iso-8859-9 </description>
+              <description>28599 </description>
             </item>
             <item>
               <description>Turco (Windows) </description>
               <description>windows-1254 </description>
-              <description>1254</description>
+              <description>1254 </description>
             </item>
             <item>
               <description>Unicode (UTF-7) </description>
               <description>utf-7 </description>
-              <description>65000</description>
+              <description>65000 </description>
             </item>
             <item>
               <description>Unicode (UTF-8) </description>
-              <description>codificação utf-8 </description>
-              <description>65001</description>
+              <description>utf-8 </description>
+              <description>65001 </description>
             </item>
             <item>
-              <description>US-ASCII </description>
               <description>us-ascii </description>
-              <description>20127</description>
+              <description>us-ascii </description>
+              <description>20127 </description>
             </item>
             <item>
               <description>Vietnamita (Windows) </description>
               <description>windows-1258 </description>
-              <description>1258</description>
+              <description>1258 </description>
             </item>
             <item>
-              <description>Europeu Ocidental (ISO) </description>
-              <description>iso 8859-1 </description>
-              <description>28591</description>
+              <description>Europeu ocidental (ISO) </description>
+              <description>iso-8859-1 </description>
+              <description>28591 </description>
             </item>
             <item>
-              <description>Europeu Ocidental (Windows) </description>do 
-              <description>windows-1252 </description><description>1252</description></item>
+              <description>Europeu ocidental (Windows) </description>
+              <description>windows-1252 </description>
+              <description>1252 </description>
+            </item>
           </list>
-          <para>a tabela a seguir lista as páginas de código que a Microsoft recomenda que você use para a melhor compatibilidade com sistemas de email mais antigos.</para>
+          <para>A tabela a seguir lista as páginas de código que a Microsoft recomenda que você use para a melhor compatibilidade com sistemas de email mais antigos.</para>
           <list type="table">
             <item>
-              <description>Do conjunto de caracteres</description>do 
-              <description>nome da</description><description>Página de código</description></item>
+              <description>Nome</description>
+              <description>Conjunto de caracteres</description>
+              <description>Página de código</description>
+            </item>
             <item>
-              <description>árabe (Windows)</description>
-              <description>windows 1256 </description>
+              <description>Arábico (Windows)</description>
+              <description>windows-1256 </description>
               <description>1256 </description>
             </item>
             <item>
               <description>Báltico (ISO)</description>
-              <description>iso-8859-4</description>
-              <description> 28594 </description>
+              <description>iso-8859-4 </description>
+              <description>28594 </description>
             </item>
             <item>
-              <description>Europeu central (ISO)</description>
+              <description>Europeu Central (ISO)</description>
               <description>iso-8859-2 </description>
               <description>28592 </description>
             </item>
-            <item>de 
-              <description>gb2312 </description><description>Chinês simplificado (GB2312) </description><description>936 </description></item>
             <item>
-              <description>(chinês tradicional Big5) </description>
-              <description>big5 </description>
+              <description>Chinês simplificado (GB2312) </description>
+              <description>GB2312 </description>
+              <description>936 </description>
+            </item>
+            <item>
+              <description>Chinês tradicional (Big5) </description>
+              <description>Big5 </description>
               <description>950 </description>
             </item>
             <item>
@@ -1668,61 +1642,60 @@
             <item>
               <description>Cirílico (Windows) </description>
               <description>windows-1251 </description>
-              <description>1251</description>
+              <description>1251 </description>
             </item>
             <item>
-              <description>Grego (ISO)</description>
-              <description>ISO 8859-7</description>
-              <description>28597</description>
+              <description>Grego (ISO) </description>
+              <description>iso-8859-7 </description>
+              <description>28597 </description>
             </item>
             <item>
               <description>Hebraico (Windows) </description>
               <description>windows-1255 </description>
-              <description>1255</description>
+              <description>1255 </description>
             </item>
             <item>
               <description>Japonês (JIS) </description>
               <description>iso-2022-jp </description>
-              <description>50220</description>
+              <description>50220 </description>
             </item>
             <item>
               <description>Coreano </description>
               <description>ks_c_5601-1987 </description>
-              <description>949</description>
+              <description>949 </description>
             </item>
             <item>
               <description>Tailandês (Windows) </description>
-              <description>windows 874 </description>
-              <description>874</description>
+              <description>windows-874 </description>
+              <description>874 </description>
             </item>
             <item>
               <description>Turco (ISO) </description>
-              <description>iso 8859-9 </description>
-              <description>28599</description>
+              <description>iso-8859-9 </description>
+              <description>28599 </description>
             </item>
             <item>
               <description>Unicode (UTF-8) </description>
-              <description>codificação utf-8 </description>
-              <description>65001</description>
+              <description>utf-8 </description>
+              <description>65001 </description>
             </item>
             <item>
-              <description>US-ASCII </description>
               <description>us-ascii </description>
-              <description>20127</description>
+              <description>us-ascii </description>
+              <description>20127 </description>
             </item>
             <item>
               <description>Vietnamita (Windows) </description>
               <description>windows-1258 </description>
-              <description>1258</description>
+              <description>1258 </description>
             </item>
             <item>
-              <description>Europeu Ocidental (ISO) </description>
-              <description>iso 8859-1 </description>
-              <description>28591</description>
+              <description>Europeu ocidental (ISO) </description>
+              <description>iso-8859-1 </description>
+              <description>28591 </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1750,11 +1723,9 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> está em conflito. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ou não um item está em conflito é determinado pelo estado do aplicativo. Por exemplo, quando um usuário estiver offline e tenta acessar uma pasta on-line, a ação falhará. Neste cenário, a propriedade <b>IsConflict</b> retornará <b>True</b>.</para>
+        <remarks><para>Ou não um item está em conflito é determinado pelo estado do aplicativo. Por exemplo, quando um usuário estiver offline e tenta acessar uma pasta on-line, a ação falhará. Neste cenário, a propriedade <b>IsConflict</b> retornará <b>True</b>.</para>
           <para>Se <b>True</b>, o item especificado está em conflito.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsMarkedAsTask">
@@ -1810,10 +1781,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> coleção que representa todas as propriedades definidas pelo usuário e padrão associado a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A coleção <b>ItemProperties</b> é um conjunto com base em zero, significando que o primeiro objeto na coleção é referenciado pelo índice 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>A coleção <b>ItemProperties</b> é um conjunto com base em zero, significando que o primeiro objeto na coleção é referenciado pelo índice 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1841,10 +1810,8 @@
       <Docs>
         <summary>Retorna um <b>DateTime</b> especificando a data e hora em que o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> da última modificação.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagLastModificationTime</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagLastModificationTime</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1903,10 +1870,8 @@
       <Docs>
         <param name="MarkInterval">O intervalo de tarefas para o <b>SharingItem</b>.</param>
         <summary>Marca um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto como uma tarefa e atribui um intervalo de tarefa para o objeto.</summary>
-        <remarks>
-          <para>Chamar este método define a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade como <b>True</b> e atualizações do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, e <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" /> propriedades dependendo do valor fornecido no <paramref name="MarkInterval" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Chamar este método define a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade como <b>True</b> e atualizações do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, e <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" /> propriedades dependendo do valor fornecido no <paramref name="MarkInterval" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1937,10 +1902,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> constante que determina o status de um item após ele ser recebido por um usuário remoto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade dá usuários remotos com menos à ideal para transferência de dados recursos maior mensagens flexibilidade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade dá maior flexibilidade de uso de mensagens para usuários remotos com menos capacidade de transferência de dados do que o ideal.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1971,11 +1934,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
-          <para>o valor padrão para essa propriedade é IPM. Compartilhando.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b> MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
+          <para>O valor padrão para essa propriedade é IPM.Sharing.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -2006,10 +1967,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o mileage para um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Isso é um campo de cadeia de caracteres de forma livre e pode ser usado para armazenar informações de mileage associadas ao item (por exemplo, 100 milhas documentados para um compromisso, contato ou tarefa) para propósitos de reembolso.</para>
-          <para />
-        </remarks>
+        <remarks><para>É um campo de sequência de caracteres de forma livre e pode ser usado para armazenar informações de quilometragem associadas ao item (por exemplo, 100 quilômetros documentados para um compromisso, um contato ou uma tarefa) para fins de reembolso. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -2095,10 +2054,8 @@
       <Docs>
         <summary>Abre uma pasta compartilhada oferecida por um convite de compartilhamento.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta compartilhada.</returns>
-        <remarks>
-          <para>Esse método permite que o destinatário de um convite de compartilhamento para abrir a pasta compartilhada oferecida pelo remetente. Ocorrerá um erro se esse método for chamado em uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto com um valor da propriedade type diferente <b>olSharingMsgTypeInvite</b> ou <b>olSharingMsgTypeInviteAndRequest</b>, ou se o Outlook não pode se conectar à pasta compartilhada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método permite que o destinatário de um convite de compartilhamento para abrir a pasta compartilhada oferecida pelo remetente. Ocorrerá um erro se esse método for chamado em uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto com um valor da propriedade type diferente <b>olSharingMsgTypeInvite</b> ou <b>olSharingMsgTypeInviteAndRequest</b>, ou se o Outlook não pode se conectar à pasta compartilhada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginatorDeliveryReportRequested">
@@ -2129,11 +2086,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se o autor do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> receberá uma notificação de entrega. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cada provedor de transporte que manipular sua mensagem envia uma notificação de entrega simples contendo os nomes e os endereços de cada destinatário ao qual ela foi entregue. Entrega não significa que a mensagem foi lido. True se o originador solicitada uma confirmação de entrega da mensagem. </para>
-          <para>a propriedade <b>OriginatorDeliveryReportRequested</b> corresponde à propriedade <b>PidTagOriginatorDeliveryReportRequested</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cada provedor de transporte que manipular a mensagem lhe enviará uma notificação de entrega simples contendo os nomes e endereços de cada destinatário ao qual ela foi entregue. A entrega não significa que a mensagem tenha sido lida. True se a origem tiver solicitado uma confirmação de entrega da mensagem.</para>
+          <para>A propriedade <b>OriginatorDeliveryReportRequested</b> corresponde à propriedade <b>PidTagOriginatorDeliveryReportRequested</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -2217,10 +2172,8 @@
       <Docs>
         <summary>Retorna o <b>objeto</b> de especificado pai <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se o <b>SharingItem</b> acabou de ser criada, essa propriedade retorna uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto representando a pasta de caixa de entrada. Caso contrário, essa propriedade retorna um objeto <b>Folder</b> que representa a pasta na qual o <b>SharingItem</b> foi salvo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se o <b>SharingItem</b> acabou de ser criada, essa propriedade retorna uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto representando a pasta de caixa de entrada. Caso contrário, essa propriedade retorna um objeto <b>Folder</b> que representa a pasta na qual o <b>SharingItem</b> foi salvo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Permission">
@@ -2251,12 +2204,10 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" /> constante que determina as permissões que os destinatários terão sobre o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Permission</b> deve ser sincronizada com o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" /> propriedade reflita com precisão o status de permissão de um <b>objeto SharingItem</b>. Definindo a propriedade <b>PermissionTemplateGuid</b> para uma GUID válida também deve incorrer definindo a propriedade de <b>permissão</b> para <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
-          <para>Quando nenhum gerenciamento de direitos de informação (IRM) foi configurado (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), ou a restrição é não encaminhar o <b>SharingItem</b> (caso em que a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />), o valor da propriedade <b>PermissionTemplateGuid</b> deve ser uma sequência vazia.</para>
-          <para>Embora você possa exibir conteúdo protegido por IRM em qualquer computador executando o 2007 Microsoft Office system ou uma versão posterior, você deve ter o Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 ou uma versão posterior do Outlook para criar ou enviar um email protegido pelo IRM.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>Permission</b> deve ser sincronizada com o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" /> propriedade reflita com precisão o status de permissão de um <b>objeto SharingItem</b>. Definindo a propriedade <b>PermissionTemplateGuid</b> para uma GUID válida também deve incorrer definindo a propriedade de <b>permissão</b> para <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
+          <para>Quando nenhum gerenciamento de direitos de informação (IRM) foi configurado (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), ou a restrição é não encaminhar o <b>SharingItem</b> (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />), o valor da a propriedade <b>PermissionTemplateGuid</b> deve ser uma sequência vazia.</para>
+          <para>Embora seja possível exibir o conteúdo protegido por IRM em qualquer computador que execute o 2007 Microsoft Office system ou uma versão posterior, é preciso ter o Microsoft Office Professional Edition 2003, o Microsoft Office Outlook 2007 ou uma versão posterior do Outlook para criar ou enviar um email protegido por IRM.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionService">
@@ -2287,11 +2238,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" /> constante que determina o serviço de permissão que será usado ao enviar um <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> protegido por gerenciamento de direitos de informação (IRM). Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é útil apenas se você tiver mais de uma identidade de permissão para um determinado endereço SMTP.</para>
-          <para>Enquanto você pode visualizar o conteúdo protegido por IRM em qualquer computador executando o 2007 Microsoft Office system ou uma versão posterior, você deve ter o Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 ou uma versão posterior do Outlook para criar ou enviar um email protegido pelo IRM.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é útil apenas se você tiver mais de uma identidade de permissão para um determinado endereço SMTP. </para>
+          <para>Embora seja possível exibir o conteúdo protegido por IRM em qualquer computador executando o 2007 Microsoft Office system, ou versão posterior, é preciso ter o Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 ou uma versão posterior do Outlook para criar ou enviar um email protegido pelo IRM.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionTemplateGuid">
@@ -2322,10 +2271,11 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o GUID do arquivo de modelo a ser aplicado ao <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> para especificar permissões de gerenciamento de direitos de informação (IRM). Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade complementa as propriedades IRM em um objeto <b>SharingItem</b> ; ou seja, o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" /> propriedade e o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" /> propriedades.</para>
-          <para>Em particular, a propriedade <b>PermissionTemplateGuid</b> deve ser sincronizada com a propriedade <b>Permission</b> reflita com precisão o status de permissão de um <b>objeto SharingItem</b>. Definindo a propriedade <b>PermissionTemplateGuid</b> para uma GUID válida também deve incorrer definindo a propriedade de <b>permissão</b> para <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para> Propriedade 
-          <para>um valor de cadeia de caracteres vazia para o <b>PermissionTemplateGuid</b> significa que não há nenhum arquivo de modelo de permissão especificado para o <b>SharingItem</b>. Por exemplo, se nenhum IRM tiver sido configurada (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), ou a restrição é não encaminhar o <b>SharingItem</b> (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para><para>Se você tenta definir a propriedade <b>PermissionTemplateGuid</b> para uma mensagem recebida (ou seja, o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> propriedade do <b>SharingItem</b> for <b>True</b>), Microsoft Outlook retornará um erro.</para><para /></remarks>
+        <remarks><para>Essa propriedade complementa as propriedades IRM em um objeto <b>SharingItem</b> ; ou seja, o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" /> propriedade e o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" /> propriedades.</para>
+          <para>Em particular, a propriedade <b>PermissionTemplateGuid</b> deve ser sincronizada com a propriedade <b>Permission</b> reflita com precisão o status de permissão de um <b>objeto SharingItem</b>. Definindo a propriedade <b>PermissionTemplateGuid</b> para uma GUID válida também deve incorrer definindo a propriedade de <b>permissão</b> para <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para>
+          <para>Um valor de cadeia de caracteres vazia para a propriedade <b>PermissionTemplateGuid</b> significa que não há nenhum arquivo de modelo de permissão especificado para o <b>SharingItem</b>. Por exemplo, se nenhum IRM tiver sido configurada (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), ou a restrição é não encaminhar o <b>SharingItem</b> (nesse caso a propriedade <b>Permission</b> é <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para>
+          <para>Se você tenta definir a propriedade <b>PermissionTemplateGuid</b> para uma mensagem recebida (ou seja, o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> propriedade do <b>SharingItem</b> for <b>True</b>), Microsoft Outlook retornará um erro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrintOut">
@@ -2350,10 +2300,8 @@
       <Parameters />
       <Docs>
         <summary>Imprime o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> usando todas as configurações padrão.</summary>
-        <remarks>
-          <para>O método <b>PrintOut</b> é o único método do Outlook que pode ser usado para impressão.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>PrintOut</b> é o único método do Outlook que pode ser usado para impressão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -2412,10 +2360,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica <b>True</b> se uma confirmação de leitura tiver sido solicitada pelo remetente.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReadReceiptRequested</b>. Essa propriedade é leitura/gravação para <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objetos que tiverem sido criados, mas não foram enviados ou postados; ele é somente leitura para objetos de <b>SharingItem</b> enviados.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReadReceiptRequested</b>. Essa propriedade é leitura/gravação para <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objetos que tiverem sido criados, mas não foram enviados ou postados; ele é somente leitura para objetos de <b>SharingItem</b> enviados. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByEntryID">
@@ -2443,10 +2389,8 @@
       <Docs>
         <summary>Retorna um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> do destinatário real conforme definido pelo provedor de transporte como entregar a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade MAPI <b>PidTagReceivedByEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade MAPI <b>PidTagReceivedByEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByName">
@@ -2474,10 +2418,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição do destinatário real para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReceivedByName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReceivedByName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfEntryID">
@@ -2505,10 +2447,8 @@
       <Docs>
         <summary>Retorna um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> do usuário delegado para representar o destinatário para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade MAPI <b>PidTagReceivedRepresentingEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade MAPI <b>PidTagReceivedRepresentingEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfName">
@@ -2536,10 +2476,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição do usuário delegado para representar o destinatário para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReceivedRepresentingName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagReceivedRepresentingName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedTime">
@@ -2626,10 +2564,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção que representa todos os destinatários para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um destinatário pode ser especificado por uma cadeia de caracteres representando o nome para exibição, alias ou endereço de email SMTP completo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um destinatário pode ser especificado por uma cadeia de caracteres representando o nome para exibição, alias ou endereço de email SMTP completo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -2660,10 +2596,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o lembrete substituir o comportamento padrão de lembrete para especificado <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você deve definir a propriedade <b>ReminderOverrideDefault</b> para validar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> e o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> propriedades.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você deve definir a propriedade <b>ReminderOverrideDefault</b> para validar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> e o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> propriedades.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2694,10 +2628,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o lembrete deverá tocar um som quando ocorrer para especificado <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>ReminderPlaySound</b> deve ser definida para validar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>ReminderPlaySound</b> deve ser definida para validar o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> propriedade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2759,10 +2691,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o caminho e o nome do arquivo de som a ser reproduzido quando o lembrete ocorrer para o item do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade só será válida se as <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" /> e <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> propriedades são definidas como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade só será válida se as <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" /> e <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> propriedades são definidas como <b>True</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2821,11 +2751,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o identificador exclusivo do contexto de compartilhamento para uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém GUID ou EntryID para o contexto de compartilhamento contido no objeto <b>SharingItem</b> .</para>
+        <remarks><para>Essa propriedade contém GUID ou EntryID para o contexto de compartilhamento contido no objeto <b>SharingItem</b>.</para>
           <para>Essa propriedade é definida como uma sequência vazia se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> propriedade do objeto <b>SharingItem</b> está definida como <b>olSharingMsgTypeRequest</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteName">
@@ -2853,11 +2781,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome do contexto de compartilhamento para uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém o nome usado para o contexto de compartilhamento, como o nome da pasta ou do item, contido no objeto <b>SharingItem</b> .</para>
+        <remarks><para>Essa propriedade contém o nome usado para o contexto de compartilhamento, como o nome da pasta ou do item, contido no objeto <b>SharingItem</b>.</para>
           <para>Essa propriedade é definida como uma sequência vazia se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> propriedade do objeto <b>SharingItem</b> está definida como <b>olSharingMsgTypeRequest</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemotePath">
@@ -2885,11 +2811,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o caminho de contexto de compartilhamento para uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém o caminho do contexto de compartilhamento, como a URL de um calendário WebCal, contido no objeto <b>SharingItem</b> .</para>
+        <remarks><para>Essa propriedade contém o caminho do contexto de compartilhamento, como a URL de um calendário WebCal, contido no objeto <b>SharingItem</b>.</para>
           <para>Essa propriedade é definida como uma sequência vazia se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> propriedade do objeto <b>SharingItem</b> está definida como <b>olSharingMsgTypeRequest</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteStatus">
@@ -3000,10 +2924,8 @@
       <Docs>
         <summary>Retorna uma lista de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) separados por ponto-e-vírgula de destinatários de resposta a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém apenas os nomes de exibição para os destinatários da resposta. A lista de destinatários de resposta deve ser definida por meio do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade contém apenas os nomes de exibição para os destinatários da resposta. A lista de destinatários de resposta deve ser definida por meio do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" /> conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyRecipients">
@@ -3059,10 +2981,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> constante que representa o tipo da pasta padrão para o qual o acesso é solicitado por uma solicitação de compartilhamento. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object que representa uma solicitação de compartilhamento só pode solicitar acesso a uma pasta padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>Uma <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object que representa uma solicitação de compartilhamento só pode solicitar acesso a uma pasta padrão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionExpirationDate">
@@ -3090,8 +3010,22 @@
       <Docs>
         <summary>Retorna um <see cref="T:System.DateTime" /> valor que especifica a data quando o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto expira, após o qual o Assistente de gerenciamento de registros de mensagens (MRM) excluirá o item. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>Política de retenção <para>uma é habilitada e desabilitada por um administrador de um Microsoft Exchange Server em um nível de caixa de correio. Este recurso está disponível somente em uma caixa de correio do Exchange Server 2010 com 2.0 MRM habilitado. </para><para>Microsoft Outlook calcula o valor dessa propriedade baseado no item Data de início de retenção e o período de retenção, se o Outlook está no cache ou no modo offline. O Exchange Server Especifica o valor se o Outlook está no modo online.</para><para>Em geral, a retenção data de início para o item é determinado desta forma:</para><list type="bullet"><item><para>Received ou itens enviados: a data de início da retenção é a data de recebimento.</para></item><item><para>Itens de calendário não recorrentes: a data de início da retenção é a data de término do compromisso.</para></item> Itens de calendário recorrente 
-            <item><para>: a data de início da retenção é a data de término da última recorrência. Se não houver nenhuma data final, o item nunca expira.</para></item></list><para /><para /></remarks>
+        <remarks><para>Uma política de retenção é habilitada e desabilitada por um administrador de um Microsoft Exchange Server em um nível de caixa de correio. Este recurso está disponível somente em uma caixa de correio do Exchange Server 2010 com 2.0 MRM habilitado. </para>
+          <para>O Microsoft Outlook calculará o valor desta propriedade com base na data de início de retenção do item e no período de retenção, se Outlook estiver no modo cache ou offline. O Exchange Server especificará o valor se o Outlook estiver no modo online.</para>
+          <para>Em geral, a data de início da retenção do item é determinada desta forma:</para>
+          <list type="bullet">
+            <item>
+              <para>Itens recebidos e enviados: a data de início da retenção é a data de recebimento.</para>
+            </item>
+            <item>
+              <para>Itens de calendário não recorrentes: a data de início da retenção é a data de término do compromisso.</para>
+            </item>
+            <item>
+              <para>Itens de calendário recorrentes: a data de início da retenção é a data de término da última recorrência. Se não existir uma data de término, o item nunca vai expirar.</para>
+            </item>
+          </list>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -3119,10 +3053,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica o nome da política de retenção. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Retenção é habilitada e desabilitada por um administrador de um Microsoft Exchange Server em um nível de caixa de correio. O recurso está disponível somente em uma caixa de correio do Exchange Server 2010 com mensagens registros gerenciamento (MRM) 2.0 habilitado. Um exemplo de um nome de política de retenção é "Definir o intervalo de tempo de expiração pesquisas rápidas".</para>
-          <para />
-        </remarks>
+        <remarks><para>Retenção é habilitada e desabilitada por um administrador de um Microsoft Exchange Server em um nível de caixa de correio. O recurso está disponível somente em uma caixa de correio do Exchange Server 2010 com mensagens registros gerenciamento (MRM) 2.0 habilitado. Um exemplo de um nome de política de retenção é "Definir o intervalo de tempo de expiração pesquisas rápidas".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -3153,10 +3085,8 @@
       <Docs>
         <summary>Retorna ou define uma matriz de bytes que representa o corpo do item do Microsoft Outlook, no formato Rich Text. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode usar o método ASCIIEncoding em c# ou Visual Basic para converter uma matriz de bytes em uma cadeia de caracteres.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar o método ASCIIEncoding em c# ou Visual Basic para converter uma matriz de bytes em uma cadeia de caracteres.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -3208,12 +3138,10 @@
       </Parameters>
       <Docs>
         <param name="Path">O caminho no qual o item deve ser salvo.</param>
-        <param name="Type">O tipo de arquivo para salvar. Pode ser uma das seguintes constantes <b>OlSaveAsType</b> : <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>, <b>olVCard</b><b>olICal</b>, ou <b>olMSGUnicode</b>.</param>
+        <param name="Type">O tipo de arquivo para salvar. Pode ser uma das seguintes constantes <b>OlSaveAsType</b> : <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>, <b>olVCard</b> <b>olICal</b>, ou <b>olMSGUnicode</b>.</param>
         <summary>Salva o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> no caminho especificado e no formato do tipo de arquivo especificado. Se o tipo de arquivo não for especificado, o formato MSG (.msg) será usado.</summary>
-        <remarks>
-          <para>Observe também que, embora <b>olDoc</b> é uma constante <b>OlSaveAsType</b> válida, mensagens no formato HTML não podem ser salvos no formato de documento e a constante <b>olDoc</b> funcionará somente se o Microsoft Word está configurado como o editor de email padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>Observe também que, embora <b>olDoc</b> é uma constante <b>OlSaveAsType</b> válida, mensagens no formato HTML não podem ser salvos no formato de documento e a constante <b>olDoc</b> funcionará somente se o Microsoft Word está configurado como o editor de email padrão.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -3297,12 +3225,10 @@
       <Parameters />
       <Docs>
         <summary>Envia o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>O método <b>Send</b> envia um item usando a conta padrão especificada para a sessão. Em uma sessão onde várias contas do Microsoft Exchange são definidas no perfil, a primeira conta Exchange adicionada ao perfil do é a conta principal do Exchange e também é a conta padrão para a sessão. Para especificar uma conta diferente para enviar um item, defina o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> propriedade para o estado desejado <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objeto e, em seguida, chamar o método <b>Send</b> .</para>
-          <para>Certos provedores de compartilhamento podem ter restrições no tipo de destinatários permitidos. Quando esse método é chamado, alguns provedores tentará defina acesso entradas de controle de lista (ACL) na pasta de cada destinatário incluído no <b>objeto SharingItem</b>. Se ocorrer um erro ao tentar definir ACLs para qualquer destinatário, este método gera um erro e o <b>SharingItem</b> não é enviadas para qualquer um dos destinatários.</para>
+        <remarks><para>O método <b>Send</b> envia um item usando a conta padrão especificada para a sessão. Em uma sessão onde várias contas do Microsoft Exchange são definidas no perfil, a primeira conta Exchange adicionada ao perfil do é a conta principal do Exchange e também é a conta padrão para a sessão. Para especificar uma conta diferente para enviar um item, defina o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> propriedade para o estado desejado <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objeto e, em seguida, chamar o método <b>Send</b> .</para>
+          <para>Alguns provedores de compartilhamento podem ter restrições no tipo de destinatários permitidos. Quando esse método é chamado, alguns provedores tentará defina acesso entradas de controle de lista (ACL) na pasta de cada destinatário incluído no <b>objeto SharingItem</b>. Se ocorrer um erro ao tentar definir ACLs para qualquer destinatário, este método gera um erro e o <b>SharingItem</b> não é enviadas para qualquer um dos destinatários.</para>
           <para>Ocorrerá um erro se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BCC" /> ou <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.CC" /> propriedades são definidas para um <b>SharingItem</b> usando um contexto de compartilhamento do Exchange.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -3330,10 +3256,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o endereço de email do remetente do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.   Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSenderEmailAddress</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSenderEmailAddress</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -3389,11 +3313,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o nome de exibição do remetente para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSenderName</b>.</para>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSenderName</b>.</para>
           <para>Se você desejar recuperar o endereço de email totalmente qualificado do remetente, use o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SenderEmailAddress" /> propriedade.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -3424,11 +3346,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa a conta na qual o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> devem ser enviados. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>SendUsingAccount</b> pode ser usada para especificar a conta que deve ser usada para enviar <b>SharingItem</b> quando o <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método for chamado. Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <b>SharingItem</b> for um item recebido ou se a conta especificada para o <b>SharingItem</b> não existe mais.</para>
-          <para>Essa propriedade é somente leitura se o <b>SharingItem</b> for um item recebido ou se <b>SharingItem</b> já tiver sido enviado (a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> propriedade do objeto é definida como <b>True</b>.)</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>SendUsingAccount</b> pode ser usada para especificar a conta que deve ser usada para enviar <b>SharingItem</b> quando o <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método for chamado. Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <b>SharingItem</b> for um item recebido ou se a conta especificada para o <b>SharingItem</b> não existe mais.</para>
+          <para> Essa propriedade é somente leitura se o <b>SharingItem</b> for um item recebido ou se <b>SharingItem</b> já tiver sido enviado (a <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> propriedade do objeto é definida como <b>True</b>.)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -3459,10 +3379,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> constante indicando a sensibilidade para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -3490,11 +3408,9 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> foi enviado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Em geral, há três tipos diferentes de mensagens: enviadas, postadas e salvas. As mensagens enviadas são itens enviados a um destinatário ou uma pasta pública. As mensagens postadas são criadas em uma pasta pública. Mensagens salvas são criadas e salvos sem enviar ou postagem.</para>
+        <remarks><para>Em geral, há três tipos diferentes de mensagens: enviadas, postadas e salvas. As mensagens enviadas são itens enviados a um destinatário ou a uma pasta pública. Mensagens postadas são criadas em uma pasta pública. Mensagens salvas são criadas e salvas sem serem enviadas ou postadas.</para>
           <para>Se essa propriedade for definida como <b>True</b>, a tentativa de definir o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> propriedade gerará um erro.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -3522,10 +3438,8 @@
       <Docs>
         <summary>Retorna a <b>Data e hora</b> que indica a data e hora em que o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> foi enviada. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagClientSubmitTime</b>de MAPI. Quando você envia um item usando o objeto <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método, o provedor de transporte define o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" /> e propriedades <b>SentOn</b> para você.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagClientSubmitTime</b> de MAPI. Quando você envia um item usando o objeto <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> método, o provedor de transporte define o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" /> e propriedades <b>SentOn</b> para você. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOnBehalfOfName">
@@ -3556,10 +3470,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o nome de exibição para o remetente pretendido do <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade MAPI <b>PidTagSentRepresentingName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade MAPI <b>PidTagSentRepresentingName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -3587,16 +3499,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SharingProvider">
@@ -3652,12 +3562,10 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o GUID do provedor de compartilhamento usado pelo <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O GUID é retornado como uma cadeia de caracteres usando o seguinte formato:</para>
+        <remarks><para>O GUID é retornado como uma sequência de caracteres usando o seguinte formato:</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para>se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" /> propriedade do objeto <b>SharingItem</b> for definida como <b>olProviderUnknown</b>, você pode usar a propriedade <b>SharingProviderGUID</b> para identificar o compartilhamento provedor.</para>
-          <para />
-        </remarks>
+          <para>Se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" /> propriedade do objeto <b>SharingItem</b> for definida como <b>olProviderUnknown</b>, você pode usar a propriedade <b>SharingProviderGUID</b> para identificar o provedor de compartilhamento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -3741,10 +3649,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando o assunto para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSubject</b>. A propriedade <b>Subject</b> é a propriedade padrão de itens do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagSubject</b>. A propriedade <b>Subject</b> é a propriedade padrão de itens do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -3772,10 +3678,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> tiver sido enviado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma mensagem sempre é criada e enviada em uma pasta, normalmente a caixa de saída.</para>
-          <para />
-        </remarks>
+        <remarks><para>Uma mensagem sempre é criada e enviada em uma pasta, normalmente a Caixa de Saída. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -3806,10 +3710,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>data/hora</b> que representa a data de conclusão da tarefa para que isso <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3840,10 +3742,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>data/hora</b> que representa a data de conclusão da tarefa para que isso <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3874,10 +3774,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>data/hora</b> que representa a data de início da tarefa, para que isso <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3908,10 +3806,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o assunto da tarefa para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna o valor do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" /> propriedade se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna o valor do <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" /> propriedade se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="To">
@@ -3942,10 +3838,8 @@
       <Docs>
         <summary>Retorna ou define uma lista de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) separados por ponto-e-vírgula dos nomes de exibição para um dos destinatários para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade contém apenas os nomes para exibição. A propriedade To corresponde à propriedade <b>PidTagDisplayTo</b>MAPI. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar essa propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade contém apenas os nomes para exibição. A propriedade To corresponde à propriedade <b>PidTagDisplayTo</b> MAPI. O <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> coleção deve ser usada para modificar essa propriedade. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -3976,11 +3870,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>data/hora</b> que representa o valor ordinal da tarefa para o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
-          <para>Essa propriedade é usada para indicar como a tarefa deve ser ordenada nos grupos pai, como o grupo hoje ou o grupo amanhã, da barra de tarefas pendentes. O valor usado nessa propriedade não tem qualquer relação aos valores da entrada de <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, ou <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" /> propriedades.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se o <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> propriedade estiver definida como <b>False</b>.</para>
+          <para>Essa propriedade é usada para indicar como a tarefa deve ser ordenada nos grupos pai, como o grupo Hoje ou o grupo Amanhã, da Barra de Tarefas Pendentes. O valor usado nessa propriedade não tem qualquer relação aos valores da entrada de <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, ou <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" /> propriedades.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -4011,10 +3903,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingMsgType" /> constante que indica o tipo de mensagem representada por de compartilhamento a <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ocorrerá um erro se você tentar definir essa propriedade depois que a mensagem de compartilhamento foi enviada ou recebida, ou se você tentar definir essa propriedade como <b>olSharingMsgTypeResponseAllow</b> ou <b>olSharingMsgTypeResponseDeny</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ocorrerá um erro se você tentar definir essa propriedade depois que a mensagem de compartilhamento foi enviada ou recebida, ou se você tentar definir essa propriedade como <b>olSharingMsgTypeResponseAllow</b> ou <b>olSharingMsgTypeResponseDeny</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">

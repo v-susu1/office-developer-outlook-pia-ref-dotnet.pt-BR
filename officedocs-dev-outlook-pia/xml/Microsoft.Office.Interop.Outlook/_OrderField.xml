@@ -1,13 +1,5 @@
 <Type Name="_OrderField" FullName="Microsoft.Office.Interop.Outlook._OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630667" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899962" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderField" />
@@ -114,10 +106,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o conteúdo do <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objeto são classificados em ordem decrescente. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for definida como <b>True</b>, o conteúdo da propriedade referenciada pelo objeto <b>OrderField</b> é classificado em ordem decrescente; Caso contrário, o conteúdo é classificado em ordem crescente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for definida como <b>True</b>, o conteúdo da propriedade referenciada pelo objeto <b>OrderField</b> é classificado em ordem decrescente; Caso contrário, o conteúdo é classificado em ordem crescente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewXMLSchemaName">
@@ -210,10 +198,8 @@
       <Docs>
         <summary>Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome do esquema XML para a propriedade indicada pelo <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade contém o nome da propriedade conforme ele é incluído na definição XML do modo de exibição que contém o objeto <b>ViewField</b> . Esse valor pode não corresponder o nome usado para fazer referência à propriedade quando o objeto <b>OrderField</b> foi definido.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade contém o nome da propriedade conforme ele é incluído na definição XML do modo de exibição que contém o objeto <b>ViewField</b>. Esse valor pode não corresponder o nome usado para fazer referência à propriedade quando o objeto <b>OrderField</b> foi definido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

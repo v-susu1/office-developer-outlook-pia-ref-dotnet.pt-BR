@@ -1,13 +1,5 @@
 <Type Name="_OlkFrameHeader" FullName="Microsoft.Office.Interop.Outlook._OlkFrameHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629709" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904039" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkFrameHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkFrameHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkFrameHeader" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constante que indica a posição de um controle em relação à sua legenda.    Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olAlignmentLeft</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olAlignmentLeft</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que aparece em um objeto para identificar ou descrevê-lo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é uma sequência vazia. Designer de formulários define essa propriedade como o nome do controle padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é uma sequência de caracteres vazia. O Criador de Formulários define esta propriedade como o nome padrão do controle.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -126,11 +114,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é <b>False</b>.</para>
-          <para>Quando o controle é desabilitado, o conteúdo do controle aparece esmaecido.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é desabilitado, o conteúdo dele aparece esmaecido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -192,11 +178,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
-          <para>o controle de cabeçalho do quadro possui somente a cor de primeiro plano e não a cor de plano de fundo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
+          <para>O controle do cabeçalho do quadro possui somente a cor do primeiro plano e não a cor do plano de fundo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -227,10 +211,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -261,10 +243,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

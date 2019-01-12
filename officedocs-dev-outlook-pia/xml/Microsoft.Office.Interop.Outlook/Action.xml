@@ -1,13 +1,5 @@
 <Type Name="Action" FullName="Microsoft.Office.Interop.Outlook.Action">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="17596c00726166fb08d75936fec79e91f1a60b4f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631179" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Action" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6062d8975646fc20d49a63e5b13512f4b7f4c11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897364" /></Metadata><TypeSignature Language="C#" Value="public interface Action" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Action" />
   <TypeSignature Language="VB.NET" Value="Public Interface Action" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa uma ação especializada (por exemplo, a resposta às opções de votação) que pode ser executada em um item do Outlook.</summary>
-    <remarks>
-      <para>O objeto <b>Action</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> conjunto.</para>
+    <remarks><para>O objeto <b>Action</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> conjunto.</para>
       <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), onde <paramref name="index" /> é o nome de uma ação disponível, para retornar um único objeto <b>Action</b> do objeto de coleção de <b>ações</b> de um item do Outlook, tais como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -118,10 +108,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> constante indicando o estilo de herança de propriedade a ser usado para a ação.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O estilo de herança é usado quando a ação é executada para controlar como as propriedades são copiadas para o novo item criado pela ação.</para>
-          <para />
-        </remarks>
+        <remarks><para>O estilo de herança é usado quando a ação é executada para controlar o modo como as propriedades são copiadas no novo item criado pela ação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -234,10 +222,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem para o <see cref="T:Microsoft.Office.Interop.Outlook.Action" />. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b> MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -327,10 +313,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) especificando o prefixo (por exemplo, "Re") a ser usada com o assunto do item quando a ação é executada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O Outlook adiciona automaticamente dois-pontos (:) com o valor da propriedade <b>Prefix</b> ao definir o assunto do item.</para>
-          <para />
-        </remarks>
+        <remarks><para>O Outlook adiciona automaticamente dois-pontos (:) com o valor da propriedade <b>Prefix</b> ao definir o assunto do item.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyStyle">
@@ -420,16 +404,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOn">

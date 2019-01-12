@@ -1,13 +1,5 @@
 <Type Name="OutlookBarStorage" FullName="Microsoft.Office.Interop.Outlook.OutlookBarStorage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="043c8ecdd93490c3e8263146a82163cecdeb3921" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629808" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d13a6d2bb6e5b24337516ec0dbcf6227c9faa792" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905761" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarStorage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarStorage" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa o armazenamento de objetos no painel Atalhos.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> propriedade de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para recuperar o objeto <b>OutlookBarStorage</b> painel.</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" /> propriedade para recuperar o <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto para o painel Atalhos.</para>
-      <para />
-    </remarks>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> propriedade de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para recuperar o objeto <b>OutlookBarStorage</b> do painel.</para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" /> propriedade para recuperar o <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto para o painel Atalhos.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -171,16 +161,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

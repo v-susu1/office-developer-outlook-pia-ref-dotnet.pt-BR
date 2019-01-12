@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630561" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905607" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa informações sobre determinada propriedade do item para um objeto item do Microsoft Outlook.</summary>
-    <remarks>
-      <para>Cada propriedade de item define um certo atributo do item, o nome, tipo ou valor do item. O objeto <b>ItemProperty</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> conjunto.</para>
+    <remarks><para> Propriedade cada item define um certo atributo do item, como o nome, tipo ou valor do item. O objeto <b>ItemProperty</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> conjunto.</para>
       <para>Use <b>ItemProperties. item</b>(<paramref name="index" />), onde <paramref name="index" /> é a posição numérica do objeto dentro da coleção ou ele tem name para retornar um único objeto <b>ItemProperty</b> .</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -264,16 +254,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -406,10 +394,8 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que indica o valor da propriedade interna explícita ou personalizado especificado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Embora <b>ItemProperty.Value</b> permite que você obtém ou define uma propriedade interna explícita ou uma propriedade personalizada, você pode fazer referência a propriedades internas explícitas diretamente do objeto pai, por exemplo, ContactItem.Body. Para obter mais informações sobre como acessar propriedades no Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Visão geral das propriedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Embora <b>ItemProperty.Value</b> permite que você obtém ou define uma propriedade interna explícita ou uma propriedade personalizada, você pode fazer referência a propriedades internas explícitas diretamente do objeto pai, por exemplo, ContactItem.Body. Para obter mais informações sobre como acessar propriedades no Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Visão geral das propriedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

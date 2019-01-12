@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630252" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896797" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário seleciona um anexo diferente ou adicional no Explorer ativo, de maneira programática ou pela interação com a interface de usuário.</summary>
-        <remarks>
-          <para>O evento <b>AttachmentSelectionChange</b> é acionado quando um anexo diferente ou adicional de qualquer item é selecionado no explorer ativo.</para>
-          <para />
-        </remarks>
+        <remarks><para>O evento <b>AttachmentSelectionChange</b> é acionado quando um anexo diferente ou adicional de qualquer item é selecionado no explorer ativo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeFolderSwitch">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre antes que o explorer vá para uma nova pasta, como resultado de uma ação do usuário ou de um código de programa.</summary>
-        <remarks>
-          <para>Se a pasta está alternando estiver em um namespace que não oferece suporte a automação (por exemplo, o sistema de arquivos), <paramref name="NewFolder" /> não é <b>nada</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se a pasta está alternando estiver em um namespace que não oferece suporte a automação (por exemplo, o sistema de arquivos), <paramref name="NewFolder" /> não é <b>nada</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCopy">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um item do Outlook é copiado.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCut">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um item do Outlook é cortado de uma pasta.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado. Se o evento for cancelado, o item não será removido.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado após ter sido iniciado. Se o evento for cancelado, o item não será removido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemPaste">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um item do Outlook é colado.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um objeto Explorer é maximizado pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -200,10 +180,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o objeto Explorer ativo é minimizado pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -222,10 +200,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> é movido pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -244,10 +220,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário dimensiona o atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado. Se o evento for cancelado, a janela não é dimensionada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado. Se ele for cancelado, a janela não será dimensionada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeViewSwitch">
@@ -285,10 +259,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um explorer está sendo fechado.</summary>
-        <remarks>
-          <para>Se você usar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> método para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Se você usar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> método para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -345,10 +317,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário executa uma ação que faz com que uma resposta embutida seja exibido no painel de leitura.</summary>
-        <remarks>
-          <para>Este evento retorna um objeto de item que representa o item de resposta embutida.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento retorna um objeto de item que representa o item de resposta embutida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InlineResponseClose">
@@ -367,30 +337,28 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário executa uma ação que faz com que a resposta embutida ativo Fechar o painel de leitura.</summary>
-        <remarks>
-          <para>Este evento é acionado quando uma nova resposta embutida ou rascunho embutida resposta está fechada pelos seguintes motivos:</para>
+        <remarks><para>Este evento é acionado quando uma nova resposta embutida ou rascunho embutida resposta está fechada pelos seguintes motivos:</para>
           <list type="bullet">
             <item>
-              <para>o usuário seleciona o comando <b>Pop-Out</b> .</para>
+              <para>O usuário seleciona o comando <b>Pop-Out</b> .</para>
             </item>
             <item>
-              <para>o usuário seleciona o comando <b>Descartar</b> .</para>
+              <para>O usuário seleciona o comando <b>Descartar</b> .</para>
             </item>
             <item>
-              <para>o usuário envia a resposta embutida.</para>
+              <para>O usuário envia a resposta embutida.</para>
             </item>
             <item>
-              <para>o usuário navega para uma mensagem diferente na lista de mensagens.</para>
+              <para>O usuário navega até uma mensagem diferente na lista de mensagens.</para>
             </item>
             <item>
-              <para>o usuário navega até uma pasta diferente.</para>
+              <para>O usuário navega até uma pasta diferente.</para>
             </item>
             <item>
-              <para>o usuário alterna entre módulos, por exemplo, de módulo de email para o módulo calendário.</para>
+              <para>O usuário alterna entre módulos, por exemplo, de módulo de email para o módulo de calendário.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionChange">
@@ -409,10 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário alterna para outro item em uma pasta usando a interface do usuário (UI) ou programaticamente.</summary>
-        <remarks>
-          <para>Esse evento também ocorre quando o usuário, qualquer programaticamente ou usando o inerface de usuário clica ou alterna para uma pasta diferente que contém itens, como o Outlook seleciona automaticamente o primeiro item nessa pasta. No entanto, esse evento não ocorrerá se a pasta é uma pasta do sistema de arquivos ou se qualquer pasta com um modo de exibição da Web atual for exibida.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento também ocorre quando o usuário, qualquer programaticamente ou usando o inerface de usuário clica ou alterna para uma pasta diferente que contém itens, como o Outlook seleciona automaticamente o primeiro item nessa pasta. Contudo, esse evento não ocorrerá se a pasta for uma pasta do sistema de arquivos ou se for exibida qualquer pasta com uma exibição da Web atual. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewSwitch">

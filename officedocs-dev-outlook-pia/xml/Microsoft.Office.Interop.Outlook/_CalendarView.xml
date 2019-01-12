@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630198" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896510" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -290,10 +282,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de dias consecutivos exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 2 e 14. Se essa propriedade estiver definida como um valor menor que 2, a propriedade é definida como 2. Se essa propriedade for definida como um valor maior do que 14, a propriedade é definida como 14. O valor padrão para essa propriedade é 5.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade pode ser definida para um valor entre 2 e 14. Se essa propriedade for definida para um valor menor do que 2, ela será definida como 2. Se essa propriedade for definida como um valor maior do que 14, a propriedade é definida como 14. O valor padrão para essa propriedade é 5.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -439,10 +429,8 @@
       <Docs>
         <summary>Retorna uma matriz de <b>objeto</b> que contém as cadeias de caracteres que representam os dias exibidos em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna uma matriz de cadeias de caracteres de data, na qual cada cadeia de caracteres de data representa um dia exibido no objeto <b>CalendarView</b> . As cadeias de caracteres de data são formatadas usando as configurações de formato de data curta para o sistema operacional.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna uma matriz de cadeias de caracteres de data, na qual cada cadeia de caracteres de data representa um dia exibido no objeto <b>CalendarView</b>. As cadeias de caracteres de data são formatadas usando as configurações de formato de data curta para o sistema operacional.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -473,10 +461,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que termina o tempo de duração exibido em itens do Outlook a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -507,10 +493,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -569,7 +553,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+        <remarks><para>A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para>
+          <para>Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -600,10 +586,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -665,10 +649,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os horários de término para itens do Outlook são exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade é aplicável somente quando o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> propriedade do objeto <b>CalendarView</b> é definida como <b>olCalendarViewMonth</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade é aplicável somente quando o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> propriedade do objeto <b>CalendarView</b> é definida como <b>olCalendarViewMonth</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -752,10 +734,8 @@
       <Parameters />
       <Docs>
         <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
-        <remarks>
-          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método só funciona nos modos de exibição internos do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -808,10 +788,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -839,13 +817,11 @@
       <Docs>
         <summary>Retorna um valor de <b>data/hora</b> que representa a hora de término de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A intenção do <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> e as propriedades de <b>SelectedEndTime</b> é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
+        <remarks><para>A intenção do <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> e as propriedades de <b>SelectedEndTime</b> é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b>, você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção na exibição calendário.</para>
           <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término da seleção.</para>
-          <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
-          <para />
-        </remarks>
+          <para>Se um ou mais itens forem selecionados no modo de exibição calendário, o <b>SelectedEndTime</b> retornará um valor de <b>DateTime</b> igual à hora de término do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado por <b>Application.ActiveExplorer </b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -873,13 +849,11 @@
       <Docs>
         <summary>Retorna um valor de <b>data/hora</b> que representa a hora de início de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A intenção do <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> propriedades é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
+        <remarks><para>A intenção do <b>SelectedStartTime</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> propriedades é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b>, você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção na exibição calendário.</para>
           <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início da seleção.</para>
-          <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
-          <para />
-        </remarks>
+          <para>Se um ou mais itens forem selecionados no modo de exibição calendário, o <b>SelectedStartTime</b> retornará um valor de <b>DateTime</b> igual à hora de início do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado por <b>Application.ActiveExplorer </b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -907,16 +881,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -944,10 +916,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -978,10 +948,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que inicia a duração de tempo para itens do Outlook exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1040,7 +1008,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+        <remarks><para>A definição XML descreve o tipo de modo de exibição usando uma série de rótulos e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</para>
+          <para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

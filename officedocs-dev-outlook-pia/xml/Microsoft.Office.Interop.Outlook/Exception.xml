@@ -1,13 +1,5 @@
 <Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47943f3ce7b614b555767c32ad8d514efe3bf2b1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899982" /></Metadata><TypeSignature Language="C#" Value="public interface Exception" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
@@ -27,14 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Representa informações sobre uma instância de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é uma exceção a uma série recorrente.</summary>
-    <remarks>
-      <para>Ao contrário da maioria dos outros objetos do Microsoft Outlook, o objeto de <b>exceção</b> é um objeto somente leitura. Isso significa que não é possível criar um objeto <b>Exception</b> mas, em vez disso, o objeto é criado quando uma propriedade de um <b>AppointmentItem</b> é alterada. Por exemplo, se você alterar o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> propriedade de um <b>AppointmentItem</b>, você criou uma <b>exceção</b> em <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
+    <remarks><para> Ao contrário da maioria dos outros objetos do Microsoft Outlook, o objeto de <b>exceção</b> é um objeto somente leitura. Isso significa que não é possível criar um objeto <b>Exception</b> mas, em vez disso, o objeto é criado quando uma propriedade de um <b>AppointmentItem</b> é alterada. Por exemplo, se você alterar o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> propriedade de um <b>AppointmentItem</b>, você criou uma <b>exceção</b> em <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
       <para>
-        <b>Observação</b>: O <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto está no <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , não o próprio objeto <b>AppointmentItem</b> .</para>
-      <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
-      <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
-      <para />
-    </remarks>
+        <b>Observação</b>: O <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto está no <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , não no objeto <b>AppointmentItem</b> em si.</para>
+      <para>Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para o objeto. </para>
+      <para>Observe que, mesmo depois que você liberar a sua referência e tenta obter uma referência de nova, se ainda houver uma referência ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências tão logo terminar com um compromisso recorrente.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -90,11 +80,9 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é a exceção. Não é válida para compromissos excluídos. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
-          <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto . Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para o objeto. </para>
+          <para>Observe que, mesmo depois que você liberar a sua referência e tenta obter uma referência de nova, se ainda houver uma referência ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências tão logo terminar com um compromisso recorrente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -265,16 +253,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

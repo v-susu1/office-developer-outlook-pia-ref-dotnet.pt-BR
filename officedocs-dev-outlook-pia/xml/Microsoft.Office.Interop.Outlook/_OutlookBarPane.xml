@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarPane" FullName="Microsoft.Office.Interop.Outlook._OutlookBarPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629342" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906727" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarPane" />
@@ -232,16 +224,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -272,12 +262,10 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica o estado visível do objeto especificado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> para exibir o objeto; <b>False</b> para ocultá-lo.</para>
           <para>Você também pode usar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" /> método ou o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" /> método de um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto para definir ou recuperar esse valor.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
