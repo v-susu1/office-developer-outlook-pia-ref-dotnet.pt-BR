@@ -1,13 +1,5 @@
 <Type Name="_RuleAction" FullName="Microsoft.Office.Interop.Outlook._RuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1c9c2850893a941044d9517aa03fa3270c8bea00" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630470" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c9c2850893a941044d9517aa03fa3270c8bea00" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897980" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleAction" />
@@ -55,10 +47,8 @@
       <Docs>
         <summary>Retorna uma constante do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeração que indica o tipo de ação é realizada pelo <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obter mais informações sobre as ações de regra aceitas para criação programática, aqueles que têm suporte para regras para receber a mensagem e aqueles que têm suporte para regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obter mais informações sobre as ações de regra aceitas para criação programática, aqueles que têm suporte para regras para receber a mensagem e aqueles que têm suporte para regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -145,11 +135,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se o <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> está habilitado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma ação de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a ação da regra e seu estado habilitado persistirá além da sessão atual.  Uma ação de regra é ativada somente depois que ela foi salva com êxito. </para>
-          <para>Retornará um erro se você tentar habilitar uma ação de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma ação de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a ação da regra e seu estado habilitado persistirá além da sessão atual.  Uma ação de regra é habilitada somente depois de ter sido salva com êxito. </para>
+          <para>Retorna um erro se você tentar habilitar uma ação de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -177,10 +165,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -208,16 +194,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

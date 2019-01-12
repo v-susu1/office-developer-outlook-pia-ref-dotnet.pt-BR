@@ -1,13 +1,5 @@
 <Type Name="_OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook._OlkCheckBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630189" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899436" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCheckBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCheckBox" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o acelerador ou a tecla de acesso para o controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é uma sequência vazia, o que significa que não há nenhuma tecla de acesso.  Se a propriedade estiver definida com uma cadeia de caracteres de mais de um caractere, o valor será truncado para o primeiro caractere.  </para>
+        <remarks><para>O valor padrão é uma sequência de caracteres vazia, o que significa que não há tecla de atalho. Se a propriedade estiver definida com uma sequência de caracteres de mais de um caractere, o valor será truncado no primeiro caractere.  </para>
           <para>Você não pode usar dígitos em uma tecla aceleradora.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alignment">
@@ -93,10 +83,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constante que indica a posição de um controle em relação à sua legenda.    Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olAlignmentLeft</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olAlignmentLeft</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -130,10 +118,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x8000000F, "Face do botão".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x8000000F, "Face do botão". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -164,10 +150,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que altera o estilo do plano de fundo do controle entre transparente e opaco. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -198,10 +182,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que aparece em um objeto para identificar ou descrevê-lo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é baseado no nome do controle.  A posição da legenda em relação à caixa de seleção é determinada pelo <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>  O valor padrão é baseado no nome do controle.  A posição da legenda em relação à caixa de seleção é determinada pelo <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> propriedade.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -232,10 +214,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -263,10 +243,8 @@
       <Docs>
         <summary>Retorna um <b>StdFont</b> que representa a fonte usada para processar o texto dentro do controle.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A fonte é expressa como o tipo do Microsoft Windows <b>stdfont</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>A fonte é expressa como o tipo do Microsoft Windows <b>stdfont</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -300,10 +278,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -334,10 +310,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa uma imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -368,10 +342,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TripleState">
@@ -402,10 +374,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se um usuário pode especificar na interface do usuário, o estado <b>Nulo</b> para o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for <b>True</b>, a caixa de seleção clica em três estados. Se essa propriedade for <b>False</b>, a caixa de seleção suporta apenas os estados <b>True</b> e <b>False</b> . O valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for <b>True</b>, a caixa de seleção clica em três estados. Se essa propriedade for <b>False</b>, a caixa de seleção suporta apenas os estados <b>True</b> e <b>False</b>. O valor padrão é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -436,10 +406,8 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que especifica o estado do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para o controle de caixa de seleção, essa propriedade é <b>True</b> ou <b>False</b>, ou se o <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> propriedade estiver definida, a propriedade <b>Value</b> também pode ser <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#). O valor padrão é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Para o controle de caixa de seleção, essa propriedade é <b>True</b> ou <b>False</b>, ou se o <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> propriedade estiver definida, a propriedade <b>Value</b> também pode ser <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#). O valor padrão é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -470,10 +438,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

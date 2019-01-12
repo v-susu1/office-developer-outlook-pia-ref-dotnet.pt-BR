@@ -1,13 +1,5 @@
 <Type Name="OlkCategoryEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6b5bfb00aa9250de100ae933103dc32bfe1cf197" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630440" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9969fef0204c00347d74f89eb2a59ae1eec65350" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900826" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCategoryEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCategoryEvents_Event" />
@@ -144,10 +136,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um usuário pressiona uma tecla.</summary>
-        <remarks>
-          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -166,25 +156,23 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário pressiona uma tecla ANSI.</summary>
-        <remarks>
-          <para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
+        <remarks><para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
           <para>Um evento <b>KeyPress</b> não ocorre sob as seguintes condições:</para>
           <list type="bullet">
             <item>
               <para>Pressionando TAB</para>
             </item>
             <item>
-              <para>Pressionando insira</para>
+              <para>Pressionando ENTER</para>
             </item>
             <item>
-              <para>pressionando uma tecla de seta</para>
+              <para>Pressionando uma tecla de seta</para>
             </item>
             <item>
-              <para>quando um pressionamento de tecla faz o foco mover de um controle para outro.</para>
+              <para>Quando um pressionamento de tecla faz o foco mover de um controle para outro.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -203,10 +191,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário libera uma tecla.</summary>
-        <remarks>
-          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -244,10 +230,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre depois que um movimento do mouse foi registrado sobre o controle.</summary>
-        <remarks>
-          <para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

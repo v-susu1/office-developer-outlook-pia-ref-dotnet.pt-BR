@@ -1,13 +1,5 @@
 <Type Name="OlkPageControl" FullName="Microsoft.Office.Interop.Outlook.OlkPageControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c9e83a3348fbeb5a4faf68fdf1fd955c45c1d4da" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631067" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkPageControl : Microsoft.Office.Interop.Outlook._OlkPageControl, Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="947acc3697e16f62d12e069d58a37837107a09a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900693" /></Metadata><TypeSignature Language="C#" Value="public interface OlkPageControl : Microsoft.Office.Interop.Outlook._OlkPageControl, Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkPageControl implements class Microsoft.Office.Interop.Outlook._OlkPageControl, class Microsoft.Office.Interop.Outlook.OlkPageControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkPageControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkPageControl&#xA;Implements _OlkPageControl, OlkPageControlEvents_Event" />
@@ -34,14 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Um controle que exibe o conteúdo de uma página.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkPageControl" />. </para>
-      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione o controle de página do Microsoft Outlook para a caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários; Você não pode adicionar esse controle a um objeto de Visual Basic <b>UserForm</b> no Editor do Visual Basic. Esse controle oferece suporte a temas do Microsoft Windows. </para>
-      <para>Atualmente esse controle suporta duas páginas do Outlook: as informações de disponibilidade agendamento de página e a página de controle de solicitação de reunião. O exemplo a seguir é um exemplo do controle page exibindo uma agenda de informações de disponibilidade em tempo de execução. </para>
-      <para>a seguir está um exemplo do controle page exibindo uma página em tempo de execução de controle de solicitação de reunião.</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkPageControl" />. </para>
+      <para>Antes de usar esse controle pela primeira vez no designer de formulários, adicione Microsoft Outlook controle páginas à caixa de ferramentas de controle. Você só pode adicionar esse controle a uma região de formulário em um formulário do Outlook usando o designer de formulários; Você não pode adicionar esse controle a um objeto de Visual Basic <b>UserForm</b> no Editor do Visual Basic. Esse controle oferece suporte a temas do Microsoft Windows. </para>
+      <para>Atualmente, esse controle fornece suporte a duas páginas do Outlook: a página de agendamento de disponibilidade se a página de controle de solicitação de reunião. A seguir está um exemplo do controle Page exibindo um agendamento de disponibilidade no tempo de execução.</para>
+      <para>A seguir está um exemplo do controle Page exibindo uma página de controle de solicitação de reunião no tempo de execução.</para>
       <para>Para obter mais informações sobre os controles do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

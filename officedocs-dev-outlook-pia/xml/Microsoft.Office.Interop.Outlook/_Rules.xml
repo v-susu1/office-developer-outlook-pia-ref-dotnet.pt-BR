@@ -1,13 +1,5 @@
 <Type Name="_Rules" FullName="Microsoft.Office.Interop.Outlook._Rules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630222" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901708" /></Metadata><TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rules&#xA;Implements IEnumerable" />
@@ -146,11 +138,9 @@
         <param name="RuleType">Uma constante na enumeração <b>OlRuleType</b> que determina se a regra é aplicada ao envio ou recebimento de uma mensagem.</param>
         <summary>Cria um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto com o nome especificado por <paramref name="Name" /> e o tipo de regra especificado por <paramref name="RuleType" />.</summary>
         <returns>Um objeto <b>Rule</b> que representa a nova regra criada recentemente.</returns>
-        <remarks>
-          <para>O <paramref name="RuleType" /> parâmetro da regra adicionada determina ações de regra válidas, condições de regra e regra condições de exceção que pode ser associada com o objeto <b>Rule</b> .</para>
-          <para>Quando uma regra é adicionada à coleção, o <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> da nova regra é 1. O <b>ExecutionOrder</b> de outras regras na coleção é incrementada em 1.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <paramref name="RuleType" /> parâmetro da regra adicionada determina ações de regra válidas, condições de regra e regra condições de exceção que pode ser associada ao objeto de <b>regra</b> .</para>
+          <para>Quando uma regra é adicionada à coleção, o <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> da nova regra é 1. O <b>ExecutionOrder</b> de outras regras na coleção é incrementado em 1.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRssRulesProcessingEnabled">
@@ -181,11 +171,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o processamento das regras RSS tiver sido habilitado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Depois de configurar <b>IsRssRulesProcessingEnabled</b>, você deve chamar <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para manter essa configuração. Essa propriedade é mantida em uma configuração de nível de caixa de correio que será móvel com o usuário.  </para>
-          <para>Se <b>IsRssRulesProcessingEnabled</b> for <b>False</b>, então nenhuma condição sobre alimentações RSS será avaliada durante o processamento das regras.</para>
-          <para />
-        </remarks>
+        <remarks><para>Depois de configurar <b>IsRssRulesProcessingEnabled</b>, você deve chamar <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para manter essa configuração. Essa propriedade é mantida em uma configuração de nível de caixa de correio que será móvel com o usuário.  </para>
+          <para> Se <b>IsRssRulesProcessingEnabled</b> for <b>False</b>, então nenhuma condição sobre alimentações RSS será avaliada durante o processamento das regras.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -217,10 +205,8 @@
         <param name="Index">Um baseado em 1 <b>inteiro</b> (<b>int</b> em c#) valor valor representando um índice no conjunto <b>Rules</b> ou um nome de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o valor da propriedade padrão de uma regra, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</param>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto especificado por <paramref name="Index" />, que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto ou o nome da regra.</summary>
         <value>Um objeto <b>Rule</b> que corresponda à regra especificada por <paramref name="Index" />.</value>
-        <remarks>
-          <para>Retorna um erro quando a regra não pode ser encontrada na coleção.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna um erro quando a regra não pode ser localizada no conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -248,10 +234,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do objeto Rules é o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do objeto Rules é o <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -279,10 +263,8 @@
       <Docs>
         <param name="Index">Um valor <b>inteiro</b> (<b>int</b> em c#) representando um índice no conjunto <b>Rules</b> ou um nome de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o valor da propriedade padrão de uma regra, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</param>
         <summary>Remove da coleção <b>Rules</b> um <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto especificado por <paramref name="Index" />, que é um índice numérico para o <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto ou o nome da regra.</summary>
-        <remarks>
-          <para>Retorna um erro quando a regra não pode ser encontrada na coleção.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna um erro quando a regra não pode ser localizada no conjunto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -307,17 +289,14 @@
         <Parameter Name="ShowProgress" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>True</b> para exibir a caixa de diálogo de progresso, <b>False</b> para salvar as regras sem mostrar o progresso.</param>
+        <param name="ShowProgress"><b>True</b> para exibir a caixa de diálogo de progresso, <b>False</b> para salvar as regras sem mostrar o progresso.</param>
         <summary>Salva todas as regras no <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> conjunto.</summary>
-        <remarks>
-          <para>Após habilitar uma regra, você também deve salvar a regra usando <b>rules. Save</b> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra é ativada somente depois de ter sido salvo com êxito.</para>
+        <remarks><para>Após habilitar uma regra, você também deve salvar a regra usando <b>rules. Save</b> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra é ativada somente depois que ela foi salva com êxito.</para>
           <para>
             <b>Rules. Save</b> pode ser uma operação morosa em termos de desempenho em conexões lentas com o Exchange server. Para obter mais informações sobre como usar a caixa de diálogo de progresso, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Gerenciando regras no modelo de objeto do Outlook</a></para>
-          <para>Salvar regras que são incompatíveis ou que incorretamente definida ações ou condições (como uma sequência vazia para <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) retornará um erro .</para>
-          <para>O Exchange server limita o número máximo de regras que podem ser suportados por um repositório. <b>Rules. Save</b> retornará um erro quando esse limite for atingido.</para>
-          <para />
-        </remarks>
+          <para>Salvar regras que são incompatíveis ou que incorretamente definida ações ou condições (como uma sequência vazia para <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) retornará um erro.</para>
+          <para>O servidor Exchange limita o número máximo de regras que podem ser suportados por um repositório. <b>Rules. Save</b> retornará um erro quando esse limite for atingido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -345,16 +324,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

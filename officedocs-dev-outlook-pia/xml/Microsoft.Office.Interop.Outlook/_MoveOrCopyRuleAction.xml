@@ -1,13 +1,5 @@
 <Type Name="_MoveOrCopyRuleAction" FullName="Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d33e4472414c943f4c6524567123d8d5441b3477" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629528" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MoveOrCopyRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d33e4472414c943f4c6524567123d8d5441b3477" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902261" /></Metadata><TypeSignature Language="C#" Value="public interface _MoveOrCopyRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MoveOrCopyRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MoveOrCopyRuleAction" />
@@ -55,10 +47,8 @@
       <Docs>
         <summary>Retorna uma constante, <b>olRuleActionMoveToFolder</b>, a partir do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeração que indica o tipo de ação que será tomada pela regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A ação de regra de cópia ou movimentação é suportada somente pelas regras para receber mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para> A ação de regra de cópia ou movimentação é suportada somente pelas regras para receber mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a ação de regra é habilitada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra é ativada somente depois que ela foi salva com êxito.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra será habilitada somente depois de ter sido salva com êxito. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -179,11 +167,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta para o qual a regra move ou copia a mensagem. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se nenhuma pasta tiver sido atribuída à ação de regra de movimentação ou cópia, essa propriedade será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para>Essa propriedade retornará um erro se a pasta especificada não pode servir como uma pasta de destino para a cópia ou operação de movimentação. Por exemplo, a pasta é uma pesquisa de pasta, é somente leitura, ou o usuário não tem as permissões necessárias para mover ou copiar mensagens para o proprietário.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se nenhuma pasta tiver sido atribuída à ação de regra de movimentação ou cópia, essa propriedade será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para>A propriedade retornará um erro se a pasta especificada não puder ser a pasta de destino para a operação de movimentação ou cópia. Por exemplo, a pasta é de pesquisa, é somente leitura ou o usuário não tem as permissões exigidas para mover ou copiar mensagens nela.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -211,10 +197,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -242,16 +226,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

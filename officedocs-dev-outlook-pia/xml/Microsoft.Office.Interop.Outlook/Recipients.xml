@@ -1,13 +1,5 @@
 <Type Name="Recipients" FullName="Microsoft.Office.Interop.Outlook.Recipients">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a1f866bf331ae092d59a1e210e16a01c82d526ca" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631183" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c27dd2e543e6657e2eb0bd16529ca6be9ff7a8d6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900318" /></Metadata><TypeSignature Language="C#" Value="public interface Recipients : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipients implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipients" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipients&#xA;Implements IEnumerable" />
@@ -31,9 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Contém uma coleção de <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objetos para um item do Outlook.</summary>
-    <remarks>
-      <para>Use a propriedade <b>Recipients</b> para retornar o objeto <b>Recipients</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />, ou <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto.</para> Uso de 
-      <para>o <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> método para criar um novo objeto de <b>destinatário</b> e adicioná-lo ao objeto <b>Recipients</b> . O <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> propriedade de um novo objeto de <b>destinatário</b> é definida como o padrão para o objeto <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>ou <b>TaskItem</b> associado e deve ser redefinida para indicar outro destinatário tipo.</para><para>Uso <b>destinatários</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome ou número de índice, para retornar um único objeto de <b>destinatário</b> . O nome pode ser uma cadeia de caracteres representando o nome para exibição, o alias ou o endereço de email SMTP completo do destinatário.</para><para /></remarks>
+    <remarks><para>Use a propriedade <b>Recipients</b> para retornar o objeto <b>Recipients</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />, ou <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> objeto.</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> método para criar um novo objeto de <b>destinatário</b> e adicioná-lo ao objeto <b>Recipients</b> . O <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> propriedade de um novo objeto de <b>destinatário</b> é definida como o padrão para o objeto <b>AppointmentItem</b>, <b>JournalItem</b>, <b>MailItem</b>ou <b>TaskItem</b> associado e deve ser redefinida para indicar outro tipo de destinatário.</para>
+      <para>Use os <b>destinatários</b>(<paramref name="index" />), onde <paramref name="index" /> é o nome ou número de índice, para retornar um único objeto de <b>destinatário</b> . O nome pode ser uma sequência de caracteres que representa o nome para exibição, o alias ou o endereço de email SMTP completo do destinatário.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -259,8 +252,7 @@
       <Parameters />
       <Docs>
         <summary>Tenta resolver todos os <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objetos no <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> conjunto com base no catálogo de endereços.</summary>
-        <returns>
-          <b>True</b> se todos os objetos foram resolvidos, <b>False</b> se um ou mais não foram.</returns>
+        <returns><b>True</b> se todos os objetos foram resolvidos, <b>False</b> se um ou mais não foram.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -289,16 +281,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

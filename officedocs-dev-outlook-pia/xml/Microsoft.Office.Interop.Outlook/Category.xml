@@ -1,13 +1,5 @@
 <Type Name="Category" FullName="Microsoft.Office.Interop.Outlook.Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="435e5765b7ec5d5ff26be55adc999086a3415e41" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630999" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7e2734d6e53bd5a1e3e99a9c8084ca598f7964f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897441" /></Metadata><TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Category implements class Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface Category&#xA;Implements _Category" />
@@ -31,12 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Representa uma categoria definida pelo usuário pela qual os itens do Microsoft Outlook podem ser agrupados.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
-      <para>Outlook fornece um sistema de categorização com os quais itens do Outlook podem ser facilmente identificadas e agrupados nas categorias definidas pelo usuário. O objeto de <b>categoria</b> representa uma categoria definida pelo usuário.</para>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> método do <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> propriedade para o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para criar um novo objeto <b>Category</b> , adicionando a categoria para a lista mestra de categorias daquele namespace.</para>
-      <para>Uso o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> propriedade para especificar o nome da categoria, o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propriedade para especificar a cor exibida para essa categoria e o <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> propriedade para especificar a tecla de atalho utilizada para atribuir essa categoria para um item do Outlook no Outlook interface do usuário. Use o <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> propriedade para recuperar o identificador exclusivo de uma categoria.</para>
-      <para>As categorias podem ser atribuídas aos itens do Outlook especificando os nomes dos objetos <b>Category</b> apropriados em uma cadeia de caracteres delimitada por vírgula na propriedade <b>Categories</b> dos seguintes objetos:</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
+      <para>O Outlook oferece um sistema de categorização com os quais itens do Outlook podem ser facilmente identificadas e agrupados nas categorias definidas pelo usuário. O objeto de <b>categoria</b> representa uma categoria definida pelo usuário.</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> método do <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> propriedade para o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para criar um novo objeto <b>Category</b> , adicionando a categoria para a lista mestra de categorias daquele namespace. </para>
+      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> propriedade para especificar o nome da categoria, o <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propriedade para especificar a cor exibida para essa categoria e o <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> propriedade para especificar a tecla de atalho utilizada para atribuir essa categoria para um item do Outlook na interface de usuário do Outlook . Use o <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> propriedade para recuperar o identificador exclusivo de uma categoria.</para>
+      <para>As categorias podem ser atribuídas aos itens do Outlook especificando os nomes dos objetos <b>Category</b> apropriados em uma sequência de caracteres delimitada por vírgula na propriedade <b>Categories</b> dos seguintes objetos:</para>
       <list type="table">
         <item>
           <description>
@@ -109,8 +100,7 @@
           <description />
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

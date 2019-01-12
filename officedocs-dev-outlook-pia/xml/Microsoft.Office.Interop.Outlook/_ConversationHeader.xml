@@ -1,13 +1,5 @@
 <Type Name="_ConversationHeader" FullName="Microsoft.Office.Interop.Outlook._ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629508" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901743" /></Metadata><TypeSignature Language="C#" Value="public interface _ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ConversationHeader" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente o <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> do objeto ao qual pertence esse cabeçalho de conversa. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade associa o cabeçalho de conversa de outros itens na mesma conversa. Esses itens e a conversa tem o mesmo valor em sua propriedade <b>ConversationID</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade associa o cabeçalho de conversa de outros itens na mesma conversa. Esses itens e a conversa tem o mesmo valor em sua propriedade <b>ConversationID</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -142,10 +132,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o tópico do segmento de conversação do item do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Corresponde à propriedade do Mapipidtagconversationtopic.</para>
-          <para />
-        </remarks>
+        <remarks><para>Corresponde à propriedade do Mapipidtagconversationtopic.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -171,25 +159,23 @@
       <Docs>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object que representa a conversa à qual pertence este cabeçalho de conversa.</summary>
         <returns>Retorna um objeto <b>Conversation</b> que representa a conversa à qual pertence este cabeçalho de conversa.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se nenhum conversa existir para o item. Nenhuma conversa existe para um item nos seguintes cenários:</para>
           <list type="bullet">
             <item>
-              <para>o item não foi salvo. Um item pode ser salvo programaticamente, com a ação do usuário ou de salvamento automático. </para>
+              <para>O item não foi salvo. Um item pode ser salvo programaticamente, com a ação do usuário ou de salvamento automático.</para>
             </item>
             <item>
-              <para>Para um item que pode ser enviado (por exemplo, um item de email, item de compromisso ou item de contato), o item não foi enviado.</para>
+              <para>Para um item que pode ser enviado (por exemplo, um item de email, um item de compromisso ou um item de contato), o item não foi enviado.</para>
             </item>
             <item>
-              <para>As conversas são desabilitadas pelo registro do Windows.</para>
+              <para>As conversas são desabilitadas pelo Registro do Windows.</para>
             </item>
             <item>
-              <para>o repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange que é anterior ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
+              <para>O repositório não oferece suporte para o modo de exibição de conversa (por exemplo, o Outlook está executando no modo online clássico em relação a uma versão do Microsoft Exchange que é anterior ao Microsoft Exchange Server 2010). Use o <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar se o repositório suporta o modo de exibição de conversa.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItems">
@@ -215,10 +201,8 @@
       <Docs>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens na conversa que residem na mesma pasta do cabeçalho da conversa selecionada.</summary>
         <returns>Retorna uma coleção <b>SimpleItems</b> de itens que pertencem à mesma conversa e residem na mesma pasta do cabeçalho da conversa.</returns>
-        <remarks>
-          <para>Coleção <b>SimpleItems</b> contém apenas os itens de conversa na pasta que contém o cabeçalho de conversa. Coleção <b>SimpleItems</b> não retorna itens de conversa de pasta cruzada. Se você precisar acessar conteúdo de pasta cruzada, use o <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />objeto. Se não existir nenhum item de conversa na mesma pasta do cabeçalho da conversa, <b>GetItems</b> retornará uma coleção <b>SimpleItems</b> com a <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade igual a 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>Coleção <b>SimpleItems</b> contém apenas os itens de conversa na pasta que contém o cabeçalho de conversa. Coleção <b>SimpleItems</b> não retorna itens de conversa de pasta cruzada. Se você precisar acessar conteúdo de pasta cruzada, use o <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />objeto. Se não existir nenhum item de conversa na mesma pasta do cabeçalho da conversa, <b>GetItems</b> retornará uma coleção <b>SimpleItems</b> com a <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade igual a 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -246,9 +230,9 @@
       <Docs>
         <summary>Retorna o pai <see cref="T:System.Object" /> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai de um <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto é um <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto.</para> Objeto 
-          <para>retornado <b>seleção</b> contém apenas os objetos <b>ConversationHeader</b> . Obtendo a propriedade <b>Parent</b> é equivalente a chamar o <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> método com o <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argumento.</para><para /></remarks>
+        <remarks><para>O pai de um <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto é um <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto.</para>
+          <para>O objeto <b>Selection</b> retornado contém apenas os objetos <b>ConversationHeader</b>. Obtendo a propriedade <b>Parent</b> é equivalente a chamar o <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> método com o <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argumento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -276,11 +260,9 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada. </para>
-          <para>Você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada. </para>
+          <para>Você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControlEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6fba14b7d149e6e2f8f77bfcbce52383c3b394fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629660" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4b775519b72513e91105e3a49cc4ecc82885a314" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901554" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTimeZoneControlEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTimeZoneControlEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e a propriedade vinculada ao controle não será atualizada. </param>
+    <param name="Cancel"><b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e a propriedade vinculada ao controle não será atualizada. </param>
     <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

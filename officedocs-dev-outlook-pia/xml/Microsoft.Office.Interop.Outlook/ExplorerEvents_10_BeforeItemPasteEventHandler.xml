@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeItemPasteEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33bf358733271bbb01f457095708dcf8b7b71948" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630256" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeItemPasteEventHandler(ref object ClipboardContent, MAPIFolder Target, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08ab878d10a16580055959c541297b35cbf320ab" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900269" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeItemPasteEventHandler(ref object ClipboardContent, MAPIFolder Target, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeItemPasteEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeItemPasteEventHandler(ByRef ClipboardContent As Object, Target As MAPIFolder, ByRef Cancel As Boolean)" />
@@ -38,8 +30,7 @@
   <Docs>
     <param name="ClipboardContent">O conteúdo a ser colado.</param>
     <param name="Target">O destino da operação de colar.</param>
-    <param name="Cancel">
-      <b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e o item não será excluído. </param>
+    <param name="Cancel"><b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação não será concluída e o item não será excluído. </param>
     <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

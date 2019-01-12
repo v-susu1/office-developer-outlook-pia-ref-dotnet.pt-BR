@@ -1,13 +1,5 @@
 <Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629715" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902268" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegion" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
@@ -114,11 +106,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o texto exibido em tempo de execução no cabeçalho após o nome de exibição de uma região de formulário adjacente. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Detail</b> é exibida para adjoining somente áreas de formulário. Ele é ignorado para áreas de formulário separadas.</para>
-          <para>a propriedade <b>Detail</b> é opcional para uma região de formulário adjacente.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>Detail</b> é exibida para adjoining somente áreas de formulário. Ele é ignorado para áreas de formulário separadas.</para>
+          <para>A propriedade <b>Detail</b> é opcional para uma região de formulário adjacente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -146,11 +136,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição da região do formulário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O nome para exibição é opcional para uma região do formulário. Se você tiver definido um valor para o &lt;formRegionName&gt; marca em correspondente arquivo área de formulário manifesto XML, esse valor será mapeado para o valor da propriedade <b>DisplayName</b> . Para obter mais informações sobre o esquema XML de regiões de formulário, consulte a referência de esquema XML do Microsoft Outlook 2010 na <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca MSDN</a></para>
-          <para>o valor da propriedade <b>DisplayName</b> é exibido em tempo de execução na guia Mostrar, do Microsoft Office Fluent da faixa de opções para uma região de formulário separada ou no cabeçalho de uma região de formulário adjacente.  Ele é usado para a localidade padrão e podem ser substituído pelo &lt;stringOverride&gt; marca na região manifesto XML arquivo de formulário correspondente. A cadeia de caracteres diferencia maiusculas de minúsculas e seu tamanho máximo é de 256 caracteres.</para>
-          <para />
-        </remarks>
+        <remarks><para>O nome para exibição é opcional para uma região do formulário. Se você tiver definido um valor para o &lt;formRegionName&gt; marca em correspondente arquivo área de formulário manifesto XML, esse valor será mapeado para o valor da propriedade <b>DisplayName</b> . Para obter mais informações sobre o esquema XML de regiões de formulário, consulte a referência de esquema XML do Microsoft Outlook 2010 na <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca MSDN</a></para>
+          <para>O valor da propriedade <b>DisplayName</b> é exibido em tempo de execução na guia Exibir da faixa de opções Fluent do Microsoft Office para uma região de formulário separada ou no cabeçalho de uma região de formulário adjacente.  Ele é usado para a localidade padrão e podem ser substituído pelo &lt;stringOverride&gt; marca na região manifesto XML arquivo de formulário correspondente. A cadeia de caracteres diferencia maiúsculas de minúsculas e seu tamanho máximo é de 256 caracteres.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAutoLayout">
@@ -181,11 +169,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é necessário usar o layout automático redimensionamento recurso durante a criação de regiões de formulário no designer de formulários. Leitura/gravação</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o recurso de redimensionamento de layout automático no designer de formulários recalcula o layout do formulário dinamicamente à medida que o formulário é redimensionado. Este recurso só está disponível para áreas de formulário no designer de formulários.</para>
+        <remarks><para>O recurso de redimensionamento automático de layout no designer de formulários recalcula o layout do formulário dinamicamente quando o formulário é redimensionado. Este recurso somente está disponível para regiões do formulário no criador de formulários.</para>
           <para>Quando essa propriedade for <b>True</b>, o designer de formulários executa o redimensionamento de layout automático.  Quando essa propriedade for <b>False</b>, o designer de formulários não executa o redimensionamento de layout automático.  O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Form">
@@ -241,10 +227,8 @@
       <Docs>
         <summary>Retorna uma constante de <b>OlFormRegionMode</b> que indica se a área de formulário está em uma página de leitura, página de redação ou painel de leitura. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se o usuário tiver um item de email no painel de leitura, você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> propriedade para determinar se o usuário está no modo de edição ou no modo de leitura do painel de leitura. Um item de email é exibido de forma diferente no painel de leitura se ele estiver no modo de edição (o item de email está na pasta rascunho) que se ele for o modo de leitura (o item de email está na pasta caixa de entrada ou Sent).</para>
-          <para />
-        </remarks>
+        <remarks><para>Se o usuário tiver um item de email no painel de leitura, você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> propriedade para determinar se o usuário está no modo de edição ou no modo de leitura do painel de leitura. A exibição de um item de correio no Painel de Leitura é diferente quando ele está no modo de edição (o item de correio está na pasta Rascunho) e quando ele está no modo de leitura (o item de correio está nas pastas Caixa de Entrada ou Enviados).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspector">
@@ -272,10 +256,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto representando o Inspetor que hospeda a região do formulário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se a região de formulário é exibida no painel de leitura.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se a região de formulário é exibida no painel de leitura.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternalName">
@@ -303,11 +285,9 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome programático interno da região do formulário, como definido no manifesto da região de formulário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O nome interno é necessário para uma região do formulário. O &lt;nome&gt; marca em correspondente arquivo área de formulário manifesto XML mapeia para o valor da propriedade <b>InternalName</b> . Para obter mais informações sobre o esquema XML de regiões de formulário, consulte a referência de esquema XML do Microsoft Outlook 2010 na <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca MSDN</a></para>
-          <para>o valor da propriedade <b>InternalName</b> é usado pelo suplemento ou Microsoft Outlook para referir-se a área de formulário Por exemplo, para determinar qual região do formulário está sendo carregado ou para carregar as cadeias de caracteres a partir dos recursos de cadeia de caracteres localizada. A propriedade <b>InternalName</b> suporta apenas caracteres ASCII. A cadeia de caracteres diferencia maiusculas de minúsculas e seu tamanho máximo é de 256 caracteres.</para>
-          <para />
-        </remarks>
+        <remarks><para>O nome interno é necessário para uma região do formulário. O &lt;nome&gt; marca em correspondente arquivo área de formulário manifesto XML mapeia para o valor da propriedade <b>InternalName</b> . Para obter mais informações sobre o esquema XML de regiões de formulário, consulte a referência de esquema XML do Microsoft Outlook 2010 na <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca MSDN</a></para>
+          <para>O valor da propriedade <b>InternalName</b> é usado pelo suplemento ou Microsoft Outlook para referir-se à região de formulário, por exemplo, para determinar qual região do formulário está sendo carregado ou para carregar as cadeias de caracteres a partir dos recursos de cadeia de caracteres localizada. A propriedade <b>InternalName</b> suporta apenas caracteres ASCII. A cadeia de caracteres diferencia maiúsculas de minúsculas e seu tamanho máximo é de 256 caracteres.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsExpanded">
@@ -335,11 +315,9 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se a área de formulário será expandida. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade se aplica a áreas de formulário adjacentes apenas e é ignorada para áreas de formulário separadas.</para>
+        <remarks><para>Essa propriedade se aplica apenas às áreas de formulário adjacentes e é ignorada para áreas de formulário separadas.</para>
           <para>Outlook sempre primeiro carrega uma área de formulário em um estado expandida e define <b>IsExpanded</b> como <b>True</b>. Se o estado inicial da região do formulário é a ser recolhido, então Outlook fecha imediatamente a região de formulário, dispara o <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> evento com o <paramref name="Expand" /> parâmetro sendo <b>False</b>e define <b>IsExpanded</b> como <b>False</b>. </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -448,10 +426,8 @@
       <Parameters />
       <Docs>
         <summary>Faz com que o Outlook calcule novamente a altura de uma área de formulário adjacente para exibir todos os controles visíveis na área de formulário.</summary>
-        <remarks>
-          <para>O método <b>Reflow</b> só se aplica ao formulário adjacente. Nenhuma ação ocorre para áreas de formulário separadas.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>Reflow</b> só se aplica ao formulário adjacente. Nenhuma ação ocorre para áreas de formulário separadas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Select">
@@ -476,10 +452,8 @@
       <Parameters />
       <Docs>
         <summary>Torna ativa a área de formulário de forma que ela se torne visível.</summary>
-        <remarks>
-          <para>Se a área de formulário for uma região de formulário adjacente, em seguida, <b>Selecione</b> será expandir a região de formulário (se não já estiver expandido) e definir o foco no primeiro controle na página. Se a área de formulário é uma região de formulário separadas e não ainda estiver na página ativa, então <b>Selecione</b> será switch à região de formulário de página e definir o foco no primeiro controle na página. Se a área de formulário é uma região de formulário separadas e já está na página ativa, em seguida, nada acontece.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se a área de formulário for uma região de formulário adjacente, em seguida, <b>Selecione</b> será expandir a região de formulário (se não já estiver expandido) e definir o foco no primeiro controle na página. Se a área de formulário é uma região de formulário separadas e não ainda estiver na página ativa, então <b>Selecione</b> será switch à região de formulário de página e definir o foco no primeiro controle na página. Se a área de formulário é uma região de formulário separadas e já está na página ativa, em seguida, nada acontece.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -507,16 +481,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -546,14 +518,12 @@
         <param name="Control">Um controle na área de formulário para o qual a propriedade especificada por <paramref name="PropertyName" /> será vinculada.</param>
         <param name="PropertyName">O nome da propriedade que será vinculada ao controle.</param>
         <summary>Vincula uma propriedade interna explícita ou uma propriedade personalizada a um controle na área de formulário.</summary>
-        <remarks>
-          <para>Você pode usar esse método para vincular uma propriedade interna explícita ou uma propriedade personalizada a um controle. Você deve fazer referência à propriedade pelo seu nome de cadeia de caracteres, por exemplo, <b>assunto</b>e não pelo namespace, por exemplo, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
-          <para>o <paramref name="PropertyName" /> parâmetro não diferencia maiusculas de minúsculas. Por exemplo, <b>SetControlItemProperty</b> interpreta um argumento, <b>CustomerId</b>, para ser o mesmo que <b>CustomerID</b> e vincula o controle especificado a interno <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> propriedade.</para>
-          <para>Diferente usando o método <b>SetControlItemProperty</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> do objeto, você também pode usar o código semelhante ao seguinte para vincular uma propriedade, como a propriedade <b>Subject</b> a um controle:</para>
+        <remarks><para>Você pode usar esse método para vincular uma propriedade interna explícita ou uma propriedade personalizada a um controle. Você deve fazer referência a propriedade pelo seu nome de cadeia de caracteres, por exemplo, <b>assunto</b> e não pelo namespace, por exemplo, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
+          <para>O <paramref name="PropertyName" /> parâmetro não diferencia maiusculas de minúsculas. Por exemplo, <b>SetControlItemProperty</b> interpreta um argumento, <b>CustomerId</b>, para ser o mesmo que <b>CustomerID</b> e vincula o controle especificado a interno <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> propriedade.</para>
+          <para>Diferente de usando o método <b>SetControlItemProperty</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> do objeto, você também pode usar o código semelhante ao seguinte para vincular uma propriedade, como a propriedade <b>Subject</b> a um controle:</para>
           <code>myPage.Controls("bar").ItemProperty = "subject"</code>
           <code>myPage.Controls("bar").ItemProperty = "subject";</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressControlReplacement">
@@ -584,10 +554,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que desabilita que o Outlook substituir automaticamente um controle do Forms 2.0 por um controle do Outlook com temas no tempo de execução e no tempo de design. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obter mais informações sobre o Outlook substituir automaticamente um controle do Forms 2.0 por um controle de equivalente com tema do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obter mais informações sobre o Outlook substituir automaticamente um controle do Forms 2.0 por um controle de equivalente com tema do Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles em um formulário personalizado</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -618,12 +586,10 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:System.Boolean" /> (<b>bool</b> para c#) valor que indica se a área de formulário é visível ou oculto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True</b> se a área de formulário estiver visível; <b>False</b> se estiver oculto. O padrão é <b>True</b>. </para>
-          <para>Use a propriedade <b>Visible</b> para controlar o acesso às informações sem exibi-las em uma área de formulário.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>True</b> se a área de formulário estiver visível; <b>False</b> se estiver oculto. O padrão é <b>True</b>.</para>
+          <para>Use a propriedade <b>Visible</b> para controlar o acesso às informações sem exibi-la em uma região do formulário.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_ForwardEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5008a18c8ed98281c7e6e48c7f57a37321460d28" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629742" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_ForwardEventHandler(object Forward, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7d6d36fd51af15ebf7003265c69a923c2b6556a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899709" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_ForwardEventHandler(object Forward, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_ForwardEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_ForwardEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_ForwardEventHandler(Forward As Object, ByRef Cancel As Boolean)" />
@@ -36,8 +28,7 @@
   </ReturnValue>
   <Docs>
     <param name="Forward">O novo item que está sendo encaminhado.</param>
-    <param name="Cancel">
-      <b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação de encaminhamento não será concluída e o novo item não será exibido.</param>
+    <param name="Cancel"><b>False</b> quando o evento ocorre. Se o procedimento de evento define este argumento como <b>True</b>, a operação de encaminhamento não será concluída e o novo item não será exibido.</param>
     <summary>This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

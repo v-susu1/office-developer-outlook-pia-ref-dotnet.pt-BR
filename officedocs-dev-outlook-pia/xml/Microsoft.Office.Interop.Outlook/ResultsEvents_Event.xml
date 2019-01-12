@@ -1,13 +1,5 @@
 <Type Name="ResultsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ResultsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a87dc9dae2379388ad923144e6c646f5a199984" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630815" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a6435255dc3c98ff97995c77a01ed2d110fb667" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896846" /></Metadata><TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ResultsEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um ou mais itens são adicionados à coleção especificada.</summary>
-        <remarks>
-          <para>Esse evento não é executado quando um grande número de itens é adicionado à pasta ao mesmo tempo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento não é executado quando um número grande de arquivos é adicionado à pasta de uma só vez. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemChange">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um item é excluído da coleção especificada.</summary>
-        <remarks>
-          <para>Esse evento não é executado quando o último item em um arquivo de pastas particulares (. pst) é excluído ou se 16 ou mais itens são excluídos de uma só vez de um arquivo. pst, caixa de correio do Microsoft Exchange ou uma pasta pública do Exchange.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento não é executado quando o último item em um arquivo Pastas Particulares (.pst) é excluído ou se 16 ou mais itens são excluídos de uma só vez de um arquivo .pst, de uma caixa de correio do Microsoft Exchange ou de uma pasta pública do Exchange.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

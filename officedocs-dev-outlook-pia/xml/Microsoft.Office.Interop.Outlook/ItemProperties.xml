@@ -1,13 +1,5 @@
 <Type Name="ItemProperties" FullName="Microsoft.Office.Interop.Outlook.ItemProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="068473e5343109a26ed982c2916e8e99e1bf5182" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630286" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e0b6f765c864178318a6ab735154aa9fb4aa042" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900276" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperties&#xA;Implements IEnumerable" />
@@ -31,11 +23,13 @@
   </Attributes>
   <Docs>
     <summary>Um conjunto de todas as propriedades associadas ao item.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> propriedade para retornar a coleção <b>ItemProperties</b> . Use ItemProperties. item (<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto ou a posição numérica do item dentro da coleção, para retornar um único <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto.</para>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> propriedade para retornar a coleção <b>ItemProperties</b> . Use ItemProperties. item (<paramref name="index" />), onde <paramref name="index" /> é o nome do objeto ou a posição numérica do item dentro da coleção, para retornar um único <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto.</para>
       <para>
-        <b>Observação</b>: A coleção <b>ItemProperties</b> é baseado em zero, que significa que o primeiro item na coleção é referenciado como 0.</para> Uso de 
-      <para>o <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para adicionar uma nova propriedade de item à coleção <b>ItemProperties</b> . Use o <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" /> método para remover uma propriedade do item da coleção <b>ItemProperties</b> .</para><para><b>Observação</b>: só é possível adicionar ou remover propriedades personalizadas. Propriedades personalizadas são indicadas pelo <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</para><para /></remarks>
+        <b>Observação</b>: A coleção <b>ItemProperties</b> é baseado em zero, que significa que o primeiro item na coleção é referenciado como 0.</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para adicionar uma nova propriedade de item à coleção <b>ItemProperties</b> . Use o <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" /> método para remover uma propriedade do item da coleção <b>ItemProperties</b> .</para>
+      <para>
+        <b>Observação</b>: só é possível adicionar ou remover propriedades personalizadas. Propriedades personalizadas são indicadas pelo <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -69,10 +63,8 @@
         <param name="DisplayFormat">Define o formato do campo como aparece em determinada pasta.</param>
         <summary>Adiciona um objeto <b>ItemProperty</b> à coleção <b>ItemProperties</b>.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Você pode criar uma propriedade de um tipo definido pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeração, exceto para os seguintes tipos: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, e <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode criar uma propriedade de um tipo definido pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeração, exceto para os seguintes tipos: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, e <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -304,16 +296,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

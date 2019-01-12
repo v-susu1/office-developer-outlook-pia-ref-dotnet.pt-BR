@@ -1,13 +1,5 @@
 <Type Name="InspectorEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e577cef66d03135647987f26fbc59f4c3687f225" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629737" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f1194b1f0b61ad8f4626aab81e241dac5cce1074" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897675" /></Metadata><TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InspectorEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface InspectorEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário seleciona um anexo diferente ou adicional de um item no inspetor ativo, de maneira programática ou pela interação com a interface de usuário.</summary>
-        <remarks>
-          <para>O evento <b>AttachmentSelectionChange</b> é acionado quando um anexo diferente ou adicional do item é selecionado no Inspetor.</para>
-          <para />
-        </remarks>
+        <remarks><para>O evento <b>AttachmentSelectionChange</b> é acionado quando um anexo diferente ou adicional do item é selecionado no Inspetor.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um inspetor é maximizado pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o inspetor ativo é minimizado pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> é movido pelo usuário.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário dimensiona o atual <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</summary>
-        <remarks>
-          <para>Esse evento pode ser cancelado após ter sido iniciado. Se o evento for cancelado, a janela não é dimensionada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento pode ser cancelado depois de iniciado. Se ele for cancelado, a janela não será dimensionada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o inspetor associado a um item do Microsoft Outlook está sendo fechado.</summary>
-        <remarks>
-          <para>Se você usar o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Se você usar o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -219,10 +199,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando a página do formulário ativo é alterada, programaticamente ou por ação do usuário, em um <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto.</summary>
-        <remarks>
-          <para>Ocorrerá um erro se o manipulador de eventos para este evento chama tanto o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> ou <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" /> métodos.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ocorrerá um erro se o manipulador de eventos para este evento chama tanto o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> ou <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" /> métodos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

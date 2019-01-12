@@ -1,13 +1,5 @@
 <Type Name="_TasksModule" FullName="Microsoft.Office.Interop.Outlook._TasksModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9c962427e8f6fc30cbae048e0147c850843d392f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629506" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TasksModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9c962427e8f6fc30cbae048e0147c850843d392f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898463" /></Metadata><TypeSignature Language="C#" Value="public interface _TasksModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TasksModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TasksModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TasksModule" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna <b>olTasksModule</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna <b>olTasksModule</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -170,10 +160,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constante que representa o tipo de módulo de navegação para o objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna <b>olModuleTasks</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna <b>olModuleTasks</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -232,19 +220,17 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa a posição ordinal do <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> quando exibido no painel de navegação do objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade só pode ser definida como um valor entre 1 e 8. Ocorrerá um erro se você tentar definir essa propriedade como um valor fora desse intervalo.</para>
-          <para>Alterando o valor dessa propriedade para um objeto <b>TasksModule</b> altera os valores de <b>posição</b> de outros módulos de navegação contidos um <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> conjunto, dependendo da alteração relativa entre o novo valor e o valor original do Propriedade <b>Position</b> para aquele objeto <b>TasksModule</b> :</para>
+        <remarks><para>Essa propriedade pode ser definida apenas para um valor entre 1 e 8. Ocorrerá um erro se você tentar definir essa propriedade para um valor fora desse intervalo.</para>
+          <para>Alterar o valor dessa propriedade para um objeto <b>TasksModule</b> altera os valores de <b>posição</b> de outros módulos de navegação contidos um <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> conjunto, dependendo da alteração relativa entre o novo valor e o valor original do <b> Posição</b> propriedade para aquele objeto <b>TasksModule</b> :</para>
           <list type="bullet">
             <item>
-              <para>se o novo valor for menor que o valor original, em seguida, o objeto <b>TasksModule</b> especificado é movido para a nova posição acima e envia os outros módulos de navegação já em ou abaixo dessa nova posição para baixo.</para>
+              <para>Se o novo valor for menor que o valor original, o objeto <b>TasksModule</b> especificado é movido para a nova posição acima e envia os outros módulos de navegação já abaixo ou essa nova posição para baixo.</para>
             </item>
             <item>
-              <para>Se o novo valor for maior que o valor original, em seguida, o objeto <b>TasksModule</b> especificado move para baixo para a nova posição e envia os outros módulos de navegação entre a posição antiga e a nova posição para cima, preenchendo a posição antiga.</para>
+              <para>Se o novo valor for maior que o valor original, o objeto <b>TasksModule</b> especificado move para baixo para a nova posição e envia os outros módulos de navegação entre a posição antiga e a nova posição para cima, preenchendo a posição antiga.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -272,16 +258,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">

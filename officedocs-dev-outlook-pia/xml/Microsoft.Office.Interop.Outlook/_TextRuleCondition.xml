@@ -1,13 +1,5 @@
 <Type Name="_TextRuleCondition" FullName="Microsoft.Office.Interop.Outlook._TextRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="08c43d46f2b5c5edff71f17ab9960a3f103b9a53" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629346" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TextRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08c43d46f2b5c5edff71f17ab9960a3f103b9a53" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900220" /></Metadata><TypeSignature Language="C#" Value="public interface _TextRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TextRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TextRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TextRuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Retorna uma constante do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeração que indica o tipo de condição de regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da <b>ConditionType</b> depende do tipo de condição de regra, como vários tipos de uso de condições de regra de <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> objeto: <b>olConditionBody</b>, <b>olConditionBodyOrSubject</b>, <b>olConditionMessageHeader</b>e <b> olConditionSubject</b>. Exceto para <b>olConditionMessageHeader</b>, que é suportada apenas pelas regras para receber mensagens, todos esses tipos de condições são compatíveis com as regras para o recebimento de mensagens, bem como as regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da <b>ConditionType</b> depende do tipo de condição de regra, como vários tipos de uso de condições de regra de <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> objeto: <b>olConditionBody</b>, <b>olConditionBodyOrSubject</b>, <b>olConditionMessageHeader</b>e <b> olConditionSubject</b>. Exceto para <b>olConditionMessageHeader</b>, que é suportada apenas pelas regras para receber mensagens, todos esses tipos de condições são compatíveis com as regras para o recebimento de mensagens, bem como as regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,11 +135,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a condição de regra está habilitada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra é habilitada apenas após ele ter sido salvo com êxito. </para>
-          <para>Retornará um erro se você tentar habilitar uma condição de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.  Para obter mais informações sobre suporte pelas regras para receber mensagens ou regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição regra é habilitada somente depois de ter sido salva com êxito. </para>
+          <para>Retorna um erro se você tentar habilitar uma condição de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.  Para obter mais informações sobre suporte pelas regras para receber mensagens ou regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -177,10 +165,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -208,16 +194,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -248,10 +232,8 @@
       <Docs>
         <summary>Retorna ou define uma matriz de elementos <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o texto a ser avaliado pela condição de regra. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode atribuir uma matriz com a cadeia de caracteres de uma ou várias cadeias de caracteres para avaliação. Várias cadeias de caracteres de texto atribuídas em uma matriz são avaliadas usando a operação OR lógica.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode atribuir uma matriz com uma ou várias sequências de caracteres para avaliação. Várias sequências de caracteres de texto em uma matriz são avaliadas utilizando a operação OR lógica.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

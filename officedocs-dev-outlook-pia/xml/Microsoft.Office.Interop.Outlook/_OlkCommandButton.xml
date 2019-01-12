@@ -1,13 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629711" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899184" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o acelerador ou a tecla de acesso para o controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é uma sequência vazia, o que significa que não há nenhuma tecla de acesso.  Se a propriedade estiver definida com uma cadeia de caracteres de mais de um caractere, o valor será truncado para o primeiro caractere.  </para>
+        <remarks><para>O valor padrão é uma sequência de caracteres vazia, o que significa que não há tecla de atalho. Se a propriedade estiver definida com uma sequência de caracteres de mais de um caractere, o valor será truncado no primeiro caractere.  </para>
           <para>Você não pode usar dígitos em uma tecla aceleradora.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -93,11 +83,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão para essa propriedade é <b>False</b>.</para>
+        <remarks><para>  O valor padrão para essa propriedade é <b>False</b>.</para>
           <para>Para um controle de botão, esta propriedade especifica se o controle se ajusta automaticamente para exibir o valor da legenda inteira.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -128,10 +116,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que aparece em um objeto para identificar ou descrevê-lo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é uma sequência vazia. Designer de formulários define essa propriedade como o nome do controle padrão.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é uma sequência de caracteres vazia. O Criador de Formulários define esta propriedade como o nome padrão do controle.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayDropArrow">
@@ -162,10 +148,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que permite a renderização de uma seta apontando para baixo no botão. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nessa seta é disposta à direita do botão em idiomas escritos da esquerda para a direita e à esquerda em idiomas escritos direita para a esquerda. <b>True</b> para renderizar a seta do botão, <b>False</b> para desativar a renderização.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nessa seta é disposta à direita do botão em idiomas escritos da esquerda para a direita e à esquerda em idiomas escritos direita para a esquerda. <b>True</b> para renderizar a seta do botão, <b>False</b> para desativar a renderização.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -196,11 +180,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é <b>False</b>.</para>
-          <para>Quando o controle é desabilitado, o conteúdo do controle aparece esmaecido.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é desabilitado, o conteúdo dele aparece esmaecido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -259,10 +241,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa uma imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -293,10 +273,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Picture">
@@ -327,12 +305,10 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa a imagem que é exibida no controle.    Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para>Uma imagem e texto não podem ser exibidos ao mesmo tempo no controle, portanto, quando a propriedade picture é definida, a propriedade text é ignorada.</para>
-          <para>a imagem é sempre exibida no Centro de controle de botão.  A imagem será recortada conforme necessário para caber no espaço disponível.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para>Uma imagem e um texto não podem ser exibidos ao mesmo tempo no controle, sendo assim, quando a propriedade da imagem é definida, a propriedade do texto é ignorada.</para>
+          <para>A imagem é sempre exibida no centro do controle do botão.  A imagem será cortada, se necessário, para caber no espaço disponível.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureAlignment">
@@ -394,11 +370,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
-          <para>Para o controle Command Button, quando <b>TextAlign</b> é definido como <b>olTextAlignLeft</b>, a margem esquerda é apenas um pixel da borda do controle.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
+          <para>Para o controle de botão de comando, quando <b>TextAlign</b> é definido como <b>olTextAlignLeft</b>, a margem esquerda é apenas um pixel da borda do controle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -429,10 +403,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

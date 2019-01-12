@@ -1,13 +1,5 @@
 <Type Name="_Reminder" FullName="Microsoft.Office.Interop.Outlook._Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629520" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901757" /></Metadata><TypeSignature Language="C#" Value="public interface _Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Reminder" />
@@ -136,10 +128,8 @@
       <Parameters />
       <Docs>
         <summary>Descarta o lembrete atual.</summary>
-        <remarks>
-          <para>O método <b>Dismiss</b> falhará se não houver nenhum lembrete visível.</para>
-          <para />
-        </remarks>
+        <remarks><para>O método <b>Dismiss</b> falhará se não houver lembrete visível.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsVisible">
@@ -167,10 +157,8 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se o lembrete está visível no momento.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O Outlook determina o valor de retorno dessa propriedade baseado no estado do lembrete atual. Todos os lembretes ativos estão visíveis. Se <b>IsVisible</b> for True, o lembrete está visível.</para>
-          <para />
-        </remarks>
+        <remarks><para> O Outlook determina o valor de retorno dessa propriedade baseado no estado do lembrete atual. Todos os lembretes ativos estão visíveis. Se <b>IsVisible</b> for True, o lembrete está visível.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -226,10 +214,8 @@
       <Docs>
         <summary>Retorna uma <b>Data</b> que indica na próxima vez que o lembrete especificado ocorrerá. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>NextReminderDate</b> altera toda vez que o objeto <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou quando o usuário clica no botão adiar.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>NextReminderDate</b> altera toda vez que o objeto <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou quando o usuário clica no botão adiar.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginalReminderDate">
@@ -257,10 +243,8 @@
       <Docs>
         <summary>Retorna uma <b>Data</b> que especifica a data e a hora em que o lembrete especificado está definido para ocorrer original. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esse valor corresponde ao valor de data e hora original antes do <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou o usuário clica no botão adiar.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse valor corresponde ao valor de data e hora original antes do <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou o usuário clica no botão adiar.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -316,16 +300,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -352,11 +334,9 @@
       <Docs>
         <param name="SnoozeTime">Indica a quantidade de tempo (em minutos) de atraso do lembrete. O valor padrão é 5 minutos.</param>
         <summary>Atrasa o lembrete por um tempo especificado.</summary>
-        <remarks>
-          <para>Equivale ao usuário clicar no botão adiar.  </para>
-          <para>Esse método irá falhar se o lembrete atual não estiver ativo.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Equivale ao usuário clicar no botão Adiar.  </para>
+          <para>Este método falhará se o lembrete atual não estiver ativo.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

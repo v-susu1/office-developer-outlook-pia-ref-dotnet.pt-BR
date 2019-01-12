@@ -1,13 +1,5 @@
 <Type Name="MAPIFolder" FullName="Microsoft.Office.Interop.Outlook.MAPIFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8a333f159d3a63a23c2b19913ea1f7e5b666bcb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629415" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5ff194f3b28d1408ede7525b7b91a1471bd5eb41" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901083" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolder" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que indica o nome do catálogo de endereços para o <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto representando uma pasta de contatos. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se você tentar definir a propriedade <b>AddressBookName</b> em uma pasta não seja de contatos, um erro será retornado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se você tentar definir a propriedade <b>AddressBookName</b> em uma pasta não seja de contatos, um erro será retornado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToFavorites">
@@ -203,10 +193,8 @@
         <param name="DestinationFolder">Objeto <b>Folder</b> necessário que representa a pasta de destino.</param>
         <summary>Copia a pasta atual inteira para a pasta de destino.</summary>
         <returns>Um objeto <b>Folder</b> que representa a nova cópia da pasta atual.</returns>
-        <remarks>
-          <para>Definindo o valor REG_MULTI_SZ, DisableCrossAccountCopy, em HKCU\Software\Microsoft\Office\14.0\Outlook no registro do Windows tem o efeito de lado de desabilitar esse método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Definindo o valor REG_MULTI_SZ, DisableCrossAccountCopy, em HKCU\Software\Microsoft\Office\14.0\Outlook no registro do Windows tem o efeito de lado de desabilitar esse método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -234,10 +222,9 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto representando o modo de exibição atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obter um objeto <b>View</b> para o modo de exibição do atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez da propriedade <b>CurrentView</b> do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-          <para>Você deve salvar uma referência ao objeto <b>View</b> retornado por <b>CurrentView</b> , antes de prosseguir para usá-lo para qualquer fim.</para>
-          <para>Adequadamente redefinir o modo de exibição atual, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
+        <remarks><para>Para obter um objeto <b>View</b> para o modo de exibição do atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> em vez da propriedade <b>CurrentView</b> do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+          <para>Você deve salvar uma referência ao objeto <b>View</b> retornado por <b>CurrentView</b>, antes de prosseguir para usá-lo para qualquer fim.</para>
+          <para>Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -256,8 +243,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomViewsOnly">
@@ -288,11 +274,9 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina quais modos de exibição são exibidos no menu Exibir, para uma determinada pasta. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se definido como <b>True</b>, somente as exibições criadas pelo usuário aparecerão no menu.</para>
-          <para>Dessa propriedade tem efeito somente no menu Exibir. Ela não afeta a exibição de modos de exibição no painel de navegação.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se definido como <b>True</b>, somente as exibições criadas pelo usuário aparecerão no menu.</para>
+          <para>Esta propriedade tem efeito somente sobre o menu Exibir. Ela não afeta as exibições do Painel de Navegação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultItemType">
@@ -404,10 +388,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a descrição da pasta.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade <b>PidTagComment</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade <b>PidTagComment</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -460,9 +442,9 @@ End Sub</code>
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a identificação de entrada exclusiva do objeto.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para> Provedor de repositórios de 
-          <para>uma MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, pesquise http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+        <remarks><para>Essa propriedade corresponde à propriedade de MAPI <b>PidTagEntryId</b>.</para>
+          <para>Um provedor de armazenamento MAPI atribui uma cadeia de caracteres de identificação exclusiva quando um item é criado em seu armazenamento. Portanto, a propriedade <b>EntryID</b> não é definida para um item do Outlook, até que ele é salvo ou enviado. A identificação de entrada é alterada quando um item é movido para outro armazenamento, por exemplo, a partir de sua caixa de entrada para uma pasta pública do Microsoft Exchange Server ou um arquivo de pastas particulares (. pst) para outro arquivo. pst. Soluções não devem depender a propriedade <b>EntryID</b> seja exclusivo, a menos que os itens não serão movidos. A propriedade <b>EntryID</b> retorna uma ID MAPI longo prazo de entrada. Para obter mais informações sobre long - e curto prazo EntryIDs, procure http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderPath">
@@ -518,10 +500,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> coleção que representa todas as pastas contidas no especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto é a raiz de todas as pastas do namespace especificado.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto é a raiz de todas as pastas do namespace especificado. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FullFolderPath">
@@ -578,12 +558,10 @@ End Sub</code>
       <Docs>
         <summary>Cria um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto para especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />.</summary>
         <returns>Um objeto <b>CalendarSharing</b> para a pasta especificada.</returns>
-        <remarks>
-          <para>O método <b>GetCalendarExporter</b> define automaticamente os padrões para a classe de <b>CalendarSharing</b> às opções padrão usadas pelo objeto <b>Folder</b> . O método <b>GetCalendarExporter</b> somente pode ser usado em pastas de calendário. Ocorrerá um erro se você usar o método em objetos <b>Folder</b> que representam os outros tipos de pasta.</para>
+        <remarks><para>O método <b>GetCalendarExporter</b> define automaticamente os padrões para a classe de <b>CalendarSharing</b> às opções padrão usadas pelo objeto <b>Folder</b>. O método <b>GetCalendarExporter</b> somente pode ser usado em pastas de calendário. Ocorrerá um erro se você usar o método em objetos <b>Folder</b> que representam os outros tipos de pasta.</para>
           <para>
             <b>Observação</b>: O objeto <b>CalendarSharing</b> oferece suporte apenas à exportação no formato de arquivo iCalendar (. ICS).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetCustomIcon">
@@ -609,24 +587,28 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:stdole.StdPicture" /> object que representa o ícone personalizado para a pasta.</summary>
         <returns>Retorna um objeto <b>StdPicture</b> que representa um ícone personalizado para a pasta.</returns>
-        <remarks>
-          <para>O objeto <b>StdPicture</b> retornado tem sua propriedade <b>Type</b> igual a <b>PICTYPE_ICON</b> ou <b>a PICTYPE_BITMAP</b>.</para>
+        <remarks><para>O objeto <b>StdPicture</b> retornado tem sua propriedade <b>Type</b> igual a <b>PICTYPE_ICON</b> ou <b>a PICTYPE_BITMAP</b>.</para>
           <para>
-            <b>GetCustomIcon</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#), se a pasta não tiver um ícone personalizado de pasta ou se a pasta pertencer a um dos seguintes grupos de pastas:</para>
+            <b>GetCustomIcon</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se a pasta não tiver um ícone personalizado de pasta, ou se a pasta pertencer a um dos seguintes grupos de pastas:</para>
           <list type="bullet">
             <item>
               <para>Pastas padrão (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeração)</para>
             </item>
             <item>
-              <para>pastas especiais (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeração)</para>
+              <para>Pastas especiais (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeração)</para>
             </item>
             <item>
-              <para>pasta raiz de qualquer caixa de correio do Exchange</para>
-            </item>de
-            <item><para>pastas públicas do Exchange</para></item><item><para>oculto pastas</para></item></list>
+              <para>Pastas públicas do Exchange</para>
+            </item>
+            <item>
+              <para>Pasta raiz de qualquer caixa de correio do Exchange</para>
+            </item>
+            <item>
+              <para>Pastas ocultas</para>
+            </item>
+          </list>
           <para>Você só pode chamar <b>GetCustomIcon</b> de código que é executado em processo como o Outlook. Um objeto <b>StdPicture</b> não pode ser enfileirado nos limites do processo. Se você tentar chamar <b>GetCustomIcon</b> do código de fora do processo, ocorre uma exceção. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/150034">um servidor de automação não é possível passar um ponteiro para a implementação de IPictureDisp do objeto imagem nos limites do processo</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExplorer">
@@ -654,12 +636,13 @@ End Sub</code>
         <param name="DisplayMode">O modo de exibição da pasta. Pode ser uma das seguintes constantes no <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> enumeração.</param>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object que representa um novo objeto <b>Explorer</b> inativo inicializado com a pasta específica como pasta atual.</summary>
         <returns>Um objeto <b>Explorer</b> que representa um novo Explorer inativo inicializado com a pasta específica como pasta atual.</returns>
-        <remarks>
-          <para>Esse método é útil para retornar um novo objeto <b>Explorer</b> no qual exibir a pasta, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade.</para>
-          <para>o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método pode ser usado para ativar ou mostrar o <b>Explorer</b>.</para>
-          <para>o método <b>GetExplorer</b> usa um argumento opcional de uma <b>OlFolderDisplayMode</b> constante.</para>
-          <para>Por padrão, o novo <b>Explorer</b> serão exibidas no modo Normal (<b>olFolderDisplayNormal</b>) com todos os elementos de interface exibidos: um painel de mensagens à direita e painel de navegação à esquerda. A exceção a essa regra é quando você chama <b>GetExplorer</b> em pastas delegadas que estão no modo sem navegação (<b>olFolderDisplayNoNavigation</b> ) por padrão. Você pode aplicar mais restrições a um modo padrão, mas você não pode diminuir as restrições, alterando o <b>OlFolderDisplayMode</b>.</para> Gerenciador de 
-          <para>também podem ser exibidas no modo somente pasta (<b>olFolderDisplayFolderOnly</b>). Esse modo é essencialmente o mesmo que o modo Normal (<b>olFolderDisplayNormal</b> ) em que ele também exibe o painel de navegação à esquerda.</para><para>o modo mais restritivo que você pode usar é o modo sem navegação (<b>olFolderDisplayNoNavigation</b>). Neste modo, o <b>Explorer</b> exibirá com nenhuma lista de pastas, nenhuma lista suspensa pasta e todas as barras de comando do menu "Go" tipo opções devem ser desabilitadas. Basicamente, o usuário não deve ser capaz de navegar para qualquer outra pasta nessa janela <b>Explorer</b> . Por padrão, uma pasta (compartilhada) delegada aparece no modo sem navegação.</para><para /></remarks>
+        <remarks><para>Esse método é útil para retornar um novo objeto <b>Explorer</b> no qual exibir a pasta, em vez de usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método e a configuração do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade.</para>
+          <para>O <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método pode ser usado para ativar ou mostrar o <b>Explorer</b>.</para>
+          <para>O método <b>GetExplorer</b> usa um argumento opcional de uma <b>OlFolderDisplayMode</b> constante.</para>
+          <para>Por padrão, o novo <b>Explorer</b> será exibido no modo normal (<b>olFolderDisplayNormal</b>) com todos os elementos de interface exibidos: um painel de mensagens à direita e o Painel de Navegação à esquerda. A exceção a essa regra ocorre quando você chama <b>GetExplorer</b> em pastas delegadas que estão, por padrão, no modo sem navegação (<b>olFolderDisplayNoNavigation</b> ). Você pode aplicar mais restrições a um modo padrão, mas não pode diminuí-las alterando  <b>OlFolderDisplayMode</b>.</para>
+          <para>O Explorer também pode ser exibido no modo somente pasta (<b>olFolderDisplayFolderOnly</b>). Esse modo é essencialmente igual ao modo normal (<b>olFolderDisplayNormal</b>), pois também exibe o Painel de Navegação à esquerda.</para>
+          <para> O modo mais restritivo que você pode usar é o modo sem navegação (<b>olFolderDisplayNoNavigation</b>). Nesse modo, o <b>Explorer</b> será exibido sem qualquer lista de pastas ou lista suspensa de pastas e quaisquer menus/opções da barra de comandos do tipo "Ir" devem ser desativados. Basicamente, o usuário não deve conseguir navegar até qualquer outra pasta nessa janela <b>Explorer</b>. Por padrão, uma pasta delegada (compartilhada) aparece no modo Sem navegação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStorage">
@@ -690,31 +673,29 @@ End Sub</code>
         <param name="StorageIdentifierType">Especifica o tipo de identificador para o objeto <b>StorageItem</b>.</param>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> objeto no pai <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> para armazenar dados para uma solução do Outlook.</summary>
         <returns>Um objeto <b>StorageItem</b> que é usado para armazenar dados para uma solução.</returns>
-        <remarks>
-          <para>O método <b>GetStorage</b> obtém um <b>StorageItem</b> em um objeto de <b>pasta</b> usando o identificador especificado por <paramref name="StorageIdentifier" /> e tem o tipo de identificador especificada pelo <paramref name="StorageIdentifierType" />.    O <b>StorageItem</b> é um item oculto na <b>pasta</b>, que deslocam-se com a conta e está disponível online e offline.</para>
-          <para>Se você especificar o <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" /> para o <b>StorageItem</b> usando o valor de <b>olIdentifyByEntryID</b> para <paramref name="StorageIdentifierType" />, então o método <b>GetStorage</b> retornará o <b>StorageItem</b> com <b>EntryID</b>especificado. Se nenhum <b>StorageItem</b> pode ser encontradas que <b>EntryID</b> ou se o <b>StorageItem</b> não existir, o método <b>GetStorage</b> irá gerar um erro.</para>
+        <remarks><para>O método <b>GetStorage</b> obtém um <b>StorageItem</b> em um objeto de <b>pasta</b> usando o identificador especificado por <paramref name="StorageIdentifier" /> e tem o tipo de identificador especificada pelo <paramref name="StorageIdentifierType" />.    O <b>StorageItem</b> é um item oculto na <b>pasta</b>, que deslocam-se com a conta e está disponível online e offline.</para>
+          <para>Se você especificar o <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" /> para o <b>StorageItem</b> usando o valor de <b>olIdentifyByEntryID</b> para <paramref name="StorageIdentifierType" />, então o método <b>GetStorage</b> retornará o <b>StorageItem</b> com <b>EntryID</b>especificado. Se nenhum <b>StorageItem</b> pode ser encontradas que <b>EntryID</b> ou <b>StorageItem</b> não existir, o método <b>GetStorage</b> irá gerar um erro.</para>
           <para>Se você especificar a classe de mensagem para o <b>StorageItem</b> usando o valor de <b>olIdentifyByMessageClass</b> para <paramref name="StorageIdentifierType" />, então o método <b>GetStorage</b> retornará o <b>StorageItem</b> com a classe de mensagem especificada. Se houver vários itens com a mesma classe de mensagem, o método <b>GetStorage</b> retorna o item com a mais recente <b>PidTagLastModificationTime</b>. Se nenhum <b>StorageItem</b> existe com a classe de mensagem especificado, o método <b>GetStorage</b> cria um novo <b>StorageItem</b> com a classe de mensagem especificada por <paramref name="StorageIdentifier" />.</para>
           <para>Se você especificar o <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" /> de <b>StorageItem</b>, e então o <b>GetStorage</b> método retornará o <b>StorageItem</b> com o <b>assunto</b> especificado na chamada <b>GetStorage</b> . Se houver vários itens com o mesmo <b>assunto</b>, o método <b>GetStorage</b> retornará o item com a mais recente <b>PidTagLastModificationTime</b>. Se nenhum <b>StorageItem</b> existe com o <b>assunto</b>do especificado, o método <b>GetStorage</b> criará um novo <b>StorageItem</b> com o <b>assunto</b> especificado por <paramref name="StorageIdentifier" />.</para>
           <para>
-            <b>GetStorage</b> retornará um erro se não há suporte para o tipo de repositório da pasta. Os armazenamentos a seguintes retornam um erro quando <b>GetStorage</b> é chamado:</para>
+            <b>GetStorage</b> retornará um erro se não há suporte para o tipo de repositório da pasta. Os seguintes repositórios retornam um erro quando <b>GetStorage</b> é chamado:</para>
           <list type="bullet">
             <item>
-              <para>Hotmail repositório</para>
+              <para>Repositório do Hotmail</para>
             </item>
             <item>
-              <para>IMAP Internet Message Access Protocol () armazena</para>
+              <para>Repositórios IMAP</para>
             </item>
             <item>
-              <para>representante armazena</para>
+              <para>Repositórios de representante</para>
             </item>
             <item>
-              <para>armazena de pasta pública</para>
+              <para>Repositórios de pastas públicas</para>
             </item>
           </list>
-          <para>a <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" />de um <b>StorageItem</b> recém-criado é zero (0) até que você faça uma chamada explícita no <see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" /> método do item.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" /> de um <b>StorageItem</b> recém-criado é zero (0) até que você faça uma chamada explícita no <see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" /> método do item.</para>
           <para>Para obter mais informações sobre como armazenar dados para uma solução, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87931">Armazenando dados de soluções</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -744,14 +725,12 @@ End Sub</code>
         <param name="TableContents">Especifica o tipo de itens na pasta que <b>GetTable</b> retorna. O padrão é <b>olUserItems</b>. </param>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contém itens filtrados por <paramref name="Filter" />.</summary>
         <returns>Uma <b>tabela</b> que contém itens no pai <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> que satisfazem os critérios de <paramref name="Filter" />. Por padrão, <paramref name="TableContents" /> é <b>olUserItems</b> e a <b>tabela</b> retornada contém apenas os itens filtrados que não estão ocultos.</returns>
-        <remarks>
-          <para>Se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou o <paramref name="Filter" /> parâmetro for omitido, <b>GetTable</b> retornará uma <b>tabela</b> com linhas que representam todos os itens na <b>pasta</b>. Se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou o <paramref name="Filter" /> parâmetro for omitido e <paramref name="TableContents" /> é <b>olHiddenItems</b>, retorna <b>GetTable</b> uma <b>tabela</b> com linhas que representam todos os itens ocultos na <b>pasta</b>.</para>
+        <remarks><para>Se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou o <paramref name="Filter" /> parâmetro for omitido, <b>GetTable</b> retornará uma <b>tabela</b> com linhas que representam todos os itens na <b>pasta</b>. Se <paramref name="Filter" /> é uma cadeia de caracteres em branco ou o <paramref name="Filter" /> parâmetro for omitido e <paramref name="TableContents" /> é <b>olHiddenItems</b>, retorna <b>GetTable</b> uma <b>tabela</b> com linhas que representam todos os itens ocultos na <b>pasta</b>.</para>
           <para>Para obter mais informações sobre filtros, consulte Filtrando itens e referenciando propriedades por Namespace.</para>
           <para>
-            <b>GetTable</b> retorna uma <b>tabela</b> com a coluna padrão definido para o tipo de pasta da <b>pasta</b>pai. Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção.  Quando <paramref name="TableContents" /> é <b>olHiddenItems</b>, o conjunto de colunas padrão é sempre coluna padrão definida para uma pasta de email, mesmo que a <b>pasta</b> pai pode ser, por exemplo, uma pasta de contatos.  Para obter mais informações sobre conjuntos de coluna padrão, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Padrão propriedades exibidas em um objeto Table</a></para>
-          <para>você pode usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsequentes a uma <b>tabela</b> com base no objeto <b>Folder</b> .</para>
-          <para />
-        </remarks>
+            <b>GetTable</b> retorna uma <b>tabela</b> com a coluna padrão definido para o tipo de pasta da <b>pasta</b> pai. Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção.  Quando <paramref name="TableContents" /> é <b>olHiddenItems</b>, o conjunto de colunas padrão é sempre coluna padrão definida para uma pasta de email, mesmo que a <b>pasta</b> pai pode ser, por exemplo, uma pasta de contatos.  Para obter mais informações sobre conjuntos de coluna padrão, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Padrão propriedades exibidas em um objeto Table</a></para>
+          <para>Você pode usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsequentes a uma <b>tabela</b> com base no objeto <b>Folder</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InAppFolderSyncObject">
@@ -782,12 +761,10 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a pasta especificada será sincronizada com o servidor de email. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, essa pasta será sincronizada quando as "pastas de aplicativos" <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> é sincronizado. Se <b>False</b>, a pasta não será sincronizado. </para>
-          <para>Equivale a marcar a caixa de seleção dessa pasta no grupo pastas de aplicativos, na caixa de diálogo Enviar/receber.</para>
-          <para>Se essa propriedade for definida como <b>True</b>e "Pastas de aplicativos" <b>SyncObject</b> ainda não existir, um <b>SyncObject</b> será criado automaticamente. "Pastas de aplicativos" <b>SyncObject</b> é o único grupo de envio/recebimento que pode ser modificado por programação.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, essa pasta será sincronizada quando as "pastas de aplicativos" <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> é sincronizado. Se <b>False</b>, a pasta não será sincronizado. </para>
+          <para>Isso equivale a marcar a caixa de seleção dessa pasta no grupo Pastas de aplicativos, na caixa de diálogo Enviar/receber.</para>
+          <para>Se essa propriedade for definida como <b>True</b> e "Pastas de aplicativos" <b>SyncObject</b> ainda não existir, um <b>SyncObject</b> será criado automaticamente. "Pastas de aplicativos" <b>SyncObject</b> é o único grupo de Envio/recebimento que pode ser modificado por programação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSharePointFolder">
@@ -815,10 +792,11 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que determina se a pasta é uma pasta do Microsoft SharePoint Foundation. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma SharePoint Foundation é uma pasta personalizada no Outlook que contém uma cópia ao vivo da lista de contatos ou lista de eventos que reside em um site do SharePoint Foundation. A lista de contatos é mapeado para uma pasta de contatos no Outlook e a lista de eventos é mapeado para uma pasta de calendário. </para>
-          <para>Pastas do SharePoint Foundation são criadas automaticamente sob o nó de pastas do SharePoint no painel de navegação quando uma lista de contatos ou uma lista de eventos é exportada do site do SharePoint Foundation.</para> Da mesma maneira que outras pastas de trabalho de pastas 
-          <para>Embora o SharePoint Foundation, há algumas exceções. Pastas do SharePoint Foundation são somente leitura e qualquer tentativa de editar propriedades da pasta ou adicionar, editar ou remover itens existentes falhará. </para><para>Uma pasta na pasta de servidor do Microsoft Exchange do usuário nunca será uma pasta do SharePoint Foundation e nenhuma pasta no arquivo de pastas particulares do usuário padrão (. pst) nunca será uma pasta do SharePoint Foundation. Geralmente as pastas do SharePoint Foundation estará sob o nó de pastas do SharePoint no painel de navegação.</para><para /></remarks>
+        <remarks><para>Uma pasta do SharePoint Foundation é uma pasta personalizada do Outlook que contém uma cópia ativa da lista de contatos ou da lista de eventos hospedada em um site do SharePoint Foundation. A lista de contatos mapeia para uma pasta Contatos do Outlook e a lista de eventos mapeia para uma pasta do Calendário. </para>
+          <para>As pastas do SharePoint Foundation são criadas automaticamente no nó Pastas do SharePoint no Painel de Navegação quando uma lista de contatos ou de eventos é exportada do site do SharePoint Foundation.</para>
+          <para>Embora as pastas do SharePoint Foundation funcionem da mesma maneira que as outras pastas, há algumas exceções. As pastas do SharePoint Foundation são somente leitura e qualquer tentativa de editar suas propriedades, bem como de adicionar, editar ou remover seus itens, falhará. </para>
+          <para>Uma pasta na pasta de servidor do Microsoft Exchange do usuário nunca será uma pasta do SharePoint Foundation e nenhuma pasta no arquivo de pastas particulares do usuário padrão (. pst) nunca será uma pasta do SharePoint Foundation. Geralmente, as pastas do SharePoint Foundation estarão sob o nó Pastas do SharePoint no Painel de Navegação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Items">
@@ -846,10 +824,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto da coleção como uma coleção de itens do Outlook na pasta especificada. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O índice da coleção de <b>itens</b> começa com 1, e não há garantia dos itens no objeto da coleção <b>Items</b> estejam em alguma ordem específica.</para>
-          <para />
-        </remarks>
+        <remarks><para>[!OBSERVAçãO] Índice da coleção <b>Items</b> inicia em 1 e os itens em um objeto da coleção <b>Items</b> não há uma garantia estar em qualquer ordem.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -908,10 +884,8 @@ End Sub</code>
       <Docs>
         <param name="DestinationFolder">O destino <b>Folder</b> para a <b>pasta</b> que está sendo movido.</param>
         <summary>Move uma pasta para a pasta de destino especificada.</summary>
-        <remarks>
-          <para>Definindo o valor REG_MULTI_SZ, DisableCrossAccountCopy, em HKCU\Software\Microsoft\Office\14.0\Outlook no registro do Windows tem o efeito de lado de desabilitar esse método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Definindo o valor REG_MULTI_SZ, DisableCrossAccountCopy, em HKCU\Software\Microsoft\Office\14.0\Outlook no registro do Windows tem o efeito de lado de desabilitar esse método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -970,10 +944,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto da coleção.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto da coleção.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1029,16 +1001,14 @@ End Sub</code>
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCustomIcon">
@@ -1066,12 +1036,29 @@ End Sub</code>
       <Docs>
         <param name="Picture">Especifica o ícone personalizado para a pasta.</param>
         <summary>Define um ícone personalizado que é especificado pelo <paramref name="Picture" /> para a pasta.</summary>
-        <remarks>
-          <para>O <see cref="T:stdole.StdPicture" /> objeto especificado por <paramref name="Picture" /> deve ter sua propriedade <b>Type</b> igual a <b>PICTYPE_ICON</b> ou <b>a PICTYPE_BITMAP</b>. O recurso de ícone ou bitmap pode ter um tamanho máximo de 32 x 32. Os ícones são 16 x 16 ou 24 x 24 também são suportados e Microsoft Outlook pode dimensionar um ícone de 16 x 16 se o Outlook estiver sendo executado no modo de alta pontos por polegada (DPI). Ícones de outros tamanhos causam <b>SetCustomIcon</b> retornar um erro.</para> Você pode definir um ícone personalizado para uma pasta de pesquisa e para todas as pastas que não representam um padrão ou uma pasta especial de 
-          <para>. Se você tentar definir um ícone personalizado para uma pasta que pertence a um dos seguintes grupos de pastas, <b>SetCustomIcon</b> retornará um erro:</para><list type="bullet"><item><para>pastas padrão (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeração)</para></item>pastas
-            <item><para>especiais (conforme listadas pela o <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeração)</para></item><item><para>pasta raiz de qualquer caixa de correio do Exchange</para></item>de
-            <item><para>pastas públicas do Exchange</para></item><item><para>oculto pastas</para></item></list><para>você só pode chamar <b>GetCustomIcon</b> de código que é executado em processo como o Outlook. Um objeto <b>StdPicture</b> não pode ser enfileirado nos limites do processo. Se você tentar chamar <b>GetCustomIcon</b> do código de fora do processo, ocorre uma exceção. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/150034">um servidor de automação não é possível passar um ponteiro para a implementação de IPictureDisp do objeto imagem nos limites do processo</a></para>ícone
-          <para>pasta personalizada que oferece este método não persiste além de execução Sessão do Outlook. Suplementos, portanto, devem definir o ícone personalizado de pasta toda vez que o Outlook é inicializado. </para><para>o ícone personalizado de pasta não aparece em outros clientes do Exchange, como o Outlook Web Access, nem aparecem no Outlook em execução em um dispositivo Windows Mobile.</para><para /></remarks>
+        <remarks><para>O <see cref="T:stdole.StdPicture" /> objeto especificado por <paramref name="Picture" /> deve ter sua propriedade <b>Type</b> igual a <b>PICTYPE_ICON</b> ou <b>a PICTYPE_BITMAP</b>. O recurso de ícone ou bitmap pode ter um tamanho máximo de 32 x 32. Os ícones são 16 x 16 ou 24 x 24 também são suportados e Microsoft Outlook pode dimensionar um ícone de 16 x 16 se o Outlook estiver sendo executado no modo de alta pontos por polegada (DPI). Ícones de outros tamanhos causam <b>SetCustomIcon</b> retornar um erro.</para>
+          <para>Você pode definir um ícone personalizado para uma pasta de pesquisa e para todas as pastas que não representam um padrão ou uma pasta especial. Se você tentar definir um ícone personalizado para uma pasta que pertence a um dos seguintes grupos de pastas, <b>SetCustomIcon</b> retornará um erro:</para>
+          <list type="bullet">
+            <item>
+              <para>Pastas padrão (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> enumeração)</para>
+            </item>
+            <item>
+              <para>Pastas especiais (conforme listadas pelo <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> enumeração)</para>
+            </item>
+            <item>
+              <para>Pastas públicas do Exchange</para>
+            </item>
+            <item>
+              <para>Pasta raiz de qualquer caixa de correio do Exchange</para>
+            </item>
+            <item>
+              <para>Pastas ocultas</para>
+            </item>
+          </list>
+          <para>Você só pode chamar <b>GetCustomIcon</b> de código que é executado em processo como o Outlook. Um objeto <b>StdPicture</b> não pode ser enfileirado nos limites do processo. Se você tentar chamar <b>GetCustomIcon</b> do código de fora do processo, ocorre uma exceção. Para obter mais informações, consulte <a href="http://support.microsoft.com/kb/150034">um servidor de automação não é possível passar um ponteiro para a implementação de IPictureDisp do objeto imagem nos limites do processo</a></para>
+          <para>O ícone personalizado de pasta fornecido por este método não persiste além da sessão do Outlook em execução. Portanto, os suplementos devem definir o ícone personalizado de pasta sempre que o Outlook for inicializado.</para>
+          <para>O ícone personalizado de pasta não aparece em outros clientes do Exchange, como o Outlook Web Access, nem no Outlook em execução em um dispositivo Windows Mobile.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowAsOutlookAB">
@@ -1102,12 +1089,10 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que especifica se a pasta de itens de contato será exibida como uma lista de endereços no catálogo de endereços do Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se você definir a propriedade <b>ShowAsOutlookAB</b> de uma pasta de itens de contato como <b>False</b>, ela não estará disponível na lista suspensa em Catálogo de endereços na caixa de diálogo Catálogo de endereços.</para>
+        <remarks><para>Se você definir a propriedade <b>ShowAsOutlookAB</b> de uma pasta de itens de contato como <b>False</b>, ela não estará disponível na lista suspensa em Catálogo de endereços na caixa de diálogo Catálogo de endereços.</para>
           <para>
-            <b>ShowAsOutlookAB</b> não suporta pastas na caixa de correio de outro usuário do Exchange, por exemplo, uma pasta de contatos que é compartilhada por outro usuário. Obter ou definir essa propriedade em uma pasta tal não produzirá qualquer resultados desejados.</para>
-          <para />
-        </remarks>
+            <b>ShowAsOutlookAB</b> não oferece suporte a pastas na caixa de correio de outro usuário do Exchange, por exemplo, uma pasta de contatos que é compartilhada por outro usuário. Obter ou definir essa propriedade em uma pasta tal não produzirá qualquer resultados desejados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemCount">
@@ -1138,10 +1123,8 @@ End Sub</code>
       <Docs>
         <summary>Define ou retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlShowItemCount" /> enumeração que indica se deseja exibir o número de mensagens não lidas na pasta ou o número total de itens na pasta no painel de navegação. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>ShowItemCount</b> não funciona com pastas públicas.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>ShowItemCount</b> não funciona com pastas públicas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Store">
@@ -1169,10 +1152,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto representando o repositório que contém o <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna um objeto de <b>repositório</b> , exceto no caso em que a <b>pasta</b> é uma pasta compartilhada (retornado por <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />). Nesse caso, um usuário tem acesso delegado a uma pasta padrão para outro usuário; uma chamada para <b>Folder.Store</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna um objeto de <b>repositório</b> , exceto no caso em que a <b>pasta</b> é uma pasta compartilhada (retornado por <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />). Nesse caso, um usuário tem acesso delegado a uma pasta padrão para outro usuário; uma chamada para <b>Folder.Store</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -1383,13 +1364,11 @@ End Sub</code>
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica o estado de exibição da Web para uma pasta.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Retorna <b>True</b> para exibir a página da Web especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> propriedade.</para>
-          <para>O Microsoft Outlook usa o mecanismo de processamento da versão do Windows Internet Explorer instalada no computador cliente para exibir a página da web. Se o Internet Explorer não estiver instalado no computador cliente, o Outlook não exibirá a página da web.</para>
-          <para>Essa propriedade será sempre <b>False</b> se o valor da propriedade <b>WebViewURL</b> estiver vazio.</para>
-          <para>Além disso, a definição da propriedade <b>WebViewOn</b> como <b>True</b> antes de definir a propriedade <b>WebViewURL</b> não exibirá a home page especificada na propriedade <b>WebViewURL</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna <b>True</b> para exibir a página da Web especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> propriedade.</para>
+          <para>Microsoft Outlook usa o mecanismo de processamento da versão do Windows Internet Explorer instalada no computador cliente para exibir a página da web. Se o Internet Explorer não estiver instalado no computador cliente, o Outlook não exibirá a página da web.</para>
+          <para>Essa propriedade é sempre <b>False</b> se o valor da propriedade <b>WebViewURL</b> estiver vazio.</para>
+          <para>Além disso, definindo o <b>WebViewOn</b> propriedade como <b>True</b> antes de definir a propriedade <b>WebViewURL</b> não exibirá a home page especificada na propriedade <b>WebViewURL</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WebViewURL">

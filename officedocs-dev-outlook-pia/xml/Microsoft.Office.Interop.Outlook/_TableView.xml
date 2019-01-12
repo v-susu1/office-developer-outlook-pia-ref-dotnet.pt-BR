@@ -1,13 +1,5 @@
 <Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629623" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897189" /></Metadata><TypeSignature Language="C#" Value="public interface _TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se a edição na célula é permitida no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for definida como <b>True</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for definida como <b>True</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlwaysExpandConversation">
@@ -92,12 +82,10 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se a conversas ficam sempre totalmente expandidas no modo de exibição de tabela. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>AlwaysExpandConversation</b> é semelhante à seleção Sempre expandir conversas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
+        <remarks><para>A propriedade <b>AlwaysExpandConversation</b> é semelhante à seleção Sempre expandir conversas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
           <para>
-            <b>True</b> indica essa conversa grupos ficam totalmente expandidos no modo de exibição de tabela por padrão. <b>False</b> indica que grupos de conversas ficam apenas parcialmente expandidos.</para>
-          <para />
-        </remarks>
+            <b>True</b> indica que essa conversa grupos ficam totalmente expandidos no modo de exibição de tabela por padrão. <b>False</b> indica conversa grupos estão apenas parcialmente expandidos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -209,10 +197,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se as colunas da <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto são dimensionados automaticamente pelo Outlook. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for definida como <b>False</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for definida como <b>False</b>, então o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é automaticamente definida como <b>olAlwaysSingleLine</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutomaticGrouping">
@@ -243,10 +229,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o agrupamento automático está ativo no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se essa propriedade for definida como <b>True</b>, os itens são agrupados automaticamente no modo de exibição de acordo com a organização especificada na interface de usuário do Outlook. Se essa propriedade for definida como <b>False</b>, os itens são agrupados em modo de exibição de acordo com o conteúdo da <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> propriedade.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se essa propriedade for definida como <b>True</b>, os itens são agrupados automaticamente no modo de exibição de acordo com a organização especificada na interface de usuário do Outlook. Se essa propriedade for definida como <b>False</b>, os itens são agrupados em modo de exibição de acordo com o conteúdo da <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> propriedade.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoPreview">
@@ -478,10 +462,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -507,9 +489,14 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object que representa todos os itens do Microsoft Outlook que estão contidos em um <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />objeto.</summary>
         <returns>Retorna um objeto <b>Table</b>cujas linhas representam itens no modo de exibição de tabela atual.</returns>
-        <remarks>
-          <para>O método <b>GetTable</b> do objeto <b>TableView</b> retorna uma tabela de itens de uma ou mais pastas no mesmo armazenamento ou distribuindo sobre repositórios de vários, em uma exibição agregada. Por exemplo, uma exibição agregada obtida por uma pesquisa em todos os itens de email usando a pesquisa instantânea. Esse comportamento difere do <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object, que obtém um objeto table que contém itens da mesma pasta.</para> Objeto 
-          <para>pai <b>TableView</b> deve ser baseado na pasta atual do explorer ativo, conforme indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade da ativa <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Se a pasta não é uma pasta atual de um explorer visível, ou se o modo de exibição nessa pasta, o que é indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade, não é um modo de exibição de tabela, o Outlook retornará um erro.</para><para>o filtro para a tabela resultante é definido pelo <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> propriedade do objeto <b>TableView</b> . Se a propriedade <b>Filter</b> do objeto <b>TableView</b> não está vazia, <b>GetTable</b> retorna um objeto <b>Table</b> com linhas que representam um subconjunto de itens disponíveis no modo de exibição filtrado. Se subsequentemente, o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método é chamado na tabela resultante, aplicando o <b>Restrict</b> método é equivalente a uma operação AND lógica com o filtro representado por <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</para><para><b>GetTable</b> retorna uma <b>tabela</b> com o conjunto de coluna padrão. <b>GetTable</b> não retorna uma <b>tabela</b> que contém colunas para cada campo no <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> conjunto do modo de exibição atual. Para obter mais informações sobre o conjunto de colunas de uma tabela com base no tipo de pasta padrão, consulte padrão propriedades exibidas em um objeto Table. Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção. Propriedades que você não pode adicionar a uma tabela como colunas são listadas nas propriedades sem suporte em um objeto Table ou filtro Table.</para><para>a ordem das linhas da tabela resultante não é garantido para ser o mesmo que a ordem dos itens na exibição atual no qual <b>GetTable</b> se baseia. Por exemplo, <b>GetTable</b> não retorna uma tabela com uma linha que representa um cabeçalho de agrupar por no modo de exibição. Para classificar as linhas na tabela retornado da <b>GetTable</b>, use o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> método do objeto <b>Table</b> .</para><para>o objeto pai do objeto <b>Table</b> retornado pela <b>GetTable</b> é o objeto <b>TableView</b> . O objeto pai do objeto <b>TableView</b> é o <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto e o objeto pai da coleção <b>Views</b> é o objeto <b>Folder</b> .</para><para /></remarks>
+        <remarks><para>O método <b>GetTable</b> do objeto <b>TableView</b> retorna uma tabela de itens de uma ou mais pastas no mesmo armazenamento ou distribuindo sobre repositórios de vários, em uma exibição agregada. Por exemplo, uma exibição agregada obtida por uma pesquisa em todos os itens de email usando a pesquisa instantânea. Esse comportamento difere do <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object, que obtém um objeto table que contém itens da mesma pasta.</para>
+          <para>O objeto <b>TableView</b> pai deve ser baseado na pasta atual do explorer ativo, conforme indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade da ativa <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Se a pasta não é uma pasta atual de um explorer visível, ou se o modo de exibição nessa pasta, o que é indicado pelo <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade, não é um modo de exibição de tabela, o Outlook retornará um erro.</para>
+          <para>O filtro para a tabela resultante é definido pelo <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> propriedade do objeto <b>TableView</b> . Se a propriedade <b>Filter</b> do objeto <b>TableView</b> não está vazia, <b>GetTable</b> retorna um objeto <b>Table</b> com linhas que representam um subconjunto de itens disponíveis no modo de exibição filtrado. Se subsequentemente, o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método é chamado na tabela resultante, aplicando o <b>Restrict</b> método é equivalente a uma operação AND lógica com o filtro representado por <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</para>
+          <para>
+            <b>GetTable</b> retorna uma <b>tabela</b> com o conjunto de coluna padrão. <b>GetTable</b> não retorna uma <b>tabela</b> que contém colunas para cada campo no <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> conjunto do modo de exibição atual. Para obter mais informações sobre o conjunto de colunas de uma tabela com base no tipo de pasta padrão, consulte padrão propriedades exibidas em um objeto Table. Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto da coleção. Propriedades que você não pode adicionar a uma tabela como colunas são listadas nas propriedades sem suporte em um objeto Table ou filtro Table.</para>
+          <para>A ordem das linhas da tabela resultante não é garantida para ser o mesmo que a ordem dos itens na exibição atual no qual <b>GetTable</b> se baseia. Por exemplo, <b>GetTable</b> não retorna uma tabela com uma linha que representa um cabeçalho de agrupar por no modo de exibição. Para classificar as linhas na tabela retornado da <b>GetTable</b>, use o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> método do objeto <b>Table</b> .</para>
+          <para>O objeto pai do objeto <b>Table</b> retornado pela <b>GetTable</b> é o objeto <b>TableView</b>. O objeto pai do objeto <b>TableView</b> é o <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto e o objeto pai da coleção <b>Views</b> é o objeto <b>Folder</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -658,7 +645,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></remarks>
+        <remarks><para>A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para>
+          <para>Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -689,10 +678,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLinesInMultiLineView">
@@ -723,10 +710,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que determina o número máximo de linhas exibidas no modo de várias linhas para o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 2 e 20. Se essa propriedade estiver definida como um valor menor que 2, a propriedade é definida como 2. Se essa propriedade é definida como um valor maior que 20, a propriedade é definida como 20. O valor padrão para essa propriedade é 2.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade pode ser definida para um valor entre 2 e 20. Se essa propriedade for definida para um valor menor do que 2, ela será definida como 2. Se essa propriedade for definida para um valor maior do que 20, ela será definida como 20. O valor padrão para essa propriedade é 2.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -757,10 +742,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" /> constante que determina como várias linhas são exibidas no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> propriedade estiver definida como <b>False</b> ou se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>, o valor dessa propriedade é automaticamente definido como <b>olAlwaysSingleLine</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> propriedade estiver definida como <b>False</b> ou se o valor do <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>, o valor dessa propriedade é automaticamente definido como <b>olAlwaysSingleLine</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineWidth">
@@ -791,11 +774,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa a largura do texto (em caracteres) necessária para acionar o modo de várias linhas no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 1 e 999. Se essa propriedade é definida como um valor menor que 1, a propriedade é definida como 1. Se essa propriedade é definida como um valor maior do que 999, a propriedade é definida como 999. O valor padrão para essa propriedade é 100.</para>
-          <para>Essa propriedade só se aplica se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é definida como <b>olWidthMultiLine</b>. O valor dessa propriedade determina o ponto no qual o objeto <b>TableView</b> exibe o texto para um item do Outlook no modo multiline.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade pode ser definida para um valor entre 1 e 999. Se essa propriedade for definida para um valor menor do que 1, ela será definida como 1. Se essa propriedade for definida para um valor maior do que 999, ela será definida como 999. O valor padrão para essa propriedade é 100.</para>
+          <para>Essa propriedade só se aplica se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> propriedade do objeto <b>TableView</b> é definida como <b>olWidthMultiLine</b>. O valor dessa propriedade determina o ponto no qual o objeto <b>TableView</b> exibe o texto de um item do Outlook no modo de várias linhas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -879,10 +860,8 @@
       <Parameters />
       <Docs>
         <summary>Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</summary>
-        <remarks>
-          <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método só funciona nos modos de exibição internos do Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowFont">
@@ -963,10 +942,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto é criado usando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto é criado usando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -994,16 +971,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationByDate">
@@ -1034,14 +1009,12 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os itens em uma conversa são verticalmente alinhado à esquerda e ordenada pela data de recebimento e a hora, com o item mais recente na parte superior. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se o modo de exibição de tabela não for organizado por conversa, a definição da propriedade <b>ShowConversationByDate</b> não reorganizará nenhum item no modo de exibição. Para exibir itens por conversa, no grupo conversas da guia Exibir da faixa de opções Fluent do Microsoft Office, marque mostrar como conversas.</para>
-          <para>Verticalmente a definição da propriedade <b>ShowConversationByDate</b> como <b>True</b> alinha à esquerda os itens de conversa e ordena-los por sua data de recebimento e a hora, com o item mais recente na parte superior. Esta organização no modo de exibição de conversa é o mesmo que ter desmarcado a configuração de exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
-          <para>a definição da propriedade <b>ShowConversationByDate</b> como <b>False</b> recua itens de conversa e ordena-los por sua data de recebimento e a hora com o primeiro item na parte superior. A raiz de cada thread da conversa é exibida em primeiro lugar, seguido por itens que pertencem a esse thread, cada esquerda-recuado da última. Esta organização no modo de exibição de conversa é o mesmo que ter selecionado a configuração de exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
-          <para>Para aplicar uma alteração para a propriedade <b>ShowConversationByDate</b> , a chamada a <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> método. As conversas são exibidas como recolhido no modo de exibição de conversa. Se você expandir uma conversa, você verá itens da conversa reorganizado e exibidos da maneira que você definir a propriedade <b>ShowConversationByDate</b> .</para>
-          <para />
-          <para />
-        </remarks>
+        <remarks><para>Se o modo de exibição de tabela não for organizado por conversa, a definição da propriedade <b>ShowConversationByDate</b> não reorganizará nenhum item no modo de exibição. Para exibir itens por conversa, no grupo conversas da guia Exibir da faixa de opções Fluent do Microsoft Office, marque mostrar como conversas.</para>
+          <para>A definição da propriedade <b>ShowConversationByDate</b> como <b>True</b> verticalmente alinha à esquerda os itens de conversa e ordena-los por sua data de recebimento e a hora, com o item mais recente na parte superior. Esta organização no modo de exibição de conversa é o mesmo que ter desmarcado a configuração De exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
+          <para>A definição da propriedade <b>ShowConversationByDate</b> como <b>False</b> recua itens de conversa e ordena-los por sua data de recebimento e a hora com o primeiro item na parte superior. A raiz de cada thread da conversa é exibida em primeiro lugar, seguido por itens que pertencem a esse thread, cada esquerda-recuado da última. Esta organização no modo de exibição de conversa é o mesmo que ter selecionado a configuração De exibição clássico recuado uso no menu Configurações de conversas, no grupo conversas da faixa de opções.</para>
+          <para>Para aplicar uma alteração na propriedade <b>ShowConversationByDate</b> , chame o <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> método. As conversas são exibidas como recolhido no modo de exibição de conversa. Se você expandir uma conversa, você verá itens da conversa reorganizado e exibidos da maneira que você definir a propriedade <b>ShowConversationByDate</b>.</para>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationSendersAboveSubject">
@@ -1072,11 +1045,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o modo de exibição de tabela exibe os remetentes participantes acima da linha de assunto no cabeçalho da conversa ou abaixo dele. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> indica que o modo de exibição de tabela exibe os remetentes participantes acima da linha de assunto no cabeçalho da conversa. <b>False</b> indica que o modo de exibição de tabela exibe os remetentes participantes abaixo da linha de assunto no cabeçalho da conversa.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFullConversations">
@@ -1107,13 +1078,11 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se é necessário exibir itens de conversa de outras pastas, como a pasta Itens enviados, como parte da conversa no modo de exibição de tabela. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>ShowFullConversations</b> só terá efeito se o modo de exibição de tabela atual exibir itens por data e conversa.</para>
+        <remarks><para>A propriedade <b>ShowFullConversations</b> só terá efeito se o modo de exibição de tabela atual exibir itens por data e conversa.</para>
           <para>
             <b>True</b> indica que os itens da mesma conversa são exibidos por padrão, como parte da conversa no modo de exibição de tabela. <b>False</b> indica que somente os itens de conversa na pasta atual são exibidos no modo de exibição de tabela.</para>
-          <para>a propriedade <b>ShowFullConversations</b> é semelhante à seleção de Mostrar mensagens de outras pastas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
-          <para />
-        </remarks>
+          <para>A propriedade <b>ShowFullConversations</b> é semelhante à seleção de Mostrar mensagens de outras pastas no menu conversas do grupo organização na guia Exibir da faixa de opções Fluent do Microsoft Office.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemsInGroups">
@@ -1175,10 +1144,8 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que determina se a nova linha do item será exibida no <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Leitura/gravação</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor dessa propriedade se aplica apenas se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor dessa propriedade se aplica apenas se o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade estiver definida como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowReadingPane">
@@ -1302,10 +1269,8 @@
       <Docs>
         <summary>Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto é um modo de exibição interno do Outlook. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1392,7 +1357,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></remarks>
+        <remarks><para>A definição XML descreve o tipo de modo de exibição usando uma série de rótulos e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</para>
+          <para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkContactPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f45db6ce2a533edb1d72e5712d9fbb80fa7ccaa4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630109" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkContactPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="61ddd48a15243771ed2b6eb7f2c4870f9526278b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900241" /></Metadata><TypeSignature Language="C#" Value="public interface OlkContactPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkContactPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkContactPhotoEvents_Event" />
@@ -106,10 +98,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre antes de o controle receber realmente o foco de um controle no mesmo formulário.</summary>
-        <remarks>
-          <para>Esse evento ocorre somente quando o controle está exibindo o botão de imagem do contato e nenhuma imagem de contato foi definida.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento ocorre somente quando o controle está exibindo o botão de imagem do contato e nenhuma imagem de contato foi definida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre logo depois que o foco passa deste controle para outro controle no mesmo formulário.</summary>
-        <remarks>
-          <para>Esse evento ocorre somente quando o controle está exibindo o botão de imagem do contato e nenhuma imagem de contato foi definida.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento ocorre somente quando o controle está exibindo o botão de imagem do contato e nenhuma imagem de contato foi definida.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyDown">
@@ -150,10 +138,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um usuário pressiona uma tecla.</summary>
-        <remarks>
-          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -172,25 +158,23 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário pressiona uma tecla ANSI.</summary>
-        <remarks>
-          <para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
+        <remarks><para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
           <para>Um evento <b>KeyPress</b> não ocorre sob as seguintes condições:</para>
           <list type="bullet">
             <item>
               <para>Pressionando TAB</para>
             </item>
             <item>
-              <para>Pressionando insira</para>
+              <para>Pressionando ENTER</para>
             </item>
             <item>
-              <para>pressionando uma tecla de seta</para>
+              <para>Pressionando uma tecla de seta</para>
             </item>
             <item>
-              <para>quando um pressionamento de tecla faz o foco mover de um controle para outro.</para>
+              <para>Quando um pressionamento de tecla faz o foco mover de um controle para outro.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -209,10 +193,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando o usuário libera uma tecla.</summary>
-        <remarks>
-          <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -250,10 +232,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre depois que um movimento do mouse foi registrado sobre o controle.</summary>
-        <remarks>
-          <para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

@@ -1,13 +1,5 @@
 <Type Name="AddressList" FullName="Microsoft.Office.Interop.Outlook.AddressList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a41313c3d06cf1f8ff69f9336dea1b509c5eda8b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631186" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6a0bab57e96ddcb76bf78e2046cc16317ccf2001" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898372" /></Metadata><TypeSignature Language="C#" Value="public interface AddressList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressList" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressList" />
@@ -27,9 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa um catálogo de endereços que contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objetos.</summary>
-    <remarks>
-      <para>O objeto <b>AddressList</b> é um catálogo de endereços que contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objetos.</para> Objeto de 
-      <para><b>AddressList</b> fornece uma lista de entradas de endereço para o qual um sistema de mensagens pode entregar mensagens. Um objeto <b>AddressList</b> representa um contêiner de catálogo de endereços disponível na hierarquia de catálogo de endereços do provedor de transporte para a sessão atual. Toda a hierarquia está disponível por meio do pai <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> objeto.</para><para /></remarks>
+    <remarks><para>O objeto <b>AddressList</b> é um catálogo de endereços que contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objetos.</para>
+      <para>O objeto <b>AddressList</b> fornece uma lista de entradas do endereço para o qual um sistema de mensagens pode entregar mensagens. Um objeto <b>AddressList</b> representa um contêiner de catálogo de endereços disponível na hierarquia de catálogo de endereços do provedor de transporte para a sessão atual. Toda a hierarquia está disponível por meio do pai <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> objeto.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="AddressEntries">
@@ -167,10 +159,8 @@
       <Docs>
         <summary>Obtém um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta de contatos para o <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto.</summary>
         <returns>Um objeto <b>Folder</b> que representa a pasta Contatos do Outlook para o objeto <b>AddressList</b>. Retorna <b>Null</b> (<b>Nothing</b> no Visual Basic) quando nenhuma pasta de contatos do Outlook é localizada.</returns>
-        <remarks>
-          <para>Esse método permite fazer a correspondência de um <b>AddressList</b> da pasta de contatos que você deseja configurar como a lista de endereços inicial na caixa de diálogo Selecionar nomes.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse método permite fazer a correspondência de um <b>AddressList</b> da pasta de contatos que você deseja configurar como a lista de endereços inicial na caixa de diálogo Selecionar nomes.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -198,10 +188,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) representando o identificador exclusivo para o objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O provedor de transporte atribui uma propriedade de <b>ID</b> de cadeia de caracteres permanente e exclusivo quando um objeto membro individual é criado. Esses identificadores não mudar de uma sessão para outra.</para>
-          <para />
-        </remarks>
+        <remarks><para>O provedor de transporte atribui uma propriedade de <b>ID</b> de cadeia de caracteres permanente e exclusivo quando um objeto membro individual é criado. Esses identificadores não mudar de uma sessão para outra.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -229,10 +217,8 @@
       <Docs>
         <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que indica a posição do objeto dentro da coleção.  Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Index</b> é válida somente durante a sessão atual e pode ser alterados conforme os objetos são adicionados e excluídos da coleção. O primeiro objeto da coleção tem um valor de <b>índice</b> 1.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>Index</b> é válida somente durante a sessão atual e pode ser alterados conforme os objetos são adicionados e excluídos da coleção. O primeiro objeto da coleção tem um valor de <b>índice</b> 1.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInitialAddressList">
@@ -260,11 +246,9 @@
       <Docs>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> é inicial <b>AddressList</b> mostrado na caixa de diálogo Selecionar nomes. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsInitialAddressList</b> corresponde à definição de mostrar esta lista de endereços primeiro na caixa de diálogo endereçamento, que está disponível, clicando em ferramentas, opções, na caixa de diálogo Catálogo de endereços.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>IsInitialAddressList</b> corresponde à definição de mostrar esta lista de endereços primeiro na caixa de diálogo endereçamento, que está disponível, clicando em ferramentas, opções, na caixa de diálogo Catálogo de endereços.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsReadOnly">
@@ -292,10 +276,8 @@
       <Docs>
         <summary>Retorna um valor <b>Boolean</b> (<b>bool</b> em c#) que indica que o <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto não pode ser modificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>IsReadOnly</b> refere-se à adição e exclusão de entradas no contêiner de catálogo de endereços representado pelo objeto <b>AddressList</b> . A propriedade for <b>True</b> , se não há entradas podem ser adicionadas ou excluídas. A propriedade é <b>False</b> se o contêiner pode ser modificado, ou seja, se entradas de endereço podem ser adicionadas ao e excluído do contêiner. Refere-se às entradas do catálogo de endereços no contexto do contêiner de catálogo de endereços. Ele não indica se o conteúdo de entradas individuais pode ser modificado.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>IsReadOnly</b> refere-se à adição e exclusão de entradas no contêiner de catálogo de endereços representado pelo objeto <b>AddressList</b>. A propriedade for <b>True</b>, se não há entradas podem ser adicionadas ou excluídas. A propriedade é <b>False</b> se o contêiner pode ser modificado, ou seja, se entradas de endereço podem ser adicionadas ao e excluído do contêiner. Refere-se às entradas do catálogo de endereços no contexto do contêiner de catálogo de endereços. Ele não indica se o conteúdo de entradas individuais pode ser modificado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -407,11 +389,9 @@
       <Docs>
         <summary>Retorna um <b>inteiro</b> que representa a ordem disso <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> na lista de rolagem personalizada na caixa de diálogo endereçamento. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>ResolutionOrder</b> corresponde à posição das <b>AddressList</b> da caixa de listagem cujo rótulo é ao enviar email, verifique o endereço lista nesta ordem na caixa de diálogo endereçamento e está disponível, clicando em ferramentas e, em seguida, opções a caixa de diálogo Catálogo de endereços. Observe que esse comportamento é independente da se personalizado estiver selecionado na caixa de diálogo endereçamento. Por exemplo, se iniciar com a lista de endereços Global for selecionada e a lista de rolagem exibe contatos como o primeiro item, a propriedade <b>ResolutionOrder</b> da lista de endereços de contatos ainda é 1, embora ao resolver destinatários, o Outlook usa o endereço Global Lista primeiro.</para>
-          <para>Personalizado quando estiver selecionada na caixa de diálogo endereçamento, a propriedade <b>ResolutionOrder</b> reflete a ordem em que o Outlook usa ao resolver nomes de destinatário. O valor de <b>ResolutionOrder</b> é baseada em um. Nesse caso, a primeira lista de endereços a ser usado para resolver nomes de destinatário tem um <b>ResolutionOrder</b> igual a 1, o segundo 2 da lista de endereços e assim por diante. Se uma lista de endereços não é usada para resolver endereços, seu <b>ResolutionOrder</b> tem um valor de -1. Programaticamente, quando personalizado estiver selecionado na caixa de diálogo endereçamento, a propriedade <b>ResolutionOrder</b> reflete o valor real ordem de resolução <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> ou <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> usa.</para>
-          <para />
-        </remarks>
+        <remarks><para>A propriedade <b>ResolutionOrder</b> corresponde à posição das <b>AddressList</b> da caixa de listagem cujo rótulo é ao enviar email, verifique o endereço lista nesta ordem na caixa de diálogo endereçamento e está disponível, clicando em ferramentas e, em seguida, opções a caixa de diálogo Catálogo de endereços. Observe que esse comportamento é independente da se personalizado estiver selecionado na caixa de diálogo endereçamento. Por exemplo, se iniciar com a lista de endereços Global for selecionada e a lista de rolagem exibe contatos como o primeiro item, a propriedade <b>ResolutionOrder</b> da lista de endereços de contatos ainda é 1, embora ao resolver destinatários, o Outlook usa o endereço Global Liste primeiro.</para>
+          <para>Quando personalizado estiver selecionado na caixa de diálogo endereçamento, a propriedade <b>ResolutionOrder</b> reflete a ordem em que o Outlook usa ao resolver nomes de destinatário. O valor de <b>ResolutionOrder</b> é baseada em um. Nesse caso, a primeira lista de endereços a ser usado para resolver nomes de destinatário tem um <b>ResolutionOrder</b> igual a 1, o segundo 2 da lista de endereços e assim por diante. Se uma lista de endereços não é usada para resolver endereços, seu <b>ResolutionOrder</b> tem um valor de -1. Programaticamente, quando personalizado estiver selecionado na caixa de diálogo endereçamento, a propriedade <b>ResolutionOrder</b> reflete o valor real ordem de resolução <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> ou <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> usa.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -439,16 +419,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

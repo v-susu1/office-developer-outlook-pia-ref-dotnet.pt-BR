@@ -1,13 +1,5 @@
 <Type Name="OutlookBarGroup" FullName="Microsoft.Office.Interop.Outlook.OutlookBarGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="85ca0de3e88bd9c5976bfd7505500d389abf4bd8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630905" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4832de3e6e97658b3771932387a27b9514bc5a81" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901463" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarGroup" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>Representa um grupo de atalhos no painel Atalhos de uma janela do Explorer.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar o objeto <b>OutlookBarGroup</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto. Porque o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" /> propriedade é a propriedade padrão do objeto <b>OutlookBarGroup</b> , você pode identificar o grupo pelo nome.</para>
-      <para />
-    </remarks>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar o objeto <b>OutlookBarGroup</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto. Porque o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" /> propriedade é a propriedade padrão do objeto <b>OutlookBarGroup</b> , você pode identificar o grupo pelo nome.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Shortcuts">
@@ -241,10 +229,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlOutlookBarViewType" /> tipo de constante que representa o modo de exibição de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" /> objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.  Nas versões anteriores do Microsoft Outlook, ele retorna ou define o modo de exibição de ícone exibido pelo grupo barra do Outlook especificado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade não tem efeito sobre os ícones exibidos no painel Atalhos. Ícones grandes foram removidos e se essa propriedade for definida como <b>olLargeIcon</b>, ela não terá efeito algum.  Nas versões anteriores do Microsoft Outlook, ele retorna ou define o modo de exibição de ícone exibido pelo grupo Barra do Outlook especificado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

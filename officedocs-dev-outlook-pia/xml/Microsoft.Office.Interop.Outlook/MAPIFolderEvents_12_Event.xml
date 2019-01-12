@@ -1,13 +1,5 @@
 <Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629368" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e4d2f373dd74a164ad2cbc827efc264eecdbd98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900850" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
@@ -49,11 +41,9 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando uma pasta está prestes a ser movida ou excluída como resultado de uma ação ou pelo código do programa.</summary>
-        <remarks>
-          <para>Este evento é acionado quando a pasta está prestes a ser movido para outra pasta (incluindo a pasta Itens excluídos) ou quando a pasta está prestes a ser excluído permanentemente.  Ele não é acionado durante o arquivamento automático ou sincronizando operations.</para>
+        <remarks><para>Esse evento é acionado quando a pasta está prestes a ser movida para outra pasta (incluindo a pasta Itens Excluídos) ou quando está prestes a ser excluída permanentemente. Ele não é acionado durante operações de arquivamento automático e sincronização.</para>
           <para>Se a ação for uma exclusão permanente, a <paramref name="MoveTo" /> pasta retornada no evento será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemMove">
@@ -72,11 +62,9 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um item está prestes a ser movido ou excluído de uma pasta, como resultado de uma ação ou pelo código do programa.</summary>
-        <remarks>
-          <para>Este evento é acionado quando o item está prestes a ser movido para outra pasta (incluindo a pasta Itens excluídos) ou quando o item está prestes a ser excluído permanentemente. Ele não é acionado durante o arquivamento automático ou sincronizando operations.</para>
+        <remarks><para>Esse evento é acionado quando o item está prestes a ser movido para outra pasta (incluindo a pasta Itens Excluídos) ou quando está prestes a ser excluído permanentemente. Ele não é acionado durante operações de arquivamento automático e sincronização.</para>
           <para>Se a ação for uma exclusão permanente, a <paramref name="MoveTo" /> pasta retornada no evento será <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

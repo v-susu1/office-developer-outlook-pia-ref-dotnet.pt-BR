@@ -1,13 +1,5 @@
 <Type Name="JournalItem" FullName="Microsoft.Office.Interop.Outlook.JournalItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="14da28a55cb285e5fa631d53c0982fc20f778e83" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630565" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface JournalItem : Microsoft.Office.Interop.Outlook._JournalItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="37cc2b675f196e34f038328b05b82eec29f9e316" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898694" /></Metadata><TypeSignature Language="C#" Value="public interface JournalItem : Microsoft.Office.Interop.Outlook._JournalItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract JournalItem implements class Microsoft.Office.Interop.Outlook._JournalItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.JournalItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface JournalItem&#xA;Implements _JournalItem, ItemEvents_10_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Representa uma entrada de diário em uma pasta Diário.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._JournalItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-      <para>Uma entrada de diário representa um registro de todas as transações coordenadas pelo Outlook para um determinado período de tempo.</para>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> método para criar um objeto <b>JournalItem</b> que representa uma nova entrada de diário.</para>
-      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" />(<paramref name="index" />), onde <paramref name="index" /> é o número de índice de uma entrada de diário ou um valor usado para corresponder à propriedade padrão de uma entrada de diário, para retornar um único objeto <b>JournalItem</b> de uma pasta diário.</para>
-      <para />
-    </remarks>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._JournalItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Uma entrada de diário representa um registro de todas as transações coordenadas pelo Outlook em determinado período de tempo.</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> método para criar um objeto <b>JournalItem</b> que representa uma nova entrada de diário.</para>
+      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" />(<paramref name="index" />), onde <paramref name="index" /> é o número de índice de uma entrada de diário ou um valor usado para corresponder à propriedade padrão de uma entrada de diário, para retornar um único objeto <b>JournalItem</b> de uma pasta de diário.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_Folders" FullName="Microsoft.Office.Interop.Outlook._Folders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629395" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898057" /></Metadata><TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Folders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Folders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Folders&#xA;Implements IEnumerable" />
@@ -171,10 +163,8 @@
       <Docs>
         <summary>Retorna o primeiro objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa o primeiro objeto contido na coleção.</returns>
-        <remarks>
-          <para>Retorna <b>Nothing</b> se nenhum primeiro objeto existir, por exemplo, se não houver nenhum objeto na coleção. Para garantir o funcionamento correto do <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna <b>Nothing</b> se nenhum primeiro objeto existir, por exemplo, se não houver nenhum objeto na coleção. Para garantir o funcionamento correto do <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -200,10 +190,8 @@
       <Docs>
         <summary>Retorna o último objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa o último objeto contido na coleção.</returns>
-        <remarks>
-          <para>Ele retorna <b>Nothing</b> se não existirem objetos, por exemplo, se a coleção está vazia. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <b>GetLast</b><see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ele retorna <b>Nothing</b> se não existirem objetos, por exemplo, se a coleção está vazia. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <b>GetLast</b> <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -229,10 +217,8 @@
       <Docs>
         <summary>Retorna o próximo objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa o próximo objeto contido na coleção.</returns>
-        <remarks>
-          <para>Ele retorna <b>Nothing</b> se nenhum objeto próximo existe, por exemplo, se já posicionadas no final da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <b>GetNext</b>, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ele retorna <b>Nothing</b> se nenhum objeto próximo existe, por exemplo, se já posicionadas no final da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <b>GetNext</b>, e <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -258,10 +244,8 @@
       <Docs>
         <summary>Retorna o objeto anterior no <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> conjunto.</summary>
         <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa o objeto anterior contido na coleção.</returns>
-        <remarks>
-          <para>Ele retorna <b>Nothing</b> se nenhum objeto anterior existe, por exemplo, se estiver posicionado no início da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e os métodos <b>GetPrevious</b> em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b> GetPrevious</b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ele retorna <b>Nothing</b> se nenhum objeto anterior existe, por exemplo, se estiver posicionado no início da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, e os métodos <b>GetPrevious</b> em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b> GetPrevious</b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -408,16 +392,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

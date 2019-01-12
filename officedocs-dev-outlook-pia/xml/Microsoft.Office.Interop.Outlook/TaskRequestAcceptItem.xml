@@ -1,13 +1,5 @@
 <Type Name="TaskRequestAcceptItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestAcceptItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="255d21cb0ed46abe0a333217c5cd4e04e94b7415" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630082" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TaskRequestAcceptItem : Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="473878a666eb99c0fb9ec05a1eaf18fd4382ef5d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898827" /></Metadata><TypeSignature Language="C#" Value="public interface TaskRequestAcceptItem : Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestAcceptItem implements class Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestAcceptItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestAcceptItem&#xA;Implements _TaskRequestAcceptItem, ItemEvents_10_Event" />
@@ -34,11 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Representa uma resposta a uma <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> enviadas pelo usuário inicial.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestAcceptItemClass" />.</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem" />. Para obter informações sobre os membros de evento do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestAcceptItemClass" />.</para>
       <para>Se o usuário delegado aceitar a tarefa, o <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" /> propriedade estiver definida como <b>olTaskAccept</b>. O associado <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> é recebido pelo representante como um objeto <b>TaskRequestAcceptItem</b> .</para>
-      <para>Ao contrário de outros objetos do Microsoft Outlook, você não pode criar esse objeto.</para> Uso de 
-      <para>o <see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem.GetAssociatedTask(System.Boolean)" /> método para retornar o objeto <b>TaskItem</b> associado este <b>TaskRequestAcceptItem</b>. Trabalhe diretamente com o objeto <b>TaskItem</b> .</para><para /></remarks>
+      <para>Ao contrário de outros objetos Microsoft Outlook, você não pode criar esse objeto.</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestAcceptItem.GetAssociatedTask(System.Boolean)" /> método para retornar o objeto <b>TaskItem</b> associado este <b>TaskRequestAcceptItem</b>. Trabalhe diretamente com o objeto <b>TaskItem</b>.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

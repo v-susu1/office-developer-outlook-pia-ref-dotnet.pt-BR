@@ -1,13 +1,5 @@
 <Type Name="ViewFont" FullName="Microsoft.Office.Interop.Outlook.ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d5c2e1938663f908764deab25e8a1166f1a777ec" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630817" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ViewFont : Microsoft.Office.Interop.Outlook._ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1ce58650a73a891bb0384ef901004455577ed173" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897448" /></Metadata><TypeSignature Language="C#" Value="public interface ViewFont : Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewFont implements class Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface ViewFont&#xA;Implements _ViewFont" />
@@ -31,28 +23,26 @@
   </Attributes>
   <Docs>
     <summary>Representa a fonte utilizada durante a formatação do texto em várias partes de um modo de exibição.</summary>
-    <remarks>
-      <para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ViewFont" />. </para>
-      <para>o objeto <b>ViewFont</b> é usado pelos seguintes objetos para representar a formatação aplicadas ao texto em várias partes de um modo de exibição de informações de fonte:</para>
+    <remarks><para>Esta é uma interface .NET derivada uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente. Use esta interface derivada para acessar todos os membros de evento, propriedade e método do objeto COM. Entretanto, se um método ou evento que você deseja usar compartilhar o mesmo nome sob o mesmo objeto de COM, cast à interface principal correspondente para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento. Consulte este tópico para obter informações sobre o objeto COM. Para obter informações sobre os método e a propriedade membros do objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ViewFont" />. </para>
+      <para>O objeto <b>ViewFont</b> é usado pelos seguintes objetos para representar as informações de formatação de fonte aplicada ao texto em várias partes de um modo de exibição:</para>
       <list type="bullet">
         <item>
-          <para>o <see cref="P:Microsoft.Office.Interop.Outlook._BusinessCardView.HeadingsFont" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._BusinessCardView.HeadingsFont" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
         </item>
         <item>
-          <para>o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.DayWeekTimeFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.MonthFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</para>
         </item>
         <item>
-          <para>o <see cref="P:Microsoft.Office.Interop.Outlook._CardView.BodyFont" /> e <see cref="P:Microsoft.Office.Interop.Outlook._CardView.HeadingsFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> objeto.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._CardView.BodyFont" /> e <see cref="P:Microsoft.Office.Interop.Outlook._CardView.HeadingsFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> objeto.</para>
         </item>
         <item>
-          <para>o <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto.</para>
         </item>
         <item>
-          <para>o <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.ItemFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.LowerScaleFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.UpperScaleFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto.</para>
+          <para>O <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.ItemFont" />, <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.LowerScaleFont" />, e <see cref="P:Microsoft.Office.Interop.Outlook._TimelineView.UpperScaleFont" /> propriedades do <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" /> objeto.</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

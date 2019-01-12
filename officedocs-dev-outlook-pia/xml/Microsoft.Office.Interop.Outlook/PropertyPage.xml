@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629823" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897595" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -27,9 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Representa uma página de propriedades personalizada na caixa de diálogo Opções ou na caixa de diálogo Propriedades da pasta.</summary>
-    <remarks>
-      <para>Outlook usa este objeto para permitir que uma página de propriedades personalizada interagir com o botão Aplicar na caixa de diálogo.</para> Objeto <b>PropertyPage</b> do 
-      <para>é um objeto abstrato. Ou seja, o objeto <b>PropertyPage</b> da biblioteca de objetos do Microsoft Outlook não contém nenhum código de implementação. Em vez disso, ele é fornecido como um modelo para ajudar a implementar o objeto no Microsoft Visual Basic. Isso oferece um conjunto predefinido de interfaces que o Outlook pode usar para determinar se a sua página de propriedades personalizada foi alterada e para notificar o programa que o usuário clicou no botão Okey ou o aplicar. (Se sua página de propriedades personalizada não depende do botão Aplicar, então você não precisará implementar o objeto <b>PropertyPage</b> .)</para><para>Uma página de propriedades personalizada é um controle ActiveX que é exibido pelo Outlook na caixa de diálogo Opções ou na caixa de diálogo de propriedades de pasta quando o usuário clica na guia da página de propriedades personalizada. Para implementar o objeto <b>PropertyPage</b> no Visual Basic .NET, o módulo que contém o código de implementação deve conter a seguinte instrução Implements.</para><code>Implements Outlook.PropertyPage</code><para>o módulo também deve conter procedimentos que implementam as propriedades e métodos do objeto <b>PropertyPage</b> .</para><para /></remarks>
+    <remarks><para>O Outlook usa este objeto para permitir a interação de uma página de propriedades personalizada com o botão Aplicar da caixa de diálogo.</para>
+      <para>O objeto <b>PropertyPage</b> é um objeto abstrato. Ou seja, o objeto <b>PropertyPage</b> da Microsoft Outlook Object Library não contém nenhum código de implementação. Em vez disso, ele é fornecido como um modelo para ajudar a implementar o objeto no Microsoft Visual Basic. Isso oferece um conjunto predefinido de interfaces que o Outlook pode usar para determinar se a sua página de propriedades personalizada foi alterada e para notificar o programa que o usuário clicou no botão Aplicar ou em OK. (Se a sua página de propriedades personalizada não depende do botão Aplicar, em seguida, você não precisará implementar o objeto <b>PropertyPage</b>.)</para>
+      <para>Uma página de propriedades personalizada é um controle ActiveX que é exibido pelo Outlook na caixa de diálogo Opções ou na caixa de diálogo de propriedades de pasta quando o usuário clica na guia da página de propriedades personalizada. Para implementar o objeto <b>PropertyPage</b> no Visual Basic .NET, o módulo que contém o código de implementação deve conter a seguinte instrução Implements.</para>
+      <code>Implements Outlook.PropertyPage</code>
+      <para>O módulo também deve conter procedimentos que implementam as propriedades e métodos do objeto <b>PropertyPage</b>.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -49,10 +44,8 @@
       <Parameters />
       <Docs>
         <summary>Aplica as alterações feitas em uma página de propriedades personalizada.</summary>
-        <remarks>
-          <para>Porque o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> é um objeto abstrato que é implementada no seu aplicativo (e não pelo próprio Microsoft Outlook), a implementação de <b>Aplicar</b> o método se parece com um procedimento de evento em seu código de programa. Ou seja, você pode escrever o código que implementa o método praticamente da mesma maneira que você seria escrever um procedimento de evento. Em outras palavras, o Outlook chama o método <b>Apply</b> para notificar seu programa de que o usuário executou uma ação na caixa de diálogo exibindo a página de propriedade personalizada que requer que o programa aplique os valores de propriedade alterados pelo usuário.</para>
-          <para />
-        </remarks>
+        <remarks><para>Porque o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> é um objeto abstrato que é implementada no seu aplicativo (e não pelo próprio Microsoft Outlook), a implementação de <b>Aplicar</b> o método se parece com um procedimento de evento em seu código de programa. Ou seja, você pode escrever o código que implementa o método praticamente da mesma maneira que você seria escrever um procedimento de evento. Em outras palavras, o Outlook chama o método <b>Apply</b> para notificar seu programa de que o usuário executou uma ação na caixa de diálogo exibindo a página de propriedade personalizada que requer que o programa aplique os valores de propriedade alterados pelo usuário.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">

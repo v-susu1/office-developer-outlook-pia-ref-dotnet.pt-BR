@@ -1,13 +1,5 @@
 <Type Name="PropertyPageSite" FullName="Microsoft.Office.Interop.Outlook.PropertyPageSite">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da8a15e1213bc289f8144fbd4527357769b055b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629667" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPageSite" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1605e730a32e4dac4023d073b77fcdcf33b9d6b0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898003" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPageSite" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPageSite" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPageSite" />
@@ -27,16 +19,14 @@
   </Attributes>
   <Docs>
     <summary>Representa o contêiner de uma página de propriedades personalizada.</summary>
-    <remarks>
-      <para>Use a propriedade <b>Parent</b> do controle ActiveX que implementa o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> objeto associado ao objeto <b>PropertyPageSite</b> para retornar o objeto <b>PropertyPageSite</b> . A seção de declarações do módulo que implementa o objeto <b>PropertyPage</b> deve conter uma declaração semelhante ao seguinte.</para>
+    <remarks><para>Use a propriedade <b>Parent</b> do controle ActiveX que implementa o <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> objeto associado ao objeto <b>PropertyPageSite</b> para retornar o objeto <b>PropertyPageSite</b> . Seção Declaração do módulo implementa o objeto <b>PropertyPage</b> deve conter uma declaração semelhante ao seguinte.</para>
       <code>Private myPropertyPageSite As Outlook.PropertyPageSite</code>
       <code>private Outlook.PropertyPageSite myPropertyPageSite;</code>
-      <para>o objeto é retornado, em seguida, a propriedade <b>Parent</b> do controle ActiveX.</para>
+      <para>O objeto é retornado, em seguida, a propriedade <b>Parent</b> do controle ActiveX.</para>
       <code>myPropertyPageSite = Parent</code>
       <code>myPropertyPageSite = Parent;</code>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> método para notificar o Microsoft Outlook que a página de propriedade foi alterada.</para>
-      <para />
-    </remarks>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> método para notificar o Microsoft Outlook que a página de propriedade foi alterada.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

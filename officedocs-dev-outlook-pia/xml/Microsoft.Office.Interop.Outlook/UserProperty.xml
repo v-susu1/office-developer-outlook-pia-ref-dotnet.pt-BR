@@ -1,13 +1,5 @@
 <Type Name="UserProperty" FullName="Microsoft.Office.Interop.Outlook.UserProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b01972ade23a15cfa40aaec742d199b4c5ab4d2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630411" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7fa9c65db165ff886aa519574a59d9d364a004cc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896755" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperty" />
@@ -27,13 +19,11 @@
   </Attributes>
   <Docs>
     <summary>Representa uma propriedade personalizada de um item do Outlook.</summary>
-    <remarks>
-      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), onde <paramref name="index" /> é um nome ou número de índice, para retornar um único objeto <b>UserProperty</b> .</para>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para criar um novo <b>UserProperty</b> para um item e adicioná-lo para o <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. O método <b>Add</b> permite que você especifique um nome e o tipo da nova propriedade.</para>
+    <remarks><para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), onde <paramref name="index" /> é um nome ou número de índice, para retornar um único objeto <b>UserProperty</b> .</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para criar um novo <b>UserProperty</b> para um item e adicioná-lo para o <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. O método <b>Add</b> permite que você especifique um nome e tipo para a nova propriedade.</para>
       <para>
-        <b>Observação</b>: quando você cria uma propriedade personalizada, um campo é adicionado na pasta que contém o item (usando o mesmo nome da propriedade). Esse campo pode ser usado como uma coluna em modos de exibição da pasta.</para>
-      <para />
-    </remarks>
+        <b>Observação</b>: quando você cria uma propriedade personalizada, um campo é adicionado na pasta que contém o item (usando o mesmo nome da propriedade). Esse campo pode ser usado como uma coluna em modos de exibição de pastas.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -260,16 +250,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -328,10 +316,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) indicando a fórmula de validação da propriedade do usuário. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A fórmula de validação é usada pelo Outlook para validar o <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> propriedade quando um item é salvo.</para>
-          <para />
-        </remarks>
+        <remarks><para>A fórmula de validação é usada pelo Outlook para validar o <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> propriedade quando um item é salvo.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationText">
@@ -362,10 +348,8 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) especificando o texto de validação da propriedade do usuário especificado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O texto de validação é a mensagem de erro que um usuário recebe quando o <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> não atende aos critérios especificados em <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>O texto de validação é a mensagem de erro que um usuário recebe quando o <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> não atende aos critérios especificados em <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -396,11 +380,9 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que indica o valor da propriedade personalizada especificada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para definir, pela primeira vez, a propriedade criada pelo <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método, use a propriedade <b>Value</b> , em vez da <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> ou <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para>
+        <remarks><para>Para definir, pela primeira vez, a propriedade criada pelo <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método, use a propriedade <b>Value</b> , em vez da <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> ou <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para>
           <para>Para obter mais informações sobre como acessar propriedades no Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Visão geral das propriedades</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

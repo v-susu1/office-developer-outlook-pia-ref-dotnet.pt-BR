@@ -1,13 +1,5 @@
 <Type Name="_FormNameRuleCondition" FullName="Microsoft.Office.Interop.Outlook._FormNameRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2008c31d964be8a8d4b9159db8dbc47d84bd6944" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629517" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormNameRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2008c31d964be8a8d4b9159db8dbc47d84bd6944" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900556" /></Metadata><TypeSignature Language="C#" Value="public interface _FormNameRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormNameRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormNameRuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Retorna uma constante, <b>olConditionFormName</b>, a partir do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeração que indica o tipo de condição de regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A condição de regra de nome do formulário é suportada pelas regras para o recebimento de mensagens e regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>A condição de regra de nome do formulário é suportada pelas regras para o recebimento de mensagens e regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a condição de regra está habilitada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra é ativada somente depois que ela foi salva com êxito.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra só será habilitada depois de ter sido salva com êxito. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -179,13 +167,11 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que representa uma matriz de identificadores de formulário a ser avaliado pela condição de regra. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Embora as regras e alertas assistente usa o nome de exibição de um formulário como identificador, programaticamente, <b>FormName</b> usa a classe de mensagem do formulário como identificador.</para>
-          <para>Você pode atribuir uma matriz com uma cadeia de caracteres ou uma matriz de cadeias de caracteres múltiplas à propriedade <b>FormName</b> . Vários identificadores de formulário atribuídos em uma matriz são avaliados usando a operação OR lógica.</para>
+        <remarks><para>Embora as regras e alertas assistente usa o nome de exibição de um formulário como identificador, programaticamente, <b>FormName</b> usa a classe de mensagem do formulário como identificador.</para>
+          <para>Você pode atribuir uma matriz com uma cadeia de caracteres ou uma matriz de cadeias de caracteres múltiplas à propriedade <b>FormName</b>. Vários identificadores de formulário atribuídos em uma matriz são avaliados usando a operação OR lógica.</para>
           <para>
             <b>FormName</b> retorna um erro se ele contiver uma ou mais cadeias de caracteres vazias.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -213,10 +199,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -244,16 +228,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

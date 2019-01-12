@@ -1,13 +1,5 @@
 <Type Name="_RuleCondition" FullName="Microsoft.Office.Interop.Outlook._RuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629564" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898197" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeração que indica o tipo de condição para o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obter mais informações sobre as condições de regra aceitas para criação programática, aqueles que têm suporte para regras para receber a mensagem e aqueles que têm suporte para regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obter mais informações sobre as condições de regra aceitas para criação programática, aqueles que têm suporte para regras para receber a mensagem e aqueles que têm suporte para regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,13 +135,11 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> está habilitado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra é ativada somente depois que ela foi salva com êxito. </para>
-          <para>Retornará um erro se você tentar habilitar uma condição de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.  Para obter mais informações sobre suporte pelas regras para receber mensagens ou regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para>não é possível habilitar ou desabilitar uma condição de tipo <b>olConditionOtherMachine</b>. Esse tipo de condição de regra indica que a regra pode ser executada somente em um computador específico que não seja aquele atual. Isso acontece quando a regra é criada em que a condição de regra <b>olConditionLocalMachineOnly</b> e o computador estiver habilitada, o que indica que a regra pode ser executado somente no computador. Quando você executa a mesma regra em outro computador, a regra mostrará que a condição <b>olConditionOtherMachine</b> está habilitado.</para>
-          <para>Retornará um erro se você tentar habilitar uma condição de exceção do tipo <b>olConditionLocalMachineOnly</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra só será habilitada depois de ter sido salva com êxito. </para>
+          <para>Retorna um erro se você tentar habilitar uma condição de regra que é suportada somente em uma regra do tipo <b>olRuleSend</b> para uma regra de tipo <b>olRuleReceive</b>ou vice-versa.  Para obter mais informações sobre suporte pelas regras para receber mensagens ou regras de envio de mensagens, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para>Você não pode habilitar ou desabilitar uma condição de tipo <b>olConditionOtherMachine</b>. Esse tipo de condição de regra indica que a regra pode ser executada somente em um computador específico que não seja aquele atual. Isso acontece quando a regra é criada em que a condição de regra <b>olConditionLocalMachineOnly</b> e o computador estiver habilitada, o que indica que a regra pode ser executado somente no computador. Quando você executa a mesma regra em outro computador, a regra mostrará que a condição <b>olConditionOtherMachine</b> está habilitado.</para>
+          <para>Retorna um erro se você tentar habilitar uma condição de exceção do tipo <b>olConditionLocalMachineOnly</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -179,10 +167,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O pai do <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto é o <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -210,16 +196,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

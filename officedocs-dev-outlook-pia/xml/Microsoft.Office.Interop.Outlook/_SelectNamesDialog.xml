@@ -1,13 +1,5 @@
 <Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629539" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900966" /></Metadata><TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a mais de uma entrada de endereço pode ser selecionada por vez na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão da <b>AllowMultipleSelection</b> for <b>verdadeira</b>. Se <b>AllowMultipleSelection</b> for definido como <b>True</b>, o usuário pode selecionar vários destinatários usando a tecla CTRL ou SHIFT. Se <b>AllowMultipleSelection</b> for definido como <b>False</b>, a seleção múltipla está desabilitada.   </para>
-          <para>Configuração <b>AllowMultipleSelection</b> como <b>False</b> não garante que somente um destinatário pode ser selecionado. O usuário pode digitar destinatários adicionais na caixa de edição ou selecione da lista de destinatários várias vezes. Para garantir que somente um destinatário pode ser selecionado na caixa de diálogo, defina <b>AllowMultipleSelect</b> como <b>False</b> e <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> para <b>olShowNone</b>. </para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão da <b>AllowMultipleSelection</b> é <b>True</b>. Se <b>AllowMultipleSelection</b> for definido como <b>True</b>, o usuário pode selecionar vários destinatários usando a tecla CTRL ou SHIFT. Se <b>AllowMultipleSelection</b> for definido como <b>False</b>, a seleção múltipla está desabilitada.</para>
+          <para>A definição de <b>AllowMultipleSelection</b> como <b>False</b> não garante que somente um destinatário pode ser selecionado. O usuário pode digitar destinatários adicionais na caixa de edição ou selecione da lista de destinatários várias vezes. Para garantir que somente um destinatário pode ser selecionado na caixa de diálogo, defina <b>AllowMultipleSelect</b> como <b>False</b> e <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> para <b>olShowNone</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -121,11 +111,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para o texto que aparece no botão de comando Cco na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, incluir um e comercial (&amp;) caracteres na sequência de argumento de rótulo, imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>BccLabel</b> é a cadeia de caracteres "Local &amp;participantes", os usuários podem pressionar ALT + T para mover o foco para a caixa de edição de destinatário primeira. </para>
+        <remarks><para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, inclua um caractere na cadeia de caracteres de argumento rótulo, e comercial (&amp;) imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>BccLabel</b> for a cadeia de caracteres "Local &amp; participantes", os usuários podem pressionar ALT + A para mover o foco para a caixa de edição de destinatário primeira.</para>
           <para>Se <b>BccLabel</b> não estiver definida, o valor padrão será a cadeia de caracteres localizada para "Cco". Se o <b>BccLabel</b> estiver definida como uma sequência vazia, e depois no botão de comando Cco mostra -&gt;. Se a propriedade <b>BccLabel</b> contém mais de 32 caracteres (incluindo o e comercial (&amp;) tecla de acesso), somente os primeiros 32 caracteres serão exibidos no botão de comando.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -156,11 +144,9 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o título para a caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se você não definir <b>Caption</b>, será o título da caixa de diálogo Selecionar nomes ou o equivalente localizado. Se você definir <b>Caption</b> como uma sequência vazia, a legenda da caixa de diálogo será uma sequência vazia.</para>
+        <remarks><para>Se você não definir <b>Caption</b>, será o título da caixa de diálogo Selecionar nomes ou o equivalente localizado. Se você definir <b>Caption</b> como uma sequência vazia, a legenda da caixa de diálogo será uma sequência vazia.</para>
           <para>Definir <b>Caption</b> como uma cadeia de caracteres longa (por exemplo, 300 caracteres) truncará a legenda sejam truncados e não alterará a largura da caixa de diálogo Selecionar nomes para alterar.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcLabel">
@@ -191,11 +177,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para o texto que aparece no botão de comando Cc, na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, incluir um e comercial (&amp;) caracteres na sequência de argumento de rótulo, imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>CcLabel</b> é a cadeia de caracteres "Local &amp;participantes", os usuários podem pressionar ALT + T para mover o foco para a caixa de edição de destinatário primeira. </para>
+        <remarks><para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, inclua um caractere na cadeia de caracteres de argumento rótulo, e comercial (&amp;) imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>CcLabel</b> for a cadeia de caracteres "Local &amp; participantes", os usuários podem pressionar ALT + A para mover o foco para a caixa de edição de destinatário primeira.</para>
           <para>Se <b>CcLabel</b> não estiver definida, o valor padrão será a cadeia de caracteres localizada para "Cc". Se o <b>CcLabel</b> estiver definida como uma sequência vazia, e depois no botão de comando Cc mostra -&gt;. Se a propriedade <b>CcLabel</b> contém mais de 32 caracteres (incluindo o e comercial (&amp;) tecla de acesso), somente os primeiros 32 caracteres serão exibidos no botão de comando.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -249,12 +233,10 @@
       <Docs>
         <summary>Exibe a caixa de diálogo Selecionar Nomes.</summary>
         <returns>Um valor <b>booleano</b> (<b>bool</b> em c#) que será <b>True</b> se o usuário clicou Okey e <b>False</b> se o usuário clicou em Cancelar ou no ícone Fechar.</returns>
-        <remarks>
-          <para>Ao exibir a caixa de diálogo Selecionar nomes, <b>Display</b> usa o local anterior e o tamanho (indicados por superior, esquerda, largura e altura) da caixa de diálogo.</para>
-          <para>Caixa de diálogo a selecionar nomes é modal, o que significa que a execução do código será interrompida até que o usuário clica Okey, cancelar ou no ícone Fechar.</para>
-          <para>Você deve detectar as condições de erro que incluem memória insuficiente ou outra mensagem ou caixa de diálogo está aberta.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ao exibir a caixa de diálogo Selecionar nomes, <b>Display</b> usa o local anterior e o tamanho (indicados por superior, esquerda, largura e altura) da caixa de diálogo.</para>
+          <para>A caixa de diálogo Selecionar Nomes é modal, ou seja, a execução do código será interrompida até o usuário clicar em OK, Cancelar ou no ícone Fechar.</para>
+          <para>Você deve detectar as condições de erro que incluem memória insuficiente ou outra mensagem ou caixa de diálogo aberta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForceResolution">
@@ -285,12 +267,10 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se o Outlook deve resolver todos os destinatários no objeto especificado por <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> antes que o usuário pode clicar Okey para aceitar os destinatários digitados ou selecionados na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>. Se um destinatário não pode ser resolvido, Outlook perguntará ao usuário para resolver os nomes ambíguos. O usuário deve ter todos os destinatários na caixa de edição de destinatário resolvida antes de poder clicar Okey.</para>
+        <remarks><para>O valor padrão é <b>True</b>. Se um destinatário não pode ser resolvido, Outlook perguntará ao usuário para resolver os nomes ambíguos. O usuário deve ter todos os destinatários no destinatário Editar caixa resolvida antes de poder clique em OK.</para>
           <para>
             <b>ForceResolution</b> será ignorado se o usuário clicar em Cancelar ou no ícone Fechar.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialAddressList">
@@ -321,11 +301,9 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto que determina a lista de endereços inicial a ser exibido na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Definir a propriedade <b>InitialAddressList</b> é o equivalente programático a selecionar um <b>AddressList</b> da lista suspensa de catálogo de endereços na caixa de diálogo Selecionar nomes.</para>
+        <remarks><para>Definir a propriedade <b>InitialAddressList</b> é o equivalente programático a selecionar um <b>AddressList</b> da lista suspensa para o catálogo de endereços na caixa de diálogo Selecionar nomes.</para>
           <para>Em seu estado padrão, <b>InitialAddressList</b> é <b>AddressList</b> que tem a propriedade <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> definida como <b>True</b>. <b>IsInitialAddressList</b> corresponde à definição de mostrar esta lista de endereços primeiro na caixa de diálogo endereçamento, que está disponível, clicando em ferramentas, opções, na caixa de diálogo Catálogo de endereços.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfRecipientSelectors">
@@ -356,12 +334,10 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constante que determina o número de destinatário editar caixas (cada associados com um botão de comando) exibidas na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Uma caixa de edição de destinatário permite que você insira os nomes dos destinatários. Cada caixa de edição do destinatário é associada a um botão de comando na caixa de diálogo Selecionar nomes; exemplos de um botão de comando para uma caixa de edição de destinatário são para e Cc botões de comando. O valor padrão de <b>NumberOfRecipientSelectors</b> é <b>OlRecipientSelectors.olToCcBcc</b>.</para>
-          <para>Se você definir <b>NumberOfRecipientSelectors</b> como <b>. Olshowto</b> e, em seguida, definir o texto para <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> ou <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, <b>NumberOfRecipientSelectors</b> permanecerá inalterado.</para>
+        <remarks><para>Uma caixa de edição de destinatário permite que você insira os nomes dos destinatários. Cada caixa de edição do destinatário é associada a um botão de comando na caixa de diálogo Selecionar nomes; exemplos de um botão de comando para uma caixa de edição de destinatário são os botões de comando para e Cc. O valor padrão de <b>NumberOfRecipientSelectors</b> é <b>OlRecipientSelectors.olToCcBcc</b>.</para>
+          <para>Se você definir <b>NumberOfRecipientSelectors</b> como <b>. Olshowto</b> e, em seguida, definir o texto para <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> ou <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, <b>NumberOfRecipientSelectors</b> permanecerá inalterado. </para>
           <para>Se você definir <b>NumberOfRecipientSelectors</b> como <b>. Olshownone</b>, em seguida, a <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> propriedade será ignorada.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -420,13 +396,10 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> objeto da coleção que representa os destinatários selecionados na caixa de diálogo Selecionar nomes, ou define um objeto da coleção <b>Recipients</b> que representa os destinatários iniciais a ser exibido na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propriedade especifica um objeto da coleção <b>Recipients</b> que tem um <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> igual ao número total de destinatários no campo para, Cc e Cco caixas de edição. </para>
-          <para>Se você não definir essa propriedade antes de exibir a caixa de diálogo Selecionar nomes e, em seguida, o objeto <b>Recipients</b> representado por <b>selectnamesdialog. Recipients</b> terá um <b>Recipients. Count</b> igual a zero.</para>
-          <para>
-            <b>Se o usuário não selecionar nomes da caixa de diálogo Selecionar nomes e clicar em Okey, selectnamesdialog. Recipients</b> retornará um objeto da coleção <b>Recipients</b> com <b>Recipients. Count</b> igual a zero.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propriedade especifica um objeto da coleção <b>Recipients</b> que tem um <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> igual ao número total de destinatários no campo para, Cc e Cco caixas de edição. </para>
+          <para>Se você não definir essa propriedade antes de exibir a caixa de diálogo Selecionar nomes, o objeto <b>Recipients</b> representado por <b>selectnamesdialog. Recipients</b> terá um <b>Recipients. Count</b> igual a zero.</para>
+          <para>Se o usuário não selecionar nomes da caixa de diálogo Selecionar nomes e clicar em Okey, <b>selectnamesdialog. Recipients</b> retornará um objeto da coleção <b>Recipients</b> com <b>Recipients. Count</b> igual a zero. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -454,16 +427,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetDefaultDisplayMode">
@@ -491,13 +462,11 @@
       <Docs>
         <param name="defaultMode">Uma constante na enumeração <b>OlDefaultSelectNamesDisplayMode</b> que determina os rótulos de legenda e botão padrão para a caixa de diálogo Selecionar nomes.</param>
         <summary>Define o modo de exibição padrão da caixa de diálogo Selecionar Nomes, especificando seus rótulos de legenda e botão.</summary>
-        <remarks>
-          <para>
-            <b>SetDefaultDisplayMode</b> é opcional. Se você não chamar <b>SetDefaultDisplayMode</b> antes de chamar <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, o modo de exibição padrão será <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. Para definir o modo de exibição como um valor diferente, você deve chamar <b>SetDefaultDisplayMode</b> antes de chamar o método de <b>exibição</b> . </para>
-          <para>Esse método permite fazer para exibir a caixa de diálogo Selecionar nomes sem usar um arquivo de recurso para localizar os valores para a legenda, rótulo para, Cc rótulo e Cco label. Você pode substituir o comportamento interno ao definir seus próprios valores de <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, e <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
-          <para>, Você pode definir propriedades adicionais (por exemplo, definindo <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> para <b>olRecipientSelectors.olToCc</b>) depois de chamar <b>SetDefaultDisplayMode</b>. A caixa de diálogo Selecionar nomes irá observar a configuração subsequente.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>SetDefaultDisplayMode</b> é opcional. Se você não chamar <b>SetDefaultDisplayMode</b> antes de chamar <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, o modo de exibição padrão será <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. Para definir o modo de exibição como um valor diferente, você deve chamar <b>SetDefaultDisplayMode</b> antes de chamar o método de <b>exibição</b>. </para>
+          <para>Este método permite exibir a caixa de diálogo Selecionar Nomes sem usar um arquivo de recursos para localizar os valores da legenda, o rótulo Para, o rótulo Cc e o rótulo Cco. Você pode substituir o comportamento interno ao definir seus próprios valores de <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, e <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
+          <para>Você pode definir propriedades adicionais (por exemplo, definindo <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> para <b>olRecipientSelectors.olToCc</b>) depois de chamar <b>SetDefaultDisplayMode</b>. A caixa de diálogo Selecionar nomes observará a configuração subsequente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOnlyInitialAddressList">
@@ -528,11 +497,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se o <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> representado por <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> é o único <b>AddressList</b> disponíveis na lista suspensa para catálogo de endereços na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão dessa propriedade é <b>False</b>, que significa que todas as listas de endereços são exibidas. Para restringir a lista suspensa para catálogo de endereços para aquele indicado pelo <b>InitialAddressList</b>, defina <b>ShowOnlyInitialAddressList</b> como <b>True</b>. </para>
-          <para>Se você não definir a propriedade <b>InitialAddressList</b> e definir <b>ShowOnlyInitialAddressList</b> como <b>True</b>, em seguida, <b>AddressList</b> com <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> igual a <b>True</b> será a única lista de endereços disponível no lista suspensa de catálogo de endereços.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão dessa propriedade é <b>False</b>, que significa que todas as listas de endereços são exibidas. Para restringir a lista suspensa para Catálogo de endereços para aquele indicado pelo <b>InitialAddressList</b>, defina <b>ShowOnlyInitialAddressList</b> como <b>True</b>.</para>
+          <para>Se você não definir a propriedade <b>InitialAddressList</b> e definir <b>ShowOnlyInitialAddressList</b> como <b>True</b>, em seguida, <b>AddressList</b> com <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> igual a <b>True</b> será a única lista de endereços disponível na lista suspensa Catálogo de endereços.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToLabel">
@@ -563,11 +530,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para o texto que aparece no botão de comando para na caixa de diálogo Selecionar nomes. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, incluir um e comercial (&amp;) caracteres na sequência de argumento de rótulo, imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>ToLabel</b> é a cadeia de caracteres "Local &amp;participantes", os usuários podem pressionar ALT + T para mover o foco para a caixa de edição de destinatário primeira. </para>
+        <remarks><para>Para fornecer uma tecla aceleradora para as caixas de edição de destinatário, inclua um caractere na cadeia de caracteres de argumento rótulo, e comercial (&amp;) imediatamente antes do caractere que serve como a tecla de acesso. Por exemplo, se <b>ToLabel</b> for a cadeia de caracteres "Local &amp; participantes", os usuários podem pressionar ALT + A para mover o foco para a caixa de edição de destinatário primeira.</para>
           <para>Se <b>ToLabel</b> não estiver definida, o valor padrão será a cadeia de caracteres localizada para "Para". Se o <b>ToLabel</b> estiver definida como uma sequência vazia, e depois no botão de comando para mostra -&gt;. Se a propriedade <b>ToLabel</b> contém mais de 32 caracteres (incluindo o e comercial (&amp;) tecla de acesso), somente os primeiros 32 caracteres serão exibidos no botão de comando.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

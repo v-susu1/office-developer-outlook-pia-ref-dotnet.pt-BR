@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631181" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900840" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -31,24 +23,22 @@
   </Attributes>
   <Docs>
     <summary>Representa um cabeçalho de conversa do Microsoft Outlook em um modo de exibição de conversa.</summary>
-    <remarks>
-      <para>No Outlook, uma conversa para agrupar mensagens que compartilham o mesmo assunto e pertencem ao mesmo segmento. Uma conversa também pode incluir ramificações, como quando uma mensagem obtém dois ou mais discussões e respostas cresçam independentemente de cada resposta. O modo de exibição de conversa se refere a todos os itens na mesma conversa entre pastas e repositórios. Um cabeçalho de conversa pode ser um item ou um cabeçalho de grupo em um dos seguintes formatos:</para>
+    <remarks><para>No Outlook, uma conversa agrupa mensagens que compartilham o mesmo assunto e pertencem ao mesmo segmento. Uma conversa também pode incluir ramificações, como quando uma mensagem obtém dois ou mais discussões e respostas cresçam independentemente de cada resposta. O modo de exibição de conversa se refere a todos os itens na mesma conversa entre pastas e repositórios. Um cabeçalho de conversa pode ser um item ou um cabeçalho de grupo em um dos seguintes formatos:</para>
       <list type="bullet">
         <item>
-          <para>um item em um segmento que contém apenas um único item.</para>
+          <para>Um item em um segmento que contém somente um item.</para>
         </item>
         <item>
-          <para>Um cabeçalho de grupo para uma conversa que contém vários itens.</para>
+          <para>Um cabeçalho de grupo de uma conversa que contém vários itens.</para>
         </item>
         <item>
-          <para>o primeiro item em uma conversa que contém um único segmento.</para>
+          <para>O primeiro item de uma conversa que contém um único segmento.</para>
         </item>
         <item>
-          <para>o primeiro item em uma conversa dividida.</para>
+          <para>O primeiro item de uma conversa dividida.</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

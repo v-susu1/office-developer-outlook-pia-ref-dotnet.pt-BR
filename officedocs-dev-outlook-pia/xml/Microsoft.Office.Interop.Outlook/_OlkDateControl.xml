@@ -1,13 +1,5 @@
 <Type Name="_OlkDateControl" FullName="Microsoft.Office.Interop.Outlook._OlkDateControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f064fabf18e8108fe4dbcd30b73c9f5f5a2fb068" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630505" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkDateControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f064fabf18e8108fe4dbcd30b73c9f5f5a2fb068" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896965" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkDateControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkDateControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkDateControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkDateControl" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão para essa propriedade é <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  O valor padrão para essa propriedade é <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma palavra ou um caractere é a unidade básica utilizada para estender uma seleção.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -129,10 +117,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de plano de fundo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000005, "Janela". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -163,10 +149,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que altera o estilo do plano de fundo do controle entre transparente e opaco. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Date">
@@ -197,10 +181,8 @@
       <Docs>
         <summary>Retorna ou define o valor de <b>DateTime</b> selecionado com a hora definida para 12:00 AM.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ao obter essa propriedade, o valor padrão é a data atual com a hora definida para 12:00 AM.  Ao definir essa propriedade, sempre que a informação será ignorada; o tempo será definido para 12:00 AM.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ao obter esta propriedade, o valor padrão é a data atual com a hora definida como 12:00 AM.  Ao configurar esta propriedade, qualquer informação de hora será ignorada; a hora será definida como 12:00 AM.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -256,10 +238,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -290,10 +270,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica o comportamento de seleção ao inserir o controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -355,10 +333,8 @@
       <Docs>
         <summary>Retorna ou define um valor de <b>UInteger</b> (<b>uint</b> em c#) que indica a cor de primeiro plano do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é do tipo <b>OLE_COLOR</b> que é um valor <b>UInteger</b> (<b>uint</b> em c#). O valor padrão para essa propriedade é 0x80000008, "Text da janela".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -389,10 +365,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se uma seleção é exibida ou oculta para o controle quando o controle perde o foco.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão dessa propriedade é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão dessa propriedade é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -423,11 +397,9 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se é ou não o controle é bloqueado contra alteração.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>o valor padrão é <b>False</b>.</para>
-          <para>Quando o controle é bloqueado, o controle não tem uma aparência de "desabilitado", mas o usuário não pode editar o conteúdo do controle.  </para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>False</b>.</para>
+          <para>Quando o controle é bloqueado, ele não tem uma aparência de "desabilitado", mas o usuário não pode editar seu conteúdo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -458,10 +430,8 @@
       <Docs>
         <summary>Retorna ou define um <b>StdPicture</b> que representa a imagem personalizada para o cursor do mouse para este controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -492,10 +462,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowNoneButton">
@@ -526,10 +494,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se para exibir a nenhum botão no controle de data.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -560,11 +526,9 @@
       <Docs>
         <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que é o texto exibido no controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
-          <para>a propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão da propriedade <b>Text</b> é a cadeia de caracteres vazia.</para>
+          <para>A propriedade <b>Text</b> fornece o mesmo valor que o <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Value" /> propriedade, mas o valor é digitado fortemente como uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -595,10 +559,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.  Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -629,10 +591,8 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que representa o conteúdo do controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O valor é o mesmo que o valor da <see cref="P:Microsoft.Office.Interop.Outlook._OlkDateControl.Text" />, exceto que esta propriedade é o <b>objeto</b> e <b>Text</b> é digitado fortemente como <b>String</b> (<b>cadeia de caracteres</b> em c#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

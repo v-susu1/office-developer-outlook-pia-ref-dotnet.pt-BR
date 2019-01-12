@@ -1,13 +1,5 @@
 <Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630220" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901841" /></Metadata><TypeSignature Language="C#" Value="public interface _TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
@@ -83,13 +75,11 @@
       <Docs>
         <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que representa a diferença em minutos de entre o local time neste fuso horário e o tempo Universal Coordenado (UTC). Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor é armazenado como parte do valor para TZI para esse fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+        <remarks><para>Esse valor é armazenado como parte do valor para TZI para esse fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
           <para>
             <b>Bias</b> não leve em consideração qualquer tempo de deslocamento para horário de verão ou hora padrão no fuso horário. Para justificar qualquer diferença de horário de verão, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. Em geral, quando o fuso horário local está adotando o horário de verão, o horário UTC é o resultado da adição o <b>Bias</b> e <b>DaylightBias</b> à hora local. Para justificar nenhum deslocamento horário padrão, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. Em geral, quando o fuso horário local está adotando a hora padrão, o horário UTC é o resultado da adição o <b>Bias</b> e <b>StandardBias</b> à hora local. </para>
-          <para>Por exemplo, em um estado adotar o horário de verão no fuso horário do Pacífico, o <b>Bias</b> é 480 minutos e <b>DaylightBias</b> é 60 minutos. Para determinar o tempo em UTC para 11 de junho, PST de A.M. 2, adicione um <b>Bias</b> de horas (480/60) e um <b>DaylightBias</b> de-(60/60) horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, das 9: 00</para>
-          <para />
-        </remarks>
+          <para>Por exemplo, em um estado adotar o horário de verão no fuso horário do Pacífico, o <b>Bias</b> é de 480 minutos e <b>DaylightBias</b> é 60 minutos. Para determinar o tempo em UTC para 11 de junho 2h da manhã PST, adicione um <b>Bias</b> de horas (480/60) e um <b>DaylightBias</b> de-(60/60) horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, das 9: 00</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -145,11 +135,9 @@
       <Docs>
         <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que representa o deslocamento de tempo em minutos a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para levar em conta o horário de verão neste fuso horário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor é armazenado como parte do valor para TZI para esse fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para>em relação a hora UTC e a hora local do fuso horário, o horário UTC é o resultado da adição o <b>Bias</b> e <b>DaylightBias</b> à hora local. Por exemplo, em um estado adotar o horário de verão no fuso horário do Pacífico, o <b>Bias</b> é de 480 minutos e <b>DaylightBias</b> é 60 minutos. Para determinar o tempo em UTC para 11 de junho, PST de A.M. 2, adicione um <b>Bias</b> de horas (480/60) e um <b>DaylightBias</b> de-(60/60) horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, das 9: 00</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse valor é armazenado como parte do valor para TZI para esse fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>Em relação a hora UTC e a hora local do fuso horário, o horário UTC é o resultado da adição o <b>Bias</b> e <b>DaylightBias</b> à hora local. Por exemplo, em um estado adotar o horário de verão no fuso horário do Pacífico, o <b>Bias</b> é de 480 minutos e <b>DaylightBias</b> é 60 minutos. Para determinar o tempo em UTC para 11 de junho 2h da manhã PST, adicione um <b>Bias</b> de horas (480/60) e um <b>DaylightBias</b> de-(60/60) horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, das 9: 00</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDate">
@@ -177,10 +165,8 @@
       <Docs>
         <summary>Retorna um valor de <b>data/hora</b> que representa a data e hora neste fuso horário quando tempo muda sobre para horário de verão no ano atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esse valor é armazenado como parte do valor TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Esse valor é armazenado como parte do valor TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDesignation">
@@ -208,10 +194,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica o fuso horário no horário de verão. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é armazenada como o valor Dlt para o fuso horário no registro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é armazenada como o valor Dlt para o fuso horário no registro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -239,10 +223,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente o fuso horário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A <b>ID</b> de um fuso horário globalmente é o mesmo para esse fuso horário.  É o nome da chave de registro do Windows que contém as informações de fuso horário. Ao contrário do <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> propriedade, o valor de <b>ID</b> não está localizada.</para>
-          <para />
-        </remarks>
+        <remarks><para>A <b>ID</b> de um fuso horário globalmente é o mesmo para esse fuso horário.  É o nome da chave de registro do Windows que contém as informações de fuso horário. Ao contrário do <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> propriedade, o valor de <b>ID</b> não está localizada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -270,10 +252,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o identificador do fuso horário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O <b>nome</b> normalmente inclui o valor de deslocamento do tempo Universal Coordenado (UTC), o nome do fuso horário oficial e regiões onde o fuso horário é usado. Ele é armazenado como o valor de exibição na chave do registro para um fuso horário.</para>
-          <para />
-        </remarks>
+        <remarks><para>O <b>nome</b> normalmente inclui o valor de deslocamento do tempo Universal Coordenado (UTC), o nome do fuso horário oficial e regiões onde o fuso horário é usado. Ele é armazenado como o valor de exibição na chave do registro para um fuso horário.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -329,16 +309,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardBias">
@@ -366,11 +344,9 @@
       <Docs>
         <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) que representa o deslocamento de tempo em minutos a partir do <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para levar em conta a hora padrão neste fuso horário. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor é armazenado como parte do valor para TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para>em relação a hora UTC e a hora local do fuso horário, o horário UTC é o resultado da adição o <b>Bias</b> e <b>StandardBias</b> à hora local. Por exemplo, em um estado adotando a hora padrão no fuso horário do Pacífico, o <b>Bias</b> é de 480 minutos e <b>StandardBias</b> é 0 minutos. Para determinar o tempo em UTC para 11 de junho, PST de A.M. 2, adicione um <b>Bias</b> de horas (480/60) e um <b>StandardBias</b> de 0 horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, 10h</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse valor é armazenado como parte do valor para TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>Em relação a hora UTC e a hora local do fuso horário, o horário UTC é o resultado da adição o <b>Bias</b> e <b>StandardBias</b> à hora local. Por exemplo, em um estado adotando a hora padrão no fuso horário do Pacífico, o <b>Bias</b> é de 480 minutos e <b>StandardBias</b> é 0 minutos. Para determinar o tempo em UTC para 11 de junho 2h da manhã PST, adicione um <b>Bias</b> de horas (480/60) e um <b>StandardBias</b> de 0 horas à hora local 11 de junho de 2h da manhã A hora em UTC é 11 de junho, 10h</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDate">
@@ -398,10 +374,8 @@
       <Docs>
         <summary>Retorna um valor de <b>data/hora</b> que representa a data e hora neste fuso horário quando tempo muda sobre para a hora padrão. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esse valor é armazenado como parte do valor TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Esse valor é armazenado como parte do valor TZI para o fuso horário no registro do Windows. O valor TZI é mapeado para o Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDesignation">
@@ -429,10 +403,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que identifica o fuso horário no horário padrão. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade é armazenada como o valor Std para o fuso horário no registro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade é armazenada como o valor Std para o fuso horário no registro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolder" FullName="Microsoft.Office.Interop.Outlook._NavigationFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630945" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47e7c5b285c6b771f04b5e51a758b7299228e1d8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897994" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolder" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retorna <b>olNavigationFolder</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Essa propriedade retorna <b>olNavigationFolder</b> para o <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -114,10 +104,8 @@
       <Docs>
         <summary>Retorna uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição do <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use <b>NavigationFolder. DisplayName</b>, em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />, para obter o nome de uma pasta compartilhada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use <b>NavigationFolder. DisplayName</b>, em vez de <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Name" />, para obter o nome de uma pasta compartilhada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -173,10 +161,8 @@
       <Docs>
         <summary>Retorna um valor <b>Boolean</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto pode ser removido do painel de navegação. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Apenas pastas compartilhadas ou vinculadas podem ser removidas programaticamente do painel de navegação.</para>
-          <para />
-        </remarks>
+        <remarks><para>Apenas pastas compartilhadas ou vinculadas podem ser removidas programaticamente do Painel de Navegação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSelected">
@@ -207,14 +193,12 @@
       <Docs>
         <summary>Retorna ou define uma variável (<b>bool</b> em c#) <b>Boolean</b> que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto for selecionado para exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Pastas de navegação contidas em um módulo de navegação calendário são tratadas diferentemente das pastas de navegação em outros módulos de navegação.</para>
-          <para>Se o explorer ativo usa o dia/mês/ou o modo de exibição semana/dia/mês com AutoVisualização modo de exibição para exibir pastas de navegação no módulo de navegação calendário, esta propriedade retorna <b>True</b> se a pasta de navegação é verificada no painel de navegação (e é, portanto, exibido no modo lado a lado ou sobreposição no explorer ativo.) A definição dessa propriedade como <b>False</b> remove um calendário da exibição no explorer ativo. Ocorrerá um erro se esta propriedade for definida como <b>True</b> para mais de 30 pastas de navegação.</para>
-          <para>Se o explorer ativo usa outro modo de exibição, como o modo de exibição de todos os compromissos, para exibir pastas de navegação no módulo de navegação calendário ou em módulos de navegação que não seja o módulo de navegação calendário, essa propriedade retorna True se a navegação pasta está selecionada e atualmente exibida no explorer ativo; Caso contrário, a propriedade retornará False. </para>
-          <para>Em ambos os casos, ocorrerá um erro se o valor dessa propriedade estiver definido como <b>False</b> para todos os objetos <b>NavigationFolder</b> no pai <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> conjunto, ou se o objeto <b>NavigationFolder</b> está contido em um módulo de navegação outros que o módulo de navegação exibido atualmente no painel de navegação.</para>
-          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> evento para o conjunto <b>NavigationFolders</b> pai é gerado se o valor dessa propriedade é alterado para um objeto <b>NavigationFolder</b> em um módulo de navegação calendário, independentemente do modo de exibição atual.</para>
-          <para />
-        </remarks>
+        <remarks><para>As pastas de navegação contidas em um módulo de navegação Calendário são tratadas diferentemente das pastas de navegação em outros módulos de navegação.</para>
+          <para>Se o explorer ativo usa o dia/mês/ou o modo de exibição semana/dia/mês com AutoVisualização modo de exibição para exibir pastas de navegação no módulo de navegação calendário, esta propriedade retorna <b>True</b> se a pasta de navegação é verificada no painel de navegação (e é portanto exibido no modo lado a lado ou sobreposição no explorer ativo.) A definição dessa propriedade como <b>False</b> remove um calendário da exibição no explorer ativo. Se essa propriedade é definida como <b>True</b> para mais de 30 pastas de navegação, ocorrerá um erro.</para>
+          <para>Se o explorer ativo usar outro modo de exibição, como o modo Todos os Compromissos, para exibir as pastas de navegação no módulo de navegação Calendar, ou em outros módulos de navegação diferentes de Calendar, essa propriedade retornará True se a pasta de navegação estiver selecionada e sendo exibida no explorer ativo; caso contrário, a propriedade retornará False.</para>
+          <para>Em ambos os casos, ocorrerá um erro se o valor dessa propriedade estiver definido como <b>False</b> para todos os objetos <b>NavigationFolder</b> no pai <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> conjunto, ou se o objeto <b>NavigationFolder</b> contido por um módulo de navegação diferente de módulo de navegação exibido atualmente no painel de navegação.</para>
+          <para>O <see cref="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" /> evento para o conjunto <b>NavigationFolders</b> pai é gerado se o valor dessa propriedade é alterado para um objeto <b>NavigationFolder</b> em um módulo de navegação calendário, independentemente do modo de exibição atual. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSideBySide">
@@ -245,13 +229,11 @@
       <Docs>
         <summary>Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto é exibido no modo de sobreposição ou lado a lado. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A definição dessa propriedade como <b>True</b> , o <b>NavigationFolder</b> é exibido no modo lado a lado; Caso contrário, o modo de sobreposição é usado para exibir a pasta de navegação na exibição atual do explorer ativo. O valor padrão para essa propriedade é <b>True</b>.</para>
-          <para>a definição dessa propriedade não tem efeito em um objeto <b>NavigationFolder</b> que não esteja associado um módulo de calendário. Se o objeto <b>NavigationFolder</b> estiver associado um módulo de calendário, o valor dessa propriedade é dependente nas seguintes condições:</para>
-          <para>se o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> propriedade do objeto <b>NavigationFolder</b> estiver definida como <b>False</b>, então esse o valor da propriedade não terá efeito até que a propriedade <b>IsSelected</b> é definida como <b>True</b>. Se a propriedade <b>IsSelected</b> é definida como <b>True</b>, o valor da propriedade é aplicado quando o <b>NavigationFolder</b> é exibida.</para>
+        <remarks><para>A definição dessa propriedade como <b>True</b>, o <b>NavigationFolder</b> é exibido no modo lado a lado; Caso contrário, o modo de sobreposição é usado para exibir a pasta de navegação na exibição atual do explorer ativo. O valor padrão para essa propriedade é <b>True</b>.</para>
+          <para>A definição dessa propriedade não tem efeito em um objeto <b>NavigationFolder</b> que não esteja associado um módulo de calendário. Se o objeto <b>NavigationFolder</b> estiver associado um módulo de calendário, o valor dessa propriedade é dependente nas seguintes condições:</para>
+          <para>Se o <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> propriedade do objeto <b>NavigationFolder</b> estiver definida como <b>False</b>, então o valor dessa propriedade não terá efeito até que a propriedade <b>IsSelected</b> é definida como <b>True</b>. Se a propriedade <b>IsSelected</b> estiver definida como <b>True</b>, o valor da propriedade é aplicado quando o <b>NavigationFolder</b> é exibida.</para>
           <para>No entanto, a propriedade <b>IsSideBySide</b> é automaticamente definida como <b>True</b> se a propriedade <b>IsSelected</b> de apenas um <b>NavigationFolder</b> associado com o pai <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> objeto é definido como <b>True</b>. Em outras palavras, se o objeto <b>NavigationFolder</b> for a única pasta de navegação exibida no modo de exibição atual do explorer ativo, em seguida, a propriedade <b>IsSideBySide</b> para que um objeto <b>NavigationFolder</b> é automaticamente definida como <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -310,20 +292,18 @@
       <Docs>
         <summary>Retorna ou define um valor <b>Integer</b> que representa a posição ordinal do <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> quando exibido no painel de navegação do objeto. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade só pode ser definida como um valor entre 1 e o valor do <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> propriedade para o pai <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> objeto. Ocorrerá um erro se você tentar definir essa propriedade como um valor fora desse intervalo.</para>
-          <para>Alterando o valor dessa propriedade para um objeto <b>NavigationFolder</b> altera os valores de <b>posição</b> de outras pastas de navegação contidos em um conjunto <b>NavigationFolders</b> , dependendo da alteração relativa entre o novo valor e o valor original da propriedade <b>Position</b> para aquele objeto <b>NavigationFolder</b> : </para>
+        <remarks><para>Essa propriedade só pode ser definida como um valor entre 1 e o valor do <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Count" /> propriedade para o pai <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> objeto. Ocorrerá um erro se você tentar definir essa propriedade para um valor fora desse intervalo.</para>
+          <para>Alterando o valor dessa propriedade para um objeto <b>NavigationFolder</b> é alterado os valores de <b>posição</b> das outras pastas de navegação contidos em um conjunto <b>NavigationFolders</b>, dependendo da alteração relativa entre o novo valor e o valor original da propriedade <b>Position</b> para aquele objeto <b>NavigationFolder</b>: </para>
           <list type="bullet">
             <item>
-              <para>se o novo valor for menor que o valor original, em seguida, o objeto <b>NavigationFolder</b> especificado é movido para a nova posição acima e envia a outras pastas de navegação já abaixo ou essa nova posição para baixo.</para>
+              <para>Se o novo valor for menor que o valor original, o objeto <b>NavigationFolder</b> especificado é movido para a nova posição acima e envia as outras pastas de navegação já abaixo ou essa nova posição para baixo.</para>
             </item>
             <item>
-              <para>Se o novo valor for maior que o valor original, em seguida, o objeto <b>NavigationFolder</b> especificado move para baixo para a nova posição e envia as outras pastas de navegação entre a posição antiga e a nova posição para cima, preenchendo a posição antiga.</para>
+              <para>Se o novo valor for maior que o valor original, o objeto <b>NavigationFolder</b> especificado move para baixo para a nova posição e envia as outras pastas de navegação entre a posição antiga e a nova posição para cima, preenchendo a posição antiga.</para>
             </item>
           </list>
-          <para>Se a pasta de navegação foi removida do painel de navegação, essa propriedade retornará -1 para indicar que a pasta de navegação não está mais parte do grupo de navegação.</para>
-          <para />
-        </remarks>
+          <para>Se a pasta de navegação tiver sido removida do Painel de Navegação, essa propriedade retornará -1 para indicar que a pasta de navegação não faz mais parte do grupo de navegação.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -351,16 +331,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

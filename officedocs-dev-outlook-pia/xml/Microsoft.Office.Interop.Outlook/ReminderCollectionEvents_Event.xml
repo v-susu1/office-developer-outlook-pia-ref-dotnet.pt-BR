@@ -1,13 +1,5 @@
 <Type Name="ReminderCollectionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f7e87f4a7c31c6fea7961afdea6e402f53ccb4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630456" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c046e68f17198ddfc2900cf348031dac0601e25f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898512" /></Metadata><TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre após um lembrete ser adicionado.</summary>
-        <remarks>
-          <para>Um lembrete não é realmente criado até que tenha sido salva o item associado do Microsoft Outlook. Portanto, esse evento não ocorrerá até que o objeto de item associado tiver sido salvo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um lembrete não é criado realmente até que o item do Microsoft Outlook seja salvo. Portanto, esse evento não ocorrerá enquanto o objeto de item associado não tiver sido salvo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderChange">
@@ -128,27 +118,25 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> objeto foi removido da coleção.</summary>
-        <remarks>
-          <para>Um lembrete pode ser removido da coleção <b>Reminders</b> por qualquer um dos seguintes meios:</para>
+        <remarks><para>Um lembrete pode ser removido da coleção <b>Reminders</b> por qualquer um dos seguintes meios:</para>
           <list type="bullet">
             <item>
-              <para>um método de remoção da coleção Reminders The.</para>
+              <para>O método Remove da coleção Reminders.</para>
             </item>
             <item>
-              <para>Método de Dismiss do objeto Reminder the.</para>
+              <para>O método Dismiss do objeto Reminder.</para>
             </item>
             <item>
               <para>Quando o usuário clica no botão Dismiss.</para>
             </item>
             <item>
-              <para>Quando o usuário desativa um lembrete de reunião de dentro do item associado.</para>
+              <para>Quando um usuário desativa um lembrete de reunião de dentro do item associado.</para>
             </item>
             <item>
               <para>Quando um usuário exclui um item que contém um lembrete.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -167,10 +155,8 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um lembrete é descartado pelo uso do botão Adiar.</summary>
-        <remarks>
-          <para>Esse evento será acionado quando o <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou quando o usuário clica no botão adiar.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esse evento será acionado quando o <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> método é executado ou quando o usuário clica no botão adiar.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OutlookBarShortcut" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcut">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5a65f22e3eaa69e1ad0b770928f78d702f831c4a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630801" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c4b5b620ecfa5e6e93db716a5fcba064777cf64a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896930" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarShortcut" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarShortcut" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>Representa um atalho em um grupo do painel Atalhos.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar o objeto <b>OutlookBarShortcut</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" /> objeto. Porque o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" /> propriedade é a propriedade padrão do objeto <b>OutlookBarShortcut</b> , você pode identificar o atalho pelo nome.</para>
-      <para />
-    </remarks>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar o objeto <b>OutlookBarShortcut</b> de um <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" /> objeto. Porque o <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" /> propriedade é a propriedade padrão do objeto <b>OutlookBarShortcut</b> , você pode identificar o atalho pelo nome.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetIcon">
@@ -238,10 +226,8 @@
       <Docs>
         <summary>Retorna um <b>objeto</b> indicando o destino do atalho especificado em um grupo do painel Atalhos. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O tipo de retorno depende do tipo do atalho. Se o atalho representar uma pasta do Outlook, o tipo de retorno é a <b>pasta</b>. Se o atalho representar uma pasta do sistema de arquivos, o tipo de retorno é um <b>objeto</b>. Se o atalho representar um caminho de sistema de arquivos ou uma URL, o tipo de retorno é uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>O tipo de retorno depende do tipo do atalho. Se o atalho representar uma pasta do Outlook, o tipo de retorno é a <b>pasta</b>. Se o atalho representar uma pasta do sistema de arquivos, o tipo de retorno é um <b>objeto</b>. Se o atalho representar um caminho de sistema de arquivos ou uma URL, o tipo de retorno é uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

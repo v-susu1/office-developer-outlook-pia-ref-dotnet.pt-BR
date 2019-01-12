@@ -1,13 +1,5 @@
 <Type Name="_Row" FullName="Microsoft.Office.Interop.Outlook._Row">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630984" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Row" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899996" /></Metadata><TypeSignature Language="C#" Value="public interface _Row" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Row" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Row" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Row" />
@@ -84,10 +76,8 @@
         <param name="Index">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> da <b>coluna</b>.</param>
         <summary>Obtém um <b>String</b> (<b>cadeia de caracteres</b> em c#) representando um valor que foi convertido de um valor binário para o pai <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> na coluna especificada por <paramref name="Index" />.</summary>
         <returns>Um valor hexadecimal de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que foi convertido de um valor PT_BINARY do objeto <b>Row</b> pai na coluna especificada por <paramref name="Index" />. Retorna o erro "não é possível converter a coluna especificada pelo índice a cadeia de caracteres" se o valor especificado pela <paramref name="Index" /> não é PT_BINARY.</returns>
-        <remarks>
-          <para>Use as funções do auxiliar <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar a conversão de tipo de valores de coluna em uma linha específica. Para obter mais informações sobre representação de valor de propriedade em um <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e modo de exibição de Classes</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Use as funções do auxiliar <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar a conversão de tipo de valores de coluna em uma linha específica. Para obter mais informações sobre representação de valor de propriedade em um <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e modo de exibição de Classes</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -141,13 +131,11 @@
       <Docs>
         <summary>Obtém uma matriz unidimensional contendo os valores de todas as colunas no <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> no pai <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
         <returns>Um <b>objeto</b> que representa uma matriz de valores de todas as colunas nesse objeto <b>Row</b> na <b>tabela</b>.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetValues</b> é um método auxiliar que facilita a busca de todos os valores de coluna na <b>linha</b> em uma única chamada.</para>
           <para>Como a matriz é baseada em zero, o tamanho da matriz é o número de colunas em <b>Row</b> menos um.</para>
-          <para>Valores retornados na matriz são do mesmo tipo os valores do <b>Table</b>pai. Isso significa que as propriedades binárias na <b>tabela</b> são retornadas como matrizes de bytes. Para propriedades de data / hora, se um <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> é uma coluna padrão ou se ela tiver sido adicionada usando um nome de propriedade interna explícita, em seguida, seu valor na <b>tabela</b> e na matriz são expressas em hora local. Se a <b>coluna</b> foi adicionada à <b>tabela</b> usando uma referência de namespace, seu valor na tabela e na matriz são expressas em tempo Universal Coordenado (UTC). Para obter mais informações sobre referenciando propriedades por namespace, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referenciando propriedades por Namespace</a></para>
-          <para />
-        </remarks>
+          <para>Valores retornados na matriz são do mesmo tipo os valores do <b>Table</b> pai. Isso significa que as propriedades binárias na <b>tabela</b> são retornadas como matrizes de bytes. Para propriedades de data / hora, se um <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> é uma coluna padrão ou se ela tiver sido adicionada usando um nome de propriedade interna explícita, em seguida, seu valor na <b>tabela</b> e na matriz são expressas em hora local. Se a <b>coluna</b> foi adicionada à <b>tabela</b> usando uma referência de namespace, seu valor na tabela e na matriz são expressas em tempo Universal Coordenado (UTC). Para obter mais informações sobre referenciando propriedades por namespace, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referenciando propriedades por Namespace</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -179,10 +167,8 @@
         <param name="Index">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> do <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
         <summary>Obtém um <b>objeto</b> que representa o valor para o <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> objeto na coluna especificada por <paramref name="Index" />.</summary>
         <value>Um <b>objeto</b> que representa o valor de uma propriedade (conforme especificações de HttpCachePolicy <paramref name="Index" />) de um item (conforme especificado pelo objeto <b>Row</b>pai).</value>
-        <remarks>
-          <para>Caso tenha sido adicionado a uma <b>coluna</b> a um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> usando um nome de propriedade referência a um namespace, você deve fazer referência à <b>coluna</b> na propriedade <b>Row.Item</b> (<b>Este</b> em c#) pela referência mesmo namespace. Se você usar uma referência de nome interno explícito em <b>Row.Item</b>, você receberá um erro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Caso tenha sido adicionado a uma <b>coluna</b> a um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> usando um nome de propriedade referência a um namespace, você deve fazer referência à <b>coluna</b> na propriedade <b>Row.Item</b> (<b>Este</b> em c#) pela referência mesmo namespace. Se você usar uma referência de nome interno explícito em <b>Row.Item</b>, você receberá um erro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -211,11 +197,9 @@
         <param name="Index">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> do <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
         <summary>Obtém um valor de <b>data/hora</b> em uma <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> especificações de HttpCachePolicy o <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> do objeto em <paramref name="Index" />, que foi convertido de hora local para o tempo Universal Coordenado (UTC).</summary>
         <returns>Um valor de Date que foi convertido de uma representação em hora local em UTC. Um erro será retornado se <paramref name="Index" /> é inválido ou o valor da linha indicado por <paramref name="Index" /> não é um valor de data.</returns>
-        <remarks>
-          <para>Use as funções do auxiliar <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, e <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar a conversão de tipo de valores de coluna em uma linha específica.</para>
-          <para>Para obter informações sobre representação de valor de propriedade em uma <b>tabela</b>, consulte filtros de<b>tabela</b> de <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e Classes de modo de exibição</a>, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtrando itens usando uma comparação de data / hora</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Use as funções do auxiliar <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, e <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar a conversão de tipo de valores de coluna em uma linha específica.</para>
+          <para>Para obter informações sobre representação de valor de propriedade em uma <b>tabela</b>, consulte filtros de <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e Classes de modo de exibição</a>de<b>tabela</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtrando itens usando uma comparação de data / hora</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -271,16 +255,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -309,11 +291,9 @@
         <param name="Index">Um valor de índice baseado em 1 que pode ser um valor <b>inteiro</b> (<b>int</b> em c#) representando o índice de coluna para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto ou um <b>String</b> (<b>cadeia de caracteres</b> em c#) que representa o <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> do <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
         <summary>Obtém um valor de data/hora em uma <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> especificações de HttpCachePolicy o <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> do objeto em <paramref name="Index" />, que foi convertido de tempo Universal Coordenado (UTC) em hora local.</summary>
         <returns>Um valor de data que foi convertido de uma representação em UTC em hora local. Um erro será retornado se <paramref name="Index" /> é inválido ou o valor da linha indicado por <paramref name="Index" /> não é um valor de data.</returns>
-        <remarks>
-          <para>Use as funções do auxiliar <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />e <b>Row.UTCToLocalTime</b> para facilitar a conversão de tipo de valores de coluna em uma linha específica. </para>
+        <remarks><para>Use as funções do auxiliar <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />e <b>Row.UTCToLocalTime</b> para facilitar a conversão de tipo de valores de coluna em uma linha específica. </para>
           <para>Para obter informações sobre representação de valor de propriedade em uma <b>tabela</b>, consulte filtros de <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Fatores que afetam o propriedade valor representação na tabela e Classes de modo de exibição</a>de<b>tabela</b> , consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtrando itens usando uma comparação de data / hora</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
