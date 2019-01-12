@@ -1,13 +1,5 @@
 <Type Name="_AutoFormatRules" FullName="Microsoft.Office.Interop.Outlook._AutoFormatRules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630174" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1be8110224ae16d515b615e6243bdf220718e789" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902324" /></Metadata><TypeSignature Language="C#" Value="public interface _AutoFormatRules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AutoFormatRules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AutoFormatRules&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="f69b2-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f69b2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="f69b2-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f69b2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="f69b2-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f69b2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="f69b2-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="f69b2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="73e05-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="73e05-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="73e05-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="73e05-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="73e05-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="73e05-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="73e05-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span><span class="sxs-lookup"><span data-stu-id="73e05-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,36 +49,11 @@
         <Parameter Name="Name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="f69b2-105">O nome da nova regra de formatação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-105">The name of the new formatting rule.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f69b2-106">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o acrescenta ao <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-106">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f69b2-107">Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-107">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="f69b2-108">
-            <para>Nomes duplicados para objetos <b>AutoFormatRule</b> são permitidos na coleção <b>AutoFormatRules</b> . Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Regras internas de formatação não são contadas contra desse limite.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-108">
-              <para>Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="73e05-105">O nome da nova regra de formatação.</span><span class="sxs-lookup"><span data-stu-id="73e05-105">The name of the new formatting rule.</span></span></param>
+        <summary><span data-ttu-id="73e05-106">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o acrescenta ao <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="73e05-106">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and appends it to the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="73e05-107">Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</span><span class="sxs-lookup"><span data-stu-id="73e05-107">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span></span></returns>
+        <remarks><para><span data-ttu-id="73e05-p102">Nomes duplicados para objetos <b>AutoFormatRule</b> são permitidos na coleção <b>AutoFormatRules</b>. Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Regras internas de formatação não são contadas contra desse limite.</span><span class="sxs-lookup"><span data-stu-id="73e05-p102">Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -129,16 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="f69b2-110">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="73e05-111">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="73e05-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="73e05-112">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="73e05-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,16 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-111">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="f69b2-112">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="73e05-113">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="73e05-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="73e05-114">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="73e05-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,16 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-113">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos na coleção especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-113">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="f69b2-114">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="73e05-115">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="73e05-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects in the specified collection.</span></span> <span data-ttu-id="73e05-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="73e05-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,42 +164,13 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="f69b2-115">O nome do novo objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-115">The name of the new object.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="f69b2-116">O número de índice no qual inserir o novo objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção em onde o novo objeto deve ser inserido.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-116">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection at where the new object is to be inserted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f69b2-117">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o insere no índice especificado dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-117">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="f69b2-118">Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-118">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="f69b2-119">
-            <para>Esse método não pode ser usado para inserir regras de formatação personalizadas entre ou além das regras internas de formatação.</para> São permitidos nomes de 
-          <para>duplicata para objetos <b>AutoFormatRule</b> da coleção <b>AutoFormatRules</b> . Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Formatação internas regras não são contadas contra desse limite.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-119">
-              <para>This method cannot be used to insert custom formatting rules between or ahead of built-in formatting rules.</para>
-              <para>Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="73e05-117">O nome do novo objeto.</span><span class="sxs-lookup"><span data-stu-id="73e05-117">The name of the new object.</span></span></param>
+        <param name="Index"><span data-ttu-id="73e05-118">O número de índice no qual inserir o novo objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção em onde o novo objeto deve ser inserido.</span><span class="sxs-lookup"><span data-stu-id="73e05-118">Either the index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection at where the new object is to be inserted.</span></span></param>
+        <summary><span data-ttu-id="73e05-119">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto e o insere no índice especificado dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="73e05-119">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="73e05-120">Um objeto <b>AutoFormatRule</b> que representa a nova regra de formatação.</span><span class="sxs-lookup"><span data-stu-id="73e05-120">An <b>AutoFormatRule</b> object that represents the new formatting rule.</span></span></returns>
+        <remarks><para><span data-ttu-id="73e05-121">Esse método não pode ser utilizado para inserir regras de formatação personalizadas entre ou além das regras internas de formatação.</span><span class="sxs-lookup"><span data-stu-id="73e05-121">This method cannot be used to insert custom formatting rules between or ahead of built-in formatting rules.</span></span></para>
+          <para><span data-ttu-id="73e05-p106">Nomes duplicados para objetos <b>AutoFormatRule</b> são permitidos na coleção <b>AutoFormatRules</b>. Um máximo de 25 regras de formatação personalizadas pode ser adicionado à coleção. Regras internas de formatação não são contadas contra desse limite.</span><span class="sxs-lookup"><span data-stu-id="73e05-p106">Duplicate names for <b>AutoFormatRule</b> objects are allowed in the <b>AutoFormatRules</b> collection. A maximum of 25 custom formatting rules can be added to the collection. Built-in formatting rules are not counted against that limit.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -305,24 +199,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="f69b2-120">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-120">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f69b2-121">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto da coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-121">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="f69b2-122">Um objeto <b>AutoFormatRule</b> que representa o objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-122">An <b>AutoFormatRule</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="73e05-125">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</span><span class="sxs-lookup"><span data-stu-id="73e05-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="73e05-126">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto da coleção.</span><span class="sxs-lookup"><span data-stu-id="73e05-126">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="73e05-127">Um objeto <b>AutoFormatRule</b> que representa o objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="73e05-127">An <b>AutoFormatRule</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,12 +228,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-p105">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="73e05-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="73e05-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -382,32 +256,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="f69b2-125">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="f69b2-126">Remove um objeto do conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-126">Removes an object from the collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="f69b2-127">
-            <para>Se o nome de uma regra de formatação a ser removido é especificado no <paramref name="Index" />, esse método removerá o primeiro <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto que corresponde ao nome especificado.</para>
-            <para>Internas de formatação não pode ser removida da coleção de regras.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-127">
-              <para>If the name of a formatting rule to be removed is specified in <paramref name="Index" />, this method removes the first <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object that matches the specified name.</para>
-              <para>Built-in formatting rules cannot be removed from the collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="73e05-130">O número de índice do objeto ou um valor usado para corresponder os <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> valor de propriedade de um objeto na coleção.</span><span class="sxs-lookup"><span data-stu-id="73e05-130">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="73e05-131">Remove um objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="73e05-131">Removes an object from the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="73e05-132">Se o nome de uma regra de formatação a ser removido é especificado no <paramref name="Index" />, esse método removerá o primeiro <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto que corresponde ao nome especificado.</span><span class="sxs-lookup"><span data-stu-id="73e05-132">If the name of a formatting rule to be removed is specified in <paramref name="Index" />, this method removes the first <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object that matches the specified name.</span></span></para>
+          <para><span data-ttu-id="73e05-133">As regras internas de formatação não podem ser removidas da coleção.</span><span class="sxs-lookup"><span data-stu-id="73e05-133">Built-in formatting rules cannot be removed from the collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -431,24 +284,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-128">Remove todas as regras de formatação personalizadas do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-128">Removes all custom formatting rules from the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="f69b2-129">
-            <para>Esse método removerá cada <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> o valor da propriedade é definida como <b>False</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-129">
-              <para>This method removes every <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> property value set to <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73e05-134">Remove todas as regras de formatação personalizadas do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="73e05-134">Removes all custom formatting rules from the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="73e05-135">Esse método removerá cada <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> do objeto com um <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> o valor da propriedade é definida como <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="73e05-135">This method removes every <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> object with a <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> property value set to <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -472,24 +310,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-130">Salva todas as alterações para <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-130">Save all changes to <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="f69b2-131">
-            <para>Qualquer alteração feita à coleção <b>AutoFormatRules</b> , como a adição ou remoção de objetos <b>AutoFormatRule</b> , ou em um objeto <b>AutoFormatRule</b> dentro da coleção é persistentes somente se esse método for chamado.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-131">
-              <para>Any changes made to the <b>AutoFormatRules</b> collection, such as adding or removing <b>AutoFormatRule</b> objects, or to an <b>AutoFormatRule</b> object within the collection, are persisted only if this method is called.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="73e05-136">Salva todas as alterações para <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos dentro do <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="73e05-136">Save all changes to <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects within the <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="73e05-137">Qualquer alteração feita à coleção <b>AutoFormatRules</b>, como a adição ou remoção de objetos <b>AutoFormatRule</b>, ou em um objeto <b>AutoFormatRule</b> dentro da coleção é persistentes somente se esse método for chamado.</span><span class="sxs-lookup"><span data-stu-id="73e05-137">Any changes made to the <b>AutoFormatRules</b> collection, such as adding or removing <b>AutoFormatRule</b> objects, or to an <b>AutoFormatRule</b> object within the collection, are persisted only if this method is called.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -515,41 +338,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="f69b2-132">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="f69b2-133">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="73e05-138">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="73e05-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="73e05-139">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="73e05-139">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="f69b2-134">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="73e05-140">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="73e05-140">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="73e05-141">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="73e05-141">Both members serve the same purpose.</span></span> <span data-ttu-id="73e05-142">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="73e05-142">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="f69b2-134">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

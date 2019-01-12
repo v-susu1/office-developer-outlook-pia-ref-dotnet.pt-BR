@@ -1,13 +1,5 @@
 <Type Name="Action" FullName="Microsoft.Office.Interop.Outlook.Action">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="17596c00726166fb08d75936fec79e91f1a60b4f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631179" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Action" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6062d8975646fc20d49a63e5b13512f4b7f4c11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897364" /></Metadata><TypeSignature Language="C#" Value="public interface Action" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Action" />
   <TypeSignature Language="VB.NET" Value="Public Interface Action" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="7e1a4-101">Representa uma ação especializada (por exemplo, a resposta às opções de votação) que pode ser executada em um item do Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e1a4-101">Represents a specialized action (for example, the voting options response) that can be executed on an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7e1a4-102">
-        <para>O objeto <b>Action</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> conjunto.</para>
-        <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), onde <paramref name="index" /> é o nome de uma ação disponível, para retornar um único objeto <b>Action</b> do objeto de coleção de <b>ações</b> de um item do Outlook, tais como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7e1a4-102">
-          <para>The <b>Action</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection.</para>
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), where <paramref name="index" /> is the name of an available action, to return a single <b>Action</b> object from the <b>Actions</b> collection object of an Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e14fc-101">Representa uma ação especializada (por exemplo, a resposta às opções de votação) que pode ser executada em um item do Outlook.</span><span class="sxs-lookup"><span data-stu-id="e14fc-101">Represents a specialized action (for example, the voting options response) that can be executed on an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="e14fc-102">O objeto <b>Action</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="e14fc-102">The <b>Action</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  collection.</span></span></para>
+      <para><span data-ttu-id="e14fc-103">Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), onde <paramref name="index" /> é o nome de uma ação disponível, para retornar um único objeto <b>Action</b> do objeto de coleção de <b>ações</b> de um item do Outlook, tais como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span><span class="sxs-lookup"><span data-stu-id="e14fc-103">Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), where <paramref name="index" /> is the name of an available action, to return a single <b>Action</b> object from the <b>Actions</b> collection object of an Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,16 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-103">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="7e1a4-104">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-104">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="e14fc-104">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e14fc-105">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e14fc-105">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,16 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="7e1a4-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-106">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="e14fc-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e14fc-107">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e14fc-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,29 +106,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionCopyLike</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-107">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> constante indicando o estilo de herança de propriedade a ser usado para a ação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-107">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> constant indicating the property inheritance style to use for the action.</span>
-          </span>
-          <span data-ttu-id="7e1a4-108">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-108">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-108">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> constante indicando o estilo de herança de propriedade a ser usado para a ação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-108">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> constant indicating the property inheritance style to use for the action.</span></span>  <span data-ttu-id="e14fc-109">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-109">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7e1a4-109">
-            <para>O estilo de herança é usado quando a ação é executada para controlar como as propriedades são copiadas para o novo item criado pela ação.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-109">
-              <para>The inheritance style is used when the action is executed to control how properties are copied to the new item created by the action.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e14fc-110">O estilo de herança é usado quando a ação é executada para controlar o modo como as propriedades são copiadas no novo item criado pela ação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-110">The inheritance style is used when the action is executed to control how properties are copied to the new item created by the action.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -194,12 +133,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-110">Exclui um objeto do conjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-110">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-111">Exclui um objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="e14fc-111">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -229,16 +163,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-111">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que será <b>True</b> se a ação é habilitada no aplicativo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-111">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> if the action is enabled in the application.</span>
-          </span>
-          <span data-ttu-id="7e1a4-112">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-112">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que será <b>True</b> se a ação é habilitada no aplicativo.</span><span class="sxs-lookup"><span data-stu-id="e14fc-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> if the action is enabled in the application.</span></span> <span data-ttu-id="e14fc-113">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-113">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,18 +189,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-113">Executa a ação referente ao item especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-113">Executes the action for the specified item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="7e1a4-114">Um valor <b>objeto</b> que representa o item do Outlook criado pela ação em execução.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-114">An <b>Object</b> value that represents the Outlook item created by the action upon execution.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="e14fc-114">Executa a ação referente ao item especificado.</span><span class="sxs-lookup"><span data-stu-id="e14fc-114">Executes the action for the specified item.</span></span></summary>
+        <returns><span data-ttu-id="e14fc-115">Um valor <b>objeto</b> que representa o item do Outlook criado pela ação em execução.</span><span class="sxs-lookup"><span data-stu-id="e14fc-115">An <b>Object</b> value that represents the Outlook item created by the action upon execution.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,29 +220,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-115">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem para o <see cref="T:Microsoft.Office.Interop.Outlook.Action" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-115">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the <see cref="T:Microsoft.Office.Interop.Outlook.Action" />.</span>
-          </span>
-          <span data-ttu-id="7e1a4-116">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-116">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a classe de mensagem para o <see cref="T:Microsoft.Office.Interop.Outlook.Action" />.</span><span class="sxs-lookup"><span data-stu-id="e14fc-116">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the <see cref="T:Microsoft.Office.Interop.Outlook.Action" />.</span></span> <span data-ttu-id="e14fc-117">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-117">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7e1a4-117">
-            <para>Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b>MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-117">
-              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e14fc-p106">Essa propriedade corresponde à propriedade <b>PidTagMessageClass</b> MAPI. A propriedade <b>MessageClass</b> vincula o item para o formulário no qual ele se baseia. Quando um item é selecionado, o Outlook usa a classe de mensagem para localizar o formulário e expor suas propriedades, como comandos de resposta.</span><span class="sxs-lookup"><span data-stu-id="e14fc-p106">This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -356,16 +252,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-118">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o <b>objeto</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-118">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the <b>Object</b>.</span>
-          </span>
-          <span data-ttu-id="7e1a4-119">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-119">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-121">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o <b>objeto</b>.</span><span class="sxs-lookup"><span data-stu-id="e14fc-121">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the <b>Object</b>.</span></span> <span data-ttu-id="e14fc-122">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-122">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,12 +280,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-p108">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e14fc-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -429,29 +311,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-122">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) especificando o prefixo (por exemplo, "Re") a ser usada com o assunto do item quando a ação é executada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-122">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the prefix (for example, "Re") to use with the subject of the item when the action is executed.</span>
-          </span>
-          <span data-ttu-id="7e1a4-123">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-125">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) especificando o prefixo (por exemplo, "Re") a ser usada com o assunto do item quando a ação é executada.</span><span class="sxs-lookup"><span data-stu-id="e14fc-125">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the prefix (for example, "Re") to use with the subject of the item when the action is executed.</span></span> <span data-ttu-id="e14fc-126">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-126">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7e1a4-124">
-            <para>O Outlook adiciona automaticamente dois-pontos (:) com o valor da propriedade <b>Prefix</b> ao definir o assunto do item.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-124">
-              <para>Outlook automatically adds a colon (:) to the value of the <b>Prefix</b> property when setting the subject of the item.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e14fc-127">O Outlook adiciona automaticamente dois-pontos (:) com o valor da propriedade <b>Prefix</b> ao definir o assunto do item.</span><span class="sxs-lookup"><span data-stu-id="e14fc-127">Outlook automatically adds a colon (:) to the value of the <b>Prefix</b> property when setting the subject of the item.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyStyle">
@@ -480,16 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionReplyStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-125">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> constante indicando o estilo da resposta para a ação especificada de formatação de texto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-125">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> constant indicating the text formatting reply style for the specified action.</span>
-          </span>
-          <span data-ttu-id="7e1a4-126">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-126">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-128">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> constante indicando o estilo da resposta para a ação especificada de formatação de texto.</span><span class="sxs-lookup"><span data-stu-id="e14fc-128">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionReplyStyle" /> constant indicating the text formatting reply style for the specified action.</span></span> <span data-ttu-id="e14fc-129">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-129">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -520,16 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionResponseStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-127">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> constante indicando o estilo de resposta usado quando a ação especificada é executada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> constant indicating the response style used when the specified action is executed.</span>
-          </span>
-          <span data-ttu-id="7e1a4-128">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-130">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> constante indicando o estilo de resposta usado quando a ação especificada é executada.</span><span class="sxs-lookup"><span data-stu-id="e14fc-130">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionResponseStyle" /> constant indicating the response style used when the specified action is executed.</span></span> <span data-ttu-id="e14fc-131">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-131">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -557,41 +402,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-129">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="7e1a4-130">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-132">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e14fc-132">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e14fc-133">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="e14fc-133">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="7e1a4-131">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e14fc-134">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="e14fc-134">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e14fc-135">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="e14fc-135">Both members serve the same purpose.</span></span> <span data-ttu-id="e14fc-136">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="e14fc-136">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-131">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOn">
@@ -620,16 +440,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlActionShowOn</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7e1a4-132">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" /> constante que representa o local onde a ação será mostrada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-132">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" /> constant representing the location where the action will be shown.</span>
-          </span>
-          <span data-ttu-id="7e1a4-133">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7e1a4-133">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e14fc-137">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" /> constante que representa o local onde a ação será mostrada.</span><span class="sxs-lookup"><span data-stu-id="e14fc-137">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlActionShowOn" /> constant representing the location where the action will be shown.</span></span> <span data-ttu-id="e14fc-138">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="e14fc-138">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

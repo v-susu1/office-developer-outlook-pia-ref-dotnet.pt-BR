@@ -1,13 +1,5 @@
 <Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630251" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47943f3ce7b614b555767c32ad8d514efe3bf2b1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899982" /></Metadata><TypeSignature Language="C#" Value="public interface Exception" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
@@ -26,32 +18,14 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ad034-101">Representa informações sobre uma instância de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é uma exceção a uma série recorrente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad034-101">Represents information about one instance of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object which is an exception to a recurring series.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ad034-102">
-        <para>Ao contrário da maioria dos outros objetos do Microsoft Outlook, o objeto de <b>exceção</b> é um objeto somente leitura. Isso significa que não é possível criar um objeto <b>Exception</b> mas, em vez disso, o objeto é criado quando uma propriedade de um <b>AppointmentItem</b> é alterada. Por exemplo, se você alterar o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> propriedade de um <b>AppointmentItem</b>, você criou uma <b>exceção</b> em <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
-        <para>
-          <b>Observação</b>: O <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto está no <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , não o próprio objeto <b>AppointmentItem</b> .</para>
-        <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
-        <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ad034-102">
-          <para> Unlike most of the other Microsoft Outlook objects, the <b>Exception</b> object is a read-only object. This means that you cannot create an <b>Exception</b> object but, rather, the object is created when a property of an <b>AppointmentItem</b> is altered. For example, if you change the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />  property of one <b>AppointmentItem</b>, you have created an <b>Exception</b> in <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
-          <para>
-            <b>Note</b>: The <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />  object is on the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , not the <b>AppointmentItem</b> object itself.</para>
-          <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
-          <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="aa163-101">Representa informações sobre uma instância de um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é uma exceção a uma série recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa163-101">Represents information about one instance of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object which is an exception to a recurring series.</span></span></summary>
+    <remarks><para> <span data-ttu-id="aa163-102">Ao contrário da maioria dos outros objetos do Microsoft Outlook, o objeto de <b>exceção</b> é um objeto somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-102">Unlike most of the other Microsoft Outlook objects, the <b>Exception</b> object is a read-only object.</span></span> <span data-ttu-id="aa163-103">Isso significa que não é possível criar um objeto <b>Exception</b> mas, em vez disso, o objeto é criado quando uma propriedade de um <b>AppointmentItem</b> é alterada.</span><span class="sxs-lookup"><span data-stu-id="aa163-103">This means that you cannot create an <b>Exception</b> object but, rather, the object is created when a property of an <b>AppointmentItem</b> is altered.</span></span> <span data-ttu-id="aa163-104">Por exemplo, se você alterar o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> propriedade de um <b>AppointmentItem</b>, você criou uma <b>exceção</b> em <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</span><span class="sxs-lookup"><span data-stu-id="aa163-104">For example, if you change the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" />  property of one <b>AppointmentItem</b>, you have created an <b>Exception</b> in <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</span></span></para>
+      <para><span data-ttu-id="aa163-105">
+        <b>Observação</b>: O <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto está no <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , não no objeto <b>AppointmentItem</b> em si.</span><span class="sxs-lookup"><span data-stu-id="aa163-105">
+        <b>Note</b>: The <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" />  object is on the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , not the <b>AppointmentItem</b> object itself.</span></span></para>
+      <para><span data-ttu-id="aa163-106">Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações.</span><span class="sxs-lookup"><span data-stu-id="aa163-106">When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes.</span></span> <span data-ttu-id="aa163-107">Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-107">This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="aa163-108">Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>.</span><span class="sxs-lookup"><span data-stu-id="aa163-108">To release a reference in Visual Basic, set that existing object to <b>Nothing</b>.</span></span> <span data-ttu-id="aa163-109">Em c#, release explicitamente a memória para o objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-109">In C#, explicitly release the memory for that object.</span></span> </para>
+      <para><span data-ttu-id="aa163-p103">Observe que, mesmo depois que você liberar a sua referência e tenta obter uma referência de nova, se ainda houver uma referência ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências tão logo terminar com um compromisso recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa163-p103">Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -77,16 +51,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-103">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="ad034-104">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-112">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="aa163-113">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,35 +79,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AppointmentItem</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-105">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é a exceção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object that is the exception.</span>
-          </span>
-          <span data-ttu-id="ad034-106">Não é válida para compromissos excluídos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-106">Not valid for deleted appointments.</span>
-          </span>
-          <span data-ttu-id="ad034-107">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-114">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que é a exceção.</span><span class="sxs-lookup"><span data-stu-id="aa163-114">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  object that is the exception.</span></span> <span data-ttu-id="aa163-115">Não é válida para compromissos excluídos.</span><span class="sxs-lookup"><span data-stu-id="aa163-115">Not valid for deleted appointments.</span></span> <span data-ttu-id="aa163-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad034-108">
-            <para>Quando você trabalhar com itens de compromisso recorrente, você deve liberar qualquer prévia referências, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que você tiver terminado e salvou o alterações. Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>. Em c#, release explicitamente a memória para aquele objeto. </para>
-            <para>Observe que, mesmo depois que você liberar seu referência e tenta obter uma referência de nova, se ainda houver uma referência de ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto . Portanto, é importante que você libera seus referências assim que terminar com um compromisso recorrente.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-108">
-              <para>When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes. This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object. To release a reference in Visual Basic, set that existing object to <b>Nothing</b>. In C#, explicitly release the memory for that object. </para>
-              <para>Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="aa163-117">Ao trabalhar com itens de compromisso recorrente, você deve liberar referências anteriores, obter novas referências para o item de compromisso recorrente antes de acessar ou modificar o item e liberar essas referências assim que tiver terminado e salvado as alterações.</span><span class="sxs-lookup"><span data-stu-id="aa163-117">When you work with recurring appointment items, you should release any prior references, obtain new references to the recurring appointment item before you access or modify the item, and release these references as soon as you are finished and have saved the changes.</span></span> <span data-ttu-id="aa163-118">Essa prática aplica-se ao recorrente <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto e qualquer <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> ou <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-118">This practice applies to the recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, and any <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> or <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> object.</span></span> <span data-ttu-id="aa163-119">Para liberar uma referência no Visual Basic, defina esse objeto existente como <b>Nothing</b>.</span><span class="sxs-lookup"><span data-stu-id="aa163-119">To release a reference in Visual Basic, set that existing object to <b>Nothing</b>.</span></span> <span data-ttu-id="aa163-120">Em c#, release explicitamente a memória para o objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-120">In C#, explicitly release the memory for that object.</span></span> </para>
+          <para><span data-ttu-id="aa163-p107">Observe que, mesmo depois que você liberar a sua referência e tenta obter uma referência de nova, se ainda houver uma referência ativa, conduzida por outro suplemento ou no Outlook, como um dos objetos acima, sua nova referência continuarão a apontar para uma cópia desatualizada do objeto. Portanto, é importante que você libera seus referências tão logo terminar com um compromisso recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa163-p107">Note that even after you release your reference and attempt to obtain a new reference, if there is still an active reference, held by another add-in or Outlook, to one of the above objects, your new reference will still point to an out-of-date copy of the object. Therefore, it is important that you release your references as soon as you are finished with the recurring appointment.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -168,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="ad034-110">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-123">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="aa163-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="aa163-124">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-124">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,16 +137,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-111">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que será <b>True</b> se o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> foi excluído do padrão recorrente.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-111">Returns <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  was deleted from the recurring pattern.</span>
-          </span>
-          <span data-ttu-id="ad034-112">Somente leitura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-112">Read-only</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-125">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que será <b>True</b> se o <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> foi excluído do padrão recorrente.</span><span class="sxs-lookup"><span data-stu-id="aa163-125">Returns <b>Boolean</b> (<b>bool</b> in C#) that is <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  was deleted from the recurring pattern.</span></span> <span data-ttu-id="aa163-126">Somente leitura</span><span class="sxs-lookup"><span data-stu-id="aa163-126">Read-only</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -245,12 +168,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-113">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-113">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-127">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="aa163-127">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -278,24 +196,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-114">Retorna a <b>Data e hora</b> que indica a data e a hora da original um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> antes de ser alterado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-114">Returns a <b>DateTime</b> indicating the original date and time of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  before it was altered.</span>
-          </span>
-          <span data-ttu-id="ad034-115">Essa propriedade retornará a data original mesmo se o <b>AppointmentItem</b> tiver sido excluído.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-115">This property will return the original date even if the <b>AppointmentItem</b> has been deleted.</span>
-          </span>
-          <span data-ttu-id="ad034-116">No entanto, ele não retornará a hora original se tiver ocorrido exclusão.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-116">However, it will not return the original time if deletion has occurred.</span>
-          </span>
-          <span data-ttu-id="ad034-117">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-128">Retorna a <b>Data e hora</b> que indica a data e a hora da original um <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> antes de ser alterado.</span><span class="sxs-lookup"><span data-stu-id="aa163-128">Returns a <b>DateTime</b> indicating the original date and time of an <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  before it was altered.</span></span> <span data-ttu-id="aa163-129">Essa propriedade retornará a data original mesmo se o <b>AppointmentItem</b> tiver sido excluído.</span><span class="sxs-lookup"><span data-stu-id="aa163-129">This property will return the original date even if the <b>AppointmentItem</b> has been deleted.</span></span> <span data-ttu-id="aa163-130">No entanto, ele não retornará a hora original se tiver ocorrido exclusão.</span><span class="sxs-lookup"><span data-stu-id="aa163-130">However, it will not return the original time if deletion has occurred.</span></span> <span data-ttu-id="aa163-131">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-131">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -323,12 +224,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-p106">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-p111">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-p111">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,41 +252,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ad034-120">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-120">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="ad034-121">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-121">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="aa163-134">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="aa163-134">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="aa163-135">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="aa163-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ad034-122">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="aa163-136">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="aa163-136">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="aa163-137">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="aa163-137">Both members serve the same purpose.</span></span> <span data-ttu-id="aa163-138">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="aa163-138">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ad034-122">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

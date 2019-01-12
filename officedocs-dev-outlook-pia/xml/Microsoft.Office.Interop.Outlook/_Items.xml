@@ -1,0 +1,915 @@
+<Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898379" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Items : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063041-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary><span data-ttu-id="dfcd2-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="dfcd2-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="dfcd2-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="dfcd2-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</span></span></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public object Add (object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Add([in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Type As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type"><span data-ttu-id="dfcd2-105">O tipo de item do Outlook referente ao novo item.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-105">The Outlook item type for the new item.</span></span> <span data-ttu-id="dfcd2-106">Especifica um <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> para criar formulários personalizados.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-106">Specifies a <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> to create custom forms.</span></span> <span data-ttu-id="dfcd2-107">Pode ser uma das seguintes constantes <b>OlItemType</b>: <b>olAppointmentItem</b>, <b>olContactItem</b>, <b>olJournalItem</b>, <b>olMailItem</b>, <b>olNoteItem</b>, <b>olPostItem</b>, ou <b>olTaskItem</b> ou qualquer classe de mensagem válida.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-107">Can be one of the following <b>OlItemType</b> constants: <b>olAppointmentItem</b>, <b>olContactItem</b>, <b>olJournalItem</b>, <b>olMailItem</b>, <b>olNoteItem</b>, <b>olPostItem</b>, or <b>olTaskItem,</b>, or any valid message class.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-108">Cria um novo item do Outlook no <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto para a pasta.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-108">Creates a new Outlook item in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection for the folder.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-109">Um valor Objeto que representa o novo item do Outlook.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-109">An Object value that represents the new Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-110">Se não especificado, a propriedade <b>Type</b> do item do Outlook padrão para o tipo da pasta ou to <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> se a pasta pai não for digitada.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-110">If not specified, the <b>Type</b> property of the Outlook item defaults to the type of the folder or to <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> if the parent folder is not typed.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-111">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="dfcd2-112">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-112">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-113">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="dfcd2-114">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-114">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-115">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="dfcd2-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-116">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public object Find (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Find([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Filter As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Find(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="dfcd2-117">Uma sequência de caracteres que especifica os critérios aos quais o objeto retornado deve satisfazer.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-117">A string that specifies the criteria that the returned object must satisfy.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-118">Localiza e retorna um objeto de item do Outlook que atenda a determinado <paramref name="Filter" />.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-118">Locates and returns an Outlook item object that satisfies the given <paramref name="Filter" />.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-119">Um valor objeto que representa um item do Outlook se a chamada tiver êxito; retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se ele falhar.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-119">An Object value that represents an Outlook item if the call succeeds; returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)  if it fails.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-120">Usar a pesquisa de indexação de conteúdo no <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto, use o <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> método.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-120">To use content indexing search in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection, use the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> method.</span></span> <span data-ttu-id="dfcd2-121"><b>FindRow</b> retornará um erro se <paramref name="Filter" /> contém palavras-chave indexação conteúdas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-121"><b>FindRow</b> will return an error if <paramref name="Filter" /> contains content indexing keywords.</span></span> <span data-ttu-id="dfcd2-122">Para obter mais informações sobre palavras-chave de indexação de conteúdo, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtrando itens usando consulta palavras-chave</a></span><span class="sxs-lookup"><span data-stu-id="dfcd2-122">For more information on content indexing keywords, see <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtering Items Using Query Keywords</a></span></span></para>
+          <para><span data-ttu-id="dfcd2-123">O método retornará um erro com as seguintes propriedades no <paramref name="Filter" />:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-123">The method will return an error with the following properties in the <paramref name="Filter" />:</span></span> </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="dfcd2-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="dfcd2-124">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="dfcd2-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="dfcd2-125">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="dfcd2-126">Criando filtros para os métodos Find e Restrict</span><span class="sxs-lookup"><span data-stu-id="dfcd2-126">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="dfcd2-p107">A sintaxe do filtro varia dependendo do tipo de campo sendo filtrado.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p107">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="dfcd2-128">Cadeia de Caracteres (para campos Texto)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-128">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="dfcd2-129">Ao pesquisar campos de texto, você pode usar um apóstrofo (') ou aspas duplas ("") para delimitar os valores que fazem parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-129">When searching Text fields, you can use either an apostrophe (') or  double quotation marks ("") to delimit the values that are part of the filter.</span></span> <span data-ttu-id="dfcd2-130">Por exemplo, todas as seguintes linhas funcionam corretamente quando o campo é do tipo <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#):</span><span class="sxs-lookup"><span data-stu-id="dfcd2-130">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="dfcd2-131">sFilter = "[CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-131">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-132">sFilter = "[CompanyName] =""Microsoft" ""</span><span class="sxs-lookup"><span data-stu-id="dfcd2-132">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="dfcd2-133">sFilter = "[CompanyName] =" &amp; Chr (34) &amp; "Microsoft" &amp; Chr (34)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-133">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="dfcd2-p109">Ao especificar um filtro em uma consulta Jet ou DASL, se você colocar entre aspas simples uma cadeia de caracteres que faça parte do filtro e já contenha aspas simples ou apóstrofo, adicione uma aspa simples como caractere de escape antes da aspa simples ou do apóstrofo. Proceda de forma semelhante caso use aspas duplas para delimitar uma cadeia de caracteres: se a cadeia de caracteres contiver aspas duplas, adicione uma aspa dupla como caractere de escape antes das aspas duplas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p109">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="dfcd2-137">Por exemplo, no filtro DASL a cadeia de caracteres que não é possível filtra a propriedade <b>Subject</b> sendo igual à palavra, a cadeia de caracteres de filtro inteiro é delimitada por um par de aspas duplas e a cadeia de caracteres incorporada não é possível for delimitada por um par de aspas simples.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-137">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="dfcd2-138">Há três caracteres que você precisa para esta cadeia de caracteres de filtro de escape: as aspas duplas inicial e a final aspas duplas para a referência de propriedade de http://schemas.microsoft.com/mapi/proptag/0x0037001f, e não o apóstrofo na condição de valor para o word.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-138">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="dfcd2-139">A aplicação dos caracteres de escape apropriados permite expressar a cadeia de caracteres de filtro da seguinte forma:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-139">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-140">filtro = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-140">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p111">
+
+ 
+
+Como alternativa, você pode usar a função chr(34) para representar aspas duplas (cujo valor de caractere ASCII é 34), que é usada como caractere de escape. A substituição chr(34) usada como caractere de escape de aspas duplas permite expressar o último exemplo desta forma:
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p111">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-143">filtro = "@SQL =" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span><span class="sxs-lookup"><span data-stu-id="dfcd2-143">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="dfcd2-144">&amp;Chr (34) &amp; "=" &amp; "' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-144">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p112">O uso de aspas simples e duplas como caracteres de escape também é obrigatório nas consultas DASL com o operador <b>ci_startswith</b> ou <b>ci_phrasematch</b>. Por exemplo, a consulta a seguir executa uma correspondência de frase para can't no assunto da mensagem:
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p112">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="dfcd2-147">filtro = "@SQL =" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span><span class="sxs-lookup"><span data-stu-id="dfcd2-147">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="dfcd2-148">&amp;Chr (34) &amp; "ci_phrasematch" &amp; "' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-148">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-149">Outro exemplo é uma cadeia de caracteres de filtro DASL que filtros para a propriedade <b>Subject</b> sendo igual às palavras a coisa certa, onde as coisas word é colocado entre aspas duplas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-149">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="dfcd2-150">Nesse caso, você deve usar aspas duplas como escape da seguinte forma:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-150">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-151">filtro = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= 'direita""coisas" "'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-151">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p114">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character. For more information, see Referencing Properties by Namespace.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p114">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character. For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="dfcd2-154">Data</span><span class="sxs-lookup"><span data-stu-id="dfcd2-154">Date</span></span></para>
+          <para><span data-ttu-id="dfcd2-p115">Embora datas e horas geralmente são armazenadas com um formato Date, Find e Restrict métodos exigem que a data e hora ser convertido em uma representação de cadeia de caracteres. Para certificar-se de que a data está formatada como Microsoft Outlook espera, use a função Format. O exemplo a seguir cria um filtro para localizar todos os contatos que foram modificados após 15 de janeiro de 1999 às 15:30.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p115">Although dates and times are typically stored with a Date format, the Find and Restrict methods require that the date and time be converted to a string representation. To make sure that the date is formatted as Microsoft Outlook expects, use the Format function. The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M. </span></span></para>
+          <para><span data-ttu-id="dfcd2-158">sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 3:30 pm", "ddddd h:nn AMPM") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-158">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-159">Operadores booleanos</span><span class="sxs-lookup"><span data-stu-id="dfcd2-159">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="dfcd2-160">Operadores booleanos, os verdadeiro/falso, Sim/Não, liga/desliga, e assim por diante, não devem ser convertidos em uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-160">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string.</span></span> <span data-ttu-id="dfcd2-161">Por exemplo, para determinar se o registro no diário está habilitado para contatos, você pode usar esse filtro:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-161">For example, to determine whether journaling is enabled for contacts, you can use this filter:</span></span> </para>
+          <para><span data-ttu-id="dfcd2-162">sFilter = "[diário] = True"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-162">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-163">
+            <b>Observação</b>: se você usar aspas como delimitadores com campos Boolean, uma cadeia de caracteres vazia localizará itens cujos campos sejam False e todas as cadeias de caracteres não-vazias localizarão os itens cujos campos sejam True.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-163">
+            <b>Note</b>: If you use quotation marks as delimiters with Boolean fields, then an empty string will find items whose fields are False and all non-empty strings will find items whose fields are True.</span></span></para>
+          <para><span data-ttu-id="dfcd2-164">Keywords (ou Categories)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-164">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="dfcd2-p117">O campo de categorias é do tipo palavras-chave, que foi projetada para armazenar vários valores. Ao acessar programaticamente, o campo categorias se comporta como um campo de texto e a cadeia de caracteres deve corresponder exatamente. Valores na cadeia de texto são separados por uma vírgula e um espaço. Geralmente, isso significa que você não pode usar os métodos Find e Restrict em um campo de palavras-chave se ele contiver mais de um valor. Por exemplo, se você tiver um contato na categoria Business e um contato nas categorias Social e corporativos, você não pode usar facilmente os métodos Find e Restrict para recuperar todos os itens que estão na categoria comercial. Em vez disso, você pode executar um loop em todos os contatos na pasta e use a função Instr para testar se a cadeia de caracteres "Business" está contida em todo o campo de palavras-chave.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p117">The Categories field is of type keywords, which is designed to hold multiple values. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the Find and Restrict methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the Find and Restrict methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the Instr function to test whether the string "Business" is contained within the entire keywords field. </span></span></para>
+          <para><span data-ttu-id="dfcd2-171">
+            <b>Observação</b>: uma exceção possível seria se você limitar o campo Categories a dois ou um número baixo dos valores.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-171">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="dfcd2-172">Em seguida, você pode usar os métodos Find e Restrict com o operador lógico OR para recuperar todos os contatos comerciais.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-172">Then you can use the Find and Restrict methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="dfcd2-173">Por exemplo (no pseudocódigo): "Business" ou "Comercial, pessoal" ou "Pessoal, Business".</span><span class="sxs-lookup"><span data-stu-id="dfcd2-173">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="dfcd2-174">Cadeias de caracteres de categoria não diferenciam maiúsculas de minúsculas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-174">Category strings are not case sensitive.</span></span></para>
+          <para><span data-ttu-id="dfcd2-175">Inteiro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-175">Integer</span></span></para>
+          <para><span data-ttu-id="dfcd2-176">Você pode procurar campos inteiro com ou sem aspas como delimitadores.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-176">You can search for Integer fields with or without quotation marks as delimiters.</span></span> <span data-ttu-id="dfcd2-177">Os seguintes filtros localizarão contatos que foram criados com o Outlook 2000:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-177">The following filters will find contacts that were created with  Outlook 2000:</span></span> </para>
+          <para><span data-ttu-id="dfcd2-178">sFilter = "[OutlookInternalVersion] = 92711"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-178">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-179">sFilter = "[OutlookInternalVersion] = '92711'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-179">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-180">Usando variáveis como parte do filtro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-180">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="dfcd2-181">Como o exemplo do método Restrict ilustra, você pode usar valores de variáveis como parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-181">As the Restrict method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="dfcd2-182">O exemplo de código do Microsoft Visual Basic a seguir ilustra a sintaxe que utiliza variáveis como parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-182">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-183">sFullName = "Dan Wilson"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-183">sFullName = "Dan Wilson"</span></span> </para>
+          <para> <span data-ttu-id="dfcd2-184">Essa abordagem usa Chr (34) para delimitar o valor: sFilter = "[FullName] =" &amp; Chr (34) &amp; sFullName &amp; Chr (34)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-184">This approach uses Chr(34) to delimit the value: sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para> <span data-ttu-id="dfcd2-185">Essa abordagem usa aspas duplas para delimitar o valor: sFilter = "[FullName] =" "" &amp; sFullName &amp; "" "</span><span class="sxs-lookup"><span data-stu-id="dfcd2-185">This approach uses double quotation marks to delimit the value: sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="dfcd2-186">Usando operadores lógicos como parte do filtro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-186">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="dfcd2-187">Os operadores lógicos permitidos são AND, OR e não.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-187">Logical operators that are allowed are AND, OR, and NOT.</span></span> <span data-ttu-id="dfcd2-188">Estas são as variações da cláusula para o método Restrict, portanto, você pode especificar vários critérios.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-188">The following are variations of the clause for the Restrict method, so you can specify multiple criteria.</span></span>  </para>
+          <para><span data-ttu-id="dfcd2-p122">OR: o código a seguir retorna todos os itens de contato que têm como categoria Comercial ou Pessoal.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p122">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="dfcd2-190">sFilter = "[Categorias] = 'Pessoal' ou [Categorias] = 'Business'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-190">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-p123">AND: o código a seguir recupera todos os contatos pessoais que trabalham na Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p123">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="dfcd2-192">sFilter = "[Categorias] = 'Pessoal' e [CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-192">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-p124">NOT: o código a seguir recupera todos os contatos pessoais que não trabalham na Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p124">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="dfcd2-194">sFilter = "[Categorias] = 'Pessoal' e não ([CompanyName] = 'Microsoft')"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-194">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="dfcd2-195">Observações adicionais</span><span class="sxs-lookup"><span data-stu-id="dfcd2-195">Additional Notes</span></span></para>
+          <para><span data-ttu-id="dfcd2-p125">Se você está tentando usar os métodos Find ou Restrict com campos definidos pelo usuário, os campos devem ser definidos na pasta, caso contrário, ocorrerá um erro. Não é possível executar uma operação "contém". Por exemplo, você não pode usar Find ou Restrict para procurar itens que tenham uma determinada palavra no campo assunto. Em vez disso, você pode usar o método AdvancedSearch ou você pode executar um loop em todos os itens na pasta e use a função InStr para realizar uma pesquisa dentro de um campo. Você pode usar o método Restrict para pesquisar itens que começam em um determinado intervalo de caracteres. Por exemplo, para procurar todos os contatos com o último nome começando com a letra M, use este filtro:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p125">If you are trying to use the Find or Restrict methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur. There is no way to perform a "contains" operation. For example, you cannot use Find or Restrict to search for items that have a particular word in the Subject field. Instead, you can use the AdvancedSearch method, or you can loop through all of the items in the folder and use the InStr function to perform a search within a field. You can use the Restrict method to search for items that begin within a certain range of characters. For example, to search for all contacts with a last name beginning with the letter M, use this filter: </span></span></para>
+          <para><span data-ttu-id="dfcd2-202">sFilter = "[Sobrenome] &gt; 'LZZZ' e [Sobrenome] &lt; ' n '"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-202">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNext">
+      <MemberSignature Language="C#" Value="public object FindNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-203">Após o <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> método execuções, este método localiza e retorna o próximo item do Outlook na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-203">After the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method runs, this method finds and returns the next Outlook item in the specified collection.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-204">Um valor Objeto que representa o próximo item do Outlook encontrado na coleção.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-204">An Object value that represents the next Outlook item found in the collection.</span></span></returns>
+        <remarks><para> <span data-ttu-id="dfcd2-205">A operação de pesquisa começa na posição atual, que corresponde à expressão definida anteriormente através do método <b>Find</b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-205">The search operation begins from the current position, which matches the expression previously set through the <b>Find</b> method.</span></span></para>
+          <para><span data-ttu-id="dfcd2-206">O método retorna um item do Outlook do objeto se a chamada tiver êxito; ele retorna <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se ele falhar.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-206">The method returns an Outlook item object if the call succeeds; it returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if it fails.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public object GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFirst () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFirst();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-207">Retorna o primeiro objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-207">Returns the first object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-208">O valor de um Object que representa o primeiro objeto contido no conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-208">An Object value that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-209">Retorna <b>Nothing</b> se nenhum primeiro objeto existir, por exemplo, se não houver nenhum objeto na coleção. Para garantir o funcionamento correto do <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-209">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="dfcd2-210">Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-210">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public object GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLast () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetLast();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-211">Retorna o último objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-211">Returns the last object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-212">Um valor Objeto que representa o último objeto contido na coleção.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-212">An Object value that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-213">Ele retorna <b>Nothing</b> se não existirem objetos, por exemplo, se a coleção está vazia. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <b>GetLast</b> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-213">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="dfcd2-214">Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-214">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public object GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-215">Retorna o próximo objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-215">Returns the next object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-216">O valor de um Object que representa o próximo objeto contido no conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-216">An Object value that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-217">Ele retorna <b>Nothing</b> se nenhum objeto próximo existe, por exemplo, se já posicionadas no final da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <b>GetNext</b>, e <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-217">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="dfcd2-218">Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-218">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public object GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPrevious () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetPrevious();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-219">Retorna o objeto anterior do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-219">Returns the previous object in the collection.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-220">O valor de um Object que representa o objeto anterior contido no conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-220">An Object value that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-221">Ele retorna <b>Nothing</b> se nenhum objeto anterior existe, por exemplo, se estiver posicionado no início da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, e os métodos <b>GetPrevious</b> em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b> GetPrevious</b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-221">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="dfcd2-222">Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-222">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeRecurrences">
+      <MemberSignature Language="C#" Value="public bool IncludeRecurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeRecurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeRecurrences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeRecurrences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-223">Retorna um <b>Boolean</b> (<b>bool</b> em c#) que indica <b>True</b> se o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> coleção deve incluir padrões de recorrência.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-223">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection should include recurrence patterns.</span></span> <span data-ttu-id="dfcd2-224">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-224">Read/write.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="dfcd2-225">Esta propriedade tem efeito somente se a coleção <b>Items</b> contiver compromissos e não estiver classificada por qualquer propriedade diferente de <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> em ordem crescente.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-225">This property only has an effect if the <b>Items</b> collection contains appointments and is not sorted by any property other than <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> in ascending order.</span></span> <span data-ttu-id="dfcd2-226">O valor padrão é <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-226">The default value is <b>False</b>.</span></span> <span data-ttu-id="dfcd2-227">Use essa propriedade quando desejar recuperar todos os compromissos para uma determinada data, onde compromissos recorrentes normalmente não seriam exibidos porque elas não estiverem associadas a nenhuma data específica.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-227">Use this property when you want to retrieve all appointments for a given date, where recurring appointments would not normally appear because they are not associated with any specific date.</span></span> <span data-ttu-id="dfcd2-228">Se você precisar classificar e filtrar itens de compromisso que contenham compromissos recorrentes, você deve fazê-lo nesta ordem: classificar os itens em ordem crescente, defina <b>IncludeRecurrences</b> como <b>True</b> e, em seguida, filtrar os itens.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-228">If you need to sort and filter on appointment items that contain recurring appointments, you must do so in this order: sort the items in ascending order, set <b>IncludeRecurrences</b> to <b>True</b>, and then filter the items.</span></span> <span data-ttu-id="dfcd2-229">Para um exemplo de código mostrando nesta ordem, consulte o segundo exemplo abaixo.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-229">For a code sample showing this order, see the second example below.</span></span> <span data-ttu-id="dfcd2-230">Se a coleção incluir compromissos recorrentes sem data final, a configuração da propriedade como <b>True</b> pode causar a coleção tenha uma contagem infinita.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-230">If the collection includes recurring appointments with no end date, setting the property to <b>True</b> may cause the collection to be of infinite count.</span></span> <span data-ttu-id="dfcd2-231">Certifique-se de incluir um teste para isso em qualquer loop.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-231">Be sure to include a test for this in any loop.</span></span> <span data-ttu-id="dfcd2-232">Você não deve usar a propriedade <b>Count</b> da coleção de <b>itens</b> ao iterar coleção <b>Items</b> com a propriedade <b>IncludeRecurrence</b> definida como <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-232">You should not use <b>Count</b> property of <b>Items</b> collection when iterating <b>Items</b> collection with <b>IncludeRecurrence</b> property set to <b>True</b>.</span></span> <span data-ttu-id="dfcd2-233">O valor de <b>Count</b> será um valor indefinido.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-233">The value of <b>Count</b> will be an undefined value.</span></span></para>
+          <para><span data-ttu-id="dfcd2-234">
+            <b>Cuidado</b>: filtrando uma lista classificada de ocorrências fará com que a propriedade IncludeRecurrences não funcionar conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-234">
+            <b>Caution</b>: Filtering on a sorted list of occurrences will cause the IncludeRecurrences property not to work as expected.</span></span> <span data-ttu-id="dfcd2-235">Por exemplo, a seguinte seqüência retornará todas as ocorrências do compromisso; recorrentes e não-recorrente: (1) classificar por propriedade Start (2) definir a propriedade para false (3) chamada Restrict (ou seja, o filtro).</span><span class="sxs-lookup"><span data-stu-id="dfcd2-235">For example, the following sequence will return all appointment occurrences; recurring and non-recurring: (1) Sort by Start property (2) Set property to false (3) call Restrict (i.e., filter).</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="dfcd2-236">O número do índice do objeto ou um valor usado para corresponder à propriedade padrão de um objeto da coleção.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-236">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-237">Retorna um item do Outlook de um conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-237">Returns an Outlook item from a collection.</span></span></summary>
+        <value><span data-ttu-id="dfcd2-238">Um valor Objeto que representa o objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-238">An Object value that represents the specified object.</span></span></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-p133">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-241">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-241">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index"><span data-ttu-id="dfcd2-242">O valor de índice baseado em 1 do objeto dentro do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-242">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-243">Remove um objeto do conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-243">Removes an object from the collection.</span></span></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetColumns">
+      <MemberSignature Language="C#" Value="public void ResetColumns ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetColumns() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.ResetColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetColumns ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetColumns();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-244">Limpa as propriedades que foram armazenadas com o <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> método.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-244">Clears the properties that have been cached with the <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> method.</span></span></summary>
+        <remarks><para><span data-ttu-id="dfcd2-p134">Todas as propriedades são acessíveis depois de chamar o método <b>ResetColumns</b>. <b>SetColumns</b> deve ser reutilizado para armazenar novamente novas propriedades. <b>ResetColumns</b> não fará nada se <b>SetColumns</b> não tiver sido chamado primeiro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p134">All properties are accessible after calling the <b>ResetColumns</b> method. <b>SetColumns</b> should be reused to store new properties again. <b>ResetColumns</b> does nothing if <b>SetColumns</b> has not been called first.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Items Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Items Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Items ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter"><span data-ttu-id="dfcd2-248">Uma expressão de cadeia de caracteres de filtro a ser aplicada.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-248">A filter string expression to be applied.</span></span> <span data-ttu-id="dfcd2-249">Para obter detalhes, consulte o <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> método.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-249">For details, see the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-250">Aplica um filtro para o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> coleção, retornando uma nova coleção que contém todos os itens do original que correspondem ao filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-250">Applies a filter to the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  collection, returning a new collection containing all of the items from the original that match the filter.</span></span></summary>
+        <returns><span data-ttu-id="dfcd2-251">Uma coleção de <b>itens</b> que representa os itens da coleção <b>Items</b> original que corresponde ao filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-251">An <b>Items</b> collection that represents the items from the original <b>Items</b> collection which match the filter.</span></span></returns>
+        <remarks><para><span data-ttu-id="dfcd2-252">Esse método é uma alternativa ao uso do <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> método ou <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" /> método para iterar em itens específicos dentro de uma coleção.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-252">This method is an alternative to using the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  method or <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />  method to iterate over specific items within a collection.</span></span> <span data-ttu-id="dfcd2-253">Os métodos <b>Find</b> ou <b>FindNext</b> são mais rapidamente do que a filtragem se houver um pequeno número de itens.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-253">The <b>Find</b> or <b>FindNext</b> methods are faster than filtering if there are a small number of items.</span></span> <span data-ttu-id="dfcd2-254">O método <b>Restrict</b> é significativamente mais rápido, se houver um grande número de itens na coleção, especialmente se apenas alguns itens em uma coleção grande que devem ser encontrados.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-254">The <b>Restrict</b> method is significantly faster if there is a large number of items in the collection, especially if only a few items in a large collection are expected to be found.</span></span></para>
+          <para><span data-ttu-id="dfcd2-255">
+            <b>Observação</b>: se você estiver usando campos definidos pelo usuário como parte de uma cláusula <b>Find</b> ou <b>Restrict</b> , os campos definidos pelo usuário devem existir na pasta.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-255">
+            <b>Note</b>: If you are using user-defined fields as part of a <b>Find</b> or <b>Restrict</b> clause, the user-defined fields must exist in the folder.</span></span> <span data-ttu-id="dfcd2-256">Caso contrário, o código gerará um erro informando que o campo é desconhecido.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-256">Otherwise the code will generate an error stating that the field is unknown.</span></span> <span data-ttu-id="dfcd2-257">Você pode adicionar um campo a uma pasta exibindo o Seletor de campos e clicando em novo.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-257">You can add a field to a folder by displaying the Field Chooser and clicking New.</span></span></para>
+          <para><span data-ttu-id="dfcd2-258">Este método não pode ser usado e causará um erro com as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-258">This method cannot be used and will cause an error with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="dfcd2-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span><span class="sxs-lookup"><span data-stu-id="dfcd2-259">BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</span></span></description>
+              <description><span data-ttu-id="dfcd2-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="dfcd2-260">LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="dfcd2-261">Criando filtros para os métodos Find e Restrict</span><span class="sxs-lookup"><span data-stu-id="dfcd2-261">Creating Filters for the Find and Restrict Methods</span></span></para>
+          <para><span data-ttu-id="dfcd2-p138">A sintaxe do filtro varia dependendo do tipo de campo sendo filtrado.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p138">The syntax for the filter varies depending on the type of field you are filtering on. </span></span></para>
+          <para><span data-ttu-id="dfcd2-263">Cadeia de Caracteres (para campos Texto)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-263">String (for Text fields)</span></span> </para>
+          <para><span data-ttu-id="dfcd2-264">Ao pesquisar campos de texto, você pode usar um apóstrofo (') ou aspas duplas (""), para delimitar os valores que fazem parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-264">When searching Text fields, you can use either an apostrophe ('), or  double quotation marks (""), to delimit the values that are part of the filter.</span></span> <span data-ttu-id="dfcd2-265">Por exemplo, todas as seguintes linhas funcionam corretamente quando o campo é do tipo <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#):</span><span class="sxs-lookup"><span data-stu-id="dfcd2-265">For example, all of the following lines function correctly when the field is of type <b>String</b> (<b>string</b> in C#):</span></span> </para>
+          <para><span data-ttu-id="dfcd2-266">sFilter = "[CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-266">sFilter = "[CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-267">sFilter = "[CompanyName] =""Microsoft" ""</span><span class="sxs-lookup"><span data-stu-id="dfcd2-267">sFilter = "[CompanyName] = ""Microsoft"""</span></span> </para>
+          <para><span data-ttu-id="dfcd2-268">sFilter = "[CompanyName] =" &amp; Chr (34) &amp; "Microsoft" &amp; Chr (34)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-268">sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</span></span></para>
+          <para><span data-ttu-id="dfcd2-p140">Ao especificar um filtro em uma consulta Jet ou DASL, se você colocar entre aspas simples uma cadeia de caracteres que faça parte do filtro e já contenha aspas simples ou apóstrofo, adicione uma aspa simples como caractere de escape antes da aspa simples ou do apóstrofo. Proceda de forma semelhante caso use aspas duplas para delimitar uma cadeia de caracteres: se a cadeia de caracteres contiver aspas duplas, adicione uma aspa dupla como caractere de escape antes das aspas duplas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p140">In specifying a filter in a Jet or DASL query, if you use a pair of single quotes to delimit a string that is part of the filter, and the string contains another single quote or apostrophe, then add a single quote as an escape character before the single quote or apostrophe. Use a similar approach if you use a pair of double quotes to delimit a string. If the string contains a double quote, then add a double quote as an escape character before the double quote.</span></span></para>
+          <para><span data-ttu-id="dfcd2-272">Por exemplo, no filtro DASL a cadeia de caracteres que não é possível filtra a propriedade <b>Subject</b> sendo igual à palavra, a cadeia de caracteres de filtro inteiro é delimitada por um par de aspas duplas e a cadeia de caracteres incorporada não é possível for delimitada por um par de aspas simples.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-272">For example, in the DASL filter string that filters for the <b>Subject</b> property being equal to the word can't, the entire filter string is delimited by a pair of double quotes, and the embedded string can't is delimited by a pair of single quotes.</span></span> <span data-ttu-id="dfcd2-273">Há três caracteres que você precisa para esta cadeia de caracteres de filtro de escape: as aspas duplas inicial e a final aspas duplas para a referência de propriedade de http://schemas.microsoft.com/mapi/proptag/0x0037001f, e não o apóstrofo na condição de valor para o word.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-273">There are three characters that you need to escape in this filter string: the starting double quote and the ending double quote for the property reference of http://schemas.microsoft.com/mapi/proptag/0x0037001f, and the apostrophe in the value condition for the word can't.</span></span> <span data-ttu-id="dfcd2-274">A aplicação dos caracteres de escape apropriados permite expressar a cadeia de caracteres de filtro da seguinte forma:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-274">Applying the appropriate escape characters, you can express the filter string as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-275">filtro = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= ' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-275">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p142">
+
+ 
+
+Como alternativa, você pode usar a função chr(34) para representar aspas duplas (cujo valor de caractere ASCII é 34), que é usada como caractere de escape. A substituição chr(34) usada como caractere de escape de aspas duplas permite expressar o último exemplo desta forma:
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p142">Alternatively, you can use the chr(34) function to represent the double quote (whose ASCII character value is 34) that is used as an escape character. Using the chr(34) substitution for a double-quote escape character, you can express the last example as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-278">filtro = "@SQL =" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span><span class="sxs-lookup"><span data-stu-id="dfcd2-278">filter = "@SQL= " &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</span></span></para>
+          <para>    <span data-ttu-id="dfcd2-279">&amp;Chr (34) &amp; "=" &amp; "' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-279">&amp; Chr(34) &amp; " = " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p143">O uso de aspas simples e duplas como caracteres de escape também é obrigatório nas consultas DASL com o operador <b>ci_startswith</b> ou <b>ci_phrasematch</b>. Por exemplo, a consulta a seguir executa uma correspondência de frase para can't no assunto da mensagem:
+
+ 
+
+</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p143">Escaping single and double quote characters is also required for DASL queries with the <b>ci_startswith</b> or <b>ci_phrasematch</b> operators. For example, the following query performs a phrase match query for can't in the message subject: </span></span></para>
+          <para><span data-ttu-id="dfcd2-282">filtro = "@SQL =" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span><span class="sxs-lookup"><span data-stu-id="dfcd2-282">filter = "@SQL=" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</span></span></para>
+          <para>    <span data-ttu-id="dfcd2-283">&amp;Chr (34) &amp; "ci_phrasematch" &amp; "' pode ' t'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-283">&amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can''t'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-284">Outro exemplo é uma cadeia de caracteres de filtro DASL que filtros para a propriedade <b>Subject</b> sendo igual às palavras a coisa certa, onde as coisas word é colocado entre aspas duplas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-284">Another example is a DASL filter string that filters for the <b>Subject</b> property being equal to the words the right stuff, where the word stuff is enclosed by double quotes.</span></span> <span data-ttu-id="dfcd2-285">Nesse caso, você deve usar aspas duplas como escape da seguinte forma:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-285">In this case, you must escape the enclosing double quotes as follows:</span></span></para>
+          <para><span data-ttu-id="dfcd2-286">filtro = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "= 'direita""coisas" "'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-286">filter = "@SQL=""http://schemas.microsoft.com/mapi/proptag/0x0037001f"" = 'the right ""stuff""'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-p145">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character. For more information, see Referencing Properties by Namespace.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p145">A different set of escaping rules apply to a property reference for named properties that contain the space, single quote, double quote, or percent character. For more information, see Referencing Properties by Namespace.</span></span></para>
+          <para><span data-ttu-id="dfcd2-289">Data</span><span class="sxs-lookup"><span data-stu-id="dfcd2-289">Date</span></span></para>
+          <para><span data-ttu-id="dfcd2-p146">Embora datas e horas geralmente são armazenadas com um formato Date, <b>Find</b> e <b>Restrict</b> métodos exigem que a data e hora ser convertido em uma representação de cadeia de caracteres. Para certificar-se de que a data está formatada como Microsoft Outlook espera, use a função <b>Format</b>. O exemplo a seguir cria um filtro para localizar todos os contatos que foram modificados após 15 de janeiro de 1999 às 15:30.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p146">Although dates and times are typically stored with a Date format, the <b>Find</b> and <b>Restrict</b> methods require that the date and time be converted to a string representation. To make sure that the date is formatted as Microsoft Outlook expects, use the <b>Format</b> function. The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M. </span></span></para>
+          <para><span data-ttu-id="dfcd2-293">sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 3:30 pm", "ddddd h:nn AMPM") &amp; "'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-293">sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 3:30pm", "ddddd h:nn AMPM") &amp; "'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-294">Operadores booleanos</span><span class="sxs-lookup"><span data-stu-id="dfcd2-294">Boolean Operators</span></span></para>
+          <para><span data-ttu-id="dfcd2-295">Operadores booleanos, os verdadeiro/falso, Sim/Não, liga/desliga, e assim por diante, não devem ser convertidos em uma cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-295">Boolean operators, TRUE/FALSE, YES/NO, ON/OFF, and so on, should not be converted to a string.</span></span> <span data-ttu-id="dfcd2-296">Por exemplo, para determinar se o registro no diário está habilitado para contatos, você pode usar esse filtro:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-296">For example, to determine whether journaling is enabled for contacts, you can use this filter:</span></span> </para>
+          <para><span data-ttu-id="dfcd2-297">sFilter = "[diário] = True"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-297">sFilter = "[Journal] = True"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-298">
+            <b>Observação</b>: se você usar aspas como delimitadores com campos <b>Boolean</b> , uma cadeia de caracteres vazia localizará itens cujos campos sejam <b>False</b> e todas as cadeias de caracteres não-vazias localizarão os itens cujos campos sejam <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-298">
+            <b>Note</b>: If you use quotation marks as delimiters with <b>Boolean</b> fields, then an empty string will find items whose fields are <b>False</b> and all non-empty strings will find items whose fields are <b>True</b>.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-299">Keywords (ou Categories)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-299">Keywords (or Categories)</span></span></para>
+          <para><span data-ttu-id="dfcd2-p149">O campo de categorias é do tipo palavras-chave, que foi projetada para armazenar vários valores. Ao acessar programaticamente, o campo categorias se comporta como um campo de texto e a cadeia de caracteres deve corresponder exatamente. Valores na cadeia de texto são separados por uma vírgula e um espaço. Geralmente, isso significa que você não pode usar os métodos <b>Find</b> e <b>Restrict</b> em um campo de palavras-chave se ele contiver mais de um valor. Por exemplo, se você tiver um contato na categoria Business e um contato nas categorias Social e corporativos, você não pode usar facilmente os métodos <b>Find</b> e <b>Restrict</b> para recuperar todos os itens que estão na categoria comercial. Em vez disso, você pode executar um loop em todos os contatos na pasta e use a função <b>Instr</b> para testar se a cadeia de caracteres "Business" está contida em todo o campo de palavras-chave.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p149">The Categories field is of type keywords, which is designed to hold multiple values. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the <b>Find</b> and <b>Restrict</b> methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the <b>Find</b> and <b>Restrict</b> methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the <b>Instr</b> function to test whether the string "Business" is contained within the entire keywords field. </span></span></para>
+          <para><span data-ttu-id="dfcd2-306">
+            <b>Observação</b>: uma exceção possível seria se você limitar o campo Categories a dois ou um número baixo dos valores.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-306">
+            <b>Note</b>: A possible exception is if you limit the Categories field to two, or a low number of values.</span></span> <span data-ttu-id="dfcd2-307">Em seguida, você pode usar os métodos <b>Find</b> e <b>Restrict</b> com o operador lógico OR para recuperar todos os contatos comerciais.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-307">Then you can use the <b>Find</b> and <b>Restrict</b> methods with the OR logical operator to retrieve all Business contacts.</span></span> <span data-ttu-id="dfcd2-308">Por exemplo (no pseudocódigo): "Business" ou "Comercial, pessoal" ou "Pessoal, Business".</span><span class="sxs-lookup"><span data-stu-id="dfcd2-308">For example (in pseudocode): "Business" OR "Business, Personal" OR "Personal, Business."</span></span> <span data-ttu-id="dfcd2-309">Cadeias de caracteres de categoria não diferenciam maiúsculas de minúsculas.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-309">Category strings are not case sensitive.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-310">Inteiro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-310">Integer</span></span></para>
+          <para><span data-ttu-id="dfcd2-p151">Você pode procurar por campos <b>Integer</b> com ou sem aspas como delimitadores. Os filtros a seguir localizarão contatos que foram criados usando o Outlook 2000:
+</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p151">You can search for <b>Integer</b> fields with, or without quotation marks as delimiters. The following filters will find contacts that were created using  Outlook 2000: </span></span></para>
+          <para><span data-ttu-id="dfcd2-313">sFilter = "[OutlookInternalVersion] = 92711"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-313">sFilter = "[OutlookInternalVersion] = 92711"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-314">sFilter = "[OutlookInternalVersion] = '92711'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-314">sFilter = "[OutlookInternalVersion] = '92711'"</span></span></para>
+          <para><span data-ttu-id="dfcd2-315">Usando variáveis como parte do filtro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-315">Using Variables as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="dfcd2-316">Como o exemplo do método <b>Restrict</b> ilustra, você pode usar valores de variáveis como parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-316">As the <b>Restrict</b> method example illustrates, you can use values from variables as part of the filter.</span></span> <span data-ttu-id="dfcd2-317">O exemplo de código do Microsoft Visual Basic a seguir ilustra a sintaxe que utiliza variáveis como parte do filtro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-317">The following Microsoft Visual Basic code sample illustrates syntax that uses variables as part of the filter.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-318">sFullName = "Dan Wilson"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-318">sFullName = "Dan Wilson"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-319">' Esta abordagem usa Chr (34) para delimitar o valor.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-319">' This approach uses Chr(34) to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-320">sFilter = "[FullName] =" &amp; Chr (34) &amp; sFullName &amp; Chr (34)</span><span class="sxs-lookup"><span data-stu-id="dfcd2-320">sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34)</span></span> </para>
+          <para><span data-ttu-id="dfcd2-321">' Esta abordagem usa aspas duplas para delimitar o valor.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-321">' This approach uses double quotation marks to delimit the value.</span></span> </para>
+          <para><span data-ttu-id="dfcd2-322">sFilter = "[FullName] =" "" &amp; sFullName &amp; "" "</span><span class="sxs-lookup"><span data-stu-id="dfcd2-322">sFilter = "[FullName] = """ &amp; sFullName &amp; """"</span></span></para>
+          <para><span data-ttu-id="dfcd2-323">Usando operadores lógicos como parte do filtro</span><span class="sxs-lookup"><span data-stu-id="dfcd2-323">Using Logical Operators as Part of the Filter</span></span></para>
+          <para><span data-ttu-id="dfcd2-p155">Os operadores lógicos permitidos são AND, OR e não. Estas são as variações da cláusula para o método <b>Restrict</b> para que você pode especificar vários critérios.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p155">Logical operators that are allowed are AND, OR, and NOT. The following are variations of the clause for the <b>Restrict</b> method so you can specify multiple criteria.  </span></span></para>
+          <para><span data-ttu-id="dfcd2-p156">OR: o código a seguir retorna todos os itens de contato que têm como categoria Comercial ou Pessoal.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p156">OR: The following code returns all contact items that have either Business or Personal as their category. </span></span></para>
+          <para><span data-ttu-id="dfcd2-327">sFilter = "[Categorias] = 'Pessoal' ou [Categorias] = 'Business'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-327">sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-p157">AND: o código a seguir recupera todos os contatos pessoais que trabalham na Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p157">AND: The following code retrieves all personal contacts who work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="dfcd2-329">sFilter = "[Categorias] = 'Pessoal' e [CompanyName] = 'Microsoft'"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-329">sFilter = "[Categories] = 'Personal' And [CompanyName] = 'Microsoft'"</span></span> </para>
+          <para><span data-ttu-id="dfcd2-p158">NOT: o código a seguir recupera todos os contatos pessoais que não trabalham na Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p158">NOT: The following code retrieves all personal contacts who don't work at Microsoft. </span></span></para>
+          <para><span data-ttu-id="dfcd2-331">sFilter = "[Categorias] = 'Pessoal' e não ([CompanyName] = 'Microsoft')"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-331">sFilter = "[Categories] = 'Personal' And Not([CompanyName] = 'Microsoft')"</span></span></para>
+          <para><span data-ttu-id="dfcd2-332">Observações adicionais</span><span class="sxs-lookup"><span data-stu-id="dfcd2-332">Additional Notes</span></span></para>
+          <para><span data-ttu-id="dfcd2-333">Se você está tentando usar os métodos <b>Find</b> ou <b>Restrict</b> com campos definidos pelo usuário, os campos devem ser definidos na pasta, caso contrário, ocorrerá um erro.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-333">If you are trying to use the <b>Find</b> or <b>Restrict</b> methods with user-defined fields, the fields must be defined in the folder, otherwise an error will occur.</span></span> <span data-ttu-id="dfcd2-334">Não é possível executar uma operação "contém".</span><span class="sxs-lookup"><span data-stu-id="dfcd2-334">There is no way to perform a "contains" operation.</span></span> <span data-ttu-id="dfcd2-335">Por exemplo, você não pode usar <b>Find</b> ou <b>Restrict</b> para procurar itens que tenham uma determinada palavra no campo assunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-335">For example, you cannot use <b>Find</b> or <b>Restrict</b> to search for items that have a particular word in the Subject field.</span></span> <span data-ttu-id="dfcd2-336">Em vez disso, você pode usar o <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método ou você pode executar um loop em todos os itens na pasta e use a função <b>InStr</b> para realizar uma pesquisa dentro de um campo.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-336">Instead, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method, or you can loop through all of the items in the folder and use the <b>InStr</b> function to perform a search within a field.</span></span> <span data-ttu-id="dfcd2-337">Você pode usar o método <b>Restrict</b> para pesquisar itens que começam em um determinado intervalo de caracteres.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-337">You can use the <b>Restrict</b> method to search for items that begin within a certain range of characters.</span></span> <span data-ttu-id="dfcd2-338">Por exemplo, para procurar todos os contatos com o último nome começando com a letra M, use este filtro:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-338">For example, to search for all contacts with a last name beginning with the letter M, use this filter:</span></span> </para>
+          <para><span data-ttu-id="dfcd2-339">sFilter = "[Sobrenome] &gt; 'LZZZ' e [Sobrenome] &lt; ' n '"</span><span class="sxs-lookup"><span data-stu-id="dfcd2-339">sFilter = "[LastName] &gt; 'LZZZ' And [LastName] &lt; 'N'"</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary><span data-ttu-id="dfcd2-340">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-340">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="dfcd2-341">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-341">Read-only.</span></span></summary>
+        <value>To be added.</value>
+        <remarks><para><span data-ttu-id="dfcd2-342">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-342">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="dfcd2-343">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-343">Both members serve the same purpose.</span></span> <span data-ttu-id="dfcd2-344">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-344">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColumns">
+      <MemberSignature Language="C#" Value="public void SetColumns (string Columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetColumns([in]string Columns) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColumns (Columns As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetColumns(System::String ^ Columns);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(92)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Columns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Columns"><span data-ttu-id="dfcd2-p162">Uma cadeia de caracteres que contém os nomes das propriedades a serem armazenadas em cache. Os nomes das propriedades são delimitados por vírgula nessa cadeia de caracteres.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p162">A string that contains the names of the properties to cache. The property names are delimited by commas in this string.</span></span></param>
+        <summary><span data-ttu-id="dfcd2-347">Armazena em cache determinadas propriedades para acesso extremamente rápido às propriedades específicas de um item no conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-347">Caches certain properties for extremely fast access to those particular properties of an item within the collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="dfcd2-348">O método <b>SetColumns</b> é útil para iterar através do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-348">The <b>SetColumns</b> method is useful for iterating through the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="dfcd2-349">Se você não usar esse método, Microsoft Outlook deve abrir cada item para acessar a propriedade.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-349">If you don't use this method, Microsoft Outlook must open each item to access the property.</span></span> <span data-ttu-id="dfcd2-350">Com o método <b>SetColumns</b>, o Outlook somente verifica as propriedades que você tiver no cache e fornece acesso rápido e somente leitura a essas propriedades.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-350">With the <b>SetColumns</b> method, Outlook only checks the properties that you have cached, and provides fast, read-only access to these properties.</span></span></para>
+          <para><span data-ttu-id="dfcd2-351">Depois de aplicar o método <b>SetColumns</b> nas propriedades específicas da coleção, você não pode ler as outras propriedades dessa coleção; propriedades que não estiverem armazenadas serão retornadas vazias.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-351">After applying the <b>SetColumns</b> method on specific properties of the collection, you cannot read other properties of that collection; properties which are not cached are returned empty.</span></span> <span data-ttu-id="dfcd2-352">Você não pode escrever ou para qualquer uma das propriedades dessa coleção.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-352">You cannot write to any of the properties of that collection either.</span></span> <span data-ttu-id="dfcd2-353">Como alternativa, se você precisar de acesso de leitura / gravação, fast a um conjunto de itens, use o <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-353">Alternatively, if you require read-write, fast access to a set of items, use the <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object.</span></span></para>
+          <para><span data-ttu-id="dfcd2-p165">
+            <b>SetColumns</b> não pode ser usado e causará um erro, com qualquer propriedade que retorna um objeto. Ele não pode ser usado com as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p165">
+            <b>SetColumns</b> cannot be used, and will cause an error, with any property that returns an object. It cannot be used with the following properties:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="dfcd2-356">AutoResolvedWinner</span><span class="sxs-lookup"><span data-stu-id="dfcd2-356">AutoResolvedWinner</span></span></description>
+              <description><span data-ttu-id="dfcd2-357">InternetCodePage</span><span class="sxs-lookup"><span data-stu-id="dfcd2-357">InternetCodePage</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-358">Body</span><span class="sxs-lookup"><span data-stu-id="dfcd2-358">Body</span></span></description>
+              <description><span data-ttu-id="dfcd2-359">MeetingWorkspaceURL</span><span class="sxs-lookup"><span data-stu-id="dfcd2-359">MeetingWorkspaceURL</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-360">BodyFormat</span><span class="sxs-lookup"><span data-stu-id="dfcd2-360">BodyFormat</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-361">Categories</span><span class="sxs-lookup"><span data-stu-id="dfcd2-361">Categories</span></span></description>
+              <description><span data-ttu-id="dfcd2-362">ReceivedByEntryID</span><span class="sxs-lookup"><span data-stu-id="dfcd2-362">ReceivedByEntryID</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description><span data-ttu-id="dfcd2-363">ReceivedOnBehalfOfEntryID</span><span class="sxs-lookup"><span data-stu-id="dfcd2-363">ReceivedOnBehalfOfEntryID</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-364">Class</span><span class="sxs-lookup"><span data-stu-id="dfcd2-364">Class</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-365">Companies</span><span class="sxs-lookup"><span data-stu-id="dfcd2-365">Companies</span></span></description>
+              <description><span data-ttu-id="dfcd2-366">ReplyRecipients</span><span class="sxs-lookup"><span data-stu-id="dfcd2-366">ReplyRecipients</span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-367">DownloadState</span><span class="sxs-lookup"><span data-stu-id="dfcd2-367">DownloadState</span></span></description>
+              <description><span data-ttu-id="dfcd2-368">Saved</span><span class="sxs-lookup"><span data-stu-id="dfcd2-368">Saved</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-369">EntryID</span><span class="sxs-lookup"><span data-stu-id="dfcd2-369">EntryID</span></span></description>
+              <description><span data-ttu-id="dfcd2-370">Sent</span><span class="sxs-lookup"><span data-stu-id="dfcd2-370">Sent</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-371">HTMLBody</span><span class="sxs-lookup"><span data-stu-id="dfcd2-371">HTMLBody</span></span></description>
+              <description><span data-ttu-id="dfcd2-372">Submitted</span><span class="sxs-lookup"><span data-stu-id="dfcd2-372">Submitted</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-373">IsConflict</span><span class="sxs-lookup"><span data-stu-id="dfcd2-373">IsConflict</span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" />
+              </description>
+            </item>
+          </list>
+          <para><span data-ttu-id="dfcd2-p166">Propriedade <b>ConversationIndex</b> não pode ser armazenados em cache usando o método <b>SetColumns</b>. No entanto, essa propriedade não resultará em erro como as outras propriedades listadas acima.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p166">The <b>ConversationIndex</b> property cannot be cached using the <b>SetColumns</b> method. However, this property will not result in an error like the other properties listed above.</span></span></para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string Property, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string Property, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (Property As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property"><span data-ttu-id="dfcd2-376">O nome da propriedade pela qual classificar, que pode ser colocado entre colchetes, por exemplo, "[CompanyName]".</span><span class="sxs-lookup"><span data-stu-id="dfcd2-376">The name of the property by which to sort, which may be enclosed in brackets, for example, "[CompanyName]".</span></span> <span data-ttu-id="dfcd2-377">As propriedades definidas pelo usuário que contêm espaços devem ser colocadas entre colchetes.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-377">User-defined properties that contain spaces must be enclosed in brackets.</span></span> <span data-ttu-id="dfcd2-378">Talvez não seja uma propriedade definida pelo usuário do tipo palavras-chave e talvez não seja uma propriedade de valores múltiplos, como uma categoria.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-378">May not be a user-defined property of type keywords, and may not be a multi-valued property, such as a category.</span></span> <span data-ttu-id="dfcd2-379">Para propriedades definidas pelo usuário, a propriedade deverá existir na coleção <b>UserDefinedProperties</b> para <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />, que representa o <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que contém os itens.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-379">For user-defined properties, the property must exist in the <b>UserDefinedProperties</b> collection for <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />, which represents the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that contains the items.</span></span></param>
+        <param name="Descending"><span data-ttu-id="dfcd2-p168"><b>True</b> para classificar em ordem decrescente. O valor padrão é <b>False</b> (crescente). </span><span class="sxs-lookup"><span data-stu-id="dfcd2-p168"><b>True</b> to sort in descending order. The default value is <b>False</b> (ascending).</span></span></param>
+        <summary><span data-ttu-id="dfcd2-p169">Classifica o conjunto de itens pela propriedade especificada. O índice do conjunto será redefinido como 1 após a conclusão desse método.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p169">Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</span></span></summary>
+        <remarks><para><span data-ttu-id="dfcd2-p170">
+            <b>Classificar</b> afeta somente a ordem dos itens em uma coleção. Ela não afeta a ordem dos itens em um modo de exibição do explorer.</span><span class="sxs-lookup"><span data-stu-id="dfcd2-p170">
+            <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</span></span></para>
+          <para><span data-ttu-id="dfcd2-386">
+            <b>Classificar</b> não pode ser usado e causará um erro se o <paramref name="property" /> parâmetro inválido é uma das seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="dfcd2-386">
+            <b>Sort</b> cannot be used and will cause an error if the <paramref name="property" /> paramater is one of the following properties:</span></span>                </para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="dfcd2-387">
+                <b>Categorias</b>
+              </span><span class="sxs-lookup"><span data-stu-id="dfcd2-387">
+                <b>Categories</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnly" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnlyCompany" />
+              </description>
+            </item>
+            <item>
+              <description><span data-ttu-id="dfcd2-388">
+                <b>Classe</b>
+              </span><span class="sxs-lookup"><span data-stu-id="dfcd2-388">
+                <b>Class</b>
+              </span></span></description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstNoSpace" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.NetMeetingAlias" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstSpaceOnly" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
+              </description>
+              <description><span data-ttu-id="dfcd2-389">
+                <b>Salvo</b>
+              </span><span class="sxs-lookup"><span data-stu-id="dfcd2-389">
+                <b>Saved</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
+              </description>
+              <description><span data-ttu-id="dfcd2-390">
+                <b>Enviado</b>
+              </span><span class="sxs-lookup"><span data-stu-id="dfcd2-390">
+                <b>Sent</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpaceCompany" />
+              </description>
+              <description />
+            </item>
+          </list>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

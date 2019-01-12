@@ -1,13 +1,5 @@
 <Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629640" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902030" /></Metadata><TypeSignature Language="C#" Value="public interface _Conversation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="785c6-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="785c6-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="785c6-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="785c6-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="785c6-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="785c6-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="785c6-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="785c6-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="5f3c0-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="5f3c0-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="5f3c0-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="5f3c0-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa o aplicativo do Microsoft Outlook pai para o <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="785c6-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa o aplicativo do Microsoft Outlook pai para o <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="5f3c0-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span>
-          </span>
-          <span data-ttu-id="785c6-108">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span></span> <span data-ttu-id="5f3c0-108">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,34 +100,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-109">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório de quais categorias de itens que pertencem à conversa deve ser removida.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store from which categories of items that belong to the conversation should be removed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-110">Remove todas as categorias de todos os itens da conversa e interrompe a ação de sempre atribuir categorias a itens na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-110">Removes all categories from all items in the conversation and stops the action of always assigning categories to items in the conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-111">
-            <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de remoção de categoria será aplicada aos itens da conversa no repositório de entrega padrão. </para>
-            <para>Depois de aplicar o método <b>ClearAlwaysAssignCategories</b> em uma conversa, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para essa conversa. Categorias em itens existentes estão desmarcadas e nenhum categorias são atribuídas aos novos itens na conversa.</para>
-            <para>Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>ClearAlwaysAssignCategories</b> não removerá qualquer categoria.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-111">
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the category removal action will apply to items of the conversation in the default delivery store. </para>
-              <para>After you apply the <b>ClearAlwaysAssignCategories</b> method on a conversation, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that conversation. Categories on existing items are cleared, and no categories are assigned to new items in the conversation.</para>
-              <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>ClearAlwaysAssignCategories</b> does not remove any categories.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-109">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório de quais categorias de itens que pertencem à conversa deve ser removida.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-109">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store from which categories of items that belong to the conversation should be removed.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-110">Remove todas as categorias de todos os itens da conversa e interrompe a ação de sempre atribuir categorias a itens na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-110">Removes all categories from all items in the conversation and stops the action of always assigning categories to items in the conversation.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-111">Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de remoção de categoria será aplicada aos itens da conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-111">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the category removal action will apply to items of the conversation in the default delivery store.</span></span> </para>
+          <para><span data-ttu-id="5f3c0-112">Depois de aplicar o método <b>ClearAlwaysAssignCategories</b> em uma conversa, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) para essa conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-112">After you apply the <b>ClearAlwaysAssignCategories</b> method on a conversation, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method will return <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for that conversation.</span></span> <span data-ttu-id="5f3c0-113">Categorias em itens existentes sejam limpas e nenhum categorias são atribuídas aos novos itens na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-113">Categories on existing items are cleared, and no categories are assigned to new items in the conversation.</span></span></para>
+          <para><span data-ttu-id="5f3c0-114">Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>ClearAlwaysAssignCategories</b> não removerá qualquer categoria.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-114">If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>ClearAlwaysAssignCategories</b> does not remove any categories.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationID">
@@ -196,31 +131,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-112">Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-112">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="785c6-113">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-115">Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que identifica exclusivamente um <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-115">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that uniquely identifies a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="5f3c0-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="785c6-114">
-            <para>Essa propriedade corresponde à propriedade <b>PidTagConversationId</b>MAPI.</para>
-            <para>Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em sua propriedade <b>ConversationID</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-114">
-              <para>This property corresponds with the MAPI property <b>PidTagConversationId</b>.</para>
-              <para>This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5f3c0-117">Essa propriedade corresponde com a propriedade MAPI <b>PidTagConversationId</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-117">This property corresponds with the MAPI property <b>PidTagConversationId</b>.</span></span></para>
+          <para><span data-ttu-id="5f3c0-p107">Essa propriedade associa itens uma conversa. Esses itens e a conversa têm o mesmo valor em suas propriedades <b>ConversationID</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-p107">This property associates items with a conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysAssignCategories">
@@ -245,42 +160,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-115">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório para o quais categorias de itens que pertencem à conversa deve ser retornada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-115">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which categories of items that belong to the conversation should be returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-116">Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que indica a categoria ou as categorias atribuídas a todos os novos itens que chegarem na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-116">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that indicates the category or categories that are assigned to all new items that arrive in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-117">Uma <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que contém uma ou mais categorias atribuídas a itens da conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-117">A <see cref="T:System.String" /> (<b>string</b> in C#) that contains one or more categories that are assigned to items in the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-118">
-            <para>Várias categorias são delimitadas por vírgulas na cadeia de caracteres de nomes de categoria que essa propriedade retorna. Para converter a cadeia de caracteres de nomes de categoria em uma matriz de nomes de categorias, use a função do Microsoft Visual Basic <b>divisão</b> .</para>
-            <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</para>
-            <para>Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>GetAlwaysAssignCategories</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para>Para parar a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma sequência vazia.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-118">
-              <para>Multiple categories are delimited by commas in the string of category names that this property returns. To convert the string of category names to an array of category names, use the Microsoft Visual Basic <b>Split</b> function.</para>
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
-              <para>If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>GetAlwaysAssignCategories</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-120">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório para o quais categorias de itens que pertencem à conversa deve ser retornada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-120">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which categories of items that belong to the conversation should be returned.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-121">Retorna um <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que indica a categoria ou as categorias atribuídas a todos os novos itens que chegarem na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-121">Returns a <see cref="T:System.String" /> (<b>string</b> in C#) that indicates the category or categories that are assigned to all new items that arrive in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-122">Uma <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) que contém uma ou mais categorias atribuídas a itens da conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-122">A <see cref="T:System.String" /> (<b>string</b> in C#) that contains one or more categories that are assigned to items in the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-p108">Várias categorias são delimitadas por vírgulas na cadeia de caracteres de nomes de categoria que essa propriedade retorna. Para converter uma matriz de nomes de categorias a cadeia de caracteres de nomes de categoria, use a função do Microsoft Visual Basic <b>dividido</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-p108">Multiple categories are delimited by commas in the string of category names that this property returns. To convert the string of category names to an array of category names, use the Microsoft Visual Basic <b>Split</b> function.</span></span></para>
+          <para><span data-ttu-id="5f3c0-125">Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-125">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-126">Se o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> método não tiver sido aplicado a uma conversa, <b>GetAlwaysAssignCategories</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-126">If the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> method has not been applied to a conversation, <b>GetAlwaysAssignCategories</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para><span data-ttu-id="5f3c0-127">Para interromper a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-127">To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span> <span data-ttu-id="5f3c0-128">Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b>, <b>GetAlwaysAssignCategories</b> retornará uma sequência vazia.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-128">After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysDelete">
@@ -305,42 +192,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-119">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual os itens da conversa serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-119">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that holds the Deleted Items folder to which items of the conversation are moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-120">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeração que indica se todos os novos itens que ingressar na conversa sempre serão movidos para a pasta Itens excluídos no repositório de entrega especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-120">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeration that indicates whether all new items that join the conversation are always moved to the Deleted Items folder in the specified delivery store.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-121">Uma constante da enumeração <b>OlAlwaysDeleteConversation</b> que indica se todos os novos itens da conversa sempre serão movidos para a pasta de itens excluídos do repositório de entrega especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-121">A constant from the <b>OlAlwaysDeleteConversation</b> enumeration that indicates whether all new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-122">
-            <para>Se o <paramref name="Store" /> parâmetro especifica um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysDelete</b> retorna uma constante da <b>OlAlwaysDeleteConversation</b> que se aplica a itens de conversa no repositório de entrega padrão. Itens em um repositório de entrega não são movidas para a pasta Itens excluídos do repositório de entrega padrão.</para>
-            <para>Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, itens da conversa sempre serão movidos para a pasta Itens excluídos para o repositório que contém os itens. Em uma conversa do repositório cruzado, os itens são movidas para a pasta Itens excluídos para o repositório que contém os itens. Quando <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta Itens excluídos para o repositório padrão.</para>
-            <para>Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDeleteUnsupported</b>, o repositório especificado não oferece suporte à ação de sempre mover itens para a pasta Itens excluídos desse repositório.</para>
-            <para>Se <b>GetAlwaysDelete</b> retornar <b>olDoNotDelete</b>, novos itens que chegarem na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-122">
-              <para>If the <paramref name="Store" /> parameter specifies a non-delivery store such as an archive .pst store, the <b>GetAlwaysDelete</b> method returns a constant from <b>OlAlwaysDeleteConversation</b> that applies to conversation items in the default delivery store. Items on a non-delivery store are not moved to the Deleted Items folder for the default delivery store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, items of the conversation are always moved to the Deleted Items folder for the store that contains the items. In a cross-store conversation, items are moved to the Deleted Items folder for the store that contains the items. When <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Deleted Items folder for the default store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olAlwaysDeleteUnsupported</b>, the specified store does not support the action of always moving items to the Deleted Items folder of that store.</para>
-              <para>If <b>GetAlwaysDelete</b> returns <b>olDoNotDelete</b>, new items that arrive in the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-129">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual os itens da conversa serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-129">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that holds the Deleted Items folder to which items of the conversation are moved.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-130">Retorna uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeração que indica se todos os novos itens que ingressar na conversa sempre serão movidos para a pasta Itens excluídos no repositório de entrega especificado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-130">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> enumeration that indicates whether all new items that join the conversation are always moved to the Deleted Items folder in the specified delivery store.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-131">Uma constante da enumeração <b>OlAlwaysDeleteConversation</b> que indica se todos os novos itens da conversa sempre serão movidos para a pasta de itens excluídos do repositório de entrega especificado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-131">A constant from the <b>OlAlwaysDeleteConversation</b> enumeration that indicates whether all new items of the conversation are always moved to the Deleted Items folder of the specified delivery store.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-132">Se o <paramref name="Store" /> parâmetro especifica um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysDelete</b> retorna uma constante da <b>OlAlwaysDeleteConversation</b> que se aplica a itens de conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-132">If the <paramref name="Store" /> parameter specifies a non-delivery store such as an archive .pst store, the <b>GetAlwaysDelete</b> method returns a constant from <b>OlAlwaysDeleteConversation</b> that applies to conversation items in the default delivery store.</span></span> <span data-ttu-id="5f3c0-133">Itens em um repositório de entrega não são movidas para a pasta Itens excluídos do repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-133">Items on a non-delivery store are not moved to the Deleted Items folder for the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-134">Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, itens da conversa sempre serão movidos para a pasta Itens excluídos para o repositório que contém os itens.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-134">If <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, items of the conversation are always moved to the Deleted Items folder for the store that contains the items.</span></span> <span data-ttu-id="5f3c0-135">Em uma conversa do repositório cruzado, os itens são movidas para a pasta Itens excluídos para o repositório que contém os itens.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-135">In a cross-store conversation, items are moved to the Deleted Items folder for the store that contains the items.</span></span> <span data-ttu-id="5f3c0-136">Quando <b>GetAlwaysDelete</b> retornar <b>olAlwaysDelete</b>, o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta Itens excluídos para o repositório padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-136">When <b>GetAlwaysDelete</b> returns <b>olAlwaysDelete</b>, the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Deleted Items folder for the default store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-137">Se <b>GetAlwaysDelete</b> retornar <b>olAlwaysDeleteUnsupported</b>, o repositório especificado não oferece suporte a ação de sempre mover itens para a pasta Itens excluídos desse repositório.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-137">If <b>GetAlwaysDelete</b> returns <b>olAlwaysDeleteUnsupported</b>, the specified store does not support the action of always moving items to the Deleted Items folder of that store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-138">Se <b>GetAlwaysDelete</b> retornar <b>olDoNotDelete</b>, novos itens que chegarem na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-138">If <b>GetAlwaysDelete</b> returns <b>olDoNotDelete</b>, new items that arrive in the conversation are not moved to the Deleted Items folder on the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysMoveToFolder">
@@ -365,38 +224,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-123">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde a pasta para a qual conversa itens serão movidos reside.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-123">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the folder to which conversation items are moved resides.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-124">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta no repositório de entrega especificado para o qual novos itens que chegarem na conversa sempre serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-124">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder in the specified delivery store to which new items that arrive in the conversation are always moved.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-125">Uma <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto do repositório especificado para o qual todos os novos itens que chegarem na conversa sempre serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-125">A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object in the specified store to which all new items that arrive in the conversation are always moved.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-126">
-            <para>Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysMoveToFolder</b> retornará um objeto <b>Folder</b> que se aplica a itens de conversa no repositório de entrega padrão.</para>
-            <para>Se nenhuma pasta além da pasta Itens excluídos, tiver sido especificada para sempre mover itens de conversa movidos, o método <b>GetAlwaysMoveToFolder</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-126">
-              <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the <b>GetAlwaysMoveToFolder</b> method returns a <b>Folder</b> object that applies to conversation items on the default delivery store.</para>
-              <para>If no folder, other than the Deleted Items folder, has been specified to always move conversation items into, the <b>GetAlwaysMoveToFolder</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-139">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde a pasta para a qual conversa itens serão movidos reside.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-139">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the folder to which conversation items are moved resides.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-140">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta no repositório de entrega especificado para o qual novos itens que chegarem na conversa sempre serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-140">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder in the specified delivery store to which new items that arrive in the conversation are always moved.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-141">Uma <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto do repositório especificado para o qual todos os novos itens que chegarem na conversa sempre serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-141">A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object in the specified store to which all new items that arrive in the conversation are always moved.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-142">Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método <b>GetAlwaysMoveToFolder</b> retornará um objeto <b>Folder</b> que se aplica a itens de conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-142">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the <b>GetAlwaysMoveToFolder</b> method returns a <b>Folder</b> object that applies to conversation items on the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-143">Se nenhuma pasta além da pasta Itens excluídos, tiver sido especificada para sempre mover itens de conversa movidos, o método <b>GetAlwaysMoveToFolder</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-143">If no folder, other than the Deleted Items folder, has been specified to always move conversation items into, the <b>GetAlwaysMoveToFolder</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetChildren">
@@ -423,32 +256,11 @@
       </Parameters>
       <Docs>
         <param name="Item">To be added.</param>
-        <summary>
-          <span data-ttu-id="785c6-127">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens sob o nó de conversa especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-127">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all items under the specified conversation node.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-128">Uma coleção <b>SimpleItems</b> que representa o conjunto de itens filhos na conversa sob o nó especificado pelo <paramref name="Item" /> parâmetro.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-128">A <b>SimpleItems</b> collection that represents the set of child items in the conversation under the node specified by the <paramref name="Item" /> parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-129">
-            <para>A coleção <b>SimpleItems</b> retornada contém itens filho imediato do nó de conversa especificado pelo <paramref name="Item" /> parâmetro. Se o nó especificado não existir na conversa, o método <b>GetChildren</b> retornará um erro.</para>
-            <para>Se não houver itens filhos sob esse nó, o método <b>GetChildren</b> retornará uma coleção <b>SimpleItems</b> com zero objetos, caso em que o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-129">
-              <para>The returned <b>SimpleItems</b> collection contains immediate child items of the conversation node specified by the <paramref name="Item" /> parameter. If the specified node does not exist in the conversation, the <b>GetChildren</b> method returns an error.</para>
-              <para>If no child items exist under that node, the <b>GetChildren</b> method returns a <b>SimpleItems</b> collection with zero objects, in which case the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="5f3c0-144">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens sob o nó de conversa especificado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-144">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all items under the specified conversation node.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-145">Uma coleção <b>SimpleItems</b> que representa o conjunto de itens filhos na conversa sob o nó especificado pelo <paramref name="Item" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-145">A <b>SimpleItems</b> collection that represents the set of child items in the conversation under the node specified by the <paramref name="Item" /> parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-146">A coleção <b>SimpleItems</b> retornada contém itens filho imediato do nó de conversa especificado pelo <paramref name="Item" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-146">The returned <b>SimpleItems</b> collection contains immediate child items of the conversation node specified by the <paramref name="Item" /> parameter.</span></span> <span data-ttu-id="5f3c0-147">Se o nó especificado não existir na conversa, o método <b>GetChildren</b> retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-147">If the specified node does not exist in the conversation, the <b>GetChildren</b> method returns an error.</span></span></para>
+          <para><span data-ttu-id="5f3c0-148">Se não houver itens filhos sob esse nó, o método <b>GetChildren</b> retornará uma coleção <b>SimpleItems</b> com zero objetos, caso em que o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-148">If no child items exist under that node, the <b>GetChildren</b> method returns a <b>SimpleItems</b> collection with zero objects, in which case the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetParent">
@@ -474,38 +286,12 @@
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="785c6-130">Um nó de conversa que não faz parte de uma conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-130">A conversation node that is part of a conversation.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-131">Retorna o item pai do nó especificado na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-131">Returns the parent item of the specified node in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-132">Um <see cref="T:System.Object" /> (<b>objeto</b> em c#) que representa o item de conversa pai do nó especificado pelo <paramref name="Item" /> parâmetro.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-132">An <see cref="T:System.Object" /> (<b>object</b> in C#) that represents the parent conversation item of the node specified by the <paramref name="Item" /> parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-133">
-            <para>Se o nó especificado pelo <paramref name="Item" /> parâmetro não existe na conversa, o método <b>GetParent</b> retornará um erro.</para>
-            <para>Se o nó especificado pelo <paramref name="Item" /> parâmetro não tem um item pai na conversa, o método <b>GetParent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-133">
-              <para>If the node specified by the <paramref name="Item" /> parameter does not exist in the conversation, the <b>GetParent</b> method returns an error.</para>
-              <para>If the node specified by the <paramref name="Item" /> parameter does not have a parent item in the conversation, the <b>GetParent</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="5f3c0-149">Um nó de conversa que não faz parte de uma conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-149">A conversation node that is part of a conversation.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-150">Retorna o item pai do nó especificado na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-150">Returns the parent item of the specified node in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-151">Um <see cref="T:System.Object" /> (<b>objeto</b> em c#) que representa o item de conversa pai do nó especificado pelo <paramref name="Item" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-151">An <see cref="T:System.Object" /> (<b>object</b> in C#) that represents the parent conversation item of the node specified by the <paramref name="Item" /> parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-152">Se o nó especificado pelo <paramref name="Item" /> parâmetro não existe na conversa, o método <b>GetParent</b> retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-152">If the node specified by the <paramref name="Item" /> parameter does not exist in the conversation, the <b>GetParent</b> method returns an error.</span></span></para>
+          <para><span data-ttu-id="5f3c0-153">Se o nó especificado pelo <paramref name="Item" /> parâmetro não tem um item pai na conversa, o método <b>GetParent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-153">If the node specified by the <paramref name="Item" /> parameter does not have a parent item in the conversation, the <b>GetParent</b> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootItems">
@@ -529,28 +315,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-134">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens raiz na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-134">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all root items in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-135">Uma coleção <b>SimpleItems</b> que inclui o item raiz ou todos os itens raiz da conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-135">A <b>SimpleItems</b> collection that includes the root item or all root items of the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-136">Conversa de uma <para>pode ter um ou mais itens de raiz. Por exemplo, se o item raiz da conversa possui três itens filhos e o item raiz é excluído permanentemente, todos os itens filhos três se tornam os itens raiz.</para><para>Se todos os itens serão excluídos do conversa depois que o objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> tiver sido obtido, <b>GetRootItems</b> retorna uma coleção <b>SimpleItems</b> com nenhum objeto. Nesse caso, o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-136">
-              <para>A conversation can have one or more root items. For example, if the root item of the conversation has three child items and the root item is permanently deleted, all three child items become root items.</para>
-              <para>If all items are deleted from the conversation after the <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> object has been obtained, <b>GetRootItems</b> returns a <b>SimpleItems</b> collection with zero objects. In this case, the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="5f3c0-154">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> coleção que contém todos os itens raiz na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-154">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all root items in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-155">Uma coleção <b>SimpleItems</b> que inclui o item raiz ou todos os itens raiz da conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-155">A <b>SimpleItems</b> collection that includes the root item or all root items of the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-p113">Uma conversa pode ter um ou mais itens raiz. Por exemplo, se o item raiz da conversa tiver três itens filhos e se for excluído permanentemente, todos os três itens filhos se tornarão itens raiz.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-p113">A conversation can have one or more root items. For example, if the root item of the conversation has three child items and the root item is permanently deleted, all three child items become root items.</span></span></para>
+          <para><span data-ttu-id="5f3c0-158">Se todos os itens são excluídos da conversa depois que o objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> tiver sido obtido, <b>GetRootItems</b> retorna uma coleção <b>SimpleItems</b> com nenhum objeto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-158">If all items are deleted from the conversation after the <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> object has been obtained, <b>GetRootItems</b> returns a <b>SimpleItems</b> collection with zero objects.</span></span> <span data-ttu-id="5f3c0-159">Nesse caso, o <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> propriedade da coleção <b>SimpleItems</b> retornará 0.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-159">In this case, the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property of the <b>SimpleItems</b> collection returns 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -574,100 +343,55 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-137">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contém linhas que representam todos os itens na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-137">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains rows that represent all items in the conversation.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="785c6-138">Um objeto <b>Table</b> que contém linhas que representam todos os itens na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-138">A <b>Table</b> object that contains rows that represent all items in the conversation.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="785c6-139">
-            <para>O método <b>GetTable</b> retorna uma <b>tabela</b> que tem todos os itens da conversa como as linhas. O conjunto de colunas padrão é mostrado na tabela a seguir. </para>
-            <list type="table">
-              <item>
-                <description>1</description>
-                <description>
-                  <b>EntryID</b>
-                </description>
-              </item>
-              <item>
-                <description>2</description>
-                <description>
-                  <b>assunto</b>
-                </description>
-              </item>
-              <item>
-                <description>3</description>
-                <description>
-                  <b>CreationTime</b>
-                </description>
-              </item>
-              <item>
-                <description>4</description>
-                <description>
-                  <b>LastModificationTime</b>
-                </description>
-              </item>
-              <item>
-                <description>5</description>
-                <description>
-                  <b>MessageClass</b>
-                </description>
-              </item>
-            </list>
-            <para>Por padrão, as linhas da tabela são classificadas pela propriedade <b>ConversationIndex</b> dos itens.</para>
-            <para>Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto.</para>
-            <para>o objeto <b>Table</b> retornado por esse método <b>GetTable</b> não inclui itens da conversa que tiverem sido movidas para a pasta Itens excluídos.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-139">
-              <para>The <b>GetTable</b> method returns a <b>Table</b> that has all items of the conversation as the rows. The default set of columns is shown in the following table. </para>
-              <list type="table">
-                <item>
-                  <description>1</description>
-                  <description>
-                    <b>EntryID</b>
-                  </description>
-                </item>
-                <item>
-                  <description>2</description>
-                  <description>
-                    <b>Subject</b>
-                  </description>
-                </item>
-                <item>
-                  <description>3</description>
-                  <description>
-                    <b>CreationTime</b>
-                  </description>
-                </item>
-                <item>
-                  <description>4</description>
-                  <description>
-                    <b>LastModificationTime</b>
-                  </description>
-                </item>
-                <item>
-                  <description>5</description>
-                  <description>
-                    <b>MessageClass</b>
-                  </description>
-                </item>
-              </list>
-              <para>By default, the rows in the table are sorted by the <b>ConversationIndex</b> property of the items.</para>
-              <para>To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection. </para>
-              <para>The <b>Table</b> object returned by this <b>GetTable</b> method does not include items in the conversation that have been moved to the Deleted Items folder.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="5f3c0-160">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contém linhas que representam todos os itens na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-160">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object that contains rows that represent all items in the conversation.</span></span></summary>
+        <returns><span data-ttu-id="5f3c0-161">Um objeto <b>Table</b> que contém linhas que representam todos os itens na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-161">A <b>Table</b> object that contains rows that represent all items in the conversation.</span></span></returns>
+        <remarks><para><span data-ttu-id="5f3c0-p115">O método <b>GetTable</b> retorna uma <b>tabela</b> que tem todos os itens da conversa como as linhas. O conjunto de colunas padrão é mostrado na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-p115">The <b>GetTable</b> method returns a <b>Table</b> that has all items of the conversation as the rows. The default set of columns is shown in the following table. </span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="5f3c0-164">1</span><span class="sxs-lookup"><span data-stu-id="5f3c0-164">1</span></span></description>
+              <description><span data-ttu-id="5f3c0-165">
+                <b>EntryID</b>
+              </span><span class="sxs-lookup"><span data-stu-id="5f3c0-165">
+                <b>EntryID</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="5f3c0-166">2</span><span class="sxs-lookup"><span data-stu-id="5f3c0-166">2</span></span></description>
+              <description><span data-ttu-id="5f3c0-167">
+                <b>Assunto</b>
+              </span><span class="sxs-lookup"><span data-stu-id="5f3c0-167">
+                <b>Subject</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="5f3c0-168">3</span><span class="sxs-lookup"><span data-stu-id="5f3c0-168">3</span></span></description>
+              <description><span data-ttu-id="5f3c0-169">
+                <b>CreationTime</b>
+              </span><span class="sxs-lookup"><span data-stu-id="5f3c0-169">
+                <b>CreationTime</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="5f3c0-170">4</span><span class="sxs-lookup"><span data-stu-id="5f3c0-170">4</span></span></description>
+              <description><span data-ttu-id="5f3c0-171">
+                <b>LastModificationTime</b>
+              </span><span class="sxs-lookup"><span data-stu-id="5f3c0-171">
+                <b>LastModificationTime</b>
+              </span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="5f3c0-172">5</span><span class="sxs-lookup"><span data-stu-id="5f3c0-172">5</span></span></description>
+              <description><span data-ttu-id="5f3c0-173">
+                <b>MessageClass</b>
+              </span><span class="sxs-lookup"><span data-stu-id="5f3c0-173">
+                <b>MessageClass</b>
+              </span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="5f3c0-174">Por padrão, as linhas da tabela são classificadas pela propriedade <b>ConversationIndex</b> dos itens.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-174">By default, the rows in the table are sorted by the <b>ConversationIndex</b> property of the items.</span></span></para>
+          <para><span data-ttu-id="5f3c0-175">Para modificar o conjunto de coluna padrão, use o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, ou <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos para o <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-175">To modify the default column set, use the <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, or <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> collection.</span></span> </para>
+          <para><span data-ttu-id="5f3c0-176">O objeto <b>Table</b> retornado por esse método <b>GetTable</b> não inclui itens da conversa que tiverem sido movidas para a pasta Itens excluídos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-176">The <b>Table</b> object returned by this <b>GetTable</b> method does not include items in the conversation that have been moved to the Deleted Items folder.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsRead">
@@ -691,12 +415,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-140">Marca todos os itens da conversa como lidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-140">Marks all items in the conversation as read.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-177">Marca todos os itens da conversa como lidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-177">Marks all items in the conversation as read.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -721,12 +440,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-141">Marca todos os itens da conversa como não lidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-141">Marks all items in the conversation as unread.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-178">Marca todos os itens da conversa como não lidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-178">Marks all items in the conversation as unread.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -753,31 +467,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-142">Retorna o pai <see cref="T:System.Object" /> (<b>objeto</b> em c#) de especificado <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-142">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span>
-          </span>
-          <span data-ttu-id="785c6-143">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-143">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-179">Retorna o pai <see cref="T:System.Object" /> (<b>objeto</b> em c#) de especificado <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-179">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the specified <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span> <span data-ttu-id="5f3c0-180">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-180">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="785c6-144">
-            <para>O pai de um objeto <b>Conversation</b> é o primeiro item da conversa.</para>
-            <para>Se todos os itens da conversa serão excluídos depois que o objeto <b>Conversation</b> tiver sido obtido, a propriedade <b>Parent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-144">
-              <para>The parent of a <b>Conversation</b> object is the first item in the conversation.</para>
-              <para>If all items in the conversation are deleted after the <b>Conversation</b> object has been obtained, the <b>Parent</b> property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5f3c0-181">O pai de um objeto <b>Conversation</b> é o primeiro item da conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-181">The parent of a <b>Conversation</b> object is the first item in the conversation.</span></span></para>
+          <para><span data-ttu-id="5f3c0-182">Se todos os itens da conversa forem excluídos depois que o objeto <b>Conversation</b> tiver sido obtido, a propriedade <b>Parent</b> retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-182">If all items in the conversation are deleted after the <b>Conversation</b> object has been obtained, the <b>Parent</b> property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -803,31 +497,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="785c6-145">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-145">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="785c6-146">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-146">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="5f3c0-183">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-183">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="5f3c0-184">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-184">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="785c6-147">
-            <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada.</para>
-            <para>Que você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-147">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="5f3c0-185">Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) se não houver nenhuma sessão conectada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-185">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="5f3c0-186">Você pode usar a propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-186">You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="5f3c0-187">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-187">Both members serve the same purpose.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysAssignCategories">
@@ -853,46 +527,17 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Categories">
-          <span data-ttu-id="785c6-148">Um delimitado por vírgula <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) de um ou mais nomes de categoria que sempre serão atribuídos a todos os itens na conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-148">A comma-delimited <see cref="T:System.String" /> (<b>string</b> in C#) of one or more category names that are always assigned to all items in the conversation.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="785c6-149">O <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> em que os itens da conversa devem sempre ser atribuídas as categorias especificadas pelo <paramref name="Categories" /> parâmetro.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-149">The <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> in which items of the conversation should always be assigned the categories specified by the <paramref name="Categories" /> parameter.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-150">Aplica uma ou mais categorias a todos os itens existentes e itens futuros da conversa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-150">Applies one or more categories to all existing items and future items of the conversation.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-151">
-            <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</para>
-            <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> evento do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto ocorre quando você chama o método <b>SetAlwaysAssignCategories</b> em uma conversa.</para>
-            <para>Para determinar as categorias de mestres existentes para o usuário atual, examine o <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> propriedade do objeto <b>Store</b> que é especificada pelo <paramref name="Store" /> parâmetro. Se uma ou mais categorias especificado pelo <paramref name="Categories" /> parâmetro não existir na coleção mestra de categorias, as categorias serão atribuídas à conversa, mas não serão adicionadas à coleção mestra de categorias.</para>
-            <para>Para determinar as categorias existentes que sempre serão atribuídas aos itens da conversa do repositório especificado, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</para>
-            <para>Se <b>SetAlwaysAssignCategories</b> for chamado mais de uma vez, o resultado é cumulativo. Por exemplo, se você chamar <b>SetAlwaysAssignCategories</b> especificando a categoria "Importante" e, em seguida, chame <b>SetAlwaysAssignCategories</b> novamente, especificando as categorias "Empresa" e "Social", as categorias que sempre serão atribuídas são" Importante","Comercial"e"Social".</para>
-            <para>Para parar a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método. Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma vazia <b>String</b> (<b>cadeia de caracteres</b> em c#).</para> Método 
-          <para>o <b>SetAlwaysAssignToCategories</b> ignora quaisquer nomes de categoria que são cadeias de caracteres vazias. Por exemplo, se o <paramref name="Categories" /> parâmetro for definido como a cadeia de caracteres "Trabalho, Play", "Trabalho" e "Executar" é atribuídas à conversa e a categoria de cadeia de caracteres vazia é ignorada.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-151">
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> object occurs when you call the <b>SetAlwaysAssignCategories</b> method on a conversation.</para>
-              <para>To determine existing master categories for the current user, examine the <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> property of the <b>Store</b> object that is specified by the <paramref name="Store" /> parameter. If one or more categories specified by the <paramref name="Categories" /> parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.</para>
-              <para>To determine the existing categories that are always assigned to items of the conversation in the specified store, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</para>
-              <para>If <b>SetAlwaysAssignCategories</b> is called more than once, the result is cumulative. For example, if you call <b>SetAlwaysAssignCategories</b> specifying the category “Important” and then call <b>SetAlwaysAssignCategories</b> again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".</para>
-              <para>To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method. After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty <b>String</b> (<b>string</b> in C#).</para>
-              <para>The <b>SetAlwaysAssignToCategories</b> method ignores any category names that are empty strings. For example, if the <paramref name="Categories" /> parameter is set to the string "Work,,Play", "Work" and "Play" are assigned to the conversation and the empty string category is ignored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Categories"><span data-ttu-id="5f3c0-188">Um delimitado por vírgula <see cref="T:System.String" /> (<b>cadeia de caracteres</b> em c#) de um ou mais nomes de categoria que sempre serão atribuídos a todos os itens na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-188">A comma-delimited <see cref="T:System.String" /> (<b>string</b> in C#) of one or more category names that are always assigned to all items in the conversation.</span></span></param>
+        <param name="Store"><span data-ttu-id="5f3c0-189">O <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> em que os itens da conversa devem sempre ser atribuídas as categorias especificadas pelo <paramref name="Categories" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-189">The <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> in which items of the conversation should always be assigned the categories specified by the <paramref name="Categories" /> parameter.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-190">Aplica uma ou mais categorias a todos os itens existentes e itens futuros da conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-190">Applies one or more categories to all existing items and future items of the conversation.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-191">Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, o método retorna uma cadeia de caracteres de categorias que são aplicados aos itens da conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-191">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-192">O <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> evento do <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto ocorre quando você chama o método <b>SetAlwaysAssignCategories</b> em uma conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-192">The <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> event of the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> object occurs when you call the <b>SetAlwaysAssignCategories</b> method on a conversation.</span></span></para>
+          <para><span data-ttu-id="5f3c0-193">Para determinar as categorias de mestres existentes para o usuário atual, examine o <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> propriedade do objeto <b>Store</b> que é especificada pelo <paramref name="Store" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-193">To determine existing master categories for the current user, examine the <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> property of the <b>Store</b> object that is specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="5f3c0-194">Se uma ou mais categorias especificado pelo <paramref name="Categories" /> parâmetro não existir na coleção mestra de categorias, as categorias serão atribuídas à conversa, mas não serão adicionadas à coleção mestra de categorias.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-194">If one or more categories specified by the <paramref name="Categories" /> parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.</span></span></para>
+          <para><span data-ttu-id="5f3c0-195">Para determinar as categorias existentes que sempre serão atribuídas aos itens da conversa do repositório especificado, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-195">To determine the existing categories that are always assigned to items of the conversation in the specified store, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span></para>
+          <para><span data-ttu-id="5f3c0-196">Se <b>SetAlwaysAssignCategories</b> for chamado mais de uma vez, o resultado é cumulativo.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-196">If <b>SetAlwaysAssignCategories</b> is called more than once, the result is cumulative.</span></span> <span data-ttu-id="5f3c0-197">Por exemplo, se você chamar <b>SetAlwaysAssignCategories</b> especificando a categoria "Importante" e, em seguida, chame <b>SetAlwaysAssignCategories</b> novamente, especificando as categorias "Empresa" e "Social", as categorias que sempre serão atribuídas são" Importante","Comercial"e"Social".</span><span class="sxs-lookup"><span data-stu-id="5f3c0-197">For example, if you call <b>SetAlwaysAssignCategories</b> specifying the category “Important” and then call <b>SetAlwaysAssignCategories</b> again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".</span></span></para>
+          <para><span data-ttu-id="5f3c0-198">Para interromper a ação de sempre atribuir categorias, use o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-198">To stop the action of always assigning categories, use the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> method.</span></span> <span data-ttu-id="5f3c0-199">Depois que tiver sido chamado o método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> retornará uma vazia <b>String</b> (<b>cadeia de caracteres</b> em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-199">After the <b>ClearAlwaysAssignCategories</b> method has been called, <b>GetAlwaysAssignCategories</b> returns an empty <b>String</b> (<b>string</b> in C#).</span></span></para>
+          <para><span data-ttu-id="5f3c0-200">O método <b>SetAlwaysAssignToCategories</b> ignora quaisquer nomes de categoria que são cadeias de caracteres vazias.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-200">The <b>SetAlwaysAssignToCategories</b> method ignores any category names that are empty strings.</span></span> <span data-ttu-id="5f3c0-201">Por exemplo, se o <paramref name="Categories" /> parâmetro for definido como a cadeia de caracteres "Trabalho, Play", "Trabalho" e "Executar" é atribuídas à conversa e a categoria de cadeia de caracteres vazia é ignorada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-201">For example, if the <paramref name="Categories" /> parameter is set to the string "Work,,Play", "Work" and "Play" are assigned to the conversation and the empty string category is ignored.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysDelete">
@@ -918,40 +563,13 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="AlwaysDelete">
-          <span data-ttu-id="785c6-152">Um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constante que indica se todos os itens existentes e novos que chegarem na conversa sempre serão movidos para a pasta excluídos do repositório especificado pelo <paramref name="Store" /> parâmetro.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-152">An <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constant that indicates whether all existing and new items that arrive in the conversation are always moved to the Deleted Folder of the store specified by the <paramref name="Store" /> parameter.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="785c6-153">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual itens novos e existentes da conversa deverão ser movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-153">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the Deleted Items folder to which existing and new items of the conversation are to be moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-154">Especifica uma configuração para o repositório de entrega especificado que indica se todos os itens existentes e todos os novos itens que chegarem na conversa serão movidos para a pasta Itens Excluídos no repositório de entrega especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-154">Specifies a setting for the specified delivery store that indicates whether all existing items and all new items that arrive in the conversation are always moved to the Deleted Items folder in the specified delivery store.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-155">
-            <para>O método <b>SetAlwaysDelete</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação será aplicada aos itens da conversa no repositório de entrega padrão.</para>
-            <para>Se o <paramref name="AlwaysDelete" /> parâmetro é <b>olAlwaysDelete</b>, itens de conversa serão movidos para a pasta Itens excluídos para o repositório especificado. Nesse caso, os itens não são permanentemente excluídos, a menos que o usuário especificou uma opção separada para excluir permanentemente os itens quando o Microsoft Outlook for desligado.</para>
-            <para>Se retorna <b>SetAlwaysDelete</b><b>olDoNotDelete</b>, itens de conversa e novos itens que chegarem na conversa existentes não são movidas para a pasta Itens excluídos no repositório de entrega especificado e conversa existente itens na pasta itens Pasta itens são movidas para a caixa de entrada.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-155">
-              <para>The <b>SetAlwaysDelete</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the action is applied to conversation items in the default delivery store.</para>
-              <para>If the <paramref name="AlwaysDelete" /> parameter is <b>olAlwaysDelete</b>, conversation items are moved to the Deleted Items folder for the specified store. In this case, the items are not permanently deleted, unless the user has specified a separate option to permanently delete items when Microsoft Outlook shuts down.</para>
-              <para>If <b>SetAlwaysDelete</b> returns <b>olDoNotDelete</b>, existing conversation items and new items that arrive in the conversation are not moved to the Deleted Items folder in the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="AlwaysDelete"><span data-ttu-id="5f3c0-202">Um <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constante que indica se todos os itens existentes e novos que chegarem na conversa sempre serão movidos para a pasta excluídos do repositório especificado pelo <paramref name="Store" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-202">An <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constant that indicates whether all existing and new items that arrive in the conversation are always moved to the Deleted Folder of the store specified by the <paramref name="Store" /> parameter.</span></span></param>
+        <param name="Store"><span data-ttu-id="5f3c0-203">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta Itens excluídos para a qual itens novos e existentes da conversa deverão ser movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-203">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the Deleted Items folder to which existing and new items of the conversation are to be moved.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-204">Especifica uma configuração para o repositório de entrega especificado que indica se todos os itens existentes e todos os novos itens que chegarem na conversa serão movidos para a pasta Itens Excluídos no repositório de entrega especificado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-204">Specifies a setting for the specified delivery store that indicates whether all existing items and all new items that arrive in the conversation are always moved to the Deleted Items folder in the specified delivery store.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-205">O método <b>SetAlwaysDelete</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-205">The <b>SetAlwaysDelete</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="5f3c0-206">Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação será aplicada aos itens da conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-206">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the action is applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-207">Se o <paramref name="AlwaysDelete" /> parâmetro é <b>olAlwaysDelete</b>, itens de conversa serão movidos para a pasta Itens excluídos para o repositório especificado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-207">If the <paramref name="AlwaysDelete" /> parameter is <b>olAlwaysDelete</b>, conversation items are moved to the Deleted Items folder for the specified store.</span></span> <span data-ttu-id="5f3c0-208">Nesse caso, os itens não são permanentemente excluídos, a menos que o usuário especificou uma opção separada para excluir permanentemente os itens quando Microsoft Outlook desligado.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-208">In this case, the items are not permanently deleted, unless the user has specified a separate option to permanently delete items when Microsoft Outlook shuts down.</span></span></para>
+          <para><span data-ttu-id="5f3c0-209">Se <b>SetAlwaysDelete</b> retornar <b>olDoNotDelete</b>, itens de conversa existentes e novos itens que chegarem na conversa não são movidos para a pasta Itens excluídos no repositório de entrega especificado e itens de conversa existentes na pasta Itens excluídos são movidos para a caixa de entrada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-209">If <b>SetAlwaysDelete</b> returns <b>olDoNotDelete</b>, existing conversation items and new items that arrive in the conversation are not moved to the Deleted Items folder in the specified delivery store, and existing conversation items in the Deleted Items folder are moved to the Inbox.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysMoveToFolder">
@@ -977,46 +595,17 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="MoveToFolder">
-          <span data-ttu-id="785c6-156">Especifica a pasta para a qual itens existentes e novos itens que chegarem na conversa sempre serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-156">Specifies the folder to which all existing items and new items that arrive in the conversation are always moved.</span>
-          </span>
-        </param>
-        <param name="Store">
-          <span data-ttu-id="785c6-157">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta para o qual os itens da conversa serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-157">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the folder to which items of the conversation are moved.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-158">Define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta para o qual todos os itens de conversa existentes e novos itens que chegarem na conversa sempre serão movidos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-158">Sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder to which all existing conversation items and new items that arrive in the conversation are always moved.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-159">
-            <para>O método <b>SetAlwaysMoveToFolder</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro. Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de mover se aplicará a itens de conversa no repositório de entrega padrão.</para>
-            <para>Se o <paramref name="MoveToFolder" /> parâmetro especifica uma pasta inválida inexistente, foi movida ou é somente leitura, o Outlook irá gerar um erro.</para>
-            <para>Para interromper a ação de sempre mover-para pasta itens de conversa em um repositório, chame o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método</para>
-            <para>
-              <b>Observação</b>: a pasta Itens excluídos, como a definição de <paramref name="MoveToFolder" /> parâmetro em <b>SetAlwaysMoveToFolder</b> não é equivalente a chamar <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> no mesmo repositório e na conversa. Definindo o <paramref name="MoveToFolder" /> parâmetro para a pasta Itens excluídos resulta no <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método retornar o valor <b>olDoNotDelete</b>.</para>
-            <para>o <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> eventos do objeto <b>Folder</b> ocorre quando você chama <b>SetAlwaysMoveToFolder</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-159">
-              <para>The <b>SetAlwaysMoveToFolder</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter. If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the move action will apply to conversation items in the default delivery store.</para>
-              <para>If the <paramref name="MoveToFolder" /> parameter specifies an invalid folder that does not exist, has been moved, or is read-only, Outlook will raise an error. </para>
-              <para>To stop the always-move-to-folder action for conversations items in a store, call the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method</para>
-              <para>
-                <b>Note</b>: Setting the Deleted Items folder as the <paramref name="MoveToFolder" /> parameter in <b>SetAlwaysMoveToFolder</b> is not equivalent to calling <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> on the same store and conversation. Setting the <paramref name="MoveToFolder" /> parameter to the Deleted Items folder results in the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method returning the value <b>olDoNotDelete</b>.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> event of the <b>Folder</b> object occurs when you call <b>SetAlwaysMoveToFolder</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MoveToFolder"><span data-ttu-id="5f3c0-210">Especifica a pasta para a qual itens existentes e novos itens que chegarem na conversa sempre serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-210">Specifies the folder to which all existing items and new items that arrive in the conversation are always moved.</span></span></param>
+        <param name="Store"><span data-ttu-id="5f3c0-211">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório que contém a pasta para o qual os itens da conversa serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-211">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store that contains the folder to which items of the conversation are moved.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-212">Define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica a pasta para o qual todos os itens de conversa existentes e novos itens que chegarem na conversa sempre serão movidos.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-212">Sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that indicates the folder to which all existing conversation items and new items that arrive in the conversation are always moved.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-213">O método <b>SetAlwaysMoveToFolder</b> opera em itens da conversa no repositório de entrega especificado pelo <paramref name="Store" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-213">The <b>SetAlwaysMoveToFolder</b> method operates on conversation items in the delivery store specified by the <paramref name="Store" /> parameter.</span></span> <span data-ttu-id="5f3c0-214">Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de mover se aplicará a itens de conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-214">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the move action will apply to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-215">Se o <paramref name="MoveToFolder" /> parâmetro especifica uma pasta inválida inexistente, foi movida ou é somente leitura, o Outlook irá gerar um erro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-215">If the <paramref name="MoveToFolder" /> parameter specifies an invalid folder that does not exist, has been moved, or is read-only, Outlook will raise an error.</span></span> </para>
+          <para><span data-ttu-id="5f3c0-216">Para interromper a ação de sempre mover-para pasta itens de conversa em um repositório, chame o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método</span><span class="sxs-lookup"><span data-stu-id="5f3c0-216">To stop the always-move-to-folder action for conversations items in a store, call the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method</span></span></para>
+          <para><span data-ttu-id="5f3c0-217">
+            <b>Observação</b>: a pasta Itens excluídos, como a definição de <paramref name="MoveToFolder" /> parâmetro em <b>SetAlwaysMoveToFolder</b> não é equivalente a chamar <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> no mesmo repositório e na conversa.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-217">
+            <b>Note</b>: Setting the Deleted Items folder as the <paramref name="MoveToFolder" /> parameter in <b>SetAlwaysMoveToFolder</b> is not equivalent to calling <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> on the same store and conversation.</span></span> <span data-ttu-id="5f3c0-218">Definindo o <paramref name="MoveToFolder" /> parâmetro para a pasta Itens excluídos resulta no <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método retornar o valor <b>olDoNotDelete</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-218">Setting the <paramref name="MoveToFolder" /> parameter to the Deleted Items folder results in the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method returning the value <b>olDoNotDelete</b>.</span></span></para>
+          <para><span data-ttu-id="5f3c0-219">O <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> eventos do objeto <b>Folder</b> ocorre quando você chama <b>SetAlwaysMoveToFolder</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-219">The <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> event of the <b>Folder</b> object occurs when you call <b>SetAlwaysMoveToFolder</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysDelete">
@@ -1041,38 +630,14 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-160">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório ao qual a ação de parar excluir sempre se aplica.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-160">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which the stop-always-delete action applies.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-161">Interrompe a ação de sempre mover itens de conversa do repositório especificado para a pasta Itens Excluídos desse repositório.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-161">Stops the action of always moving conversation items in the specified store to the Deleted Items folder in that store.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-162">
-            <para>Se a ação de excluir sempre não tiver sido ativada (chamando o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> método), <b>StopAlwaysDelete</b> não faz nada.</para>
-            <para>Se a ação de excluir sempre tiver sido ativada, <b>StopAlwaysDelete</b> moverá itens de conversa existentes na pasta Itens excluídos para a caixa de entrada.</para>
-            <para>Depois de chamar o método <b>StopAlwaysDelete</b> para uma conversa em um repositório, chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método nessa conversa e repositório retornará a constante <b>olDoNotDelete</b>.</para>
-            <para>Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar excluir sempre será aplicada aos itens da conversa no repositório de entrega padrão.</para>
-            <para>Chamar este método em uma conversa que já está na pasta Itens excluídos do repositório especificado retornará um erro.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-162">
-              <para>If the always-delete action has not been turned on (by calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> method), <b>StopAlwaysDelete</b> does nothing.</para>
-              <para>If the always-delete action has been turned on, <b>StopAlwaysDelete</b> moves existing conversation items in the Deleted Items folder to the Inbox.</para>
-              <para>After calling the <b>StopAlwaysDelete</b> method for a conversation in a store, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method on that conversation and store returns the constant <b>olDoNotDelete</b>.</para>
-              <para>If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-delete action is applied to conversation items in the default delivery store.</para>
-              <para>Calling this method on a conversation that is already in the Deleted Items folder in the specified store returns an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-220">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório ao qual a ação de parar excluir sempre se aplica.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-220">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store to which the stop-always-delete action applies.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-221">Interrompe a ação de sempre mover itens de conversa do repositório especificado para a pasta Itens Excluídos desse repositório.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-221">Stops the action of always moving conversation items in the specified store to the Deleted Items folder in that store.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-222">Se a ação de excluir sempre não tiver sido ativada (chamando o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> método), <b>StopAlwaysDelete</b> não faz nada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-222">If the always-delete action has not been turned on (by calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> method), <b>StopAlwaysDelete</b> does nothing.</span></span></para>
+          <para><span data-ttu-id="5f3c0-223">Se a ação de excluir sempre tiver sido ativada, <b>StopAlwaysDelete</b> moverá itens de conversa existentes na pasta Itens Excluídos para a Caixa de Entrada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-223">If the always-delete action has been turned on, <b>StopAlwaysDelete</b> moves existing conversation items in the Deleted Items folder to the Inbox.</span></span></para>
+          <para><span data-ttu-id="5f3c0-224">Depois de chamar o método <b>StopAlwaysDelete</b> para uma conversa em um repositório, chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método nessa conversa e repositório retornará a constante <b>olDoNotDelete</b>.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-224">After calling the <b>StopAlwaysDelete</b> method for a conversation in a store, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> method on that conversation and store returns the constant <b>olDoNotDelete</b>.</span></span></para>
+          <para><span data-ttu-id="5f3c0-225">Se o repositório especificado pelo <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar excluir sempre será aplicada aos itens da conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-225">If the store specified by the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-delete action is applied to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-226">Chamar esse método em uma conversa que já está na pasta Itens excluídos do repositório especificado retornará um erro.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-226">Calling this method on a conversation that is already in the Deleted Items folder in the specified store returns an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysMoveToFolder">
@@ -1097,34 +662,12 @@
         <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="785c6-163">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde os itens da conversa devem ser limpos residem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-163">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the conversation items to be cleaned up reside.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="785c6-164">Interrompe a ação de mover sempre itens de conversa do repositório especificado para uma pasta específica.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-164">Stops the action of always moving conversation items in the specified store to a specific folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="785c6-165">
-            <para>Se a ação de mover sempre não tiver sido ativada, <b>StopAlwaysMoveToFolder</b> não faz nada.</para>
-            <para>Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar-mover sempre se aplicará a itens de conversa no repositório de entrega padrão.</para>
-            <para>Depois de chamar o método <b>StopAlwaysMoveToFolder</b> , chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="785c6-165">
-              <para>If the always-move action has not been turned on, <b>StopAlwaysMoveToFolder</b> does nothing.</para>
-              <para>If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-move action will apply to conversation items in the default delivery store.</para>
-              <para>After you call the <b>StopAlwaysMoveToFolder</b> method, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="5f3c0-227">Uma <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa o repositório onde os itens da conversa devem ser limpos residem.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-227">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store where the conversation items to be cleaned up reside.</span></span></param>
+        <summary><span data-ttu-id="5f3c0-228">Interrompe a ação de mover sempre itens de conversa do repositório especificado para uma pasta específica.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-228">Stops the action of always moving conversation items in the specified store to a specific folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="5f3c0-229">Se a ação de mover sempre não tiver sido ativada, <b>StopAlwaysMoveToFolder</b> não fará nada.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-229">If the always-move action has not been turned on, <b>StopAlwaysMoveToFolder</b> does nothing.</span></span></para>
+          <para><span data-ttu-id="5f3c0-230">Se o <paramref name="Store" /> parameter representa um repositório de entrega, como um repositório. pst de arquivo morto, a ação de parar-mover sempre se aplicará a itens de conversa no repositório de entrega padrão.</span><span class="sxs-lookup"><span data-stu-id="5f3c0-230">If the <paramref name="Store" /> parameter represents a non-delivery store such as an archive .pst store, the stop-always-move action will apply to conversation items in the default delivery store.</span></span></para>
+          <para><span data-ttu-id="5f3c0-231">Depois de chamar o método <b>StopAlwaysMoveToFolder</b> , chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="5f3c0-231">After you call the <b>StopAlwaysMoveToFolder</b> method, calling the <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

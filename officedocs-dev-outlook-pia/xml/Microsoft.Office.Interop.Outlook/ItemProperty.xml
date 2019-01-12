@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630561" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905607" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e6b3e-101">Representa informações sobre determinada propriedade do item para um objeto item do Microsoft Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e6b3e-101">Represents information about a given item property for a Microsoft Outlook item object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="e6b3e-102">
-        <para>Cada propriedade de item define um certo atributo do item, o nome, tipo ou valor do item. O objeto <b>ItemProperty</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> conjunto.</para>
-        <para>Use <b>ItemProperties. item</b>(<paramref name="index" />), onde <paramref name="index" /> é a posição numérica do objeto dentro da coleção ou ele tem name para retornar um único objeto <b>ItemProperty</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e6b3e-102">
-          <para> Each item property defines a certain attribute of the item, such as the name, type, or value of the item. The <b>ItemProperty</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />  collection.</para>
-          <para>Use <b>ItemProperties.Item</b>(<paramref name="index" />), where <paramref name="index" /> is the object's numeric position within the collection or it's name to return a single <b>ItemProperty</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="291e5-101">Representa informações sobre determinada propriedade do item para um objeto item do Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="291e5-101">Represents information about a given item property for a Microsoft Outlook item object.</span></span></summary>
+    <remarks><para> <span data-ttu-id="291e5-102">Propriedade cada item define um certo atributo do item, como o nome, tipo ou valor do item.</span><span class="sxs-lookup"><span data-stu-id="291e5-102">Each item property defines a certain attribute of the item, such as the name, type, or value of the item.</span></span> <span data-ttu-id="291e5-103">O objeto <b>ItemProperty</b> é um membro do <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="291e5-103">The <b>ItemProperty</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" />  collection.</span></span></para>
+      <para><span data-ttu-id="291e5-104">Use <b>ItemProperties. item</b>(<paramref name="index" />), onde <paramref name="index" /> é a posição numérica do objeto dentro da coleção ou ele tem name para retornar um único objeto <b>ItemProperty</b> .</span><span class="sxs-lookup"><span data-stu-id="291e5-104">Use <b>ItemProperties.Item</b>(<paramref name="index" />), where <paramref name="index" /> is the object's numeric position within the collection or it's name to return a single <b>ItemProperty</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,16 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-103">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="e6b3e-104">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="291e5-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="291e5-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,16 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="e6b3e-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-107">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="291e5-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="291e5-108">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,12 +104,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-107">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-107">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-109">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="291e5-109">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -187,12 +140,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-108">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-108">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="291e5-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,16 +168,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-109">Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se a propriedade item é uma propriedade personalizada criada pelo usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-109">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates if the item property is a custom property created by the user.</span>
-          </span>
-          <span data-ttu-id="e6b3e-110">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-111">Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se a propriedade item é uma propriedade personalizada criada pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="291e5-111">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates if the item property is a custom property created by the user.</span></span> <span data-ttu-id="291e5-112">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,16 +196,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-111">Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-111">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="e6b3e-112">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-113">Retorna um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span><span class="sxs-lookup"><span data-stu-id="291e5-113">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="291e5-114">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,12 +224,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-p105">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-p106">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,41 +252,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-115">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-115">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="e6b3e-116">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-117">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="291e5-117">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="291e5-118">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-118">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6b3e-117">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="291e5-119">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="291e5-119">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="291e5-120">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="291e5-120">Both members serve the same purpose.</span></span> <span data-ttu-id="291e5-121">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="291e5-121">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-117">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -387,16 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-118">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante indicando o tipo do objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="e6b3e-119">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-122">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante indicando o tipo do objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="291e5-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="291e5-123">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="291e5-123">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -433,12 +324,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-120">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-120">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="291e5-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -475,12 +361,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-121">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-121">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="291e5-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -511,29 +392,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e6b3e-122">Retorna ou define um <b>objeto</b> que indica o valor da propriedade interna explícita ou personalizado especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-122">Returns or sets an <b>Object</b> indicating the value for the specified custom or explicit built-in property.</span>
-          </span>
-          <span data-ttu-id="e6b3e-123">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="291e5-126">Retorna ou define um <b>objeto</b> que indica o valor da propriedade interna explícita ou personalizado especificado.</span><span class="sxs-lookup"><span data-stu-id="291e5-126">Returns or sets an <b>Object</b> indicating the value for the specified custom or explicit built-in property.</span></span> <span data-ttu-id="291e5-127">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="291e5-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e6b3e-124">
-            <para>Embora <b>ItemProperty.Value</b> permite que você obtém ou define uma propriedade interna explícita ou uma propriedade personalizada, você pode fazer referência a propriedades internas explícitas diretamente do objeto pai, por exemplo, ContactItem.Body. Para obter mais informações sobre como acessar propriedades no Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Visão geral das propriedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e6b3e-124">
-              <para>Even though <b>ItemProperty.Value</b> allows you to get or set an explicit built-in property or a custom property, you can reference explicit built-in properties directly from the parent object, for example, ContactItem.Body. For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="291e5-128">Embora <b>ItemProperty.Value</b> permite que você obtém ou define uma propriedade interna explícita ou uma propriedade personalizada, você pode fazer referência a propriedades internas explícitas diretamente do objeto pai, por exemplo, ContactItem.Body.</span><span class="sxs-lookup"><span data-stu-id="291e5-128">Even though <b>ItemProperty.Value</b> allows you to get or set an explicit built-in property or a custom property, you can reference explicit built-in properties directly from the parent object, for example, ContactItem.Body.</span></span> <span data-ttu-id="291e5-129">Para obter mais informações sobre como acessar propriedades no Outlook, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Visão geral das propriedades</a></span><span class="sxs-lookup"><span data-stu-id="291e5-129">For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

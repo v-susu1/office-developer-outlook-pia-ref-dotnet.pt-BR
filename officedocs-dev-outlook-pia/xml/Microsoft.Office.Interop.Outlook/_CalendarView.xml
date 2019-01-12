@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630198" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896510" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c1ac1-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1ac1-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="c1ac1-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1ac1-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="c1ac1-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1ac1-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="c1ac1-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1ac1-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="16270-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="16270-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="16270-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="16270-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="16270-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="16270-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="16270-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span><span class="sxs-lookup"><span data-stu-id="16270-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-105">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="16270-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,12 +71,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-107">Aplica-se a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto para o modo de exibição atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-107">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object to the current view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-107">Aplica-se a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto para o modo de exibição atual.</span><span class="sxs-lookup"><span data-stu-id="16270-107">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object to the current view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,16 +98,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-108">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> as regras aplicáveis ao objeto que representa o conjunto de formatação a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-109">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-108">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> as regras aplicáveis ao objeto que representa o conjunto de formatação a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-109">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-109">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,16 +129,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-110">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os dias que contêm os itens do Outlook devem ser exibidos em negrito no navegador de data para o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether days that contain Outlook items should be displayed in bold within the Date Navigator for the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-111">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-110">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os dias que contêm os itens do Outlook devem ser exibidos em negrito no navegador de data para o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether days that contain Outlook items should be displayed in bold within the Date Navigator for the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-111">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-111">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -217,16 +160,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-112">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se as informações de assunto de itens do Outlook são exibidas em negrito em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the subject information for Outlook items is displayed in bold within a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-113">Leitura/gravação</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-113">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-112">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se as informações de assunto de itens do Outlook são exibidas em negrito em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the subject information for Outlook items is displayed in bold within a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-113">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="16270-113">Read/write</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,16 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarViewMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-114">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> que determina o modo de exibição atual do <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> that determines the current view mode of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-115">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-115">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-114">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> que determina o modo de exibição atual do <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarViewMode" /> that determines the current view mode of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-115">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-115">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,16 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-116">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="c1ac1-117">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-116">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="16270-117">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-117">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,30 +247,10 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="c1ac1-118">O nome do novo modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-118">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="c1ac1-119">A opção de gravação para o novo modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-119">The save option for the new view.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c1ac1-120">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto baseado em existentes <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="c1ac1-121">Um objeto <b>View</b> que representa o novo modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-121">A <b>View</b> object that represents the new view.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="16270-118">O nome do novo modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-118">The name of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="16270-119">A opção de gravação para o novo modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-119">The save option for the new view.</span></span></param>
+        <summary><span data-ttu-id="16270-120">Cria um novo <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto baseado em existentes <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-120">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span></summary>
+        <returns><span data-ttu-id="16270-121">Um objeto <b>View</b> que representa o novo modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-121">A <b>View</b> object that represents the new view.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -384,29 +280,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-122">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de dias consecutivos exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the number of consecutive days displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-123">Leitura/gravação</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-123">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-122">Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o número de dias consecutivos exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-122">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the number of consecutive days displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-123">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="16270-123">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-124">
-            <para>Essa propriedade pode ser definida como um valor entre 2 e 14. Se essa propriedade estiver definida como um valor menor que 2, a propriedade é definida como 2. Se essa propriedade for definida como um valor maior do que 14, a propriedade é definida como 14. O valor padrão para essa propriedade é 5.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-124">
-              <para>This property can be set to a value between 2 and 14. If this property is set to a value less than 2, the property is set to 2. If this property is set to a value greater than 14, the property is set to 14. The default value for this property is 5.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-124">Essa propriedade pode ser definida para um valor entre 2 e 14.</span><span class="sxs-lookup"><span data-stu-id="16270-124">This property can be set to a value between 2 and 14.</span></span> <span data-ttu-id="16270-125">Se essa propriedade for definida para um valor menor do que 2, ela será definida como 2.</span><span class="sxs-lookup"><span data-stu-id="16270-125">If this property is set to a value less than 2, the property is set to 2.</span></span> <span data-ttu-id="16270-126">Se essa propriedade for definida como um valor maior do que 14, a propriedade é definida como 14.</span><span class="sxs-lookup"><span data-stu-id="16270-126">If this property is set to a value greater than 14, the property is set to 14.</span></span> <span data-ttu-id="16270-127">O valor padrão para essa propriedade é 5.</span><span class="sxs-lookup"><span data-stu-id="16270-127">The default value for this property is 5.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -435,12 +312,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-128">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="16270-128">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -471,12 +343,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-126">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-126">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-129">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="16270-129">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -507,16 +374,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-127">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constante que representa a escala utilizada para representar os períodos de tempo em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constant that represents the scale used to represent time periods in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-128">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-130">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constante que representa a escala utilizada para representar os períodos de tempo em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-130">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDayWeekTimeScale" /> constant that represents the scale used to represent time periods in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-131">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-131">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,12 +400,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-129">Exclui um objeto de uma coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-129">Deletes an object from a collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-132">Exclui um objeto de uma coleção.</span><span class="sxs-lookup"><span data-stu-id="16270-132">Deletes an object from a collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -574,29 +427,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-130">Retorna uma matriz de <b>objeto</b> que contém as cadeias de caracteres que representam os dias exibidos em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-130">Returns an <b>Object</b> array containing strings that represent the days displayed in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-131">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-133">Retorna uma matriz de <b>objeto</b> que contém as cadeias de caracteres que representam os dias exibidos em um <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-133">Returns an <b>Object</b> array containing strings that represent the days displayed in a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-134">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-134">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-132">
-            <para>Essa propriedade retorna uma matriz de cadeias de caracteres de data, na qual cada cadeia de caracteres de data representa um dia exibido no objeto <b>CalendarView</b> . As cadeias de caracteres de data são formatadas usando as configurações de formato de data curta para o sistema operacional.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-132">
-              <para>This property returns an array of date strings, in which each date string represents a day displayed in the <b>CalendarView</b> object. The date strings are formatted using the short date format settings for the operating system.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-p112">Essa propriedade retorna uma matriz de cadeias de caracteres de data, na qual cada cadeia de caracteres de data representa um dia exibido no objeto <b>CalendarView</b>. As cadeias de caracteres de data são formatadas usando as configurações de formato de data curta para o sistema operacional.</span><span class="sxs-lookup"><span data-stu-id="16270-p112">This property returns an array of date strings, in which each date string represents a day displayed in the <b>CalendarView</b> object. The date strings are formatted using the short date format settings for the operating system.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -625,29 +459,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-133">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que termina o tempo de duração exibido em itens do Outlook a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-133">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that ends the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-134">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-134">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-137">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que termina o tempo de duração exibido em itens do Outlook a <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-137">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that ends the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-138">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-138">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-135">
-            <para>Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-135">
-              <para>The values of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> and <b>EndField</b> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item. Both custom and built-in properties can be specified, but only date/time properties are allowed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-139">Os valores da <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> e <b>EndField</b> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-139">The values of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> and <b>EndField</b> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item.</span></span> <span data-ttu-id="16270-140">Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</span><span class="sxs-lookup"><span data-stu-id="16270-140">Both custom and built-in properties can be specified, but only date/time properties are allowed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -676,29 +491,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-136">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-136">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-137">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-137">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-141">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o filtro para um modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-141">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span></span>  <span data-ttu-id="16270-142">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-138">
-            <para>O valor dessa propriedade é uma cadeia de caracteres na sintaxe do DAV Searching and Locating (DASL), que representa o filtro atual para o modo de exibição. Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-138">
-              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-143">O valor dessa propriedade é uma sequência de caracteres, na sintaxe DASL (DAV Searching and Locating), que representa o filtro atual para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-143">The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view.</span></span> <span data-ttu-id="16270-144">Para obter mais informações sobre como usar a sintaxe DASL para filtrar itens em um modo de exibição, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrando itens</a></span><span class="sxs-lookup"><span data-stu-id="16270-144">For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -724,18 +520,8 @@
         <Parameter Name="Date" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Date">
-          <span data-ttu-id="c1ac1-139">A data para a qual o modo de exibição deve ser alterado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-139">The date to which the view should be changed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="c1ac1-140">Altera a data utilizada pelo modo de exibição atual para exibir as informações.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-140">Changes the date used by the current view to display information.</span>
-          </span>
-        </summary>
+        <param name="Date"><span data-ttu-id="16270-145">A data para a qual o modo de exibição deve ser alterado.</span><span class="sxs-lookup"><span data-stu-id="16270-145">The date to which the view should be changed.</span></span></param>
+        <summary><span data-ttu-id="16270-146">Altera a data utilizada pelo modo de exibição atual para exibir as informações.</span><span class="sxs-lookup"><span data-stu-id="16270-146">Changes the date used by the current view to display information.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -765,27 +551,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-141">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-141">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-142">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-142">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-147">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a configuração de idioma para o modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-147">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span></span> <span data-ttu-id="16270-148">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-148">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-143">Propriedade <para>o <b>idioma</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO. Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</para><para>Se um código de idioma válido for especificado, o objeto só estará disponível no menu Exibir para o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto está disponível para todos os tipos de idioma. O valor padrão para essa propriedade será uma sequência vazia.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-143">
-              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
-              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-149">A propriedade <b>Language</b> usa uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) para representar uma marca de idioma ISO.</span><span class="sxs-lookup"><span data-stu-id="16270-149">The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag.</span></span> <span data-ttu-id="16270-150">Por exemplo, a cadeia de caracteres "EN-US" representa o código ISO "Estados Unidos - inglês."</span><span class="sxs-lookup"><span data-stu-id="16270-150">For example, the string "EN-US" represents the ISO code for "United States - English."</span></span></para>
+          <para><span data-ttu-id="16270-p119">Se um código de idioma válido for especificado, o objeto somente ficará disponível no menu Exibir com o tipo de idioma especificado. Se nenhum valor for especificado, o item do objeto ficará disponível para todos os tipos de idioma. O valor padrão para essa propriedade é uma sequência de caracteres vazia.</span><span class="sxs-lookup"><span data-stu-id="16270-p119">If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -814,29 +584,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-144">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-144">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-145">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-154">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se um usuário pode modificar as configurações do modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-154">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span></span> <span data-ttu-id="16270-155">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-155">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-146">
-            <para>Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-146">
-              <para>If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-p121">Se <b>True</b>, o usuário pode modificar as configurações do modo de exibição especificada. No entanto, as alterações feitas na interface não serão salvas. Se <b>Falso</b> (o padrão), as alterações serão salvas.</span><span class="sxs-lookup"><span data-stu-id="16270-p121">If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -865,12 +616,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-147">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-147">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-159">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span><span class="sxs-lookup"><span data-stu-id="16270-159">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -901,29 +647,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-148">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os horários de término para itens do Outlook são exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-148">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether end times for Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-149">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-149">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-160">Retorna ou define um valor <b>booleano</b> (<b>bool</b> em c#) que indica se os horários de término para itens do Outlook são exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-160">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether end times for Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-161">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-161">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-150">
-            <para>O valor dessa propriedade é aplicável somente quando o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> propriedade do objeto <b>CalendarView</b> é definida como <b>olCalendarViewMonth</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-150">
-              <para>The value of this property is applicable only when the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> property of the <b>CalendarView</b> object is set to <b>olCalendarViewMonth</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-162">O valor dessa propriedade é aplicável somente quando o <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> propriedade do objeto <b>CalendarView</b> é definida como <b>olCalendarViewMonth</b>.</span><span class="sxs-lookup"><span data-stu-id="16270-162">The value of this property is applicable only when the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> property of the <b>CalendarView</b> object is set to <b>olCalendarViewMonth</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -952,16 +679,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-151">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-151">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-152">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-152">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-163">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome de exibição para o objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-163">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="16270-164">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-164">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -989,12 +707,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-p117">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-p117">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-p124">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-p124">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1020,24 +733,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-155">Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-155">Resets a built-in Microsoft Outlook view to its original settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="c1ac1-156">
-            <para>Este método só funciona nos modos de exibição internos do Outlook.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-156">
-              <para>This method works only on built-in Outlook views.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="16270-167">Restabelece um modo de exibição interno do Microsoft Outlook para suas configurações originais.</span><span class="sxs-lookup"><span data-stu-id="16270-167">Resets a built-in Microsoft Outlook view to its original settings.</span></span></summary>
+        <remarks><para><span data-ttu-id="16270-168">Esse método só funciona nos modos de exibição internos do Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-168">This method works only on built-in Outlook views.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -1061,12 +759,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-157">Salva a exibição ou salva as alterações nela realizadas.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-157">Saves the view, or saves the changes to a view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-169">Salva a exibição ou salva as alterações nela realizadas.</span><span class="sxs-lookup"><span data-stu-id="16270-169">Saves the view, or saves the changes to a view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1093,29 +786,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-158">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-159">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-159">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-170">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica as pastas nas quais o modo de exibição especificado está disponível e as permissões de leitura anexadas ao modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-170">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span></span> <span data-ttu-id="16270-171">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-171">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-160">
-            <para>O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-160">
-              <para>The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-172">O valor da propriedade <b>SaveOption</b> é definido quando o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é criado utilizando o <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> método do <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> conjunto.</span><span class="sxs-lookup"><span data-stu-id="16270-172">The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -1141,35 +815,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-161">Retorna um valor de <b>data/hora</b> que representa a hora de término de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-161">Returns a <b>DateTime</b> value that represents the end time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-162">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-162">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-173">Retorna um valor de <b>data/hora</b> que representa a hora de término de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-173">Returns a <b>DateTime</b> value that represents the end time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-174">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-174">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-163">
-            <para>A intenção do <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> e as propriedades de <b>SelectedEndTime</b> é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
-            <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término da seleção.</para>
-            <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-            <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-163">
-              <para>The intent of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> and the <b>SelectedEndTime</b> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface. Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon. With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically. You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</para>
-              <para>If the selection in the calendar view is a time range and is not an item, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the selection.</para>
-              <para>If one or more items are selected in the calendar view, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the first item in the selection of the explorer that displays the calendar view. That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</para>
-              <para>To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method). There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-175">A intenção do <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> e as propriedades de <b>SelectedEndTime</b> é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-175">The intent of the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> and the <b>SelectedEndTime</b> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface.</span></span> <span data-ttu-id="16270-176">Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="16270-176">Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon.</span></span> <span data-ttu-id="16270-177">Com essas duas propriedades do objeto <b>CalendarView</b>, você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente.</span><span class="sxs-lookup"><span data-stu-id="16270-177">With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically.</span></span> <span data-ttu-id="16270-178">Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção na exibição calendário.</span><span class="sxs-lookup"><span data-stu-id="16270-178">You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</span></span></para>
+          <para><span data-ttu-id="16270-179">Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedEndTime</b> retornará um valor de <b>data/hora</b> igual à hora de término da seleção.</span><span class="sxs-lookup"><span data-stu-id="16270-179">If the selection in the calendar view is a time range and is not an item, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the selection.</span></span></para>
+          <para><span data-ttu-id="16270-180">Se um ou mais itens forem selecionados no modo de exibição calendário, o <b>SelectedEndTime</b> retornará um valor de <b>DateTime</b> igual à hora de término do primeiro item da seleção do explorer que exibe o modo de exibição de calendário.</span><span class="sxs-lookup"><span data-stu-id="16270-180">If one or more items are selected in the calendar view, <b>SelectedEndTime</b> returns a <b>DateTime</b> value equal to the end time of the first item in the selection of the explorer that displays the calendar view.</span></span> <span data-ttu-id="16270-181">Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-181">That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></para>
+          <para><span data-ttu-id="16270-182">Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método).</span><span class="sxs-lookup"><span data-stu-id="16270-182">To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method).</span></span> <span data-ttu-id="16270-183">Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado por <b>Application.ActiveExplorer </b>).</span><span class="sxs-lookup"><span data-stu-id="16270-183">There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -1195,35 +847,13 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-164">Retorna um valor de <b>data/hora</b> que representa a hora de início de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-164">Returns a <b>DateTime</b> value that represents the start time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-165">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-165">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-184">Retorna um valor de <b>data/hora</b> que representa a hora de início de uma seleção no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-184">Returns a <b>DateTime</b> value that represents the start time of a selection in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-185">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-185">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-166">
-            <para>A intenção do <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> propriedades é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook. Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office. Com essas duas propriedades do objeto <b>CalendarView</b> , você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente. Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção no modo de exibição calendário.</para>
-            <para>Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início da seleção.</para>
-            <para>Se um ou mais itens selecionados no modo de exibição calendário, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início do primeiro item da seleção do explorer que exibe o modo de exibição de calendário. Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-            <para>Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método). Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado pelo <b> Application.ActiveExplorer</b>).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-166">
-              <para>The intent of the <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface. Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon. With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically. You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</para>
-              <para>If the selection in the calendar view is a time range and is not an item, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the selection.</para>
-              <para>If one or more items are selected in the calendar view, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the first item in the selection of the explorer that displays the calendar view. That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</para>
-              <para>To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method). There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-186">A intenção do <b>SelectedStartTime</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> propriedades é replicar, programaticamente, da forma que os usuários criarem um compromisso na interface de usuário do Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-186">The intent of the <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> properties is to replicate, programmatically, the way that users create an appointment in the Microsoft Outlook user interface.</span></span> <span data-ttu-id="16270-187">Normalmente, um usuário seleciona um intervalo de tempo na exibição calendário e, em seguida, cria um novo compromisso clicando duas vezes a seleção ou clicando em novo compromisso, na guia página inicial da faixa de opções Fluent do Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="16270-187">Typically, a user selects a time range in the calendar view and then creates a new appointment by double clicking the selection or by clicking New Appointment in the Home tab of the Microsoft Office Fluent ribbon.</span></span> <span data-ttu-id="16270-188">Com essas duas propriedades do objeto <b>CalendarView</b>, você pode obter a hora de início e a hora de término de qualquer seleção naquele modo de exibição programaticamente.</span><span class="sxs-lookup"><span data-stu-id="16270-188">With these two properties of the <b>CalendarView</b> object, you can obtain the start time and the end time of any selection in that view programmatically.</span></span> <span data-ttu-id="16270-189">Você pode criar programaticamente a <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto, definindo o <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> e <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> propriedades do objeto <b>AppointmentItem</b> às propriedades <b>SelectedStartTime</b> e <b>SelectedEndTime</b> respectivamente para refletir qualquer usuário seleção na exibição calendário.</span><span class="sxs-lookup"><span data-stu-id="16270-189">You can then programmatically create the <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> object, setting the <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> and <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> properties of the <b>AppointmentItem</b> object to the <b>SelectedStartTime</b> and <b>SelectedEndTime</b> properties respectively to reflect any user selection in the calendar view.</span></span></para>
+          <para><span data-ttu-id="16270-190">Se a seleção no modo de exibição calendário for um intervalo de tempo e não é um item, <b>SelectedStartTime</b> retornará um valor de <b>data/hora</b> igual à hora de início da seleção.</span><span class="sxs-lookup"><span data-stu-id="16270-190">If the selection in the calendar view is a time range and is not an item, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the selection.</span></span></para>
+          <para><span data-ttu-id="16270-191">Se um ou mais itens forem selecionados no modo de exibição calendário, o <b>SelectedStartTime</b> retornará um valor de <b>DateTime</b> igual à hora de início do primeiro item da seleção do explorer que exibe o modo de exibição de calendário.</span><span class="sxs-lookup"><span data-stu-id="16270-191">If one or more items are selected in the calendar view, <b>SelectedStartTime</b> returns a <b>DateTime</b> value equal to the start time of the first item in the selection of the explorer that displays the calendar view.</span></span> <span data-ttu-id="16270-192">Que a seleção é especificada pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-192">That selection is specified by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></para>
+          <para><span data-ttu-id="16270-193">Para usar essa propriedade em um objeto <b>CalendarView</b> , obtenha o objeto <b>CalendarView</b> do <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> propriedade do objeto <b>Explorer</b> ativo (que pode ser retornado com o <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> método).</span><span class="sxs-lookup"><span data-stu-id="16270-193">To use this property on a <b>CalendarView</b> object, obtain the <b>CalendarView</b> object from the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> property of the active <b>Explorer</b> object (which can be returned by the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> method).</span></span> <span data-ttu-id="16270-194">Há um problema conhecido com o uso desta propriedade em um objeto <b>CalendarView</b> obtido, caso contrário - usando o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto (retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> propriedade do objeto representado por <b>Application.ActiveExplorer </b>).</span><span class="sxs-lookup"><span data-stu-id="16270-194">There is a known issue with using this property on an <b>CalendarView</b> object obtained otherwise - using the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object (returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> property of the object represented by <b>Application.ActiveExplorer</b>).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1249,41 +879,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-167">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-167">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="c1ac1-168">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-168">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-195">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="16270-195">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="16270-196">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-196">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-169">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="16270-197">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="16270-197">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="16270-198">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="16270-198">Both members serve the same purpose.</span></span> <span data-ttu-id="16270-199">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="16270-199">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-169">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -1309,29 +914,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-170">Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é um modo de exibição interno do Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-170">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is a built-in Outlook view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-171">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-171">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-200">Retorna um valor <b>booleano</b> (<b>bool</b> em c#) que indica se o <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto é um modo de exibição interno do Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-200">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object is a built-in Outlook view.</span></span> <span data-ttu-id="16270-201">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-201">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-172">
-            <para>O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-172">
-              <para>The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-202">O <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método só pode ser usado em um modo de exibição se o valor dessa propriedade estiver definido como <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="16270-202">The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -1360,29 +946,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-173">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que inicia a duração de tempo para itens do Outlook exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-173">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that starts the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span>
-          </span>
-          <span data-ttu-id="c1ac1-174">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-174">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-203">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o nome da propriedade que inicia a duração de tempo para itens do Outlook exibidos no <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="16270-203">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the name of the property that starts the time duration for Outlook items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> object.</span></span> <span data-ttu-id="16270-204">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-204">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-175">
-            <para>Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook. Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-175">
-              <para>The values of the <b>StartField</b> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item. Both custom and built-in properties can be specified, but only date/time properties are allowed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-205">Os valores da <b>StartField</b> e <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> propriedades indicam quais propriedades de item do Outlook são usadas pelo objeto <b>CalendarView</b> para representar a duração de um item do Outlook.</span><span class="sxs-lookup"><span data-stu-id="16270-205">The values of the <b>StartField</b> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> properties indicate which Outlook item properties are used by the <b>CalendarView</b> object to represent the duration of an Outlook item.</span></span> <span data-ttu-id="16270-206">Propriedades internas e personalizadas podem ser especificadas, mas apenas as propriedades de data/hora são permitidas.</span><span class="sxs-lookup"><span data-stu-id="16270-206">Both custom and built-in properties can be specified, but only date/time properties are allowed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1408,16 +975,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-176">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que indica o tipo de exibição do modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-176">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-177">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-177">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-207">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que indica o tipo de exibição do modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-207">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span></span> <span data-ttu-id="16270-208">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="16270-208">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1448,27 +1006,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c1ac1-178">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-178">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span>
-          </span>
-          <span data-ttu-id="c1ac1-179">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-179">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="16270-209">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica a definição XML do modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-209">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span></span> <span data-ttu-id="16270-210">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="16270-210">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="c1ac1-180">Definição de <para>o XML descreve o tipo de exibição usando uma série de marcas e palavras-chave correspondentes a várias propriedades do modo de exibição em si. Quando o modo de exibição é criado, a definição XML é analisada para transformar as configurações para o novo modo de exibição.</para><para>Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.  </para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c1ac1-180">
-              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
-              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="16270-p142">A definição XML descreve o tipo de modo de exibição usando uma série de rótulos e palavras-chaves correspondentes a várias propriedades do próprio modo de exibição. Quando o modo de exibição é criado, a definição XML é analisada para renderizar as configurações do novo modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-p142">The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</span></span></para>
+          <para><span data-ttu-id="16270-p143">Para determinar como o XML deve ser estruturado quando criar exibições, você pode criar um modo de exibição usando a interface de usuário do Outlook e, em seguida, é possível recuperar a propriedade <b>XML</b> para esse modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="16270-p143">To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
