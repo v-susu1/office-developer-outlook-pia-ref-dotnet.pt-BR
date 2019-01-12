@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControlEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ace53552d870de047458ea4d3f31ae51e1131a0d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630943" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeZoneControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ffd4b13a2783277c17f8b79a4ac7a06cf6e5fb22" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897721" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeZoneControlEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2507f-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2507f-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="f38a6-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span><span class="sxs-lookup"><span data-stu-id="f38a6-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,66 +40,34 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_AfterUpdateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-105">Ocorre depois que os dados do controle foram alterados através da interface do usuário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-105">Occurs after the data in the control has been changed through the user interface.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-106">
-            <para>
-              <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />e <b>AfterUpdate</b> pode ocorrer sempre que os dados no controle está sendo salva o item. A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira: </para>
-            <list type="number">
-              <item>
-                <description>usuário focaliza o controle</description>
-              </item>
-              <item>
-                <description>
-                  <b>BeforeUpdate</b> ocorre</description>
-              </item>
-              <item>
-                <description>dados do controle são atualizados</description>
-              </item>
-              <item>
-                <description>
-                  <b>AfterUpdate</b> ocorre </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> ocorre: usuário move o foco para longe do controle</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-106">
-              <para>
-                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" /> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item. The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:  </para>
-              <list type="number">
-                <item>
-                  <description>User focuses on the control</description>
-                </item>
-                <item>
-                  <description>
-                    <b>BeforeUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>Control data is updated</description>
-                </item>
-                <item>
-                  <description>
-                    <b>AfterUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control </description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-105">Ocorre depois que os dados do controle foram alterados através da interface do usuário.</span><span class="sxs-lookup"><span data-stu-id="f38a6-105">Occurs after the data in the control has been changed through the user interface.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-106">
+            <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" />e <b>AfterUpdate</b> pode ocorrer sempre que os dados no controle está sendo salva o item.</span><span class="sxs-lookup"><span data-stu-id="f38a6-106">
+            <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.BeforeUpdate" /> and <b>AfterUpdate</b> can occur any time the data in the control is being saved to the item.</span></span> <span data-ttu-id="f38a6-107">A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="f38a6-107">The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:</span></span>  </para>
+          <list type="number">
+            <item>
+              <description><span data-ttu-id="f38a6-108">O usuário focaliza o controle</span><span class="sxs-lookup"><span data-stu-id="f38a6-108">User focuses on the control</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-109">
+                <b>BeforeUpdate</b> ocorre</span><span class="sxs-lookup"><span data-stu-id="f38a6-109">
+                <b>BeforeUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-110">Os dados do controle são atualizados</span><span class="sxs-lookup"><span data-stu-id="f38a6-110">Control data is updated</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-111">
+                <b>AfterUpdate</b> ocorre</span><span class="sxs-lookup"><span data-stu-id="f38a6-111">
+                <b>AfterUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-112">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />ocorre: usuário move o foco para longe do controle</span><span class="sxs-lookup"><span data-stu-id="f38a6-112">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</span></span> </description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -130,68 +85,35 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_BeforeUpdateEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-107">Ocorre quando os dados do controle são alterados através da interface do usuário e estão prestes a serem salvos no item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-107">Occurs when the data in the control is changed through the user interface and is about to be saved to the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-108">
-            <para>Cancelar esta propriedade irá reverterá o controle para o valor atual da propriedade e retornará o foco para o controle.</para>
-            <para>
-              <b>BeforeUpdate</b> e <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> podem ocorrer a qualquer momento em que os dados no controle está sendo salva o item. A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira: </para>
-            <list type="number">
-              <item>
-                <description>usuário focaliza o controle</description>
-              </item>
-              <item>
-                <description>
-                  <b>BeforeUpdate</b> ocorre</description>
-              </item>
-              <item>
-                <description>dados do controle são atualizados</description>
-              </item>
-              <item>
-                <description>
-                  <b>AfterUpdate</b> ocorre </description>
-              </item>
-              <item>
-                <description>
-                  <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> ocorre: usuário move o foco para longe do controle</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-108">
-              <para>Canceling this property will revert the control to the current value of the property and return the focus to the control.</para>
-              <para>
-                <b>BeforeUpdate</b> and <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> can occur any time the data in the control is being saved to the item. The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:  </para>
-              <list type="number">
-                <item>
-                  <description>User focuses on the control</description>
-                </item>
-                <item>
-                  <description>
-                    <b>BeforeUpdate</b>  occurs</description>
-                </item>
-                <item>
-                  <description>Control data is updated</description>
-                </item>
-                <item>
-                  <description>
-                    <b>AfterUpdate</b> occurs</description>
-                </item>
-                <item>
-                  <description>
-                    <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-113">Ocorre quando os dados do controle são alterados através da interface do usuário e estão prestes a serem salvos no item.</span><span class="sxs-lookup"><span data-stu-id="f38a6-113">Occurs when the data in the control is changed through the user interface and is about to be saved to the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-114">Cancelar esta propriedade reverterá o controle para o valor atual da propriedade e retornará o foco para o controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-114">Canceling this property will revert the control to the current value of the property and return the focus to the control.</span></span></para>
+          <para><span data-ttu-id="f38a6-115">
+            <b>BeforeUpdate</b> e <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> podem ocorrer a qualquer momento em que os dados no controle está sendo salva o item.</span><span class="sxs-lookup"><span data-stu-id="f38a6-115">
+            <b>BeforeUpdate</b> and <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.AfterUpdate" /> can occur any time the data in the control is being saved to the item.</span></span> <span data-ttu-id="f38a6-116">A sequência típica de eventos envolvendo <b>AfterUpdate</b> para esse controle é da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="f38a6-116">The typical sequence of events involving <b>AfterUpdate</b> for this control is as follows:</span></span>  </para>
+          <list type="number">
+            <item>
+              <description><span data-ttu-id="f38a6-117">O usuário focaliza o controle</span><span class="sxs-lookup"><span data-stu-id="f38a6-117">User focuses on the control</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-118">
+                <b>BeforeUpdate</b> ocorre</span><span class="sxs-lookup"><span data-stu-id="f38a6-118">
+                <b>BeforeUpdate</b>  occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-119">Os dados do controle são atualizados</span><span class="sxs-lookup"><span data-stu-id="f38a6-119">Control data is updated</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-120">
+                <b>AfterUpdate</b> ocorre</span><span class="sxs-lookup"><span data-stu-id="f38a6-120">
+                <b>AfterUpdate</b> occurs</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="f38a6-121">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" />ocorre: usuário move o foco para longe do controle</span><span class="sxs-lookup"><span data-stu-id="f38a6-121">
+                <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.Exit" /> occurs: User moves focus away from control</span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -209,12 +131,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-109">Ocorre quando o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> alterações na propriedade.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-109">Occurs when the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> property changes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-122">Ocorre quando o <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> alterações na propriedade.</span><span class="sxs-lookup"><span data-stu-id="f38a6-122">Occurs when the <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.Value" /> property changes.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,12 +150,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-110">Ocorre quando o usuário clica dentro do controle.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-110">Occurs when the user clicks inside the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-123">Ocorre quando o usuário clica dentro do controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-123">Occurs when the user clicks inside the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -257,12 +169,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DoubleClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-111">Ocorre quando o usuário clica duas vezes dentro do controle.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-111">Occurs when the user double-clicks inside the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-124">Ocorre quando o usuário clica duas vezes dentro do controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-124">Occurs when the user double-clicks inside the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -281,12 +188,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_DropButtonClickEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-112">Ocorre quando o usuário clica no botão de soltar para expandir a lista suspensa do controle de fuso horário, ou quando o <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> método é chamado programaticamente.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-112">Occurs when the user clicks the drop button to expand the drop-down list in the time zone control, or when the <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> method is called programmatically.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-125">Ocorre quando o usuário clica no botão de soltar para expandir a lista suspensa do controle de fuso horário, ou quando o <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> método é chamado programaticamente.</span><span class="sxs-lookup"><span data-stu-id="f38a6-125">Occurs when the user clicks the drop button to expand the drop-down list in the time zone control, or when the <see cref="M:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl.DropDown" /> method is called programmatically.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -305,24 +207,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_EnterEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-113">Ocorre quando o controle recebe o foco, imediatamente após o evento <b>Exit</b> do controle o anterior.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-113">Occurs when the control receives focus, immediately after the previous control's <b>Exit</b> event.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-114">
-            <para>Este é semelhante ao evento <b>GotFocus</b> exposto por controles de código gerenciado ou no Microsoft Visual Basic 6.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-114">
-              <para>This is similar to the <b>GotFocus</b> event exposed by managed-code controls or in Microsoft Visual Basic 6.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-126">Ocorre quando o controle recebe o foco, imediatamente após o evento <b>Exit</b> do controle o anterior.</span><span class="sxs-lookup"><span data-stu-id="f38a6-126">Occurs when the control receives focus, immediately after the previous control's <b>Exit</b> event.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-p104">Este é semelhante ao evento <b>GotFocus</b> exposto por controles de código gerenciado ou no Microsoft Visual Basic 6.</span><span class="sxs-lookup"><span data-stu-id="f38a6-p104">This is similar to the <b>GotFocus</b> event exposed by managed-code controls or in Microsoft Visual Basic 6.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -340,12 +227,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_ExitEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-115">Ocorre logo depois que o foco passa deste controle para outro controle no mesmo formulário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-115">Occurs just after the focus passes from this control to another control on the same form.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-128">Ocorre logo depois que o foco passa deste controle para outro controle no mesmo formulário.</span><span class="sxs-lookup"><span data-stu-id="f38a6-128">Occurs just after the focus passes from this control to another control on the same form.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -364,24 +246,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyDownEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-116">Ocorre quando um usuário pressiona uma tecla.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-116">Occurs when a user presses a key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-117">
-            <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-117">
-              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-129">Ocorre quando um usuário pressiona uma tecla.</span><span class="sxs-lookup"><span data-stu-id="f38a6-129">Occurs when a user presses a key.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-130">O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyDown</b> está acessível através do <paramref name="Shift" /> parâmetro.</span><span class="sxs-lookup"><span data-stu-id="f38a6-130">The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -399,54 +266,24 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyPressEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-118">Ocorre quando o usuário pressiona uma tecla ANSI.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-118">Occurs when the user presses an ANSI key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-119">
-            <para>Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</para>
-            <para>Um evento <b>KeyPress</b> não ocorre sob as seguintes condições:</para>
-            <list type="bullet">
-              <item>
-                <para>Pressionando TAB </para>
-              </item>
-              <item>
-                <para>Pressionando insira </para>
-              </item>
-              <item>
-                <para>pressionando uma tecla de seta </para>
-              </item>
-              <item>
-                <para>quando um pressionamento de tecla faz o foco mover de um controle para outro</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-119">
-              <para>An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</para>
-              <para>A <b>KeyPress</b> event does not occur under the following conditions:  </para>
-              <list type="bullet">
-                <item>
-                  <para>Pressing TAB </para>
-                </item>
-                <item>
-                  <para>Pressing ENTER </para>
-                </item>
-                <item>
-                  <para>Pressing an arrow key </para>
-                </item>
-                <item>
-                  <para>When a keystroke causes the focus to move from one control to another</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-131">Ocorre quando o usuário pressiona uma tecla ANSI.</span><span class="sxs-lookup"><span data-stu-id="f38a6-131">Occurs when the user presses an ANSI key.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-p106">Uma tecla ANSI é aquele que produz um caractere digitável quando o usuário pressiona a ele. O evento <b>KeyPress</b> ocorre quando o usuário pressiona uma tecla ANSI em um formulário em execução enquanto o formulário ou um controle nele tem o foco. O evento pode ocorrer antes ou depois que a tecla é liberada.</span><span class="sxs-lookup"><span data-stu-id="f38a6-p106">An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</span></span></para>
+          <para><span data-ttu-id="f38a6-135">Um evento <b>KeyPress</b> não ocorre sob as seguintes condições:</span><span class="sxs-lookup"><span data-stu-id="f38a6-135">A <b>KeyPress</b> event does not occur under the following conditions:</span></span>  </para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="f38a6-136">Pressionando TAB</span><span class="sxs-lookup"><span data-stu-id="f38a6-136">Pressing TAB</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f38a6-137">Pressionando ENTER</span><span class="sxs-lookup"><span data-stu-id="f38a6-137">Pressing ENTER</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f38a6-138">Pressionando uma tecla de seta</span><span class="sxs-lookup"><span data-stu-id="f38a6-138">Pressing an arrow key</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="f38a6-139">Quando um pressionamento de tecla faz o foco mover de um controle para outro.</span><span class="sxs-lookup"><span data-stu-id="f38a6-139">When a keystroke causes the focus to move from one control to another</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -464,24 +301,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_KeyUpEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-120">Ocorre quando o usuário libera uma tecla.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-120">Occurs when the user releases a key.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-121">
-            <para>O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do parâmetro Shift.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-121">
-              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the Shift parameter.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-140">Ocorre quando o usuário libera uma tecla.</span><span class="sxs-lookup"><span data-stu-id="f38a6-140">Occurs when the user releases a key.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-p107">O estado das teclas modificadoras (SHIFT, CTRL ou ALT) que são pressionadas enquanto o evento <b>KeyUp</b> está acessível através do parâmetro Shift.</span><span class="sxs-lookup"><span data-stu-id="f38a6-p107">The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the Shift parameter.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -499,12 +321,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseDownEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-122">Ocorre quando o usuário pressiona um botão do mouse no controle.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-122">Occurs when the user presses a mouse button on the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-142">Ocorre quando o usuário pressiona um botão do mouse no controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-142">Occurs when the user presses a mouse button on the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -523,24 +340,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-123">Ocorre depois que um movimento do mouse foi registrado sobre o controle.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-123">Occurs after a mouse movement has been registered over the control.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="2507f-124">
-            <para>Pressionar a tecla ALT aciona o evento <b>MouseMove</b> .</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-124">
-              <para>Pressing the ALT key fires the <b>MouseMove</b> event.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="f38a6-143">Ocorre depois que um movimento do mouse foi registrado sobre o controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-143">Occurs after a mouse movement has been registered over the control.</span></span></summary>
+        <remarks><para><span data-ttu-id="f38a6-144">Pressionar a tecla ALT aciona o evento <b>MouseMove</b>.</span><span class="sxs-lookup"><span data-stu-id="f38a6-144">Pressing the ALT key fires the <b>MouseMove</b> event.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">
@@ -558,12 +360,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_MouseUpEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2507f-125">Ocorre depois que o usuário libera um botão do mouse que foi pressionado no controle.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2507f-125">Occurs after the user releases a mouse button that has been pressed on the control.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f38a6-145">Ocorre depois que o usuário libera um botão do mouse que foi pressionado no controle.</span><span class="sxs-lookup"><span data-stu-id="f38a6-145">Occurs after the user releases a mouse button that has been pressed on the control.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

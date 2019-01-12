@@ -1,13 +1,5 @@
 <Type Name="OlRuleActionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleActionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="500f2d31b3b2b2e3a92b96d60baaa1d1ff2b6db7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20630455" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleActionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2daea31e387847ebeb992ce5610348578c35a9ce" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901652" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleActionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleActionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleActionType" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="ecea0-101">Especifica o tipo de ação de regra de uma regra.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ecea0-101">Specifies the type of rule action for a rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ecea0-102">
-        <para>A lista de tipos de ação de regra nesta enumeração inclui todas as ações de regra que suporta as regras e alertas de assistente. Observe que embora programaticamente, você pode enumerar as ações de regra para uma regra, você pode programaticamente criar uma regra com apenas as ações de regra mais comumente usadas. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ecea0-102">
-          <para>The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="662c5-101">Especifica o tipo de ação de regra de uma regra.</span><span class="sxs-lookup"><span data-stu-id="662c5-101">Specifies the type of rule action for a rule.</span></span></summary>
+    <remarks><para><span data-ttu-id="662c5-102">The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports.</span><span class="sxs-lookup"><span data-stu-id="662c5-102">The list of rule action types in this enumeration includes all the rule actions that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="662c5-103">Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions.</span><span class="sxs-lookup"><span data-stu-id="662c5-103">Note that while you can programmatically enumerate all the rule actions for a rule, you can programmatically create a rule with only the most commonly used rule actions.</span></span> <span data-ttu-id="662c5-104">Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></span><span class="sxs-lookup"><span data-stu-id="662c5-104">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olRuleActionAssignToCategory">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-103">A ação de regra é para atribuir categorias à mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-103">Rule action is to assign categories to the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-105">A ação de regra é para atribuir categorias à mensagem.</span><span class="sxs-lookup"><span data-stu-id="662c5-105">Rule action is to assign categories to the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCcMessage">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-104">A ação de regra é para enviar cópia carbono da mensagem para destinatários especificados.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-104">Rule action is to cc the message to specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-106">A ação de regra é para enviar cópia carbono da mensagem para destinatários especificados.</span><span class="sxs-lookup"><span data-stu-id="662c5-106">Rule action is to cc the message to specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionClearCategories">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-105">A ação de regra é para limpar todas as categorias atribuídas à mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-105">Rule action is to clear all the categories assigned to the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-107">A ação de regra é para limpar todas as categorias atribuídas à mensagem.</span><span class="sxs-lookup"><span data-stu-id="662c5-107">Rule action is to clear all the categories assigned to the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCopyToFolder">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-106">A ação de regra é para copiar a mensagem para uma pasta especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-106">Rule action is to copy the message to a specified folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-108">A ação de regra é para copiar a mensagem para uma pasta especificada.</span><span class="sxs-lookup"><span data-stu-id="662c5-108">Rule action is to copy the message to a specified folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionCustomAction">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-107">A ação de regra é para realizar uma ação personalizada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-107">Rule action is to perform a custom action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-109">A ação de regra é para realizar uma ação personalizada.</span><span class="sxs-lookup"><span data-stu-id="662c5-109">Rule action is to perform a custom action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDefer">
@@ -176,12 +128,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-108">A ação de regra é para adiar a entrega da mensagem pelo número de minutos especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-108">Rule action is to defer delivery of the message by the specified number of minutes.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-110">A ação de regra é para adiar a entrega da mensagem pelo número de minutos especificado.</span><span class="sxs-lookup"><span data-stu-id="662c5-110">Rule action is to defer delivery of the message by the specified number of minutes.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDelete">
@@ -200,12 +147,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-109">A ação de regra é para excluir a mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-109">Rule action is to delete the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-111">A ação de regra é para excluir a mensagem.</span><span class="sxs-lookup"><span data-stu-id="662c5-111">Rule action is to delete the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDeletePermanently">
@@ -224,12 +166,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-110">A ação de regra é para excluir permanentemente a mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-110">Rule action is to permanently  delete the message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-112">A ação de regra é para excluir permanentemente a mensagem.</span><span class="sxs-lookup"><span data-stu-id="662c5-112">Rule action is to permanently  delete the message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionDesktopAlert">
@@ -248,12 +185,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-111">A ação de regra é para exibir um alerta de área de trabalho.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-111">Rule action is to display a desktop alert.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-113">A ação de regra é para exibir um alerta de área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="662c5-113">Rule action is to display a desktop alert.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagClear">
@@ -272,12 +204,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-112">A ação de regra é para limpar o sinalizador da mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-112">Rule action is to clear the message flag.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-114">A ação de regra é para limpar o sinalizador da mensagem.</span><span class="sxs-lookup"><span data-stu-id="662c5-114">Rule action is to clear the message flag.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagColor">
@@ -296,12 +223,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-113">A ação de regra é para sinalizar a mensagem com um sinalizador colorido.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-113">Rule action is to flag the message with a specified colored flag.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-115">A ação de regra é para sinalizar a mensagem com um sinalizador colorido.</span><span class="sxs-lookup"><span data-stu-id="662c5-115">Rule action is to flag the message with a specified colored flag.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionFlagForActionInDays">
@@ -320,12 +242,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-114">A ação de regra é para sinalizar a mensagem no número especificado de dias.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-114">Rule action is to flag the message for action in the specified number of days.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-116">A ação de regra é para sinalizar a mensagem no número especificado de dias.</span><span class="sxs-lookup"><span data-stu-id="662c5-116">Rule action is to flag the message for action in the specified number of days.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionForward">
@@ -344,12 +261,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-115">A ação de regra é para encaminhar a mensagem para os destinatários especificados.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-115">Rule action is to forward the message to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-117">A ação de regra é para encaminhar a mensagem para os destinatários especificados.</span><span class="sxs-lookup"><span data-stu-id="662c5-117">Rule action is to forward the message to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionForwardAsAttachment">
@@ -368,12 +280,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-116">A ação de regra é para encaminhar a mensagem como um anexo para os destinatários especificados.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-116">Rule action is to forward the message as an attachment to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-118">A ação de regra é para encaminhar a mensagem como um anexo para os destinatários especificados.</span><span class="sxs-lookup"><span data-stu-id="662c5-118">Rule action is to forward the message as an attachment to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionImportance">
@@ -392,12 +299,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-117">A ação de regra é para marcar a mensagem com o nível de importância especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-117">Rule action is to mark the message with the specified level of importance.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-119">A ação de regra é para marcar a mensagem com o nível de importância especificado.</span><span class="sxs-lookup"><span data-stu-id="662c5-119">Rule action is to mark the message with the specified level of importance.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMarkAsTask">
@@ -416,12 +318,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-118">A ação de regra é para marcar a mensagem como uma tarefa.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-118">Rule action is to mark the message as a task.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-120">A ação de regra é para marcar a mensagem como uma tarefa.</span><span class="sxs-lookup"><span data-stu-id="662c5-120">Rule action is to mark the message as a task.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMarkRead">
@@ -440,12 +337,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-119">A ação de regra é para marcar a mensagem como lida.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-119">Rule action is to mark the message as read.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-121">A ação de regra é para marcar a mensagem como lida.</span><span class="sxs-lookup"><span data-stu-id="662c5-121">Rule action is to mark the message as read.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionMoveToFolder">
@@ -464,12 +356,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-120">A ação de regra é para mover a mensagem para a pasta especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-120">Rule action is to move the message to the specified folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-122">A ação de regra é para mover a mensagem para a pasta especificada.</span><span class="sxs-lookup"><span data-stu-id="662c5-122">Rule action is to move the message to the specified folder.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNewItemAlert">
@@ -488,12 +375,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-121">A ação de regra é para exibir o texto especificado na caixa de diálogo Alerta de Novo Item.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-121">Rule action is to display the specified text in the New Item Alert dialog box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-123">A ação de regra é para exibir o texto especificado na caixa de diálogo Alerta de Novo Item.</span><span class="sxs-lookup"><span data-stu-id="662c5-123">Rule action is to display the specified text in the New Item Alert dialog box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNotifyDelivery">
@@ -512,12 +394,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-122">A ação de regra é para solicitar a notificação de entrega da mensagem que está sendo enviada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-122">Rule action is to request delivery notification for the message being sent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-124">A ação de regra é para solicitar a notificação de entrega da mensagem que está sendo enviada.</span><span class="sxs-lookup"><span data-stu-id="662c5-124">Rule action is to request delivery notification for the message being sent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionNotifyRead">
@@ -536,12 +413,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-123">A ação de regra é para solicitar a notificação de leitura da mensagem que está sendo enviada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-123">Rule action is to request read notification for the message being sent.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-125">A ação de regra é para solicitar a notificação de leitura da mensagem que está sendo enviada.</span><span class="sxs-lookup"><span data-stu-id="662c5-125">Rule action is to request read notification for the message being sent.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionPlaySound">
@@ -560,12 +432,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-124">A ação de regra é para reproduzir um arquivo de som.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-124">Rule action is to play a sound file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-126">A ação de regra é para reproduzir um arquivo de som.</span><span class="sxs-lookup"><span data-stu-id="662c5-126">Rule action is to play a sound file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionPrint">
@@ -584,12 +451,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-125">A ação de regra é para imprimir a mensagem na impressora padrão.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-125">Rule action is to print the message on the default printer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-127">A ação de regra é para imprimir a mensagem na impressora padrão.</span><span class="sxs-lookup"><span data-stu-id="662c5-127">Rule action is to print the message on the default printer.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionRedirect">
@@ -608,12 +470,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-126">A ação de regra é para redirecionar a mensagem para os destinatários especificados.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-126">Rule action is to redirect the message to the specified recipients.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-128">A ação de regra é para redirecionar a mensagem para os destinatários especificados.</span><span class="sxs-lookup"><span data-stu-id="662c5-128">Rule action is to redirect the message to the specified recipients.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionRunScript">
@@ -632,12 +489,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-127">A ação de regra é para executar um script.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-127">Rule action is to run a script.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-129">A ação de regra é para executar um script.</span><span class="sxs-lookup"><span data-stu-id="662c5-129">Rule action is to run a script.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionSensitivity">
@@ -656,12 +508,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-128">A ação de regra é para marcar a mensagem com o nível de sensibilidade especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-128">Rule action is to mark the message with the specified level of sensitivity.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-130">A ação de regra é para marcar a mensagem com o nível de sensibilidade especificado.</span><span class="sxs-lookup"><span data-stu-id="662c5-130">Rule action is to mark the message with the specified level of sensitivity.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionServerReply">
@@ -680,12 +527,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-129">A ação de regra é para solicitar ao servidor que responda com o item de correio especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-129">Rule action is to request the server to reply with the specified mail item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-131">A ação de regra é para solicitar ao servidor que responda com o item de correio especificado.</span><span class="sxs-lookup"><span data-stu-id="662c5-131">Rule action is to request the server to reply with the specified mail item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionStartApplication">
@@ -704,12 +546,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-130">A ação de regra é para executar um arquivo .exe.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-130">Rule action is to run an .exe file.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-132">A ação de regra é para executar um arquivo .exe.</span><span class="sxs-lookup"><span data-stu-id="662c5-132">Rule action is to run an .exe file.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionStop">
@@ -728,12 +565,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-131">A ação de regra é para parar o processamento de mais regras.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-131">Rule action is to stop processing more rules.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-133">A ação de regra é para parar o processamento de mais regras.</span><span class="sxs-lookup"><span data-stu-id="662c5-133">Rule action is to stop processing more rules.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionTemplate">
@@ -752,12 +584,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-132">A ação de regra é para usar o arquivo de modelo especificado (.oft) como um modelo de formulário.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-132">Rule action is to use the specified template (.oft) file as a form template.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-134">A ação de regra é para usar o arquivo de modelo especificado (.oft) como um modelo de formulário.</span><span class="sxs-lookup"><span data-stu-id="662c5-134">Rule action is to use the specified template (.oft) file as a form template.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRuleActionUnknown">
@@ -776,12 +603,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ecea0-133">Ação de regra desconhecida.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ecea0-133">Unrecognized rule action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="662c5-135">Ação de regra desconhecida.</span><span class="sxs-lookup"><span data-stu-id="662c5-135">Unrecognized rule action.</span></span></summary>
       </Docs>
     </Member>
   </Members>

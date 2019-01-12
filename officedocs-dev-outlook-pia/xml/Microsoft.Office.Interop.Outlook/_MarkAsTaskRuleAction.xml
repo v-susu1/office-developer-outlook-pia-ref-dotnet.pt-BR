@@ -1,13 +1,5 @@
 <Type Name="_MarkAsTaskRuleAction" FullName="Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cc08195b87f23ee9598f6fa75d5cd1052320cc84" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629859" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MarkAsTaskRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="cc08195b87f23ee9598f6fa75d5cd1052320cc84" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901764" /></Metadata><TypeSignature Language="C#" Value="public interface _MarkAsTaskRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MarkAsTaskRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MarkAsTaskRuleAction" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2b2b3-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2b2b3-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="2b2b3-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2b2b3-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="2b2b3-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2b2b3-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="2b2b3-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2b2b3-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="1ccc8-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="1ccc8-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="1ccc8-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="1ccc8-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,29 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-105">Retorna uma constante, <b>olRuleActionMarkAsTask</b>, a partir do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeração que indica o tipo de ação que será tomada pela regra.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-105">Returns a constant, <b>olRuleActionMarkAsTask</b>, from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeration that indicates the type of action that is taken by the rule.</span>
-          </span>
-          <span data-ttu-id="2b2b3-106">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-105">Retorna uma constante, <b>olRuleActionMarkAsTask</b>, a partir do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeração que indica o tipo de ação que será tomada pela regra.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-105">Returns a constant, <b>olRuleActionMarkAsTask</b>, from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> enumeration that indicates the type of action that is taken by the rule.</span></span> <span data-ttu-id="1ccc8-106">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2b2b3-107">
-            <para>A tarefa marcando a ação de regra é suportada apenas pelas regras para receber mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-107">
-              <para> The task marking rule action is supported only by rules for receiving  messages. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para> <span data-ttu-id="1ccc8-107">A tarefa marcando a ação de regra é suportada apenas pelas regras para receber mensagens.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-107">The task marking rule action is supported only by rules for receiving  messages.</span></span> <span data-ttu-id="1ccc8-108">Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar ações de regra</a></span><span class="sxs-lookup"><span data-stu-id="1ccc8-108">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -118,16 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-108">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="2b2b3-109">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-109">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="1ccc8-110">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,16 +102,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-110">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="2b2b3-111">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-111">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="1ccc8-112">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,29 +133,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-112">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a ação de regra é habilitada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the rule action is enabled.</span>
-          </span>
-          <span data-ttu-id="2b2b3-113">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-113">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-113">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a ação de regra é habilitada.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-113">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the rule action is enabled.</span></span> <span data-ttu-id="1ccc8-114">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-114">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2b2b3-114">
-            <para>Após habilitar uma regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a regra e seu estado habilitado persistirá além da sessão atual.  Uma regra é ativada somente depois que ela foi salva com êxito.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-114">
-              <para>After you enable a rule, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  and its enabled state will persist beyond the current session.  A rule is only enabled after it has been saved successfully. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1ccc8-115">Após habilitar uma regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a regra e seu estado habilitado persistirá além da sessão atual.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-115">After you enable a rule, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  and its enabled state will persist beyond the current session.</span></span>  <span data-ttu-id="1ccc8-116">Uma regra será habilitada somente depois de ter sido salva com êxito.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-116">A rule is only enabled after it has been saved successfully.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagTo">
@@ -246,29 +165,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-115">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o rótulo do sinalizador da mensagem.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-115">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents the label of the flag for the message.</span>
-          </span>
-          <span data-ttu-id="2b2b3-116">Leitura/gravação</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-116">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-117">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o rótulo do sinalizador da mensagem.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-117">Returns or sets a <b>String</b> (<b>string</b> in C#) that represents the label of the flag for the message.</span></span> <span data-ttu-id="1ccc8-118">Leitura/gravação</span><span class="sxs-lookup"><span data-stu-id="1ccc8-118">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2b2b3-117">
-            <para>Retorna um erro se <b>FlagTo</b> é uma sequência vazia.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-117">
-              <para>Returns an error if <b>FlagTo</b> is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1ccc8-119">Retorna um erro se <b>FlagTo</b> é uma sequência vazia.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-119">Returns an error if <b>FlagTo</b> is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkInterval">
@@ -297,16 +197,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-118">Retorna ou define uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" /> enumeração que representa o intervalo antes da tarefa é vencimento.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-118">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" /> enumeration that represents the interval before the task is due.</span>
-          </span>
-          <span data-ttu-id="2b2b3-119">Leitura/gravação.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-119">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-120">Retorna ou define uma constante no <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" /> enumeração que representa o intervalo antes da tarefa é vencimento.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-120">Returns or sets a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" /> enumeration that represents the interval before the task is due.</span></span> <span data-ttu-id="1ccc8-121">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-121">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -334,25 +225,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-p108">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-p110">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2b2b3-122">
-            <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-122">
-              <para>The parent object is the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="1ccc8-124">O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-124">The parent object is the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -378,41 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="2b2b3-123">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-123">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="2b2b3-124">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1ccc8-125">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-125">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="1ccc8-126">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-126">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="2b2b3-125">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="1ccc8-127">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-127">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="1ccc8-128">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="1ccc8-128">Both members serve the same purpose.</span></span> <span data-ttu-id="1ccc8-129">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="1ccc8-129">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="2b2b3-125">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

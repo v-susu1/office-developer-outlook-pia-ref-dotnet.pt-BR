@@ -1,13 +1,5 @@
 <Type Name="_Explorers" FullName="Microsoft.Office.Interop.Outlook._Explorers">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="efcf514c6497c472befc921ae5df2f373d72013e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629718" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorers : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="efcf514c6497c472befc921ae5df2f373d72013e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897462" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorers : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorers implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorers" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorers&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b0c0d-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b0c0d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="b0c0d-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b0c0d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="b0c0d-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b0c0d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="b0c0d-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b0c0d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="67a57-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="67a57-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="67a57-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="67a57-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="67a57-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="67a57-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="67a57-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />.</span><span class="sxs-lookup"><span data-stu-id="67a57-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,46 +49,13 @@
         <Parameter Name="DisplayMode" Type="Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" />
       </Parameters>
       <Docs>
-        <param name="Folder">
-          <span data-ttu-id="b0c0d-105">O objeto a ser exibido na janela do explorer quando ele é criado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-105">The object to display in the explorer window when it is created.</span>
-          </span>
-        </param>
-        <param name="DisplayMode">
-          <span data-ttu-id="b0c0d-106">O modo de exibição da pasta.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-106">The display mode of the folder.</span>
-          </span>
-          <span data-ttu-id="b0c0d-107">Pode ser uma do <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> constantes.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-107">Can be one of the <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> constants.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b0c0d-108">Cria uma nova instância da janela do Explorer.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-108">Creates a new instance of the explorer window.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b0c0d-109">Um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object que representa uma nova instância da janela.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-109">An <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object that represents a  new instance of the window.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b0c0d-110">
-            <para>O <paramref name="Folder" /> argumento pode representar um um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto ou a URL dessa pasta.</para> Janela de 
-          <para>o explorer está inicialmente oculta. Você deve chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método do objeto <b>Explorer</b> para torná-las visíveis.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-110">
-              <para>The <paramref name="Folder" /> argument can represent either a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object or the URL to that folder.</para>
-              <para>The explorer window is initially hidden. You must call the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />  method of the <b>Explorer</b> object to make it visible.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Folder"><span data-ttu-id="67a57-105">O objeto a ser exibido na janela do explorer quando ele é criado.</span><span class="sxs-lookup"><span data-stu-id="67a57-105">The object to display in the explorer window when it is created.</span></span></param>
+        <param name="DisplayMode"><span data-ttu-id="67a57-106">O modo de exibição da pasta.</span><span class="sxs-lookup"><span data-stu-id="67a57-106">The display mode of the folder.</span></span> <span data-ttu-id="67a57-107">Pode ser uma do <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> constantes.</span><span class="sxs-lookup"><span data-stu-id="67a57-107">Can be one of the <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> constants.</span></span></param>
+        <summary><span data-ttu-id="67a57-108">Cria uma nova instância da janela do Explorer.</span><span class="sxs-lookup"><span data-stu-id="67a57-108">Creates a new instance of the explorer window.</span></span></summary>
+        <returns><span data-ttu-id="67a57-109">Um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object que representa uma nova instância da janela.</span><span class="sxs-lookup"><span data-stu-id="67a57-109">An <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object that represents a  new instance of the window.</span></span></returns>
+        <remarks><para><span data-ttu-id="67a57-110">O <paramref name="Folder" /> argumento pode representar um um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto ou a URL dessa pasta.</span><span class="sxs-lookup"><span data-stu-id="67a57-110">The <paramref name="Folder" /> argument can represent either a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object or the URL to that folder.</span></span></para>
+          <para><span data-ttu-id="67a57-111">A janela do explorer está inicialmente oculta.</span><span class="sxs-lookup"><span data-stu-id="67a57-111">The explorer window is initially hidden.</span></span> <span data-ttu-id="67a57-112">Você deve chamar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método do objeto <b>Explorer</b> para torná-las visíveis.</span><span class="sxs-lookup"><span data-stu-id="67a57-112">You must call the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" />  method of the <b>Explorer</b> object to make it visible.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -139,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b0c0d-111">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="b0c0d-112">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67a57-113">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto.</span><span class="sxs-lookup"><span data-stu-id="67a57-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="67a57-114">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="67a57-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,16 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b0c0d-113">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="b0c0d-114">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67a57-115">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto.</span><span class="sxs-lookup"><span data-stu-id="67a57-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="67a57-116">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="67a57-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,16 +137,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b0c0d-115">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-115">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="b0c0d-116">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67a57-117">Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada.</span><span class="sxs-lookup"><span data-stu-id="67a57-117">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="67a57-118">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="67a57-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,24 +168,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="b0c0d-117">O número do índice do objeto ou um valor usado para corresponder à propriedade padrão de um objeto da coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-117">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b0c0d-118">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto da coleção.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="b0c0d-119">Um objeto <b>Explorer</b> que representa o objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-119">An <b>Explorer</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="67a57-119">O número do índice do objeto ou um valor usado para corresponder à propriedade padrão de um objeto da coleção.</span><span class="sxs-lookup"><span data-stu-id="67a57-119">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="67a57-120">Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto da coleção.</span><span class="sxs-lookup"><span data-stu-id="67a57-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="67a57-121">Um objeto <b>Explorer</b> que representa o objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="67a57-121">An <b>Explorer</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -297,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b0c0d-p106">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67a57-p107">Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="67a57-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -330,41 +225,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b0c0d-122">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-122">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="b0c0d-123">Somente leitura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67a57-124">Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="67a57-124">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="67a57-125">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="67a57-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b0c0d-124">
-            <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="67a57-126">A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual.</span><span class="sxs-lookup"><span data-stu-id="67a57-126">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="67a57-127">Ambos os membros têm a mesma finalidade.</span><span class="sxs-lookup"><span data-stu-id="67a57-127">Both members serve the same purpose.</span></span> <span data-ttu-id="67a57-128">Por exemplo, os seguintes pares de instruções executam a mesma função:</span><span class="sxs-lookup"><span data-stu-id="67a57-128">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b0c0d-124">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
