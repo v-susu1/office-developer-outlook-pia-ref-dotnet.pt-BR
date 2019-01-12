@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629536" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906188" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -108,49 +100,47 @@
       <Docs>
         <summary>Retorna um objeto de item que representa o item de resposta ativo embutidas no painel de leitura explorer. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode usar a maioria das propriedades e métodos do <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto neste item. Você não pode usar os seguintes métodos:</para>
+        <remarks><para>Você pode usar a maioria das propriedades e métodos do <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto neste item. Você não pode usar os seguintes métodos:</para>
           <list type="bullet">
             <item>
               <para>
-                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> propriedade</para>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />propriedade</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> método </para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />método</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> método</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />método</para>
             </item>
           </list>
-          <para>essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura.</para>
-          <para />
-        </remarks>
+          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -178,8 +168,7 @@
       <Docs>
         <summary>Retorna a palavra <see cref="T:Microsoft.Office.Interop.Word.Document" /> objeto da resposta embutida ativa que é exibido no painel de leitura do explorer. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura. O objeto retornado de <b>documento</b> do Word fornece acesso a maior parte do modelo de objeto do Word, exceto os membros a seguir:</para>
+        <remarks><para>Essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#) quando nenhuma resposta embutida está visível no painel de leitura. O objeto retornado de <b>documento</b> do Word fornece acesso a maior parte do modelo de objeto do Word, exceto os membros a seguir:</para>
           <list type="bullet">
             <item>
               <para>
@@ -217,8 +206,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -246,60 +234,58 @@
       <Docs>
         <param name="Item">O item que será adicionado à seleção do Explorer ativo.</param>
         <summary>Adiciona o item especificado Microsoft Outlook à seleção do Explorer ativo.</summary>
-        <remarks>
-          <para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
-          <para>a serem selecionados, o item deve ser selecionável na exibição atual do explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível no modo de exibição. </para>
-          <para>Sob as seguintes condições, o Outlook retornará um erro quando você chama o método <b>AddToSelection</b> :</para>
+        <remarks><para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
+          <para>Para ser selecionado, o item deve ser selecionável na exibição atual do Explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível na exibição. </para>
+          <para>Sob as seguintes condições, o Outlook retornará um erro quando você chama o método <b>AddToSelection</b>:</para>
           <list type="bullet">
             <item>
-              <para>o item especificado não está no modo de exibição atual do explorer ativo.</para>
+              <para>O item especificado não está na exibição atual do Explorer ativo.</para>
             </item>
             <item>
-              <para>o item especificado está sendo editado na exibição atual do explorer ativo.</para>
+              <para>O item especificado está sendo editado na exibição atual do Explorer ativo.</para>
             </item>
             <item>
-              <para>o modo de exibição atual foi filtrado e o aplicativo do filtro removeu o item do modo de exibição.</para>
+              <para>A exibição atual foi filtrada e o aplicativo do filtro removeu o item da exibição.</para>
             </item>
             <item>
-              <para>o item especificado não foi salvo.</para>
+              <para>O item especificado não foi salvo.</para>
             </item>
             <item>
-              <para>o item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              <para>O item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
             </item>
             <item>
-              <para>Não existe exibição atual para o explorer ativo.</para>
+              <para>Não há exibição atual do Explorer ativo.</para>
             </item>
           </list>
           <para>Se o item não está selecionado e for selecionável na exibição atual, chamar <b>AddToSelection</b> causas o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento seja acionado.</para>
-          <para>De chamada de <b>AddToSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para>
-          <para>a tabela a seguir ilustra os resultados de chamar <b>AddToSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade) e se o painel de leitura é exibido.</para>
+          <para>Chamar <b>AddToSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para>
+          <para>A tabela a seguir ilustra os resultados de chamar <b>AddToSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade) e se o painel de leitura é exibido.</para>
           <list type="table">
             <item>
               <description>0</description>
               <description>Sim</description>
-              <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado. Painel de leitura exibe o item.</description>
+              <description>O item é adicionado à seleção. <b>SelectionChange</b> é acionada. Painel de leitura exibe o item.</description>
             </item>
             <item>
               <description>0</description>
-              <description>não</description>
-              <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado.</description>
+              <description>Não</description>
+              <description>O item é adicionado à seleção. <b>SelectionChange</b> é acionada.</description>
             </item>
             <item>
-              <description> &gt;= 1</description>
+              <description>&gt;= 1</description>
               <description>Sim</description>
-              <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado. Ler o painel não altera o item que exibir, a menos que o modo de exibição é um modo de exibição de calendário, nesse caso, chamar <b>AddToSelection</b> pode fazer com que o painel de leitura exiba outro item.</description>
+              <description>O item é adicionado à seleção. <b>SelectionChange</b> é acionada. Painel de leitura não alterará o item que exibir, a menos que o modo de exibição é um modo de exibição calendário, nesse caso, chamar <b>AddToSelection</b> pode fazer com que o painel de leitura exiba outro item.</description>
             </item>
             <item>
-              <description> &gt;= 1</description>
-              <description>não</description>
-              <description>o item é adicionado à seleção.<b> SelectionChange</b> é acionado.</description>
+              <description>&gt;= 1</description>
+              <description>Não</description>
+              <description>O item é adicionado à seleção. <b>SelectionChange</b> é acionada.</description>
             </item>
           </list>
           <para>Se o item especificado já está selecionado no explorer ativo, chamar <b>AddToSelection</b> não resultará em nenhuma alteração na seleção e o evento <b>SelectionChange</b> não é acionado.</para>
-          <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento ao método <b>AddToSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você passar uma variável de instância que representa as séries de compromisso ou uma tarefa e o método <b>AddToSelection</b> opera em série, em vez da ocorrência. </para>
-          <para>Nota que você pode usar <b>AddToSelection</b> para adicionar itens a uma seleção, mas você não pode adicionar cabeçalhos de conversas a uma seleção.</para>
-          <para />
-        </remarks>
+          <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento para o método <b>AddToSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você passar uma variável de instância que representa as séries de compromisso ou uma tarefa e o método <b>AddToSelection</b> opera em série, em vez da ocorrência. </para>
+          <para>Observe que você pode usar <b>AddToSelection</b> para adicionar itens a uma seleção, mas você não pode adicionar cabeçalhos de conversas a uma seleção.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -436,11 +422,9 @@
       <Parameters />
       <Docs>
         <summary>Limpa os resultados de pesquisa instantânea da Microsoft em uma <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> se os resultados são exibidos no <b>Explorer</b>.</summary>
-        <remarks>
-          <para>a funcionalidade deste método é semelhante ao botão Limpar na pesquisa instantânea.   </para>
-          <para>Se nenhum resultado de pesquisa é exibido no Explorer, <b>ClearSearch</b> não terão qualquer ação. Se o modo de exibição atual do <b>Explorer</b> não apresentar um modo de exibição de pesquisa, <b>ClearSearch</b> não irá gerar um erro.</para>
-          <para />
-        </remarks>
+        <remarks><para>A funcionalidade deste método é semelhante ao botão Limpar na pesquisa instantânea.   </para>
+          <para>Se nenhum resultado de pesquisa é exibido no Explorer, <b>ClearSearch</b> não executará qualquer ação. Se o modo de exibição atual do <b>Explorer</b> não apresentar um modo de exibição de pesquisa, <b>ClearSearch</b> não irá gerar um erro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -465,14 +449,12 @@
       <Parameters />
       <Docs>
         <summary>Cancela qualquer seleção do Explorer ativo.</summary>
-        <remarks>
-          <para>Depois que o método <b>ClearSelection</b> é chamado, o <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> do objeto que o <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade retorna for zero. Então, o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado, a menos que antes da chamada de <b>ClearSelection</b>, a exibição atual não contiver nenhum item, a pasta atual estava vazia ou a propriedade <b>Count</b> já era zero. </para>
+        <remarks><para>Depois que o método <b>ClearSelection</b> é chamado, o <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> do objeto que o <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade retorna for zero. Então, o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado, a menos que antes da chamada de <b>ClearSelection</b>, a exibição atual não contiver nenhum item, a pasta atual estava vazia ou a propriedade <b>Count</b> já era zero. </para>
           <para>Se o painel de leitura estiver visível e o modo de exibição atual é um modo de exibição de tabela, chamar <b>ClearSelection</b> processa o painel de leitura em branco.</para>
-          <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>ClearSelection</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b> .</para>
+          <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>ClearSelection</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b>.</para>
           <para>
             <b>ClearSelection</b> retorna um erro se o item está sendo editado na exibição atual.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -559,10 +541,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa a pasta atual exibida no explorer. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Use essa propriedade para alterar a pasta em que o usuário está exibindo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Use esta propriedade para alterar a pasta que o usuário está exibindo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -593,10 +573,9 @@
       <Docs>
         <summary>Retorna ou define um <b>objeto</b> que representa o modo de exibição atual. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obter um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição do atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer. CurrentView</b> em vez do <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-          <para>Você deve salvar uma referência ao objeto <b>View</b> retornado por <b>CurrentView</b> , antes de prosseguir para usá-lo para qualquer fim.</para>
-          <para>Adequadamente redefinir o modo de exibição atual, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
+        <remarks><para>Para obter um <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto para o modo de exibição do atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer. CurrentView</b> em vez do <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> propriedade do atual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto retornado pela <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+          <para>Você deve salvar uma referência ao objeto <b>View</b> retornado por <b>CurrentView</b>, antes de prosseguir para usá-lo para qualquer fim.</para>
+          <para>Para redefinir o modo de exibição atual corretamente, você deve fazer uma <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> e um <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. O exemplo de código a seguir ilustra a ordem das chamadas:</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -615,9 +594,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para>Quando essa propriedade estiver definida, dois eventos ocorrem: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> ocorre antes que a alteração do modo de exibição real acontece e pode ser usada para cancelar a alteração e <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> ocorre Depois que a alteração entrará em vigor.</para>
-          <para />
-        </remarks>
+          <para>Quando essa propriedade é definida, ocorrem dois eventos: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> ocorre antes que a alteração do modo de exibição real acontece e pode ser usada para cancelar a alteração e <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> ocorre a após a alteração entrará em vigor.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -673,11 +651,9 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Exibe um novo <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto para a pasta.</summary>
-        <remarks>
-          <para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
-          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto do Microsoft Outlook, você recebe o código de retorno E_FAIL nas linguagens de programação C ou C++. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método <b>Display</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>O método de <b>exibição</b> é suportado para o windows explorer e inspector para fins de compatibilidade com versões anteriores. Para ativar uma janela do explorer ou inspector, use o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
+          <para>Se você tentar abrir um objeto de sistema de arquivo "inseguro" (ou arquivo "freedoc") usando o modelo de objeto Microsoft Outlook, você recebe o código de retorno E_FAIL no C ou C++ linguagens de programação. No Outlook 2000 e versões anteriores, você pode abrir um objeto de sistema de arquivo "inseguro" usando o método de <b>exibição</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -736,10 +712,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um objeto <b>HTMLDocument</b> que especifica o modelo de objeto HTML associado ao documento HTML na exibição atual (assumindo que existe uma). Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para usar essa propriedade, usando uma pasta uma home page de pasta, ou você pode definir o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto como uma página da Web.</para>
-          <para />
-        </remarks>
+        <remarks><para>Para usar essa propriedade, usando uma pasta uma home page de pasta, ou você pode definir o <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto como uma página da Web.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -800,14 +774,12 @@ End Sub</code>
         <param name="Item">O item que está sendo considerado para seleção.</param>
         <summary>Retorna um valor que indica se o item do Microsoft Outlook especificado pode ser selecionado na exibição atual do Explorer ativo.</summary>
         <returns>Retorna um <see cref="T:System.Boolean" /> (<b>bool</b> para c#) valor que indica se o item especificado pode ser selecionado na exibição atual.</returns>
-        <remarks>
-          <para>Retorna <b>True</b> se o item pode ser selecionado na exibição atual; Caso contrário, retornará <b>False</b>. </para>
-          <para>o método retorna <b>verdadeiro</b> ou <b>Falso</b> , dependendo se o item é selecionável no modo de exibição. Ele não indica se o item está visível no modo de exibição. Se o item está contido dentro de um grupo recolhido no modo de exibição, o método retornará <b>False</b>. </para>
-          <para>Se edição na célula está ativada para o modo de exibição atual para o explorer ativo e a edição na célula estiver em andamento no item, o método retorna <b>False</b>. Se o modo de exibição atual for um modo de exibição de tabela, você pode verificar a edição na célula usando a <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Da mesma forma, se o modo de exibição atual for um modo de exibição de cartão, você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> objeto.</para>
-          <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como argumento para o método <b>IsItemSelectableInView</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa o compromisso ou série de tarefa e o método <b>IsItemSelectableInView</b> seria estar operando na série em vez do ocorrência. </para>
-          <para>o método <b>IsItemSelectableInView</b> evidencia um erro se o modo de exibição atual é um modo de exibição de conversa.</para>
-          <para />
-        </remarks>
+        <remarks><para>Retorna <b>True</b> se o item pode ser selecionado na exibição atual; Caso contrário, retornará <b>False</b>.</para>
+          <para>O método retorna <b>verdadeiro</b> ou <b>Falso</b>, dependendo se o item é selecionável no modo de exibição. Ele não indica se o item está visível no modo de exibição. Se o item está contido dentro de um grupo recolhido no modo de exibição, o método retornará <b>False</b>.</para>
+          <para>Se a edição na célula está ativada para o modo de exibição atual para o explorer ativo e edição na célula estiver em andamento no item, o método retornará <b>False</b>. Se o modo de exibição atual for um modo de exibição de tabela, você pode verificar a edição na célula usando a <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> objeto. Da mesma forma, se o modo de exibição atual for um modo de exibição de cartão, você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> objeto.</para>
+          <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como argumento para o método <b>IsItemSelectableInView</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa as séries de compromisso ou uma tarefa e o método <b>IsItemSelectableInView</b> seria estar operando na série, em vez da ocorrência. </para>
+          <para>O método <b>IsItemSelectableInView</b> evidencia um erro se o modo de exibição atual é um modo de exibição de conversa.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -835,12 +807,9 @@ End Sub</code>
       <Docs>
         <param name="Pane">O painel a ser verificado.</param>
         <summary>Retorna um <b>Boolean</b> (<b>bool</b> em c#) indicando se um painel explorer específico está visível.</summary>
-        <returns>
-          <b>True</b> se o painel especificado é exibido no explorer; Caso contrário, <b>False</b>.</returns>
-        <remarks>
-          <para>Você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para determinar se o painel atalhos está visível.</para>
-          <para />
-        </remarks>
+        <returns><b>True</b> se o painel especificado é exibido no explorer; Caso contrário, <b>False</b>.</returns>
+        <remarks><para>Você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para determinar se o painel atalhos está visível.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -899,10 +868,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object que representa o painel de navegação para um <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Alguns objetos <b>Explorer</b> talvez não tenha um objeto <b>NavigationPane</b> associado. Nesses casos, essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#)</para>
-          <para />
-        </remarks>
+        <remarks><para>Alguns objetos <b>Explorer</b> talvez não tenha um objeto <b>NavigationPane</b> associado. Nesses casos, essa propriedade retornará <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -986,35 +953,64 @@ End Sub</code>
       <Docs>
         <param name="Item">O item que será removido da seleção.</param>
         <summary>Cancela a seleção do item do Microsoft Outlook especificado no Explorer ativo.</summary>
-        <remarks>
-          <para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
-          <para>a ser removido, um item deve ser selecionável na exibição atual do explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível no modo de exibição. </para>
+        <remarks><para>A seleção do Explorer ativo é representada pelo <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que é retornado pelo <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> propriedade.</para>
+          <para>Para ser removido, um item deve ser selecionável na exibição atual do explorer ativo. Use o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> método para determinar se o item pode ser selecionado no modo de exibição. O item não precisa estar visível na exibição. </para>
           <para>Sob as seguintes condições, o Outlook retornará um erro quando você chama o método <b>RemoveFromSelection</b> :</para>
           <list type="bullet">
             <item>
-              <para>o item especificado não está no modo de exibição atual do explorer ativo.</para>
+              <para>O item especificado não está na exibição atual do Explorer ativo.</para>
             </item>
             <item>
-              <para>o item especificado está sendo editado na exibição atual do explorer ativo.</para>
+              <para>O item especificado está sendo editado na exibição atual do Explorer ativo.</para>
             </item>
             <item>
-              <para>o modo de exibição atual foi filtrado e o aplicativo do filtro removeu o item do modo de exibição.</para>
+              <para>A exibição atual foi filtrada e o aplicativo do filtro removeu o item da exibição.</para>
             </item>
             <item>
-              <para>o item especificado não foi salvo.</para>
+              <para>O item especificado não foi salvo.</para>
             </item>
             <item>
-              <para>o item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              <para>O item especificado representa um <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
             </item>
             <item>
-              <para>a exibição atual seja uma exibição de conversa.</para>
+              <para>A exibição atual é uma exibição de conversa</para>
             </item>
             <item>
-              <para>Não existe exibição atual para o explorer ativo.</para>
+              <para>Não há exibição atual do Explorer ativo.</para>
             </item>
-          </list> Se o item é selecionado, chamar <b>RemoveFromSelection</b> causas de 
-          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento seja acionado. Se o item não estiver selecionado, a chamar <b>RemoveFromSelection</b> não fará com que o evento <b>SelectionChange</b> seja acionado.</para><para>Chamar <b>RemoveFromSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para> Tabela de 
-          <para>a seguir ilustra os resultados da chamada <b>RemoveFromSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade), se o painel de leitura é exibido e se o item especificado é exibido no Painel de leitura.</para><list type="table"><item><description>1</description><description>Sim</description><description>Sim</description><description>a seleção está desmarcada.<b> SelectionChange</b> é acionado. Painel de leitura está vazio.</description></item><item><description> &gt;1</description><description>Sim</description><description>não</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado. Painel de leitura não alterará.</description></item><item><description> &gt;1</description><description>Sim</description><description>Sim</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado. Painel de leitura exibe o item seguinte ou adjacente na seleção.</description></item><item><description> &gt;= 1</description><description>não</description><description>n/d</description><description>o item é removido da seleção.<b> SelectionChange</b> é acionado.</description></item></list><para>Se o item especificado existe na exibição atual, mas não estiver selecionado, em que o modo de exibição chamar <b>RemoveFromSelection</b> não resultará em nenhuma alteração na seleção e o evento <b>SelectionChange</b> não é acionado.</para><para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento ao método <b>RemoveFromSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa o compromisso ou série de tarefa e o método <b>RemoveFromSelection</b> seria estar operando na série em vez do ocorrência. </para><para /></remarks>
+          </list>
+          <para>Se o item é selecionado, chamar <b>RemoveFromSelection</b> causas o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento seja acionado. Se o item não estiver selecionado, chamar <b>RemoveFromSelection</b> não causará o evento <b>SelectionChange</b> seja acionado.</para>
+          <para>Chamar <b>RemoveFromSelection</b> não rolará a exibição para tornar o item selecionado visível na exibição e não expandir ou recolher grupos da exibição.</para>
+          <para>A tabela a seguir ilustra os resultados da chamada <b>RemoveFromSelection</b>, levando em consideração qualquer seleção atual (a <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> propriedade), se o painel de leitura é exibido e se o item especificado é exibido na leitura Painel.</para>
+          <list type="table">
+            <item>
+              <description>1</description>
+              <description>Sim</description>
+              <description>Sim</description>
+              <description>A seleção está desmarcada. <b>SelectionChange</b> é acionada. Painel de leitura está vazio.</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>Sim</description>
+              <description>Não</description>
+              <description>O item é removido da seleção. <b>SelectionChange</b> é acionada. Não altera o painel de leitura.</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>Sim</description>
+              <description>Sim</description>
+              <description>O item é removido da seleção. <b>SelectionChange</b> é acionada. Painel de leitura exibe o item seguinte ou adjacente na seleção.</description>
+            </item>
+            <item>
+              <description>&gt;= 1</description>
+              <description>Não</description>
+              <description>N/D</description>
+              <description>O item é removido da seleção. <b>SelectionChange</b> é acionada.</description>
+            </item>
+          </list>
+          <para>Se o item especificado existe na exibição atual, mas não estiver selecionado, em que o modo de exibição chamar <b>RemoveFromSelection</b> não resultará em nenhuma alteração à seleção e o evento <b>SelectionChange</b> não é acionado.</para>
+          <para>Quando você especifica um item em um compromisso recorrente ou uma tarefa como um argumento para o método <b>RemoveFromSelection</b> , certifique-se de que antes de você passar o argumento, você obtenha uma instância da ocorrência expandindo primeiro recorrências, usando o <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> propriedade e o <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> conjunto. Se você não expandir as recorrências e obtenham uma ocorrência na série, você poderia ser passando uma variável de instância que representa as séries de compromisso ou uma tarefa e o método <b>RemoveFromSelection</b> seria estar operando na série, em vez da ocorrência. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1044,11 +1040,9 @@ End Sub</code>
         <param name="Query">Uma sequência de caracteres de pesquisa que pode conter qualquer palavra-chave válida aceita na Pesquisa Instantânea.</param>
         <param name="SearchScope">Especifica o escopo em termos de pastas para a pesquisa.</param>
         <summary>Executa uma pesquisa instantânea da Microsoft na pasta atual exibida no Explorer usando a determinado <paramref name="Query" />.</summary>
-        <remarks>
-          <para>A funcionalidade do <b>Explorer.Search</b> é semelhante ao botão de pesquisa na pesquisa instantânea. Ele se comporta como se o usuário tiver digitado a cadeia de caracteres de consulta na interface do usuário de pesquisa instantânea e, em seguida, clicou em pesquisa.  Ao chamar <b>pesquisa</b>, a consulta é executada na interface do usuário, e não há nenhum mecanismo programático para obter os resultados de pesquisa. Para obter mais informações sobre pesquisa instantânea, consultar "Pesquisa instantânea" na Ajuda do Outlook.</para>
-          <para>o método <b>Search</b> não fornece um retorno de chamada para permitir que o desenvolvedor determine quando a pesquisa estiver concluída.</para>
-          <para />
-        </remarks>
+        <remarks><para>A funcionalidade do <b>Explorer.Search</b> é semelhante ao botão de pesquisa na pesquisa instantânea. Ele se comporta como se o usuário tiver digitado a cadeia de caracteres de consulta na interface do usuário de pesquisa instantânea e, em seguida, clicou em pesquisa.  Ao chamar <b>pesquisa</b>, a consulta é executada na interface do usuário, e não há nenhum mecanismo programático para obter os resultados de pesquisa. Para obter mais informações sobre Instant Search, a consulta para a "Pesquisa instantânea" na Ajuda do Outlook.</para>
+          <para>O método <b>Search</b> não fornece um retorno de chamada para permitir que o desenvolvedor determine quando a pesquisa é concluída.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1073,15 +1067,13 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Seleciona todos os itens contidos na exibição atual do Explorer ativo.</summary>
-        <remarks>
-          <para>Se um ou mais grupos são recolhidos na exibição atual, chamar <b>SelectAllItems</b> não marque o itens nos grupos recolhidos. Somente os itens em grupos expandidos estão selecionados.</para>
-          <para>Se o modo de exibição atual é um modo de exibição de calendário, chamar <b>SelectAllItems</b> seleciona todos os compromissos e eventos de dia inteiro no modo de exibição. Chamar <b>SelectAllItems</b> em um modo de exibição de calendário não selecionar itens na lista de tarefas diárias.</para>
-          <para>o <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado apenas uma vez após o método <b>SelectAllItems</b> é chamado.</para>
-          <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>SelectAllItems</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b> .</para>
+        <remarks><para>Se um ou mais grupos são recolhidos na exibição atual, chamar <b>SelectAllItems</b> não marque o itens nos grupos recolhidos. Apenas os itens nos grupos expandidos são selecionados.</para>
+          <para>Se o modo de exibição atual for um modo de exibição de calendário, chamar <b>SelectAllItems</b> seleciona todos os compromissos e eventos de dia inteiro no modo de exibição. Chamar <b>SelectAllItems</b> em um modo de exibição de calendário não seleciona itens na lista de tarefas diárias.</para>
+          <para>O <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> evento é acionado apenas uma vez após o método <b>SelectAllItems</b> é chamado.</para>
+          <para>Se o modo de exibição atual ou a pasta atual não contiver nenhum item, chamar <b>SelectAllItems</b> não resultará em nenhuma alteração na seleção e não acionará o evento <b>SelectionChange</b>.</para>
           <para>
             <b>SelectAllItems</b> apontará um erro se o item está sendo editado na exibição atual, ou modo de exibição atual é um modo de exibição de conversa.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1140,10 +1132,8 @@ End Sub</code>
       <Docs>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto consiste em um ou mais itens selecionados no modo de exibição atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Se a pasta atual for uma pasta do sistema de arquivos, ou se o Microsoft Outlook hoje ou qualquer pasta com um modo de exibição da Web é exibida no momento, essa propriedade retorna uma coleção vazia. Também se um cabeçalho de grupo for selecionado, a propriedade <b>Count</b> na seleção retornará zero.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se a pasta atual for uma pasta do sistema de arquivos, ou se o Microsoft Outlook hoje ou qualquer pasta com um modo de exibição da Web é exibida no momento, essa propriedade retorna uma coleção vazia. Também se um cabeçalho de grupo for selecionado, a propriedade <b>Count</b> na seleção retornará zero.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1171,16 +1161,14 @@ End Sub</code>
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1208,14 +1196,11 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Pane">O painel a ser exibido.</param>
-        <param name="Visible">
-          <b>True</b> para tornar o painel visível, <b>False</b> para ocultar o painel.</param>
+        <param name="Visible"><b>True</b> para tornar o painel visível, <b>False</b> para ocultar o painel.</param>
         <summary>Exibe ou oculta um painel específico no Explorer.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Observação</b>: você também pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> propriedade do <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para exibir ou ocultar o painel Atalhos.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">

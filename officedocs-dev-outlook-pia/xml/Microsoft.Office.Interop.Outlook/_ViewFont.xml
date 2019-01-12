@@ -1,13 +1,5 @@
 <Type Name="_ViewFont" FullName="Microsoft.Office.Interop.Outlook._ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631138" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903591" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFont" />
@@ -176,10 +168,8 @@
       <Docs>
         <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante como a cor da fonte do modo de exibição. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> propriedade ou a propriedade <b>ExtendedColor</b> para definir a cor da fonte em um modo de exibição. Para um modo de exibição de calendário em particular, você deve usar a propriedade <b>ExtendedColor</b> para definir a cor da fonte.</para>
-          <para />
-        </remarks>
+        <remarks><para>Você pode usar o <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> propriedade ou a propriedade <b>ExtendedColor</b> para definir a cor da fonte em um modo de exibição. Para um modo de exibição de calendário em particular, você deve usar a propriedade <b>ExtendedColor</b> para definir a cor da fonte.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Italic">
@@ -297,16 +287,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -337,11 +325,9 @@
       <Docs>
         <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que representa o tamanho (em pontos) da fonte no modo de exibição. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Essa propriedade pode ser definida como um valor entre 1 e 127. Se essa propriedade é definida como um valor menor que 1, a propriedade é definida como 1. Se essa propriedade é definida como um valor maior que 127, a propriedade é definida como 127.</para>
-          <para>o valor padrão para essa propriedade é determinado pelo sistema operacional.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propriedade pode ser definida para um valor entre 1 e 127. Se essa propriedade for definida para um valor menor do que 1, ela será definida como 1. Se essa propriedade for definida para um valor maior do que 127, ela será definida como 127.</para>
+          <para>O valor padrão dessa propriedade é determinado pelo sistema operacional.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Strikethrough">

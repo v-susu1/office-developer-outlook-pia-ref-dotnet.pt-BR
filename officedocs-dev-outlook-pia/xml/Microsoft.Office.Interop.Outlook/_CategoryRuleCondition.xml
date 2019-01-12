@@ -1,13 +1,5 @@
 <Type Name="_CategoryRuleCondition" FullName="Microsoft.Office.Interop.Outlook._CategoryRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="14c716cb0655da2cc8cc9a5e5df763b607e40c44" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20631103" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CategoryRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="14c716cb0655da2cc8cc9a5e5df763b607e40c44" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902562" /></Metadata><TypeSignature Language="C#" Value="public interface _CategoryRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CategoryRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CategoryRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CategoryRuleCondition" />
@@ -86,14 +78,12 @@
       <Docs>
         <summary>Retorna ou define uma matriz de elementos <b>String</b> (<b>cadeia de caracteres</b> em c#) que represente as categorias avaliadas pela condição de regra. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Você pode atribuir uma matriz com um elemento para avaliar uma única categoria ou uma matriz de cadeias de caracteres múltiplas para avaliar a várias categorias. Várias cadeias de caracteres de categoria atribuídas em uma matriz são avaliadas usando a operação OR lógica.</para>
-          <para>Essa propriedade usa o caractere especificado no nome do valor, sList, sob HKEY_CURRENT_USER\Control Panel\International no registro do Windows, como o delimitador para várias categorias.</para>
+        <remarks><para>Você pode atribuir uma matriz com um elemento para avaliar uma única categoria ou uma matriz de várias cadeias de caracteres para avaliar várias categorias. Várias cadeias de caracteres de categoria em uma matriz são avaliadas com a operação lógica OR.</para>
+          <para>Essa propriedade usa o caractere especificado no nome do valor sList, em HKEY_CURRENT_USER\Control Panel\International no Registro do Windows, como o delimitador para várias categorias.</para>
           <para>Se uma cadeia de caracteres especificada por <b>Categories</b> corresponder a uma categoria da mensagem, a condição será avaliada como <b>True</b>.</para>
-          <para>Outlook não verifica para determinar se a propriedade <b>Categories</b> contém nomes de categorias que estão na lista mestra de categorias.</para>
-          <para>Retornará um erro quando <b>Categories</b> contém uma ou mais cadeias de caracteres vazias.</para>
-          <para />
-        </remarks>
+          <para>O Outlook não verifica para determinar se a propriedade <b>Categories</b> contém nomes de categorias que estão na lista mestra de categorias.</para>
+          <para>Retorna um erro quando <b>Categories</b> contém uma ou mais cadeias de caracteres vazias.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -149,10 +139,8 @@
       <Docs>
         <summary>Retorna uma constante, <b>olConditionCategory</b>, a partir do <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeração que indica o tipo de condição de regra. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A condição de regra de categoria é suportada pelas regras para o recebimento de mensagens e regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
-          <para />
-        </remarks>
+        <remarks><para>A condição de regra de categoria é suportada pelas regras para o recebimento de mensagens e regras de envio de mensagens. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificando condições de regra</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -183,10 +171,8 @@
       <Docs>
         <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que determina se a condição de regra está habilitada. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra é ativada somente depois que ela foi salva com êxito.</para>
-          <para />
-        </remarks>
+        <remarks><para>Após habilitar uma condição de regra, você também deve salvar a regra usando <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que a condição de regra e seu estado habilitado persistirá além da sessão atual.  Uma condição de regra só será habilitada depois de ter sido salva com êxito. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -214,10 +200,8 @@
       <Docs>
         <summary>Retorna o pai do <b>objeto</b> do objeto especificado. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>O objeto pai é o <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -245,16 +229,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

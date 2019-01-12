@@ -1,13 +1,5 @@
 <Type Name="Attachments" FullName="Microsoft.Office.Interop.Outlook.Attachments">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2b8b26dcc7340ad097dbcab31fa6b4722b3b19e2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="pt-BR" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20629744" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f34c001cfd4c3278473ca2d66f73650667d3c4b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898729" /></Metadata><TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachments implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachments" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachments&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Contém um conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objetos que representam os anexos em um item do Outlook.</summary>
-    <remarks>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> propriedade para retornar a coleção de <b>anexos</b> para qualquer item do Outlook (exceto anotações).</para>
-      <para>Uso o <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para adicionar um anexo a um item.</para>
+    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> propriedade para retornar a coleção de <b>anexos</b> para qualquer item do Outlook (exceto anotações).</para>
+      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para adicionar um anexo a um item.</para>
       <para>Para garantir resultados consistentes, sempre salve um item antes de adicionar ou remover objetos na coleção <b>Attachments</b> do item.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -70,10 +60,8 @@
         <param name="DisplayName">Esse parâmetro se aplica somente se o item de email estiver no formato Rich Text e tipo está definido como <b>olByValue</b>: o nome é exibido em um objeto <b>Inspector</b> para o anexo ou ao visualizar as propriedades do anexo. Se o item de email está no formato de texto não criptografado ou HTML, então o anexo é exibido usando o nome do arquivo a <paramref name="Source" /> parâmetro.</param>
         <summary>Cria um novo anexo no <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> conjunto.</summary>
         <returns>Um <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object que representa o novo anexo.</returns>
-        <remarks>
-          <para>Quando um <b>anexo</b> é adicionado à coleção <b>Attachments</b> de um item, a propriedade <b>Type</b> do <b>anexo</b> sempre retornará <b>olOLE</b> (6) até que o item seja salvo. Para garantir resultados consistentes, sempre salve um item antes de adicionar ou remover objetos na coleção <b>Attachments</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Quando um <b>Attachment</b> é adicionado à coleção <b>Attachments</b> de um item, a propriedade <b>Type</b> do <b>Attachment</b> sempre retornará <b>olOLE</b> (6) até o item ser salvo. Para garantir resultados consistentes, sempre salve um item antes de adicionar ou remover objetos na coleção <b>Attachments</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -273,16 +261,14 @@
       <Docs>
         <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
