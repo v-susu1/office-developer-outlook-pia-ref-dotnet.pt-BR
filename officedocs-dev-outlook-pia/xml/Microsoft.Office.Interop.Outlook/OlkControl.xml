@@ -1,5 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901883" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b59b52e19f1e0e19966fdc0416fc5057d16159e4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139576" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -19,7 +19,7 @@
   </Attributes>
   <Docs>
     <summary>Define um conjunto de propriedades de controle comuns a alguns controles do Microsoft Outlook.</summary>
-    <remarks><para>Os membros oferecidos pelo <b>OlkControl</b> podem aplicar a maioria dos controles do Outlook.  <b>OlkControl</b> fornece uma classe convenientemente aos quais você pode converter um controle do Outlook sem recorrer à reflexão. Embora <b>OlkControl</b> não se aplica aos controles do Microsoft Forms 2.0, propriedades semelhantes estão disponíveis para controles do Forms 2.0. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: adicionais controle propriedades disponíveis para programação</a></para>
+    <remarks><para>Os membros oferecidos pelo <b>OlkControl</b> podem aplicar a maioria dos controles do Outlook.  <b>OlkControl</b> fornece uma classe para a qual você pode convenientemente lançar um controle Outlook sem recorrer à reflexão. Embora <b>OlkControl</b> não se aplica aos controles do Microsoft Forms 2.0, propriedades semelhantes estão disponíveis para controles do Forms 2.0. Para obter mais informações, consulte <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: Propriedades de controle adicionais disponíveis para programação</a></para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -49,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa a propriedade no controle que a vincular dados ocorre com. Leitura/gravação</summary>
+        <summary>Retorna ou define uma <b>cadeia de</b> caracteres (<b>cadeia</b> de caracteres C#) que representa a propriedade no controle com o que a cadeia de dados ocorre. Leitura/gravação</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +80,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que permite que os ajustes automáticos do layout para o controle em relação ao resto do formulário. Leitura/gravação.</summary>
+        <summary>Retorna ou define um <b>Boolean</b> (<b>bool</b> no C#) que permite ajustes automáticos do layout do controle em relação ao restante do formulário. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks><para>Ajustes automáticos do layout de um controle incluem o alinhamento vertical ou horizontal do controle em relação a outros controles e o dimensionamento da altura ou largura do controle em relação ao comprimento ou à largura do formulário.</para>
           <para> </para></remarks>
@@ -112,10 +112,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica como um valor deve ser exibida no controle. Leitura/gravação.</summary>
+        <summary>Retorna ou define um <b>valor Integer</b> (<b>int</b> C#) que especifica como um valor deve ser exibido no controle. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks><para>A propriedade <b>Format</b> pode ser uma constante na enumeração que descreve como exibir um valor. Por exemplo, você pode especificar o <b>formato</b> como a constante <b>olFormatCurrencyDecimal</b> definida no <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> enumeração para exibir um valor de moeda em um <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> controle.</para>
-          <para>A propriedade <b>Format</b> é específica para a propriedade no modelo de objeto do Outlook que o controle está vinculado. O último é indicado por <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. Se o controle não estiver ligado a qualquer propriedade, em seguida, acessar o <b>formato</b> retornará um erro.</para>
+        <remarks><para>A propriedade <b>Format</b> pode ser uma constante na enumeração que descreve como exibir um valor. Por exemplo, você pode especificar <b>Format</b> como a constante <b>olFormatCurrencyDecimal</b> definida na enumeração para exibir um valor de moeda <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> em um <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> controle.</para>
+          <para>A <b>propriedade Format</b> é específica da propriedade no modelo Outlook objeto ao qual o controle está vinculado. O último é indicado por <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" /> . Se o controle não estiver ligado a qualquer propriedade, em seguida, acessar o <b>formato</b> retornará um erro.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -145,7 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> constante que especifica o alinhamento de qualquer na direção horizontal deste controle com outros controles selecionados no formulário, ou se o controle é ajustado na direção horizontal automaticamente quando a largura do formulário é alterada. Leitura/gravação.</summary>
+        <summary>Retorna ou define uma constante que especifica qualquer alinhamento na direção horizontal desse controle com outros controles selecionados no formulário ou se o controle é ajustado na direção horizontal automaticamente quando a largura do formulário é <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> alterada. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +176,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que especifica o nome da propriedade no modelo de objeto do Outlook que o controle está vinculado. Leitura/gravação.</summary>
+        <summary>Retorna ou define uma <b>cadeia</b> de caracteres (<b>cadeia</b> de caracteres C#) que especifica o nome da propriedade no modelo de objeto Outlook ao qual o controle está vinculado. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,10 +207,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica a altura mínima, que o controle pode ser automaticamente dimensionado para baixo até. Leitura/gravação.</summary>
+        <summary>Retorna ou define um <b>valor Integer</b> (<b>int</b> em C#) que especifica a altura mínima para a que o controle pode ser dimensionado automaticamente para baixo. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />deve ser definido como <b>True</b> para que <b>MinimumLength</b> torne-se efetivo.</para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> deve ser definido como <b>True para</b> <b>que MinimumLength</b> se torne efetivo.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -240,10 +240,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um valor <b>inteiro</b> (<b>int</b> em c#) que especifica a largura mínima, para que o controle pode ser automaticamente dimensionado para baixo. Leitura/gravação.</summary>
+        <summary>Retorna ou define um <b>valor Integer</b> (<b>int</b> em C#) que especifica a largura mínima que o controle pode ser dimensionado automaticamente para baixo. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />deve ser definido como <b>True</b> para que <b>MinimumWidth</b> torne-se efetivo.</para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> deve ser definido como <b>True para</b> que <b>MinimumWidth</b> se torne efetivo.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -273,9 +273,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa uma lista de valores possíveis para a lista suspensa do controle, separados por ponto e vírgula. Leitura/gravação.</summary>
+        <summary>Retorna ou define uma <b>cadeia</b> de caracteres (<b>cadeia</b> de caracteres C#) que representa uma lista de valores possíveis para a listada para o controle, separada por ponto-e-vírgula. Leitura/gravação.</summary>
         <value>To be added.</value>
-        <remarks><para>Para controles que não oferecem suporte a uma lista suspensa, o valor dessa propriedade não é <b>nada</b> (uma referência nula (Nothing no Visual Basic) em c#).</para>
+        <remarks><para>Para controles que não suportam uma listada, o valor dessa propriedade é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em C#).</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -305,7 +305,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> constante que especifica o alinhamento de qualquer na direção vertical deste controle com outros controles selecionados no formulário, ou se o controle é ajustado na direção vertical automaticamente quando o comprimento do formulário é alterado. Leitura/gravação.</summary>
+        <summary>Retorna ou define uma constante que especifica qualquer alinhamento na direção vertical desse controle com outros controles selecionados no formulário ou se o controle é ajustado na direção vertical automaticamente quando o comprimento do formulário é <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> alterado. Leitura/gravação.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

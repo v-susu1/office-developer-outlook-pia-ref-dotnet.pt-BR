@@ -1,5 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906874" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3504a30b96a752a815c2c8ae8507b8f75ba9590f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139466" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -22,11 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Contém uma coleção de <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objetos que representam todos os itens do Microsoft Outlook que estão em conflito com um item específico do Outlook.</summary>
-    <remarks><para>Use o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> item de propriedade de qualquer Outlook, tais como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, para retornar o objeto <b>Conflicts</b> .</para>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> propriedade do objeto <b>Conflicts</b> para determinar se o item está envolvido em um conflito. Um valor diferente de zero indica conflito.</para>
-      <para>Use o <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> propriedade (<b>essa</b> em c#) para recuperar um item específico de conflito do objeto de conjunto <b>Conflicts</b> .</para>
-      <para>Use o <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, e <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> métodos para percorrer o conjunto <b>Conflicts</b> .</para>
+    <summary>Contém uma coleção de objetos que representam todos os Outlook da Microsoft que estão em conflito <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> com um item Outlook específico.</summary>
+    <remarks><para>Use a <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> propriedade de qualquer item Outlook, como , para retornar o objeto <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> <b>Conflicts.</b></para>
+      <para>Use a <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> propriedade do <b>objeto Conflicts</b> para determinar se o item está envolvido em um conflito. Um valor diferente de zero indica conflito.</para>
+      <para>Use a <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> propriedade (<b>isso</b> em C#)para recuperar um item de conflito específico do objeto da <b>coleção Conflicts.</b></para>
+      <para>Use os <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> métodos , , e para percorrer a coleção <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <b>Conflicts.</b></para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -53,7 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> que representa o aplicativo do Outlook para o objeto pai do objeto. Somente leitura.</summary>
+        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa o aplicativo Outlook pai do objeto. Somente leitura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante indicando a classe do objeto. Somente leitura.</summary>
+        <summary>Retorna uma <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica a classe do objeto. Somente leitura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna um valor <b>inteiro</b> (<b>int</b> em c#) indicando a contagem de objetos na coleção especificada. Somente leitura.</summary>
+        <summary>Retorna um <b>valor Integer</b> (<b>int</b> C#) indicando a contagem de objetos na coleção especificada. Somente leitura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,9 +135,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Retorna o primeiro objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> conjunto.</summary>
-        <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa o primeiro objeto contido na coleção.</returns>
-        <remarks><para>Retorna <b>Nothing</b> se nenhum primeiro objeto existir, por exemplo, se não houver nenhum objeto na coleção. Para garantir o funcionamento correto do <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+        <summary>Retorna o primeiro objeto da <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> coleção.</summary>
+        <returns>Um <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto que representa o primeiro objeto contido na coleção.</returns>
+        <remarks><para>Retorna <b>Nothing</b> se nenhum primeiro objeto existir, por exemplo, se não houver objetos na coleção. Para garantir a operação correta dos <b>métodos GetFirst</b>, , , e em uma coleção grande, chame GetFirst antes de chamar GetNext nessa coleção e chame GetLast antes de chamar <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetPrevious</b> <b></b> . <b></b> <b></b> Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -162,9 +162,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Retorna o último objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> conjunto.</summary>
-        <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa o último objeto contido na coleção.</returns>
-        <remarks><para> Ele retorna <b>Nothing</b> se não existirem objetos, por exemplo, se a coleção está vazia. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, e <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+        <summary>Retorna o último objeto da <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> coleção.</summary>
+        <returns>Um <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto que representa o último objeto contido na coleção.</returns>
+        <remarks><para> Ele retorna <b>Nothing</b> se nenhum último objeto existir, por exemplo, se a coleção estiver vazia. Para garantir a operação correta dos métodos , GetLast e em uma coleção grande, chame GetFirst antes de chamar GetNext nessa coleção e chame GetLast antes de chamar <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetPrevious</b>. <b></b> <b></b> <b></b> Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -189,9 +189,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Retorna o próximo objeto no <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> conjunto.</summary>
-        <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa o próximo objeto contido na coleção.</returns>
-        <remarks><para>Ele retorna <b>Nothing</b> se nenhum objeto próximo existe, por exemplo, se já posicionadas no final da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, e <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b>GetPrevious </b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+        <summary>Retorna o próximo objeto da <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> coleção.</summary>
+        <returns>Um <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto que representa o próximo objeto contido na coleção.</returns>
+        <remarks><para>Ele retorna <b>Nothing</b> se nenhum próximo objeto existir, por exemplo, se já estiver posicionado no final da coleção. Para garantir a operação correta dos métodos , , GetNext e em uma coleção grande, chame GetFirst antes de chamar GetNext nessa coleção e chame GetLast antes de chamar <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetPrevious</b>. <b></b> <b></b> <b></b> Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -216,9 +216,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Retorna o objeto anterior no <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> conjunto.</summary>
-        <returns>Uma <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa o objeto anterior contido na coleção.</returns>
-        <remarks><para>Ele retorna <b>Nothing</b> se nenhum objeto anterior existe, por exemplo, se estiver posicionado no início da coleção. Para garantir o funcionamento correto do <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, e os métodos <b>GetPrevious</b> em uma coleção grande, chame <b>GetFirst</b> antes de chamar <b>GetNext</b> nessa coleção e chame <b>GetLast</b> antes de chamar <b> GetPrevious</b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
+        <summary>Retorna o objeto anterior na <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> coleção.</summary>
+        <returns>Um <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto que representa o objeto anterior contido na coleção.</returns>
+        <remarks><para>Ele retorna <b>Nothing</b> se nenhum objeto anterior existir, por exemplo, se já estiver posicionado no início da coleção. Para garantir a operação correta dos <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> métodos , , e <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <b>GetPrevious</b> <b></b> <b></b> em uma coleção grande, chame <b>GetFirst</b> antes de chamar GetNext nessa coleção e chame GetLast antes de chamar <b>GetPrevious</b>. Para garantir que você sempre está fazendo as chamadas na mesma coleção, crie uma variável explícita que se refere à coleção antes de entrar no loop.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -248,7 +248,7 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">O número do índice do objeto ou um valor usado para corresponder à propriedade padrão de um objeto da coleção.</param>
+        <param name="Index">O número do índice do objeto ou um valor usado para corresponder à propriedade padrão de um objeto do conjunto.</param>
         <summary>Retorna um <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto da coleção.</summary>
         <value>Um objeto <b>Conflict</b> que representa o objeto especificado.</value>
         <remarks>To be added.</remarks>
@@ -305,9 +305,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para a sessão atual. Somente leitura.</summary>
+        <summary>Retorna o <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  objeto da sessão atual. Somente leitura.</summary>
         <value>To be added.</value>
-        <remarks><para>A propriedade <b>Session</b> e o <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método pode ser usado de forma intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
+        <remarks><para>A <b>propriedade Session</b> e o método podem ser usados de forma <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> intercambiável para obter o objeto <b>NameSpace</b> para a sessão atual. Ambos os membros têm a mesma finalidade. Por exemplo, os seguintes pares de instruções executam a mesma função:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

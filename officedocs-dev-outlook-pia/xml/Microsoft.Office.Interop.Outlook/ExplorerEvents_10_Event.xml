@@ -1,5 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896797" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c3a3195e08f69bc1e2baf898bd2129a95216031f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139485" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -80,7 +80,7 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre antes que o explorer vá para uma nova pasta, como resultado de uma ação do usuário ou de um código de programa.</summary>
-        <remarks><para>Se a pasta está alternando estiver em um namespace que não oferece suporte a automação (por exemplo, o sistema de arquivos), <paramref name="NewFolder" /> não é <b>nada</b>.</para>
+        <remarks><para>Se a pasta que está sendo alternada para está em um namespace que não dá suporte à automação (como o sistema de arquivos), <paramref name="NewFolder" /> é <b>Nothing</b>.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -199,7 +199,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ocorre quando o <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> é movido pelo usuário.</summary>
+        <summary>Ocorre quando o  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> usuário é movido.</summary>
         <remarks><para>Esse evento pode ser cancelado depois de iniciado.</para>
           <para> </para></remarks>
       </Docs>
@@ -219,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ocorre quando o usuário dimensiona o atual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
+        <summary>Ocorre quando o usuário tamanho o <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> atual .</summary>
         <remarks><para>Esse evento pode ser cancelado depois de iniciado. Se ele for cancelado, a janela não será dimensionada.</para>
           <para> </para></remarks>
       </Docs>
@@ -259,7 +259,7 @@
       </ReturnValue>
       <Docs>
         <summary>Ocorre quando um explorer está sendo fechado.</summary>
-        <remarks><para>Se você usar o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> método para acionar esse evento, ele só poderá ser cancelado se o método <b>Close</b> usar o argumento <b>olPromptForSave</b> .</para>
+        <remarks><para>Se você usar o método para disparar esse evento, ele só poderá ser cancelado se o <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> <b>método Close</b> usar o <b>argumento olPromptForSave.</b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -316,8 +316,8 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ocorre quando o usuário executa uma ação que faz com que uma resposta embutida seja exibido no painel de leitura.</summary>
-        <remarks><para>Este evento retorna um objeto de item que representa o item de resposta embutida.</para>
+        <summary>Ocorre quando o usuário executa uma ação que faz com que uma resposta em linha apareça no Painel de Leitura.</summary>
+        <remarks><para>Esse evento retorna um objeto item que representa o item de resposta em linha.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -336,26 +336,26 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ocorre quando o usuário executa uma ação que faz com que a resposta embutida ativo Fechar o painel de leitura.</summary>
-        <remarks><para>Este evento é acionado quando uma nova resposta embutida ou rascunho embutida resposta está fechada pelos seguintes motivos:</para>
+        <summary>Ocorre quando o usuário executa uma ação que faz com que a resposta em linha ativa seja fechado no Painel de Leitura.</summary>
+        <remarks><para>Esse evento dispara quando uma nova resposta em linha ou uma resposta em linha de rascunho é fechada pelos seguintes motivos:</para>
           <list type="bullet">
             <item>
-              <para>O usuário seleciona o comando <b>Pop-Out</b> .</para>
+              <para>O usuário seleciona o <b>comando Pop-Out.</b></para>
             </item>
             <item>
-              <para>O usuário seleciona o comando <b>Descartar</b> .</para>
+              <para>O usuário seleciona o <b>comando Descartar.</b></para>
             </item>
             <item>
-              <para>O usuário envia a resposta embutida.</para>
+              <para>O usuário envia a resposta em linha.</para>
             </item>
             <item>
-              <para>O usuário navega até uma mensagem diferente na lista de mensagens.</para>
+              <para>O usuário navega para uma mensagem diferente na lista de mensagens.</para>
             </item>
             <item>
-              <para>O usuário navega até uma pasta diferente.</para>
+              <para>O usuário navega para uma pasta diferente.</para>
             </item>
             <item>
-              <para>O usuário alterna entre módulos, por exemplo, de módulo de email para o módulo de calendário.</para>
+              <para>O usuário alterna módulos, por exemplo, do módulo de email para o módulo Calendário.</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -376,8 +376,8 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Ocorre quando o usuário alterna para outro item em uma pasta usando a interface do usuário (UI) ou programaticamente.</summary>
-        <remarks><para>Esse evento também ocorre quando o usuário, qualquer programaticamente ou usando o inerface de usuário clica ou alterna para uma pasta diferente que contém itens, como o Outlook seleciona automaticamente o primeiro item nessa pasta. Contudo, esse evento não ocorrerá se a pasta for uma pasta do sistema de arquivos ou se for exibida qualquer pasta com uma exibição da Web atual. </para>
+        <summary>Ocorre quando o usuário alterna para um item diferente em uma pasta usando a interface do usuário (interface do usuário) ou programaticamente.</summary>
+        <remarks><para>Esse evento também ocorre quando o usuário, programaticamente ou usando a interface do usuário, clica ou alterna para uma pasta diferente que contém itens como Outlook seleciona automaticamente o primeiro item nessa pasta. Contudo, esse evento não ocorrerá se a pasta for uma pasta do sistema de arquivos ou se for exibida qualquer pasta com uma exibição da Web atual. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
