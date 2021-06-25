@@ -1,5 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899184" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="514c2b47aad5e0f65ed9fb8a30338a93e30048b4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139606" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary><span data-ttu-id="d0de0-101">Essa é uma interface principal em uma co-classe COM exigidos pelo código gerenciado para a interoperabilidade com o objeto COM correspondente.</span><span class="sxs-lookup"><span data-stu-id="d0de0-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="d0de0-102">Use esta interface principal somente quando o método que você deseja usar compartilha o mesmo nome de um evento do objeto COM; Nesse caso, é convertida nessa interface para chamar o método e convertido para a interface de eventos mais recente para se conectar ao evento.</span><span class="sxs-lookup"><span data-stu-id="d0de0-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="d0de0-103">Caso contrário, use a interface do .NET que é derivada do co-classe COM para acessar os métodos, propriedades e eventos do objeto COM.</span><span class="sxs-lookup"><span data-stu-id="d0de0-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="d0de0-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />.</span><span class="sxs-lookup"><span data-stu-id="d0de0-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />.</span></span></summary>
+    <summary><span data-ttu-id="00851-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span><span class="sxs-lookup"><span data-stu-id="00851-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="00851-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span><span class="sxs-lookup"><span data-stu-id="00851-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="00851-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span><span class="sxs-lookup"><span data-stu-id="00851-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="00851-104">Para obter informações sobre o objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" /> .</span><span class="sxs-lookup"><span data-stu-id="00851-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkCommandButton" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,10 +48,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-105">Retorna ou define um valor de <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que representa o acelerador ou a tecla de acesso para o controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-105">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the accelerator or hot key for the control.</span></span> <span data-ttu-id="d0de0-106">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-106">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-105">Retorna ou define um <b>valor String</b> (<b>cadeia</b> de caracteres C#) que representa o acelerador ou a tecla de acesso para o controle.</span><span class="sxs-lookup"><span data-stu-id="00851-105">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the accelerator or hot key for the control.</span></span> <span data-ttu-id="00851-106">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-p103">O valor padrão é uma sequência de caracteres vazia, o que significa que não há tecla de atalho. Se a propriedade estiver definida com uma sequência de caracteres de mais de um caractere, o valor será truncado no primeiro caractere.</span><span class="sxs-lookup"><span data-stu-id="d0de0-p103">The default value is an empty string, meaning there is no hot key.  If the property is set with a string of more than one character, the value will  be truncated to the first character.</span></span>  </para>
-          <para><span data-ttu-id="d0de0-109">Você não pode usar dígitos em uma tecla aceleradora.</span><span class="sxs-lookup"><span data-stu-id="d0de0-109">You cannot use digits in an accelerator.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-p103">O valor padrão é uma sequência de caracteres vazia, o que significa que não há tecla de atalho. Se a propriedade estiver definida com uma sequência de caracteres de mais de um caractere, o valor será truncado no primeiro caractere.</span><span class="sxs-lookup"><span data-stu-id="00851-p103">The default value is an empty string, meaning there is no hot key.  If the property is set with a string of more than one character, the value will  be truncated to the first character.</span></span>  </para>
+          <para><span data-ttu-id="00851-109">You cannot use digits in an accelerator.</span><span class="sxs-lookup"><span data-stu-id="00851-109">You cannot use digits in an accelerator.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -81,10 +81,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-110">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) dimensiona automaticamente o controle para exibir todo o conteúdo.</span><span class="sxs-lookup"><span data-stu-id="d0de0-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span> <span data-ttu-id="d0de0-111">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-111">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-110">Retorna ou define um <b>Boolean</b> (<b>bool</b> em C#) que automaticamente tamanho o controle para exibir todo o conteúdo.</span><span class="sxs-lookup"><span data-stu-id="00851-110">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span> <span data-ttu-id="00851-111">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-111">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para>  <span data-ttu-id="d0de0-112">O valor padrão para essa propriedade é <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="d0de0-112">The default value for this property is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="d0de0-113">Para um controle de botão, esta propriedade especifica se o controle se ajusta automaticamente para exibir o valor da legenda inteira.</span><span class="sxs-lookup"><span data-stu-id="d0de0-113">For a button control, this property specifies whether the control automatically adjusts to display the entire caption value.</span></span></para>
+        <remarks><para>  <span data-ttu-id="00851-112">O valor padrão para essa propriedade é <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="00851-112">The default value for this property is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="00851-113">Para um controle de botão, esta propriedade especifica se o controle se ajusta automaticamente para exibir o valor da legenda inteira.</span><span class="sxs-lookup"><span data-stu-id="00851-113">For a button control, this property specifies whether the control automatically adjusts to display the entire caption value.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -114,9 +114,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-114">Retorna ou define uma <b>cadeia de caracteres</b> (<b>cadeia de caracteres</b> em c#) que aparece em um objeto para identificar ou descrevê-lo.</span><span class="sxs-lookup"><span data-stu-id="d0de0-114">Returns or sets a <b>String</b> (<b>string</b> in C#) that appears on an object to identify or describe it.</span></span>  <span data-ttu-id="d0de0-115">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-115">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-114">Retorna ou define uma <b>cadeia de</b> caracteres (<b>cadeia de</b> caracteres C#) que aparece em um objeto para identificá-la ou descrevê-la.</span><span class="sxs-lookup"><span data-stu-id="00851-114">Returns or sets a <b>String</b> (<b>string</b> in C#) that appears on an object to identify or describe it.</span></span>  <span data-ttu-id="00851-115">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-115">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-p106">O valor padrão é uma sequência de caracteres vazia. O Criador de Formulários define esta propriedade como o nome padrão do controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-p106">The default value is an empty string. The Forms Designer sets this property to the control's default name.</span></span>  </para>
+        <remarks><para><span data-ttu-id="00851-p106">O valor padrão é uma sequência de caracteres vazia. O Criador de Formulários define esta propriedade como o nome padrão do controle.</span><span class="sxs-lookup"><span data-stu-id="00851-p106">The default value is an empty string. The Forms Designer sets this property to the control's default name.</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -146,9 +146,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-118">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que permite a renderização de uma seta apontando para baixo no botão.</span><span class="sxs-lookup"><span data-stu-id="d0de0-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables the rendering of a downward-pointing arrow on the button.</span></span> <span data-ttu-id="d0de0-119">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-119">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-118">Retorna ou define um <b>Boolean</b> (<b>bool</b> no C#) que permite a renderização de uma seta apontando para baixo no botão.</span><span class="sxs-lookup"><span data-stu-id="00851-118">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that enables the rendering of a downward-pointing arrow on the button.</span></span> <span data-ttu-id="00851-119">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-119">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-p108">Nessa seta é disposta à direita do botão em idiomas escritos da esquerda para a direita e à esquerda em idiomas escritos direita para a esquerda. <b>True</b> para renderizar a seta do botão, <b>False</b> para desativar a renderização.</span><span class="sxs-lookup"><span data-stu-id="d0de0-p108">This arrow is rendered on the right on the button in langauges written left-to-right and on the left in langauges written right-to-left. <b>True</b> to render the arrow on the button, <b>False</b> to disable the rendering.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-120">Essa seta é renderizada à direita no botão em idiomas escritos da esquerda para a direita e à esquerda em idiomas escritos da direita para a esquerda.</span><span class="sxs-lookup"><span data-stu-id="00851-120">This arrow is rendered on the right on the button in languages written left-to-right and on the left in languages written right-to-left.</span></span> <span data-ttu-id="00851-121"><b>True</b> para renderizar a seta no botão, <b>False</b> para desabilitar a renderização.</span><span class="sxs-lookup"><span data-stu-id="00851-121"><b>True</b> to render the arrow on the button, <b>False</b> to disable the rendering.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -178,10 +178,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-122">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que indica se o controle é permitido para funcionar.</span><span class="sxs-lookup"><span data-stu-id="d0de0-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="d0de0-123">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-123">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-122">Retorna ou define um <b>Boolean</b> (<b>bool</b> no C#) que indica se o controle tem permissão para funcionar.</span><span class="sxs-lookup"><span data-stu-id="00851-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="00851-123">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-124">O valor padrão é <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="d0de0-124">The default value is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="d0de0-p110">Quando o controle é desabilitado, o conteúdo dele aparece esmaecido.</span><span class="sxs-lookup"><span data-stu-id="d0de0-p110">When the control is disabled, the contents of the control appear dimmed. </span></span></para>
+        <remarks><para><span data-ttu-id="00851-124">O valor padrão é <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="00851-124">The default value is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="00851-p110">Quando o controle é desabilitado, o conteúdo dele aparece esmaecido.</span><span class="sxs-lookup"><span data-stu-id="00851-p110">When the control is disabled, the contents of the control appear dimmed. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -208,7 +208,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-126">Retorna um <b>StdFont</b> que representa a fonte usada para processar o texto dentro do controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-126">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="d0de0-127">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="d0de0-127">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="00851-126">Retorna um <b>StdFont</b> que representa a fonte usada para renderizar o texto dentro do controle.</span><span class="sxs-lookup"><span data-stu-id="00851-126">Returns an <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="00851-127">Somente leitura.</span><span class="sxs-lookup"><span data-stu-id="00851-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,9 +239,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-128">Retorna ou define um <b>StdPicture</b> que representa uma imagem personalizada para o cursor do mouse para este controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-128">Returns or sets an <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="d0de0-129">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-129">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-128">Retorna ou define um <b>StdPicture que</b> representa uma imagem personalizada para o cursor do mouse para esse controle.</span><span class="sxs-lookup"><span data-stu-id="00851-128">Returns or sets an <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control.</span></span> <span data-ttu-id="00851-129">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-129">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-130">O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="d0de0-130">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="00851-130">O valor padrão é <b>Nothing</b> (uma referência nula (Nothing Visual Basic) em C#).</span><span class="sxs-lookup"><span data-stu-id="00851-130">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -271,9 +271,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-131">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica o tipo de cursor exibido quando o usuário posiciona o mouse sobre o controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="d0de0-132">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-132">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-131">Retorna ou define uma constante que especifica o tipo de ponteiro exibido quando o usuário posiciona o <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> mouse sobre o controle.</span><span class="sxs-lookup"><span data-stu-id="00851-131">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="00851-132">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-132">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-133">O valor padrão é <b>olMousePointerDefault</b>.</span><span class="sxs-lookup"><span data-stu-id="d0de0-133">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-133">O valor padrão é <b>olMousePointerDefault</b>.</span><span class="sxs-lookup"><span data-stu-id="00851-133">The default value is <b>olMousePointerDefault</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -303,11 +303,11 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-134">Retorna ou define um <b>StdPicture</b> que representa a imagem que é exibida no controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-134">Returns or sets an <b>StdPicture</b> that represents the picture that is displayed on the control.</span></span>    <span data-ttu-id="d0de0-135">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-135">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-134">Retorna ou define <b>um StdPicture que</b> representa a imagem exibida no controle.</span><span class="sxs-lookup"><span data-stu-id="00851-134">Returns or sets an <b>StdPicture</b> that represents the picture that is displayed on the control.</span></span>    <span data-ttu-id="00851-135">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-135">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-136">O valor padrão é <b>Nothing</b> (uma referência nula (Nothing no Visual Basic) em c#).</span><span class="sxs-lookup"><span data-stu-id="d0de0-136">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
-          <para><span data-ttu-id="d0de0-137">Uma imagem e um texto não podem ser exibidos ao mesmo tempo no controle, sendo assim, quando a propriedade da imagem é definida, a propriedade do texto é ignorada.</span><span class="sxs-lookup"><span data-stu-id="d0de0-137">A picture and text cannot be displayed at the same time on the control, so when the picture property is set, the text property is ignored.</span></span></para>
-          <para><span data-ttu-id="d0de0-p115">A imagem é sempre exibida no centro do controle do botão.  A imagem será cortada, se necessário, para caber no espaço disponível.</span><span class="sxs-lookup"><span data-stu-id="d0de0-p115">The picture is always displayed in the center of the button control.  The picture will be clipped as necessary to fit in the available space.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-136">O valor padrão é <b>Nothing</b> (uma referência nula (Nothing Visual Basic) em C#).</span><span class="sxs-lookup"><span data-stu-id="00851-136">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para><span data-ttu-id="00851-137">Uma imagem e um texto não podem ser exibidos ao mesmo tempo no controle, sendo assim, quando a propriedade da imagem é definida, a propriedade do texto é ignorada.</span><span class="sxs-lookup"><span data-stu-id="00851-137">A picture and text cannot be displayed at the same time on the control, so when the picture property is set, the text property is ignored.</span></span></para>
+          <para><span data-ttu-id="00851-p115">A imagem é sempre exibida no centro do controle do botão.  A imagem será cortada, se necessário, para caber no espaço disponível.</span><span class="sxs-lookup"><span data-stu-id="00851-p115">The picture is always displayed in the center of the button control.  The picture will be clipped as necessary to fit in the available space.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -337,7 +337,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlPictureAlignment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-140">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> constante que especifica o alinhamento da imagem e o texto no botão.</span><span class="sxs-lookup"><span data-stu-id="d0de0-140">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> constant that specifies the alignment of the image and the text on the button.</span></span> <span data-ttu-id="d0de0-141">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-141">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-140">Retorna ou define uma <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> constante que especifica o alinhamento da imagem e o texto no botão.</span><span class="sxs-lookup"><span data-stu-id="00851-140">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlPictureAlignment" /> constant that specifies the alignment of the image and the text on the button.</span></span> <span data-ttu-id="00851-141">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-141">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,10 +368,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-142">Retorna ou define um <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-142">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="d0de0-143">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-143">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-142">Retorna ou define uma <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica como o texto é alinhado no controle.</span><span class="sxs-lookup"><span data-stu-id="00851-142">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="00851-143">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-143">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-144">O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</span><span class="sxs-lookup"><span data-stu-id="d0de0-144">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
-          <para><span data-ttu-id="d0de0-145">Para o controle de botão de comando, quando <b>TextAlign</b> é definido como <b>olTextAlignLeft</b>, a margem esquerda é apenas um pixel da borda do controle.</span><span class="sxs-lookup"><span data-stu-id="d0de0-145">For the Command Button control, when <b>TextAlign</b> is set to <b>olTextAlignLeft</b>, the left margin is only one pixel from the border of the control.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-144">O valor padrão é <b>olTextAlignLeft</b> nos idiomas da esquerda para a direita, como o inglês.</span><span class="sxs-lookup"><span data-stu-id="00851-144">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
+          <para><span data-ttu-id="00851-145">Para o controle de botão de comando, quando <b>TextAlign</b> é definido como <b>olTextAlignLeft</b>, a margem esquerda é apenas um pixel da borda do controle.</span><span class="sxs-lookup"><span data-stu-id="00851-145">For the Command Button control, when <b>TextAlign</b> is set to <b>olTextAlignLeft</b>, the left margin is only one pixel from the border of the control.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -401,9 +401,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="d0de0-146">Retorna ou define um <b>Boolean</b> (<b>bool</b> em c#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.</span><span class="sxs-lookup"><span data-stu-id="d0de0-146">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the contents of a control automatically wrap at the end of a line.</span></span>  <span data-ttu-id="d0de0-147">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="d0de0-147">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="00851-146">Retorna ou define um <b>Boolean</b> (<b>bool</b> em C#) que especifica se o conteúdo de um controle quebra automaticamente no final de uma linha.</span><span class="sxs-lookup"><span data-stu-id="00851-146">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the contents of a control automatically wrap at the end of a line.</span></span>  <span data-ttu-id="00851-147">Leitura/gravação.</span><span class="sxs-lookup"><span data-stu-id="00851-147">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="d0de0-148">O valor padrão é <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="d0de0-148">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="00851-148">O valor padrão é <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="00851-148">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
